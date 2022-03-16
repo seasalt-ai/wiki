@@ -1,4 +1,4 @@
-baseurl = "https://wiki.seasalt.ai//"
+baseurl = "https://wiki.seasalt.ai/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
