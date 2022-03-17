@@ -13,9 +13,6 @@ weight: 101
 toc: true
 ---
 
-Automated Response
-------------------
-
 The **SeaX Virtual Agent** can handle a wide range of basic questions about your business, addressing topics such as:
 
 * location
