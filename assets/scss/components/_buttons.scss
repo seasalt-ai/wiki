@@ -45,6 +45,11 @@ body .toggle-light {
   display: none;
 }
 
+body .btn-primary {
+    @include button-variant($button-color-dark, $button-color-dark);
+    color: #fff;
+}
+
 [data-dark-mode] body .toggle-light {
   display: block;
 }
