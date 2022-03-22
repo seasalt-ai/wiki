@@ -3,7 +3,7 @@
 ## Homepage
 title = "Seasalt.ai"
 titleSeparator = "-"
-titleAddition = "Master Seasalt.ai User Manual"
+titleAddition = "Product Wiki"
 description = "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI."
 
 ## Documentation
@@ -12,8 +12,8 @@ docsVersion = "0.1"
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "wiki.seasalt.ai"
+titleHome = "Seasalt.ai"
 
 ## Twitter Cards
 # twitterSite = "@getdoks"
@@ -57,7 +57,7 @@ smallLimit = "300"
 footer = "Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎"
 
 # Feed
-copyRight = "Copyright (c) 2020-2022 Seasalt.ai"
+copyRight = "Copyright (c) 2020-Today Seasalt.ai"
 
 # Alert
 alert = false
