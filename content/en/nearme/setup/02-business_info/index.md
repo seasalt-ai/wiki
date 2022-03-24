@@ -15,7 +15,7 @@ toc: true
 Overview Page
 -------------
 
-This is the Over Page for your virtual agent. From here you can see information about your agent and its performance, as well as further customize your agent.
+This is the Overview Page for your virtual agent. From here you can see information about your agent and its performance, as well as further customize your agent.
 
 <a href="images/overview.png"><img src="images/overview.png" alt="Overview" style="max-width:100%; border-radius: 30px;"></a>
 
