@@ -26,7 +26,7 @@ Update Business Information
 You can view the information we have collected about your business on the Business Profile page. This includes contact information like your phone number, address and website, your business hours, Google Business attributes, and Google Maps labels. If you need to change or update any information on this page, please use [business.google.com](https://business.google.com) or the Google My Business app, then click *"Sync"* on the Locations Page to update this information.
 
 
-<a href="images/profile.png"><img src="images/profile.png" alt="Profile" style="max-width:100%; border-radius: 30px;"></a>
+<a href="images/biz_profile.png"><img src="images/biz_profile.png" alt="Profile" style="max-width:100%; border-radius: 30px;"></a>
 
 
 Google Reviews

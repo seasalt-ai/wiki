@@ -43,7 +43,7 @@ The other way in which you can add more information for your virtual agent’s u
 
 To add a new context paragraph, enter an informative title and the paragraph, then click the check. When you are done updating your knowledge base, click Save All to save your new information.
 
-<a href="images/context.png"><img src="images/context.png" alt="Context" style="max-width:100%; border-radius: 30px;"></a>
+<a href="images/kb.png"><img src="images/kb.png" alt="Knowledgebase" style="max-width:100%; border-radius: 30px;"></a>
 
 
 ## Summary
