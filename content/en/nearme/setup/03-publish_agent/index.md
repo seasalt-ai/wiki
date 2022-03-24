@@ -12,7 +12,7 @@ weight: 102
 toc: true
 ---
 
-Before you publish the virtual agent to publish, you can test/chat with Private Testing Agent first. Let's understand what's the difference between Private Testing Agent and Public Launch Agent first.
+Before you publish the virtual agent, you can test/chat with Private Testing Agent first. Let's understand what's the difference between Private Testing Agent and Public Launch Agent.
 
 
 There are two versions of your virtual agent that you control through the Near Me Messaging Portal, the Private Testing Agent and the Public Launch Agent.
