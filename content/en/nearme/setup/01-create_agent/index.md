@@ -36,7 +36,7 @@ Test/Chat with Near Me Agent
 
 When your agent is finished building, you will see test QR codes on your screen. Scanning these QR codes will bring you to a private test version of your virtual agent. This version of your virtual agent will not appear on Google Maps yet, but you can talk to it and test the responses.
 
-TODO: ADD SCREENSHOT OF BUILD FINISHED
+<a href="images/built.png"><img src="images/built.png" alt="Built" style="max-width:100%; border-radius: 30px;"></a>
 
 Next up: Manage Business Info
 -----------------------------
