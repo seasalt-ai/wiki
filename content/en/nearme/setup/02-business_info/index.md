@@ -33,7 +33,7 @@ Google Reviews
 ---------------
 You can also view the collected Google Reviews for your business on the Google Reviews Page.
 
-TODO: ADD GOOGLE REVIEWS PAGE
+<a href="images/reviews.png"><img src="images/reviews.png" alt="Google Reviews" style="max-width:100%; border-radius: 30px;"></a>
 
 
 Next up: Test and Publish Virtual Agent
