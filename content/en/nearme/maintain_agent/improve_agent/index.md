@@ -14,7 +14,9 @@ toc: true
 
 There are three main ways to improve your Near Me Messaging virtual agent if it is struggling to respond to certain questions: filtering your Google Reviews, adding custom FAQs, and adding to your knowledge base.
 
-For a video walkthrough of this content, please take a look at our TODO: video.
+For a video walkthrough of this content, please take a look at our video:
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/sWhigyIh3Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Filter Your Google Reviews
 

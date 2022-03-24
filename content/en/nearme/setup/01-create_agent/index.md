@@ -13,7 +13,9 @@ toc: true
 ---
 
 
-For a video walkthrough of this content, please take a look at our TODO: *video*
+For a video walkthrough of this content, please take a look at our video:
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/fgf2nt4FkfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 Sync with Google My Business Account
 -------------------------------------
