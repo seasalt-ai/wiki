@@ -17,10 +17,10 @@ For a video walkthrough of this content, please take a look at our video:
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/fgf2nt4FkfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Sync with Google My Business Account
+Sync with Google Business Profile Account
 -------------------------------------
 
-To begin setting up your virtual agent, navigate to the Business tab in the Near Me Messaging Portal. Here you will see the business locations associated with your Google account. If you don’t see your locations, ensure that you are logged in with the account associated with your Google My Business account, and click on the *"Sync"* button to resync your locations.
+To begin setting up your virtual agent, navigate to the Business tab in the Near Me Messaging Portal. Here you will see the business locations associated with your Google account. If you don’t see your locations, ensure that you are logged in with the account associated with your Google Business Profile account, and click on the *"Sync"* button to resync your locations.
 
 <a href="images/locations.png"><img src="images/locations.png" alt="Locations" style="max-width:100%; border-radius: 30px;"></a>
 

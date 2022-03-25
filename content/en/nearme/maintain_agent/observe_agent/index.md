@@ -46,7 +46,7 @@ The Busy Hours section shows you a graph of when your customers are contacting y
 
 The Unanswered Questions section shows you a list of the most common questions that your virtual agent had difficulty answering. This is a great starting point to improve your agent, by answering the most common unanswered questions on the Custom FAQ page.
 
-The Google Business Attribute Overview section shows you the most common Google Business Attributes that come up in customer questions. This is a great place to look to see what your customers are curious about. It also shows the most common Google Business Attributes that are asked about, but do not appear on your Google Maps page. You can improve your agent by adding information about these missing attributes at https://business.google.com or on the Google My Business app.
+The Google Business Attribute Overview section shows you the most common Google Business Attributes that come up in customer questions. This is a great place to look to see what your customers are curious about. It also shows the most common Google Business Attributes that are asked about, but do not appear on your Google Maps page. You can improve your agent by adding information about these missing attributes at https://business.google.com or on the Google Business Profile app.
 
 The Customer Review Insights section shows you the most common topics that appear in your Google Reviews. This is a great place to look to get an idea of what your customers are saying in your reviews, without having to read through all of them.
 

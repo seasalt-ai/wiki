@@ -13,6 +13,11 @@ weight: 120
 toc: true
 ---
 
+## Near Me Walkthrough
+
+In this video, one of our Natural Language Processing Engineers will walk through the entire process of creating and fine-tuning a Near Me Virtual Agent.
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/C3nAJZQHteE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Set Up Your Agent
 
@@ -32,9 +37,3 @@ In this video, we look through the different ways to observe your Near Me Virtua
 In this video, we look through the ways your can customize and improve your Near Me Virtual Agent.
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/sWhigyIh3Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-
-## Near Me Walkthrough
-
-In this video, one of our Natural Language Processing Engineers will walk through the entire process of creating and fine-tuning a Near Me Virtual Agent.
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/o-SnidxIBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
