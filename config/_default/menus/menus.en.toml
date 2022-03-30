@@ -1,6 +1,6 @@
 [[main]]
   name = "Near Me Messaging"
-  url = "/nearme/setup/01-create_agent/"
+  url = "/nearme/setup/0-intro_video/"
   weight = 10
 
 

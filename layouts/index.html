@@ -1,5 +1,8 @@
 {{ define "main" }}
 <section class="section container-fluid mt-n3 pb-3">
+    <button style="background-color: #19b6c0; background: 50%/24px no-repeat url(https://www.gstatic.com/business-messages/v2/bm_widget_icon_white.svg) #19b6c0;" data-bm-widget-layout="floating" data-bm-widget-agent-id="c4ec38e1-69d1-43d3-8bf8-64b96ad28a43">
+        <span class="bm-widget-button-text">Chat with Seasalt.ai</span>
+    </button>
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
@@ -21,6 +24,7 @@
         <div class="col-lg-5">
           <h2 class="h4">Near Me Messaging 📍</h2>
           <a class="btn btn-primary btn-secondary px-3 mb-2" href="/nearme/setup/0-intro_video/" role="button">Get Started</a>
+          <script crossorigin="use-credentials" src="https://businessmessages.google.com/widget/v2/js"></script>
           <p>Chat with your customers on Google Maps anytime. Automatically answer questions from customers and acquire new ones.</p>
         </div>
         <div class="col-lg-5">
