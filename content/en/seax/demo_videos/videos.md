@@ -1,6 +1,6 @@
 ---
-title: "Gallery"
-description: "Demo videos for SeaX"
+title: "Standard Feature Videos"
+description: "Standard Feature Videos for SeaX"
 lead: ""
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
@@ -28,3 +28,4 @@ toc: true
 ## Supervisor Monitor and Barge-in Demo
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/1NwEIi_8xIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
