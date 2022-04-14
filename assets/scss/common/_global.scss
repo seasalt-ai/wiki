@@ -122,7 +122,7 @@ body {
     border-right: 1px solid $gray-200;
   }
 
-  @supports ((position:-webkit-sticky) or (position:sticky)) {
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
     .docs-sidebar {
       position: -webkit-sticky;
       position: sticky;
@@ -165,7 +165,7 @@ body {
   order: 2;
 }
 
-@supports ((position:-webkit-sticky) or (position:sticky)) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .docs-toc {
     position: -webkit-sticky;
     position: sticky;
@@ -268,5 +268,15 @@ body {
 @include media-breakpoint-up(md) {
   .modal-backdrop.show {
     opacity: 0;
+  }
+}
+
+.google-widget {
+  [role="tooltip"] {
+    background-color: #19b6c0;
+    color: white;
+    &::after {
+      background-color: #19b6c0;
+    }
   }
 }
