@@ -36,7 +36,7 @@
           'agentId': 'c4ec38e1-69d1-43d3-8bf8-64b96ad28a43',
           'context': 'eyJwcm9kdWN0IjoiZHJ5ZXIiLCJvZmZlci1jb2RlIjoiQVNEQURTQSJ9Cg=='
         });
-      } else if (window.mobileCheck) {
+      } else if (window.mobileCheck()) {
         document.getElementById('google-widget').style.display = "block";
         document.getElementById("google-chat").onclick = function() { 
           openPage() 
