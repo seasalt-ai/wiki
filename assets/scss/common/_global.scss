@@ -308,13 +308,13 @@ body {
     }
   }
   button {
-    background: 50%/24px no-repeat url(https://www.gstatic.com/business-messages/v2/bm_widget_icon_white.svg) #047dc6;
+    background: 50%/24px no-repeat url(https://www.gstatic.com/business-messages/v2/bm_widget_icon_white.svg) #19b6c0;
   }
   [role="tooltip"], .tip {
-    background-color: #047dc6;
+    background-color: #19b6c0;
     color: white;
     &::after {
-      background-color: #047dc6;
+      background-color: #19b6c0;
     }
   }
 }
