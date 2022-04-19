@@ -41,12 +41,23 @@
         document.getElementById("google-chat").onclick = function() { 
           openPage() 
         };
+      } else {
+        document.getElementById('google-widget').style.display = "block";
+        document.getElementById('google-tip').style.opacity = 0;
+        document.getElementById('google-tip').textContent = 'Chat is only supported on mobile devices. Please open this page on your Android or iPhone.'
+        document.getElementById("google-chat").onclick = function() { 
+          if (document.getElementById('google-tip').style.opacity == 1) {
+            document.getElementById('google-tip').style.opacity = 0;
+          } else {
+            document.getElementById('google-tip').style.opacity = 1;
+          }
+        };
       }
     };
   </script>
   <div id="google-widget">
     <button id="google-chat" data-bm-widget-layout="floating">
-      <span class="bm-widget-button-text tip" role="tooltip">Chat with Seasalt.ai</span>
+      <span id="google-tip" class="bm-widget-button-text tip" role="tooltip">Chat with Seasalt.ai</span>
     </button>
   </div>
 </footer>
