@@ -42,10 +42,10 @@ In this video, we look through the ways your can customize and improve your Near
 
 In this video, we show the process of authorizing Seasalt.ai to access your virtual agent through Google Business Profile.
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8x0ge51R4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8x0ge51R4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;></iframe>
 
 ## Google Permissions in Near Me Messaging
 
 In this video, one of our Natural Language Processing Engineers will talk through the Google permissions required by Near Me Messaging.
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/wGtAznQdRmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/wGtAznQdRmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;></iframe>
