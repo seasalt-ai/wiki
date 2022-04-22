@@ -13,10 +13,12 @@ weight: 120
 toc: true
 ---
 
-You can add Near Me virtual agent to your own website, just like the virtual agent widget you see on this Wiki
+You can add Near Me virtual agent to your own website, just like the virtual agent widget you see on this Wiki.
 
 
-<a href="images/reviews.png"><img src="images/chat_button.jpg" alt="Reviews" style="max-width:100%; border-radius: 30px;"></a>
+<a href="images/chat_button.jpg"><img src="images/chat_button.jpg" alt="Chat" style="max-width:100%; border-radius: 30px;"></a>
+
+<a href="images/biz_profile.png"><img src="images/biz_profile.png" alt="Profile" style="max-width:100%; border-radius: 30px;"></a>
 
 
 
