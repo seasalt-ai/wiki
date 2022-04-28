@@ -1,5 +1,5 @@
 ---
-title : "Add Chat Button to Website"
+title : "Chat Button on Website"
 description: "Add Google Widget to your own website"
 lead: ""
 date: 2020-10-06T08:48:45+00:00
