@@ -30,14 +30,14 @@ For more complex questions that the agent cannot answer, the SeaX interface allo
 
 Here we demonstrate the SeaX Virtual Agent's live handoff capabilities:
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/j75YPzA0GlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/j75YPzA0GlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ### Omni-channel Messaging
 
 SeaX customer service agents can handle incoming requests from all of your business's platforms at once. Here is a video introduction to the omni-channel messaging experience:
 
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/usb-RK7sHlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/usb-RK7sHlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Platforms
 
@@ -50,14 +50,14 @@ Google Maps integration allows access to many more features, including the abili
 
 For an overview of additional Google Maps features, please see this video below:
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/xe2Y9kmRR3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/xe2Y9kmRR3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ### WhatsApp Messaging
 
 Finally, here we show the WhatsApp integration:
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Integration
 
@@ -65,7 +65,7 @@ Finally, here we show the WhatsApp integration:
 
 Here we see automated inbound and outbound appointment scheduling in SeaX, integrated with the HubSpot CRM:
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/Bth5rMlFf8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/Bth5rMlFf8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ### Discord Integration
@@ -73,4 +73,4 @@ Here we see automated inbound and outbound appointment scheduling in SeaX, integ
 Here we provide automated customer support and case tracking in Discord, using SeaX and the HubSpot CRM:
 
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/iUK4YkGYI6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/iUK4YkGYI6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>

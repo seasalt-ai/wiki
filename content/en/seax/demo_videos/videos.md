@@ -16,16 +16,15 @@ toc: true
 
 ## Warm and Cold Transfer Demo
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/sq-iD3aojik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/sq-iD3aojik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## Holidays and Offline Messages Demo
 
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/cwKanUGEHOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/cwKanUGEHOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## Supervisor Monitor and Barge-in Demo
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/1NwEIi_8xIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-
+   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/1NwEIi_8xIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
