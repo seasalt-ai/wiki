@@ -24,4 +24,4 @@ The **SeaVoice TTS Customization Panel** is a user-friendly interface that gives
 
 Here we demonstrate how to navigate and utilize the SeaVoice TTS Customization Panel:
 
-   <iframe width="100%" height="40%" src="https://www.youtube.com/embed/rbjxJGUeQew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/rbjxJGUeQew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
