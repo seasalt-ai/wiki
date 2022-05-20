@@ -1,6 +1,6 @@
 ---
 title: "TTS Tutorial"
-description: "Tutorial for the SeaVoice TTS customization panel."
+description: "English tutorial for the SeaVoice TTS customization panel."
 date: 2022-05-12T08:48:57+00:00
 lastmod: 2022-05-12T08:48:57+00:00
 draft: false
