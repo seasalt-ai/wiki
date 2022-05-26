@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "tts_panel"
+    parent: "tts"
 weight: 102
 toc: true
 ---

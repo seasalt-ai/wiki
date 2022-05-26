@@ -12,7 +12,7 @@
 
 [[main]]
   name = "SeaVoice"
-  url = "/seavoice/tts_panel/tutorial_en/"
+  url = "/seavoice/"
   weight = 20
 
 [[social]]
