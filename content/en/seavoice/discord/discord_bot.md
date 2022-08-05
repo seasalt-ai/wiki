@@ -64,7 +64,7 @@ Adding the SeaVoice bot to your server is easy! Simply click the invite link, ve
 <div class="row justify-content-center">
     <div class="col-lg-9 col-xl-8 text-center">
         <p class="lead"></p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://discord.com/api/oauth2/authorize?client_id=1001955060210749492&permissions=1393753832496&scope=bot%20applications.commands" role="button">Invite SeaVoice</a>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://discord.com/api/oauth2/authorize?client_id=1001955060210749492&permissions=2184436736&scope=bot%20applications.commands" role="button">Invite SeaVoice</a>
     </div>
 </div>
 
