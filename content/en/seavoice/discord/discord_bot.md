@@ -36,7 +36,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 ###### /leave
 
-`/leave` -> Bot stops listening and leaves the voice channel
+`/stop` -> Bot stops listening and leaves the voice channel
 
 ###### Explanation
 
