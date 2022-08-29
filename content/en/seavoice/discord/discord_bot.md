@@ -74,4 +74,12 @@ Join our official Discord server! We'd love to chat and find out how we can impr
 
 <div class="row justify-content-center">
     <iframe src="https://discordapp.com/widget?id=919037515514654721&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</div>  
+
+#### Also see our page on Top.gg!
+
+<div class="row justify-content-center">
+    <a href="https://top.gg/bot/1001955060210749492">
+        <img src="https://top.gg/api/widget/1001955060210749492.svg">
+    </a>
 </div>
