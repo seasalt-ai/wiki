@@ -34,13 +34,13 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 `/recognize live: False` -> Bot joins the voice channel you're currently in, listens until talking stops and then outputs one transcription per user
 
-###### /leave
+###### /stop
 
 `/stop` -> Bot stops listening and leaves the voice channel
 
 ###### Explanation
 
-The transcription service can be started by joining a voice channel and entering the `/recognize` slash command. Transcription has two modes: live and batch. If set to `live: True`, the bot will continuously listen and update transcriptions in the chat channel as conversation participants speak. If set to `live: False` the bot will listen until the channel is silent for 3 seconds, and then output a single transcription in bulk, and leave the channel. You can also use the `/leave` command to have the bot immediately leave the channel and stop listening.
+The transcription service can be started by joining a voice channel and entering the `/recognize` slash command. Transcription has two modes: live and batch. If set to `live: True`, the bot will continuously listen and update transcriptions in the chat channel as conversation participants speak. If set to `live: False` the bot will listen until the channel is silent for 3 seconds, and then output a single transcription in bulk, and leave the channel. You can also use the `/stop` command to have the bot immediately leave the channel and stop listening.
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
