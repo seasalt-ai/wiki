@@ -30,17 +30,11 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 ###### /recognize
 
-`/recognize live: True` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel
-
-`/recognize live: False` -> Bot joins the voice channel you're currently in, listens until talking stops and then outputs one transcription per user
+`/recognize` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered.
 
 ###### /stop
 
 `/stop` -> Bot stops listening and leaves the voice channel
-
-###### Explanation
-
-The transcription service can be started by joining a voice channel and entering the `/recognize` slash command. Transcription has two modes: live and batch. If set to `live: True`, the bot will continuously listen and update transcriptions in the chat channel as conversation participants speak. If set to `live: False` the bot will listen until the channel is silent for 3 seconds, and then output a single transcription in bulk, and leave the channel. You can also use the `/stop` command to have the bot immediately leave the channel and stop listening.
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
@@ -70,7 +64,7 @@ Adding the SeaVoice bot to your server is easy! Simply click the invite link, ve
 
 ## Support
 
-Join our official Discord server! We'd love to chat and find out how we can improve our bot. Please let us know if you find any bugs or have any ideas for new features!
+Join our official Discord server! We'd love to chat and find out how we can improve our bot. Our bot is in *active development* - please let us know if you find any bugs, have ideas for new features, or want to provide any feedback!
 
 <div class="row justify-content-center">
     <iframe src="https://discordapp.com/widget?id=919037515514654721&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
