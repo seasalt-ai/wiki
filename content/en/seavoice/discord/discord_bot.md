@@ -32,6 +32,20 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 `/recognize` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered.
 
+<p style="color:#19b6c0">Pro Tip:</p>
+
+Use the `/recognize` command from the voice channel chat window to see your transcriptions side-by-side with the participants or live stream!
+
+<center>
+<img src="/images/discord/voice-chat-side-by-side.png"/>
+</center>
+
+To open the voice channel chat panel, click the chat icon next to the voice channel name:
+
+<center>
+<img width="60%" src="/images/discord/voice-chat-channel.png">
+</center>
+
 ###### /stop
 
 `/stop` -> Bot stops listening and leaves the voice channel
