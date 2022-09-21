@@ -19,7 +19,7 @@ toc: true
 
 SeaVoice is a voice intelligence bot that uses advanced AI technology to improve the Discord voice channel experience. One of the great things about Discord’s text channels is that they maintain a permanent log of the server’s conversations. But what about the voice channels? Once something is said verbally in the channel, *it’s gone* - you can’t catch up on part of the conversation you missed or search the conversation later. 
 
-Invite SeaVoice to the voice channel, and you can get real time speech transcriptions delivered to a chat channel as the conversation is happening. SeaVoice is set apart from bots offering similar services, because it’s backed by state-of-the-art deep learning models crafted by Seasalt.ai.
+Invite SeaVoice to the voice channel, and you can get real time speech transcriptions delivered to a chat channel as the conversation is happening. SeaVoice is set apart from bots offering similar services because it’s backed by state-of-the-art deep learning models crafted by Seasalt.ai.
 
 We feel that providing highly accurate transcriptions for voice channels is a huge accessibility improvement for Discord. Additionally, because transcriptions are automatically posted to a text channel, that means they are permanent, searchable, and shareable. Similarly, speech synthesis also boosts participation in voice channels by making them more accessible to people who can’t or don’t want to speak personally.
 
@@ -52,18 +52,33 @@ To open the voice channel chat panel, click the chat icon next to the voice chan
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
-<p style="color:red">⚠️ Work in Progress</p>
 
-Seasalt.ai also excels at speech synthesis. We plan to offer text-to-speech commands, which will allow users to type in a chat channel and have audio synthesized and played in a particular voice channel for them. 
+Seasalt.ai also excels at speech synthesis. We offer a text-to-speech command, which allow users to type in a chat channel and have audio synthesized and played in a particular voice channel for them.
 
-To get a sneak peak of some of our sythensized voices (including Tom Hanks, David Attenborough, and Reese Witherspoon), check out our [Text-to-Speech page](https://suite.seasalt.ai/tts).
-
+###### /speak [voice] [text]
+To use this command, you should already be in a voice channel. In any text channel, type the `/speak` slash command and then specify which `voice` you would like to use, and enter the `text` that you would like synthesized. You can see the available voices below:
+| Name      | Sex | Language          |
+| --------- | --- | ----------------- |
+| Orca      | M   | American English  |
+| Narwhal   | M   | British English   |
+| Angelfish | F   | American English  |
 
 ### 🎙️ Record & Download
 #### Export Audio from Voice Channels
 <p style="color:red">⚠️ Work in Progress</p>
 
 In the future, users will also be able to download their transcriptions to a file. Additionally we also plan to offer audio recording download so that users can save their full conversations.
+
+## Language Support
+Currently our text-to-speech and speech-to-text models support English. However, we're always working on creating new language models and improving our existing ones. We have excellent models for Chinese that may be added to the bot soon. We're also working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
+
+## Why SeaVoice?
+
+#### 🎯 Cutting-edge Accuracy
+Speech techonology is our specialty. We create our own models in-house using state of the art deep learning neural network algorithms.
+
+#### ⏱️ Real-time Transcription and Synthesis
+Real-time speed is essential when you're dealing with live conversation. We guarantee you'll never fall behind in a conversation because of slow transcription speeds.
 
 ## Add SeaVoice to Your Server
 
