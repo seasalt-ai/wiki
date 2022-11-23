@@ -6,7 +6,7 @@
 
 [[main]]
   name = "SeaX"
-  url = "/seax/seax_intro/01-introduction/"
+  url = "/seax/seax_intro/01-seax-features/"
   weight = 10
 
 
