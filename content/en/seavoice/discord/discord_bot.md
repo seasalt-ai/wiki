@@ -50,11 +50,7 @@ To open the voice channel chat panel, click the chat icon next to the voice chan
 
 ###### /stop
 
-`/stop` -> Bot stops listening and leaves the voice channel. If an STT session was in progress, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
-
-<center>
-<img width="60%" src="/images/discord/post-stt-direct-message.png">
-</center>
+`/stop` -> Bot stops listening and leaves the voice channel.
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
@@ -71,9 +67,15 @@ To use this command, you should already be in a voice channel. In any text chann
 
 ### 🎙️ Record & Download
 #### Export Audio from Voice Channels
-<p style="color:red">⚠️ Work in Progress</p>
+Users are able to download their transcriptions and full audio recordings to a file.
 
-In the future, users will also be able to download their transcriptions to a file. Additionally we also plan to offer audio recording download so that users can save their full conversations.
+If someone uses the `/stop` command while an STT session was in progress, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
+
+<center>
+<img width="60%" src="/images/discord/post-stt-direct-message.png">
+</center>
+
+In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
 
 ## Language Support
 Currently our text-to-speech and speech-to-text models support English. However, we're always working on creating new language models and improving our existing ones. We have excellent models for Chinese that may be added to the bot soon. We're also working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
