@@ -21,7 +21,7 @@ toc: true
 
 SeaVoice is a voice intelligence bot that uses advanced AI technology to improve the Discord voice channel experience. One of the great things about Discord’s text channels is that they maintain a permanent log of the server’s conversations. But what about the voice channels? Once something is said verbally in the channel, *it’s gone* - you can’t catch up on part of the conversation you missed or search the conversation later. 
 
-Invite SeaVoice to the voice channel, and you can get real time speech transcriptions delivered to a chat channel as the conversation is happening. SeaVoice is set apart from bots offering similar services because it’s backed by state-of-the-art deep learning models crafted by Seasalt.ai.
+Invite SeaVoice to the voice channel, and you can get real time speech transcriptions delivered to a chat channel as the conversation is happening. You'll also receive a final version of your transcript and voice recording in a DM after the session ends. SeaVoice is set apart from bots offering similar services because it’s backed by state-of-the-art deep learning models crafted by Seasalt.ai.
 
 We feel that providing highly accurate transcriptions for voice channels is a huge accessibility improvement for Discord. Additionally, because transcriptions are automatically posted to a text channel, that means they are permanent, searchable, and shareable. Similarly, speech synthesis also boosts participation in voice channels by making them more accessible to people who can’t or don’t want to speak personally.
 
@@ -32,7 +32,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 ###### /recognize
 
-`/recognize` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered.
+`/recognize` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM each participant a final transcription file and a link to a full audio download.
 
 <p style="color:#19b6c0">Pro Tip:</p>
 
@@ -50,7 +50,11 @@ To open the voice channel chat panel, click the chat icon next to the voice chan
 
 ###### /stop
 
-`/stop` -> Bot stops listening and leaves the voice channel
+`/stop` -> Bot stops listening and leaves the voice channel. If an STT session was in progress, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
+
+<center>
+<img width="60%" src="/images/discord/post-stt-direct-message.png">
+</center>
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
