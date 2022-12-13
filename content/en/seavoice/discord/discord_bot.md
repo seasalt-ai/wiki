@@ -72,7 +72,7 @@ Users are able to download their transcriptions and full audio recordings to a f
 If someone uses the `/stop` command while an STT session was in progress, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
 
 <center>
-<img width="60%" src="/images/discord/post-stt-direct-message.png">
+<img src="/images/discord/post-stt-direct-message.png">
 </center>
 
 In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
