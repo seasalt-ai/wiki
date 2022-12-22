@@ -134,3 +134,19 @@ Here we provide automated customer support and case tracking in Discord, using S
 
 
    <iframe width="100%" height="5%" src="https://www.youtube.com/embed/iUK4YkGYI6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+### Salesforce Integration
+
+Besides the usual "click-to-dial" Salesforce integration, SeaX can do the following extra automation:
+
+* Auto create Salesforce cases
+* Call recording and call logs
+* Auto CSAT survey
+* CSAT survey report
+
+
+   <iframe width="100%" height="400" src="https://www.youtube.com/embed/7UHO56u5mOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+
+
