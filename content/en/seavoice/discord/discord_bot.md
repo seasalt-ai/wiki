@@ -30,13 +30,20 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 ### ✍️ Speech-to-Text
 ##### Transcribe Audio from Voice Channels
 
-###### /recognize
+###### /recognize [language]
 
-`/recognize` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM each participant a final transcription file and a link to a full audio download.
+`/recognize [language]` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM each participant a final transcription file and a link to a full audio download. The session will automatically wrap up if all the users leave the voice channel, or if the bot shuts down or restarts for any reason (such as when a new verison gets released).
 
-<p style="color:#19b6c0">Pro Tip:</p>
+###### Language Support
 
-Use the `/recognize` command from the voice channel chat window to see your transcriptions side-by-side with the participants or live stream!
+| Language          |
+| ----------------- |
+| English           |
+| Taiwanese Mandarin|
+
+<p style="color:#19b6c0">Pro Tip #1:</p>
+
+Use the `/recognize [language]` command from the voice channel chat window to see your transcriptions side-by-side with the participants or live stream!
 
 <center>
 <img src="/images/discord/voice-chat-side-by-side.png"/>
@@ -48,28 +55,39 @@ To open the voice channel chat panel, click the chat icon next to the voice chan
 <img width="60%" src="/images/discord/voice-chat-channel.png">
 </center>
 
+<p style="color:#19b6c0">Pro Tip #2:</p>
+
+If you want to temporarily stop the bot from listening to you (like pausing the session), you can right-click on the bot in the voice channel and check `Deafen Server`. This will prevent any audio data from being sent to the bot until it is un-checked. This way, you can pause the transcription and then pick your session back up when you're ready without having to stop and start a new one!
+
+<center>
+<img width="60%" src="/images/discord/deafen_bot.JPG">
+</center>
+
 ###### /stop
 
-`/stop` -> Bot stops listening and leaves the voice channel.
+`/stop` -> Bot stops listening and leaves the voice channel. Upon running the stop command, each participant will recieve a DM with the full transcription and audio files.
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
 
-Seasalt.ai also excels at speech synthesis. We offer a text-to-speech command, which allow users to type in a chat channel and have audio synthesized and played in a particular voice channel for them.
+Seasalt.ai also excels at speech synthesis. We offer a text-to-speech command, which allows users to type in a chat channel and have audio synthesized and played in a particular voice channel for them.
 
 ###### /speak [voice] [text]
 To use this command, you should already be in a voice channel. In any text channel, type the `/speak` slash command and then specify which `voice` you would like to use, and enter the `text` that you would like synthesized. You can see the available voices below:
+
 | Name      | Sex | Language          |
 | --------- | --- | ----------------- |
 | Orca      | M   | American English  |
 | Narwhal   | M   | British English   |
 | Angelfish | F   | American English  |
+| Starfish  | F   | Taiwanese Mandarin|
+| Dolphin   | F   | Taiwanese Mandarin|
 
 ### 🎙️ Record & Download
 #### Export Audio from Voice Channels
 Users are able to download their transcriptions and full audio recordings to a file.
 
-If someone uses the `/stop` command while an STT session was in progress, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
+When the STT session ends, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
 
 <center>
 <img src="/images/discord/post-stt-direct-message.png">
@@ -78,7 +96,7 @@ If someone uses the `/stop` command while an STT session was in progress, the bo
 In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
 
 ## Language Support
-Currently our text-to-speech and speech-to-text models support English. However, we're always working on creating new language models and improving our existing ones. We have excellent models for Chinese that may be added to the bot soon. We're also working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
+Currently our text-to-speech and speech-to-text models support English and Taiwanese Mandarin. However, we're always working on creating new language models and improving our existing ones. We're working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
 
 ## Why SeaVoice?
 
@@ -87,6 +105,9 @@ Speech techonology is our specialty. We create our own models in-house using sta
 
 #### ⏱️ Real-time Transcription and Synthesis
 Real-time speed is essential when you're dealing with live conversation. We guarantee you'll never fall behind in a conversation because of slow transcription speeds.
+
+#### 📂 Downloadable Transcription and Audio Files
+Not only can you watch your transcriptions in real-time, but you can download them and save them for future use! Your voice-based conversations just became permanent, searchable, and shareable. Because all our transcriptions come with timestamps, you can even use them as subtitles.
 
 ## Add SeaVoice to Your Server
 
@@ -107,10 +128,12 @@ Join our official Discord server! We'd love to chat and find out how we can impr
     <iframe src="https://discordapp.com/widget?id=919037515514654721&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 </div>  
 
-#### Also see our page on Top.gg!
+### Also see our page on Top.gg!
 
-<div class="row justify-content-center">
-    <a href="https://top.gg/bot/1001955060210749492">
-        <img src="https://top.gg/api/widget/1001955060210749492.svg">
-    </a>
-</div>
+<center>
+    <div class="row justify-content-center">
+        <a href="https://top.gg/bot/1001955060210749492">
+            <img src="https://top.gg/api/widget/1001955060210749492.svg">
+        </a>
+    </div>
+</center>
