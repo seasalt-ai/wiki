@@ -39,7 +39,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 | Language          |
 | ----------------- |
 | English           |
-| Taiwanese Mandarin|
+| Mandarin (Taiwan) |
 
 <p style="color:#19b6c0">Pro Tip #1:</p>
 
@@ -80,8 +80,8 @@ To use this command, you should already be in a voice channel. In any text chann
 | Orca      | M   | American English  |
 | Narwhal   | M   | British English   |
 | Angelfish | F   | American English  |
-| Starfish  | F   | Taiwanese Mandarin|
-| Dolphin   | F   | Taiwanese Mandarin|
+| Starfish  | F   | Mandarin (Taiwan) |
+| Dolphin   | F   | Mandarin (Taiwan) |
 
 ### 🎙️ Record & Download
 #### Export Audio from Voice Channels
