@@ -14,7 +14,7 @@ toc: true
 
 ## Overview
 -------------------
-The Bulk Messaging Platform puts all the tools you need for SMS and MMS marketing together in one convinient platform. On the Bulk Messaging Platform, you can:
+The Bulk Messaging Platform puts all the tools you need for SMS and MMS marketing together in one convenient platform. On the Bulk Messaging Platform, you can:
 
 **Send**
 - Send bulk SMS and MMS messages
