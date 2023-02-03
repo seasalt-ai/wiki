@@ -13,7 +13,7 @@ menu:
 toc: true
 ---
 
-## SeaVoice STT & TTS Discord Bot Introduction
+## SeaVoice Bot Introduction
 
 🐙 The SeaVoice Bot is a new speech-to-text and text-to-speech Discord integration brought to you by Seasalt.ai, a startup run by some of the world’s leading experts in deep speech recognition, neural speech synthesis, and natural language processing. 🐙
 
@@ -46,7 +46,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 Use the `/recognize [language]` command from the voice channel chat window to see your transcriptions side-by-side with the participants or live stream!
 
 <center>
-<img src="/images/discord/discord-voice-chat-stt-side-by-side.png.png" alt="Use SeaVoice Discord bot in a Discord voice chat channel to see live STT transcriptions side-by-side with participants."/>
+<img src="/images/discord/discord-voice-chat-stt-side-by-side.png" alt="Use SeaVoice Discord bot in a Discord voice chat channel to see live STT transcriptions side-by-side with participants."/>
 </center>
 
 To open the voice channel chat panel, click the chat icon next to the voice channel name:
@@ -83,14 +83,14 @@ To use this command, you should already be in a voice channel. In any text chann
 | Starfish  | F   | Mandarin (Taiwan) |
 | Dolphin   | F   | Mandarin (Taiwan) |
 
-### 🎙️ Record & Download Audio & Transcriptions
+### 🎙️ Record & Download
 #### Export Audio & Transcriptions from Voice Channels
 Users are able to download their transcriptions and full audio recordings to a file.
 
 When the STT session ends, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
 
 <center>
-<img src="/images/discord/seavoice-discord-bot-stt-download-message.png.png" alt="SeaVoice STT Discord bot sends users a message with audio and transcription download links.">
+<img src="/images/discord/seavoice-discord-bot-stt-download-message.png" alt="SeaVoice STT Discord bot sends users a message with audio and transcription download links.">
 </center>
 
 In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
