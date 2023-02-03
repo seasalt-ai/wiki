@@ -1,6 +1,6 @@
 ---
-title : "SeaVoice Discord Bot"
-description: "SeaVoice Discord Bot Documentation"
+title : "SeaVoice STT & TTS Discord Bot"
+description: "SeaVoice STT & TTS Discord Bot Documentation"
 lead: ""
 date: 2022-08-4T23:19:57+00:00
 lastmod: 2022-08-4T23:19:57+00:00
@@ -13,9 +13,9 @@ menu:
 toc: true
 ---
 
-## SeaVoice Bot Introduction
+## SeaVoice STT & TTS Discord Bot Introduction
 
-🐙 The SeaVoice Bot is a new Discord integration brought to you by Seasalt.ai, a startup run by some of the world’s leading experts in deep speech recognition, neural speech synthesis, and natural language processing. 🐙
+🐙 The SeaVoice Bot is a new speech-to-text and text-to-speech Discord integration brought to you by Seasalt.ai, a startup run by some of the world’s leading experts in deep speech recognition, neural speech synthesis, and natural language processing. 🐙
 
    <iframe width="100%" height="10%" src="https://www.youtube.com/embed/00DoeiS3l1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
@@ -28,7 +28,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 ## Capabilities
 
 ### ✍️ Speech-to-Text
-##### Transcribe Audio from Voice Channels
+##### Transcribe Audio from Discord Voice Channels
 
 ###### /recognize [language]
 
@@ -46,13 +46,13 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 Use the `/recognize [language]` command from the voice channel chat window to see your transcriptions side-by-side with the participants or live stream!
 
 <center>
-<img src="/images/discord/voice-chat-side-by-side.png"/>
+<img src="/images/discord/discord-voice-chat-stt-side-by-side.png.png" alt="Use SeaVoice Discord bot in a Discord voice chat channel to see live STT transcriptions side-by-side with participants."/>
 </center>
 
 To open the voice channel chat panel, click the chat icon next to the voice channel name:
 
 <center>
-<img width="60%" src="/images/discord/voice-chat-channel.png">
+<img width="60%" src="/images/discord/discord-voice-chat-channel.png" alt="How to open a Discord voice chat channel to start SeaVoice STT.">
 </center>
 
 <p style="color:#19b6c0">Pro Tip #2:</p>
@@ -60,7 +60,7 @@ To open the voice channel chat panel, click the chat icon next to the voice chan
 If you want to temporarily stop the bot from listening to you (like pausing the session), you can right-click on the bot in the voice channel and check `Deafen Server`. This will prevent any audio data from being sent to the bot until it is un-checked. This way, you can pause the transcription and then pick your session back up when you're ready without having to stop and start a new one!
 
 <center>
-<img width="60%" src="/images/discord/deafen_bot.JPG">
+<img width="60%" src="/images/discord/deafen-seavoice-stt-discord-bot.JPG" alt="Deafen the SeaVoice STT Discord bot to pause the live transcription.">
 </center>
 
 ###### /stop
@@ -83,14 +83,14 @@ To use this command, you should already be in a voice channel. In any text chann
 | Starfish  | F   | Mandarin (Taiwan) |
 | Dolphin   | F   | Mandarin (Taiwan) |
 
-### 🎙️ Record & Download
-#### Export Audio from Voice Channels
+### 🎙️ Record & Download Audio & Transcriptions
+#### Export Audio & Transcriptions from Voice Channels
 Users are able to download their transcriptions and full audio recordings to a file.
 
 When the STT session ends, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
 
 <center>
-<img src="/images/discord/post-stt-direct-message.png">
+<img src="/images/discord/seavoice-discord-bot-stt-download-message.png.png" alt="SeaVoice STT Discord bot sends users a message with audio and transcription download links.">
 </center>
 
 In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
@@ -98,18 +98,18 @@ In the future we may offer downloads for different file types. Particularly, we 
 ## Language Support
 Currently our text-to-speech and speech-to-text models support English and Taiwanese Mandarin. However, we're always working on creating new language models and improving our existing ones. We're working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
 
-## Why SeaVoice?
+## Why SeaVoice STT & TTS?
 
 #### 🎯 Cutting-edge Accuracy
 Speech techonology is our specialty. We create our own models in-house using state of the art deep learning neural network algorithms.
 
-#### ⏱️ Real-time Transcription and Synthesis
+#### ⏱️ Real-time Transcription & Synthesis
 Real-time speed is essential when you're dealing with live conversation. We guarantee you'll never fall behind in a conversation because of slow transcription speeds.
 
-#### 📂 Downloadable Transcription and Audio Files
+#### 📂 Downloadable Transcription & Audio Files
 Not only can you watch your transcriptions in real-time, but you can download them and save them for future use! Your voice-based conversations just became permanent, searchable, and shareable. Because all our transcriptions come with timestamps, you can even use them as subtitles.
 
-## Add SeaVoice to Your Server
+## Add SeaVoice Discord Bot to Your Server
 
 Adding the SeaVoice bot to your server is easy! Simply click the invite link, verify your credentials with Discord, and then choose which server to add the bot to.
 
