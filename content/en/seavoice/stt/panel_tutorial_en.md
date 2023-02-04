@@ -1,6 +1,6 @@
 ---
-title: "STT Tutorial"
-description: "English demo for the SeaVoice STT customization panel."
+title: "Speech to Text Customization Tutorial"
+description: "English demo for the SeaVoice speech to text customization panel and technology"
 date: 2022-05-12T08:48:57+00:00
 lastmod: 2022-05-12T08:48:57+00:00
 draft: false

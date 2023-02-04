@@ -1,6 +1,6 @@
 ---
-title: "TTS 教學影片"
-description: "Chinese tutorial for the SeaVoice TTS customization panel."
+title: "文字轉語音客製化教學影片"
+description: "文字轉語音客製化後台的介面教學以及實際使用範例，產出最擬真的自然語音"
 date: 2022-05-12T08:48:57+00:00
 lastmod: 2022-05-12T08:48:57+00:00
 draft: false

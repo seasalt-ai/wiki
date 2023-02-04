@@ -1,6 +1,6 @@
 ---
-title: "STT 解碼器"
-description: "Chinese demo for the SeaVoice STT decoder speed and accuracy"
+title: "語音轉文字極速準確解碼器"
+description: "展示最先進人工智慧語音轉文字的極速語音辨識以及辨識結果準確率"
 date: 2022-05-12T08:48:57+00:00
 lastmod: 2022-05-12T08:48:57+00:00
 draft: false
