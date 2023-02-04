@@ -1,5 +1,5 @@
 ---
-title : "Text-to-Speech"
+title : "SeaVoice Text to Speech with Humanlike Natural Voice"
 description: "Getting Started with SeaVoice Text-to-Speech services"
 lead: ""
 date: 2022-05-12T08:48:57+00:00
