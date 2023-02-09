@@ -45,4 +45,4 @@ SeaX可以與Salesforce自動集成，提供"click-to-dial"等功能。同時，
 * 自動觸發客戶CSAT滿意度短信調查
 * CSAT滿意度調查列表
 
-   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/TsoiqFfPD8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="600" src="https://www.youtube.com/embed/TsoiqFfPD8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
