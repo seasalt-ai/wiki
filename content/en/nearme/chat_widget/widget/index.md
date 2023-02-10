@@ -1,6 +1,6 @@
 ---
-title: "Instructions"
-description: "Add Google Chat widget to your website"
+title: "How to Embed NearMe Google Chat Widget"
+description: "Walkthrough how to embed the Google Chat widget to your website with Near Me Messaging."
 lead: ""
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00

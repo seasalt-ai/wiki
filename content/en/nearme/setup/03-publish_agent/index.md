@@ -1,6 +1,6 @@
 ---
 title: "Step 3: Test and Publish Virtual Agent"
-description: ""
+description: "Walkthrough how to test and publish your own customized virtual agent for your Google Business with Near Me Messaging."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false

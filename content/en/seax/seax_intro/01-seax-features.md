@@ -1,6 +1,6 @@
 ---
-title: "SeaX Features"
-description: "The SeaX Collaborative Contact Center boasts robust and customizable features that empower you to hit the ground running with exactly the contact center you need."
+title: "SeaX Omni-channel Contact Center Features"
+description: "The SeaX Collaborative Contact Center boasts robust and customizable features that give your agents and supervisors the exact functionality that they need."
 date: 2022-11-22T08:48:57+00:00
 lastmod: 2022-11-22T08:48:57+00:00
 draft: false
