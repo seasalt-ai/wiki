@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Set Up Your Agent"
-description: ""
+description: "Walkthrough how to link your Google Business Profile and create your own virtual agent using Near Me Messaging."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false

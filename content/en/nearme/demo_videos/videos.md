@@ -1,6 +1,6 @@
 ---
-title: "Gallery"
-description: "Demo videos for Near Me Messaging"
+title: "Near Me Messaging Demo Videos"
+description: "See how Near Me Messaging can help you connect with customers over Maps by generating a customizable virtual agent based on your Google Business Profile."
 lead: ""
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
