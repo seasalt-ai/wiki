@@ -17,7 +17,7 @@ toc: true
 
 🐙 The SeaVoice Bot is a new speech-to-text and text-to-speech Discord integration brought to you by Seasalt.ai, a startup run by some of the world’s leading experts in deep speech recognition, neural speech synthesis, and natural language processing. 🐙
 
-   <iframe width="100%" height="10%" src="https://www.youtube.com/embed/00DoeiS3l1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="5%" src="https://www.youtube.com/embed/00DoeiS3l1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 SeaVoice is a voice intelligence bot that uses advanced AI technology to improve the Discord voice channel experience. One of the great things about Discord’s text channels is that they maintain a permanent log of the server’s conversations. But what about the voice channels? Once something is said verbally in the channel, *it’s gone* - you can’t catch up on part of the conversation you missed or search the conversation later. 
 
@@ -95,6 +95,61 @@ When the STT session ends, the bot will DM each participant a final transcriptio
 
 In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
 
+## Configuration
+
+SeaVoice offers customizable settings for both servers and individual users.
+
+Note: If you update any settings, you must stop and re-start any active `/recognize` sessions before the new configurations are applied.
+
+### 👥 Server Settings
+#### Configure settings for everyone in the server
+
+###### /server_config [transcript_recipients] [transcript_style]
+Use the `/server_config` command to configure the settings for the *current server* that you are in. 
+Servers currently have the following settings:
+
+<p style="color:#19b6c0">[transcript_recipients]</p>
+
+In addition to live transcription, SeaVoice is able to send audio recording and final transcription files.
+By default, when the `/recognize` session ends, SeaVoice will send a DM to the session creator (the user who sent the `/recognize` command) with the audio and transcription files.
+You can instead configure the bot to send the DM to all participants in the session, or no one at all.
+
+| Value              | Description                                                        |
+| ------------------ | ------------------------------------------------------------------ |
+| `session_creator`  | Sends DM only to the user who sent the `/recognize` command        |
+| `participants`     | Sends DM to all users who participated in the session              |
+| `nobody`           | Does not send any DM to anyone                                     |
+
+<p style="color:#19b6c0">[transcript_style]</p>
+
+The live transcriptions sent by SeaVoice during the `/recognize` session can styled in two ways. 
+By default, they will be sent as regular text messages, which are more condensed on the page but look plain.
+You can select the `embed` setting to have each message sent as an embed/card.
+This look nicer and is easier to read, but takes up more space on the page.
+
+| Value       | Description                                        |
+| ----------- | -------------------------------------------------- |
+| `plaintext` | Sends transcript messages as plain text            |
+| `embed`     | Sends transcript messages as a stylized embed card |
+
+### 👤 User Settings
+#### Configure settings for just yourself
+
+###### /user_config [exclude_stt]
+
+Use the `/user_config` command to configure your personal settings for your Discord account. 
+These settings will persist no matter which server you are in.
+Users currently have the following settings:
+
+<p style="color:#19b6c0">[exclude_stt]</p>
+
+If for any reason you do not want to be included in the live transcription session, you may configure your account to be excluded from all `/recognize` sessions.
+
+| Value       | Description                                                                      |
+| ----------- | -------------------------------------------------------------------------------- |
+| `No`        | Do not exclude me from STT sessions (I am OK with being recorded)                |
+| `Yes`       | *Exclude* me from all STT sessions (I do not want to be transcribed or recorded) |
+
 ## Language Support
 Currently our text-to-speech and speech-to-text models support English and Taiwanese Mandarin. However, we're always working on creating new language models and improving our existing ones. We're working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
 
@@ -120,7 +175,9 @@ Adding the SeaVoice bot to your server is easy! Simply click the invite link, ve
     </div>
 </div>
 
-## Support
+## Community
+
+### Official Discord Server
 
 Join our official Discord server! We'd love to chat and find out how we can improve our bot. Our bot is in *active development* - please let us know if you find any bugs, have ideas for new features, or want to provide any feedback!
 
@@ -130,10 +187,22 @@ Join our official Discord server! We'd love to chat and find out how we can impr
 
 ### Also see our page on Top.gg!
 
-<center>
-    <div class="row justify-content-center">
-        <a href="https://top.gg/bot/1001955060210749492">
-            <img src="https://top.gg/api/widget/1001955060210749492.svg">
-        </a>
-    </div>
-</center>
+Your comments and votes make SeaVoice easier to find for new users!
+
+<a href="https://top.gg/bot/1001955060210749492">
+    <img src="https://top.gg/api/widget/1001955060210749492.svg">
+</a>
+
+## Support SeaVoice
+
+Love the SeaVoice Bot? Consider becoming a Patron! 
+We will be adding Patreon tiers and a premium version of the bot soon - but don't worry, the core functionality of the bot will remain free for everyone!
+
+<a href="https://www.patreon.com/bePatron?u=88101525" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+<script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+
+
+<p style="color:#ffffff">.</p>
+<p style="color:#ffffff">.</p>
+<p style="color:#ffffff">.</p>
+<p style="color:#ffffff">.</p>
