@@ -103,6 +103,7 @@ Note: If you update any settings, you must stop and re-start any active `/recogn
 #### Configure settings for everyone in the server
 
 ###### /server_config [transcript_recipients] [transcript_style] [ignore_bots]
+
 Use the `/server_config` command to configure the settings for the *current server* that you are in. 
 Servers currently have the following settings:
 
@@ -122,17 +123,22 @@ You can instead configure the bot to send the DM to all participants in the sess
 
 The live transcriptions sent by SeaVoice during the `/recognize` session can styled in two ways. 
 By default, they will be sent as regular text messages, which are more condensed on the page but look plain.
-You can select the `embed` setting to have each message sent as an embed/card.
+You can select the `fancy` setting to have each message sent as an embed/card.
 This look nicer and is easier to read, but takes up more space on the page.
 
 | Value       | Description                                        |
 | ----------- | -------------------------------------------------- |
 | `plaintext` | Sends transcript messages as plain text            |
-| `embed`     | Sends transcript messages as a stylized embed card |
+| `fancy`     | Sends transcript messages as a stylized embed card |
+
+<center>
+<img width="60%" src="/images/discord/seavoice-discord-fancy-transcript.png" alt="'Fancy' live transcription style from SeaVoice Discord.">
+<img width="60%" src="/images/discord/seavoice-discord-plain-transcript.png" alt="'Plaintext' live transcription style from SeaVoice Discord.">
+</center>
 
 <p style="color:#19b6c0">[ignore_bots]</p>
 
-If there are other bots in the voice channel while a `/recognize` session is taking place, it is possible for SeaVoice to try and transcribe them. However, the most common type of bot that participates in the voice channel is a music bot - music in general is not transcribed well and just ends up cluttering the transcription. For this reason, by default the SeaVoice bot will *ignore* other bots. If you want SeaVoice to try and transcribe other bots however, for example if you use a different text-to-speech bot and want it to show up in the transcript, you can enable SeaVoice to listen to other bots.
+If there are other bots in the voice channel while a `/recognize` session is taking place, it is possible for SeaVoice to try and transcribe them. However, the most common type of bot that participates in the voice channel is a music bot - music in general is not transcribed well and just ends up cluttering the transcription. For this reason, by default the SeaVoice bot will *ignore* other bots. However, if you want SeaVoice to try and transcribe other bots (for example if you use a different text-to-speech bot and want it to show up in the transcript) you can enable SeaVoice to listen to other bots.
 
 | Value       | Description                                        |
 | ----------- | -------------------------------------------------- |
@@ -163,6 +169,10 @@ If for any reason you do not want to be included in the live transcription sessi
 ###### /server_status
 
 Run the `/server_status` command to get a break down of your current server configurations.
+
+<center>
+<img width="60%" src="/images/discord/seavoice-discord-server-status.png" alt="SeaVoice Discord bot sends user a summary of their server configurations.">
+</center>
 
 ## Language Support
 Currently our text-to-speech and speech-to-text models support English and Taiwanese Mandarin. However, we're always working on creating new language models and improving our existing ones. We're working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
