@@ -32,7 +32,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 ###### /recognize [language]
 
-`/recognize [language]` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM each participant a final transcription file and a link to a full audio download. The session will automatically wrap up if all the users leave the voice channel, or if the bot shuts down or restarts for any reason (such as when a new verison gets released).
+`/recognize [language]` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM the session creator a final transcription file, an SRT-formatted transcript file (used for subtitles), and a link to a full audio download. The session will automatically wrap up if all the users leave the voice channel, or if the bot shuts down or restarts for any reason (such as when a new verison gets released).
 
 ###### Language Support
 
@@ -87,13 +87,11 @@ To use this command, you should already be in a voice channel. In any text chann
 #### Export Audio & Transcriptions from Voice Channels
 Users are able to download their transcriptions and full audio recordings to a file.
 
-When the STT session ends, the bot will DM each participant a final transcription file and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
+When the STT session ends the bot will a final transcription file, an SRT-formatted transcript file (used for subtitles), and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
 
 <center>
 <img src="/images/discord/seavoice-discord-bot-stt-download-message.png" alt="SeaVoice STT Discord bot sends users a message with audio and transcription download links.">
 </center>
-
-In the future we may offer downloads for different file types. Particularly, we plan to offer transcriptions in close-caption format so that they can be aligned with audio or video and used as subtitles.
 
 ## Configuration
 
@@ -104,7 +102,8 @@ Note: If you update any settings, you must stop and re-start any active `/recogn
 ### 👥 Server Settings
 #### Configure settings for everyone in the server
 
-###### /server_config [transcript_recipients] [transcript_style]
+###### /server_config [transcript_recipients] [transcript_style] [ignore_bots]
+
 Use the `/server_config` command to configure the settings for the *current server* that you are in. 
 Servers currently have the following settings:
 
@@ -124,13 +123,27 @@ You can instead configure the bot to send the DM to all participants in the sess
 
 The live transcriptions sent by SeaVoice during the `/recognize` session can styled in two ways. 
 By default, they will be sent as regular text messages, which are more condensed on the page but look plain.
-You can select the `embed` setting to have each message sent as an embed/card.
+You can select the `fancy` setting to have each message sent as an embed/card.
 This look nicer and is easier to read, but takes up more space on the page.
 
 | Value       | Description                                        |
 | ----------- | -------------------------------------------------- |
 | `plaintext` | Sends transcript messages as plain text            |
-| `embed`     | Sends transcript messages as a stylized embed card |
+| `fancy`     | Sends transcript messages as a stylized embed card |
+
+<center>
+<img width="60%" src="/images/discord/seavoice-discord-fancy-transcript.png" alt="'Fancy' live transcription style from SeaVoice Discord.">
+<img width="60%" src="/images/discord/seavoice-discord-plain-transcript.png" alt="'Plaintext' live transcription style from SeaVoice Discord.">
+</center>
+
+<p style="color:#19b6c0">[ignore_bots]</p>
+
+If there are other bots in the voice channel while a `/recognize` session is taking place, it is possible for SeaVoice to try and transcribe them. However, the most common type of bot that participates in the voice channel is a music bot - music in general is not transcribed well and just ends up cluttering the transcription. For this reason, by default the SeaVoice bot will *ignore* other bots. However, if you want SeaVoice to try and transcribe other bots (for example if you use a different text-to-speech bot and want it to show up in the transcript) you can enable SeaVoice to listen to other bots.
+
+| Value       | Description                                        |
+| ----------- | -------------------------------------------------- |
+| `ignore`    | Do not transcribe other bots                       |
+| `include`   | Transcribe other bots in the STT session           |
 
 ### 👤 User Settings
 #### Configure settings for just yourself
@@ -149,6 +162,17 @@ If for any reason you do not want to be included in the live transcription sessi
 | ----------- | -------------------------------------------------------------------------------- |
 | `No`        | Do not exclude me from STT sessions (I am OK with being recorded)                |
 | `Yes`       | *Exclude* me from all STT sessions (I do not want to be transcribed or recorded) |
+
+### ⚙️ Server Settings Status
+#### Check your current server configurations
+
+###### /server_status
+
+Run the `/server_status` command to get a break down of your current server configurations.
+
+<center>
+<img width="60%" src="/images/discord/seavoice-discord-server-status.png" alt="SeaVoice Discord bot sends user a summary of their server configurations.">
+</center>
 
 ## Language Support
 Currently our text-to-speech and speech-to-text models support English and Taiwanese Mandarin. However, we're always working on creating new language models and improving our existing ones. We're working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
