@@ -104,7 +104,7 @@ Note: If you update any settings, you must stop and re-start any active `/recogn
 
 ###### /server_config [transcript_recipients] [transcript_style] [ignore_bots]
 
-Use the `/server_config` command to configure the settings for the *current server* that you are in. 
+Use the `/server_config` command to configure the settings for the *current server* that you are in. *Only users with admin permissions in the server may use this command*.
 Servers currently have the following settings:
 
 <p style="color:#19b6c0">[transcript_recipients]</p>
@@ -117,6 +117,7 @@ You can instead configure the bot to send the DM to all participants in the sess
 | ------------------ | ------------------------------------------------------------------ |
 | `session_creator`  | Sends DM only to the user who sent the `/recognize` command        |
 | `participants`     | Sends DM to all users who participated in the session              |
+| `this channel`     | Sends to the channel when the `/server_config` command was run     |
 | `nobody`           | Does not send any DM to anyone                                     |
 
 <p style="color:#19b6c0">[transcript_style]</p>
