@@ -32,7 +32,7 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 ###### /recognize [language]
 
-`/recognize [language]` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM the session creator a final transcription file, an SRT-formatted transcript file (used for subtitles), and a link to a full audio download. The session will automatically wrap up if all the users leave the voice channel, or if the bot shuts down or restarts for any reason (such as when a new verison gets released).
+`/recognize [language]` -> Bot joins the voice channel you're currently in, and continues to listen and output transcription in real time to the chat channel. The bot will record and transcribe everyone in the voice channel. Transcriptions are output to the text channel where the initial slash command was entered. When the session ends, the bot will DM the session creator a final transcription file, an SRT-formatted transcript file (used for subtitles), and a link to a full audio download. The session will automatically wrap up if all the users leave the voice channel, or if the bot shuts down or restarts for any reason (such as when a new version gets released).
 
 ###### Language Support
 
@@ -65,7 +65,7 @@ If you want to temporarily stop the bot from listening to you (like pausing the 
 
 ###### /stop
 
-`/stop` -> Bot stops listening and leaves the voice channel. Upon running the stop command, each participant will recieve a DM with the full transcription and audio files.
+`/stop` -> Bot stops listening and leaves the voice channel. Upon running the stop command, the session creator will receive a DM with the full transcription and audio files.
 
 ### 🗣 Text-to-Speech
 #### Synthesize Speech from Chat to Voice Channel 
@@ -87,7 +87,7 @@ To use this command, you should already be in a voice channel. In any text chann
 #### Export Audio & Transcriptions from Voice Channels
 Users are able to download their transcriptions and full audio recordings to a file.
 
-When the STT session ends the bot will a final transcription file, an SRT-formatted transcript file (used for subtitles), and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...".
+When the STT session ends the bot will a final transcription file, an SRT-formatted transcript file (used for subtitles), and a link to a full audio download. To download the audio, follow the link and then right click in the web browser and select "Save as...". Download links will expire after 24 hours - so if you want to a permanent copy of your file, download it to your computer.
 
 <center>
 <img src="/images/discord/seavoice-discord-bot-stt-download-message.png" alt="SeaVoice STT Discord bot sends users a message with audio and transcription download links.">
@@ -102,7 +102,7 @@ Note: If you update any settings, you must stop and re-start any active `/recogn
 ### 👥 Server Settings
 #### Configure settings for everyone in the server
 
-###### /server_config [transcript_recipients] [transcript_style] [ignore_bots]
+###### /server_config [transcript_recipients] [transcript_style] [ignore_bots] [censor]
 
 Use the `/server_config` command to configure the settings for the *current server* that you are in. *Only users with admin permissions in the server may use this command*.
 Servers currently have the following settings:
@@ -111,18 +111,18 @@ Servers currently have the following settings:
 
 In addition to live transcription, SeaVoice is able to send audio recording and final transcription files.
 By default, when the `/recognize` session ends, SeaVoice will send a DM to the session creator (the user who sent the `/recognize` command) with the audio and transcription files.
-You can instead configure the bot to send the DM to all participants in the session, or no one at all.
+You can instead configure the bot to send the DM to all participants in the session, a specific text channel, or no one at all.
 
 | Value              | Description                                                        |
 | ------------------ | ------------------------------------------------------------------ |
 | `session_creator`  | Sends DM only to the user who sent the `/recognize` command        |
 | `participants`     | Sends DM to all users who participated in the session              |
-| `this channel`     | Sends to the channel when the `/server_config` command was run     |
-| `nobody`           | Does not send any DM to anyone                                     |
+| `this channel`     | Sends to the channel where the `/server_config` command was run    |
+| `nobody`           | Does not send final message                                        |
 
 <p style="color:#19b6c0">[transcript_style]</p>
 
-The live transcriptions sent by SeaVoice during the `/recognize` session can styled in two ways. 
+The live transcriptions sent by SeaVoice during the `/recognize` session can be styled in two ways. 
 By default, they will be sent as regular text messages, which are more condensed on the page but look plain.
 You can select the `fancy` setting to have each message sent as an embed/card.
 This look nicer and is easier to read, but takes up more space on the page.
@@ -146,6 +146,15 @@ If there are other bots in the voice channel while a `/recognize` session is tak
 | `ignore`    | Do not transcribe other bots                       |
 | `include`   | Transcribe other bots in the STT session           |
 
+<p style="color:#19b6c0">[censor]</p>
+
+Some servers may want to avoid nasty language appearing in their channels. The `censor` setting allows you to enable/disable a profanity censor on all transcripts. `censor` is set to `enabled` by default, and will replace any swears, slurs, or sexual words with asterisks. You can turn the censor off at any time by setting it to `disabled`. Keep in mind that the censor just hides inappropriate words, it can't infer the meaning behind the words - so inappropriate content relayed with normal words will not be censored.
+
+| Value        | Description                                        |
+| ------------ | -------------------------------------------------- |
+| `enabled`    | Censor all live and final transcripts              |
+| `disabled`   | Do not censor any transcriptions                   |
+
 ### 👤 User Settings
 #### Configure settings for just yourself
 
@@ -161,8 +170,8 @@ If for any reason you do not want to be included in the live transcription sessi
 
 | Value       | Description                                                                      |
 | ----------- | -------------------------------------------------------------------------------- |
-| `No`        | Do not exclude me from STT sessions (I am OK with being recorded)                |
-| `Yes`       | *Exclude* me from all STT sessions (I do not want to be transcribed or recorded) |
+| `include`   | Do not exclude me from STT sessions (I am OK with being recorded)                |
+| `exclude`   | *Exclude* me from all STT sessions (I do not want to be transcribed or recorded) |
 
 ### ⚙️ Server Settings Status
 #### Check your current server configurations
@@ -181,7 +190,7 @@ Currently our text-to-speech and speech-to-text models support English and Taiwa
 ## Why SeaVoice STT & TTS?
 
 #### 🎯 Cutting-edge Accuracy
-Speech techonology is our specialty. We create our own models in-house using state of the art deep learning neural network algorithms.
+Speech technology is our specialty. We create our own models in-house using state of the art deep learning neural network algorithms.
 
 #### ⏱️ Real-time Transcription & Synthesis
 Real-time speed is essential when you're dealing with live conversation. We guarantee you'll never fall behind in a conversation because of slow transcription speeds.
