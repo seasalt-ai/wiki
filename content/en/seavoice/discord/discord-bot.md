@@ -148,7 +148,7 @@ If there are other bots in the voice channel while a `/recognize` session is tak
 
 <p style="color:#19b6c0">[censor]</p>
 
-Some servers may want to avoid nasty language appearing in their channels. The `censor` setting allows you to enable/disable a profanity censor on all transcripts. `censor` is set to `enabled` by default, and will replace any swears, slurs, or sexual words with asterisks. You can turn the censor off at any time by setting it to `disabled`. Keep in mind that the censor just hides inappropriate words, it can't infer the meaning behind the words - so inappropriate content relayed with normal words will not be censored.
+Some servers may want to avoid nasty language appearing in their channels. The `censor` setting allows you to enable/disable a profanity censor on all transcripts. When `censor` is set to `enabled`, it will replace any swears, slurs, or sexual words with asterisks. By default, the censor is set to `disabled`. Keep in mind that the censor just hides inappropriate words, it can't infer the meaning behind the words - so inappropriate content relayed with normal words will not be censored.
 
 | Value        | Description                                        |
 | ------------ | -------------------------------------------------- |
