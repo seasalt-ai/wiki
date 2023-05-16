@@ -102,10 +102,21 @@ Note: If you update any settings, you must stop and re-start any active `/recogn
 ### 👥 Server Settings
 #### Configure settings for everyone in the server
 
-###### /server_config [transcript_recipients] [transcript_style] [ignore_bots] [censor]
+###### /server_config [live_transcript] [transcript_recipients] [transcript_style] [ignore_bots] [censor]
 
 Use the `/server_config` command to configure the settings for the *current server* that you are in. *Only users with admin permissions in the server may use this command*.
 Servers currently have the following settings:
+
+<p style="color:#19b6c0">[live_transcript]</p>
+
+One of SeaVoice's main features is the ability to produce real-time transcriptions in the text channel.
+However, some users are only interested in the *final* transcription files.
+By configuring `live_transcript` to `disabled`, you can turn off the live transcriptions and only receive the final transcript files. `live_transcript` is set to `enabled` by default.
+
+| Value        | Description                                             |
+| ------------ | ------------------------------------------------------- |
+| `enabled`    | Send live transcriptions as messages to the text channel|
+| `disabled`   | Do not send any live transcriptions                     |
 
 <p style="color:#19b6c0">[transcript_recipients]</p>
 
