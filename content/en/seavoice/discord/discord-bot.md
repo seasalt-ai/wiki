@@ -57,6 +57,14 @@ To open the voice channel chat panel, click the chat icon next to the voice chan
 
 <p style="color:#19b6c0">Pro Tip #2:</p>
 
+To avoid excessive notifications from live transcriptions, create a separate channel just for transcriptions and set the notification settings lower.
+
+<center>
+<img width="100%" src="/images/discord/seavoice-discord-transcription-channel.png" alt="Set up a separate text channel just for live transcriptions from SeaVoice STT.">
+</center>
+
+<p style="color:#19b6c0">Pro Tip #3:</p>
+
 If you want to temporarily stop the bot from listening to you (like pausing the session), you can right-click on the bot in the voice channel and check `Deafen Server`. This will prevent any audio data from being sent to the bot until it is un-checked. This way, you can pause the transcription and then pick your session back up when you're ready without having to stop and start a new one!
 
 <center>
@@ -73,7 +81,7 @@ If you want to temporarily stop the bot from listening to you (like pausing the 
 Seasalt.ai also excels at speech synthesis. We offer a text-to-speech command, which allows users to type in a chat channel and have audio synthesized and played in a particular voice channel for them.
 
 ###### /speak [voice] [text]
-To use this command, you should already be in a voice channel. In any text channel, type the `/speak` slash command and then specify which `voice` you would like to use, and enter the `text` that you would like synthesized. You can see the available voices below:
+To use this command, you should already be in a voice channel. In any text channel, type the `/speak` slash command and then optionally specify which `voice` you would like to use, and enter the `text` that you would like synthesized. When the TTS is done speaking, a 🏁 reaction will be applied to the command message. The default voice if not specified is `Orca`, you can also set your own default voice using the `/user_config` command. You can see the available voices below:
 
 | Name      | Sex | Language          |
 | --------- | --- | ----------------- |
@@ -169,7 +177,7 @@ Some servers may want to avoid nasty language appearing in their channels. The `
 ### 👤 User Settings
 #### Configure settings for just yourself
 
-###### /user_config [exclude_stt]
+###### /user_config [exclude_stt] [default_tts_voice]
 
 Use the `/user_config` command to configure your personal settings for your Discord account. 
 These settings will persist no matter which server you are in.
@@ -184,15 +192,35 @@ If for any reason you do not want to be included in the live transcription sessi
 | `include`   | Do not exclude me from STT sessions (I am OK with being recorded)                |
 | `exclude`   | *Exclude* me from all STT sessions (I do not want to be transcribed or recorded) |
 
-### ⚙️ Server Settings Status
-#### Check your current server configurations
+<p style="color:#19b6c0">[default_tts_voice]</p>
+
+If there's one TTS voice you prefer to use more than the other, you can set it as your default. When you have a default set, you can leave the `voice` parameter of the `/speak` command empty and it will use your default. If you haven't set your own default TTS voice, it will be set to `Orca`.
+
+| Value       | Sex | Language          |
+| ----------- | --- | ----------------- |
+| `Orca`      | M   | American English  |
+| `Narwhal`   | M   | British English   |
+| `Angelfish` | F   | American English  |
+| `Starfish`  | F   | Mandarin (Taiwan) |
+| `Dolphin`   | F   | Mandarin (Taiwan) |
+
+### ⚙️ Server / User Status
+#### Check your current server or user configurations
 
 ###### /server_status
 
 Run the `/server_status` command to get a break down of your current server configurations.
 
 <center>
-<img width="60%" src="/images/discord/seavoice-discord-server-status.png" alt="SeaVoice Discord bot sends user a summary of their server configurations.">
+<img width="60%" src="/images/discord/seavoice-discord-server-status.png" alt="SeaVoice Discord bot sends user a summary of the server configurations.">
+</center>
+
+###### /user_status
+
+Run the `/user_status` command to get a break down of your current user configurations.
+
+<center>
+<img width="60%" src="/images/discord/seavoice-discord-user-status.png" alt="SeaVoice Discord bot sends user a summary of the user configurations.">
 </center>
 
 ## Language Support
@@ -246,8 +274,3 @@ We will be adding Patreon tiers and a premium version of the bot soon - but don'
 <a href="https://www.patreon.com/bePatron?u=88101525" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
 <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
-
-<p style="color:#ffffff">.</p>
-<p style="color:#ffffff">.</p>
-<p style="color:#ffffff">.</p>
-<p style="color:#ffffff">.</p>
