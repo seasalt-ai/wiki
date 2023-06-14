@@ -36,10 +36,22 @@ We feel that providing highly accurate transcriptions for voice channels is a hu
 
 ###### Language Support
 
+SeaVoice currently supports 12 languages. The English and Taiwanese Mandarin models are our own in-house models trained from scratch; they are highly accurate and reliable. All other languages are supported using a multilingual open source model as the base. The performance wasn't great out of the box, so we integrated it into our own STT pipeline and tuned the model to improve the performance. One thing you may notice with the open source model is "hallucination". This can manifest in a couple different ways, such as: inserting words/phrases that weren't said, transcribing in the wrong language, and/or translating the spoken language to a different language.
+
 | Language          |
 | ----------------- |
 | English           |
 | Mandarin (Taiwan) |
+| Spanish           |
+| Italian           |
+| Portuguese        |
+| German            |
+| Japanese          |
+| Korean            |
+| Russian           |
+| Hindi             |
+| Vietnamese        |
+| French            |
 
 <p style="color:#19b6c0">Pro Tip #1:</p>
 
@@ -224,7 +236,7 @@ Run the `/user_status` command to get a break down of your current user configur
 </center>
 
 ## Language Support
-Currently our text-to-speech and speech-to-text models support English and Taiwanese Mandarin. However, we're always working on creating new language models and improving our existing ones. We're working on new models for Vietnamese, Spanish, French, and more! We'd love to hear which languages you're most eager to use.
+Currently our text-to-speech models support English and Mandarin, and our speech-to-text models support an additional 10 languages. However, we're always working on creating new language models and improving our existing ones. We'd love to hear which languages you're most eager to use!
 
 ## Why SeaVoice STT & TTS?
 
