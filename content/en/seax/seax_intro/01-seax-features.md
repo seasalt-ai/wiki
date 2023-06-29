@@ -123,6 +123,10 @@ The Progressive Dialer helps your agents make outbound calls by automatically di
 
 ### HubSpot Integration
 
+Here we see the HubSpot CRM integrated into SeaX, including automatic call information syncing back to HubSpot:
+
+   <iframe width="100%" height="5%" src="https://www.youtube.com/embed/vdieQdXH5IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 Here we see automated inbound and outbound appointment scheduling in SeaX, integrated with the HubSpot CRM:
 
    <iframe width="100%" height="5%" src="https://www.youtube.com/embed/Bth5rMlFf8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
