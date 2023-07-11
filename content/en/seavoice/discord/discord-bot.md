@@ -25,6 +25,14 @@ Invite SeaVoice to the voice channel, and you can get real time speech transcrip
 
 We feel that providing highly accurate transcriptions for voice channels is a huge accessibility improvement for Discord. Additionally, because transcriptions are automatically posted to a text channel, that means they are permanent, searchable, and shareable. Similarly, speech synthesis also boosts participation in voice channels by making them more accessible to people who can’t or don’t want to speak personally.
 
+Also see the SeaVoice Discord Bot Homepage:
+<div class="row justify-content-center">
+    <div class="col-lg-9 col-xl-8 text-center">
+        <p class="lead"></p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://suite.seasalt.ai/voice/discord" role="button">SeaVoice Homepage</a>
+    </div>
+</div>
+
 ## Capabilities
 
 ### ✍️ Speech-to-Text
