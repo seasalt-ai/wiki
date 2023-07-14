@@ -61,6 +61,12 @@ SeaX is customizable to the needs of your contact center, including setting oper
 
    <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44BwxHp2OTVE3se_-zQ6X1d&index=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
+### Voicemail
+
+SeaX records customer voicemails and assigns them to agents, ensuring quick callbacks from agents. Administrators can also recieve notification when new voicemails come in.
+
+   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44BwxHp2OTVE3se_-zQ6X1d&index=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 ## Advanced Features
 -------------------
 
@@ -149,7 +155,7 @@ Besides the usual "click-to-dial" Salesforce integration, SeaX can do the follow
 * CSAT survey report
 
 
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44BwxHp2OTVE3se_-zQ6X1d&index=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44BwxHp2OTVE3se_-zQ6X1d&index=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 
