@@ -85,7 +85,7 @@ lastMod = false
   breadCrumb = false
   highLight = true
   kaTex = false
-  multilingualMode = false
+  multilingualMode = true
   docsVersioning = false
   fullWidth = false
 

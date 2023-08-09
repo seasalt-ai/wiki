@@ -6,8 +6,8 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://docs.google.com/forms/d/e/1FAIpQLSfFXRa-A1z91vQZ6Xs2FtrSTc2AFpZ97U5SWBYlpsIW5T-yrg/viewform" role="button">Book a Demo</a>
-      <p class="meta">Learn more at <a href="https://Seasalt.ai">Seasalt.ai</a></p>
+      {{ if eq $.Site.Language.LanguageName "English" }} <a class="btn btn-primary btn-lg px-4 mb-2" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" role="button">Book a Demo</a> <p class="meta">Learn more at <a href="https://Seasalt.ai">Seasalt.ai</a></p>{{ end }}
+      {{ if eq $.Site.Language.LanguageName "Traditional Chinese" }} <a class="btn btn-primary btn-lg px-4 mb-2" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" role="button">預約諮詢</a> <p class="meta">訪問 <a href="https://Seasalt.ai">Seasalt.ai</a> 瞭解更多</p>{{ end }}
     </div>
   </div>
 </section>
@@ -19,24 +19,65 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-4">
-          <h2 class="h4">SeaVoice 🎙️ </h2>
-          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/seavoice/" role="button">Get Started</a>
-          <p>Generate high fidelity natural speech from text or accurately transcribe audio to text, both with user-friendly customisability.</p>
-        </div>
-        <div class="col-lg-4">
-          <h2 class="h4">SeaMeet 📝 </h2>
-          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/seameet/seameet-intro-zh/01-seameet-intro/" role="button">Get Started</a>
-          <p>Google Meet AI Copilot. Transcribe, summarize, and analyze your meetings in real-time.</p>
-        </div>
-        <div class="col-lg-4">
           <h2 class="h4">Near Me Messaging 📍</h2>
           <a class="btn btn-primary btn-secondary px-3 mb-2" href="/nearme/setup/0-intro_video/" role="button">Get Started</a>
           <p>Chat with your customers on Google Maps anytime. Automatically answer questions from customers and acquire new ones.</p>
         </div>
         <div class="col-lg-4">
+          <h2 class="h4">SeaVoice 🎙️ </h2>
+          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/seavoice/tts/panel_tutorial_en/" role="button">Get Started</a>
+          <p>Generate high fidelity natural speech from text or accurately transcribe audio to text, both with user-friendly customisability.</p>
+        </div>
+        <div class="col-lg-4">
+          <h2 class="h4">SeaMeet 📝 </h2>
+          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/seameet/seameet-intro/01-seameet-intro/" role="button">Get Started</a>
+          <p>Google Meet AI Copilot. Transcribe, summarize, and analyze your meetings in real-time.</p>
+        </div>
+        <div class="col-lg-4">
           <h2 class="h4">SeaX ⭐ </h2>
           <a class="btn btn-primary btn-secondary px-3 mb-2" href="/seax/seax_intro/01-seax-features/" role="button">Get Started</a>
           <p>A collaborative contact center built on top of <a href="https://showcase.twilio.com/partner-listings?q=seasalt.ai" target="_blank">Twilio Flex</a>. Omni-channel customer service delivered with state-of-the-art speech intelligence.</p>
+        </div>
+        <!-- <div class="col-lg-5">
+          <h2 class="h4">SeaMeet 📝 </h2>
+          <p>Next-generation conference room solutions that listen, transcribe, summarize, follow up, and perceive.</p>
+        </div> -->
+      </div>
+      <!-- <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">Full text search</h2>
+          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Page layouts</h2>
+          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Dark mode</h2>
+          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+        </div>
+      </div> -->
+    </div>
+  </section>
+  {{ end }}
+  {{ if eq $.Site.Language.LanguageName "Traditional Chinese" }}
+  <section class="section section-sm">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-4">
+          <h2 class="h4">SeaVoice 🎙️ </h2>
+          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/zh/seavoice/stt/decoder_zh/" role="button">開始體驗</a>
+          <p>彈性定制安全又準確的語音識別 -- 包含多語種語音轉文字、文字轉語音</p>
+        </div>
+        <div class="col-lg-4">
+          <h2 class="h4">SeaMeet 📝 </h2>
+          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/zh/seameet/seameet-intro/01-seameet-intro/" role="button">開始體驗</a>
+          <p>自動生成多語言逐字稿、主題、摘要、情感分析，是個人及企業都需要的AI會議幫手，為你挖掘出對話最有價值的Insight！</p>
+        </div>
+        <div class="col-lg-4">
+          <h2 class="h4">SeaX ⭐ </h2>
+          <a class="btn btn-primary btn-secondary px-3 mb-2" href="/zh/seax/demo_videos_zh/videos/" role="button">開始體驗</a>
+          <p>搭載在<a href="https://showcase.twilio.com/partner-listings?q=seasalt.ai" target="_blank">Twilio Flex</a>之上的雲端智慧客服解決方案，高度客製化的多渠道聯絡中心</p>
         </div>
         <!-- <div class="col-lg-5">
           <h2 class="h4">SeaMeet 📝 </h2>
