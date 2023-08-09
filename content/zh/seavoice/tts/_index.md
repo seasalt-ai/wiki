@@ -1,6 +1,6 @@
 ---
-title : "Text to Speech"
-description: "Getting Started with SeaVoice Text-to-Speech services"
+title : "文字轉語音"
+description: "文字轉語音 新手指南"
 lead: ""
 date: 2022-05-12T08:48:57+00:00
 lastmod: 2022-05-12T08:48:57+00:00

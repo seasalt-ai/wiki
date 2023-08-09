@@ -1,5 +1,5 @@
 ---
-title: "SeaX人工智能全渠道聯絡中心展示影片"
+title: "SeaX 功能"
 description: "Seasalt.ai 為您影片展示雲端聯絡中心的未來，人工智能自動化以及全渠道與跨渠道支持的SeaX。"
 lead: ""
 date: 2020-10-06T08:48:57+00:00
