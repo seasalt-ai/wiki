@@ -6,7 +6,7 @@
     languageISO = "EN"
 
 [zh]
-  languageName = "Traditional Chinese"
+  languageName = "繁體中文"
   contentDir = "content/zh"
   weight = 15
   [zh.params]

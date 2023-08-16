@@ -1,7 +1,7 @@
 {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") -}}
-  <div class="page-links">
-    {{ if eq $.Site.Language.LanguageName "English" }} <h3>On this page</h3> {{ end }}
-    {{ if eq $.Site.Language.LanguageName "Traditional Chinese" }} <h3>本頁內容</h3> {{ end }}
-    {{ .TableOfContents }}
-  </div>
+<div class="page-links">
+  {{ if eq $.Site.Language.LanguageName "English" }} <h3>On this page</h3> {{ end }}
+  {{ if eq $.Site.Language.LanguageName "繁體中文" }} <h3>本頁內容</h3> {{ end }}
+  {{ .TableOfContents }}
+</div>
 {{ end -}}
