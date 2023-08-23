@@ -17,10 +17,10 @@ toc: true
 # Basic Features
 -------------------------------------------------
 
-## Start Transcription with SeaMeet Bot
+## Invite meet@seasalt.ai to Start Transcription
 
-- Invite through Google Calendar: Add the SeaMeet bot to an event, and the bot will join the meeting punctually.
-- Invite through Google Meet: Click the "Add people" button, send an invitation to the SeaMeet bot, and the bot will join the meeting within a minute.
+- Invite through Google Calendar: Add `meet@seasalt.ai` to an event, and the SeaMeet bot will join the meeting momentarily.
+- Invite through Google Meet: Click the "Add people" button, send an invitation to `meet@seasalt.ai`, and the SeaMeet bot will join the meeting within a minute.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/NAdERbNjaSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
