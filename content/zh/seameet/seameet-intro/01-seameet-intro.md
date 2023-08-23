@@ -19,8 +19,8 @@ toc: true
 -------------------
 ## 使用 SeaMeet 機器人轉錄會議
 
-- 透過 Google 行事曆送出邀請：在Google行事曆將 SeaMeet 機器人邀請至會議，機器人將準時加入Google Meet會議。
-- 透過 Google Meet 送出邀請：點擊「新增參與者」按鈕，發送邀請給 SeaMeet Bot，該機器人將在一分鐘內加入會議。
+- 透過 Google 行事曆送出邀請：在Google行事曆將 `meet@seasalt.ai` 邀請至會議，SeaMeet機器人將準時加入Google Meet會議。
+- 透過 Google Meet 送出邀請：點擊「新增參與者」按鈕，發送邀請給 `meet@seasalt.ai`，SeaMeet Bot機器人將在一分鐘內加入會議。
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/NAdERbNjaSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
