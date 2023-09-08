@@ -30,3 +30,9 @@ When you invite the SeaMeet bot to join a meeting, it will create a meeting entr
 Click on the meeting title to access detailed meeting information, including meeting transcription, discussed topics, summary, and action items.
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+## Track Your Meetings
+
+View statistics and analytics on your calls and meetings through the SeaMeet Dashboard. Contact centers can also review agent performance with customizable AI-powered performance metrics.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/QdA7l8F6LBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
