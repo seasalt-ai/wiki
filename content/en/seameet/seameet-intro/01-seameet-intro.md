@@ -16,13 +16,35 @@ toc: true
 
 # Basic Features
 -------------------------------------------------
+## Invite SeaMeet Bot to Transcribe and Take Notes for Your Meetings
 
-## Invite meet@seasalt.ai to Start Transcription
+You can invite the SeaMeet Bot to join and take notes of your Google Meet meetings in three different ways:
 
-- Invite through Google Calendar: Add `meet@seasalt.ai` to an event, and the SeaMeet bot will join the meeting momentarily.
-- Invite through Google Meet: Click the "Add people" button, send an invitation to `meet@seasalt.ai`, and the SeaMeet bot will join the meeting within a minute.
+#### Method 1: "Start Recording" from the Meeting List
+1. Click the 'Start Recording' button.
+2. Enter the Google Meet code and submit.
+3. The meeting will automatically be added to your meeting list.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/NAdERbNjaSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+  <iframe width="100%" height="350" src="/videos/seameet/Start_Recording_v2_enlarge.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+#### Method 2: Invite via SeaMeet Extension
+1. Install the [SeaMeet extension](https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn) from the Chrome Web Store.
+2. Once installed, open Google Meet, and the extension will activate automatically.
+3. Click 'Start Recording' to invite the bot to the meeting.
+4. Allow the bot to join and initiate the meeting recording.
+
+
+<iframe width="100%" height="350" src="/videos/seameet/onboarding_chrome_extension.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+#### Method 3: Send an Invitation via Google Calendar
+1. In Google Calendar, invite the SeaMeet Bot using the email address `meet@seasalt.ai`.
+2. SeaMeet Bot will promptly join your Google Meet meeting.
+
+  <iframe width="100%" height="350" src="/videos/seameet/Google_Calendar_Invitation_v3.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 
 ## View Meeting Minutes
 
