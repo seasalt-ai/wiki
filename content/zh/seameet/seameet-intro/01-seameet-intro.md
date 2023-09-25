@@ -17,18 +17,39 @@ toc: true
 
 # 基本功能
 -------------------
-## 邀請meet@seasalt.ai並開始轉錄會議
+## 邀請 SeaMeet 機器人記錄會議
 
-- 透過 Google 行事曆送出邀請：在Google行事曆將 `meet@seasalt.ai` 邀請至會議，SeaMeet機器人將準時加入Google Meet會議。
-- 透過 Google Meet 送出邀請：點擊「新增參與者」按鈕，發送邀請給 `meet@seasalt.ai`，SeaMeet Bot機器人將在一分鐘內加入會議。
+邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/NAdERbNjaSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+#### 方法一：在 SeaMeet 會議清單「開始新會議記錄」
+1. 按下「開始新會議記錄」按鈕
+2. 輸入 Google Meet 會議代碼並送出
+3. 會議會自動被新增到會議清單中
+
+  <iframe width="100%" height="350" src="/videos/seameet/Start_Recording_v2_enlarge.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+#### 方法二：使用 SeaMeet 擴充程式邀請
+1. 到Chrome應用程式商店安裝[SeaMeet擴充程式](https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn)
+2. 安裝後開啟Google Meet，就會自動開啟程式
+3. 點擊「開始轉錄」，邀請機器人參與會議
+4. 允許機器人加入，並開始記錄會議
+
+<iframe width="100%" height="350" src="/videos/seameet/onboarding_chrome_extension.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+#### 方法三：在 Google 日曆寄送邀請
+1. 在Google行事曆邀請 SeaMeet 機器人 <信箱：meet@seasalt.ai> 至會議中
+2. SeaMeet機器人將準時加入Google Meet會議
+
+
+  <iframe width="100%" height="350" src="/videos/seameet/Google_Calendar_Invitation_v3.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 
 ## 查看會議記錄
 
 當您邀請 SeaMeet Bot 加入會議時，它會在您的工作區會議清單中創建一個會議。
 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
-
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
