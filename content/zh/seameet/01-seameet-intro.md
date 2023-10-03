@@ -7,13 +7,15 @@ draft: false
 images: []
 menu:
   seameet:
-    seameet-intro:
-      parent: "seameet-intro"
+      parent: "01-seameet-intro"
 aliases:
-   - /zh/seameet/seameet-intro/01-introduction/
+   - /zh/seameet/01-seameet-intro/
 weight: 102
 toc: true
 ---
+
+
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 # 基本功能
 -------------------

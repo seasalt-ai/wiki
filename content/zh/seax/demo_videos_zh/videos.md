@@ -17,24 +17,24 @@ toc: true
 ## 直接轉接與間接轉接 - Warm and Cold Transfer
 
 
-   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/7xc6zUPtFYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/7xc6zUPtFYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## 智能知識庫 - AI Knowledge Base
 
 
-   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/t9XhbnNVJZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/t9XhbnNVJZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## 假日時段與離線語音設定 - Holidays and Offline Messages
 
-   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/HOHW7khQcW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/HOHW7khQcW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## 主管通話監聽與介入通話 - Supervisor Monitor and Barge-in
 
 
-   <iframe width="100%" height="30%" src="https://www.youtube.com/embed/bD9_7lOaqJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/bD9_7lOaqJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Salesforce CRM系統自動化 -- Salesforce Automation
 
@@ -45,4 +45,4 @@ SeaX可以與Salesforce自動集成，提供"click-to-dial"等功能。同時，
 * 自動觸發客戶CSAT滿意度短信調查
 * CSAT滿意度調查列表
 
-   <iframe width="100%" height="600" src="https://www.youtube.com/embed/TsoiqFfPD8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/TsoiqFfPD8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
