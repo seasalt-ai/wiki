@@ -124,6 +124,12 @@ The Progressive Dialer helps your agents make outbound calls by automatically di
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44BwxHp2OTVE3se_-zQ6X1d&index=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
+### SeaMeet Copilot
+
+View statistics and analytics on your calls and meetings through the SeaMeet Dashboard. Contact centers can also review agent performance with customizable AI-powered performance metrics.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/QdA7l8F6LBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 ## Integrations
 -------------------
 
@@ -156,7 +162,3 @@ Besides the usual "click-to-dial" Salesforce integration, SeaX can do the follow
 
 
    <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44BwxHp2OTVE3se_-zQ6X1d&index=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-
-
-
-
