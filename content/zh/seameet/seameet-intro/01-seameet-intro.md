@@ -52,9 +52,3 @@ toc: true
 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-
-## 追蹤會議成效
-
-透過 SeaMeet 分析面板查看通話和會議的相關數據和分析。若想客製化面板，SeaMeet提供可自定義的 AI 效能指標，進一步了解客服人員的表現。
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/QdA7l8F6LBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
