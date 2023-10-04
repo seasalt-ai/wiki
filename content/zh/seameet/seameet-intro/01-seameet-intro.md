@@ -7,13 +7,15 @@ draft: false
 images: []
 menu:
   seameet:
-    seameet-intro:
-      parent: "seameet-intro"
+      parent: "01-seameet-intro"
 aliases:
-   - /zh/seameet/seameet-intro/01-introduction/
+   - /zh/seameet/01-seameet-intro/
 weight: 102
 toc: true
 ---
+
+
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 # 基本功能
 -------------------
@@ -26,7 +28,7 @@ toc: true
 2. 輸入 Google Meet 會議代碼並送出
 3. 會議會自動被新增到會議清單中
 
-  <iframe width="100%" height="350" src="/videos/seameet/Start_Recording_v2_enlarge.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/bC2Xx9wDa2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 #### 方法二：使用 SeaMeet 擴充程式邀請
@@ -35,7 +37,7 @@ toc: true
 3. 點擊「開始轉錄」，邀請機器人參與會議
 4. 允許機器人加入，並開始記錄會議
 
-<iframe width="100%" height="350" src="/videos/seameet/onboarding_chrome_extension.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5P5fOQVtyNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 #### 方法三：在 Google 日曆寄送邀請
@@ -43,7 +45,7 @@ toc: true
 2. SeaMeet機器人將準時加入Google Meet會議
 
 
-  <iframe width="100%" height="350" src="/videos/seameet/Google_Calendar_Invitation_v3.mp4" title="Tutorial player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Qq2Y2LiD44Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## 查看會議記錄
@@ -52,3 +54,9 @@ toc: true
 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+## 追蹤會議成效
+
+透過 SeaMeet 分析面板查看通話和會議的相關數據和分析。若想客製化面板，SeaMeet提供可自定義的 AI 效能指標，進一步了解客服人員的表現。
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/QdA7l8F6LBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
