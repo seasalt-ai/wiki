@@ -26,7 +26,7 @@ You can invite the SeaMeet Bot to join and take notes of your Google Meet meetin
 3. The meeting will automatically be added to your meeting list.
 
 
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/bC2Xx9wDa2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/1rc-QhfNq7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 #### Method 2: Invite via SeaMeet Chrome Extension
@@ -43,7 +43,7 @@ You can invite the SeaMeet Bot to join and take notes of your Google Meet meetin
 1. In Google Calendar, invite the SeaMeet Bot using the email address `meet@seasalt.ai`.
 2. SeaMeet Bot will promptly join your Google Meet meeting.
 
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Qq2Y2LiD44Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/nJMyPVeynLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## View Meeting Minutes
@@ -51,7 +51,7 @@ You can invite the SeaMeet Bot to join and take notes of your Google Meet meetin
 When you invite the SeaMeet bot to join a meeting, it will create a meeting entry in your workspace's meeting list.
 Click on the meeting title to access detailed meeting information, including meeting transcription, discussed topics, summary, and action items.
 
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/dTeuYbK1IwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Track Your Meetings
 
