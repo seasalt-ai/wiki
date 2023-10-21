@@ -4,9 +4,14 @@
   weight = 10
 
 [[main]]
+  name = "SeaChat"
+  url = "/zh/seachat/seachat-intro/01-seachat-intro/"
+  weight = 20
+
+[[main]]
   name = "SeaMeet"
   url = "/zh/seameet/seameet-intro/01-seameet-intro/"
-  weight = 20
+  weight = 25
 
 [[main]]
   name = "SeaX"

@@ -1,24 +1,28 @@
 [[main]]
-  name = "Near Me Messaging"
-  url = "/nearme/setup/0-intro_video/"
-  weight = 10
-
-
-[[main]]
-  name = "SeaX"
-  url = "/seax/seax_intro/01-seax-features/"
-  weight = 40
-
-
-[[main]]
   name = "SeaVoice"
   url = "/seavoice/tts/panel_tutorial_en/"
-  weight = 20
+  weight = 5
 
 [[main]]
   name = "SeaMeet"
   url = "/seameet/seameet-intro/01-seameet-intro/"
-  weight = 30
+  weight = 10
+
+[[main]]
+  name = "SeaChat"
+  url = "/seachat/seachat-intro/01-seachat-intro/"
+  weight = 15
+
+[[main]]
+  name = "SeaX"
+  url = "/seax/seax_intro/01-seax-features/"
+  weight = 20
+
+
+[[main]]
+  name = "Near Me Messaging"
+  url = "/nearme/setup/0-intro_video/"
+  weight = 25
 
 [[social]]
   name = "Contact"
