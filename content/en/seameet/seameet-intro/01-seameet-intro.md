@@ -16,9 +16,9 @@ toc: true
 
 # Basic Features
 -------------------------------------------------
-## Invite SeaMeet Bot to Transcribe and Take Notes for Your Meetings
+## Invite SeaMeet Copilot to Transcribe and Take Notes for Your Meetings
 
-You can invite the SeaMeet Bot to join and take notes of your Google Meet meetings in three different ways:
+You can invite the SeaMeet Copilot to join and take notes of your Google Meet meetings in three different ways:
 
 #### Method 1: "Start Recording" from the Meeting List
 1. Click the 'Start Recording' button.
@@ -32,23 +32,23 @@ You can invite the SeaMeet Bot to join and take notes of your Google Meet meetin
 #### Method 2: Invite via SeaMeet Chrome Extension
 1. Install the [SeaMeet extension](https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn) from the Chrome Web Store.
 2. Once installed, open Google Meet, and the extension will activate automatically.
-3. Click 'Start Recording' to invite the bot to the meeting.
-4. Allow the bot to join and initiate the meeting recording.
+3. Click 'Start Recording' to invite the copilot to the meeting.
+4. Allow SeaMeet Copilot to join and initiate the meeting recording.
 
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/nJMyPVeynLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 #### Method 3: Send an Invitation via Google Calendar
-1. In Google Calendar, invite the SeaMeet Bot using the email address `meet@seasalt.ai`.
-2. SeaMeet Bot will promptly join your Google Meet meeting.
+1. In Google Calendar, invite the SeaMeet Copilot using the email address `meet@seasalt.ai`.
+2. SeaMeet Copilot will promptly join your Google Meet meeting.
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Qq2Y2LiD44Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## View Meeting Minutes
 
-When you invite the SeaMeet bot to join a meeting, it will create a meeting entry in your workspace's meeting list.
+When you invite the SeaMeet Copilot to join a meeting, it will create a meeting entry in your workspace's meeting list.
 Click on the meeting title to access detailed meeting information, including meeting transcription, discussed topics, summary, and action items.
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/dTeuYbK1IwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
