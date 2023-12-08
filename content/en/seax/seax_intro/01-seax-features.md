@@ -74,7 +74,7 @@ The SeaX Collaborative Contact Center also has a number of advanced features tha
 
 ### SeaX Virtual Agent
 
-The SeaX Virtual Agent is a chat and voice bot that can handle a wide range of basic questions about your business, addressing topics such as:
+The SeaX Virtual Agent is a chat and voice agent that can handle a wide range of basic questions about your business, addressing topics such as:
 
 * location
 * hours

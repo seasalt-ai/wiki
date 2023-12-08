@@ -48,7 +48,7 @@ toc: true
 -------------------
 ## 查看會議記錄
 
-當您邀請 SeaMeet Bot 加入會議時，它會在您的工作區會議清單中創建一個會議。
+當您邀請 SeaMeet Copilot 加入會議時，它會在您的工作區會議清單中創建一個會議。
 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
