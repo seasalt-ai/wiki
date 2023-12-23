@@ -1,6 +1,6 @@
 ---
-title: "SeaMeet | AI 會議管理Copilot"
-description: "SeaMeet 新手上路"
+title: "快速上手 SeaMeet"
+description: ""
 date: 2022-11-22T08:48:57+00:00
 lastmod: 2022-11-22T08:48:57+00:00
 draft: false
@@ -10,10 +10,10 @@ menu:
       parent: "01-seameet-intro"
 aliases:
    - /zh/seameet/01-seameet-intro/
-weight: 102
+   - /zh/seameet/seameet-intro/01-seameet-intro/
+weight: 101
 toc: true
 ---
-
 
    <iframe width="100%" height="350px" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
@@ -60,9 +60,3 @@ toc: true
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/THfQGLIlq7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
--------------------
-## 追蹤會議成效
-
-透過 SeaMeet 分析面板查看通話和會議的相關數據和分析。若想客製化面板，SeaMeet提供可自定義的 AI 效能指標，進一步了解客服人員的表現。
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/QdA7l8F6LBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
