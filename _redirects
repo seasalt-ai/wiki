@@ -1,8 +1,16 @@
 
-/en/seachat/seachat-intro/01-introduction/ /seachat/seachat-intro/01-seachat-intro/
-/en/seameet/seameet-intro/01-introduction/ /seameet/seameet-intro/01-seameet-intro/
-/seax/seax_intro/01-introduction/ /seax/seax_intro/01-seax-features/
-/seax/demo_videos/videos/ /seax/seax_intro/01-seax-features/# /docs/1.0/prologue/   /docs/1.0/prologue/introduction/
+/en/seameet/0-browser-extension/ /seameet/seameet-manual/0-browser-extension/
+/en/seameet/1-how-to-use-seameet/ /seameet/seameet-manual/1-how-to-use-seameet/
+/en/seachat/seachat-intro/01-introduction/ /seachat/seachat-manual/01-seachat-intro/
+/seachat/seachat-intro/01-seachat-intro/ /seachat/seachat-manual/01-seachat-intro/
+/en/seachat/seachat-intro/02-how-to-create/ /seachat/seachat-manual/02-how-to-create/
+/en/seameet/2-check-meeting-min/ /seameet/seameet-manual/2-check-meeting-min/
+/en/seachat/seachat-intro/03-add-knowledge/ /seachat/seachat-manual/03-add-knowledge/
+/en/seameet/3-track-meeting-performance/ /seameet/seameet-manual/3-track-meeting-performance/
+/en/seachat/seachat-intro/01-introduction/ /seachat/seachat-manual/04-improve-agent/
+/en/seachat/seachat-intro/01-introduction/ /seachat/seachat-manual/05-install-to-line-and-web/
+/seax/seax_intro/01-introduction/ /seax/seax_enterprise/seax-features/
+/seax/demo_videos/videos/ /seax/seax_enterprise/seax-features/# /docs/1.0/prologue/   /docs/1.0/prologue/introduction/
 # /docs/1.0/help/       /docs/1.0/help/how-to-update/
 # /docs/1.0/            /docs/1.0/prologue/introduction/
 # /docs/                /docs/1.0/prologue/introduction/
