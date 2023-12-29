@@ -1,5 +1,5 @@
 ---
-title: "SeaX Omni-channel Contact Center Features"
+title: "SeaX Enterprise Omni-channel Contact Center Features"
 description: "The SeaX Collaborative Contact Center boasts robust and customizable features that give your agents and supervisors the exact functionality that they need."
 date: 2022-11-22T08:48:57+00:00
 lastmod: 2022-11-22T08:48:57+00:00
@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax_intro"
+    parent: "seax_enterprise"
 aliases:
    - /seax/seax_intro/01-introduction/
    - /seax/demo_videos/videos/
