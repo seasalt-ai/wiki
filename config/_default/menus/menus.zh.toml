@@ -10,7 +10,7 @@
 
 [[main]]
   name = "SeaMeet"
-  url = "/zh/seameet/"
+  url = "/zh/seameet/seameet-manual/01-seameet-intro/"
   weight = 25
 
 [[main]]
