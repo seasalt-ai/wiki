@@ -5,7 +5,7 @@
 
 [[main]]
   name = "SeaMeet"
-  url = "/seameet/seameet-intro/01-seameet-intro/"
+  url = "/seameet/seameet-manual/0-browser-extension/"
   weight = 10
 
 [[main]]
@@ -15,7 +15,7 @@
 
 [[main]]
   name = "SeaX"
-  url = "/seax/seax_intro/01-seax-features/"
+  url = "/seax/seax_messaging/bulk-messaging-features/"
   weight = 20
 
 
