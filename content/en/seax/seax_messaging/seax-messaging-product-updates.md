@@ -15,6 +15,14 @@ weight: 104
 toc: true
 ---
 
-### 01/25/2024
-- [New Feature] Add support for viewing Scheduled Campaigns
+### 02/01/2024
+##### **<font color="#739963">New Feature</font>** 
+- Schedule send to a single contact
 
+<center>
+<img width="100%" style="border-radius: 0.4rem" src="/images/product-updates/seax/en/20240201-single-schedule-send.png" alt="SeaX - Send scheduled message to single contact">
+</center>
+
+### 01/25/2024
+##### **<font color="#739963">New Feature</font>** 
+- Add support for viewing Scheduled Campaigns
