@@ -15,10 +15,8 @@ weight: 101
 toc: true
 ---
 
-- [feature] 01/25/2024, SeaX supports viewing scheduled campaigns
+### 01/24/2024
+- [新功能] 新登入方式: 除了使用 Google 帳戶之外，您現在還可以使用其他電子郵件地址直接登入 SeaMeet，只需簡單的驗證即可。為用戶提供了更多的靈活性！
+
 ### 01/18/2024
-1. Browser support: [SeaMeet Extension](https://chromewebstore.google.com/detail/seameet-take-chatgpt-meet/gkkhkniggakfgioeeclbllpihmipkcmn) supports browsers including chrome, edge, arc, brave
-- [feature] 01/25/2024, SeaMeet updated new SignIn
-- [Bug Fixes] 01/24/2024
-1. SeaChat addressed the problem of using simplified Chinese for traditional Chinese questions.
-2. SeaChat resolved the issue with the Webchat widget preview, ensuring that it now displays the final results accurately.
+- [新功能] SeaMeet現支持更多瀏覽器: [SeaMeet 擴充程序](https://chromewebstore.google.com/detail/seameet-take-chatgpt-meet/gkkhkniggakfgioeeclbllpihmipkcmn) 不僅與 Chrome 兼容，還與 Edge、Arc 和 Brave 瀏覽器兼容。這意味著您可以無論使用哪種首選瀏覽器都可以享受SeaMeet在旁的安心會議體驗。
