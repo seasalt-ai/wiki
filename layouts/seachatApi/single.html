@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="row flex-xl-nowrap">
+    <main class="docs-content">
+        {{ if .Site.Params.options.breadCrumb -}}
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                {{ partial "main/breadcrumb" . -}}
+                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+            </ol>
+        </nav>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+        <p class="lead">{{ .Params.lead | safeHTML }}</p>
+        {{ .Content }}
+        <div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+            {{ if .Site.Params.lastMod -}}
+            {{ partial "main/last-modified.html" . }}
+            {{ end -}}
+            {{ if .Site.Params.editPage -}}
+            {{ partial "main/edit-page.html" . }}
+            {{ end -}}
+        </div>
+        <!-- Removed conditional docs-navigation inclusion based on collapsibleSidebar -->
+    </main>
+</div>
+{{ end }}
