@@ -8,4 +8,4 @@ wideContainer: true
 weight: 10
 toc: true
 ---
-{{< redoc specUrl="https://petstore.swagger.io/v2/swagger.json" >}}
+{{< redoc specUrl="http://seachat-backend-api-server.dev.svc.cluster.local:8080/redoc/openapi.json" >}}
