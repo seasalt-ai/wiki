@@ -24,6 +24,6 @@ To add a new RESTful API page:
 2. Add JSON file under `static/api`.
 3. Add a new page under `content/en/seasaltApi/seasalt-api` and `content/zh/seasaltApi/seasalt-api` by copying any existing page and replace the `specUrl` with JSON file name.
 
-To update an RESTful API page:
+To update a RESTful API page:
 1. Download updated JSON file from corresponding server.
 2. Replace the outdated JSON file under `static/api`.
