@@ -1,5 +1,5 @@
 ---
-title : "Seasalt API Documentation"
+title : "Seasalt RESTful APIs Documentation"
 description: "API Redocs"
 lead: ""
 date: 2020-10-06T08:48:23+00:00
