@@ -19,7 +19,11 @@ To deploy your changes, make a PR to merge changes to `main` branch as usual. Wh
 
 
 ### API Documentation 
-To add a new API documentation page:
+To add a new RESTful API page:
 1. Add a navigation button to the main menu in `menus.en.toml` and `menus.zh.toml`.
-2. Add a new page under `content/en/seasaltApi/seasalt-api` and `content/zh/seasaltApi/seasalt-api` by copying any existing page and replace the `specUrl` with your OpenAPI specification URL.
+2. Add JSON file under `static/api`.
+3. Add a new page under `content/en/seasaltApi/seasalt-api` and `content/zh/seasaltApi/seasalt-api` by copying any existing page and replace the `specUrl` with JSON file name.
 
+To update an RESTful API page:
+1. Download updated JSON file from corresponding server.
+2. Replace the outdated JSON file under `static/api`.
