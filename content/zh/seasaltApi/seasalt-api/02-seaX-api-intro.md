@@ -8,4 +8,4 @@ wideContainer: true
 weight: 10
 toc: true
 ---
-{{< redoc specUrl="https://seax.seasalt.ai/bulk-sms-api/redoc/openapi.json" >}}
+{{< redoc specUrl="/api/seax.json" >}}
