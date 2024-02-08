@@ -1,0 +1,7 @@
+<!-- layouts/shortcodes/redoc.html -->
+
+<div id="redoc-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/redoc/bundles/redoc.standalone.js"></script>
+<script>
+  Redoc.init('{{ .Get "specUrl" }}', {}, document.getElementById('redoc-container'));
+</script>

@@ -180,6 +180,11 @@ body {
   order: 1;
 }
 
+
+.wide-container {
+  max-width: 100%;
+}
+
 .docs-navigation {
   border-top: 1px solid $gray-200;
   margin-top: 2rem;
