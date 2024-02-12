@@ -5,7 +5,11 @@
 https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn
 安裝後開啟Google Meet，就會自動開啟程式
 點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議 3. Google日曆邀請 # 在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議</description></item><item><title>註冊SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link><pubDate>Tue, 22 Nov 2022 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid><description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
-點擊登入註冊 # 1. 點擊官網登入按鈕 # 2. 點選「用Google帳號登入」 # 3. 選擇您希望註冊的Google帳號 # 4. 開始註冊登入流程 #</description></item><item><title>設定SeaMeet工作區</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-seameet-workspace/</link><pubDate>Tue, 22 Nov 2022 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-seameet-workspace/</guid><description>工作區是您用來管理所有會議、團隊成員與方案的地方。您可以為您的公司、部門或團隊創建一個共用的工作區，即可讓被邀請加入的用戶共同管理所有儲存到這個工作區的會議記錄。
+點擊登入註冊 # 1. 點擊官網登入按鈕 # 2. 點選「用Google帳號登入」 # 3. 選擇您希望註冊的Google帳號 # 4. 開始註冊登入流程 #</description></item><item><title>工作區管理員</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-2-seameet-workspace-management/</link><pubDate>Tue, 22 Nov 2022 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-2-seameet-workspace-management/</guid><description>關於 SeaMeet 團隊版 # 如果你使用的是SeaMeet團隊版，你的工作區管理員可以設定並管理工作區和各工作區的使用者。如沒有申請更改，管理員是團隊中第一個創建工作區的使用者。
+工作區主管理員 # 建立工作區的用戶帳號將被視為主管理員，該用戶所訂閱的方案將適用於其作為主管理員的所有工作區。若您的團隊有多個不同部門的工作區，希望適用於同個訂閱方案並合併收費，請由要做為主管理員的帳號統一創建各部門的工作區。例如 xxx@gmail.com 建立兩個工作區並訂閱團隊方案，則團隊方案將適用於這兩個工作區。
+※若無法在SeaMeet產品介面更換工作區主管理員，請來信至 seameet@seasalt.ai 通知我們。
+方案人數計算 # 方案人數計算方式為，主管理員擁有的所有工作區將被視為同一個方案計算，其中不重複的帳號總人數即為訂閱方案時的總訂閱授權數。
+例如，xxx@gmail.com將A、B、C、D等4位同事分別邀請至2個工作區中，即便用戶B同時存在於2個工作區，訂閱方案時仍會計算為5位用戶〈含主管理員〉的授權費用，而非6位用戶。</description></item><item><title>設定SeaMeet工作區</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-seameet-workspace/</link><pubDate>Tue, 22 Nov 2022 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-seameet-workspace/</guid><description>工作區是您用來管理所有會議、團隊成員與方案的地方。您可以為您的公司、部門或團隊創建一個共用的工作區，即可讓被邀請加入的用戶共同管理所有儲存到這個工作區的會議記錄。
 管理會議 # 會議記錄將儲存到您指定的工作區，不論是未來、進行中或是已完成的會議，都可以在工作區進行管理。
 團隊協作 # 您可以到「工作區設定 ─ 用戶」頁面邀請團隊成員加入工作區，共同瀏覽、編輯會議記錄，您還可以設定不同權限以便更好地管理工作區。
 當您寄出邀請後，受邀的用戶即可用邀請信中的連結註冊登入，並加入您邀請的工作區。
@@ -36,6 +40,4 @@ https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakf
 當您邀請機器人轉錄的會議結束後，系統會自動發一封信到所有Google行事曆上受邀參加這個會議的與會者。
 不自動分享給任何人 〈包括自己〉
 會議結束後將不會發送任何會議記錄。
-如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。</description></item><item><title>如何結束會議記錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/11-seameet-end-a-meeting/</link><pubDate>Tue, 22 Nov 2022 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/11-seameet-end-a-meeting/</guid><description>當會議結束時，您可以選擇：
-在SeaMeet會議頁面按下中止會議紀錄的按鈕 或者在擴充程式手動按下中止會議的按鈕 若您忘記手動中止會議紀錄，則機器人會在以下狀況直接離開Google Meet會議室：
-當所有與會者都離開會議室的30秒後 若有用戶仍然留在會議室中，機器人會等待15分鐘確認是否為會議暫停，若15分鐘內無人說話，機器人便會自動離開</description></item></channel></rss>
+如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。</description></item></channel></rss>
