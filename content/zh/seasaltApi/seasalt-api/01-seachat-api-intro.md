@@ -11,7 +11,7 @@ menu:
 weight: 103
 toc: true
 ---
-SeaChat RESTful API 允許使用者整合和自動化聊天機器人工作流程，從而提供以程式設計方式管理 AI 代理的靈活性。透過利用 API，使用者可以將聊天機器人功能合併到自己的應用程式或系統中。 API 文件提供了無縫整合的詳細資訊和指導。
+SeaChat RESTful API 允許使用者整合和自動化AI助理工作流程，從而提供以程式設計方式管理AI助理的靈活性。透過利用 API，使用者可以將AI助理功能合併到自己的應用程式或系統中。 API 文件提供了無縫整合的詳細資訊和指導。
 
 <div class="row justify-content-center">
     <div class="col-lg-9 col-xl-8 text-center">
