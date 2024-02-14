@@ -17,4 +17,4 @@ toc: true
 SeaChat能讓你在10分鐘做出專屬AI聊天助理，能進行溫暖自然的對話。運用在推薦產品、售前諮詢、售後服務等等場景，幫助你提升客戶滿意度，並可隨時轉接真人。
 
 
-   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE&index=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE&index=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
