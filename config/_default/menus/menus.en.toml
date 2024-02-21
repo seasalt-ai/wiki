@@ -30,11 +30,11 @@
    identifier = "RESTful APIs"
    weight = 30
 
-#[[main]]
-#   name = "SeaChat API"
-#   url = "/seasaltApi/seasalt-api/01-seachat-api-intro/"
-#   parent = "RESTful APIs"
-#   weight = 1
+[[main]]
+   name = "SeaChat API"
+   url = "/seasaltApi/seasalt-api/01-seachat-api-intro/"
+   parent = "RESTful APIs"
+   weight = 1
 
  [[main]]
    name = "SeaX API"

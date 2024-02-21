@@ -16,6 +16,6 @@ SeaChat RESTful API 允許使用者整合和自動化AI助理工作流程，從�
 <div class="row justify-content-center">
     <div class="col-lg-9 col-xl-8 text-center">
         <p class="lead"></p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="http://seachat-backend-api-server.dev.svc.cluster.local:8080/redoc" role="button" target="_blank" rel="noopener noreferrer">SeaChat API 文件</a>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://chat-dev.seasalt.ai/redoc" role="button" target="_blank" rel="noopener noreferrer">SeaChat API 文件</a>
     </div>
 </div>
