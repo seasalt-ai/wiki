@@ -15,14 +15,22 @@ weight: 101
 toc: true
 ---
 
+### 02/23/2024
+##### **<font color="#739963">New Features</font>** 
+- Email notifications for live agent requests and new conversations
+- Users can switch between AI Agent and live human agent
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Reduce new workspace creation time significantly
+
 ### 01/24/2024
 ##### **<font color="#739963">New Feature</font>** 
-- Preferred Response Language: Now you can set the default response language in the "Agent Information" menu. SeaChat will ensure the quality of your assistant's responses.
+- Preferred Response Language: Now you can set the default response language in the "Agent Information" menu. SeaChat will ensure the quality of your assistant's responses
 
 <center>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/20240124-preferred-response-lang.png" alt="Set up a separate text channel just for live transcriptions from SeaVoice STT.">
 </center>
 
 ##### **<font color="#d66a60">Bugfix</font>**
-- Webchat Widget Preview: fix color mismatch bug in webchat widget preview.
+- Webchat Widget Preview: fix color mismatch bug in webchat widget preview
 
