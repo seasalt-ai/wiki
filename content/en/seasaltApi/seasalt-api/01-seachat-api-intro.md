@@ -16,6 +16,6 @@ SeaChat RESTful API allows users to integrate and automate chatbot workflows, pr
 <div class="row justify-content-center">
     <div class="col-lg-9 col-xl-8 text-center">
         <p class="lead"></p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://chat-dev.seasalt.ai/redoc" role="button" target="_blank" rel="noopener noreferrer">SeaChat API Docs</a>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://chat.seasalt.ai/redoc" role="button" target="_blank" rel="noopener noreferrer">SeaChat API Docs</a>
     </div>
 </div>
