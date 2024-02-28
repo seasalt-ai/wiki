@@ -15,7 +15,23 @@ weight: 101
 toc: true
 ---
 
-### 01/24/2024
+### 02/22/2024
+##### **<font color="#739963">New Features</font>** 
+- Support for Google education account invitations: if you are using a Google Education account, please invite `meet@seasalt.ai` to your calendar invite to use SeaMeet
+- Reduced workspace creation time
+- Plan change notification
+- Notification for plan upgrade options on browser extension
+- SeaMeet Copilot can directly join if `meet@seaslt.ai` is invited as an attendee on Google Calendar
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Improve app latency caused by payment plan restriction
+- Paid plan banner will only appear in the free plan
+
+### 02/01/2024
+##### **<font color="#739963">New Feature</font>** 
+- Released paid plan features
+
+### 01/25/2024
 ##### **<font color="#739963">New Feature</font>** 
 - Login: A brand new Sign-In option! In addition to using your Google account, you can now log in directly to SeaMeet using your email address with simple verification.
 
