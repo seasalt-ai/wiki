@@ -15,44 +15,52 @@ weight: 20
 toc: true
 ---
 
+<p>
+This manual details the process for embedding the SeaChat AI agent into your Squarespace website. Access the required code snippet by navigating to Agent Configuration/Channels within your workspace on the SeaChat website, specifically under the Squarespace channel.
+</p>
 
+
+<p> 
 1. Go to your Squarespace dashboard for the website of interest. Select the “Website” on the sidebar menu. 
+</p>
+
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Go to your Shopify dashboard and click on Online Store from the menu.">
 
 
-<img width="50%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Go to your Shopify dashboard and click on Online Store from the menu.">
-
-
-
+<p>
 2. Next, select “Website Tools” in the sidebar menu.
+</p>
+
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Start editing by clicking the ellipsis icon next to your current theme and choosing Edit code.">
 
 
-<img width="50%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Start editing by clicking the ellipsis icon next to your current theme and choosing Edit code.">
-
-
+<p>
 3. Select “Code Injection” in the sidebar menu.
+</p>
+
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step3.png" alt="Click on “theme.liquid” on the left side panel.">
 
 
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step3.png" alt="Click on “theme.liquid” on the left side panel.">
-
-
-
-4. Paste the SeaChat code snippet in the HEADER text box. Remember to click “SAVE”.
+<p>
+4. Paste the SeaChat code snippet from the Shopify integration setup on Seachat into the HEADER text box. Remember to click “SAVE”.
+</p>
 
 <img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step4.png" alt="Paste the SeaChat code snippet in the head; section. You can paste it anywhere between the opening head tag and the closing /head tag">
 
-
-
+<p>
 5. Use “Preview” function on Squarespace to test the AI agent. Remember to launch the store again when you are ready!
 
 Important Note: if you want to configure the style of your widget, please go to “Channels” -> “WebChat Widget” -> “Basic Setting”. Your AI Agent will share the same style across your webchat widget channels.
-
-
+</p>
 
 <img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step5.png" alt="Click “Save” button on top right. Click “Preview Store” to test the AI agent. Remember to launch the store again when you are ready!">
 
 
+<p>
+6. (Optional) Please disconnect any other chatbot services to prevent confusion. If your previous chatbot service is embedded in code, remove it carefully from the “Code Injection” section. 
+</p>
 
-5. (Optional) Please disconnect any other chatbot services to prevent confusion. If your previous chatbot service is embedded in code, remove it carefully from the “Code Injection” section. Need assistance? Contact us at seachat@seaslt.ai.
+Need assistance? Contact us at seachat@seaslt.ai.
 
 
  
