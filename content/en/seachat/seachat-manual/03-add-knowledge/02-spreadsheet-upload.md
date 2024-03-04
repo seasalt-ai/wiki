@@ -56,6 +56,8 @@ SeaChat allows users to upload in bulk. You can see the status of each uploading
 
 ## Step 4: Submit to Existing Knowledge Base
 Once you are sure of the files included, you can submit the file to upload by clicking on the "Submit" button. Voilà! You have successfully customized your agent with new knowledge. To view the files uploaded, you can navigate to the "Existing" section in the top-right corner of the page, where you can find the uploaded data in the "Files" section.
+<br/>
+``
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240304-spreadsheet-tutorial-step4.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Submit' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
 
