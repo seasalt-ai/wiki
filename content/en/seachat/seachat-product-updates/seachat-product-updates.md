@@ -15,6 +15,12 @@ weight: 101
 toc: true
 ---
 
+### 03/04/2024
+##### **<font color="#739963">New Features</font>** 
+- KnowledgeBase - Spreadsheet Upload: Now you can upload spreadsheets directly to the knowledge base
+- KnowledgeBase - Video and Audio Uploads: Enhance your knowledge base with multimedia by uploading video and audio clips.
+- You can now download invoice from billing history
+
 ### 02/23/2024
 ##### **<font color="#739963">New Features</font>** 
 - Email notifications for live agent requests and new conversations
