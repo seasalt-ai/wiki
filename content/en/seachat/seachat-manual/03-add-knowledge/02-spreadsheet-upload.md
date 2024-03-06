@@ -53,7 +53,7 @@ SeaChat allows users to upload in bulk. You can see the status of each uploading
 
 Scroll further down for the dedicated preview window that will list the first 10 rows of your spreadsheet. Once you have included all the files to be uploaded, you can upload them by clicking on the “Next” button.
 
-###### Preview example:````
+###### Preview example:
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step4-table-example.png" alt="An example of table preview">
 
