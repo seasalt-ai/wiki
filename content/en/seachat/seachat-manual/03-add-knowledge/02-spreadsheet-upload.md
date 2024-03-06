@@ -41,7 +41,7 @@ By clicking on the upload button, you can submit to your agent choosing from var
 > - Table must be headers in the first row.
 > - The content in any row may not exceed 2000 tokens.
 > 
-> Check the "Upload Guidelines" for more information.
+> Check "Upload Guidelines" for more information.
 
 ## Step 4: Before Submission
 SeaChat allows users to upload in bulk. You can see the status of each uploading file in the section below the drag-and-drop zone.
@@ -53,7 +53,7 @@ SeaChat allows users to upload in bulk. You can see the status of each uploading
 
 Scroll further down for the dedicated preview window that will list the first 10 rows of your spreadsheet. Once you have included all the files to be uploaded, you can upload them by clicking on the “Next” button.
 
-###### Preview example:````
+###### Preview Example:
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step4-table-example.png" alt="An example of table preview">
 
