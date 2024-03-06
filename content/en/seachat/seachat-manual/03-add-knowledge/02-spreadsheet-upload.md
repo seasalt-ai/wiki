@@ -60,6 +60,7 @@ Scroll further down for the dedicated preview window that will list the first 10
 
 ## Step 5: Submit to Existing Knowledge Base
 Voilà! You have successfully customized your chatbot agent with new knowledge. To view the files uploaded, you can navigate to the "Existing" section in the top-right corner of the page, where you can find the uploaded data waiting for you in the "Files" section.
+
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step5.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
