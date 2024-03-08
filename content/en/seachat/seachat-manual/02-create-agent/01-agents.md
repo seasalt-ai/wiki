@@ -1,17 +1,18 @@
 ---
-title: "Create an Agent"
+title: "How to create an Agent"
 description: "SeaChat User Guide"
+lead: ""
 date: 2022-11-22T08:48:57+00:00
 lastmod: 2022-11-22T08:48:57+00:00
 draft: false
 images: []
 menu:
   seachat:
-    parent: "seachat-manual"
+    seachat-manual:
+        parent: "02-create-agent"
 aliases:
    - /en/seachat/seachat-intro/02-how-to-create/
-weight: 20
-toc: true
+weight: 21
 ---
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
