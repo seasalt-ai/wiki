@@ -15,6 +15,14 @@ weight: 104
 toc: true
 ---
 
+### 03/07/2024
+##### **<font color="#739963">New Feature</font>** 
+- Webchat widget: Adding agent icon to popup message
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fix the 404 error message popup
+- Adjusted widget color settings. User reply messages and checkboxes will align with the main color.
+
 ### 02/01/2024
 ##### **<font color="#739963">New Feature</font>** 
 - Schedule send to a single contact
