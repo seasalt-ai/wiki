@@ -15,6 +15,15 @@ weight: 101
 toc: true
 ---
 
+### 03/07/2024
+##### **<font color="#739963">New Features</font>** 
+- Knowledge Base: Now supports Video, Audio, and Spreadsheet files, enabling more comprehensive content sharing and collaboration.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Extended support for longer video and audio files, with a maximum duration of 15 minutes.
+- Fixed bug in uploading spreadsheets.
+- In members setting, payment no longer prompts when adjusting AI Agent assignments.
+
 ### 03/04/2024
 ##### **<font color="#739963">New Features</font>** 
 - KnowledgeBase - Spreadsheet Upload: Now you can upload spreadsheets directly to the knowledge base

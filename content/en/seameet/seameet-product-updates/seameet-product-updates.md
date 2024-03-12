@@ -15,6 +15,14 @@ weight: 101
 toc: true
 ---
 
+### 03/07/2024
+##### **<font color="#739963">New Features</font>** 
+- User status: Support adjusting team members status to active & inactive for better member list management.
+- New STT model: The new STT model is now available, offering improved accuracy.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed error when joining a workspace.
+
 ### 02/22/2024
 ##### **<font color="#739963">New Features</font>** 
 - Support for Google education account invitations: if you are using a Google Education account, please invite `meet@seasalt.ai` to your calendar invite to use SeaMeet
