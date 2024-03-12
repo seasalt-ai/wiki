@@ -130,7 +130,6 @@ SeaChat provides a set of sophisticated tools for you to fine-tune your agent to
 <br/>
 
 <br/>
-
 Fine-tuning your AI agent is a crucial and continuous process. We kindly advise you to check out the [**Advanced**]( /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro) section in our user manual for a more comprehensive explanation and to understand the different parameters and features involved in the fine-tuning process.
 
 
