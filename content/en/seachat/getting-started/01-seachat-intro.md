@@ -15,9 +15,9 @@ toc: true
 
 ## Welcome to SeaChat
 
-Build and launch an AI agent and voice agent that elevates your workflow in under 10 minutes. SeaChat supports more than 30 document types, including PDF, CSV, DOC, PNG, and JPG, allowing you to upload almost unlimited knowledge to train your AI chatbot tailored to your needs with a seamless transition to human agent when needed.
+Build and launch an AI agent that elevates your workflow in under 10 minutes. SeaChat supports more than 30 document types, including PDF, CSV, DOC, PNG, JPG and more, allowing you to upload almost unlimited knowledge to train your AI voice and chat agents tailored to your needs with a seamless transition to human agent when needed.
 
-With multilingual support and various software integrations, including web chat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls, SeaChat gives you the power to create an AI chatbot agent to a global reach of customers with diverse accessibility, and it's code-free!
+With multilingual support and various software integrations, including web chat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls, SeaChat gives you the power to create an AI agent to a global reach of customers with diverse accessibility, and it's code-free!
 
 ## Let’s SeaChat!
 In this tutorial, we will walk you through every step you need to create your first SeaChat agent. From agent creation and adding knowledge to testing and fine-tuning, we will try to cover all technical aspects to help you kickstart.
