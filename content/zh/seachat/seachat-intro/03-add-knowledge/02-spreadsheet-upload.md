@@ -1,31 +1,31 @@
 ---
-title: "Spreadsheet Upload"
-description: "SeaChat SpreadSheet Upload"
+title: "試算表上傳"
+description: "SeaChat 試算表上傳"
 lead: ""
-date: 2024-03-04 10:43:51.069 +0100
-lastmod: 2024-03-04 10:43:51.069 +0100
+date: 2024-03-11 10:43:51.069 +0100
+lastmod: 2024-03-11 10:43:51.069 +0100
 weight: 32
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
+  - /zh/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
 ---
 
-## Overview
-SeaChat provides four methods to upload files to your agent. We will focus on the "Upload Spreadsheet" method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
+## 概述
+SeaChat 提供四種方法來上傳文件到您的助理。在本教學指南中，我們將專注於“上傳試算表”的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 
+## 創建 SeaChat 助理
 
-## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based chatbot in [Create an Agent](/en/seachat/seachat-intro/02-how-to-create/).
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！你可以在 [創建助理](/zh/seachat/seachat-intro/02-create-agent/) 找到所有你需要的資訊。
 
-
-## Open Knowledge Base
+## Step 2: Open Knowledge Base
+在側邊欄中，選擇“助理設定”下的“知識庫”面板。通過選擇“上傳試算表”，您可以上傳 .csv 或 .xlsx 文件到您的助理。
 Find your agent's knowledge base by navigating to the "Knowledge Base" dashboard under "Agent Configuration" in the sidebar menu. By choosing "Upload Spreadsheet", you can upload a .csv or .xlsx file to your agent.
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
 
-## Upload File
+## Step 3: Upload File
 By clicking on the upload button, you can submit to your agent choosing from various file formats[^1]. The file will be processed and the knowledge base will be updated accordingly once submitted.
 [^1]: SeaChat supports .csv, .xls, .xlsx, .xlsm, .xlsb, .odf, .ods and .odt files.
 
@@ -43,7 +43,7 @@ By clicking on the upload button, you can submit to your agent choosing from var
 > 
 > Check "Upload Guidelines" for more information.
 
-## Before Submission
+## Step 4: Before Submission
 SeaChat allows users to upload in bulk. You can see the status of each uploading file in the section below the drag-and-drop zone.
 
 <br/>
@@ -58,14 +58,14 @@ Scroll further down for the dedicated preview window that will list the first 10
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step4-table-example.png" alt="An example of table preview">
 
 
-## Submit to Existing Knowledge Base
+## Step 5: Submit to Existing Knowledge Base
 Voilà! You have successfully customized your chatbot agent with new knowledge. To view the files uploaded, you can navigate to the "Existing" section in the top-right corner of the page, where you can find the uploaded data waiting for you in the "Files" section.
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step5.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
 
-## Review your Knowledge Base
+## Step 6: Review your Knowledge Base
 Click on the file you just uploaded to review the content. That's it! You have successfully uploaded a spreadsheet to your SeaChat agent. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the next part of the tutorial.
 
 <br/>
