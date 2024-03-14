@@ -22,8 +22,8 @@ In this tutorial, we will create a SeaChat agent from scratch. This AI agent wil
 If this is your first time logging into SeaChat, you'll need to create a workspace to start the process. I named my new workspace as **My Work Space**. You can give your workspace a different name!
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step1.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step1.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step1-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step1-rs.jpg" alt="">
 </a>
 <br/>
 
@@ -40,8 +40,8 @@ Click on **Add New Agent** to configure your new agent. If you already have a wo
 
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" alt="">
 </a>
 <br/>
 
@@ -51,8 +51,8 @@ Once you have picked the right name for your agent, move on to **Description** t
 <br/>
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2-rs.jpg" alt="">
 </a>
 <br/>
 
@@ -69,8 +69,8 @@ To fully leverage the capabilities of your SeaChat agent, we need to add knowled
 Feel free to try out the different ways to upload data to your knowledge base. For the purposes of this tutorial, we'll focus on utilizing the **Upload Spreadsheet** method. However, if you're interested in exploring additional data uploading techniques, we invite you to take a look at the [Add Knowledge]( /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro) section within our user manual for comprehensive instructions and tips.
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step3.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step3.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step3-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step3-rs.jpg" alt="">
 <a/>
 <br/>
 
@@ -82,8 +82,8 @@ Download the sample .csv file [here](/sample-files/ncc_Car_Parks.csv), and try i
 
 <br/>
 
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-rs.jpg" alt="">
 </a>
 <br/>
 
@@ -93,8 +93,8 @@ Download the sample .csv file [here](/sample-files/ncc_Car_Parks.csv), and try i
 To see the uploaded data of parking lots, we simply navigate to the **Existing** section in the top-right corner of the dashboard once your files have been successfully uploaded.
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2-rs.jpg" alt="">
 </a>
 <br/>
 
@@ -103,8 +103,8 @@ To see the uploaded data of parking lots, we simply navigate to the **Existing**
 That’s it. Now, My Parking Agent has processed the uploaded data, and let’s set it up for a test to see if it needs further fine-tuning. Click on the **Test AI Agent** button located in the bottom-right corner. Let's try chatting with My Parking Agent to see if we can optimize its performance!
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3-rs.jpg" alt="">
 <a/>
 <br/>
 
@@ -114,7 +114,7 @@ Before putting the AI agent we've just created into action, it’s crucial to tr
 With its updated knowledge base, My Parking Agent is now ready to be tested. You can start by asking questions to see how your agent responds. Here is what my agent has to say.
 
 <br/>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1.jpg" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" alt="">
 <br/>
 
 <br/>
@@ -124,7 +124,7 @@ To review a message, hover over it and provide positive feedback to your agent w
 Oops, it looks like My Parking Agent needs some fine-tuning. I will give a thumbs down here to provide a feedback.
 
 <br/>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2.jpg" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" alt="">
 <br/>
 
 ## Step 6:  SeaChat Agent Fine-Tuning
@@ -132,8 +132,8 @@ Oops, it looks like My Parking Agent needs some fine-tuning. I will give a thumb
 SeaChat provides a set of sophisticated tools for you to fine-tune your agent to perfection. You can find these amazing features in the **Needs Review** section, accessible via the sidebar menu on the left. Here, you can review the responses that have received your feedback.
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1-rs.jpg" alt="">
 </a>
 <br/>
 
@@ -142,8 +142,8 @@ SeaChat provides a set of sophisticated tools for you to fine-tune your agent to
 It looks like the information about Unicorn Road Car Park is missing in the knowledge base of My Parking Agent. I need to click on the CSV file that the missing information belongs to and add it.
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" alt="">
 <a/>
 <br/>
 
@@ -153,16 +153,16 @@ Now, click save once you are sure of the uploaded information. Don't forget to c
 You can switch to **Reviewed** section to see the changes you've made. All done! Now, let's test the agent again to see if it has improved.
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3-rs.jpg" alt="">
 </a>
 <br/>
 
 Ta-da! My Parking Agent now is giving me the right information. It is that easy! You can now try it out yourself and see how your agent performs.
 
 <br/>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4.jpg" alt="">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4-rs.jpg" alt="">
 </a>
 <br/>
 
