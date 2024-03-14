@@ -22,19 +22,19 @@ toc: true
 如果您還沒有SeaChat帳戶， 您可以在 [SeaChat網站](https://chat.seasalt.ai/)免費註冊！ 然後您可以將構建好的AI助理，移至您的Shopify網站上。
 
 ## 步驟2：開啟Shopify
-前往您的Shopify儀表板，從選單中點擊「線上商店」。
+前往您的Shopify儀表板，從選單中點擊「Online Store」。
 
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/shopify/20240228-shopify_integration_step1.png" alt="Go to your Shopify dashboard and click on Online Store from the menu.">
 
 
 ## 步驟3：在Shopify上編輯程式
-點擊您目前主題旁邊的刪節號圖標，選擇「編輯程式」並開始編輯。
+點擊您目前主題旁邊的刪節號圖標<mark>•••</mark>，選擇「Edit Code」並開始編輯。
 
 
 <img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/shopify/20240228-shopify_integration_step2.png" alt="Start editing by clicking the ellipsis icon next to your current theme and choosing Edit code.">
 
 ## 步驟4：點擊theme.liquid
-點擊左側面板上的「theme.liquid」。
+點擊左側面板上的「</> theme.liquid」。
 
 
 <img width="40%" style="border-radius: 0.4rem" src="/images/seachat-integrations/shopify/20240228-shopify_integration_step3.png" alt="Click on “theme.liquid” on the left side panel.">
@@ -59,8 +59,8 @@ toc: true
 <img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/shopify/20240228-shopify_integration_step5.png" alt="Click “Save” button on top right. Click “Preview Store” to test the AI agent. Remember to launch the store again when you are ready!">
 
 
-## 步驟7：（可選）中斷其他聊天機器人
-請中斷任何其他的聊天機器人服務，如Shopify Inbox，以避免混淆。對於Shopify用戶們，請在您的網站的自定頁面切換成禁用「應用嵌入」。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
+## 步驟7：（Optional）移除其他聊天機器人
+請移除任何其他的聊天機器人服務，如Shopify Inbox，以避免混淆。對於Shopify用戶們，請在您的網站的自定頁面切換成禁用「Apps embeds」。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
 
 ### 協助支援
 需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).

@@ -22,20 +22,20 @@ toc: true
 
 
 ## 步驟2：開啟Squarespace
-前往您的Squarespace網站的儀表板上。在側邊選單上選擇「網站」。
+前往您的Squarespace網站的儀表板上。在側邊選單上選擇「Website」。
 
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
 
 
 ## 步驟3：開啟網站工具
-接著，在側邊選單中選擇「網站工具」。
+接著，在側邊選單中選擇「Website Tools」。
 
 
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Click on Website Tools on Squarespace">
 
 
 ## 步驟4：開啟程式注入
-在側邊選單中選擇「程式注入」。
+在側邊選單中選擇「Code Injection」。
 
 
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step3.png" alt="Select Code Injection in the sidebar menu.">
@@ -50,16 +50,16 @@ toc: true
 
 ## 步驟6：儲存並預覽
 
-使用Squarespace上的「預覽」功能來測試AI助理。當您準備好時，記得重新啟動網站！
+使用Squarespace上的「Preview」功能來測試AI助理。當您準備好時，記得重新啟動網站！
 
 **非常重要**: 如果您想要配置小工具的樣式，請前往「頻道」->「網頁AI助理」->「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 
 <img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step5.png" alt="Preview SeaChat agent on website">
 
 
-## 步驟7：（可選）中斷其他聊天機器人
+## 步驟7：（Optional）移除其他聊天機器人
 
-請中斷任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心從「程式注入」部分移除。
+請移除任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心從「Code Injection」部分移除。
 
 ### 協助支援
 需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
