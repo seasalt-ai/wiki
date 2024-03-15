@@ -8,7 +8,7 @@ weight: 32
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
+  - /en/seachat/seachat-intro/03-add-knowledge/spreadsheert-upload/
 ---
 
 ## Overview
