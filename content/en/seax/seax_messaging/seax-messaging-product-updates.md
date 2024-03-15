@@ -15,6 +15,14 @@ weight: 104
 toc: true
 ---
 
+### 03/14/2024
+##### **<font color="#739963">New Feature</font>** 
+- Added translation to the Plan Description.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Rectified the disappearance of the "Edit Contact's add label" button.
+- Addressed the issue with the campaign page getting stuck when there are no campaigns.
+
 ### 03/07/2024
 ##### **<font color="#739963">New Feature</font>** 
 - Webchat widget: Adding agent icon to popup message
