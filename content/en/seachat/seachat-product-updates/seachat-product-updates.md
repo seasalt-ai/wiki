@@ -15,6 +15,16 @@ weight: 101
 toc: true
 ---
 
+### 03/14/2024
+##### **<font color="#739963">New Features</font>** 
+Language Model Optimization:
+- Upgraded SeaChat Agent model
+- Enhanced appointment scheduling prompt improvements.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed random language summaries.
+
+
 ### 03/07/2024
 ##### **<font color="#739963">New Features</font>** 
 - Knowledge Base: Now supports Video, Audio, and Spreadsheet files, enabling more comprehensive content sharing and collaboration.

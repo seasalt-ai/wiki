@@ -15,6 +15,15 @@ weight: 101
 toc: true
 ---
 
+### 03/14/2024
+##### **<font color="#739963">New Features</font>** 
+- Onboarding optimization: Enhanced onboarding experience for workspace creation and initial meeting guidance.
+- Unregistered user notifications: Notifying users when they have used an unregistered account to send meeting invitations to the copilot.
+- Plan description translation: Added translation to Plan Description.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Resolved onboarding issue during workspace creation.
+
 ### 03/07/2024
 ##### **<font color="#739963">New Features</font>** 
 - User status: Support adjusting team members status to active & inactive for better member list management.
