@@ -24,7 +24,7 @@ toc: true
 ## 步驟2：開啟Squarespace
 前往您的Squarespace網站的儀表板上。在側邊選單上選擇「Website」。
 
-<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration-step1.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
 
 
 ## 步驟3：開啟網站工具
@@ -32,7 +32,6 @@ toc: true
 
 
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Click on Website Tools on Squarespace">
-
 
 ## 步驟4：開啟程式注入
 在側邊選單中選擇「Code Injection」。
@@ -44,7 +43,7 @@ toc: true
 ## 步驟5：複製SeaChat程式
 您需要登入SeaChat才能查看此程式片段。您可至[SeaChat](https://chat.seasalt.ai/)免費註冊。在SeaChat儀表板的工作區內導航至「AI助理配置」->「頻道」，並在Squarespace頻道下，來取得所需的程式片段。
 
-從Seachat上的Squarespace整合設置中取得的SeaChat程式片段，並貼上到HEADER文本框中。記得按「儲存」。
+從Seachat上的Squarespace整合設置中取得的SeaChat程式片段，並貼上到HEADER文本框中。記得按「Save」。
 
 <img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step4.png" alt="Paste the SeaChat code snippet in the HEADER text box. Remember to click SAVE.">
 

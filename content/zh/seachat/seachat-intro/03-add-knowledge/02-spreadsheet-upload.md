@@ -11,7 +11,7 @@ aliases:
   - /zh/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
 ---
 
-## 概述
+## 關於電子試算表上傳
 SeaChat 提供四種方法來上傳文件到您的助理。在本教學中，我們將專注於**上傳電子表格**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 
 ## 創建 SeaChat 助理
