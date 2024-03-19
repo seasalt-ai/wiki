@@ -38,8 +38,8 @@ By clicking on the upload button, you can submit to your agent choosing from var
 > :rotating_light: **Note** :rotating_light:
 > 
 > Before uploading the file, check if the files meet the two following requirements:
-> - Table must be headers in the first row.
-> - The content in any row may not exceed 2000 tokens.
+> - Your spreadsheet table must use the first row as the header. If your header is the first column, please [transpose your table](https://support.microsoft.com/en-us/office/transpose-rotate-data-from-rows-to-columns-or-vice-versa-3419f2e3-beab-4318-aae5-d0f862209744) first.
+> - The content in any row may not exceed 2000 tokens. If your row exceeds this limit, please contact us!
 > 
 > Check **Upload Guidelines** for more information.
 
@@ -71,6 +71,13 @@ Click on the file you just uploaded to review the content. That's it! You have s
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step6.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
+
+## Under the Hood
+
+Why does SeaChat single out spreadsheet/table uploads? Because we believe spreadsheet/table are the most common way that any users organize their knowledge base. Yet special attention needs to be paid to optimize a Large Language Model's (e.g. ChatGPT) ability to understand tables:
+
+1. We sacrifice space in exchange for understanding accuracy. In each data row, the actual values are prefixed with their header fields. So when a table becomes too big, the LLM/ChatGPT does not lose context.
+2. Because of the limited context length of LLMs, we limit each row to be more than 2,000 tokens.
 
 
 
