@@ -1,7 +1,13 @@
 
+/en/seachat/seachat-integrations/shopify/ /zh/seachat/seachat-integrations/01-seachat-shopify-integration/
+/seachat/seachat-integrations/shopify/ /zh/seachat/seachat-integrations/01-seachat-shopify-integration/
 /zh/seachat/01-seachat-intro/ /zh/seachat/seachat-intro/01-seachat-intro/
+/en/seachat/seachat-integrations/squarespace/ /zh/seachat/seachat-integrations/02-seachat-squarespace-integration/
+/seachat/seachat-integrations/squarespace/ /zh/seachat/seachat-integrations/02-seachat-squarespace-integration/
 /zh/seachat/02-create-agent/ /zh/seachat/seachat-intro/02-create-agent/
-/zh/seachat/03-add-knowledge/ /zh/seachat/seachat-intro/03-add-knowledge/
+/zh/seachat/seachat-intro/03-add-knowledge/ /zh/seachat/seachat-intro/03-add-knowledge/
+/zh/seachat/seachat-intro/03-add-knowledge/01-add-knowledge-intro/ /zh/seachat/seachat-intro/03-add-knowledge/01-add-knowledge-intro/
+/zh/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro /zh/seachat/seachat-intro/03-add-knowledge/02-spreadsheet-upload/
 /zh/seachat/04-test-improve-knowledge/ /zh/seachat/seachat-intro/04-test-improve-knowledge/
 /zh/seachat/05-install-on-line/ /zh/seachat/seachat-intro/05-install-on-line/
 /zh/seachat/06-install-on-webpage/ /zh/seachat/seachat-intro/06-install-on-webpage/
