@@ -12,7 +12,7 @@ aliases:
 ---
 
 ## Overview
-SeaChat provides four methods to upload files to your agent. We will focus on the "Upload Spreadsheet" method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
+SeaChat provides four methods to upload files to your agent. We will focus on the **Upload Spreadsheet** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
 
 
 ## Create a SeaChat Agent
@@ -20,7 +20,7 @@ If you don't have a SeaChat account yet, you can sign up for free at [SeaChat we
 
 
 ## Open Knowledge Base
-Find your agent's knowledge base by navigating to the "Knowledge Base" dashboard under "Agent Configuration" in the sidebar menu. By choosing "Upload Spreadsheet", you can upload a .csv or .xlsx file to your agent.
+Find your agent's knowledge base by navigating to the **Knowledge Base** dashboard under **Agent Configuration** in the sidebar menu. By choosing **Upload Spreadsheet**, you can upload a .csv or .xlsx file to your agent.
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
@@ -41,7 +41,7 @@ By clicking on the upload button, you can submit to your agent choosing from var
 > - Table must be headers in the first row.
 > - The content in any row may not exceed 2000 tokens.
 > 
-> Check "Upload Guidelines" for more information.
+> Check **Upload Guidelines** for more information.
 
 ## Before Submission
 SeaChat allows users to upload in bulk. You can see the status of each uploading file in the section below the drag-and-drop zone.
@@ -51,7 +51,7 @@ SeaChat allows users to upload in bulk. You can see the status of each uploading
 <br/>
 <br/>
 
-Scroll further down for the dedicated preview window that will list the first 10 rows of your spreadsheet. Once you have included all the files to be uploaded, you can upload them by clicking on the “Next” button.
+Scroll further down for the dedicated preview window that will list the first 10 rows of your spreadsheet. Once you have included all the files to be uploaded, you can upload them by clicking on the **Next** button.
 
 ###### Preview Example:
 <br/>
@@ -59,14 +59,14 @@ Scroll further down for the dedicated preview window that will list the first 10
 
 
 ## Submit to Existing Knowledge Base
-Voilà! You have successfully customized your chatbot agent with new knowledge. To view the files uploaded, you can navigate to the "Existing" section in the top-right corner of the page, where you can find the uploaded data waiting for you in the "Files" section.
+Voilà! You have successfully customized your chatbot agent with new knowledge. To view the files uploaded, you can navigate to the **Existing** section in the top-right corner of the page, where you can find the uploaded data waiting for you in the **Files** section.
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step5.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
 
 ## Review your Knowledge Base
-Click on the file you just uploaded to review the content. That's it! You have successfully uploaded a spreadsheet to your SeaChat agent. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the next part of the tutorial.
+Click on the file you just uploaded to review the content. That's it! You have successfully uploaded a spreadsheet to your SeaChat agent. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the **Advance** section of the tutorial.
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240306-spreadsheet-tutorial-step6.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
