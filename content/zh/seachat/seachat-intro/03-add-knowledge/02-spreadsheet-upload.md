@@ -4,7 +4,7 @@ description: "SeaChat 試算表上傳"
 lead: ""
 date: 2024-03-11 10:43:51.069 +0100
 lastmod: 2024-03-11 10:43:51.069 +0100
-weight: 32
+weight: 31
 draft: false
 images: []
 aliases:
@@ -71,7 +71,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 
 
-## `協助支援
+## 協助支援
 需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).`
 
  
