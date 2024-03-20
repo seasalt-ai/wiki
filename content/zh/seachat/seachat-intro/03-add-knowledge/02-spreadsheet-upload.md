@@ -12,7 +12,7 @@ aliases:
 ---
 
 ## 關於電子試算表上傳
-SeaChat 提供四種方法來上傳文件到您的助理。在本教學中，我們將專注於**上傳電子表格**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
+SeaChat 提供多種方法來上傳文件到您的助理。在本教學中，我們將專注於**上傳電子表格**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 
 ## 創建 SeaChat 助理
 
@@ -71,7 +71,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 
 
-## 協助支援
-需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+## `協助支援
+需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).`
 
  
