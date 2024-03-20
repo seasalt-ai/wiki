@@ -78,7 +78,7 @@ SeaChat 提供許多不同文件上傳到您助理的方式。在本教學中，
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
 
-## :brain: 運作原理``
+## :brain: 運作原理
 
 使用這個功能時請注意以下幾點:
 
