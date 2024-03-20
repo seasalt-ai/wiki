@@ -11,7 +11,7 @@ aliases:
   - /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
 ---
 
-## Overview````
+## Overview
 SeaChat provides many methods to upload files to your agent. We will focus on the **Upload Spreadsheet** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
 
 
