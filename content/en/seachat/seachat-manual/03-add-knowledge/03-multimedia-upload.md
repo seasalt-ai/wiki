@@ -42,7 +42,7 @@ By clicking on the upload button, you can submit to your agent choosing from var
 > Before uploading the file, check if the files meet the following requirements:
 > - The media content must be in English or Chinese.
 > - The file's duration should not exceed 15 minutes.
-> - (Optional) Currently, SeaChat does not have speaker identification for video/audio transcription. If you need speaker identification in your transcription, please transcribe the file else where and upload the transcription to knowledge base as text document.
+> - (Optional) After the audio/video files are uploaded, SeaChat will turn them into transcriptions in text format. Currently, SeaChat does not have speaker identification for video/audio transcription. If you need speaker identification in your transcription, please transcribe the file else where and upload the transcription to knowledge base as text document.
 
 ## Check the language
 Make sure to choose the correct media language for the audio or video file. For now SeaChat supports English and Traditional Chinese. Once you have included all the files to be uploaded, you can upload them by clicking on the **Submit** button.
@@ -83,7 +83,7 @@ There are a few things to note to use this function properly:
 
 Many of our customers build up their knowledge base with past customer service conversations. Many of them use audio files from WhatsApp and Facebook Messenger conversations, which are often audio message containing one speaker and is less than 1 minute. The multimedia upload feature is a natural extension of this. 
 
-If you do have past customer conversations in audio or video file formats, give it a try and upload to knowledge base. Your AI agent can definitely learn from past customer service coversation to generate quality responses.
+If you do have past customer conversations in audio or video file formats, give it a try and upload to knowledge base. Your AI agent can definitely learn from past customer service coversations to generate quality responses.
 
 
 ## Support
