@@ -8,26 +8,13 @@ weight: 32
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
+  - /en/seachat/seachat-intro/03-add-knowledge/multimedia-upload/
 ---
 
 ## Overview
-Audio and video files can be used as knowledge base for your SeaChat agent too! Usually one can first transcribe these files to text, then upload to AI agent platform. SeaChat takes care of the transcription step for you by directly accepting audio/video files!
+Audio and video files can be used as knowledge base for your SeaChat agent too! Usually one would first transcribe these files to text, then upload the text documents to AI agent's knowledge base. SeaChat takes care of the transcription step for you by directly accepting audio/video files!
 
-SeaChat provides many methods to upload files to your agent. We will focus on the **Transcribe Audio/Video** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
-
-## Why Do We Need Audio/Video Upload?
- The audio/video file uploads seem to be very limited than other transcription services. Why do you still list it out as a standalone feature? Because SeaChat implemented a feature that supports audio input from WhatsApp and Facebook Messenger, so that your chat agent understands speech input. Then we used the same pipeline to accept audio/video uploads!
-
- Each WhatsApp and Messenger audio message usually contains one speaker and is less than 1 minute. The multimedia upload feature is a natural extension of this.
-
-> :exclamation:**IMPORTANT**:exclamation:
->
-> Note that the current implementation assumes the following:
-> 1. Language is either English or Chinese
-> 2. There is only one speaker in the file
-> 3. Total length is less than 15 minutes
-
+SeaChat provides many methods to upload files to your agent. We will focus on the **Transcribe Audio/Video** method in this tutorial.
 
 
 ## Create a SeaChat Agent
@@ -38,10 +25,10 @@ If you don't have a SeaChat account yet, you can sign up for free at [SeaChat we
 Find your agent's knowledge base by navigating to the **Knowledge Base** dashboard under **Agent Configuration** in the sidebar menu. By choosing **Transcribe Audio/Video**, you can upload a video or audio file to your agent.
 
 <br/>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a video or audio file to an agent by selecting Transcribe Audio/Video.">
 
 ## Upload File
-By clicking on the upload button, you can submit to your agent choosing from various file formats[^1]. The file will be processed and the knowledge base will be updated accordingly once submitted.
+By clicking on the upload button, you can submit to your agent choosing from various file formats[^1]. The file will be processed, transcribed into text format, and fed into knowledge base once submitted.
 [^1]: SeaChat supports .wav, .flac, .aac, .opus, .mp3, .mp4, .ogg, .m4a files.
 
 <br/>
@@ -52,16 +39,16 @@ By clicking on the upload button, you can submit to your agent choosing from var
 
 > :rotating_light: **Note** :rotating_light:
 >
-> Before uploading the file, check if the files meet the two following requirements:
+> Before uploading the file, check if the files meet the following requirements:
 > - The media content must be in English or Chinese.
 > - The file's duration should not exceed 15 minutes.
+> - (Optional) Currently, SeaChat does not have speaker identification for video/audio transcription. If you need speaker identification in your transcription, please transcribe the file else where and upload the transcription to knowledge base as text document.
 
 ## Check the language
 Make sure to choose the correct media language for the audio or video file. For now SeaChat supports English and Traditional Chinese. Once you have included all the files to be uploaded, you can upload them by clicking on the **Submit** button.
 
 Note that the English/Chinese support only means that your uploaded audio/video files are transcribed into
-corresponding language. SeaChat, powered by an LLM in the backend, is multilingual. This means that a user
-can talk with SeaChat in a totally different language. 
+corresponding language. 
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
@@ -89,11 +76,17 @@ There are a few things to note to use this function properly:
 
 1. For video files, SeaChat does not do anything with the video content. All it does is to extract the audio tracks from the video, and transcribe the audio to text, which can be used in the KB.
 2. For each transcribed audio and video, you can check the transcription quality in Existing Knowledge Base.
-3. If you have multimedia files in another language, feel free to transcribe them to text, and then upload to Seachat -- it achieves the same goal. 
-4. For the audio/video file, SeaChat assumes there's only one speaker in the file. That is, SeaChat does not perform diarization or speaker identification. If you have an audio file that contains a conversation (such as a two-person podcast), you should first transcribe it and start each line with the speaker name if applicable.
+3. If you have multimedia files in another language, feel free to transcribe them to text, and then upload to Seachat as text documents -- it achieves the same goal. 
+4. For the audio/video file, SeaChat assumes there's only one speaker in the file. That is, SeaChat does not perform diarization or speaker identification. If you have an audio file that contains a conversation (such as a two-person podcast), you can first transcribe it and start each line with the speaker name if applicable. Then, you can upload the transcript as a text document on knowledge base.
+
+ ## Why Do You Need Audio/Video Upload?
+
+Many of our customers build up their knowledge base with past customer service conversations. Many of them use audio files from WhatsApp and Facebook Messenger conversations, which are often audio message containing one speaker and is less than 1 minute. The multimedia upload feature is a natural extension of this. 
+
+If you do have past customer conversations in audio or video file formats, give it a try and upload to knowledge base. Your AI agent can definitely learn from past customer service coversation to generate quality responses.
 
 
 ## Support
 Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
 
- 
+
