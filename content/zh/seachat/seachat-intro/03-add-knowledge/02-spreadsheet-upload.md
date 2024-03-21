@@ -18,7 +18,7 @@ SeaChat 提供四種方法來上傳文件到您的助理。在本教學中，我
 
 如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-intro/02-create-agent/) 找到所有你需要的資訊。
 
-## 開起知識庫
+## 打開知識庫
 在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**上傳電子表格**，您就可以上傳 .csv 或 .xlsx 文件到您的AI助理。
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/spreadsheet/20240313-spreadsheet-tutorial-step2.jpg" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
@@ -37,7 +37,7 @@ SeaChat 提供四種方法來上傳文件到您的助理。在本教學中，我
 >
 > 上傳文件前，請檢查文件是否符合以下兩個要求：
 > - 表格必須在第一行有標題。
-> - 單一行的內容不得超過 2000 個詞元。
+> - 單一行的內容不得超過 2000 個tokens。
 > 參考**表格上傳準則**以獲取更多信息。
 
 ## 送出文件前
@@ -56,7 +56,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 
 ## 送出至現有知識庫
-你看! 您已成功地將新知識自訂到您的聊天機器人代理中。要查看已上傳的檔案，您可以至頁面右上角的**現有知識**區塊，在那裡您可以在**上傳檔案**區段找到等待您的上傳資料。
+您已成功地將新知識加入到您的聊天助理的知識庫中。要查看已上傳的檔案，您可以至頁面右上角的**現有知識**區塊，在那裡您可以在**上傳檔案**找到等待您的已上傳的資料。
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/spreadsheet/20240313-spreadsheet-tutorial-step5.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
@@ -64,14 +64,12 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 ## 檢查知識庫
 
-點擊您剛剛上傳的檔案並檢視內容。大功造成！您已成功地將一份試算表格上傳到您的SeaChat代理中。您現在可以使用知識庫來測試您的助理。SeaChat提供了額外的設定來客制您的知識庫，我們將在教學的下一部分繼續探索這些功能。
+點擊您剛剛上傳的檔案並檢視內容。大功告成！您已成功地將一份試算表格上傳到您的SeaChat助理的知識庫中。您現在可以使用知識庫來測試您的助理。SeaChat提供了進階的設定來客制您的知識庫，我們將在教學的下一部分繼續探索這些功能。
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/spreadsheet/20240313-spreadsheet-tutorial-step6.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
 
-
-
-## 協助支援
-需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+## 需要幫忙
+需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
 
  
