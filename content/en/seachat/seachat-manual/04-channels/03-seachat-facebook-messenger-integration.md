@@ -7,10 +7,11 @@ draft: false
 images: []
 menu:
   seachat:
-    parent: "seachat-integrations"
+    parent: "seachat-manual"
 aliases:
    - /en/seachat/seachat-integrations/facebook-messenger/
    - /seachat/seachat-integrations/facebook-messenger/
+   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
 weight: 30
 toc: true
 ---

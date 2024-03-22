@@ -10,7 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
    - /en/seachat/seachat-intro/01-introduction/
-weight: 40
+weight: 60
 toc: true
 ---
 
