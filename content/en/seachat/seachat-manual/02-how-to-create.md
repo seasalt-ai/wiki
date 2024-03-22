@@ -10,7 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
    - /en/seachat/seachat-intro/02-how-to-create/
-weight: 20
+weight: 10
 toc: true
 ---
 
