@@ -12,17 +12,17 @@ aliases:
 ---
 
 ## 簡介
-您加入多媒體檔到SeaChat助理的知識庫中！不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字步驟，現可直接上傳多媒體檔案到知識庫！
+加入多媒體檔到SeaChat助理的知識庫中，不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字的步驟，現在，你可直接上傳多媒體檔案到知識庫中！
 
-SeaChat 提供許多不同文件上傳到您助理的方式。在本教學中，我們將專注於**轉錄音訊/影訊**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
+SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學中，我們將專注於**轉錄音訊/影訊**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 
 ## 為什麼需要轉錄多媒體檔案?
-因為SeaChat支持從WhatsApp和Facebook Messenger的音頻輸入，而您的聊天助理能夠理解這些語音輸入。然後我們使用相同的管道來接受音頻/視頻的上傳！
-每個WhatsApp和Messenger的音頻訊息通常包含一個發言者，且小於1分鐘。多媒體上傳功能是這個功能的延伸。
+因為SeaChat支援從WhatsApp和Facebook Messenger的音頻輸入，而您的聊天助理能夠理解這些語音輸入。我們使用相同的管道來進行音頻/視頻的上傳！
+每個WhatsApp和Messenger的音頻訊息通常只包含一個發言者，且檔案長度小於1分鐘。多媒體上傳功能是這個功能的延伸。
 
 > :exclamation:**重要提醒**:exclamation:
 >
-> 請注意，您的多媒體檔案需符合以下假設：
+> 請注意，您的多媒體檔案需符合以下條件：
 > 1. 語言是英文或中文
 > 2. 檔案中只有一位發言者
 > 3. 總長度少於15分鐘
@@ -52,11 +52,12 @@ SeaChat 提供許多不同文件上傳到您助理的方式。在本教學中，
 > 上傳文件前，請檢查文件是否符合以下兩個要求:
 > - 媒體內容必須是英文或中文。
 > - 文件的時長不得超過15分鐘。
+
 ## 檢查語言
 
-請確認已選擇的多媒體檔案是否正確。目前SeaChat支持英文和繁體中文。一旦您確認了所有上傳的文件，您可以點擊提交按鈕進行上傳。
+請確認已選擇的多媒體檔案是否正確。目前SeaChat支援英文和繁體中文。一旦您確認了所有上傳的文件，您可以點擊**提交**按鈕進行上傳。
 
-請注意，英文/中文支持僅意味著您上傳的音頻/視頻文件會被轉錄成相應的語言。SeaChat後端是由一個大型語言模型(LLM)所驅動的，也是多語言的。這代表的用戶可以用完全不同的語言與SeaChat進行對話。
+請注意，英文/中文支援僅意味著您上傳的音頻/視頻文件會被轉錄成相應的語言。SeaChat後端是由一個大型語言模型(LLM)所驅動的，是之多語言的。這代表的用戶可以用完全不同的語言與SeaChat進行對話。
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
@@ -65,14 +66,14 @@ SeaChat 提供許多不同文件上傳到您助理的方式。在本教學中，
 
 
 ## 送出至現有知識庫
-你看! 您已成功地將新知識自訂到您的聊天機器人代理中。要查看已上傳的檔案，您可以至頁面右上角的**現有知識**區塊，在那裡您可以在**上傳檔案**區段找到等待您的上傳資料。
+你看! 您已成功地將新知識自訂到您的聊天機器人助理中。要查看已上傳的檔案，您可以至頁面右上角的**現有知識**區塊，在那裡您可以在**上傳檔案**裡找到等待您的上傳資料。
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Submit' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 
 
 ## 檢查知識庫
-點擊您剛剛上傳的檔案並檢視內容。大功造成！您已成功地將一份試算表格上傳到您的SeaChat代理中。您現在可以使用知識庫來測試您的助理。SeaChat提供了額外的設定來客制您的知識庫，我們將在教學的下一部分繼續探索這些功能。
+點擊您剛剛上傳的檔案並檢視內容。大功告成！您已成功地將一份試算表格上傳到您的SeaChat助理中。您現在可以使用知識庫來測試您的助理。SeaChat提供了額外的設定來客制您的知識庫，我們將在教學的下一部分繼續探索這些功能。
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
