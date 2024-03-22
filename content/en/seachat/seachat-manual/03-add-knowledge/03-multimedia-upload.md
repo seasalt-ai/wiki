@@ -1,5 +1,5 @@
 ---
-title: "Audio/Video Knowledge Base"
+title: "Audio/Video File"
 description: "SeaChat from Seasalt.ai transcribes Audio/Video files in knowledge base"
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100

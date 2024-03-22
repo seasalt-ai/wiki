@@ -11,6 +11,7 @@ menu:
 aliases:
    - /en/seachat/seachat-integrations/shopify/
    - /seachat/seachat-integrations/shopify/
+   - /seachat/seachat-integrations/05-seachat-google-calendar-integration/
 weight: 10
 toc: true
 ---
