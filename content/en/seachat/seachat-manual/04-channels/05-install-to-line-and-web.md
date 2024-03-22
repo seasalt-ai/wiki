@@ -1,6 +1,6 @@
 ---
-title: "Install on Webpage and LINE"
-description: "SeaChat User Guide"
+title: "Webpage and LINE"
+description: "Install SeaChat on Webpage and LINE"
 date: 2022-11-22T08:48:57+00:00
 lastmod: 2022-11-22T08:48:57+00:00
 draft: false
@@ -10,6 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
    - /en/seachat/seachat-intro/01-introduction/
+   - /seachat/seachat-manual/05-install-to-line-and-web/
 weight: 50
 toc: true
 ---

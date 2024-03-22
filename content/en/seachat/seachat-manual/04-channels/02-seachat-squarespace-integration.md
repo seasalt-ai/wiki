@@ -1,16 +1,17 @@
 ---
 title: "Squarespace"
 description: "Bring SeaChat to your Squarespace webpage"
-date: 2022-11-22T08:48:57+00:00
-lastmod: 2022-11-22T08:48:57+00:00
+date: 2024-03-10T08:48:57+00:00
+lastmod: 2024-03-10T08:48:57+00:00
 draft: false
 images: []
 menu:
   seachat:
-    parent: "seachat-manual"
+    parent: "seachat-integrations"
 aliases:
    - /en/seachat/seachat-integrations/squarespace/
    - /seachat/seachat-integrations/squarespace/
+   - /seachat/seachat-integrations/02-seachat-squarespace-integration/
 weight: 20
 toc: true
 ---
