@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   seachat:
-    parent: "seachat-manual"
+    parent: "seachat-integrations"
 aliases:
    - /en/seachat/seachat-integrations/squarespace/
    - /seachat/seachat-integrations/squarespace/
