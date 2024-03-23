@@ -1,5 +1,5 @@
 ---
-title: "試算表上傳"
+title: "上傳試算表"
 description: "SeaChat 試算表上傳"
 lead: ""
 date: 2024-03-11 10:43:51.069 +0100
@@ -12,15 +12,15 @@ aliases:
 ---
 
 ## 關於電子試算表上傳
-SeaChat 提供多種方法來上傳文件到您的助理。在本教學中，我們將專注於**上傳試算表**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
+SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教學中，我們將專注於**上傳試算表**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 
 ## 創建 SeaChat 助理
 
-如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-intro/02-create-agent/) 找到所有你需要的資訊。
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-intro/02-create-agent/) 找到創建AI助理的步驟。
 
 
-## 開起知識庫
-在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**上傳試算表**，您就可以上傳 .csv 或 .xlsx 文件到您的AI助理。
+## 開啟知識庫
+在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**上傳試算表**，您就可以上傳 .csv 或 .xlsx 等電子試算表文件到您的AI助理知識庫。
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/spreadsheet/20240313-spreadsheet-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
@@ -50,16 +50,16 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <br/>
 <br/>
 
-向下滾動以查看專用的預覽窗口，該窗口將列出您的試算表格的前10行。一旦確認所有要上傳的檔案，您可以點擊**繼續**按鈕進行上傳。
+向下滾動以查看專用的預覽窗口，該窗口將列出您的試算表格的前10行。一旦確認所有要上傳的檔案無誤，您可以點擊**繼續**按鈕進行上傳。
 
 ###### 預覽範例:
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/spreadsheet/20240313-spreadsheet-tutorial-step4-table-example.jpg" alt="An example of table preview">
 
 
-## 送出至現有知識庫
+## 已添加到知識庫
 
-你看! 您已成功地將新知識自訂到您的聊天機器人助理中。要查看已上傳的檔案，您可以至頁面右上角的**現有知識**區塊，在那裡您可以在**上傳檔案**裡找到等待您的上傳資料。
+您已成功上傳新知識。要查看已上傳的檔案，您可以至頁面右上角的「**現有知識**」區塊，在那裡您可以在「**上傳檔案**」裡找到剛剛上傳的資料。
 
 
 <br/>
@@ -68,8 +68,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 ## 檢查知識庫
 
-
-點擊您剛剛上傳的檔案並檢視內容。大功告成！您已成功地將一份試算表格上傳到您的SeaChat助理中。您現在可以使用知識庫來測試您的助理。SeaChat提供了額外的設定來客制您的知識庫，我們將在教學的下一部分繼續探索這些功能。
+點擊您剛剛上傳的檔案並檢視內容。大功告成！您已成功地將一份試算表格上傳到您的SeaChat助理中。您現在可以使用知識庫來測試您的助理。SeaChat還有更多設置能用來客制您的知識庫，我們將在教學的下一部分繼續探索這些進階功能。
 
 <br/>
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/spreadsheet/20240313-spreadsheet-tutorial-step6.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">

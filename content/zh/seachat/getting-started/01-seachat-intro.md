@@ -1,6 +1,6 @@
 ---
-title: "新手上路"
-description: "SeaChat 新手上路"
+title: "簡介"
+description: "SeaChat 簡介"
 date: 2022-11-22T08:48:57+00:00
 lastmod: 2022-11-22T08:48:57+00:00
 draft: false
