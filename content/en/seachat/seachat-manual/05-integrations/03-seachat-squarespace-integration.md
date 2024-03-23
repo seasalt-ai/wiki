@@ -12,7 +12,7 @@ aliases:
    - /en/seachat/seachat-integrations/squarespace/
    - /seachat/seachat-integrations/squarespace/
    - /seachat/seachat-integrations/02-seachat-squarespace-integration/
-weight: 20
+weight: 30
 toc: true
 ---
 

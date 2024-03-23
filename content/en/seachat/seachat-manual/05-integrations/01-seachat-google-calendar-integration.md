@@ -12,7 +12,7 @@ aliases:
    - /en/seachat/seachat-integrations/google-calendar/
    - /seachat/seachat-integrations/google-calendar/
    - /seachat/seachat-integrations/05-seachat-google-calendar-integration/
-weight: 50
+weight: 10
 toc: true
 ---
 
