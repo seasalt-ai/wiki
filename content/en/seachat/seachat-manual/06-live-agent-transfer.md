@@ -76,7 +76,7 @@ The chat conversation will let your customer know how many live agents are curre
 <br/>
 
 
-## LINE Channel
+## How to Request Live Agent on LINE
 
 Once you have integrated the LINE channel, your customer will see the **Live Agent** button at the button of the LINE chat. The customer can click on the **Live Agent** button to request a live agent during the chat conversation.
 
