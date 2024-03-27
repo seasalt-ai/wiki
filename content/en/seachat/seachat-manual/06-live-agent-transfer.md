@@ -60,8 +60,10 @@ Once the live agent has completed the conversation, the conversation will be mar
 
 > :open_book: **Note**
 > 
-> The WebChat widget will be the same for **Shopify** and **Squarespace**. The only difference is the way you integrate the widget into your website. Check [Integration](/en/seachat/seachat-manual/integrations/) for more information on how to do that.
->
+> The WebChat widget will be the same for **Shopify** and **Squarespace**. The only difference is the way you integrate the widget into your website. 
+> 
+> Check [Integration](/en/seachat/seachat-manual/integrations/) for more information on how to do it.
+
 
 The Webpage Widget Channel is a channel that allows you to embed the SeaChat widget on your website. This channel is the most common channel used by businesses to provide customer support. 
 
