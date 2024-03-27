@@ -17,7 +17,7 @@ In this tutorial, we will show you how to transfer to a live agent during chat c
 
 ## Setting it up
 
-Before you integrate your custom AI agent into your production, we need to make sure that the live agent feature is enabled in your SeaChat account. Go to **Agent Information** under **Agent Configuration**. You can see all the basic settings for your AI agent. If you want to reconfigure your agent or simply to have an overview of your agent, You can do them all here.
+Before you integrate your custom AI agent into your production, we need to make sure that the live agent feature is enabled in your SeaChat account. Go to **Agent Information** under **Agent Configuration**. You can see all the basic settings for your AI agent. If you want to reconfigure your agent or simply to have an overview of your agent, you can do them all here.
 
 At the bottom of the screen, you can see the checkbox that says ***Users can request a live agent during chat***. Make sure to check this box to enable the live agent feature.
 
@@ -50,6 +50,8 @@ That's it. You have now set up a Live Agent Transfer function for your SeaChat A
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
 </a>
 <br/>
+<br/>
+
 
 Once the live agent has completed the conversation, the conversation will be marked as completed and the customer will be notified that the conversation has been completed. Live agents can also reactivate the conversation when needed. Simply click on the **Reactivate** button to restart the conversation.
 
@@ -78,7 +80,7 @@ The chat conversation will let your customer know how many live agents are curre
 
 ## How to Request Live Agent on LINE
 
-Once you have integrated the LINE channel, your customer will see the **Live Agent** button at the button of the LINE chat. The customer can click on the **Live Agent** button to request a live agent during the chat conversation.
+Once you have integrated the LINE channel, your customer will see the **Live Agent** button at the bottom of the LINE chat. The customer can click on the **Live Agent** button to request a live agent during the chat conversation.
 
 <br/>
 <a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
