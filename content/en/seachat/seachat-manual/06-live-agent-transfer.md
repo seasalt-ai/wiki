@@ -58,19 +58,19 @@ Once the live agent has completed the conversation, the conversation will be mar
 
 ## How to Request Live Agent on WebChat
 
-> :open_book: **Note**
+> :open_book: **Note** :open_book:
 > 
 > The WebChat widget will be the same for **Shopify** and **Squarespace**. The only difference is the way you integrate the widget into your website. 
 > 
 > Check [Integration](/en/seachat/seachat-manual/integrations/) for more information on how to do it.
 
 
-The Webpage Widget Channel is a channel that allows you to embed the SeaChat widget on your website. This channel is the most common channel used by businesses to provide customer support. 
+The WebChat Channel is a channel that allows you to embed the SeaChat widget on your website. This channel is the most common channel used by businesses to provide customer support. 
 
 The chat conversation will let your customer know how many live agents are currently available, and they can request a live agent during the chat conversation by clicking the ***Talk to Live Agent*** button.
 
 <br/>
-<a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-webpage-1.png" target="_blank">
+<a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-`webpage`-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
 </a>
 <br/>
