@@ -131,7 +131,7 @@ After creating the App, let’s add the WhatsApp product. Find the WhatsApp box 
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/product-updates/seachat/en/channels/whatsapp/whatsApp-integration.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/whatsApp-integration.svg" alt="">
+        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/WhatsApp integration (21).svg" alt="">
     </a>
     <p style=" font-size: 15px">Add WhatsApp to Your App</p>
 </div>
@@ -210,9 +210,7 @@ Copy SeaChat’s Step 1 and paste it to corresponding parts on WhatsApp dashboar
 </div>
 </div>
 
-<br/> 
-
-<br/> 
+<br/>
 
 > :point_down: **Don’t forget to use set Webhook fields!** :point_down:
 >
@@ -291,7 +289,7 @@ We stop you at Step 6 above, because you’ll need to assign your WhatsApp app a
 <div style="display: flex; flex-direction: column; width:100%  ; align-items: center;">
     <div id="assign-assets-step-1" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.svg" target="_blank" style=" width: 100%; height: 10%; display: flex; justify-content: center; align-items: center; overflow: hidden; padding: 0">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.svg" alt="">
+            <img style="max-width: 100%; max-height: 50%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.svg" alt="">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 1: Click on <strong>Assign Asset</strong></p>
     </div>
