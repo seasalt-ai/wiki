@@ -1,6 +1,6 @@
 ---
-title: "Facebook Meta Messenger"
-description: "Connect SeaChat to Facebook Meta Messenger"
+title: "Facebook Messenger"
+description: "Connect SeaChat to Facebook Messenger"
 date: 2024-03-19T08:48:57+00:00
 lastmod: 2024-03-19T08:48:57+00:00
 draft: false

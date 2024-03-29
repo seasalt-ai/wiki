@@ -86,34 +86,36 @@ Setting up WhatsApp can be a straightforward process with the right guidance. He
 
 The following is an elaborated explanation that walks you through the process step-by-step:
 
-## Create a WhatsApp app
+### Create a WhatsApp app
 
 You’ll first need to go to [Meta Developer Site](https://developers.facebook.com/) and create a new WhatsApp app by clicking **My Apps** in the top right corner, and then selecting **Create App** from the dropdown menu.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/product-updates/seachat/en/channels/whatsapp/create-new-whatsapp-app.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/create-new-whatsapp-app.png" alt="">
     </a>
-    <p style="margin-top: 10px; font-size: 15px">Create a New WhatsApp</p>
+    <p style="margin-top: 20px; font-size: 15px">Create a New WhatsApp</p>
 </div>
 </div>
 
-## Choose App Type
+### Choose App Type
 Create an **Other** app because we’ll just use this App for accessing your WhatsApp account. On the **Select app type page**, select **Business** for the type, then click **Next**.
 
+<br/>
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-1.png" alt="">
+    <div style="width: 100%; height:100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-1.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Create an <strong>Other</strong> app</p>
+        <p style="margin-top: 20px; font-size: 15px">Create an <strong>Other</strong> app</p>
     </div>
+<br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-2.png" alt="">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/choose-app-type-2.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Fill Up App Details</p>
+        <p style="margin-top: 20px; font-size: 15px">Fill Up App Details</p>
     </div>
 </div>
 
@@ -122,35 +124,37 @@ Create an **Other** app because we’ll just use this App for accessing your Wha
 Here we created an app called **Seasalt.ai WA**, note that Meta doesn’t allow the app to have **WhatsApp** in the name.
 
 
-## Add WhatsApp Product
+### Add WhatsApp Product
 
 After creating the App, let’s add the WhatsApp product. Find the WhatsApp box under the **Add products to your app** section, and click **Set up** to create your app.
 
-<div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seachat/en/channels/whatsapp/add-whatsapp-product.png" target="_blank">
-        <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/add-whatsapp-product.png" alt="">
+<div style="display: flex; flex-direction: column; align-items: center; width:100%">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/product-updates/seachat/en/channels/whatsapp/whatsApp-integration.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/whatsApp-integration.svg" alt="">
     </a>
-    <p style="margin-top: 10px; font-size: 15px">Add WhatsApp to Your App</p>
+    <p style=" font-size: 15px">Add WhatsApp to Your App</p>
 </div>
 </div>
 
 
-## Connect to Business
+### Connect to Business
 The WhatsApp app needs to be associated with your own business as it needs to utilize the [WhatsApp Business Platform API](https://developers.facebook.com/docs/whatsapp/). Select a business portfolio and click continue. Now back to your app dashboard, you should see the WhatsApp product added to your app. Click on **Start using the API** to start configuring.
 
-<div style="display: flex; flex-direction: row; align-items: flex-start;">
-    <div style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/connect-to-business-1.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+<br/>
+<div style="display: flex; flex-direction: column; align-items: flex-start;">
+    <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/connect-to-business-1.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/connect-to-business-1.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Select a Business Portfolio</p>
+        <p style="margin-top: 20px; font-size: 15px">Select a Business Portfolio</p>
     </div>
-    <div style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/connect-to-business-2.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+<br/>
+    <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/connect-to-business-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/connect-to-business-2.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Click <strong>Start Using the API</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">Click <strong>Start Using the API</strong></p>
     </div>
 </div>
 
@@ -161,29 +165,32 @@ The WhatsApp app needs to be associated with your own business as it needs to ut
 
 If you click on **Start using the API** from above, it’ll bring you to **API Setup** like below. However, we do not need to pay too much attention to the information here. What really matters here is **Step 3: Configure webhooks**.
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<br/>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: space-between">
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-1.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-1.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">API Setup</p>
+        <p style="margin-top: 20px; font-size: 15px">API Setup</p>
     </div>
+<br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-2.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-2.png" alt="">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-2.svg" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-2.svg" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px"><strong>Configure Webhooks</strong></p>
+        <p style="font-size: 15px"><strong>Configure Webhooks</strong></p>
     </div>
 </div>
 
 It will bring you to **Configuration** under **WhatsApp** on the left. From here we’ll first need to configure the Webhook and tokens provided by SeaChat.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-   <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-3.png" target="_blank">
-    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-3.png" alt="">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+   <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-3.svg" target="_blank"
+style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-3.svg" alt="">
     </a>
-    <p style="margin-top: 10px; font-size: 15px">Configuration Dashboard</p>
+    <p style=" font-size: 15px">Configuration Dashboard</p>
 </div>
 </div>
 
@@ -195,11 +202,11 @@ Copy SeaChat’s Step 1 and paste it to corresponding parts on WhatsApp dashboar
 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-4.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-4.png" alt="">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-4.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/configure-whatsApp-application-4.svg" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">Copy SeaChat info to configure</p>
+    <p style="margin-top: 20px; font-size: 15px">Copy SeaChat info to configure</p>
 </div>
 </div>
 
@@ -213,26 +220,26 @@ Copy SeaChat’s Step 1 and paste it to corresponding parts on WhatsApp dashboar
 >
 > 
 > <div style="display: flex; flex-direction: column; align-items: center;">
-> <div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
->   <a href="/images/product-updates/seachat/en/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.png" target="_blank"><img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.png" alt=""></a>
+> <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+>   <a href="/images/product-updates/seachat/en/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank"><img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.svg" alt=""></a>
 >     <p style="margin-top: 10px; font-size: 15px">Webhook Fields</p>
 > </div>
 > </div>
 > 
 
 
-## Let’s set up a permanent token
+### Let’s set up a permanent token
 
 [Step 2](#perma-token-webhook) is to obtain a **WhatsApp Access Token** to pass it back to SeaChat.
 
 You might have seen the temporary access token before from API Setup:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
  <a href="/images/product-updates/seachat/en/channels/whatsapp/permanent-token-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/permanent-token-1.png" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">Temporary Access Token</p>
+    <p style="margin-top: 20px; font-size: 15px">Temporary Access Token</p>
 </div>
 </div>
 
@@ -281,60 +288,60 @@ We stop you at Step 6 above, because you’ll need to assign your WhatsApp app a
 7. Turn on your [**App Mode**](#assign-assets-step-7) to be **Live**.
 8. Add your business phone number to your WhatsApp app by going back to [**WhatsApp** →  **Configuration**](#assign-assets-step-8) and add your WhatsApp number there. It should show at least 1 production number.
 
-<div style="display: inline-flex; width:100%  ; align-items: center;">
-    <div id="assign-assets-step-1" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden; padding: 0">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.png" alt="">
+<div style="display: flex; flex-direction: column; width:100%  ; align-items: center;">
+    <div id="assign-assets-step-1" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.svg" target="_blank" style=" width: 100%; height: 10%; display: flex; justify-content: center; align-items: center; overflow: hidden; padding: 0">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-1.svg" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 1: Click on <strong>Assign Asset</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">Step 1: Click on <strong>Assign Asset</strong></p>
     </div>
-    <div id="assign-assets-step-2" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-2.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-2.png" alt="">
+    <div id="assign-assets-step-2" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-2.svg" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-2.svg" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 2: Give App <strong>Full control</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">Step 2: Give App <strong>Full control</strong></p>
     </div>
 </div>
-<div id="assign-assets-step-3" style="display: inline-flex; width:100%  ; align-items: center;">
-    <div style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-3.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+<div id="assign-assets-step-3" style="display: flex; flex-direction: column; width:100%; align-items: center;">
+    <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-3.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-3.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 3: <strong>Generate token</strong> and set up <strong>Permission</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">Step 3: <strong>Generate token</strong> and set up <strong>Permission</strong></p>
     </div>
-    <div id="assign-assets-step-4" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-4.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <div id="assign-assets-step-4" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-4.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-4.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 4: Copy token</p>
+        <p style="margin-top: 20px; font-size: 15px">Step 4: Copy token</p>
     </div>
 </div>
-<div style="display: inline-flex; width:100% ; align-items: center;">
-    <div id="assign-assets-step-5" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-5.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+<div style="display: flex; flex-direction: column; width:100% ; align-items: center;">
+    <div id="assign-assets-step-5" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-5.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-5.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 5: Open the <strong>Access Token Debugger</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">Step 5: Open the <strong>Access Token Debugger</strong></p>
     </div>
-    <div id="assign-assets-step-6" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-6.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <div id="assign-assets-step-6" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-6.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-6.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 6: Paste token to SeaChat</p>
+        <p style="margin-top: 20px; font-size: 15px">Step 6: Paste token to SeaChat</p>
     </div>
 </div>
-<div style="display: inline-flex; width:100% ; align-items: center;">
-    <div id="assign-assets-step-7" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-7.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+<div style="display: flex; flex-direction: column; width:100% ; align-items: center;">
+    <div id="assign-assets-step-7" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-7.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-7.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 7: Set <strong>App Mode</strong> to <strong>Live</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">Step 7: Set <strong>App Mode</strong> to <strong>Live</strong></p>
     </div>
-    <div id="assign-assets-step-8" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-8.png" target="_blank" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+    <div id="assign-assets-step-8" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <a href="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-8.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/assign-asset-8.png" alt="">
         </a>
-        <p style="margin-top: 10px; font-size: 15px">Step 8: Add business number</p>
+        <p style="margin-top: 20px; font-size: 15px">Step 8: Add business number</p>
     </div>
 </div>
 
@@ -343,11 +350,11 @@ We stop you at Step 6 above, because you’ll need to assign your WhatsApp app a
 Finally, we are all set up! Once your agent is set up, try to send a few messages and expect a reply from SeaChat:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/product-updates/seachat/en/channels/whatsapp/test-whatsapp-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/test-whatsapp-1.png" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">WhatsApp Conversation</p>
+    <p style="margin-top: 20px; font-size: 15px">WhatsApp Conversation</p>
 </div>
 </div>
 
@@ -356,15 +363,15 @@ Finally, we are all set up! Once your agent is set up, try to send a few message
 From the **Conversations** view in SeaChat, you can see the same conversation with the user/sender’s name.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/product-updates/seachat/en/channels/whatsapp/test-whatsapp-2.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/test-whatsapp-2.png" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">SeaChat Conversation</p>
+    <p style="margin-top: 20px; font-size: 15px">SeaChat Conversation</p>
 </div>
 </div>
 
-#### Properly Decorating your WhatsApp Business Account
+### Properly Decorating your WhatsApp Business Account
 
 
 The above screenshot shows a pretty rudimentary WhatsApp account, which does not even have a profile picture. In the competitive digital landscape, having a strong online presence is crucial for businesses of all sizes. WhatsApp, with its massive user base and widespread popularity, offers a powerful platform for businesses to connect with their customers. However, setting up and managing a WhatsApp Business account effectively can be a daunting task.
@@ -375,11 +382,11 @@ Let's properly set up WhatsApp account profile by going to [Meta WhatsApp Busine
 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/product-updates/seachat/en/channels/whatsapp/deploy-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/deploy-1.png" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">Account information</p>
+    <p style="margin-top: 20px; font-size: 15px">Account information</p>
 </div>
 </div>
 
@@ -388,11 +395,11 @@ Let's properly set up WhatsApp account profile by going to [Meta WhatsApp Busine
 This will bring you to the correct account under **WhatsApp Business Manager**. Here, you can make necessary changes, upload a profile picture, and save the updates. It may take a few minutes for the changes to take effect. Once they do, you'll notice the updated profile information when you access your WhatsApp business account's info page on your mobile device.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/product-updates/seachat/en/channels/whatsapp/deploy-2.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/deploy-2.png" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">Make Changes to Account</p>
+    <p style="margin-top: 20px; font-size: 15px">Make Changes to Account</p>
 </div>
 </div>
 
@@ -403,11 +410,11 @@ This will bring you to the correct account under **WhatsApp Business Manager**. 
 After a few minutes, if you click your WhatsApp business account’s info page on your WhatsApp app on your phone, it’ll reflect the change:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/product-updates/seachat/en/channels/whatsapp/deploy-3.png" target="_blank">
 <img width="50%" height="auto" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/deploy-3.png" alt="">
 </a>
-    <p style="margin-top: 10px; font-size: 15px">WhatsApp Business Account Info</p>
+    <p style="margin-top: 20px; font-size: 15px">WhatsApp Business Account Info</p>
 </div>
 </div>
 
