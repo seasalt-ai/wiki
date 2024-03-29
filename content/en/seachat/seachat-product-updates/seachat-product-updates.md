@@ -15,6 +15,20 @@ weight: 101
 toc: true
 ---
 
+### 03/28/2024
+##### **<font color="#739963">New Features</font>** 
+- New Social Media Channels Supported: Added Meta Facebook Messenger and WhatsApp channels, expanding communication platforms for Agents.
+- New Website Integration Support: You can use SeaChat on [Shopify](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/) and [Squarespace](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/).
+- New Use Cases: Introduced 5 new use cases, making Agent creation more convenient and focused.
+- Login Process Optimization: Simplified registration with Google accounts.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Support for LINE stickers, enhancing the response experience for customers.
+- Added `/live_agent` transfer feature in WhatsApp and Meta Facebook Messenger.
+- Fixed incorrect Live agent status display.
+- Corrected the issue where Live Agent sends incorrect messages.
+
+
 ### 03/14/2024
 ##### **<font color="#739963">New Features</font>** 
 Language Model Optimization:

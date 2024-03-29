@@ -15,6 +15,21 @@ weight: 101
 toc: true
 ---
 
+### 03/28/2024
+##### **<font color="#739963">新功能</font>** 
+- 支援新的社交媒體渠道： 新增 Meta Facebook Messenger 和 WhatsApp 渠道，讓 AI Agent助理能夠拓展到更多平台。
+- 支援新的網站架設平台： 新增對 [Shopify](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/) 和 [Squarespace](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/) 的支援。
+- 新增使用案例： 新增 5 個使用案例，讓創建 Agent 變得更加便利。
+- 登錄流程優化： 使用 Google 帳號註冊流程更加輕鬆。
+
+
+##### **<font color="#d66a60">改進與錯誤修復</font>**
+- 支援 LINE 貼圖，提供更好的客戶答覆體驗。
+- 在 WhatsApp 和 Meta Facebook Messenger 中增加 `/live_agent` 轉接功能。
+- 修正 Live agent 狀態顯示錯誤。
+- 修正 Live agent 回應錯誤信息的問題。
+
+
 ### 03/14/2024
 ##### **<font color="#739963">新功能</font>** 
 語言模型優化：
