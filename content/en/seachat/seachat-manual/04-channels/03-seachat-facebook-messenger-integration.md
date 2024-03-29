@@ -1,6 +1,6 @@
 ---
-title: "Meta Messenger"
-description: "Connect SeaChat to Meta Messenger"
+title: "Facebook Meta Messenger"
+description: "Connect SeaChat to Facebook Meta Messenger"
 date: 2024-03-19T08:48:57+00:00
 lastmod: 2024-03-19T08:48:57+00:00
 draft: false
@@ -21,8 +21,8 @@ toc: true
 
 ---
 
-## Sign up for a Meta Developer Account
-Get started by going to the [Meta Developer Site](https://developers.facebook.com/). Create an account or log in by clicking the green button on the top of the page.
+## Sign up for a Facebook Meta Developer Account
+Get started by going to the [Facebook Meta Developer Site](https://developers.facebook.com/). Create an account or log in by clicking the green button on the top of the page.
 
 ## Create a New Messenger App
 1. After you log in, you will see your dashboard. Click on the **Create App** button.
@@ -53,10 +53,10 @@ Scroll down to the second step called "**Generate Access Tokens**." Click on the
 <br/>
 
 ## Set up Your Agent's API Settings and Link It to SeaChat
-1. In the pop-up box, select the Meta Page that you would like the bot to connect to, and click on Continue. Note: You will need a page for your business on the Meta site before it will appear here. For instructions on how to create a Meta page, refer to this guide.
+1. In the pop-up box, select the Facebook Meta Page that you would like the bot to connect to, and click on Continue. Note: You will need a page for your business on the Facebook Meta site before it will appear here. For instructions on how to create a Facebook Meta page, refer to this guide.
 2. Your page will be added to the "Generate Access Tokens" section. Click on the Generate button under Token.
 3. Read the text in the pop-up and check the box, then copy the token.
-4. Return to the SeaChat configuration page (this page), and under the Meta Access Token field in the form above, paste the token, and submit the form. A webhook URL and verify token will appear. Hold onto this information for the next step.
+4. Return to the SeaChat configuration page (this page), and under the Facebook Meta Access Token field in the form above, paste the token, and submit the form. A webhook URL and verify token will appear. Hold onto this information for the next step.
 
 <br/>
 <a href="/images/product-updates/seachat/en/channels/meta-messenger/set-up-your-agents-API.png" target="_blank">
@@ -77,9 +77,9 @@ Scroll down to the second step called "**Generate Access Tokens**." Click on the
 ## Prepare Your Agent for Deployment
 On the left sidebar, navigate to **App Settings**, and click on **Basic**. In the form, the Privacy Policy URL, App Icon, and Category sections must be filled out before your bot can be deployed.
 
-We recommend submitting your bot for verification under the **App Review** section on the dashboard. Follow the steps on the page to submit a request to Meta. Unverified apps may only send and receive messages to test users.
+We recommend submitting your bot for verification under the **App Review** section on the dashboard. Follow the steps on the page to submit a request to Facebook Meta. Unverified apps may only send and receive messages to test users.
 
-Your bot is now ready to go live! On the top of the dashboard page, toggle the **App Mode** to **Live**, and your bot will now respond to user messages in the chat box on your Meta page.
+Your bot is now ready to go live! On the top of the dashboard page, toggle the **App Mode** to **Live**, and your bot will now respond to user messages in the chat box on your Facebook Meta page.
 
 ### Support
 Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
