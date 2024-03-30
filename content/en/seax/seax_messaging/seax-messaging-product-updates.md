@@ -15,6 +15,13 @@ weight: 104
 toc: true
 ---
 
+### 03/28/2024
+##### **<font color="#739963">Enhancement</font>** 
+- Enhanced SeaX campaign icon: display whether the campaign is sent instantly or scheduled.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fix bugs on widget experience, including adding a test widget button, enabling country code search in the form, adding a scroll bar to the form, and implementing URL checking.
+
 ### 03/14/2024
 ##### **<font color="#739963">New Feature</font>** 
 - Added translation to the Plan Description.
