@@ -131,7 +131,7 @@ After creating the App, let’s add the WhatsApp product. Find the WhatsApp box 
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/product-updates/seachat/en/channels/whatsapp/whatsApp-integration.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/WhatsApp integration (21).svg" alt="">
+        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/whatsApp-integration.svg" alt="">
     </a>
     <p style=" font-size: 15px">Add WhatsApp to Your App</p>
 </div>
