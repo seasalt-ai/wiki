@@ -15,6 +15,12 @@ weight: 101
 toc: true
 ---
 
+### 03/28/2024
+##### **<font color="#739963">Enhancement</font>**
+- Update the signup page: enhance signup experience
+- New Meeting Notification: Added a close button without forcing a refresh.
+
+
 ### 03/14/2024
 ##### **<font color="#739963">New Features</font>** 
 - Onboarding optimization: Enhanced onboarding experience for workspace creation and initial meeting guidance.
