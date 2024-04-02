@@ -1,8 +1,8 @@
 ---
 title: "SeaChat 版本發布資訊"
 description: ""
-date: 2022-11-22T08:48:57+00:00
-lastmod: 2022-11-22T08:48:57+00:00
+date: 2023-11-22T08:48:57+00:00
+lastmod: 2024-04-02T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,14 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 04/02/2024
+##### **<font color="#739963">新功能</font>** 
+- 新建立創建AI助理門戶網站，使創建您的助理變得更加容易。
+
+##### **<font color="#d66a60">改進與錯誤修復</font>**
+- 改善 WhatsApp 的回應，減少錯誤亂碼回應的情況。
+- 改善 AI Agent 回應停滯與無法回應的狀況。
 
 ### 03/28/2024
 ##### **<font color="#739963">新功能</font>** 

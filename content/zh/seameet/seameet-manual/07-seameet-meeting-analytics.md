@@ -1,8 +1,8 @@
 ---
 title: "如何使用會議逐字稿和AI會議分析"
 description: ""
-date: 2022-11-22T08:48:57+00:00
-lastmod: 2022-11-22T08:48:57+00:00
+date: 2023-11-22T08:48:57+00:00
+lastmod: 2023-11-22T08:48:57+00:00
 draft: false
 images: []
 menu:

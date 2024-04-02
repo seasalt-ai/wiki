@@ -1,8 +1,8 @@
 ---
 title: "如何將AI助理安裝到網頁"
 description: "SeaChat 新手上路"
-date: 2022-11-22T08:48:57+00:00
-lastmod: 2022-11-22T08:48:57+00:00
+date: 2023-11-22T08:48:57+00:00
+lastmod: 2023-11-22T08:48:57+00:00
 draft: false
 images: []
 menu:

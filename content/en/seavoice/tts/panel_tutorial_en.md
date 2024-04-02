@@ -1,8 +1,8 @@
 ---
 title: "Text to Speech Customization Tutorial"
 description: "English tutorial for the SeaVoice text to speech customization panel to handle real-world input with natural voices."
-date: 2022-05-12T08:48:57+00:00
-lastmod: 2022-05-12T08:48:57+00:00
+date: 2024-02-12T08:48:57+00:00
+lastmod: 2024-02-12T08:48:57+00:00
 draft: false
 images: []
 menu:

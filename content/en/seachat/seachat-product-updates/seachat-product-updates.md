@@ -1,8 +1,8 @@
 ---
 title: "SeaChat Release History"
 description: ""
-date: 2022-11-22T08:48:57+00:00
-lastmod: 2022-11-22T08:48:57+00:00
+date: 2023-11-22T08:48:57+00:00
+lastmod: 2024-04-02T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,14 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 04/02/2024
+##### **<font color="#739963">New Features</font>** 
+- New portal for creating agents, simplifying the bot creation process.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Improved WhatsApp responses to reduce cases of incorrect or garbled replies.
+- Enhanced AI Agent responsiveness, addressing issues of stalling or failure to respond.
 
 ### 03/28/2024
 ##### **<font color="#739963">New Features</font>** 
