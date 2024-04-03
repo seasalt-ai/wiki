@@ -1,8 +1,8 @@
 ---
 title: "Speech to Text Lightning Fast GPU Accurate Decoder"
 description: "English demo for the SeaVoice speech to text decoder with lightning fast speed and cutting edge accuracy"
-date: 2022-05-12T08:48:57+00:00
-lastmod: 2022-05-12T08:48:57+00:00
+date: 2024-02-12T08:48:57+00:00
+lastmod: 2024-02-12T08:48:57+00:00
 draft: false
 images: []
 menu:
