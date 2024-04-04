@@ -24,14 +24,14 @@ toc: true
 ## 步驟2：開啟Squarespace
 前往您的Squarespace網站的儀表板上。在側邊選單上選擇「Website」。
 
-<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration-step1.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step1.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
 
 
 ## 步驟3：開啟網站工具
 接著，在側邊選單中選擇「Website Tools」。
 
 
-<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Click on Website Tools on Squarespace">
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step2.png" alt="Click on Website Tools on Squarespace">
 
 ## 步驟4：開啟程式注入
 在側邊選單中選擇「Code Injection」。
