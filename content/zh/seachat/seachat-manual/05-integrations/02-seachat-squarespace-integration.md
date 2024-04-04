@@ -1,6 +1,6 @@
 ---
 title: "Squarespace"
-description: "Bring SeaChat to your Squarespace webpage"
+description: "將SeaChat安裝到Squarespace"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/squarespace/
+   - /zh/seachat/seachat-integrations/squarespace/
    - /seachat/seachat-integrations/squarespace/
 weight: 20
 toc: true
@@ -40,7 +40,7 @@ toc: true
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step3.png" alt="Select Code Injection in the sidebar menu.">
 
 
-## 步驟5：複製SeaChat程式
+## 步驟5：複製SeaChat程式代碼
 您需要登入SeaChat才能查看此程式片段。您可至[SeaChat](https://chat.seasalt.ai/)免費註冊。在SeaChat儀表板的工作區內導航至「AI助理配置」->「頻道」，並在Squarespace頻道下，來取得所需的程式片段。
 
 從Seachat上的Squarespace整合設置中取得的SeaChat程式片段，並貼上到HEADER文本框中。記得按「Save」。

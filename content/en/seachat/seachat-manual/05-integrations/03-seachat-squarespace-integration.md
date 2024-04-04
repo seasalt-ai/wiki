@@ -26,14 +26,14 @@ If you do not have a SeaChat account, you can sign up for free at [SeaChat websi
 1. Go to your Squarespace dashboard for the website of interest. Select the “Website” on the sidebar menu. 
 
 
-<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration-step1.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step1.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
 
 
 ## Step 3: Open Website Tools
 Next, select “Website Tools” in the sidebar menu.
 
 
-<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace_integration_step2.png" alt="Click on Website Tools on Squarespace">
+<img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step2.png" alt="Click on Website Tools on Squarespace">
 
 
 ## Step 4: Open Code Injection
