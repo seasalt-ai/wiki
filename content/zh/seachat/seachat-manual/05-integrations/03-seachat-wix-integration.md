@@ -20,7 +20,7 @@ toc: true
 如果您還沒有SeaChat帳戶， 您可以在 [SeaChat網站](https://chat.seasalt.ai/)免費註冊！ 然後您可以將構建好的AI助理，移至您的Squarespace網站上。
 
 
-## 步驟2：開啟Squarespace
+## 步驟2：開啟Wix
 前往您的Wix網站的儀表板上。在右上角選單選擇「Design Site」。
 
 <img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step1.png" alt="Go to your Wix dashboard and click on Design Site from top right menu.">
