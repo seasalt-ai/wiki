@@ -1,6 +1,6 @@
 ---
 title: "Shopify"
-description: "Bring SeaChat to your Shopify storefront"
+description: "將SeaChat安裝到Shopify"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/shopify/
+   - /zh/seachat/seachat-integrations/shopify/
    - /seachat/seachat-integrations/shopify/
 weight: 10
 toc: true
@@ -40,7 +40,7 @@ toc: true
 <img width="40%" style="border-radius: 0.4rem" src="/images/seachat-integrations/shopify/20240228-shopify_integration_step3.png" alt="Click on “theme.liquid” on the left side panel.">
 
 
-## 步驟5：複製SeaChat程式
+## 步驟5：複製SeaChat程式代碼
 您需要登入SeaChat才能查看此程式片段。您可至[SeaChat](https://chat.seasalt.ai/)免費註冊。在SeaChat儀表板的工作區內找到「AI助理配置」->「頻道」，並在Shopify頻道下，來取得所需的程式片段。
 
 

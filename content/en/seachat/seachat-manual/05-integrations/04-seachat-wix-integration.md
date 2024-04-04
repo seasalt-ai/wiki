@@ -55,7 +55,7 @@ Use the sizing tool to adjust the chat widget to big enough size. In the example
 
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step5.png" alt="Adjust chat widget size">
 
-## Step 6: Save and preview
+## Step 7: Save and preview
 Use “Preview” function on Wix to test the AI agent. Remember to launch the website again when you are ready!
 
 **Important Note**: if you want to configure the style of your widget, please go to “Channels” -> “WebChat Widget” -> “Basic Setting”. Your AI Agent will share the same style across your webchat widget channels.
@@ -63,7 +63,7 @@ Use “Preview” function on Wix to test the AI agent. Remember to launch the w
 <img width="70%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step6.png" alt="Preview SeaChat agent on website">
 
 
-## Step 7: (Optional) Disconnect other chatbot
+## Step 8: (Optional) Disconnect other chatbot
 Please disconnect any other chatbot services to prevent confusion. If your previous chatbot service is embedded in code, remove it carefully from the “Code Injection” section. 
 
 ### Support
