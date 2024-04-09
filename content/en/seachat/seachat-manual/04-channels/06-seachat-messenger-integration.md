@@ -12,6 +12,7 @@ aliases:
    - /en/seachat/seachat-integrations/messenger/
    - /seachat/seachat-integrations/messenger/
    - /seachat/seachat-integrations/06-seachat-messenger-integration/
+   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
 weight: 60
 toc: true
 ---
