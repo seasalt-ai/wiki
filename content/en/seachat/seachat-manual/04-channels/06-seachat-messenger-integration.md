@@ -336,9 +336,9 @@ Now turn on your App Mode to be **Live** and you can chat with the bot:
 
 <br/>
 
-### Step 3: Complete App Review
+### Step 3: Alternative to  Complete App Review
 
-So far your messenger bot will respond **only to you**, the app creator. If you pass it to others, they will not get a response at all. At this point, you’ll need to Complete App Review and request the **pages_messaging** permission.
+So far your messenger bot will respond **only to you**, the app creator. If you pass it to others, they will not get a response at all. It might be tempting to do “Step 3. Complete App Review” per Facebook’s instructions:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -351,10 +351,66 @@ So far your messenger bot will respond **only to you**, the app creator. If you 
 
 <br/> 
 
-It might take up to 5 days to complete the App Review. But after that, your bot should be generally available to everyone!
+However, It might take up to 5 days to complete the App Review and the process is very cumbersome. For instance, it requires you to take a video walkthrough of the Meta app.
+
+An alternative way is to assign the page to the business you have with Meta. To do so, go to [Meta Business Suite](https://business.facebook.com/), select the business your Meta app was created under, and then go to **Accounts** → **Pages**, and make sure that the Facebook Page your chatbot is connected to is there:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-pages.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-pages.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Make sure the Facebook Page shows up under your business 
+</p>
+</div>
+</div>
+
+<br/> 
 
 You should now be all set!
 
+## Engage with a real human agent
+Did you notice in the above picture that I used /live_agent to request a human agent? If an agent happened to be online by setting their online status:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Live agent status
+</p>
+</div>
+</div>
+
+<br/> 
+
+They can directly talk with the user!
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-interaction.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Live agent status
+</p>
+</div>
+</div>
+
+<br/> 
+
+If an agent is not online, they can turn on Email notification to receive real-time emails when a user initiates a chat, or request a live agent:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/ai-agent-preference.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Live agent status
+</p>
+</div>
+</div>
+
+<br/> 
 
 ## Remove your Messenger Integration
 
@@ -375,6 +431,21 @@ For Step 1, please go to your **[Meta Business app](https://developers.facebook.
 
 <br/> 
 
+## Respond to Voice Clips
+Do you know that SeaChat supports audio messages too? If a user sends a voice clip, SeaChat can transcribe it to text, and respond via text!
+
+Currently, it supports English speech to transcription, but let us know if you want more languages supported.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px"><strong>Facebook Messenger voice clip transcription and response by SeaChat</strong></p>
+</div>
+</div>
+
+<br/> 
 
 ## :dart: Troubleshooting
 
