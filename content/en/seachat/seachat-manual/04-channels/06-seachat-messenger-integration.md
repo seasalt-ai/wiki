@@ -32,6 +32,19 @@ In this section, we will dive deeper into the process of setting up a ChatGPT-po
   - Seamlessly transfer conversations from the AI chat agent to live human agents, ensuring a smooth and efficient transition.
   - Empower users to choose the level of support they need, enhancing the overall customer experience.
 
+By the end of this tutorial, you’ll have a SeaChat agent powered Facebook Messenger bot and also a SeaChat console to view all messages, as shown below:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">ChatGPT-powered chatbot integration with Facebook Messenger using SeaChat</p>
+</div>
+</div>
+
+<br/> 
+
 Before embarking on the setup process, it's essential to keep in mind a few key points:
 
 **Messenger limitations**:
@@ -369,11 +382,11 @@ An alternative way is to assign the page to the business you have with Meta. To 
 
 You should now be all set!
 
-## Engage with a real human agent
+# Engage with a real human agent
 Did you notice in the above picture that I used /live_agent to request a human agent? If an agent happened to be online by setting their online status:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
 </a>
