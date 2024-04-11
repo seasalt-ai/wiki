@@ -79,6 +79,10 @@ Setting up WhatsApp can be a straightforward process with the right guidance. He
 - Make any necessary adjustments based on the test results.
 - Once satisfied with the performance, launch your app for public use.
 
+8. **[Remove Your Messenger Integration](#remove-your-whatsapp-integration)**:
+- Properly remove the page access from your Meta app
+- Click the Remove button inside SeaChat
+
 > :books: **Recommended Reading**:
 > 
 > Remember to adhere to the [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/) policies and guidelines to maintain compliance and avoid any potential issues.
@@ -430,6 +434,69 @@ Ensure that your phone number, email address, and website (if applicable) are pr
 Organize your contacts and conversations using labels and tags. This helps you categorize and manage customer interactions effectively, making it easier to track and respond to specific inquiries or requests.
 
 By following these tips, you can properly democratize your WhatsApp Business account, create a professional profile, and enhance your overall customer engagement.
+
+# Engage with a real human agent
+Did you notice in the above picture that I used /live_agent to request a human agent? If an agent happened to be online by setting their online status:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/whatsapp/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/live-agent-status.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Live agent status
+</p>
+</div>
+</div>
+
+<br/> 
+
+They can directly talk with the user!
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/whatsapp/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/live-agent-interaction.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Live agent interaction
+</p>
+</div>
+</div>
+
+<br/> 
+
+If an agent is not online, they can turn on Email notification to receive real-time emails when a user initiates a chat, or request a live agent:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/whatsapp/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/ai-agent-preference.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Live agent preference
+</p>
+</div>
+</div>
+
+<br/> 
+
+## Remove your WhatsApp Integration
+
+If you want to remove the WhatsApp integration, you need to do it in two places:
+
+1. Properly remove the webhook from your Meta app
+2. Click the Remove button inside SeaChat
+
+For Step 1, please go to your [Meta Business app](https://developers.facebook.com/) → WhatsApp → Configuration → Callback URL → Edit → Remove webhook
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/product-updates/seachat/en/channels/whatsapp/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/whatsapp/remove-app-1.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Remove integration</p>
+</div>
+</div>
+
+<br/> 
 
 ## :dart: Troubleshooting
 
