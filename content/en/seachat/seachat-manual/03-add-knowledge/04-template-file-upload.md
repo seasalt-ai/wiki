@@ -85,7 +85,7 @@ You will see the status of each uploading file in the section below the drag-and
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/before-submission.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/before-submission.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/before-submission.png" alt="Interface of SeaChat showing the upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded, reminding users to verify file format and content before submission.">
 </a>
 
@@ -98,7 +98,7 @@ Submit it and it's done. You have successfully customized your AI agent with new
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/existing-files.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/existing-files.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/existing-files.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
@@ -110,14 +110,14 @@ Click on the file you just uploaded to review the content. That's it! You have s
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="display: flex; flex-direction: column; text-align: center;">
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/csv-uploaded.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/csv-uploaded.png" target="_blank">
     <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/csv-uploaded.png" alt="Example of a successfully uploaded csv.">
 </a>
     <em>CSV File</em>
   </div>
 
   <div style="display: flex; flex-direction: column; text-align: center;">
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/json-uploaded.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/json-uploaded.png" target="_blank">
     <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/template-upload/json-uploaded.png" alt="Example of a successfully uploaded json.">
 </a>
     <em>JSON File</em>

@@ -45,7 +45,7 @@ You will see the status of each uploading file in the section below the drag-and
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" alt="Interface of SeaChat showing the upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded, reminding users to verify file format and content before submission. A success message indicates the uploaded has been successful">
 </a>
 
@@ -58,7 +58,7 @@ You will see a success message once the files are uploaded successfully. You hav
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
@@ -70,7 +70,7 @@ Click on the file you just uploaded to review the content. That's all. You can n
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" alt="Review the uploaded information in a dropdown view">
 </a>
 
