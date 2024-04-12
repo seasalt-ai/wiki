@@ -12,7 +12,7 @@ aliases:
 ---
 
 ## Overview
-SeaChat provides four methods to upload files to your agent. We will focus on the **Upload Spreadsheet** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
+SeaChat provides several methods to upload files to your agent. We will focus on the **Upload Spreadsheet** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
 
 
 ## Create a SeaChat Agent

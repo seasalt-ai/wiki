@@ -8,11 +8,11 @@ weight: 33
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/template-upload/
+  - /en/seachat/seachat-intro/03-add-knowledge/document-upload/
 ---
 
 ## Overview
-SeaChat provides four methods to upload files to your agent. We will focus on the **Upload Documents** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
+SeaChat provides several methods to upload files to your agent. We will focus on the **Upload Documents** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.
 
 
 ## Create a SeaChat Agent
@@ -30,13 +30,13 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 </center>
 
 ## Types of Documents
-SeaChat supports more than 20 types[^1] of documents that you can upload to your agent. In this Tutorial, we will show you how to upload a whole webpage as a document to your agent. 
+SeaChat supports more than 20 types[^1] of documents that you can upload to your agent. In this Tutorial, we will show you how to upload a DOCX file to your agent. 
 
-Simply download the website that you want your AI agent to learn as .html file. In chrome, you can save a webpage as .html by right-clicking on the webpage and selecting **Save as**.
 
 > :rotating_light: **Note** :rotating_light:
 >
-> For audio files e.g. mp3 and picture files e.g. png, we only support English documents.
+> For picture files e.g. png, we only support English documents. For best result on audio files, we suggest you use [audio/video upload](/en/seachat/seachat-intro/03-add-knowledge/multimedia-upload/) instead.
+
 
 [^1]: SeaChat supports .doc, .docx, .eml, .epub, .gif, .jpg, .json, .html, .mp3, .msg, .odt, .ogg, .pdf, .png, .pptx, .ps, .rtf, .tiff, .txt, .wav, .zip files.
 
@@ -74,7 +74,7 @@ Click on the file you just uploaded to review the content. That's all. You can n
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" alt="Review the uploaded information in a dropdown view">
 </a>
 
-*Review Uploaded HTML File*
+*Review Uploaded DOCX File*
 </center>
 
 
