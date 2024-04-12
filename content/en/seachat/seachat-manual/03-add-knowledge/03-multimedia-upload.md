@@ -25,17 +25,26 @@ If you don't have a SeaChat account yet, you can sign up for free at [SeaChat we
 Find your agent's knowledge base by navigating to the **Knowledge Base** dashboard under **Agent Configuration** in the sidebar menu. By choosing **Transcribe Audio/Video**, you can upload a video or audio file to your agent.
 
 <br/>
+<center>
+<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a video or audio file to an agent by selecting Transcribe Audio/Video.">
+</a>
+
+*Knowledge Base Dashboard*
+</center>
 
 ## Upload File
 By clicking on the upload button, you can submit to your agent choosing from various file formats[^1]. The file will be processed, transcribed into text format, and fed into knowledge base once submitted.
 [^1]: SeaChat supports .wav, .flac, .aac, .opus, .mp3, .mp4, .ogg, .m4a files.
 
 <br/>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" alt="Screenshot illustrating the navigation through the dashboard of knowledge base for SeaChat's AI agents. It illustrates the user interface">
-<br/>
-<br/>
-<br/>
+<center>
+<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" alt="Screenshot illustrating the variety of file types that SeaChat accepts">
+</a>
+
+*Choose the Language of the Uploading File*
+</center>
 
 > :rotating_light: **Note** :rotating_light:
 >
@@ -51,24 +60,38 @@ Note that the English/Chinese support only means that your uploaded audio/video 
 corresponding language. 
 
 <br/>
+<center>
+<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
-<br/>
-<br/>
+</a>
+
+*Uploading Status*
+</center>
 
 
 ## Submit to Existing Knowledge Base
 Voilà! You have successfully customized your AI agent with new knowledge. To view the files uploaded, you can navigate to the **Existing** section in the top-right corner of the page, where you can find the uploaded data waiting for you in the **Files** section.
 
 <br/>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Submit' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<center>
+<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+</a>
 
+*Look for Files in **Existing***
+</center>
 
 ## Review your Knowledge Base
 Click on the file you just uploaded to review the content. That's it! Your SeaChat agent now has transcribed the content of the uploaded media into text. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the **Advance** section of the tutorial.
 
 <br/>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<center>
+<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" alt="Review the uploaded information in a dropdown view">
+</a>
 
+*Review Uploaded File*
+</center>
 
 ## :brain: Under the Hood
 
