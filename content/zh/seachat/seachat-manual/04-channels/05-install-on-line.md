@@ -107,6 +107,6 @@ toc: true
 
 ## LINE的AI自動回覆功能即將停用
 
-[LINE的AI自動回覆功能](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/#:~:text=AI%20%E8%87%AA%E5%8B%95%E5%9B%9E%E6%87%89%E8%A8%8A%E6%81%AF%E5%8A%9F%E8%83%BD%EF%BC%8C%E9%A0%90%E8%A8%88%E5%B0%87%E6%96%BC2024%20%E5%B9%B4,%E5%9B%9E%E6%87%89%E8%A8%8A%E6%81%AF%E7%9A%84%E9%97%9C%E9%8D%B5%E5%AD%97%E3%80%82)將在2024年5月停止服務。
+[LINE的AI自動回覆功能](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/)將在2024年5月停止服務。
 
 如果你還在使用AI自動回覆功能，需要盡快安排替代方案。
