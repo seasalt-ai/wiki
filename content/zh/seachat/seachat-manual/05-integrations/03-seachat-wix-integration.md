@@ -49,13 +49,25 @@ toc: true
 
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step5.png" alt="Adjust chat widget size">
 
- ## 步驟7：儲存並預覽
+
+## 步驟7：固定元件位置
+
+我們建議固定SeaChat元件的位置，以便在訪客滾動頁面時元件不會到處移動。選擇SeaChat元件 > 右鍵點擊 > 選擇「Pin to Screen」。然後此組件將固定在角落並浮動。
+
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-pin-to-screen.png" alt="Adjust chat widget location">
+
+您可以調整邊距。我們建議將垂直(Vertial)和水平(horizontal)設置都設為20。
+
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-offset-margin.png" alt="Adjust chat widget location">
+
+
+ ## 步驟8：儲存並預覽
 
 使用Wix上的「Preview」功能來測試AI助理。當您準備好時，記得重新啟動網站！
 
 **非常重要**: 如果您想要配置小工具的樣式，請前往「頻道」->「網頁AI助理」->「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 
-<img width="70%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step6.png" alt="Preview SeaChat agent on website">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step6.png" alt="Preview SeaChat agent on website">
 
 
 ## 步驟8：（Optional）移除其他聊天機器人
