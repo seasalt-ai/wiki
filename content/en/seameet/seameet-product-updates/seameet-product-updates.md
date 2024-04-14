@@ -20,7 +20,7 @@ toc: true
 
 New Features:
 - Automatic Meeting Recording Reservation: After linking with Google Calendar, you can automatically reserve and record meetings from your calendar.
-- Delete Scheduled Meetings: Users with "Administrator" or above permissions can delete scheduled meetings, including those added through "Automatic Meeting Recording Reservation."
+- Delete Scheduled Meetings: Admin or Owner can delete scheduled meetings, including those added through "Automatic Meeting Recording Reservation."
 
 ##### **<font color="#739963">Enhancement</font>**
 - Workspace List: Modified the wording and presentation.
