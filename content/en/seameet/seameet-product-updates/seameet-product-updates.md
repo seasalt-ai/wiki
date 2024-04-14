@@ -15,6 +15,22 @@ weight: 101
 toc: true
 ---
 
+### 04/11/2024
+##### **<font color="#739963">New Features</font>** 
+
+New Features:
+- Automatic Meeting Recording Reservation: After linking with Google Calendar, you can automatically reserve and record meetings from your calendar.
+- Delete Scheduled Meetings: Users with "Administrator" or above permissions can delete scheduled meetings, including those added through "Automatic Meeting Recording Reservation."
+
+##### **<font color="#739963">Enhancement</font>**
+- Workspace List: Modified the wording and presentation.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue with automatic sharing of meeting recordings. Now, you can choose whether to automatically share meeting recordings with attendees from your calendar after the meeting ends.
+- Fixed the issue where adjustments made to Google Calendar meetings were not immediately reflected in the SeaMeet meeting list.
+- Corrected the issue with Google Calendar meeting recordings, where inviting via an extension resulted in a second copilot being added to the meeting.
+
+
 ### 03/28/2024
 ##### **<font color="#739963">Enhancement</font>**
 - Update the signup page: enhance signup experience
