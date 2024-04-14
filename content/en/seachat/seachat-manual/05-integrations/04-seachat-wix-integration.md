@@ -55,9 +55,11 @@ Use the sizing tool to adjust the chat widget to big enough size. In the example
 
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step5.png" alt="Adjust chat widget size">
 
-## Step 7: Fix SeaChat Widget Location
+## Step 7: Anchor SeaChat Widget Position
 
-You will need to fix the widget location so it does not move around when visitors scroll down the page. Select the component > Right-click > Select "Pin to Screen". Then this component will be fixed on the corner and floating. 
+Ensure the SeaChat widget is anchored in place (lower right hand corder) to avoid movement during page scrolling. 
+
+Select the widget. Right-click. Select "Pin to Screen". Then this widget component will be anchored on the corner and floating. 
 
 <img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-pin-to-screen.png" alt="Adjust chat widget size">
 
