@@ -42,7 +42,6 @@ Before embarking on the setup process, it's essential to keep in mind a few key 
   - Businesses and organizations with a high volume of incoming WhatsApp messages that require automation.
   - Companies looking to provide personalized and engaging customer support experiences.
   - Customer service departments seeking to reduce the burden on human agents by automating routine inquiries.
-
 ---
 
 ## WhatsApp Setup
@@ -506,7 +505,11 @@ If you have not received responses from SeaChat Agent on WhatsApp, you should ve
 - Did you configure the [**webhook fields**](#perma-token-webhook) to allow the **message permission**? If this permission is not properly granted, SeaChat will be unable to receive messages from WhatsApp.
 - Did your SeaChat agent receive a message, but you cannot see the reply from your WhatsApp? It might be that when you generated the permanent token, you did not [**Assign Assets**](#assign-assets) first.
 
-### Support
+
+## 🎥 Video Tutorial
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=qpNlWtGP9jw&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+## Support
 Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
 
  

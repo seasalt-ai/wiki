@@ -466,8 +466,8 @@ If you have not received responses from SeaChat Agent on Messenger, you should v
 - Has your Messenger application been set to [**Live mode**](#live-mode)? Be sure that it is not operating in Development mode.
 - Did you configure the [**webhook fields**](#perma-token-webhook) to allow the **message permission**? If this permission is not properly granted, SeaChat will be unable to receive messages from messegner.
 
+## 🎥 Video Tutorial
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=aFruY5bwG00&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-### Support
+## Support
 Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
-
- 
