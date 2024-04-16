@@ -15,6 +15,15 @@ weight: 101
 toc: true
 ---
 
+### 04/09/2024
+##### **<font color="#739963">New Features</font>** 
+- Added `remove` button for WhatsApp and Meta Facebook Messenger channels, allowing users to unlink accounts easily.
+- Display the end user's email upon completing the form, enhancing user tracking and engagement.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed an error in the process of creating agents, streamlining agent creation.
+- Resolved bugs related to editing agents, ensuring smoother modifications and updates.
+
 ### 04/02/2024
 ##### **<font color="#739963">New Features</font>** 
 - New portal for creating agents, simplifying the bot creation process.
