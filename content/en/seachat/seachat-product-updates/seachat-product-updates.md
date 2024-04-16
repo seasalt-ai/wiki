@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-04-02T08:48:57+00:00
+lastmod: 2024-04-15T08:48:57+00:00
 draft: false
 images: []
 menu:
