@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-04-02T08:48:57+00:00
+lastmod: 2024-04-15T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,15 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 04/09/2024
+##### **<font color="#739963">新功能</font>** 
+- 為 WhatsApp 和 Meta Facebook Messenger 頻道增加了移除按鈕，讓用戶可以輕鬆解綁帳號。
+- 新增功能，於完成電子郵件表單後顯示終端用戶的電子郵件，提升用戶互動。
+
+##### **<font color="#d66a60">改進與錯誤修復</font>**
+- 修正創建AI助理過程中的錯誤，使AI助理創建更加流暢。
+- 解決編輯AI助理時的相關錯誤，確保修改和更新更加順暢。
 
 ### 04/02/2024
 ##### **<font color="#739963">新功能</font>** 
