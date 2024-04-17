@@ -59,11 +59,11 @@ You will see a success message once the files are uploaded successfully. You hav
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/import-sitemaps/sitemap-in-existing.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-sitemaps/sitemap-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
-*Look for files in  **Existing***
+*Look for **Sitemaps** in  **Existing***
 </center>
 
 ## Review your Knowledge Base
