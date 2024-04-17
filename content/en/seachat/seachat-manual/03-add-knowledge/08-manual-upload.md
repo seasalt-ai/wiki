@@ -37,7 +37,7 @@ There are a lot of fields to fill in. We will not go through all of them in deta
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/empty-manual-entry.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
-* Fill in the empty fields in **Manual Entry**
+*Fill in the empty fields in **Manual Entry**
 </center>
 
 ### Document Title and Document Text
