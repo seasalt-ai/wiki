@@ -12,7 +12,7 @@ aliases:
 ---
 
 ## Overview
-SeaChat provides several methods to upload files to your agent. We will focus on the **Import URLs** method in this tutorial. Let's use a blog post as an example to show you how to import URLs to your agent.
+SeaChat provides several methods to upload files to your agent. We will focus on the **Import Sitemaps** method in this tutorial. Let's use a sitemap example to show you how to import URLs to your agent.
 
 ## Create a SeaChat Agent
 If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](/en/seachat/seachat-intro/02-how-to-create/).
@@ -27,10 +27,16 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 *Knowledge Base Dashboard*
 </center>
 
-## Enter the URLs
-SeaChat supports importing URLs to your agent. By importing sitemaps, you can skip the process of adding URLs one by one. Your sitemap, usually XML files, will contain all the links in the website you wish to import. In the examples below, I simply put the keyword, **sitemap**, next to my page's url. As you can see, now we have the link to the sitemap of the page.
+## Enter the Sitemaps
+By importing sitemaps, you can skip the process of adding URLs one by one. Your sitemap, usually XML files, will contain all the links in the website you wish to import. In the examples below, I simply put the keyword, **sitemap**, next to my page's url. As you can see, now we have the link to the sitemap of the page.
 
 Copy and paste the URLs into the corresponding inputs. Once you are certain with the urls included, Click **Add** to confirm.
+
+> :rotating_light: **Note** :rotating_light:
+>
+> Note that not all websites have sitemaps. One of the most common (and simple) ways to locate the XML sitemap of a website is to
+manually check. you need to do is enter your website URL in the browser and then add `sitemap.xml` at the end of the URL, e.g. www.YourWebsiteUrl.com/sitemap.xml. If a sitemap (looks a like a XML file) shows up, then the website has a sitemap. There are more methods to locate your sitemap, please refer to [this article](https://seocrawl.com/en/how-to-find-a-sitemap/) to learn more.
+
 
 <br/>
 <center>
@@ -67,7 +73,7 @@ You will see a success message once the files are uploaded successfully. You hav
 </center>
 
 ## Review your Knowledge Base
-Click on the file you just uploaded to review the content. That's all. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the next part of the tutorial.
+Click on the file you just uploaded to review the content. The texts on your websites are now in your knowledge base. That's all. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the next part of the tutorial.
 
 <br/>
 <center>

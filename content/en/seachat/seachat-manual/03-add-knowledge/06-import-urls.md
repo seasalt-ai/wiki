@@ -59,11 +59,11 @@ You will see a success message once the files are uploaded successfully. You hav
 <img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/urls-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
-*Look for **URLs** in  **Existing***
+*Look for **URLs** in **Existing***
 </center>
 
 ## Review your Knowledge Base
-Click on the file you just uploaded to review the content. That's all. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the next part of the tutorial.
+Click on the file you just uploaded to review the content. The texts on your URLs are now in your knowledge base. That's all. You can now use the knowledge base to test your agent. SeaChat provides additional settings to customize your knowledge base, we will continue to explore these features in the next part of the tutorial.
 
 <br/>
 <center>

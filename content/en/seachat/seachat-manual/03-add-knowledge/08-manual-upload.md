@@ -28,8 +28,11 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 *Knowledge Base Dashboard*
 </center>
 
+## When should I use Manual Entry?
+You should choose Manual Entry when you have a piece of important information that you'd like to include in knowledge base. This can be a short product description, or a frequently asked questions. Manual Entries are also a great way to quickly troubleshoot and teach your AI agent some quick gotchas. 
+
 ## Enter the Data
-There are a lot of fields to fill in. We will not go through all of them in detail, but if you are interested in learning more about them, you can check out our Advance Section of the manual. For now, let's try to fill in the fields one by one, and add the data to our agent.
+There are a lot of fields to fill in. We will not go through all of them in detail, but if you are interested in learning more about them, you can check out our Advanced Section of the manual. For now, let's try to fill in the fields one by one, and add the data to our agent.
 
 <br/>
 <center>
@@ -41,12 +44,12 @@ There are a lot of fields to fill in. We will not go through all of them in deta
 </center>
 
 ### Document Title and Document Text
-Choose a title for your document and write the texts of the document in the text area. Pay attention to the text description, as it will be the primary data that your AI agent will learn from. 
+Choose a title for your document and write the texts of the document in the text area. Be descriptive on the text description, as it will show up on your knowledge library as the title of the knowledge entry. You can enter the detailed contents in the Document Text field. Both document title and texts will be available for AI agent during knowledge extraction.
 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="100%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Document title and text*
@@ -59,18 +62,18 @@ If you have anything that is in the form of key-value pairs, you can add them he
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="100%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Enter **Name**(Attribute) and **Value***
 </center>
 
-### Additional Settings (OPTIONAL)
+### (Optional) Additional Settings
 You can also set the document to be a reminder, and provide users with urls.
 
 - **URL Buttons**: You can add buttons that will redirect the user to a specific URL. Input the reference title and the URL in the respective fields.
-- **Additional Message after Agent Response**: In **Reminder**, input additional information that you want your user to know whenever the agent uses this document to response.
-- **Document Weight**: It tells you how important the document is. The higher the weight, the more important the document is, and therefore, the more likely the agent will use this document to respond to the user.
+- **Additional Message after Agent Response**: In **Reminder**, input additional information that you want to show to the end user whenever the agent uses this document to respond.
+- **Document Weight**: Use Document Weight to control how important the document is. The higher the weight, the more important the document is, and therefore, the more likely the agent will use this document to respond to the user.
 
 Once you are done, click on the **Submit** button to upload the content to your agent's knowledge base. SeaChat will start importing the information you provided.
 
