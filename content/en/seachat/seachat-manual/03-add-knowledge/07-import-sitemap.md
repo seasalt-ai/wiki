@@ -55,7 +55,7 @@ Once you have added the sitemap, SeaChat will automatically parse the XML file a
 </center>
 
 ## Submit to Existing Knowledge Base
-You will see a success message once the files are uploaded successfully. You have customized your AI agent with new knowledge. To view the files uploaded, you can navigate to the **Existing** section in the top-right corner of the page, where you can find the uploaded data waiting for you in the "Files" section.
+You will see a success message once the files are uploaded successfully. You have customized your AI agent with new knowledge. To view the files uploaded, you can navigate to the **Existing** section in the top-right corner of the page, where you can find the uploaded data waiting for you in the **Sitemaps** section.
 
 <br/>
 <center>
