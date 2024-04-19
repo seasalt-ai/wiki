@@ -16,6 +16,9 @@ weight: 40
 toc: true
 ---
 
+## 🎥 Video Tutorial
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=qpNlWtGP9jw&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 ## Overview
 In this section, we will dive deeper into the process of setting up a ChatGPT-powered chatbot or chat agent on WhatsApp. By the end of this section, you will have a clear understanding of how to:
 1. **Automate responses to user messages**: 
@@ -506,8 +509,7 @@ If you have not received responses from SeaChat Agent on WhatsApp, you should ve
 - Did your SeaChat agent receive a message, but you cannot see the reply from your WhatsApp? It might be that when you generated the permanent token, you did not [**Assign Assets**](#assign-assets) first.
 
 
-## 🎥 Video Tutorial
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=qpNlWtGP9jw&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
 
 ## Support
 Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).

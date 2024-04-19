@@ -1,5 +1,5 @@
 ---
-title: "如何輸出會議到Google Doc"
+title: "輸出會議到Google Doc"
 description: ""
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
