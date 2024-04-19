@@ -1,5 +1,5 @@
 ---
-title: "如何得到幫助、提供反饋"
+title: "提供反饋"
 description: ""
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
@@ -10,7 +10,7 @@ menu:
       parent: "15-seameet-help"
 aliases:
    - /zh/seameet/15-seameet-help/
-weight: 115
+weight: 199
 toc: true
 ---
 
