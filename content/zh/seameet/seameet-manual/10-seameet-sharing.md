@@ -14,21 +14,29 @@ weight: 110
 toc: true
 ---
 
-您可以在「工作區設定」調整自動分享會議記錄的發送對象。
+您可以在「**工作區設定**」的「**常用設定**」調整自動分享會議記錄的發送對象。
 
+<br/>
 <center>
-<img src="/images/seameet-zh/設定SeaMeet自動分享會議記錄.png" alt="設定SeaMeet自動分享會議記錄"/>
-</center>
+<a href="/images/seameet-zh/10-seameet-sharing/seameet-auto-sharing-setting-ui.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in" src="/images/seameet-zh/10-seameet-sharing/seameet-auto-sharing-setting-ui.png" alt="設定SeaMeet自動分享會議記錄"/>
+</a>
 
-1. 只分享給自己
+*常用設定*
+</center>
+<br/>
+
+您可以在「**常用設定**」中設定自動分享功能，目前SeaMeet提供三種選項：
+
+1. **只分享給自己**
 
     當您作為邀請者邀請機器人記錄的會議結束後，系統會自動發一封信到您的信箱。
 
-2. 分享給所有行事曆與會者
+2. **分享給所有行事曆與會者**
 
     當您邀請機器人轉錄的會議結束後，系統會自動發一封信到所有Google行事曆上受邀參加這個會議的與會者。
 
-3. 不自動分享給任何人 〈包括自己〉
+3. **不自動分享給任何人 〈包括自己〉**
 
     會議結束後將不會發送任何會議記錄。
 
