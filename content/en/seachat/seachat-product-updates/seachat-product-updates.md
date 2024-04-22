@@ -15,6 +15,14 @@ weight: 101
 toc: true
 ---
 
+
+### 04/19/2024
+##### **<font color="#739963">New Features</font>** 
+- Added Use Case Library Page: Makes it easier for you to create AI Agents efficiently.
+- Access to customer email information: You can now quickly copy customer emails directly from the conversation history list.
+- Updated WhatsApp/Messenger Setup Token Process: Improve the channel binding experience.
+- Introduced "Memory": Records key information from historical conversations. Paired with the Survey Use Case, it helps you research user needs and characteristics through dialogue.
+
 ### 04/09/2024
 ##### **<font color="#739963">New Features</font>** 
 - Added `remove` button for WhatsApp and Meta Facebook Messenger channels, allowing users to unlink accounts easily.
