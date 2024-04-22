@@ -1,15 +1,15 @@
 ---
 title: "Facebook Messenger"
-description: "Connect SeaChat to Messenger"
-date: 2024-04-08T08:48:57+00:00
-lastmod: 2024-04-08T08:48:57+00:00
+description: "連結 SeaChat to Messenger"
+date: 2024-04-22T08:48:57+00:00
+lastmod: 2024-04-22T08:48:57+00:00
 draft: false
 images: []
 menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/messenger/
+   - /zh/seachat/seachat-integrations/messenger/
    - /seachat/seachat-integrations/messenger/
    - /seachat/seachat-integrations/06-seachat-messenger-integration/
    - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
