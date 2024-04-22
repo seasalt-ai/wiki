@@ -3,12 +3,12 @@ title: "如何加入知識"
 description: "SeaChat 加入知識"
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
-lastmod: 2024-03-04 10:43:51.069 +0100
+lastmod: 2024-04-19 10:43:51.069 +0100
 weight: 30
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-intro/03-add-knowledge/01-add-knowledge-intro/
+  - /zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/
 ---
 
 ## 簡介
