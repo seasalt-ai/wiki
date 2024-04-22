@@ -434,7 +434,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 1. 從您的MetaApp中正確移除頁面訪問權限
 2. 在SeaChat內點擊移除按鈕
 
-對於第1步，請前往您的**[Meta商業App](https://developers.facebook.com/)** → **Messenger** → **Messenger API設置** → **生成訪問金鑰** → 移除
+對於第1步，請前往您的**[Meta商業App](https://developers.facebook.com/)** → **Messenger** → **Messenger API Settings** → **Generate access tokens** → 移除
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
