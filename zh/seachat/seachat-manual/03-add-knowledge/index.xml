@@ -1,24 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>知識庫 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/</link><description>Recent content in 知識庫 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 04 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>如何加入知識</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</link><pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</guid><description>簡介 # 這份教學指南將會深入的探討，如何添加知識到你的知識庫。我們將會引導你完成每一個步驟，並且在過程中強調一些小技巧。
-開始之前 # 開始加入知識前，請先註冊SeaChat。如果您已經是SeaChat用戶，你現在手邊應該已經有一個準備好接收新知識的 SeaChat 助理。如果你還沒有建立助理，我們建議你參考我們詳細的教學指南 如何創建AI助理。</description></item><item><title>上傳試算表</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</link><pubDate>Mon, 11 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</guid><description>關於電子試算表上傳 # SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教學中，我們將專注於上傳試算表的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
+開始之前 # 開始加入知識前，請先註冊SeaChat。如果您已經是SeaChat用戶，你現在手邊應該已經有一個準備好接收新知識的 SeaChat 助理。如果你還沒有建立助理，我們建議你參考我們詳細的教學指南 如何創建AI助理。</description></item><item><title>手動輸入</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</link><pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</guid><description>簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 手動輸入 方法，向您展示如何手動輸入數據到您的AI助理。
+創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
+打開知識庫 # 通過側邊欄選單中的 AI助理配置 下的 知識庫 面板找到您的AI助理的知識庫。在 手動輸入 下選擇 編寫新的知識庫文件，並開始輸入要上傳到您的AI助理的數據。
+知識庫面板
+什麼時候應該使用手動輸入？ # 當您有一些片段的、或不存在文件內的重要信息想要包含到知識庫中，您可以選擇手動輸入。這可以是一個簡短的產品描述，或者是一個常見問題。手動輸入是一種可快速迭代、快速拓展 AI 助理的好方法。
+輸入數據 # 本篇教學，我們不會詳細介紹所有的欄位，如果您想了解更多信息，可以查看我們進階教學的部分。現在，讓我們介紹各個欄位，將數據新增到我們的知識庫中。
+填寫 手動輸入 中的輸入格
+文件標題和文件內文 # 為您的文件選擇一個標題，在文件內文區域中編寫文件的文本描述。此文件標題，將顯示在您的知識庫中作為知識項目的標題。您可以在文件內文輸入格中輸入詳細的內容。文件標題和文件內文將在知識提取時，提供 AI 助理使用。
+文件標題和內文
+(非必要) 其他設置 # 您還可以設置文件為提醒，並為用戶提供 URL。
+按鈕：您可以添加按鈕，將用戶重導向到特定 URL。在相輸入格中輸入引用的URL以及顯示的標題。 AI聊天助理回應後的附加訊息：在 提醒 中，輸入您想在助理使用此文件作出回應時向最終用戶顯示的額外信息。 文件權重：使用文件權重來控制文件的重要性。權重越高，文件越重要，因此助理越有可能使用此文件來回應用戶。 完成後，點擊 送出 按鈕將內容上傳到您的助理的知識庫中。SeaChat 將導入您提供的信息。</description></item><item><title>上傳試算表</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</link><pubDate>Mon, 11 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</guid><description>簡介 # SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教學中，我們將專注於上傳試算表的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
 開啟知識庫 # 在側邊欄中，選擇AI助理配置下的知識庫。選擇上傳試算表，您就可以上傳 .csv 或 .xlsx 等電子試算表文件到您的AI助理知識庫。
+知識庫面板
 上傳檔案 # 點擊上傳您的試算表的區塊，您就可以從多種文件格式1中選擇想要提交給AI助理的文件。送出後，知識庫會處理送出的文件並更新。
+上傳檔案
 🚨 注意事項 🚨
 上傳文件前，請檢查文件是否符合以下兩個要求：
 表格必須在第一行有標題。 單一行的內容不得超過 2000 個tokens。 參考表格上傳準則以獲取更多信息。 送出文件前 # SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看每個上傳檔案的狀態。
+已上傳檔案預覽
 向下滾動以查看專用的預覽窗口，該窗口將列出您的試算表格的前10行。一旦確認所有要上傳的檔案無誤，您可以點擊繼續按鈕進行上傳。
 預覽範例: # 已添加到知識庫 # 您已成功上傳新知識。要查看已上傳的檔案，您可以至頁面右上角的「現有知識」區塊，在那裡您可以在「上傳檔案」裡找到剛剛上傳的資料。
-檢查知識庫 # 點擊您剛剛上傳的檔案並檢視內容。大功告成！您已成功地將一份試算表格上傳到您的SeaChat助理中。您現在可以使用知識庫來測試您的助理。SeaChat還有更多設置能用來客制您的知識庫，我們將在教學的下一部分繼續探索這些進階功能。
-需要幫忙 # 需要幫忙？歡迎聯絡我們 seachat@seaslt.ai.
-SeaChat 支援 .</description></item><item><title>上傳影片/音頻檔案</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</link><pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</guid><description>簡介 # 加入多媒體檔到SeaChat助理的知識庫中，不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字的步驟。現在，你可直接上傳多媒體檔案到知識庫中！
+在 現有知識 中查找文件</description></item><item><title>上傳影片/音頻檔案</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</link><pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</guid><description>簡介 # 加入多媒體檔到SeaChat助理的知識庫中，不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字的步驟。現在，你可直接上傳多媒體檔案到知識庫中！
 SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學中，我們將專注於轉錄音訊/影訊的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
-開啟知識庫 # 在側邊欄中，選擇AI助理配置下的知識庫。選擇轉錄音訊/影訊，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。 上傳檔案 # 點擊「檔案上傳」的區塊，您就可以從多種文件格式1中選擇想要提交給AI助理的文件。送出後，知識庫會處理送出的文件並更新。
+開啟知識庫 # 在側邊欄中，選擇AI助理配置下的知識庫。選擇轉錄音訊/影訊，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。
+知識庫面板
+上傳檔案 # 點擊「檔案上傳」的區塊，您就可以從多種文件格式1中選擇想要提交給AI助理的文件。送出後，知識庫會處理送出的文件並更新。
+檔案上傳
 🚨 提醒 🚨
 上傳文件前，請檢查文件是否符合以下要求:
-媒體內容必須是英文或中文。 文件的時長不得超過15分鐘。 （多人影片/音頻的限制）當音頻/視頻文件上傳後，SeaChat 將把它們進行語音轉文字處理，轉換為文本格式。目前，SeaChat 在影片/音頻轉錄中沒有發言者識別功能。如果您需要在您的轉錄中進行發言者識別，請用別的服務轉錄成文字後，再將文本直接上傳到知識庫。 檢查語言 # 選擇欲上傳的多媒體檔案。目前SeaChat支援英文和繁體中文。一旦您確認了所有上傳的文件，您可以點擊提交按鈕進行上傳。
+媒體內容必須是英文或中文。 文件的時長不得超過15分鐘。 (多人影片/音頻的限制)當音頻/視頻文件上傳後，SeaChat 將把它們進行語音轉文字處理，轉換為文本格式。目前，SeaChat 在影片/音頻轉錄中沒有發言者識別功能。如果您需要在您的轉錄中進行發言者識別，請用別的服務轉錄成文字後，再將文本直接上傳到知識庫。 檢查語言 # 選擇欲上傳的多媒體檔案。目前SeaChat支援英文和繁體中文。一旦您確認了所有上傳的文件，您可以點擊提交按鈕進行上傳。
 請注意，選擇語言後，我們將把您上傳的音頻/視頻文件轉錄成相應的語言。
+文件語言
 已添加到知識庫 # 您已成功上傳新知識。要查看已上傳的檔案，您可以至頁面右上角的「現有知識」區塊，在那裡您可以在「上傳檔案」裡找到剛剛上傳的資料。
+在 現有知識 中查找文件
 檢查知識庫 # 點擊您剛剛上傳的檔案並檢視內容。大功告成！您已成功地將影片/音頻轉成文字後上傳到您的SeaChat助理中。您現在可以使用知識庫來測試您的助理。SeaChat還有更多設置能用來客制您的知識庫，我們將在教學的下一部分繼續探索這些進階功能。
-🧠 運作原理 # 使用這個功能時請注意以下幾點:
-SeaChat不對視頻文件的內容做任何處理. 它單純從視頻中提取音軌，並將音頻轉錄為文本，這些文本可以拿在知識庫中使用。 對於每個轉錄的音頻和視頻，您可以在現有知識庫中檢查轉錄品質。 如果您有其他語言的多媒體文件，請先將它們轉錄為文本，然後上傳到SeaChat而達到相同的目的。 對於音頻/視頻文件，SeaChat會預設文件中只有一位發言者。也就是說，SeaChat不進行話者分離或話者識別。如果您有一個包含對話的音頻文件（例如，一個兩人的廣播），您應該首先將其轉錄並在每句發言者的開頭加上發言者的名字。 為什麼你需要上傳音頻/視頻？ # 許多SeaChat客戶會通過以往的客戶服務對話建立他們的知識庫。其中有許多來自WhatsApp和Facebook Messenger對話的音頻文件，通常是包含一個發言者且少於1分鐘的音頻檔案。多媒體上傳功能是這一需求的自然延伸。</description></item></channel></rss>
+審核上傳的音訊/影訊</description></item><item><title>上傳模板文件</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</link><pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</guid><description>簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 上傳試算表 方法，到教學結束時，您的 SeaChat 助理程式將具有一個定制的知識庫，為您提供服務。
+創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
+開啟知識庫 # 在側邊欄中，選擇AI助理配置下的知識庫。單擊 從模板文件上傳。SeaChat 提供模板文件，您可以直接輸入並上傳。
+知識庫面板
+模板文件 # SeaChat 提供 CSV 和 JSON 模板文件，您可以下載並填入您的數據。填入模板文件後，您可以通過單擊拖放區域來將其上傳到您AI助理的知識庫。
+預覽示例： # CSV
+id title text references reminder capture live_agent_transfer sample_key kb-1 Sample KB Doc This is an example of a KB document. [{"title":"Seasalt.ai","url":"https://seasalt.ai"}] This is some reminder text! Email,Phone Number False sample value JSON</description></item><item><title>上傳文件</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/</link><pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/</guid><description>簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 上傳文件 方法，到教學結束時，您的 SeaChat 助理程式將具有一個客制的知識庫，為您提供服務。
+創建 SeaChat 助理程式 # 如果您尚未擁有 SeaChat 帳戶，您可以在 SeaChat 網站 免費註冊！您可以在 創建助理 中找到創建基於知識的 AI 助理程式所需的所有信息。
+打開知識庫 # 通過側邊欄選單中的 AI助理配置 下的 知識庫 面板找到您助理程式的知識庫。選擇 上傳文件，準備好 20 多種類型的文件即可上傳到您的助理程式。
+知識庫面板
+文件類型 # SeaChat 可以讓您上傳超過 20 種1的文件類型。在本教學中，我們將向您展示如何上傳 DOCX 文件到您助理的知識庫中。
+🚨 注意 🚨
+針對圖片文件，例如 png，我們僅支持英文文件。至於音頻文件，我們建議您使用 音頻/視頻上傳。
+送出文件前 # SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看每個上傳檔案的狀態。點擊送出後，知識庫會處理送出的文件並更新。
+文件上傳成功
+送出到現有知識庫 # 文件成功上傳後，您將看到一個成功的消息。您已成功的為您的 AI 助理程式，增加了新的知識。要查看已上傳的文件，您可以到頁面右上角的 現有知識 ，在那裡您可以在 上傳檔案 中找到新的上傳數據。
+在 現有知識 中查找文件</description></item><item><title>匯入網址</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/</link><pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/</guid><description>簡介 # SeaChat 提供多種方法將文件上傳到您AI助理的知識庫。在本教程中，我們將專注於 匯入網址 方法。讓我們以一篇部落格文章作為例子，向您展示如何將網址匯入到您的助理。
+創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
+打開知識庫 # 通過側邊欄選單中的 AI助理配置 下的 知識庫 面板找到您的助理的知識庫。選擇 匯入網址，並準備好要上傳到您的助理的網址。
+知識庫面板
+輸入網址 # SeaChat 支持將網址匯入到您的助理。將網址複製並粘貼到相應的輸入框中。一旦您確定輸入的網址，點擊 新增 以確認。
+輸入要從網頁匯入文本的網頁的網址
+現在，您應該注意到用戶界面右側的額外選項，我想從此頁面上連結的頁面導入文本，該選項允許您從匯入文本中的連結上導入該文本。您需要提供要抓取的頁面並輸入網站頁面的網址。
+輸入從此頁面上連結的頁面導入文本的網址
+新增了網址後，您可以單擊 送出 按鈕將內容上傳到您的助理的知識庫。 SeaChat 將開始從您提供的網址匯入文本。
+送出到現有知識庫 # 文件成功上傳後，您將看到一個成功的消息。您已成功的為您的 AI 助理，增加了新的知識。要查看已上傳的文件，您可以到頁面右上角的 現有知識 ，在那裡您可以在 網頁 中找到新的上傳數據。
+在 現有知識 中查找文件
+檢查知識庫 # 單擊您剛上傳的文件以查看內容。您網站上的文本現在已經被加入到您的知識庫中。您現在可以使用知識庫來測試您的助理。SeaChat還有更多設置能用來客制您的知識庫，我們將在教學的下一部分繼續探索這些進階功能。
+審核上傳的網站文本</description></item><item><title>匯入站點地圖</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</link><pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</guid><description>簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 匯入站點地圖 方法。讓我們以站點地圖向您展示如何將網址匯入到您的助理的知識庫。
+創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
+打開知識庫 # 通過側邊欄選單中的 AI助理配置 下的 知識庫 面板找到您的助理的知識庫。選擇 匯入站點地圖，並準備好要上傳到您的助理的 XML 文件。
+知識庫面板
+輸入站點地圖 # 通過匯入站點地圖，您可以跳過逐一添加網址的過程。您的站點地圖，通常是 XML 文件，將包含您匯入的網站中的所有連結。
+將網址複製並粘貼到相應的輸入框中。一旦您確定包含的網址，點擊 新增 以確認。
+🚨 注意 🚨
+請注意，並非所有網站都有站點地圖。取得定位網站的 XML 站點地圖的最常見（且簡單）方法之一是手動檢查。您需要做的是在瀏覽器中輸入您的網站 URL，然後在 URL 的末尾添加 sitemap.xml，例如 www.YourWebsiteUrl.com/sitemap.xml。如果出現站點地圖（看起來像 XML 文件），則該網站具有站點地圖。有更多定位您的站點地圖的方法，請參閱 此文章 以了解更多信息。
+插入站點地圖的 URL
+提交之前 # 一旦您添加了站點地圖，SeaChat 將自動解析 XML 文件並提取網址。您可以在提交到您的助理的知識庫之前檢查這些網址。
+檢查已上傳的文件</description></item></channel></rss>
