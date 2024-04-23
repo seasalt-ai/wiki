@@ -11,12 +11,12 @@ aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/import-urls
 ---
 
-## 概觀
+## 簡介
 SeaChat 提供多種方法將文件上傳到您AI助理的知識庫。在本教程中，我們將專注於 **匯入網址** 方法。讓我們以一篇部落格文章作為例子，向您展示如何將網址匯入到您的助理。
 
 ## 創建 SeaChat 助理
 
-如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-intro/02-create-agent/) 找到創建AI助理的步驟。
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-manual/01-create-agent/) 找到創建AI助理的步驟。
 
 ## 打開知識庫
 通過側邊欄選單中的 **AI助理配置** 下的 **知識庫** 面板找到您的助理的知識庫。選擇 **匯入網址**，並準備好要上傳到您的助理的網址。

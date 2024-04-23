@@ -35,7 +35,8 @@ SeaChat 可以讓您上傳超過 20 種[^1]的文件類型。在本教學中，�
 >
 > 針對圖片文件，例如 png，我們僅支持英文文件。至於音頻文件，我們建議您使用 [音頻/視頻上傳](/zh/seachat/seachat-manual/03-add-knowledge/multimedia-upload)。
 
-[^1]: SeaChat 支援 .doc、.docx、.eml、.epub、.gif、.jpg、.json、.html、.mp3、.msg、.odt、.ogg、.pdf、.png、.pptx、.ps、.rtf、.tiff、.txt、.wav、.zip 等文件。
+[^1]: SeaChat 支援 .doc、.docx、.eml、.epub、.gif、.jpg、.json、.html、.mp3、.msg、.odt、
+.ogg、.pdf、.png、.pptx、.ps、.rtf、.tiff、.txt、.wav、.zip 等文件。
 
 ## 送出文件前
 SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看每個上傳檔案的狀態。點擊**送出**後，知識庫會處理送出的文件並更新。

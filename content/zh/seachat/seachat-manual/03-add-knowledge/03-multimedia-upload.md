@@ -18,7 +18,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 
 ## 創建 SeaChat 助理
 
-如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-intro/02-create-agent/) 找到創建AI助理的步驟。
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-manual/01-create-agent/) 找到創建AI助理的步驟。
 
 ## 開啟知識庫
 在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**轉錄音訊/影訊**，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。
