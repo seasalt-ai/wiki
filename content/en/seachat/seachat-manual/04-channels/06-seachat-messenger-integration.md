@@ -317,7 +317,7 @@ Finally, let’s generate the access token:
 Once the token is generated, we need to copy the token:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" alt="">
 </a>
@@ -390,7 +390,7 @@ You should now be all set!
 Did you notice in the above picture that I used /live_agent to request a human agent? If an agent happened to be online by setting their online status:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 40%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
 </a>
@@ -472,4 +472,4 @@ If you have not received responses from SeaChat Agent on Messenger, you should v
 
 
 ## Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).

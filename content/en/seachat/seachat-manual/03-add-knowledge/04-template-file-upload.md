@@ -127,6 +127,6 @@ Click on the file you just uploaded to review the content. That's it! You have s
 
 
 ## Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  

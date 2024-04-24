@@ -112,6 +112,6 @@ Why does SeaChat single out spreadsheet/table uploads? Because we believe spread
 
 
 ## Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  

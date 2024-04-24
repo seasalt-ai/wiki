@@ -10,9 +10,6 @@ menu:
     parent: "seachat-manual"
 aliases:
    - /zh/seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/06-seachat-messenger-integration/
-   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
 weight: 60
 toc: true
 ---
@@ -22,21 +19,21 @@ toc: true
 
 
 ## 簡介
-在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人或聊天助理的過程。在這教學時，您將清楚了解如何：
+在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
 1. **自動回App戶消息**：
-- 將您的Messenger商業帳戶連接到SeaChat聊天機器人和助理平台。
-- 使用ChatGPT的先進語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。
-- 配置聊天助理，根據您的知識庫自動回應即將到來的消息。
-2. **通過SeaChat訪問所有與用戶的對話**：
-- 使用SeaChat，一個用戶友好的界面，訪問和掌握用戶和您的聊天機器人之間的所有對話。
-- 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的改進領域。
-- 管理和組織對話，確保與用戶的無縫溝通。
-3. **使用戶能夠請求真人助理協助**：
-- 實施一個特殊命令，允許用戶在他們有復雜查詢或需要個性化支援時請求真人助理的協助。
-- 順暢地將對話從AI聊天助理轉移到真人助理，確保平滑和高效的過渡。
-- 賦予用戶選擇他們需要的支援層級，增強整體客戶體驗。
+- 將您的Messenger商業帳號連接到SeaChat聊天機器人/AI助理平台。
+- 使用ChatGPT等先進大語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。
+- 配置聊天助理，根據您的知識庫自動回應訊息。
+2. **通過SeaChat管理所有與用戶的對話**：
+- 使用SeaChat，掌握用戶和您的聊天機器人之間的所有對話。
+- 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的需要改進的部分。
+- 管理對話，確保與用戶的無縫溝通。
+3. **用戶能夠請求真人客服協助**：
+- 允許用戶在他們有更進階需求或需要個性化支援時請求真人客服的協助。
+- 順暢地將對話從AI聊天助理轉移到真人客服。
+- 用戶可選擇他們需要的客服支援層級，增強整體客戶體驗。
 
-到本教程結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
+到本教學結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -51,43 +48,43 @@ toc: true
 
 在開始設置過程之前，有幾個關鍵點需要記住：
 
-**Messenger限制**：
-- SeaChat AI助理設計為僅響應即將到來的消息，不能自行開始對話。
-- 然而，作為助理創建者的您仍然能夠與用戶進行對話，旦請事先安排真人助理。
+**Messenger的限制**：
+- SeaChat AI助理設計只能回應訊息，不能自行主動開始對話。
+- 作為SeaChat管理員的您仍然能夠與用戶進行對話，但請事先安排真人助理。
 
-**誰會受益於此集成**：
-- 需要自動化處理大量即到Messenger的企業和組織。
-- 尋求提供個性化和吸引人的客戶支援體驗的公司。
-- 通過自動化常規查詢來減輕人力助理負擔的客戶服務部門。
+**誰需要Messenger頻道**：
+- 需要自動化處理大量Messenger訊息的企業和組織。
+- 尋求提供個性化和更好客戶體驗的公司。
+- 通過自動化常規查詢來減輕人力負擔的客戶服務部門。
 
 ---
 
 ## Facebook Messenger設置
-使用正確的指導，設置Facebook Messenger可以是一個直接的過程。您也可以點擊標題查看每個步驟的更詳細說明：
+設置Facebook Messenger需要仔細照著以下步驟設定，往下滑可看到逐步詳細指南：
 
-1. **[創建MessengerApp](#create-a-facebook-messenger-app)**:
+1. **[創建MessengerApp](###創建Facebook-MessengerApp)**:
 - 轉到Meta Developer網站。
 - 點擊右上角的**MyApps**。
-- 從下拉菜單選擇**CreateApp**。
+- 從下拉選單選擇**CreateApp**。
 
-2. **[選擇App類型](#choose-app-type)**:
+2. **[選擇App類型](###選擇App類型)**:
 - 在**App Type**下選擇**Other**。
-- 輸入一個獨特的App名稱，避免使用**MessengerApp**或**Facebook**的名稱。
+- 輸入一個全新的App名稱，避免使用**MessengerApp**或**Facebook**等難以辨識的名稱。
 
-3. **[添加Messenger產品](#add-messenger-product)**:
+3. **[添加Messenger產品](###添加Messenger產品)**:
 - 滾動到App列表的底部。
 - 找到**Messenger**並選擇它以將該產品添加到您的App中。
 
-5. **[配置MessengerApp](#step-1-configure-webhooks)**:
+5. **[配置MessengerApp](#如何配置messengerapp)**:
 - 仔細閱讀配置頁面上的信息。
 - 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。
-- 確保正確填寫所有必填字段。
+- 確保正確填寫所有必填欄位。
 
-6. **[生成訪問金鑰](#step-2-generate-access-token)**:
+6. **[生成訪問金鑰](#步驟2生成訪問金鑰)**:
 - 配置完成後，生成一個永久的訪問金鑰。
 - 此金鑰對於使用Messenger API至關重要。
 
-7. **[移除您的Messenger集成](#remove-your-messenger-integration)**:
+7. **[移除您的Messenger集成](#移除您的messenger集成)**:
 - 從您的MetaApp中正確移除頁面訪問權限
 - 在SeaChat內點擊移除按鈕
 
@@ -95,11 +92,11 @@ toc: true
 >
 > 記得遵守[Messenger API](https://developers.facebook.com/docs/messenger/)政策和指南，以維持合規並避免任何潛在問題。
 
-以下是逐步引導您完成過程的詳細解釋：
+以下將逐步引導您完成過程並配上詳細操作指南：
 
 ### 創建Facebook MessengerApp
 
-您首先需要前往[Meta Developer網站](https://developers.facebook.com/)，點擊右上角的**我的App**，然後從下拉菜單中選擇**創建App**。
+您首先需要前往[Meta Developer網站](https://developers.facebook.com/)，點擊右上角的**我的App**，然後從下拉選單中選擇**創建App**。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -112,7 +109,8 @@ toc: true
 </div>
 
 ### 選擇App類型
-創建一個**Other**App，因為我們將僅使用此App來訪問您的Messenger帳戶。在**Selectapp type page**上，選擇**Business**作為類型，然後點擊**Next**。
+
+創建一個**Other** App，因為我們將僅使用此App來訪問您的Messenger帳戶。在**Selectapp type page**上，選擇**Business**作為類型，然後點擊**Next**。
 
 <br/>
 <div style="display: flex; flex-direction: column; align-items: center;">
@@ -120,7 +118,7 @@ toc: true
         <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-1.png" alt="">
         </a>
-        <p style="margin-top: 20px; font-size: 15px">創建一個 <strong>Other</strong>app</p>
+        <p style="margin-top: 20px; font-size: 15px">創建一個 <strong>Other</strong> app</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
@@ -316,7 +314,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 一旦生成了金鑰，我們需要複製該金鑰：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" alt="">
 </a>
@@ -367,7 +365,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 
 <br/> 
 
-然而，完成App審查可能需要多達5天的時間，而且過程非常繁瑣。例如，它要求您錄製MetaApp的視頻演示。
+然而，完成App審查可能需要多達5天的時間，而且過程非常繁瑣。例如，Meta會要求您錄製MetaApp的影片演示。
 
 替代方法是將頁面分配給您在Meta擁有的業務。為此，前往[Meta商業套件](https://business.facebook.com/)，選擇您創建MetaApp的業務，然後轉到**Accounts** → **Pages**，並確保您的聊天機器人連接的Facebook頁面出現在那裡：
 
@@ -386,10 +384,10 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 您現在應該已經全部設置完成了！
 
 # 與真人助理互動
-您是否注意到在上圖中我使用了/live_agent來請求真人助理？如果助理恰好在線並設置了他們的在線狀態：
+您是否注意到在上圖中我使用了`/live_agent`來請求真人助理？如果助理恰好在線並設置了他們的在線狀態：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 40%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
 </a>
@@ -471,5 +469,5 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 
 
 ## 支持
-需要協助？聯繫我們：[seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+需要協助？聯繫我們：[seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 

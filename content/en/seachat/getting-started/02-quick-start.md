@@ -232,4 +232,4 @@ Sit back and watch how SeaChat AI agents can elevate your operations. From custo
 In this tutorial, we've walked you through the steps necessary to set up your first AI agent. However, to fully unleash the power of SeaChat AI agent, there are a few more aspects for you to grasp. We kindly invite you to explore our detailed [user manual]( /en/seachat/seachat-intro/02-how-to-create/) to understand the true potential of SeaChat, or you can directly contact our [support team](#support) for further information and assistance. 
 
 ## Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).

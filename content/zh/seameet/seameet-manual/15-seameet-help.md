@@ -18,5 +18,5 @@ toc: true
 
 # 有更多疑問？想提供反饋意見？
 
-若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 < email: info@seasalt.ai > 說明需求或問題。
+若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 < email: seameet@seasalt.ai > 說明需求或問題。
 SeaMeet團隊將會在最遲24-48小時內回覆。
