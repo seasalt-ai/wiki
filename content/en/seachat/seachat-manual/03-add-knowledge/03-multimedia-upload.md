@@ -8,7 +8,7 @@ weight: 32
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/multimedia-upload/
+  - /en/seachat/seachat-intro/03-add-knowledge/03-multimedia-upload/
 ---
 
 ## Overview
