@@ -63,7 +63,7 @@ Please disconnect any other chatbot services, like Shopify Inbox, to prevent con
 
 
 ### Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  
  

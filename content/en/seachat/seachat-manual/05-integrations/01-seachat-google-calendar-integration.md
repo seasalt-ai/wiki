@@ -22,7 +22,7 @@ toc: true
 Stay tuned! We will soon add a detailed tutorial on how to use SeaChat AI chat and voice agent to automatically book appointments onto your Google Calendar.
 
 ### Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  
  

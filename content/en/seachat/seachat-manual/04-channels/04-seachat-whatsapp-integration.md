@@ -512,6 +512,6 @@ If you have not received responses from SeaChat Agent on WhatsApp, you should ve
 
 
 ## Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  

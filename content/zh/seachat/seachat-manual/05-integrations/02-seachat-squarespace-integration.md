@@ -61,6 +61,6 @@ toc: true
 請移除任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心從「Code Injection」部分移除。
 
 ### 協助支援
-需要協助？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+需要協助？歡迎聯絡我們 [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  

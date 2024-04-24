@@ -106,4 +106,4 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 如果您有以往的客戶對話的音頻或視頻文件格式，請試試將其上傳到知識庫。您的AI代理可以從過去的客戶服務對話中學習，以生成高質量的回應。
 
 ## 需要幫忙
-需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai)。
+需要幫忙？歡迎聯絡我們 [seachat@seasalt.ai](mailto:seachat@seasalt.ai).

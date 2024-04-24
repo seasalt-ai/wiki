@@ -78,4 +78,4 @@ Click on the file you just uploaded to review the content. The texts on your URL
 
 
 ## Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).

@@ -70,4 +70,4 @@ toc: true
 </center>
 
 ## 需要幫忙嗎？
-需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+需要幫忙？歡迎聯絡我們 [seameet@seasalt.ai](mailto:seameet@seasalt.ai).

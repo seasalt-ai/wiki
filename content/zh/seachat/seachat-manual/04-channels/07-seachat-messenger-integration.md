@@ -1,106 +1,102 @@
 ---
 title: "Facebook Messenger"
-description: "Connect SeaChat to Messenger"
-date: 2024-04-08T08:48:57+00:00
-lastmod: 2024-04-08T08:48:57+00:00
+description: "連結 SeaChat to Messenger"
+date: 2024-04-22T08:48:57+00:00
+lastmod: 2024-04-22T08:48:57+00:00
 draft: false
 images: []
 menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/06-seachat-messenger-integration/
-   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
+   - /zh/seachat/seachat-integrations/messenger/
 weight: 60
 toc: true
 ---
 
-## 🎥 Video Tutorial
+## 🎥 影片教學
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=aFruY5bwG00&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
-## Overview
-In this section, we will dive deeper into the process of setting up a ChatGPT-powered chatbot or chat agent on Facebook Messenger. By the end of this section, you will have a clear understanding of how to:
-1. **Automate responses to user messages**: 
-  - Connect your Messenger business account to the SeaChat chatbot and agent platform.
-  - Train the chatbot using ChatGPT's advanced language model to generate natural language responses to a wide range of user queries.
-  - Configure the chat agent to automatically respond to incoming messages based on your knowledge base.
-2. **Access all conversations with users through SeaChat**:
-  - Use SeaChat, a user-friendly interface, to access and monitor all conversations between users and your chatbot.
-  - Review chat transcripts, analyze user behavior, and identify areas for improvement in the chat agent's responses.
-  - Manage and organize conversations efficiently to ensure seamless communication with users.
-3. **Enable users to request live agent assistance**:
-  - Implement a special command that allows users to request assistance from a real human agent if they have complex queries or require personalized support.
-  - Seamlessly transfer conversations from the AI chat agent to live human agents, ensuring a smooth and efficient transition.
-  - Empower users to choose the level of support they need, enhancing the overall customer experience.
+## 簡介
+在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
+1. **自動回App戶消息**：
+- 將您的Messenger商業帳號連接到SeaChat聊天機器人/AI助理平台。
+- 使用ChatGPT等先進大語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。
+- 配置聊天助理，根據您的知識庫自動回應訊息。
+2. **通過SeaChat管理所有與用戶的對話**：
+- 使用SeaChat，掌握用戶和您的聊天機器人之間的所有對話。
+- 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的需要改進的部分。
+- 管理對話，確保與用戶的無縫溝通。
+3. **用戶能夠請求真人客服協助**：
+- 允許用戶在他們有更進階需求或需要個性化支援時請求真人客服的協助。
+- 順暢地將對話從AI聊天助理轉移到真人客服。
+- 用戶可選擇他們需要的客服支援層級，增強整體客戶體驗。
 
-By the end of this tutorial, you’ll have a SeaChat agent powered Facebook Messenger bot and also a SeaChat console to view all messages, as shown below:
+到本教學結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">ChatGPT-powered chatbot integration with Facebook Messenger using SeaChat</p>
+    <p style="margin-top: 20px; font-size: 15px">使用SeaChat的ChatGPT驅動的聊天機器人與Facebook Messenger集成</p>
 </div>
 </div>
 
-<br/> 
+<br/>
 
-Before embarking on the setup process, it's essential to keep in mind a few key points:
+在開始設置過程之前，有幾個關鍵點需要記住：
 
-**Messenger limitations**:
-  - The SeaChat AI agent is designed to respond to incoming messages only and cannot initiate conversations on its own.
-  - However, you as the agent creator will still be able to talk with the users once a live human agent is requested.
+**Messenger的限制**：
+- SeaChat AI助理設計只能回應訊息，不能自行主動開始對話。
+- 作為SeaChat管理員的您仍然能夠與用戶進行對話，但請事先安排真人助理。
 
-**Who benefits from this integration**:
-  - Businesses and organizations with a high volume of incoming Messenger messages that require automation.
-  - Companies looking to provide personalized and engaging customer support experiences.
-  - Customer service departments seeking to reduce the burden on human agents by automating routine inquiries.
+**誰需要Messenger頻道**：
+- 需要自動化處理大量Messenger訊息的企業和組織。
+- 尋求提供個性化和更好客戶體驗的公司。
+- 通過自動化常規查詢來減輕人力負擔的客戶服務部門。
 
 ---
 
-## Facebook Messenger Setup
-Setting up Facebook Messenger can be a straightforward process with the right guidance. Here's a short version of the steps involved. You can also click on the titles to see a more detailed explanation of each step:
+## Facebook Messenger設置
+設置Facebook Messenger需要仔細照著以下步驟設定，往下滑可看到逐步詳細指南：
 
-1. **[Create a Messenger App](#create-a-facebook-messenger-app)**:
-- Go to the Meta Developer Site.
-- Click on **My Apps** in the top-right corner.
-- Select **Create App** from the dropdown menu.
+1. **[創建MessengerApp](###創建Facebook-MessengerApp)**:
+- 轉到Meta Developer網站。
+- 點擊右上角的**MyApps**。
+- 從下拉選單選擇**CreateApp**。
 
-2. **[Choose App Type](#choose-app-type)**:
-- Choose **Other** under **App Type**.
-- Enter a unique app name, avoiding the use of **Messenger App** or **Facebook** in the name.
+2. **[選擇App類型](###選擇App類型)**:
+- 在**App Type**下選擇**Other**。
+- 輸入一個全新的App名稱，避免使用**MessengerApp**或**Facebook**等難以辨識的名稱。
 
-3. **[Add Messenger Product](#add-messenger-product)**:
-- Scroll down to the bottom of the app list.
-- Find **Messenger** and select it to add the product to your app.
+3. **[添加Messenger產品](###添加Messenger產品)**:
+- 滾動到App列表的底部。
+- 找到**Messenger**並選擇它以將該產品添加到您的App中。
 
-5. **[Configure Messenger Application](#step-1-configure-webhooks)**:
-- Carefully review the information on the configuration page.
-- Follow the instructions to provide necessary details, such as business name, address, and contact information.
-- Ensure that all required fields are filled out correctly.
+5. **[配置MessengerApp](#如何配置messengerapp)**:
+- 仔細閱讀配置頁面上的信息。
+- 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。
+- 確保正確填寫所有必填欄位。
 
-6. **[Generate Access Token](#step-2-generate-access-token)**:
-- Once the configuration is complete, generate a permanent access token.
-- This token is essential for using the Messenger API.
+6. **[生成訪問金鑰](#步驟2生成訪問金鑰)**:
+- 配置完成後，生成一個永久的訪問金鑰。
+- 此金鑰對於使用Messenger API至關重要。
 
-7. **[Remove Your Messenger Integration](#remove-your-messenger-integration)**:
-- Properly remove the page access from your Meta app
-- Click the Remove button inside SeaChat
+7. **[移除您的Messenger集成](#移除您的messenger集成)**:
+- 從您的MetaApp中正確移除頁面訪問權限
+- 在SeaChat內點擊移除按鈕
 
-> :books: **Recommended Reading**:
-> 
-> Remember to adhere to the [Messenger API](https://developers.facebook.com/docs/messenger/) policies and guidelines to maintain compliance and avoid any potential issues.
+> :books: **推薦閱讀**:
+>
+> 記得遵守[Messenger API](https://developers.facebook.com/docs/messenger/)政策和指南，以維持合規並避免任何潛在問題。
 
+以下將逐步引導您完成過程並配上詳細操作指南：
 
-The following is an elaborated explanation that walks you through the process step-by-step:
+### 創建Facebook MessengerApp
 
-### Create a Facebook Messenger App
-
-You’ll first need to go to [Meta Developer Site](https://developers.facebook.com/) and create a new Facebook Messenger app by clicking **My Apps** in the top right corner, and then selecting **Create App** from the dropdown menu.
+您首先需要前往[Meta Developer網站](https://developers.facebook.com/)，點擊右上角的**我的App**，然後從下拉選單中選擇**創建App**。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -108,12 +104,13 @@ You’ll first need to go to [Meta Developer Site](https://developers.facebook.c
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" alt="">
     </a>
 <br/>
-    <p style="margin-top: 20px; font-size: 15px">Create a New Messenger</p>
+    <p style="margin-top: 20px; font-size: 15px">創建新的MessengerApp</p>
 </div>
 </div>
 
-### Choose App Type
-Create an **Other** app because we’ll just use this App for accessing your Messenger account. On the **Select app type page**, select **Business** for the type, then click **Next**.
+### 選擇App類型
+
+創建一個**Other** App，因為我們將僅使用此App來訪問您的Messenger帳戶。在**Selectapp type page**上，選擇**Business**作為類型，然後點擊**Next**。
 
 <br/>
 <div style="display: flex; flex-direction: column; align-items: center;">
@@ -121,33 +118,33 @@ Create an **Other** app because we’ll just use this App for accessing your Mes
         <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-1.png" alt="">
         </a>
-        <p style="margin-top: 20px; font-size: 15px">Create an <strong>Other</strong> app</p>
+        <p style="margin-top: 20px; font-size: 15px">創建一個 <strong>Other</strong> app</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-2.png" alt="">
         </a>
-        <p style="margin-top: 20px; font-size: 15px">Choose <strong>Business</strong></p>
+        <p style="margin-top: 20px; font-size: 15px">選擇<strong>Business</strong></p>
     </div>
 </div>
 
 <br/>
 
-Here we created an app called **Seasalt.ai App**, note that Meta doesn’t allow the app to have **Facebook** or **Messenger** in the name. Carefully read through warning messages when choosing the app name.
+在這裡，我們創建了一個名為**Seasalt.aiApp**的App，請注意，Meta不允許App名稱中包含**Facebook**或**Messenger**。在選擇App名稱時，請仔細閱讀警告消息。
 
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-3.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
             <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-3.png" alt="">
         </a>
-        <p style="margin-top: 20px; font-size: 15px">Create App</p>
+        <p style="margin-top: 20px; font-size: 15px">創建App</p>
     </div>
 <br/>
 
-### Add Messenger Product
+### 添加Messenger產品
 
-After creating the App, let’s add the [Messenger product](https://developers.facebook.com/docs/messenger/). Find the Messenger box under the **Add products to your app** section, and click **Set up** to create your app.
+創建App後，讓我們添加[Messenger產品](https://developers.facebook.com/docs/messenger/)。在**Add products to yourapp**部分下找到Messenger框，並點擊**Set up**以創建您的App。
 
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -155,18 +152,19 @@ After creating the App, let’s add the [Messenger product](https://developers.f
         <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/add-messenger-product.png" alt="">
     </a>
 <br/>
-    <p style=" font-size: 15px">Add Messenger to Your App</p>
+    <p style=" font-size: 15px">將Messenger添加到您的App</p>
 </div>
 </div>
 
-## How to Configure Messenger Application
-> :rotating_light: **Warning** :rotating_light:
+
+## 如何配置MessengerApp
+> :rotating_light: **警告** :rotating_light:
 >
-> Here is where things get a bit more complicated.  If you are not careful enough and miss a step, you might not be able to successfully configure your Messenger application. So, let's carefully go through the following instruction together.
+> 這裡的事情可能會變得有些複雜。如果您不夠小心並且錯過了一步，可能無法成功配置您的MessengerApp。所以，讓我們一起仔細地遍歷以下指示。
 
-### Step 1: Configure webhooks
+### 步驟1：配置Webhooks
 
-Find **Messenger API** under **Messenger** on the left. From here we’ll first need to configure the Webhook and tokens provided by SeaChat.
+在左側的**Messenger**下找到**Messenger API**。從這裡，我們首先需要配置Webhook和SeaChat提供的金鑰。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -175,12 +173,12 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
     <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-1.png" alt="">
     </a>
 <br/>
-    <p style=" font-size: 15px">Verify Token</p>
+    <p style=" font-size: 15px">Verify token</p>
 </div>
 </div>
 
 
-Here is all you have to do. Go to SeaChat, navigate to **Agent Configuration → Channels → Messenger** to get the **Callback URL** and **Verify token**. 
+您只需要做以下操作。前往SeaChat，導航至**Agent Configuration → Channels → Messenger**以獲取**Callback URL**和**Verify token**。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -189,12 +187,11 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
     <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-2.png" alt="">
     </a>
 <br/>
-    <p style=" font-size: 15px">Navigate to <strong>Messenger</strong> on SeaChat</p>
+    <p style=" font-size: 15px">導航至SeaChat的<strong>Messenger</strong></p>
 </div>
 </div>
-
-
-Copy SeaChat’s Step 1 and paste it to corresponding parts on Messenger dashboard.
+``
+將SeaChat的步驟1的信息複製並貼上到Messenger儀表板的相應部分。
 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
@@ -202,274 +199,275 @@ Copy SeaChat’s Step 1 and paste it to corresponding parts on Messenger dashboa
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-3.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Copy SeaChat info to configure</p>
+    <p style="margin-top: 20px; font-size: 15px">將SeaChat信息配置到儀表板</p>
 </div>
 </div>
 
 <br/>
 
-Paste the **Callback URL** and **Verify token** to the corresponding fields on the Messenger dashboard:
+將**Callback URL**和**Verify token**貼上到Messenger儀表板的相應字段中：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-4.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Paste the URL and token</p>
+    <p style="margin-top: 20px; font-size: 15px">貼上URL和金鑰</p>
 </div>
 </div>
 
 <br/>
 
-After this, we’ll need to properly configure **Webhook Fields** to give the right permission to the webhook callback URL:
+之後，我們需要正確配置**Webhook Fields**，以授予webhook回調URL適當的權限：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-5.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px"><strong>Webhook Fields</strong> configuration</p>
+    <p style="margin-top: 20px; font-size: 15px"><strong>Webhook Fields</strong>配置</p>
 </div>
 </div>
 
 <br/>
 
-Select **messages** and click **Subscribe**:
+選擇**messages**並點擊**Subscribe**：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-6.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Subscribe selected messages</p>
+    <p style="margin-top: 20px; font-size: 15px">訂閱選擇的消息</p>
 </div>
 </div>
 
 <br/>
 
-So your final configuration of webhook would look like this:
+您的webhook最終配置應如下所示：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-7.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Webhook configuration</p>
+    <p style="margin-top: 20px; font-size: 15px">Webhook配置</p>
 </div>
 </div>
 
 <br/>
 
-### Step 2: Generate Access Token
+### 步驟2：生成訪問金鑰
 
-The Meta app needs to access a certain Facebook Page to be able to receive messages sent from that Page. So in Step 2, you’ll first need to authorize it to access your public Facebook Page.
+MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送的消息。因此，在步驟2中，您首先需要授權它訪問您的公共Facebook頁面。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-1.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Generate Access Token</p>
+    <p style="margin-top: 20px; font-size: 15px">生成訪問金鑰</p>
 </div>
 </div>
 
 <br/>
 
-After authorizing with a Facebook Page, you can further **Add Subscriptions**:
+在授權Facebook頁面後，您可以進一步**Add Subscriptions**：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-2.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-2.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Click on <strong>Add Subscription</strong></p>
+    <p style="margin-top: 20px; font-size: 15px">點擊<strong>添加訂閱</strong></p>
 </div>
 </div>
 
 <br/>
 
-Again, we want to subscribe to **messages**:
+同樣，我們要訂閱**messages**：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-3.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Choose <strong>messages</strong></p>
+    <p style="margin-top: 20px; font-size: 15px">選擇<strong>messages</strong></p>
 </div>
 </div>
 
 <br/>
 
-Finally, let’s generate the access token:
+最後，讓我們生成訪問金鑰：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-4.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Token generation</p>
+    <p style="margin-top: 20px; font_size: 15px">金鑰生成</p>
 </div>
 </div>
 
 <br/>
 
-Once the token is generated, we need to copy the token:
+一旦生成了金鑰，我們需要複製該金鑰：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Token details</p>
+    <p style="margin-top: 20px; font-size: 15px">金鑰詳情</p>
 </div>
 </div>
 
 <br/>
 
-Paste it to Step 2 of SeaChat Messenger setup:
+將其貼上到SeaChat Messenger設置的第二步：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-6.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Paste Token to SeaChat</p>
+    <p style="margin-top: 20px; font-size: 15px">將金鑰貼上到SeaChat</p>
 </div>
 </div>
 
 <br/>
 
-Now turn on your App Mode to be **Live** and you can chat with the bot:
+現在將您的App模式設為**Live**，您就可以與機器人對話了：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a id="live-mode" href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-7.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live mode</p>
+    <p style="margin-top: 20px; font-size: 15px">即時模式</p>
 </div>
 </div>
 
 <br/>
 
-### Step 3: Alternative to  Complete App Review
+### 步驟3：替代完成App審查
 
-So far your messenger bot will respond **only to you**, the app creator. If you pass it to others, they will not get a response at all. It might be tempting to do “Step 3. Complete App Review” per Facebook’s instructions:
+到目前為止，您的Messenger機器人只會對您這位App創建者做出回應。如果您將其交給其他人，他們將得不到任何回應。按照Facebook的指示完成“步驟3. 完成App審查”可能很誘人：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/app-review-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/app-review-1.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">App review</p>
+    <p style="margin-top: 20px; font-size: 15px">App審查</p>
 </div>
 </div>
 
 <br/> 
 
-However, It might take up to 5 days to complete the App Review and the process is very cumbersome. For instance, it requires you to take a video walkthrough of the Meta app.
+然而，完成App審查可能需要多達5天的時間，而且過程非常繁瑣。例如，Meta會要求您錄製MetaApp的影片演示。
 
-An alternative way is to assign the page to the business you have with Meta. To do so, go to [Meta Business Suite](https://business.facebook.com/), select the business your Meta app was created under, and then go to **Accounts** → **Pages**, and make sure that the Facebook Page your chatbot is connected to is there:
+替代方法是將頁面分配給您在Meta擁有的業務。為此，前往[Meta商業套件](https://business.facebook.com/)，選擇您創建MetaApp的業務，然後轉到**Accounts** → **Pages**，並確保您的聊天機器人連接的Facebook頁面出現在那裡：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-pages.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-pages.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Make sure the Facebook Page shows up under your business 
+    <p style="margin-top: 20px; font-size: 15px">確保Facebook頁面在您的業務下顯示
 </p>
 </div>
 </div>
 
 <br/> 
 
-You should now be all set!
+您現在應該已經全部設置完成了！
 
-# Engage with a real human agent
-Did you notice in the above picture that I used /live_agent to request a human agent? If an agent happened to be online by setting their online status:
+# 與真人助理互動
+您是否注意到在上圖中我使用了`/live_agent`來請求真人助理？如果助理恰好在線並設置了他們的在線狀態：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 40%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent status
+    <p style="margin-top: 20px; font-size: 15px">真人助理狀態
 </p>
 </div>
 </div>
 
 <br/> 
 
-They can directly talk with the user!
+他們可以直接與用戶對話！
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-interaction.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent interaction
+    <p style="margin-top: 20px; font-size: 15px">真人助理互動
 </p>
 </div>
 </div>
 
 <br/> 
 
-If an agent is not online, they can turn on Email notification to receive real-time emails when a user initiates a chat, or request a live agent:
+如果助理不在線，他們可以開啟電子郵件通知以在用戶發起聊天或請求真人助理時收到當時的電子郵件：
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/ai-agent-preference.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent preference
+    <p style="margin-top: 20px; font-size: 15px">真人助理偏好
 </p>
 </div>
 </div>
 
 <br/> 
 
-## Remove your Messenger Integration
+## 移除您的Messenger集成
 
-If you want to remove the Messenger integration, you need to do it in two places:
-1. Properly remove the page access from your Meta app
-2. Click the Remove button inside SeaChat
+如果您想要移除Messenger集成，您需要在兩個地方進行操作：
+1. 從您的MetaApp中正確移除頁面訪問權限
+2. 在SeaChat內點擊移除按鈕
 
-For Step 1, please go to your **[Meta Business app](https://developers.facebook.com/)** → **Messenger** → **Messenger API Settings** → **Generate access tokens** → remove
+對於第1步，請前往您的**[Meta商業App](https://developers.facebook.com/)** → **Messenger** → **Messenger API Settings** → **Generate access tokens** → 移除
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/remove-app-1.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Remove integration</p>
+    <p style="margin-top: 20px; font-size: 15px">移除集成</p>
 </div>
 </div>
 
 <br/> 
 
-## Respond to Voice Clips
-Do you know that SeaChat supports audio messages too? If a user sends a voice clip, SeaChat can transcribe it to text, and respond via text!
+## 回應語音剪輯
+您知道SeaChat也支持語音消息嗎？如果用戶發送語音剪輯，SeaChat可以將其轉錄為文字，並通過文字回應！
 
-Currently, it supports English speech to transcription, but let us know if you want more languages supported.
+目前，它支持英語語音到文字轉錄，但如果您需要更多語言支持，請告訴我們。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px"><strong>Facebook Messenger voice clip transcription and response by SeaChat</strong></p>
+    <p style="margin-top: 20px; font-size: 15px"><strong>Facebook Messenger語音剪輯轉錄和SeaChat回應</strong></p>
 </div>
 </div>
 
 <br/> 
 
-## :dart: Troubleshooting
+## :dart: 故障排除
 
-If you have not received responses from SeaChat Agent on Messenger, you should verify the following easily missed settings:
-- Has your Messenger application been set to [**Live mode**](#live-mode)? Be sure that it is not operating in Development mode.
-- Did you configure the [**webhook fields**](#perma-token-webhook) to allow the **message permission**? If this permission is not properly granted, SeaChat will be unable to receive messages from messegner.
+如果您沒有收到來自SeaChat助理的Messenger回應，您應該驗證以下容易被忽略的設置：
+- 您的MessengerApp是否已設置為[**即時模式**](#live-mode)？確保它不是在開發模式下運行。
+- 您是否配置了[**webhook字段**](#perma-token-webhook)以允許**消息權限**？如果未正確授予此權限，SeaChat將無法接收來自Messenger的消息。
 
 
-## Support
-Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
+## 支持
+需要協助？聯繫我們：[seachat@seasalt.ai](mailto:seachat@seasalt.ai).
+

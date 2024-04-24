@@ -101,6 +101,8 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 </center>
 
 ## 需要幫忙
-需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai)。
+需要幫忙？歡迎聯絡我們 [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
+
+
 
  

@@ -23,7 +23,7 @@ If you do not have a SeaChat account, you can sign up for free at [SeaChat websi
 
 
 ## Step 2: Open Wix and "Design Site"
-1. Go to your Wix dashboard for the website of interest. Select the Design Site on the top right menu. 
+Go to your Wix dashboard for the website of interest. Select the Design Site on the top right menu. 
 
 
 <img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step1.png" alt="Go to your Wix dashboard and click on Design Site from top right menu.">
@@ -80,6 +80,6 @@ Use “Preview” function on Wix to test the AI agent. Remember to launch the w
 Please disconnect any other chatbot services to prevent confusion. If your previous chatbot service is embedded in code, remove it carefully from the “Code Injection” section. 
 
 ### Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  

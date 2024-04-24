@@ -23,7 +23,7 @@ If you do not have a SeaChat account, you can sign up for free at [SeaChat websi
 
 
 ## Step 2: Open Squarespace
-1. Go to your Squarespace dashboard for the website of interest. Select the “Website” on the sidebar menu. 
+Go to your Squarespace dashboard for the website of interest. Select the “Website” on the sidebar menu. 
 
 
 <img width="30%" style="border-radius: 0.4rem" src="/images/seachat-integrations/squarespace/20240228-squarespace-integration-step1.png" alt="Go to your Squarespace dashboard and click on Website from the menu.">
@@ -62,6 +62,6 @@ Use “Preview” function on Squarespace to test the AI agent. Remember to laun
 Please disconnect any other chatbot services to prevent confusion. If your previous chatbot service is embedded in code, remove it carefully from the “Code Injection” section. 
 
 ### Support
-Need assistance? Contact us at [seachat@seaslt.ai](mailto:seachat@seaslt.ai).
+Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).
 
  
