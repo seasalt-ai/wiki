@@ -1,8 +1,8 @@
 ---
 title: "SeaX Widget"
 description: "The SeaX Widget allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX account."
-date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+date: 2024-04-25T08:48:57+00:00
+lastmod: 2024-04-25T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -20,7 +20,7 @@ In this article, we will introduce the SeaX Widget, a feature of the SeaX platfo
 
 -------------------
 ## Why SeaX Widget?
-Providing a seamless experience for your customers is crucial for any business. SeaX can be integrated into your website or app to provide your customer the means to contact your SeaX account directly. By integrating the SeaX Widget into your website or app, your customer is only one click away from getting the help they need. As a business owner, you can then unify all your customer interactions in SeaX, making it easier for you to manage and respond to your customers.
+Providing a seamless experience for your customers is crucial for any business. SeaX can be integrated into your website or app to provide your customer the means to message your SeaX account directly. By integrating the SeaX Widget into your website or app, your customer is only one click away from getting the help they need. As a business owner, you can then unify all your customer interactions in SeaX, making it easier for you to manage and respond to your customers.
 
 ## Find the Webchat Widget Dashboard
 Let's first find the Webchat Widget Dashboard in the SeaX platform. In your sidebar menu, click on **Webchat Widget** to access the Webchat Widget Dashboard.
@@ -39,10 +39,10 @@ In the Webchat Widget Dashboard, you can customize the appearance of your SeaX W
 
 > :bulb: **Reminder**:
 > 
-> Every time you make a change to click on the **Save** button to apply the changes.
+> Every time you make a change, remember to click on the **Save** button to apply the changes.
 
 ### Bubble
-The bubble setting allows you to customize the appearance of the widget button. This is what your customers will see on your website or app. By pasting the URLs into the **Widget Logo**, you can change the widget's logo so that it matches your brand's design. Remember to insert **Widget Popup Message** to set the greeting message that your customers will see when the button shows up.
+The bubble setting allows you to customize the appearance of the widget button. This is what your customers will see on your website or app. By pasting the URL into the **Widget Logo**, you can change the widget's icon so that it matches your brand's design. Remember to write a friendly **Widget Popup Message** to set the greeting message. Your customers will see this message when the bubble button shows up.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -53,7 +53,7 @@ The bubble setting allows you to customize the appearance of the widget button. 
 </div>
 </div>
 
-This is what your end result will look like:
+This is what your bubble button with custom greeting message will look like:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -66,7 +66,7 @@ This is what your end result will look like:
 
 ### Popout
 
-In Popout, you can customize the appearance of the chat interface that your customers will use to communicate with your SeaX account. You must provide **Widget Title** and colors for the chat interface. 
+In Popout, you can customize the appearance of the chat interface that your customers will use to communicate with you via SeaX. You must provide **Widget Title** and colors for the chat interface. 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -77,7 +77,7 @@ In Popout, you can customize the appearance of the chat interface that your cust
 </div>
 </div>
 
-Scroll further on the same page to set up your chat. Make sure to provide a opening message to greet your customers when they start a chat with your SeaX account.
+Scroll further on the same page to set up your chat. Make sure to provide a opening message to greet your customers when they start a chat with you via SeaX.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -100,7 +100,7 @@ That's it. Simply click on **Preview** window to see how your SeaX Widget will l
 </div>
 
 ### Custom Forms
-Custom form is a powerful feature that allows you to collect information from your new customers before they start a chat with your SeaX account. You can create a form with different types of fields such as text, email, and phone number. This information will be sent to your SeaX account along with the chat transcript. To create a custom form, click on **Add New Form** in the dashboard.
+Custom form is a powerful feature that allows you to collect information from your new customers before they start a chat with you via SeaX. You can create a form with different types of fields such as text, email, and phone number. SeaX will record these form responses as well the entire conversation history on SeaX. To create a custom form, click on **Add New Form** in the dashboard.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -111,7 +111,7 @@ Custom form is a powerful feature that allows you to collect information from yo
 </div>
 </div>
 
-#### Setting up
+#### Set up Form
 
 1. **Enable This Form** - Turn on the switch to enable the form. Here you can also set the form's name and the title that the user will see.
 2. **Consent Checkbox** - You can add a consent checkbox to your form. If you wish to redirect the user to the privacy policy page, you can add a link to the checkbox by enabling **Add a URL**.
@@ -142,7 +142,7 @@ Once you are done setting up your form, click on **Preview** to load the latest 
 
 > :pushpin: **Note**:
 >
->  Please beware that you cannot delete an activated form.
+>  Please beware that you cannot delete an active form.
 
 ## Installation
 
@@ -176,7 +176,7 @@ Now, all is left is to install the SeaX Widget on your website or app. You can d
 By now you should notice the SeaX widget that is in the bottom-right corner of the page of **Install Widget**. Click on the widget to try out the chat interface that we have just built. That's it! You have successfully set up the SeaX Widget on your website or app.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/product-updates/seax/zh/widget-done.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/widget-done.png" alt="">
     </a>
@@ -184,13 +184,13 @@ By now you should notice the SeaX widget that is in the bottom-right corner of t
 </div>
 </div>
 
-## Test the SeaX Widget
+## Test SeaX Widget
 
-To properly test the widget, we recommend using the **Test Widget** button that you can see in the bottom-right corner of the dashboard. This will allow you to test the widget on your website or app without having to install it.
+To properly test the widget, we recommend using the **Test Widget** button in the lower right hand corner on your SeaX dashboard. This will allow you to test the widget on your website or app without having to install it.
 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/product-updates/seax/zh/test-widget.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/test-widget.png" alt="">
     </a>
