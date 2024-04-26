@@ -1,5 +1,5 @@
 ---
-title: "SeaX Messaging"
+title: "Overview"
 description: "The SeaX Bulk Messaging Platform puts all the tools for SMS and MMS marketing right at your fingertips."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
@@ -8,7 +8,7 @@ images: []
 menu:
   seax:
     parent: "seax_messaging"
-weight: 103
+weight: 1
 toc: true
 ---
 
