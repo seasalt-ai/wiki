@@ -117,6 +117,15 @@ Custom form is a powerful feature that allows you to collect information from yo
 2. **Consent Checkbox** - You can add a consent checkbox to your form. If you wish to redirect the user to the privacy policy page, you can add a link to the checkbox by enabling **Add a URL**.
 3. **Submission Message** - Customize the message that the user will see after submitting the form.
 
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/product-updates/seax/zh/form-view.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/form-view.png" alt="">
+    </a>
+    <p style="margin-top: 20px; font-size: 15px">Custom form</p>
+</div>
+</div>
+
 #### Form Design
 Set up the layout of your form. You can add different types of fields such as text, email, and phone number. You can allow different fields to be required or optional. You can also add a placeholder text to guide the user on what to input. If the default fields are not enough for you, you can add a custom field by clicking on **Plus Button** to insert additional field.
 
