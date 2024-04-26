@@ -1,6 +1,6 @@
 ---
 title: "SeaX Widget"
-description: "The SeaX Widget allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX account."
+description: "The SeaX Widget allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX Messaging account."
 date: 2024-04-25T08:48:57+00:00
 lastmod: 2024-04-25T08:48:57+00:00
 draft: false
@@ -16,14 +16,14 @@ toc: true
 ---
 
 ## Overview
-In this article, we will introduce the SeaX Widget, a feature of the SeaX platform that allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX account. You will learn how you can set up the SeaX Widget and integrate it into your website or app.
+In this article, we will introduce the SeaX Widget, a feature of the SeaX Messaging platform that allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX Messaging account. You will learn how you can set up the SeaX Widget and integrate it into your website or app.
 
 -------------------
 ## Why SeaX Widget?
-Providing a seamless experience for your customers is crucial for any business. SeaX can be integrated into your website or app to provide your customer the means to message your SeaX account directly. By integrating the SeaX Widget into your website or app, your customer is only one click away from getting the help they need. As a business owner, you can then unify all your customer interactions in SeaX, making it easier for you to manage and respond to your customers.
+Providing a seamless experience for your customers is crucial for any business. SeaX Widget can be integrated into your website or app to provide your customer the means to message your SeaX Messaging account directly. By integrating the SeaX Widget into your website or app, your customer is only one click away from getting the help they need. As a business owner, you can then unify all your customer interactions in SeaX Messaging, making it easier for you to manage and respond to your customers.
 
 ## Find the Webchat Widget Dashboard
-Let's first find the Webchat Widget Dashboard in the SeaX platform. In your sidebar menu, click on **Webchat Widget** to access the Webchat Widget Dashboard.
+Let's first find the Webchat Widget Dashboard in the SeaX Messaging. In your sidebar menu, click on **Webchat Widget** to access the Webchat Widget Dashboard.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -66,7 +66,7 @@ This is what your bubble button with custom greeting message will look like:
 
 ### Popout
 
-In Popout, you can customize the appearance of the chat interface that your customers will use to communicate with you via SeaX. You must provide **Widget Title** and colors for the chat interface. 
+In Popout, you can customize the appearance of the chat interface that your customers will use to communicate with you via SeaX Messaging. You must provide **Widget Title** and colors for the chat interface. 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -77,7 +77,7 @@ In Popout, you can customize the appearance of the chat interface that your cust
 </div>
 </div>
 
-Scroll further on the same page to set up your chat. Make sure to provide a opening message to greet your customers when they start a chat with you via SeaX.
+Scroll further on the same page to set up your chat. Make sure to provide a opening message to greet your customers when they start a chat with you via SeaX Messaging.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -100,7 +100,7 @@ That's it. Simply click on **Preview** window to see how your SeaX Widget will l
 </div>
 
 ### Custom Forms
-Custom form is a powerful feature that allows you to collect information from your new customers before they start a chat with you via SeaX. You can create a form with different types of fields such as text, email, and phone number. SeaX will record these form responses as well the entire conversation history on SeaX. To create a custom form, click on **Add New Form** in the dashboard.
+Custom form is a powerful feature that allows you to collect information from your new customers before they start a chat with you via SeaX Messaging. You can create a form with different types of fields such as text, email, and phone number. SeaX Messaging will record these form responses as well the entire conversation history on SeaX Messaging. To create a custom form, click on **Add New Form** in the dashboard.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -186,7 +186,7 @@ By now you should notice the SeaX widget that is in the bottom-right corner of t
 
 ## Test SeaX Widget
 
-To properly test the widget, we recommend using the **Test Widget** button in the lower right hand corner on your SeaX dashboard. This will allow you to test the widget on your website or app without having to install it.
+To properly test the widget, we recommend using the **Test Widget** button in the lower right hand corner on your SeaX Messaging dashboard. This will allow you to test the widget on your website or app without having to install it.
 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
