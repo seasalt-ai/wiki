@@ -8,4 +8,7 @@ weight: 100
 draft: false
 images: []
 toc: true
+aliases:
+  - /zh/seachat/seachat-manual/
 ---
+``
