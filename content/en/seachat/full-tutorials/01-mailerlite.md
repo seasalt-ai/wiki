@@ -13,7 +13,6 @@ aliases:
 toc: true
 ---
 
-## Mailerlite
 ---
 
 * **Mailerlite Integration**: Use Mailerlite to gather emails and automate mailing lists for promotions and updates. SeaChat allows seamless integration with Mailerlite to enhance your AI Webchat Agent.
@@ -65,6 +64,8 @@ On this page you will see a large green button that says "Test AI Agent" on the 
 <img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/mailerlite/mailerlite-form-submission.png" alt="mailerlite integration setup page.">
 If it is a new conversation, within a few seconds your Mailerlite form that you configured in the last step will appear at the bottom of the chat window. From here you can fill out requested information and hit submit at the bottom of the form. (Note: If this is not your first time testing your AI Agent it is possible that it will open a previous conversation. You can open this page in a new incognito window to ensure you start a new conversation)  
 
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/mailerlite/mailerlite-find-email.png" alt="mailerlite integration setup page.">
 Once the form has been submitted you can head over to mailerlite. Once you log in you can go to the Subscribers page from the left action bar. Here, you should be able to see the email from the user that you have just submitted at the top of your subscriber list. If you dont see it right away, you can also search for it up with the grey search button at the top right of the page.
 
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/mailerlite/mailerlite-view-email.png" alt="mailerlite integration setup page.">
 You can click on the email to view details about the newly added subscriber such as any other information that might have been submitted with the form, as well as any groups that you included on the setup page.
