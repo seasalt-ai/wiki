@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>新手上路 on</title><link>https://wiki.seasalt.ai/zh/seachat/getting-started/</link><description>Recent content in 新手上路 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>簡介</title><link>https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/</guid><description>SeaChat能讓你在10分鐘做出專屬AI聊天助理，能進行溫暖自然的對話。運用在推薦產品、售前諮詢、售後服務等等場景，幫助你提升客戶滿意度，並可隨時轉接真人。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>新手上路 on</title><link>https://wiki.seasalt.ai/zh/seachat/getting-started/</link><description>Recent content in 新手上路 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>簡介</title><link>https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/</guid><description>SeaChat能讓你在10分鐘做出專屬AI聊天助理，能進行溫暖自然的對話。運用在推薦產品、售前諮詢、售後服務等等場景，幫助你提升客戶滿意度，並可隨時轉接真人。</description></item><item><title>快速入門</title><link>https://wiki.seasalt.ai/zh/seachat/getting-started/02-quick-start/</link><pubDate>Thu, 25 Apr 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/getting-started/02-quick-start/</guid><description>在不到10分鐘的時間內，您就可以設置好自己的定制AI助理，隨時協助您的客戶。 如需更詳細的指導，請查閱SeaChat說明書。如果遇到任何問題或有疑問，我們的支援團隊隨時待命協助您。請隨時聯繫我們。 在本教學中，我們將從頭開始創建一個SeaChat助理。這個AI助理將幫助回答有關停車場業務的常見問題。我們將引導您完成創建AI助理的過程，向其知識庫添加知識，測試和調整助理，以確保它準備好回答客戶的所有來信問題！
+步驟1：創建工作區 # 如果這是您第一次登錄SeaChat，您將需要創建一個工作區來開始過程。點擊 建立 以創建您的第一個工作區。我將我的新工作區命名為Seasalt.ai。您可以為您的工作區取一個不同的名稱！
+創建第一個工作區
+什麼是工作區？
+工作區包含了您所有資料、助理詳情、設定、知識庫，提供您的助理、成員和API金鑰的總覽，用來區隔您的不同專案或組織。您可以選擇為自己創建一個新的工作區，或通過向管理員請求邀請加入現有的一個工作區。
+步驟2：您的第一個SeaChat助理 # 點擊新增AI助理來配置您的新助理。如果您已經有一個工作區和一個助理，您可以通過點擊位於右上角靠近您個人頭像的下拉選單來創建一個新的助理/機器人。
+📚 AI助理和真人助理
+您將在整個教學中一直看到助理這個詞。AI助理本質上是一個具有自定義知識庫的AI助手，我們使用這個詞是為了強調它協助您的客戶的能力，就像一個真人助理一樣。而真人助理則指的是與客戶實時互動的實際客服人員。
+新增AI助理
+接下來，讓我們選擇一鍵開始創建一個新的代理。如果您有偏好的使用案例，也可以選擇從使用案例模板開始。
+選擇 一鍵開始
+在新AI助理中，給您的助理添加一些關於其角色和功能的背景，然後選擇其使用情境和回覆語言。在本教學中，我將選擇FAQ作為用例，因為這個助理將用於回答常見問題，並選擇繁體中文作為回覆語言。
+AI助理配置
+💡 注意
+真人助理功能將要求一個真人客服人員介入。如果您選擇此選項，客戶將有機會在聊天中請求轉接真人助理，請安排至少一個真人客服人員來回應正在進行的對話。
+步驟3：新增知識 # 為了充分利用您的SeaChat助理的功能，我們需要向其知識庫添加知識。SeaChat為您的助理知識庫上傳內容提供了多種選擇。通過導航到側邊選單中的知識庫儀表板，找到您助理的知識庫。
+你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用上傳電子表格方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的知識庫部分，以獲取全面的指導和建議。
+選擇一種上傳方式
+步驟4：將文件上傳至知識庫 # 上傳電子表格很簡單，只需點擊上傳圖標並選擇所需的電子表格。一旦您在拖放部分下方的預覽部分看到您上傳的文件，點擊繼續按鈕確認。</description></item></channel></rss>
