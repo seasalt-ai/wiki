@@ -89,13 +89,14 @@ aliases:
 ## 步驟3：新增知識
 為了充分利用您的SeaChat助理的功能，我們需要向其知識庫添加知識。SeaChat為您的助理知識庫上傳內容提供了多種選擇。通過導航到側邊選單中的**知識庫**儀表板，找到您助理的知識庫。
 
+你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用**上傳試算表**方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的[知識庫](/zh/seachat/seachat-intro/03-add-knowledge/)部分，以獲取全面的指導和建議。
 
-你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用**上傳電子表格**方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的[知識庫](/zh/seachat/seachat-intro/03-add-knowledge/)部分，以獲取全面的指導和建議。
+歡迎下載本教學的[試算表範本](/sample-files/TaipeiParkFacility_Arcade.xlsx)，並自己試試看如何上傳到AI助理的知識庫中。
 
 <br/>
 <center>
 <a href="/images/product-updates/seachat/zh/tutorial-intro/choose-upload-method.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/choose-upload-method.png" alt="圖片建議用戶選擇上傳電子表格方法來上傳至助理的知識庫。">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/choose-upload-method.png" alt="圖片建議用戶選擇上傳試算表方法來上傳至助理的知識庫。">
 </a>
 
 *選擇一種上傳方式*
@@ -104,7 +105,7 @@ aliases:
 <br/>
 
 ## 步驟4：將文件上傳至知識庫
-上傳電子表格很簡單，只需點擊上傳圖標並選擇所需的電子表格。一旦您在拖放部分下方的預覽部分看到您上傳的文件，點擊**繼續**按鈕確認。
+上傳試算表很簡單，只需點擊上傳圖標並選擇所需的試算。一旦您在拖放部分下方的預覽部分看到您上傳的文件，點擊**繼續**按鈕確認。
 
 在上傳文件後，我們可以在預覽部分看到每個標題及其對應的數據。現在，我的AI助理現在準備好進行下一步了。
 
@@ -121,7 +122,7 @@ aliases:
 
 <br/>
 
-就這麼簡單。現在，我的AI助力已經處理了上傳的數據，讓我們進行測試，看看是否需要進一步調整。點擊位於右下角的**測試AI助理**按鈕。讓我們嘗試與我的AI助助理聊天，看看是否可以優化其性能！
+就這麼簡單。現在，我的AI助理已經處理了上傳的數據，讓我們進行測試，看看是否需要進一步調整。點擊位於右下角的**測試AI助理**按鈕。讓我們嘗試與我的AI助助理聊天，看看是否可以優化其性能！
 
 `<br/>
 <center>
