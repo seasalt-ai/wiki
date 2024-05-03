@@ -1,6 +1,6 @@
 ---
 title: "Import URLs"
-description: "SeaChat Import URLs"
+description: "Discover how to effortlessly integrate web content into your SeaChat agent's knowledge base using the URL import feature. Follow simple steps to import URLs, including linked pages, and empower your AI agent with diverse online resources. Start enhancing your SeaChat agent's capabilities today!"
 lead: ""
 date: 2024-04-15 10:43:51.069 +0100
 lastmod: 2024-04-15 10:43:51.069 +0100

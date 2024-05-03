@@ -1,6 +1,6 @@
 ---
 title: "Live Agent"
-description: "Live agent transfer tutorial"
+description: "Learn how to seamlessly transfer to a live agent during chat conversations with SeaChat. Our tutorial guides you through the setup process, enabling the live agent feature in your SeaChat account. Discover how to initiate live agent transfers, manage conversations, and ensure smooth customer support experiences. Explore the steps for requesting live agents on different channels like WebChat and LINE. Enhance your customer service capabilities and elevate your business interactions with SeaChat's live agent functionality."
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00

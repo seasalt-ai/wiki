@@ -1,6 +1,6 @@
 ---
 title: "Google Calendar"
-description: "Book appointments on SeaChat and add to your Google Calendar"
+description: "Book appointments seamlessly with SeaChat and sync them to your Google Calendar for effortless scheduling. Learn how to integrate SeaChat's AI chat and voice agent with Google Calendar for efficient appointment management."
 date: 2024-03-19T08:48:57+00:00
 lastmod: 2024-03-19T08:48:57+00:00
 draft: false

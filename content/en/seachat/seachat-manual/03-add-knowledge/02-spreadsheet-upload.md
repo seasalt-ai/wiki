@@ -1,6 +1,6 @@
 ---
 title: "Spreadsheet and Table"
-description: "SeaChat SpreadSheet and Table Upload"
+description: "Discover how to empower your SeaChat agent by uploading spreadsheets and tables. Follow a detailed tutorial with step-by-step instructions, ensuring seamless integration of new knowledge into your AI agent. Learn prerequisites, upload methods, and key considerations for optimizing your agent's knowledge base."
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-03-04 10:43:51.069 +0100

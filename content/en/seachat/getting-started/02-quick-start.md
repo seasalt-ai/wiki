@@ -1,6 +1,6 @@
 ---
 title: "Quickstart"
-description: "SeaChat Intro and getting started"
+description: "Launch your customized AI agent in under 10 minutes with SeaChat's Quickstart Guide. Learn to create, fine-tune, and optimize your agent to assist customers efficiently. Follow step-by-step instructions with visual aids and access support resources for seamless setup."
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
 lastmod: 2024-03-08 10:43:51.069 +0100

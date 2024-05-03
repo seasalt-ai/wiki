@@ -1,6 +1,6 @@
 ---
 title: "Shopify"
-description: "將SeaChat安裝到Shopify"
+description: "本指南提供詳細步驟，說明如何將SeaChat AI助理整合到您的Shopify商店中。從在SeaChat註冊帳戶到將AI助理程式碼嵌入到Shopify模板的每個步驟，都有詳細解釋，確保您可以輕鬆地增強您的電商平台功能。學習如何自定AI助理的外觀、移除其他聊天機器人，並優化您的客戶服務流程。這個過程將使您能夠在網店前端有效地使用SeaChat的先進AI功能，提升用戶互動和顧客滿意度。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
