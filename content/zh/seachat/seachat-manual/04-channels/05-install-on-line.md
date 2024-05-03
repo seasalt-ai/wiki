@@ -2,7 +2,7 @@
 title: "LINE官方帳號"
 description: "SeaChat 新手上路"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-04-12T08:48:57+00:00
+lastmod: 2024-05-03T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -97,7 +97,7 @@ toc: true
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" target="_blank">
 <img height="100%" width="50%" src="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" alt="LINE文字訊息您可以放心交給SeaChat">
 </a>
 
