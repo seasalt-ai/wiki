@@ -27,8 +27,8 @@ Let's first find the Webchat Widget Dashboard in the SeaX Messaging. In your sid
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/widget-dashboard.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/widget-dashboard.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/widget-dashboard.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/widget-dashboard.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Webchat Widget Dashboard</p>
 </div>
@@ -46,8 +46,8 @@ The bubble setting allows you to customize the appearance of the widget button. 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/bubble-input.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/bubble-input.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/bubble-input.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/bubble-input.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Customize your bubble's design</p>
 </div>
@@ -57,8 +57,8 @@ This is what your bubble button with custom greeting message will look like:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/bubble-result.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/bubble-result.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/bubble-result.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/bubble-result.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Bubble Widget</p>
 </div>
@@ -70,8 +70,8 @@ In Popout, you can customize the appearance of the chat interface that your cust
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/popout-input.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/popout-input.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/popout-input.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/popout-input.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Customize the style of your popout chat</p>
 </div>
@@ -81,8 +81,8 @@ Scroll further on the same page to set up your chat. Make sure to provide a open
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/chat-setup.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/chat-setup.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/chat-setup.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/chat-setup.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Chat setup</p>
 </div>
@@ -92,8 +92,8 @@ That's it. Simply click on **Preview** window to see how your SeaX Widget will l
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/popout-preview.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/popout-preview.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/popout-preview.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/popout-preview.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Preview your design</p>
 </div>
@@ -119,8 +119,8 @@ Custom form is a powerful feature that allows you to collect information from yo
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/form-view.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/form-view.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/form-view.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/form-view.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Custom form</p>
 </div>
@@ -131,8 +131,8 @@ Set up the layout of your form. You can add different types of fields such as te
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/form-design.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/form-design.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/form-design.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/form-design.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Design the input fields</p>
 </div>
@@ -142,8 +142,8 @@ Once you are done setting up your form, click on **Preview** to load the latest 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/form-preview.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/form-preview.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/form-preview.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/form-preview.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Preview custom form</p>
 </div>
@@ -186,8 +186,8 @@ By now you should notice the SeaX widget that is in the bottom-right corner of t
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/widget-done.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/widget-done.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/widget-done.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/widget-done.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Preview widget</p>
 </div>
@@ -200,8 +200,8 @@ To properly test the widget, we recommend using the **Test Widget** button in th
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 80%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seax/zh/test-widget.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/zh/test-widget.png" alt="">
+    <a href="/images/product-updates/seax/en/seax-widget/test-widget.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seax/en/seax-widget/test-widget.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Test SeaX widget interface</p>
 </div>
