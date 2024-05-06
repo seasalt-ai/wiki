@@ -1,6 +1,6 @@
 ---
 title: "Build Email Lists with MailerLite"
-description: "Build Email Lists with MailerLite Tutorial"
+description: "Discover how to amplify your email marketing efforts with our comprehensive MailerLite integration tutorial. Seamlessly integrate MailerLite with SeaChat Forms to effortlessly gather emails and automate mailing lists for promotions and updates. Learn step-by-step instructions to configure and sync your forms, ensuring no lead is missed. Elevate your lead retention and engagement strategies by automatically adding users to your mailing lists post-interaction with your agents. Watch our tutorial now and unlock the power of effective email list building with SeaChat and MailerLite."
 lead: ""
 date: 2024-04-24 15:12:51.069 +0100
 lastmod: 2024-04-24 15:12:51.069 +0100

@@ -1,6 +1,6 @@
 ---
 title: "Wix"
-description: "Bring SeaChat to your Wix webpage"
+description: "Empower your Wix website with SeaChat integration using our comprehensive guide. Sign up for a free SeaChat account, access the code snippet, and seamlessly embed it into your Wix site. Enhance user engagement and provide personalized support with SeaChat's AI capabilities. Follow our step-by-step instructions to optimize your Wix website with SeaChat today!"
 date: 2024-04-03T08:48:57+00:00
 lastmod: 2024-04-03T08:48:57+00:00
 draft: false

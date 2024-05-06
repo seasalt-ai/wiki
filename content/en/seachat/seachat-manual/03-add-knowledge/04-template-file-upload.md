@@ -1,6 +1,6 @@
 ---
 title: "Template Upload"
-description: "Template Upload Using CSV and JSON Files"
+description: "Discover how to effortlessly customize your SeaChat agent's knowledge base using CSV and JSON template files. Follow step-by-step instructions to upload templates, review uploaded files, and optimize your AI agent's performance. Get started with SeaChat's intuitive template upload feature today!"
 lead: ""
 date: 2024-04-11 10:43:51.069 +0100
 lastmod: 2024-04-11 10:43:51.069 +0100

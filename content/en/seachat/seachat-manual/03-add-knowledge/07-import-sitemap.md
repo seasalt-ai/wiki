@@ -1,6 +1,6 @@
 ---
 title: "Import Sitemaps"
-description: "SeaChat Import Sitemaps"
+description: "Learn how to effortlessly import URLs to your SeaChat agent's knowledge base using the Sitemap Import feature. Follow simple steps to extract URLs from XML sitemaps and empower your AI agent with comprehensive web content. Start maximizing your SeaChat agent's capabilities today!"
 lead: ""
 date: 2024-04-15 10:43:51.069 +0100
 lastmod: 2024-04-15 10:43:51.069 +0100

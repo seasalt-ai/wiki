@@ -1,6 +1,6 @@
 ---
 title: "Audio/Video File"
-description: "SeaChat from Seasalt.ai transcribes Audio/Video files in knowledge base"
+description: "Learn how to enhance your SeaChat agent by transcribing audio and video files directly into its knowledge base. Follow a comprehensive tutorial with step-by-step instructions, ensuring seamless integration of multimedia content into your AI agent. Discover prerequisites, upload methods, and key considerations for optimizing your agent's knowledge base."
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-03-04 10:43:51.069 +0100
