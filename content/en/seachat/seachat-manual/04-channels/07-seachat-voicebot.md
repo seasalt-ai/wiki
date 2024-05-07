@@ -114,8 +114,8 @@ There are two ways to test the voice agent. You can call the toll-free number th
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/test-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/test-agent.png" alt="">
+  <a href="/images/product-updates/seachat/en/channels/voicebot/inbound-outbound-test.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/inbound-outbound-test.png" alt="">
 </a>
 
 *Test you agent*
