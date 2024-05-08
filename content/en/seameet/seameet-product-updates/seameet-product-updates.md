@@ -15,10 +15,20 @@ weight: 101
 toc: true
 ---
 
+### 05/02/2024
+##### **<font color="#739963">New Features</font>** 
+- Extension Enhancement: Change meeting language within Google Meet extension during meetings.
+- Invoice Downloads: Download subscription plan receipts on the billing page.
+
+##### **<font color="#739963">Enhancement</font>**
+- Error Status Messaging: Added error status messaging to extensions for better understanding of current bot error status.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Addressed issue with bots automatically exiting meetings.
+
 ### 04/11/2024
 ##### **<font color="#739963">New Features</font>** 
 
-New Features:
 - Automatic Meeting Recording Reservation: After linking with Google Calendar, you can automatically reserve and record meetings from your calendar.
 - Delete Scheduled Meetings: Admin or Owner can delete scheduled meetings, including those added through "Automatic Meeting Recording Reservation."
 

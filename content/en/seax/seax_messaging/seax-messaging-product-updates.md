@@ -15,6 +15,10 @@ weight: 104
 toc: true
 ---
 
+### 05/02/2024
+##### **<font color="#739963">New Feature</font>** 
+- Added WhatsApp Channel: Bind WhatsApp numbers and send WhatsApp messages via SeaX.
+
 ### 03/28/2024
 ##### **<font color="#739963">Enhancement</font>** 
 - Enhanced SeaX campaign icon: display whether the campaign is sent instantly or scheduled.
