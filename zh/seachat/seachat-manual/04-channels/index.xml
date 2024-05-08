@@ -8,4 +8,18 @@ LINE自動回應 vs. SeaChat智能助理
 Messenger的限制：
 SeaChat AI助理設計只能回應訊息，不能自行主動開始對話。 作為SeaChat管理員的您仍然能夠與用戶進行對話，但請事先安排真人助理。 誰需要Messenger頻道：
 需要自動化處理大量Messenger訊息的企業和組織。 尋求提供個性化和更好客戶體驗的公司。 通過自動化常規查詢來減輕人力負擔的客戶服務部門。 Facebook Messenger設置 # 設置Facebook Messenger需要仔細照著以下步驟設定，往下滑可看到逐步詳細指南：
-創建MessengerApp: 轉到Meta Developer網站。 點擊右上角的MyApps。 從下拉選單選擇CreateApp。 選擇App類型: 在App Type下選擇Other。 輸入一個全新的App名稱，避免使用MessengerApp或Facebook等難以辨識的名稱。 添加Messenger產品: 滾動到App列表的底部。 找到Messenger並選擇它以將該產品添加到您的App中。 配置MessengerApp: 仔細閱讀配置頁面上的信息。 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。 確保正確填寫所有必填欄位。 生成訪問金鑰: 配置完成後，生成一個永久的訪問金鑰。 此金鑰對於使用Messenger API至關重要。 移除您的Messenger集成: 從您的MetaApp中正確移除頁面訪問權限 在SeaChat內點擊移除按鈕 📚 推薦閱讀:</description></item><item><title>網頁機器人</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-install-on-webpage/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-install-on-webpage/</guid><description>Seachat能夠讓你使用同一個AI助理同時服務網站和LINE這兩個通訊方式。在安裝網頁助理的頁面你會有完整的程式碼，把它貼到你的網頁代碼就行。</description></item><item><title/><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/</guid><description/></item></channel></rss>
+創建MessengerApp: 轉到Meta Developer網站。 點擊右上角的MyApps。 從下拉選單選擇CreateApp。 選擇App類型: 在App Type下選擇Other。 輸入一個全新的App名稱，避免使用MessengerApp或Facebook等難以辨識的名稱。 添加Messenger產品: 滾動到App列表的底部。 找到Messenger並選擇它以將該產品添加到您的App中。 配置MessengerApp: 仔細閱讀配置頁面上的信息。 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。 確保正確填寫所有必填欄位。 生成訪問金鑰: 配置完成後，生成一個永久的訪問金鑰。 此金鑰對於使用Messenger API至關重要。 移除您的Messenger集成: 從您的MetaApp中正確移除頁面訪問權限 在SeaChat內點擊移除按鈕 📚 推薦閱讀:</description></item><item><title>網頁機器人</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-install-on-webpage/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-install-on-webpage/</guid><description>Seachat能夠讓你使用同一個AI助理同時服務網站和LINE這兩個通訊方式。在安裝網頁助理的頁面你會有完整的程式碼，把它貼到你的網頁代碼就行。</description></item><item><title>電話</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/</link><pubDate>Tue, 30 Apr 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/</guid><description>SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許您創建一個基於語音的對話助理來接聽所有來電，或者外撥至客戶電話。這個語音助理可以處理來電語音，回答客戶查詢，並提供客戶支援。SeaChat 語音助理還可以在需要時轉接給真人助理。在接下來的章節中，我們將向您展示設置 SeaChat 語音助理有多容易，以及您如何通過實際通話來測試您的助理。
+設置 SeaChat 語音助理 # 首先，我們需要一個新的助理來處理語音來電。創建一個新的語音助理，請點擊您的頭像旁邊的助理下拉選單。您可以看到您已創建的助理列表。點擊 新增AI助理 按鈕來創建一個新助理。
+在我的助理描述中，我確保包含了這個助理是用於語音接聽。這樣，我就可以輕鬆地辨認哪個助理是用於語音對話，哪個助理是用於文字對話。
+新增AI助理
+一旦我們創建了我們的語音助理，讓我們開始設置語音助理以處理來電語音。在 AI助理設定 的 頻道 下找到 電話。
+設置 電話 頻道
+免費電話號碼 # 在 電話 通道中，我們需要首先購買一個免費電話號碼。選擇您想要購買免費電話號碼和電話號碼的國家。一旦您選擇了理想的設定，點擊 確認購買 按鈕。
+購買免費電話號碼
+購買完成後，您可以看到您選擇的免費電話號碼。如果您對號碼不滿意，您可以隨時取消號碼並購買新號碼。
+免費電話號碼詳細信息
+助理設定 # 購買免費電話號碼後，我們需要設定助理以處理來電語音。在 設定AI語音助理 部分，您可以設置語音助理來處理來電。
+您可以像任何其他 SeaChat 助理一樣為您的語音助理啟用真人助理功能。請確保您有一位真人客服在用戶啟用真人助理功能時監視並回應用戶。
+語音助理設定
+如上圖所示，有一些參數需要設置才能完全設定語音助理。如果您不確定設定，您可以從選擇語言開始，SeaChat 將自動為您設置其餘的設定。如下圖所示，我為我的語音助理選擇了繁體中文和 SeaVoice模型。現在點擊 儲存設定 以確定您的設置。
+🔎 SeaChat 語言模型：SeaVoice</description></item></channel></rss>
