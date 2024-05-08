@@ -17,11 +17,11 @@
 上傳檔案
 🚨 注意事項 🚨
 上傳文件前，請檢查文件是否符合以下兩個要求：
-表格必須在第一行有標題。 單一行的內容不得超過 2000 個tokens。 參考表格上傳準則以獲取更多信息。 送出文件前 # SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看每個上傳檔案的狀態。
-已上傳檔案預覽
-向下滾動以查看專用的預覽窗口，該窗口將列出您的試算表格的前10行。一旦確認所有要上傳的檔案無誤，您可以點擊繼續按鈕進行上傳。
-預覽範例: # 已添加到知識庫 # 您已成功上傳新知識。要查看已上傳的檔案，您可以至頁面右上角的「現有知識」區塊，在那裡您可以在「上傳檔案」裡找到剛剛上傳的資料。
-在 現有知識 中查找文件</description></item><item><title>上傳影片/音頻檔案</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</link><pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</guid><description>簡介 # 加入多媒體檔到SeaChat助理的知識庫中，不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字的步驟。現在，你可直接上傳多媒體檔案到知識庫中！
+表格必須在第一行有標題。 單一行的內容不得超過 2000 個tokens。 參考表格上傳準則以獲取更多信息。 選擇上傳模式 # 我們現在支援兩種模式來上傳試算表或表格到知識庫。
+將表格中每一行上傳為單獨的知識庫文件: 當您表格中的每一行都包含一個自成一體的資訊時，請選擇這個模式。例如,如果每一行都是關於一個產品的相關資訊,可以選擇這個模式,將每個產品說明分開儲存在知識庫中。
+將表格上傳為單一知識庫文件:當整個表格中的資訊是互相關聯的時候,請使用這個選項。例如,如果您有一個全天活動時程表的表格,我們建議將整個表格作為單一KB文件上傳,以確保AI助理在檢索知識庫時能一併參考整個時程表。
+請選擇適合您表格內容的上傳模式
+送出文件前 # SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看每個上傳檔案的狀態。</description></item><item><title>上傳影片/音頻檔案</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</link><pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</guid><description>簡介 # 加入多媒體檔到SeaChat助理的知識庫中，不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字的步驟。現在，你可直接上傳多媒體檔案到知識庫中！
 SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學中，我們將專注於轉錄音訊/影訊的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
 創建 SeaChat 助理 # 如果你還沒有 Seachat 帳號，你可以在 SeaChat 網站 免費註冊！並在 創建助理 找到創建AI助理的步驟。
 開啟知識庫 # 在側邊欄中，選擇AI助理配置下的知識庫。選擇轉錄音訊/影訊，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。
