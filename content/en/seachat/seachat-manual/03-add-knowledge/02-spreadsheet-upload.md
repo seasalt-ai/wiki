@@ -1,9 +1,9 @@
 ---
 title: "Spreadsheet and Table"
-description: "Discover how to empower your SeaChat agent by uploading spreadsheets and tables. Follow a detailed tutorial with step-by-step instructions, ensuring seamless integration of new knowledge into your AI agent. Learn prerequisites, upload methods, and key considerations for optimizing your agent's knowledge base."
+description: "Upload spreadsheet files and tables to your SeaChat AI agent. A detailed step-by-step tutorial on how to add table documents to SeaChat AI agent's knowledge base."
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
-lastmod: 2024-03-04 10:43:51.069 +0100
+lastmod: 2024-05-07 10:43:51.069 +0100
 weight: 31
 draft: false
 images: []
@@ -52,6 +52,25 @@ By clicking on the upload button, you can submit to your agent choosing from var
 > - The content in any row may not exceed 2000 tokens. If your row exceeds this limit, please contact us!
 > 
 > Check **Upload Guidelines** for more information.
+
+## Choose Upload Mode
+
+We now support two modes for uploading spreadsheets or tables to the knowledge base.
+
+- **Upload each row in the table as an individual KB document**: This is especially helpful when you have a table where each row contains a self-contained piece of information. For instance, if each row is about a product, we recommend choosing this option to store each product description separately in the knowledge base.
+
+- **Upload the table as a single KB document**: Use this option when the information in the entire table is interconnected. For example, if you have a table containing a full-day event schedule, we recommend uploading the entire table as a single KB document to ensure the AI agent learns about the entire schedule together during retrieval.
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240507-spreadsheet-kb-mode.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/spreadsheet/20240507-spreadsheet-kb-mode.png" alt="Screenshot illustrating the mode options for spreadsheet uploads">
+</a>
+
+*Choose the suitable upload mode for your spreadsheets*
+</center>
+
+
 
 ## Before Submission
 SeaChat allows users to upload in bulk. You can see the status of each uploading file in the section below the drag-and-drop zone.

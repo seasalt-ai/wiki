@@ -1,6 +1,6 @@
 ---
 title: "上傳試算表"
-description: "學習如何快速且有效地向您的 SeaChat AI助理新增知識。這份詳盡的教學指南將提供逐步的說明，教您如何將重要信息新增到知識庫中。我們的指南包括實用技巧、必要的設定步驟，以及如何利用這些功能來優化您的助理性能，使其更好地服務您和您的客戶。適合初學者及現有用戶，無論您的技術水平如何，都能輕鬆上手。此外，我們還提供了視頻教學，讓您可以更直觀地學習操作方法。立即查看，開始提升您的AI助理的功能，以更有效地回應客戶需求和提高工作效率！"
+description: "上傳試算表檔案和表格到您的SeaChat AI機器人。詳細的手把手教學,教您如何調教SeaChat AI助理根據上傳的文件內容回答客戶問題。"
 lead: ""
 date: 2024-03-11 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100
@@ -38,8 +38,8 @@ SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/20240313-spreadsheet-tutorial-step3.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step3.jpg" alt="Screenshot illustrating the navigation through the dashboard of knowledge base for SeaChat's AI agents. It illustrates the user interface">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/20240313-spreadsheet-tutorial-step3.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step3.png" alt="SeaChat知識庫的試算表上傳功能介面">
 </a>
 
 *上傳檔案*
@@ -51,6 +51,24 @@ SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教�
 > - 表格必須在第一行有標題。
 > - 單一行的內容不得超過 2000 個tokens。
 > 參考**表格上傳準則**以獲取更多信息。
+
+## 選擇上傳模式
+
+我們現在支援兩種模式來上傳試算表或表格到知識庫。
+
+- **將表格中每一行上傳為單獨的知識庫文件**: 當您表格中的每一行都包含一個自成一體的資訊時，請選擇這個模式。例如,如果每一行都是關於一個產品的相關資訊,可以選擇這個模式,將每個產品說明分開儲存在知識庫中。
+
+- **將表格上傳為單一知識庫文件**:當整個表格中的資訊是互相關聯的時候,請使用這個選項。例如,如果您有一個全天活動時程表的表格,我們建議將整個表格作為單一KB文件上傳,以確保AI助理在檢索知識庫時能一併參考整個時程表。
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240507-spreadsheet-upload-mode.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240507-spreadsheet-upload-mode.png" alt="選擇SeaChat試算表上傳模式">
+</a>
+
+*請選擇適合您表格內容的上傳模式*
+</center>
+
 
 ## 送出文件前
 SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看每個上傳檔案的狀態。
