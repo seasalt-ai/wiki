@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp"
-description: "Learn how to properly remove your WhatsApp integration from your Meta app and ensure compliance with WhatsApp Business API policies and guidelines. Follow step-by-step instructions to disconnect your integration, including removing page access and token generation. Adherence to these guidelines is essential to maintain compliance and avoid potential issues. Witness the how SeaChat seamlessly integrates with WhatsApp to provide a comprehensive chatbot solution for your business."
+description: "Unlock seamless WhatsApp automation with Seasalt.ai's SeaChat platform. Streamline your business communication by integrating a ChatGPT-powered chatbot, manage conversations effortlessly, and enhance customer support with live agent connectivity. Perfect for high-volume messaging and personalized experiences."
 date: 2024-03-19T08:48:57+00:00
 lastmod: 2024-03-19T08:48:57+00:00
 draft: false

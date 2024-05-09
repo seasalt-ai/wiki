@@ -1,6 +1,6 @@
 ---
 title: "Facebook Messenger"
-description: "Connect SeaChat to Messenger and empower your Facebook business account with an AI-driven chatbot. Learn how to automate responses, access conversations, and enable live agent assistance seamlessly. Follow our step-by-step guide for setting up Facebook Messenger integration with SeaChat. Improve customer support efficiency and engagement with this powerful integration."
+description: "Learn how to set up a ChatGPT-powered chatbot on Facebook Messenger with our comprehensive guide. From creating a Meta app to configuring webhooks and tokens, we walk you through each step to ensure a successful integration. Get your bot live and interacting with users in no time. Need help? Contact seachat@seaslt.ai for assistance."
 date: 2024-04-08T08:48:57+00:00
 lastmod: 2024-04-08T08:48:57+00:00
 draft: false

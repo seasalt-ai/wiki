@@ -1,6 +1,6 @@
 ---
 title: "Webpage and LINE"
-description: "Learn how to seamlessly integrate SeaChat into your webpage and LINE messaging platform. Our comprehensive guide walks you through the installation process step-by-step, ensuring you can harness the power of SeaChat across multiple platforms. Enhance your online presence and streamline communication with this versatile solution. Watch our tutorial now!"
+description: "SeaChat by Seasalt.ai offers a versatile voice-based conversational agent capable of handling both inbound and outbound calls, providing seamless customer support. With easy setup, toll-free number acquisition, and live agent transfer features, SeaChat enhances customer interactions through its reliable SeaVoice language model. Test your voice agent today and experience the innovation in conversational AI."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

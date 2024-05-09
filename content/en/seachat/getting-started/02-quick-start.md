@@ -1,6 +1,6 @@
 ---
 title: "Quickstart"
-description: "Launch your customized AI agent in under 10 minutes with SeaChat's Quickstart Guide. Learn to create, fine-tune, and optimize your agent to assist customers efficiently. Follow step-by-step instructions with visual aids and access support resources for seamless setup."
+description: "Your AI-Powered Communication Solution. Seamlessly integrate AI and human agents with SeaChat's multilingual support for over 30 document types. Create your custom AI voice and chat agents in under 10 minutes, with easy transition to human support when needed. Enhance your workflow with SeaChat's diverse software integrations, including CRM, SMS, and phone calls. Start building your global customer reach today, code-free!"
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
 lastmod: 2024-03-08 10:43:51.069 +0100

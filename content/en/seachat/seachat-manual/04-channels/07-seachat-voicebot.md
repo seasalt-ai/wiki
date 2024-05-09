@@ -1,6 +1,6 @@
 ---
 title: "Calls"
-description: "SeaChat  Calls"
+description: "SeaChat by Seasalt.ai offers a versatile voice-based conversational agent capable of handling both inbound and outbound calls, providing seamless customer support. With easy setup, toll-free number acquisition, and live agent transfer features, SeaChat enhances customer interactions through its reliable SeaVoice language model. Test your voice agent today and experience the innovation in conversational AI."
 date: 2024-04-30T08:48:57+00:00
 lastmod: 2024-04-30T08:48:57+00:00
 draft: false

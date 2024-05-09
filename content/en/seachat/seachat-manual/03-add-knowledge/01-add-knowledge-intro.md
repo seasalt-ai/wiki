@@ -1,6 +1,6 @@
 ---
 title: "How to Add Knowledge"
-description: "Learn how to enhance your SeaChat agent's capabilities by adding knowledge effectively. Follow a comprehensive tutorial with step-by-step instructions and key takeaways. Ensure prerequisites are met and empower your AI agent to deliver optimal customer assistance."
+description: "Explore our in-depth tutorial to enhance your knowledge-based agent with advanced features. Follow our step-by-step guide for seamless integration and discover key insights to optimize your SeaChat agent’s performance. Start now to elevate your agent’s capabilities!"
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-03-04 10:43:51.069 +0100

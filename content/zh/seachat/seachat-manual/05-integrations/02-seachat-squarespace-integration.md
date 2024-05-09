@@ -1,6 +1,7 @@
 ---
 title: "Squarespace"
-description: "這份全面指南將引導您通過將SeaChat AI助理整合到您的Squarespace網站的每個步驟，從註冊SeaChat帳戶到在Squarespace上進行程式碼注入。探索如何自定AI助理的設定和樣式，以及如何移除任何現有的聊天機器人以確保順利運行。此教學將幫助您利用AI助理來提升用戶互動，提高客戶滿意度和網站效能。"
+
+description: "如何在 Squarespace 網站上整合 SeaChat AI 助理。學習創建 SeaChat 帳戶、開啟 Squarespace 工具、程式注入等步驟，並嵌入 SeaChat 程式碼以啟用智能客服功能，提升網站互動性。若需更多協助，請聯繫我們。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
