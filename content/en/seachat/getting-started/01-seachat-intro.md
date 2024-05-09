@@ -1,9 +1,9 @@
 ---
 title: "Introduction"
-description: "Discover how SeaChat empowers you to build and launch AI agents in under 10 minutes. With support for 30+ document types and seamless integrations, including web chat, SMS, CRM, and more, SeaChat offers multilingual capabilities and a code-free experience. Learn to create your first agent with our comprehensive tutorial"
+description: "SeaChat – Your AI-Powered Communication Solution. Seamlessly integrate AI and human agents with SeaChat's multilingual support for over 30 document types. Create your custom AI voice and chat agents in under 10 minutes, with easy transition to human support when needed. Enhance your workflow with SeaChat's diverse software integrations, including CRM, SMS, and phone calls. Start building your global customer reach today, code-free!"
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
-lastmod: 2024-03-08 10:43:51.069 +0100
+lastmod: 2024-05-08 10:43:51.069 +0100
 weight: 201
 draft: false
 images: []

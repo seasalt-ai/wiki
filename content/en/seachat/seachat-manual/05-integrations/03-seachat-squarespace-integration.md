@@ -1,6 +1,6 @@
 ---
 title: "Squarespace"
-description: "Integrate SeaChat seamlessly into your Squarespace website with our step-by-step guide. Sign up for a free SeaChat account, access the code snippet, and embed it into your Squarespace site for enhanced customer interactions. Optimize engagement and provide personalized support with SeaChat on Squarespace."
+description: "Embed SeaChat AI on your Squarespace website with ease. Sign up for free, configure your agent, and enhance your site with our smart chatbot. Simple integration, customizable widget, dedicated support. Elevate your user experience with SeaChat AI."
 date: 2024-03-10T08:48:57+00:00
 lastmod: 2024-03-10T08:48:57+00:00
 draft: false

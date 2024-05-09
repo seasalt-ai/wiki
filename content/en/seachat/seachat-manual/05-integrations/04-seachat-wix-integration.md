@@ -1,6 +1,6 @@
 ---
 title: "Wix"
-description: "Empower your Wix website with SeaChat integration using our comprehensive guide. Sign up for a free SeaChat account, access the code snippet, and seamlessly embed it into your Wix site. Enhance user engagement and provide personalized support with SeaChat's AI capabilities. Follow our step-by-step instructions to optimize your Wix website with SeaChat today!"
+description: "Seasalt.ai presents SeaChat, an innovative AI chat agent designed for seamless integration into Wix websites. Follow our simple step-by-step guide to create your SeaChat account, embed the chat widget, and customize its appearance to enhance your site's user engagement. Need support? Our team is ready to assist at seachat@seasalt.ai."
 date: 2024-04-03T08:48:57+00:00
 lastmod: 2024-04-03T08:48:57+00:00
 draft: false

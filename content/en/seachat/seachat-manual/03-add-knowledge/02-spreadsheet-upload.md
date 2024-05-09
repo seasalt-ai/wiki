@@ -1,6 +1,6 @@
 ---
 title: "Spreadsheet and Table"
-description: "Upload spreadsheet files and tables to your SeaChat AI agent. A detailed step-by-step tutorial on how to add table documents to SeaChat AI agent's knowledge base."
+description: "Enhance your SeaChat agent with a tailored knowledge base using our straightforward spreadsheet and table upload tutorial. Seamlessly integrate .csv or .xlsx files, choose from individual or collective document modes, and optimize your AI’s understanding with our specialized formatting guidelines. Get started now and elevate your SeaChat experience!"
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-05-07 10:43:51.069 +0100

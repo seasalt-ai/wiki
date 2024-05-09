@@ -1,6 +1,6 @@
 ---
 title: "Create an Agent"
-description: "Explore the comprehensive SeaChat User Guide to learn how to create your own AI agent. Dive into our tutorial featuring video instructions and step-by-step processes. Unlock the potential of SeaChat and empower your business with custom AI agents tailored to your needs. Watch the tutorial now for expert insights and guidance on agent creation."
+description: "Discover Seasalt.ai’s Seachat, your go-to solution for creating intelligent conversational agents with ease. Our platform empowers you to enhance customer interactions and streamline communications. Start your journey with SeaChat today!"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "MailerLite"
-description: "Integrate SeaChat seamlessly with your MailerLite mailing lists using our step-by-step guide. Sign up for a free SeaChat account, generate an API key from your MailerLite dashboard, and effortlessly connect the two platforms. Automatically add customer emails and information collected through SeaChat forms to your MailerLite email lists. Enhance your marketing strategy and streamline customer communication today!"
+description: "Seasalt.ai's SeaChat offers seamless MailerLite integration, enabling users to effortlessly collect customer emails via SeaChat forms and automatically add them to MailerLite email lists[^1^][1]. Sign up for a free SeaChat account, generate an API token, and streamline your email marketing strategy today."
 date: 2024-04-23T08:48:57+00:00
 lastmod: 2024-04-23T08:48:57+00:00
 draft: false
