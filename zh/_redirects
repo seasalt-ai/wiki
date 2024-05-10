@@ -3,9 +3,10 @@
 /seachat/seachat-integrations/shopify/ /zh/seachat/seachat-manual/05-integrations/01-seachat-shopify-integration/
 /zh/seachat/01-seachat-intro/ /zh/seachat/getting-started/01-seachat-intro/
 /zh/seachat/seachat-intro/01-seachat-intro/ /zh/seachat/getting-started/01-seachat-intro/
+/zh/seachat/02-agent/ /zh/seachat/seachat-manual/02-agent/
 /zh/seachat/seachat-integrations/squarespace/ /zh/seachat/seachat-manual/05-integrations/02-seachat-squarespace-integration/
 /seachat/seachat-integrations/squarespace/ /zh/seachat/seachat-manual/05-integrations/02-seachat-squarespace-integration/
-/zh/seachat/02-create-agent/ /zh/seachat/seachat-manual/01-create-agent/
+/zh/seachat/02-agent/01-create-agent /zh/seachat/seachat-manual/02-agent/01-create-agent/
 /zh/seachat/seachat-integrations/wix/ /zh/seachat/seachat-manual/05-integrations/03-seachat-wix-integration/
 /zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/ /zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/
 /zh/seachat/seachat-intro/03-add-knowledge/ /zh/seachat/seachat-manual/03-add-knowledge/
@@ -16,10 +17,13 @@
 /zh/seachat/seachat-manual/03-add-knowledge/document-upload/ /zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/
 /zh/seachat/seachat-manual/03-add-knowledge/import-urls /zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/
 /zh/seachat/seachat-manual/03-add-knowledge/import-sitemap /zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/
+/zh/seachat/seachat-channels/ /zh/seachat/seachat-manual/04-channels/
 /zh/seachat/05-install-on-line/ /zh/seachat/seachat-manual/04-channels/05-install-on-line/
+/zh/seachat/seachat-integrations/ /zh/seachat/seachat-manual/05-integrations/
 /zh/seachat/seachat-integrations/messenger/ /zh/seachat/seachat-manual/04-channels/07-seachat-messenger-integration/
 /zh/seachat/04-test-improve-knowledge/ /zh/seachat/seachat-manual/06-test-improve-knowledge/
 /zh/seachat/06-install-on-webpage/ /zh/seachat/seachat-manual/04-channels/06-install-on-webpage/
+/zh/seachat/02-agent/02-live-agent-transfer /zh/seachat/seachat-manual/02-agent/02-live-agent-transfer/
 /en/seachat/seachat-integrations/voice-bot/ /zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/
 /seachat/seachat-integrations/voice-bot/ /zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/
 /seachat/seachat-integrations/07-seachat-voice-bot/ /zh/seachat/seachat-manual/04-channels/08-seachat-voicebot/

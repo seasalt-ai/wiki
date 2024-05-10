@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI助理與真人客服 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-agent/</link><description>Recent content in AI助理與真人客服 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 08 May 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-agent/index.xml" rel="self" type="application/rss+xml"/><item><title>如何創建AI助理</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-agent/01-create-agent/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-agent/01-create-agent/</guid><description>創建AI助理很簡單，只要到右上角的AI助理選單裡點選 新增助理 ，然後填寫AI助理的名稱，描述，選擇AI助理服務的使用方式，就可以創建一個AI助理。你也可以在表單裡勾選是否客戶可以轉聯絡真人客服。</description></item><item><title>真人客服</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-agent/02-live-agent-transfer/</link><pubDate>Wed, 08 May 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-agent/02-live-agent-transfer/</guid><description>真人客服在需要時可以接管 AI 助理的對話。真人客服不僅可以接管對話，還可以為AI助理提供新知識，並通過測試和微調AI助理的回應來幫助培訓AI助理。
+SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟用真人客服功能。 我們建議您參考 第三方整合 或 頻道 以了解如何正確設置您的真人助理模式。
+在本教學中，我們將向您展示如何在聊天對話中轉接至真人客服，以及如何使用 SeaChat 提供的不同方法設置它。
+助理設定 # 在將自定義 AI 助理集成到工作環境之前，我們需要確保您的 SeaChat 帳戶中已啟用了真人客服功能。 到側邊欄選單中的AI助理配置下的AI助理資訊。 您可以看到您的 AI 助理的所有基本設置。 如果您想重新配置您的助理，您都可以在這裡完成。
+在屏幕底部，您可以看到一個勾選框，上面寫著用戶可以在聊天期間要求與客服人員對話。 請務必勾選此框以啟用真人客服功能。
+❗ 重要提示 ❗
+如果您選擇啟用真人客服功能，您的客戶現在將在聊天對話期間有轉接真人客服的選項。 這需要您提供一位真人客服定期值班，該客服將檢查新對話並即時回答用戶。
+以真人客服身份與客戶交談 # 點開在左側選單的對話部分。 在這裡，您可以查看 AI 助理與客戶之間的所有對話。 您可以查看對話歷史和對話狀態，這是您的真人客服對話的控制中心。
+如果客戶在聊天對話期間轉接真人客服，人類助理將看到一個指示轉接的彈出通知。 如果對話列表過長，只需點擊真人客服按鈕即可查看真人客服需要完成的對話列表。
+就是這麼簡單。 您現在已為您的 SeaChat AI 助理設置了真人客服轉接功能。 您可以讓真人客服接管對話，以進一步協助您的客戶。 一旦真人客服完成客戶的轉接，真人客服必須點擊完成按鈕將對話交還給 AI 助理。
+一旦真人客服完成對話，對話將標記為已完成，並通知客戶對話已完成。 在需要時，真人客服也可以重新啟動對話。 只需點擊重新啟用按鈕即可重新開始對話。</description></item></channel></rss>
