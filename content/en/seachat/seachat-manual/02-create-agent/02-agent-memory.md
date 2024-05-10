@@ -12,21 +12,38 @@ toc: true
 
 # Overview
 
-Memory allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome. In this document we'll conver:
+Large language models are based on the LSTM -- Long Short-Term Memory -- architecture. 
+However, LSTM is only used for *within* the language model itself, such as 
+coreference resolution. In reality, we want a mechanism to remember certain attributes
+of a conversation or a user. We need a "long-lasting" memory so whenever the conversation
+resumes, the LLM still remembers its previous state.
 
-- Designing memory fields and descriptions for Bots to extract for each conversation.
-- Monitor extracted values for each conversation.
-- Modify Bot memory fields and Conversation memory through the api.
+Memory allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome. 
+
+The use cases of Memory include:
+* Build a user persona, so next time the same user comes back, the AI agent still remembers key points from last conversation. For instance: `{married: yes, family: 2 kids, hobby: golf}`.
+* Store a survey results, then later retrieve these results from the API to analyze them. For instance: `{score: 2, feedback: wifi charging issue}`.
+* Qualify a potential buyer, then trigger some actions based on that. For instance: `{intent: buying an iPhone, lease or cash: cash, when: ASAP}`.
+
+
+In this document we'll cover:
+
+- Designing memory fields and descriptions for agents to extract for each conversation.
+- Extract memory for each conversation.
 
 --- 
 
-# Set up Memory in Bot Advanced Settings
+# Set up Memory in Advanced Settings
 
-In this section we'll go through how to effectively set up Memory fields for your bot.
+In this section we'll go through how to effectively set up Memory fields for your agent.
+We separate the use cases into two categories:
+
+1. Non-survey use cases: the agent editor needs to manually define Memory of interest.
+2. Survey use cases: the Memory is automatically extracted from a list of survey questions and cannot be modified.
 
 ## Memory Setup for non-Survey Use Cases
 
-For most bots, to set up memory we'll use the provided UI in the **Advanced settings** section.
+For most agents, to set up memory we'll use the provided UI in the **Advanced settings** section.
 
 1. In the **Agent Information**, head to the **Advanced Settings** section at the top right.
 
@@ -87,7 +104,7 @@ For most bots, to set up memory we'll use the provided UI in the **Advanced sett
 
 ## Memory Setup for Survey Use Cases
 
-For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the memory pane in Advanced Settings will be dynamically set from the description section
+For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the memory pane in Advanced Settings will be dynamically set from the description section.
 
 1. By selecting one of these use cases, the description section will contain a blank question section (for base survey use case) or a pre-filled question section (templated surveys such as CSAT).
     - This section is denoted by **//QUESTIONS START** at the top and **//QUESTIONS END** at the bottom.
@@ -131,7 +148,7 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the me
 *Advanced Settings*
 </center>
 
-## Monitor Conversation Memory
+## Memory in Conversations 
 
 The memory for each conversation will update in real time and we can check the values from the Conversation page
 
@@ -228,3 +245,7 @@ The extracted values from conversations are accessible within the system. Simply
 </div>
  <p style="margin-top: 20px; font-size: 15px">Value Extracted</p>
 </div>
+
+# Retrieve Conversation Memory
+
+Each conversation's Memory value can be retrieved via [the API](https://wiki.seasalt.ai/seasaltapi/seasalt-api/01-seachat-api-intro/) for further processing.
