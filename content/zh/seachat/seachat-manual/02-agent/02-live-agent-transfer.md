@@ -31,7 +31,7 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 <br/>
 <center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="在SeaChat基本設定頁面開啟真人客服">
 </a>
 </center>
 <br/>
@@ -44,7 +44,7 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 <br/>
 <center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-2.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-2.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-2.png" alt="真人客服查看對話">
 </a>
 </center>
 <br/>
@@ -55,7 +55,7 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 <br/>
 <center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-3.png" target="_blank">
-<img width="70%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
+<img width="70%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="與真人客服對話">
 </a>
 </center>
 <br/>
@@ -72,12 +72,12 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 
 WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是企業用於提供客戶支援的最常見頻道。
 
-聊天對話將向您的客戶顯示目前有多少真人客服可用，他們可以在聊天對話期間通過點擊***轉接真人***按鈕轉接真人客服。
+聊天對話將向您的客戶顯示目前有多少真人客服可用，他們可以在聊天對話期間通過點擊***轉接真人***按鈕轉接真人客服。若沒有真人客服在線上，客戶也可以選擇留言，客服人員上班時可以查看並回覆訊息。
 
 <br/>
 <center>
 <a href="/images/product-updates/search/zh/live-agent-transfer/20240325-live-agent-transfer`webpage`-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="若沒有真人客服在線上，客戶也可以選擇留言，客服人員上班時可以查看並回覆訊息。">
 </a>
 </center>
 <br/>
@@ -89,7 +89,7 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 <br/>
 <center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="集成 LINE 頻道並開啟真人客服服務">
 </a>
 </center>
 <br/>
