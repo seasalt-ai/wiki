@@ -9,7 +9,7 @@ menu:
   seachat:
       parent: "seachat-intro"
 aliases:
-   - /zh/seachat/02-create-agent/
+   - /zh/seachat/02-agent/01-create-agent
 weight: 20
 toc: true
 ---
