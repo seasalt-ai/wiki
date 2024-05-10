@@ -11,9 +11,10 @@ aliases:
   - /zh/seachat/02-agent/02-live-agent-transfer
 toc: true
 ---
-真人客服是一位人類助理，在需要時可以接管 AI 助理的對話。真人客服不僅可以接管對話，還可以為AI助理提供新知識，並通過測試和微調AI助理的回應來幫助培訓AI助理。
 
-SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟用真人客服功能。 我們建議您參考 [第三方整合](/zh/seachat/seachat-integrations/) 或 [頻道](/zh/seachat/seachat-channels/) 以了解如何正確設置您的助理人。
+真人客服在需要時可以接管 AI 助理的對話。真人客服不僅可以接管對話，還可以為AI助理提供新知識，並通過測試和微調AI助理的回應來幫助培訓AI助理。
+
+SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟用真人客服功能。 我們建議您參考 [第三方整合](/zh/seachat/seachat-integrations/) 或 [頻道](/zh/seachat/seachat-channels/) 以了解如何正確設置您的真人助理模式。
 
 在本教學中，我們將向您展示如何在聊天對話中轉接至真人客服，以及如何使用 SeaChat 提供的不同方法設置它。
 
@@ -25,12 +26,14 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 
 > :exclamation: **重要提示** :exclamation:
 >
-> 如果您選擇啟用真人客服功能，您的客戶現在將在聊天對話期間有轉接真人客服的選項。 這需要您提供一位真人客服，該客服將監控並回答用戶。
+> 如果您選擇啟用真人客服功能，您的客戶現在將在聊天對話期間有轉接真人客服的選項。 這需要您提供一位真人客服定期值班，該客服將檢查新對話並即時回答用戶。
 
 <br/>
+<center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="">
 </a>
+</center>
 <br/>
 
 ## 以真人客服身份與客戶交談
@@ -39,18 +42,22 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 如果客戶在聊天對話期間轉接真人客服，人類助理將看到一個指示轉接的彈出通知。 如果對話列表過長，只需點擊**真人客服**按鈕即可查看真人客服需要完成的對話列表。
 
 <br/>
+<center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-2.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-2.png" alt="">
 </a>
+</center>
 <br/>
 <br/>
 
 就是這麼簡單。 您現在已為您的 SeaChat AI 助理設置了真人客服轉接功能。 您可以讓真人客服接管對話，以進一步協助您的客戶。 一旦真人客服完成客戶的轉接，真人客服必須點擊**完成**按鈕將對話交還給 AI 助理。
 
 <br/>
+<center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-3.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
+<img width="70%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
 </a>
+</center>
 <br/>
 <br/>
 
@@ -60,29 +67,32 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 
 > :open_book: **備註** :open_book:
 >
-> WebChat widget 將在 **Shopify** 和 **Squarespace** 中相同。 唯一的區別是將小工具集成到您的網站中的方式。
->
-> 查看 [第三方整合](/zh/seachat/seachat-integrations/) 以獲取有關如何執行此操作的更多信息。
+> WebChat widget 可以同時嵌入在你的自製網站或者你的**Shopify**、**Squarespace**、**Wix**網站中。可以查看[網頁機器人](/zh/seachat/seachat-manual/04-channels/06-install-on-webpage/)和[第三方整合](/zh/seachat/seachat-integrations/) 以獲取更多把Webchat widget嵌入到網站的相關信息。
 
 
-WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。 這個頻道是企業用於提供客戶支援的最常見頻道。
+WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是企業用於提供客戶支援的最常見頻道。
 
 聊天對話將向您的客戶顯示目前有多少真人客服可用，他們可以在聊天對話期間通過點擊***轉接真人***按鈕轉接真人客服。
 
 <br/>
+<center>
 <a href="/images/product-updates/search/zh/live-agent-transfer/20240325-live-agent-transfer`webpage`-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
 </a>
+</center>
 <br/>
 
 ## 如何在 LINE 上轉接真人客服
 
-一旦您集成了 LINE 頻道，您的客戶將在 LINE 聊天的底部看到 **Live Agent** 按鈕。 客戶可以在聊天對話期間點擊**Live Agent**按鈕轉接真人客服。
+一旦您集成了 LINE 頻道並開啟真人客服服務，您的客戶將在 LINE 聊天的底部看到 **Live Agent** 按鈕。 客戶可以在聊天對話期間點擊**Live Agent**按鈕轉接真人客服。
 
 <br/>
 <center>
 <a href="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
 </a>
 </center>
 <br/>
+
+## 需要幫忙?
+需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai)。
