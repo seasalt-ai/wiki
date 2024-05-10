@@ -176,3 +176,55 @@ The memory for each conversation will update in real time and we can check the v
 
 *Latest Extracted Values*
 </center>
+
+## 🤖 Example Use Case
+
+Imagine we have an AI agent tailored to enhance customer experience management. The agent's effectiveness hinges on its ability to track user preferences accurately, necessitating the establishment of specific memory fields for such data.
+
+### Initial Setup
+
+Before delving into memory field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](/en/seachat/seachaat-manual/02-create-agent/01-create-new-agent/) guide for detailed instructions.
+
+### Define Memory
+
+Proceed by navigating to the **Advanced Settings** tab where you can define the memory fields:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/product-updates/seachat/en/memory/example-advanced-setting.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/example-advanced-setting.png" alt="">
+    </a>
+    <p style="margin-top: 20px; font-size: 15px">Define Memory</p>
+</div>
+</div>
+
+
+1. **Field**: For instance, setting 'product_name' as a field indicates the agent will focus on extracting information about the product names mentioned during interactions.
+
+2. **Description**: Here, you'll specify what information the field should capture. For 'product_name', the description would guide the AI to recognize and remember product names from the conversation. I also gave examples of the type of information to extract.
+
+3. **Save**: Ensure to save these configurations to apply them.
+
+### Monitoring Conversation Memory
+
+The AI agent will monitor conversations in real time, updating memory fields as soon as relevant information is detected. This dynamic updating enables the agent to adapt its responses based on the extracted data.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/product-updates/seachat/en/memory/example-conversation.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/example-conversation.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Monitor Conversation Memory</p>
+</div>
+
+The extracted values from conversations are accessible within the system. Simply Move to the **Conversations** page, select the desired conversation, and click on the **Memory** button to view the extracted values. Read again [here](#monitor-conversation-memory) to learn to see your result like the image below.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/product-updates/seachat/en/memory/example-result.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/example-result.png" alt="">
+    </a>
+</div>
+ <p style="margin-top: 20px; font-size: 15px">Value Extracted</p>
+</div>

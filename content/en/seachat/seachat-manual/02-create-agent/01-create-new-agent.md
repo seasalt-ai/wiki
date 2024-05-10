@@ -1,5 +1,5 @@
 ---
-title: "Create an Agent"
+title: "Create New Agent"
 description: "SeaChat User Guide"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-05-06T08:48:57+00:00
@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-intro/02-how-to-create/
+   - /en/seachat/seachaat-manual/02-create-agent/01-create-new-agent/
 weight: 10
 toc: true
 ---
