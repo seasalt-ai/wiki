@@ -1,8 +1,8 @@
 ---
 title: "LINE官方帳號"
-description: "SeaChat 新手上路"
+description: "將SeaChat無縫整合到您的LINE官方帳號，提升客戶服務體驗。這份詳盡的指南將引導您完成SeaChat的安裝過程，並展示如何與LINE的自動回應功能協同工作，以優化客戶互動。學習如何利用SeaChat的高級AI功能，理解客戶查詢，並提供精準的知識庫回答。我們的視頻教學將提供直觀的步驟，確保您能夠快速上手。此外，了解如何設定LINE回應以減少重複消息，並將文本訊息的處理交由SeaChat，讓您的LINE帳號更專注於發送影像和其他媒體訊息。立即開始，利用SeaChat和LINE的合作優勢，提升您的客戶服務質量和效率。"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-04-12T08:48:57+00:00
+lastmod: 2024-05-03T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -97,7 +97,7 @@ toc: true
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" target="_blank">
 <img height="100%" width="50%" src="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" alt="LINE文字訊息您可以放心交給SeaChat">
 </a>
 

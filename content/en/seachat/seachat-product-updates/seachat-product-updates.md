@@ -15,6 +15,17 @@ weight: 101
 toc: true
 ---
 
+### 05/02/2024
+##### **<font color="#739963">New Features</font>** 
+- Upload Table Optimization: On the upload table page, users can now choose whether to upload each row in a table file as an individual Knowledge Base document or as a single file.
+- Added Wix Channel: You can now deploy your Agent on Wix.
+- Database Enhancement: Restructured Knowledge Base data for optimized data retrieval and interpretation.
+- Interface Optimization for Shopify and Squarespace Channels: Enhanced user interface for more streamlined operations for these integrations.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Automatically fill out bot description for the Survey use case.
+- Fixed Live Agent Transfer Behavior in the Survey use case.
+
 
 ### 04/19/2024
 ##### **<font color="#739963">New Features</font>** 

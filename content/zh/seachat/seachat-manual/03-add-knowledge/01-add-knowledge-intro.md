@@ -1,6 +1,6 @@
 ---
 title: "如何加入知識"
-description: "SeaChat 加入知識"
+description: "Seasalt.ai Seachat 提供了一份詳細的教學指南，深入探討如何將知識添加到您的知識庫中。從註冊SeaChat開始，這份指南將引導您完成每個步驟，並提供實用小技巧，以便您的 SeaChat 助理能夠準備好接收新知識。"
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100

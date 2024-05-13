@@ -1,6 +1,6 @@
 ---
 title: "Upload Documents"
-description: "Upload More Than 20 Types of Documents to SeaChat Agent"
+description: "Enhance your SeaChat agent’s capabilities by uploading various document types to create a customized knowledge base. Our step-by-step tutorial guides you through the process, ensuring your AI agent is equipped with the information it needs to serve you better. Sign up for free and start optimizing your SeaChat experience today!"
 lead: ""
 date: 2024-04-11 10:43:51.069 +0100
 lastmod: 2024-04-11 10:43:51.069 +0100

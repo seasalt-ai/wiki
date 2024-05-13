@@ -8,4 +8,6 @@ weight: 40
 draft: false
 images: []
 toc: true
+aliases:
+  - /zh/seachat/seachat-channels/
 ---

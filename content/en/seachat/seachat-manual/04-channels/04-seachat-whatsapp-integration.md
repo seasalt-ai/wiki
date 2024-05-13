@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp"
-description: "Connect SeaChat to WhatsApp"
+description: "Unlock seamless WhatsApp automation with Seasalt.ai's SeaChat platform. Streamline your business communication by integrating a ChatGPT-powered chatbot, manage conversations effortlessly, and enhance customer support with live agent connectivity. Perfect for high-volume messaging and personalized experiences."
 date: 2024-03-19T08:48:57+00:00
 lastmod: 2024-03-19T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Template Upload"
-description: "Template Upload Using CSV and JSON Files"
+description: "Enhance your SeaChat agent's capabilities with our easy-to-follow tutorial on uploading spreadsheets to customize your knowledge base[^1^][1]. Sign up for free and navigate to the Knowledge Base dashboard to upload your data using our provided templates. Successfully manage your AI agent's knowledge with SeaChat's user-friendly platform. Need help? Reach out at seachat@seaslt.ai."
 lead: ""
 date: 2024-04-11 10:43:51.069 +0100
 lastmod: 2024-04-11 10:43:51.069 +0100

@@ -1,6 +1,6 @@
 ---
 title: "Quickstart"
-description: "SeaChat Intro and getting started"
+description: "Your AI-Powered Communication Solution. Seamlessly integrate AI and human agents with SeaChat's multilingual support for over 30 document types. Create your custom AI voice and chat agents in under 10 minutes, with easy transition to human support when needed. Enhance your workflow with SeaChat's diverse software integrations, including CRM, SMS, and phone calls. Start building your global customer reach today, code-free!"
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
 lastmod: 2024-03-08 10:43:51.069 +0100
@@ -19,12 +19,12 @@ aliases:
 In this tutorial, we will create a SeaChat agent from scratch. This AI agent will help answer FAQs about a parking lot business. We will walk you through the process of creating the AI agent, adding knowledge to its knowledge base, testing and fine-tuning the agent to ensure it's ready to answer all incoming questions from customers!
 
 ## Step 1: Create a Workspace 
-If this is your first time logging into SeaChat, you'll need to create a workspace to start the process. I named my new workspace as **My Work Space**. You can give your workspace a different name!
+If this is your first time logging into SeaChat, you'll need to create a workspace to start the process. Click on **Create** to create your first workspace. I named my new workspace as **My Work Space**. You can give your workspace a different name! If you have existing workspace available, you can simply click on **Access** to visit the workspace.
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step1-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step1-rs.jpg" alt="An image illustrate the dashboard of workspace creation.">
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step1.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step1.png" alt="An image illustrate the dashboard of workspace creation.">
 </a>
 
 *Create First Workspace*
@@ -41,7 +41,6 @@ Click on **Add New Agent** to configure your new agent. If you already have a wo
 >
 >You will see the term, **Agent**, used throughout this tutorial. An **AI agent** is essentially an AI assistance with a custom knowledge base, we use the term to emphasize its capability to assist your customers like a real human agent. Whereas a **Live Agent** refers to an actual human agent who interacts with customers in real-time.
 
-
 <br/>
 <center>
 <a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" target="_blank">
@@ -53,8 +52,20 @@ Click on **Add New Agent** to configure your new agent. If you already have a wo
 
 <br/>
 
-Once you have picked the right name for your agent, move on to **Description** to give your agent some context of its role and functions before you choose its use case and response language. After picking a creative name **My Parking Agent** for this tutorial, I will choose **FAQ** as my use case, since this agent will be used to answer frequently asked questions, and **US English** for the response language.
+Next, let's choose **Start From Scratch** to create a new agent. You can also choose to start from a **Use Case** if you prefer.
+
 <br/>
+<center>
+<a href="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step2-3.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step2-3.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+</a>
+
+*Choose **Start From Scratch***
+</center>
+
+<br/>
+
+In **New Agent**, we need to give our agent some context of its role and functions before you choose its use case and response language. After picking a creative name **My Parking Agent** for this tutorial, I will choose **FAQ** as my use case, since this agent will be used to answer frequently asked questions, and **US English** for the response language.
 
 <br/>
 <center>
@@ -137,12 +148,15 @@ That’s it. Now, My Parking Agent has processed the uploaded data, and let’s 
 ## Step 5: Test Your SeaChat Agent
 
 Before putting the AI agent we've just created into action, it’s crucial to train it through testing and fine-tuning. Imagine yourself as the customer interacting with the AI agent. You can now start asking any questions to see how your SeaChat agent responds.
-With its updated knowledge base, My Parking Agent is now ready to be tested. You can start by asking questions to see how your agent responds. Here is what my agent has to say.
+
+With its updated knowledge base, My Parking Agent is now ready to be tested. You can start by asking questions to see how your agent responds after you click on the **Test AI Agent** button.
+
+Here is what my agent has to say.
 
 <br/>
 <center>
 <a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" alt="An image that showcase the conversation with the AI agent.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" alt="An image that showcase the conversation with the AI agent.">
 </a>
 
 *Conversation with AI Agent*
@@ -157,7 +171,7 @@ Oops, it looks like My Parking Agent needs some fine-tuning. I will give a thumb
 <br/>
 <center>
 <a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" alt="An image that shows how to review the agent's answers.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" alt="An image that shows how to review the agent's answers.">
 </a>
 
 *Review Agent's Response*
@@ -187,7 +201,7 @@ It looks like the information about Unicorn Road Car Park is missing in the know
 <br/>
 <center>
 <a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" alt="An image illustrate how to fine-tune your AI agent's responses.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" alt="An image illustrate how to fine-tune your AI agent's responses.">
 </a>
 
 *Modify Relevant Documents*
