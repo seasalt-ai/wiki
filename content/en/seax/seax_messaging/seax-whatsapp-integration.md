@@ -24,8 +24,8 @@ Head to **Channels** under **Workspace** in the sidebar menu. Click on **WhatsAp
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seax/en/whatsapp-integration/channel-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seax/en/whatsapp-integration/channel-dashboard.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/channel-dashboard.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/channel-dashboard.png" alt="">
 </a>
 
 *Click on **WhatsApp Business App***
@@ -37,8 +37,8 @@ Follow the instructions to connect your device to the WhatsApp Business App usin
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seax/en/whatsapp-integration/qr-code.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seax/en/whatsapp-integration/qr-code.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/qr-code.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/qr-code.png" alt="">
 </a>
 
 *Connect to WhatsApp using QR Code*
@@ -55,8 +55,8 @@ Once you have successfully connected your device, head back to **Channels** unde
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seax/en/whatsapp-integration/connection-status.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seax/en/whatsapp-integration/connection-status.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/connection-status.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/connection-status.png" alt="">
 </a>
 
 *Connected Successfully*
@@ -72,8 +72,8 @@ Simply go to **Conversations** in the sidebar menu and start chatting with your 
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seax/en/whatsapp-integration/reconnect-app.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seax/en/whatsapp-integration/reconnect-app.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/reconnect-app.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="">
 </a>
 
 *Reconnect App*
