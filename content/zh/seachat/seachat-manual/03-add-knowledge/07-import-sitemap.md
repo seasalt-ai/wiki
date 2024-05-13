@@ -8,7 +8,7 @@ weight: 36
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-manual/03-add-knowledge/import-sitemap
+  - /zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/
 ---
 
 ## 簡介
@@ -23,7 +23,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/choose-import-sitemaps.png" alt="通過側邊欄選單中的助理進入知識庫面板以顯示如何通過匯入網址進行上傳。">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/choose-import-sitemaps.png" alt="通過側邊欄選單中的助理進入知識庫面板以顯示如何通過匯入網址進行上傳。">
 
 *知識庫面板*
 </center>
@@ -40,8 +40,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/enter-url.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/enter-url.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/enter-url.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/enter-url.png" alt="">
 </a>
 
 *插入站點地圖的 URL*
@@ -53,8 +53,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/before-submission.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/before-submission.png" alt="SeaChat 的介面顯示了用於監控正在上傳的每個文件狀態的上傳部分，提醒用戶在提交之前驗證文件格式和內容。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/before-submission.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/before-submission.png" alt="SeaChat 的介面顯示了用於監控正在上傳的每個文件狀態的上傳部分，提醒用戶在提交之前驗證文件格式和內容。">
 </a>
 
 *檢查已上傳的文件*
@@ -65,8 +65,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '網站地圖' 部分中的上傳文件。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/existing-files.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '網站地圖' 部分中的上傳文件。">
 </a>
 
 *在 **現有知識** 中查找文件*
@@ -77,8 +77,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/review-upload.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '網站地圖' 部分中的上傳文件。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/07-import-sitemaps/review-upload.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '網站地圖' 部分中的上傳文件。">
 </a>
 
 *審核上傳的站點地圖*

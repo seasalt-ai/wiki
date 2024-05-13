@@ -7,9 +7,9 @@ draft: false
 images: []
 menu:
   seachat:
-      parent: "seachat-intro"
+      parent: "seachat-manual"
 aliases:
-   - /zh/seachat/08-add-webpage-link-in-answers/
+  - /zh/seachat/seachat-manual/08-add-webpage-link-in-answers/
 weight: 80
 toc: true
 ---

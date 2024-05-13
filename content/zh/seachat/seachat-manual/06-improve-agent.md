@@ -7,9 +7,9 @@ draft: false
 images: []
 menu:
   seachat:
-      parent: "seachat-intro"
+      parent: "seachat-manual"
 aliases:
-  - /en/seachat/04-improve-agent/
+  - /zh/seachat/seachat-manual/06-improve-agent/
 weight: 60
 toc: true
 ---

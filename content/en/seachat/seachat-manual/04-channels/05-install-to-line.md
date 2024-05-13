@@ -1,5 +1,5 @@
 ---
-title: "Webpage and LINE"
+title: "LINE"
 description: "Learn how to seamlessly integrate SeaChat into your webpage and LINE messaging platform. Our comprehensive guide walks you through the installation process step-by-step, ensuring you can harness the power of SeaChat across multiple platforms. Enhance your online presence and streamline communication with this versatile solution. Watch our tutorial now!"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
@@ -9,8 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-  - /en/seachat/seachat-manual/04-channels/05-install-on-line/
-  - /en/seachat/seachat-manual/04-channels/08-install-on-webpage/
+  - /en/seachat/seachat-manual/04-channels/05-install-to-line/
 weight: 50
 toc: true
 ---

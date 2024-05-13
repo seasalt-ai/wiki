@@ -8,7 +8,7 @@ weight: 34
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-manual/03-add-knowledge/document-upload/
+  - /zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/
 ---
 
 ## 簡介
@@ -22,7 +22,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/choose-document-upload.png" alt="透過側邊欄選單中的助理配置進入知識庫面板以顯示如何通過選擇從模板文件上傳來上傳 CSV 或 JSON 文件到助理程式。">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/choose-document-upload.png" alt="透過側邊欄選單中的助理配置進入知識庫面板以顯示如何通過選擇從模板文件上傳來上傳 CSV 或 JSON 文件到助理程式。">
 
 *知識庫面板*
 </center>
@@ -43,8 +43,8 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/file-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/file-upload.png" alt="SeaChat 界面顯示上傳功能，其中包含一個拖放區域以及下方的部分，用於監視正在上傳的每個文件的狀態，提醒用戶在送出之前驗證文件格式和內容。一個成功的消息表示上傳成功">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/file-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/file-upload.png" alt="SeaChat 界面顯示上傳功能，其中包含一個拖放區域以及下方的部分，用於監視正在上傳的每個文件的狀態，提醒用戶在送出之前驗證文件格式和內容。一個成功的消息表示上傳成功">
 </a>
 
 *文件上傳成功*
@@ -56,8 +56,8 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '文件' 部分中的上傳文件。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/existing-files.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '文件' 部分中的上傳文件。">
 </a>
 
 *在 **現有知識** 中查找文件*
@@ -68,8 +68,8 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/05-document-upload/review-upload.png" alt="在下拉視圖中審核上傳的信息">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/review-upload.png" alt="在下拉視圖中審核上傳的信息">
 </a>
 
 *審核上傳的 DOCX 文件*

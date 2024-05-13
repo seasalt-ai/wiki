@@ -9,10 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/06-seachat-messenger-integration/
-   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
+   - /en/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
 weight: 60
 toc: true
 ---
@@ -40,8 +37,8 @@ By the end of this tutorial, you’ll have a SeaChat agent powered Facebook Mess
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">ChatGPT-powered chatbot integration with Facebook Messenger using SeaChat</p>
 </div>
@@ -104,8 +101,8 @@ You’ll first need to go to [Meta Developer Site](https://developers.facebook.c
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" alt="">
+    <a href="/images/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" alt="">
     </a>
 <br/>
     <p style="margin-top: 20px; font-size: 15px">Create a New Messenger</p>
@@ -118,15 +115,15 @@ Create an **Other** app because we’ll just use this App for accessing your Mes
 <br/>
 <div style="display: flex; flex-direction: column; align-items: center;">
     <div style="width: 100%; height:100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-1.png" alt="">
+        <a href="/images/seachat/en/channels/facebook-messenger/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-1.png" alt="">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Create an <strong>Other</strong> app</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-2.png" alt="">
+        <a href="/images/seachat/en/channels/facebook-messenger/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-2.png" alt="">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Choose <strong>Business</strong></p>
     </div>
@@ -138,8 +135,8 @@ Here we created an app called **Seasalt.ai App**, note that Meta doesn’t allow
 
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <a href="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-3.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/choose-app-type-3.png" alt="">
+        <a href="/images/seachat/en/channels/facebook-messenger/choose-app-type-3.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-3.png" alt="">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Create App</p>
     </div>
@@ -151,8 +148,8 @@ After creating the App, let’s add the [Messenger product](https://developers.f
 
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seachat/en/channels/facebook-messenger/add-messenger-product.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/add-messenger-product.png" alt="">
+    <a href="/images/seachat/en/channels/facebook-messenger/add-messenger-product.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/add-messenger-product.png" alt="">
     </a>
 <br/>
     <p style=" font-size: 15px">Add Messenger to Your App</p>
@@ -170,9 +167,9 @@ Find **Messenger API** under **Messenger** on the left. From here we’ll first 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-1.png" target="_blank"
+   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-1.png" target="_blank"
 style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-1.png" alt="">
+    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-1.png" alt="">
     </a>
 <br/>
     <p style=" font-size: 15px">Verify Token</p>
@@ -184,9 +181,9 @@ Here is all you have to do. Go to SeaChat, navigate to **Agent Configuration →
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-   <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-2.png" target="_blank"
+   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-2.png" target="_blank"
 style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-2.png" alt="">
+    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-2.png" alt="">
     </a>
 <br/>
     <p style=" font-size: 15px">Navigate to <strong>Messenger</strong> on SeaChat</p>
@@ -199,8 +196,8 @@ Copy SeaChat’s Step 1 and paste it to corresponding parts on Messenger dashboa
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-3.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-3.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Copy SeaChat info to configure</p>
 </div>
@@ -212,8 +209,8 @@ Paste the **Callback URL** and **Verify token** to the corresponding fields on t
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-4.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-4.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Paste the URL and token</p>
 </div>
@@ -225,8 +222,8 @@ After this, we’ll need to properly configure **Webhook Fields** to give the ri
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-5.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-5.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px"><strong>Webhook Fields</strong> configuration</p>
 </div>
@@ -238,8 +235,8 @@ Select **messages** and click **Subscribe**:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-6.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-6.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Subscribe selected messages</p>
 </div>
@@ -251,8 +248,8 @@ So your final configuration of webhook would look like this:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/how-to-config-7.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-7.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Webhook configuration</p>
 </div>
@@ -266,8 +263,8 @@ The Meta app needs to access a certain Facebook Page to be able to receive messa
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-1.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/access-token-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-1.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Generate Access Token</p>
 </div>
@@ -279,8 +276,8 @@ After authorizing with a Facebook Page, you can further **Add Subscriptions**:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-2.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-2.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/access-token-2.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-2.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Click on <strong>Add Subscription</strong></p>
 </div>
@@ -292,8 +289,8 @@ Again, we want to subscribe to **messages**:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-3.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/access-token-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-3.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Choose <strong>messages</strong></p>
 </div>
@@ -305,8 +302,8 @@ Finally, let’s generate the access token:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-4.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/access-token-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-4.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Token generation</p>
 </div>
@@ -318,8 +315,8 @@ Once the token is generated, we need to copy the token:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-5.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/access-token-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-5.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Token details</p>
 </div>
@@ -331,8 +328,8 @@ Paste it to Step 2 of SeaChat Messenger setup:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-6.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/access-token-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-6.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Paste Token to SeaChat</p>
 </div>
@@ -344,8 +341,8 @@ Now turn on your App Mode to be **Live** and you can chat with the bot:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a id="live-mode" href="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/access-token-7.png" alt="">
+  <a id="live-mode" href="/images/seachat/en/channels/facebook-messenger/access-token-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-7.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Live mode</p>
 </div>
@@ -359,8 +356,8 @@ So far your messenger bot will respond **only to you**, the app creator. If you 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/app-review-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/app-review-1.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/app-review-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/app-review-1.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">App review</p>
 </div>
@@ -374,8 +371,8 @@ An alternative way is to assign the page to the business you have with Meta. To 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-pages.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/facebook-pages.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/facebook-pages.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/facebook-pages.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Make sure the Facebook Page shows up under your business 
 </p>
@@ -391,8 +388,8 @@ Did you notice in the above picture that I used /live_agent to request a human a
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 40%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Live agent status
 </p>
@@ -405,8 +402,8 @@ They can directly talk with the user!
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/live-agent-interaction.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/live-agent-interaction.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Live agent interaction
 </p>
@@ -419,8 +416,8 @@ If an agent is not online, they can turn on Email notification to receive real-t
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/ai-agent-preference.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/ai-agent-preference.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Live agent preference
 </p>
@@ -439,8 +436,8 @@ For Step 1, please go to your **[Meta Business app](https://developers.facebook.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/remove-app-1.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/remove-app-1.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Remove integration</p>
 </div>
@@ -455,8 +452,8 @@ Currently, it supports English speech to transcription, but let us know if you w
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-  <a href="/images/product-updates/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" alt="">
+  <a href="/images/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" alt="">
 </a>
     <p style="margin-top: 20px; font-size: 15px"><strong>Facebook Messenger voice clip transcription and response by SeaChat</strong></p>
 </div>

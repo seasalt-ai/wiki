@@ -9,7 +9,7 @@ draft: false
 images: []
 toc: true
 aliases:
-   - /en/seachat/seachaat-manual/02-create-agent/02-live-agent-transfer
+   - /en/seachat/seachaat-manual/02-create-agent/03-agent-memory
 ---
 
 # Overview
@@ -53,8 +53,8 @@ For most agents, to set up memory we'll use the provided UI in the **Advanced se
 
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/general-setup.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/general-setup.png" alt="">
+<a href="/images/seachat/en/memory/general-setup.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/general-setup.png" alt="">
 </a>
 
 <br/>
@@ -80,8 +80,8 @@ For most agents, to set up memory we'll use the provided UI in the **Advanced se
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/621eaa33-78a9-45d4-8597-07deda70b141)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/add-and-remove.png" target="_blank">
-<img width="20%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/add-and-remove.png" alt="">
+<a href="/images/seachat/en/memory/add-and-remove.png" target="_blank">
+<img width="20%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/add-and-remove.png" alt="">
 </a>
 
 <br/>
@@ -94,8 +94,8 @@ For most agents, to set up memory we'll use the provided UI in the **Advanced se
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/7220ada1-b2e3-4353-9052-c49d45225bd8)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/save-setting.png" target="_blank">
-<img width="40%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/save-setting.png" alt="">
+<a href="/images/seachat/en/memory/save-setting.png" target="_blank">
+<img width="40%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/save-setting.png" alt="">
 </a>
 
 <br/>
@@ -122,8 +122,8 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the me
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/9b59ff3a-04aa-44c7-83a8-2cd02fe13f78)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/question-start.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/question-start.png" alt="">
+<a href="/images/seachat/en/memory/question-start.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/question-start.png" alt="">
 </a>
 
 <br/>
@@ -141,8 +141,8 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the me
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/aa6a0fda-3e34-4271-9010-28305d9cd296)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/advanced-settings.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/advanced-settings.png" alt="">
+<a href="/images/seachat/en/memory/advanced-settings.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/advanced-settings.png" alt="">
 </a>
 
 <br/>
@@ -159,8 +159,8 @@ The memory for each conversation will update in real time and we can check the v
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/00c4d418-879d-49a5-9ffc-a49972668ed7)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/conversation-page.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/conversation-page.png" alt="">
+<a href="/images/seachat/en/memory/conversation-page.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/conversation-page.png" alt="">
 </a>
 
 <br/>
@@ -173,8 +173,8 @@ The memory for each conversation will update in real time and we can check the v
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/9be38868-cdbf-4223-a445-636695b8c922)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/memory-btn.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/memory-btn.png" alt="">
+<a href="/images/seachat/en/memory/memory-btn.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/memory-btn.png" alt="">
 </a>
 
 <br/>
@@ -187,8 +187,8 @@ The memory for each conversation will update in real time and we can check the v
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/5872958e-9b35-4ad7-93c2-50ac2a50f81f)
 
 <center>
-<a href="/images/product-updates/seachat/en/memory/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/extracted-value.png" alt="">
+<a href="/images/seachat/en/memory/extracted-value.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/extracted-value.png" alt="">
 </a>
 
 <br/>
@@ -210,8 +210,8 @@ Proceed by navigating to the **Advanced Settings** tab where you can define the 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seachat/en/memory/example-advanced-setting.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/example-advanced-setting.png" alt="">
+    <a href="/images/seachat/en/memory/example-advanced-setting.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-advanced-setting.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Define Memory</p>
 </div>
@@ -230,8 +230,8 @@ The AI agent will monitor conversations in real time, updating memory fields as 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seachat/en/memory/example-conversation.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/example-conversation.png" alt="">
+    <a href="/images/seachat/en/memory/example-conversation.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-conversation.png" alt="">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Monitor Conversation Memory</p>
@@ -241,8 +241,8 @@ The extracted values from conversations are accessible within the system. Simply
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/product-updates/seachat/en/memory/example-result.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/memory/example-result.png" alt="">
+    <a href="/images/seachat/en/memory/example-result.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-result.png" alt="">
     </a>
 </div>
  <p style="margin-top: 20px; font-size: 15px">Value Extracted</p>

@@ -9,9 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/voice-bot/
-   - /seachat/seachat-integrations/voice-bot/
-   - /seachat/seachat-integrations/07-seachat-voice-bot/
+  - /zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/
 weight: 70
 toc: true
 ---
@@ -27,8 +25,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/agent-description.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/agent-description.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/agent-description.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/agent-description.png" alt="">
 </a>
 
 *新增AI助理*
@@ -38,8 +36,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/choose-inbound-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/choose-inbound-calls.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/choose-inbound-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/choose-inbound-calls.png" alt="">
 </a>
 
 *設置 **電話** 頻道*
@@ -51,8 +49,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/buy-a-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/buy-a-number.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/buy-a-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/buy-a-number.png" alt="">
 </a>
 
 *購買免費電話號碼*
@@ -62,8 +60,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/toll-free-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/toll-free-number.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/toll-free-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/toll-free-number.png" alt="">
 </a>
 
 *免費電話號碼詳細信息*
@@ -77,8 +75,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/configure-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/configure-agent.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/configure-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/configure-agent.png" alt="">
 </a>
 
 *語音助理設定*
@@ -97,8 +95,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/configuration-done.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/configuration-done.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/configuration-done.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/configuration-done.png" alt="">
 </a>
 
 *設定完成*
@@ -110,8 +108,8 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/zh/channels/voicebot/test-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/channels/voicebot/test-agent.png" alt="">
+  <a href="/images/seachat/zh/channels/voicebot/test-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/test-agent.png" alt="">
 </a>
 
 *測試您的助理*

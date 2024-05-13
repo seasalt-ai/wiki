@@ -8,7 +8,7 @@ weight: 31
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/manual-entry/
+  - /en/seachat/seachat-intro/03-add-knowledge/08-manual-upload/
 ---
 
 ## Overview
@@ -23,7 +23,7 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/choose-manual-entry.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload by importing urls.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/choose-manual-entry.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload by importing urls.">
 
 *Knowledge Base Dashboard*
 </center>
@@ -36,8 +36,8 @@ There are a lot of fields to fill in. We will not go through all of them in deta
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/empty-manual-entry.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/empty-manual-entry.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/empty-manual-entry.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/empty-manual-entry.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Fill in the empty fields in **Manual Entry**
@@ -48,8 +48,8 @@ Choose a title for your document and write the texts of the document in the text
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Document title and text*
@@ -61,8 +61,8 @@ If you have anything that is in the form of key-value pairs, you can add them he
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Enter **Name**(Attribute) and **Value***
@@ -83,8 +83,8 @@ You will see a success message once the files are uploaded successfully. You hav
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Look for **Manual KB** in **Existing***
@@ -95,8 +95,8 @@ Click on the file you just uploaded to review the content. That's all. You can n
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Review the uploaded content*

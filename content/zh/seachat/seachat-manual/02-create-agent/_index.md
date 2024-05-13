@@ -8,6 +8,4 @@ weight: 20
 draft: false
 images: []
 toc: true
-aliases:
-  - /zh/seachat/02-agent/
 ---
