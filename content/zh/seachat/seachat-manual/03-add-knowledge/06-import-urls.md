@@ -8,7 +8,7 @@ weight: 35
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-manual/03-add-knowledge/import-urls
+  - /zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/
 ---
 
 ## 簡介
@@ -23,7 +23,7 @@ SeaChat 提供多種方法將文件上傳到您AI助理的知識庫。在本教�
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/choose-import-urls.png" alt="通過側邊欄選單中的助理配置進入知識庫面板以顯示如何通過匯入網址進行上傳。">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/choose-import-urls.png" alt="通過側邊欄選單中的助理配置進入知識庫面板以顯示如何通過匯入網址進行上傳。">
 
 *知識庫面板*
 </center>
@@ -33,7 +33,7 @@ SeaChat 支持將網址匯入到您的助理。將網址複製並粘貼到相應
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/enter-urls.png" alt="知識庫界面的圖像，我們引導用戶插入他們希望從中匯入文本的網頁的 url。">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/enter-urls.png" alt="知識庫界面的圖像，我們引導用戶插入他們希望從中匯入文本的網頁的 url。">
 
 *輸入要從網頁匯入文本的網頁的網址*
 </center>
@@ -42,7 +42,7 @@ SeaChat 支持將網址匯入到您的助理。將網址複製並粘貼到相應
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/enter-urls-2.png" alt="知識庫界面的圖像，我們引導用戶插入他們希望從連結在此頁面上的頁面中匯入文本的頁面的 url。">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/enter-urls-2.png" alt="知識庫界面的圖像，我們引導用戶插入他們希望從連結在此頁面上的頁面中匯入文本的頁面的 url。">
 
 *輸入從此頁面上連結的頁面導入文本的網址*
 </center>
@@ -56,8 +56,8 @@ SeaChat 支持將網址匯入到您的助理。將網址複製並粘貼到相應
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '文件' 部分中的上傳文件。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/existing-files.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '文件' 部分中的上傳文件。">
 </a>
 
 *在 **現有知識** 中查找文件*
@@ -68,8 +68,8 @@ SeaChat 支持將網址匯入到您的助理。將網址複製並粘貼到相應
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/06-import-urls/review-upload.png" alt="在下拉視圖中審核上傳的信息">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/06-import-urls/review-upload.png" alt="在下拉視圖中審核上傳的信息">
 </a>
 
 *審核上傳的網站文本*

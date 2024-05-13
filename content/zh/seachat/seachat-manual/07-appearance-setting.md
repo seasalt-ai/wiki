@@ -7,9 +7,9 @@ draft: false
 images: []
 menu:
   seachat:
-      parent: "seachat-intro"
+      parent: "seachat-manual"
 aliases:
-   - /zh/seachat/07-appearance-setting/
+   - /zh/seachat/seachat-manual/07-appearance-setting/
 weight: 70
 toc: true
 ---

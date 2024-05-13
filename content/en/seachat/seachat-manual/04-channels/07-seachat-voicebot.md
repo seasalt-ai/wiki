@@ -9,9 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/voice-bot/
-   - /seachat/seachat-integrations/voice-bot/
-   - /seachat/seachat-integrations/07-seachat-voice-bot/
+  - /en/seachat/seachat-manual/04-channels/07-seachat-voicebot/
 weight: 70
 toc: true
 ---
@@ -30,8 +28,8 @@ In my agent description, I made sure to include that this agent is for voice cal
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/agent-description.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/agent-description.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/agent-description.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/agent-description.png" alt="">
 </a>
 
 *Add Agent Description*
@@ -41,8 +39,8 @@ Once we have created our voice agent, let's start setting up the voice agent to 
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/choose-inbound-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/choose-calls.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/choose-inbound-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/choose-calls.png" alt="">
 </a>
 
 *Setting up **Calls** Channel*
@@ -54,8 +52,8 @@ In the **Calls** channel, we need to first purchase a toll-free phone number. Ch
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/buy-a-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/buy-a-number.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/buy-a-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/buy-a-number.png" alt="">
 </a>
 
 *Purchase a toll-free number*
@@ -65,8 +63,8 @@ Once purchased, you can see the toll-free number of your choice. You can always 
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/toll-free-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/toll-free-number.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/toll-free-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/toll-free-number.png" alt="">
 </a>
 
 *Toll-free number details*
@@ -80,8 +78,8 @@ You are welcome to enable the live agent feature for your voice agent just like 
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/configure-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/configure-agent.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/configure-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/configure-agent.png" alt="">
 </a>
 
 *Voice agent configuration*
@@ -101,8 +99,8 @@ Now that we have set up the voice agent, we can start testing our agent to see i
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/configuration-setup.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/configuration-setup.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/configuration-setup.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/configuration-setup.png" alt="">
 </a>
 
 *Configuration set up*
@@ -114,8 +112,8 @@ There are two ways to test the voice agent. You can call the toll-free number th
 
 <br/>
 <center>
-  <a href="/images/product-updates/seachat/en/channels/voicebot/inbound-outbound-test.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/channels/voicebot/inbound-outbound-test.png" alt="">
+  <a href="/images/seachat/en/channels/voicebot/inbound-outbound-test.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/inbound-outbound-test.png" alt="">
 </a>
 
 *Test you agent*

@@ -8,7 +8,7 @@ weight: 31
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-manual/03-add-knowledge/manual-upload
+  - /zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/
 ---
 
 ## 簡介
@@ -24,7 +24,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/choose-manual-entry.png" alt="通過側邊欄選單中的助理配置進入知識庫面板以顯示如何通過導入網址進行上傳。">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/choose-manual-entry.png" alt="通過側邊欄選單中的助理配置進入知識庫面板以顯示如何通過導入網址進行上傳。">
 
 *知識庫面板*
 </center>
@@ -37,8 +37,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/empty-manual-entry.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/empty-manual-entry.png" alt="視覺指南突出了屏幕右上角的“現有”部分，展示了“文件”部分中上傳文件的內容。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/empty-manual-entry.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/empty-manual-entry.png" alt="視覺指南突出了屏幕右上角的“現有”部分，展示了“文件”部分中上傳文件的內容。">
 </a>
 
 *填寫 **手動輸入** 中的輸入格*
@@ -49,8 +49,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/title-text.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/title-text.png" alt="視覺指南突出了屏幕右上角的“現有”部分，展示了“文件”部分中上傳文件的內容。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/title-text.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/title-text.png" alt="視覺指南突出了屏幕右上角的“現有”部分，展示了“文件”部分中上傳文件的內容。">
 </a>
 
 *文件標題和內文*
@@ -72,8 +72,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '文件' 部分中的上傳文件。">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/existing-files.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/existing-files.png" alt="視覺指南突出顯示位於屏幕右上角的 '現有' 部分，其中突出顯示了 '文件' 部分中的上傳文件。">
 </a>
 
 *在 **現有知識** 中查找文件*
@@ -84,8 +84,8 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/zh/tutorial-add-knowledge/08-manual-entry/review-upload.png" alt="在下拉視圖中審核上傳的信息">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/08-manual-entry/review-upload.png" alt="在下拉視圖中審核上傳的信息">
 </a>
 
 *審核上傳的手動輸入內容*

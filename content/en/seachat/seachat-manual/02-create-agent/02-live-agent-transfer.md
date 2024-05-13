@@ -8,6 +8,8 @@ weight: 70
 draft: false
 images: []
 toc: true
+aliases:
+  - /zh/seachat/seachaat-manual/02-create-agent/02-live-agent-transfer
 ---
 A live agent is a human agent who can take over the conversation from the AI agent when needed. Not only can live agents take over the conversation, but they can also provide the virtual agent with new knowledge, and help train the virtual agent by testing and fine-tuning the response of the AI agent.
 
@@ -26,8 +28,8 @@ At the bottom of the screen, you can see the checkbox that says ***Users can req
 > If you choose to enable the feature of the live agent, your customer will now have the option to request a live agent during the chat conversation. This requires you to provide a real-human agent that will monitor and respond to the user.
 
 <br/>
-<a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="">
+<a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="">
 </a>
 <br/>
 
@@ -37,8 +39,8 @@ Find the **Conversations** section from the sidebar menu on the left. Here you c
 If a customer requests a live agent during the chat conversation, the human agent will see a notification pop-up that indicates the request. If the list of conversations gets too long, simply click on the **Live Agent** button to see the list of conversations that live agents need to complete.
 
 <br/>
-<a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" alt="">
+<a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" alt="">
 </a>
 <br/>
 <br/>
@@ -46,8 +48,8 @@ If a customer requests a live agent during the chat conversation, the human agen
 That's it. You have now set up a Live Agent Transfer function for your SeaChat AI Agent. You can have a live agent take over the conversation to further assist your customer. Once the live agent has completed the request that the customer has, the live agent must click on the **Complete** button to give the conversation back to the AI agent.
 
 <br/>
-<a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
+<a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
 </a>
 <br/>
 <br/>
@@ -72,8 +74,8 @@ The WebChat Channel is a channel that allows you to embed the SeaChat widget on 
 The chat conversation will let your customer know how many live agents are currently available, and they can request a live agent during the chat conversation by clicking the ***Talk to Live Agent*** button.
 
 <br/>
-<a href="/images/product-updates/search/en/live-agent-transfer/20240325-live-agent-transfer-`webpage`-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
+<a href="/images/search/en/live-agent-transfer/20240325-live-agent-transfer-`webpage`-1.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
 </a>
 <br/>
 
@@ -83,8 +85,8 @@ The chat conversation will let your customer know how many live agents are curre
 Once you have integrated the LINE channel, your customer will see the **Live Agent** button at the bottom of the LINE chat. The customer can click on the **Live Agent** button to request a live agent during the chat conversation.
 
 <br/>
-<a href="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
+<a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
 </a>
 <br/>
 

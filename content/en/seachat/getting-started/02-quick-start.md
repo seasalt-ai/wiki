@@ -3,7 +3,7 @@ title: "Quickstart"
 description: "Your AI-Powered Communication Solution. Seamlessly integrate AI and human agents with SeaChat's multilingual support for over 30 document types. Create your custom AI voice and chat agents in under 10 minutes, with easy transition to human support when needed. Enhance your workflow with SeaChat's diverse software integrations, including CRM, SMS, and phone calls. Start building your global customer reach today, code-free!"
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
-lastmod: 2024-03-08 10:43:51.069 +0100
+lastmod: 2024-05-13 10:43:51.069 +0100
 weight: 202
 draft: false
 images: []
@@ -23,8 +23,8 @@ If this is your first time logging into SeaChat, you'll need to create a workspa
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step1.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step1.png" alt="An image illustrate the dashboard of workspace creation.">
+<a href="/images/seachat/en/tutorial-intro/20240426-tutorial-intro-step1.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240426-tutorial-intro-step1.png" alt="An image illustrate the dashboard of workspace creation.">
 </a>
 
 *Create First Workspace*
@@ -43,8 +43,8 @@ Click on **Add New Agent** to configure your new agent. If you already have a wo
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-rs.jpg" alt="An image that shows how to navigate to the dashboard of agent creation.">
 </a>
 
 *Add New Agent*
@@ -56,8 +56,8 @@ Next, let's choose **Start From Scratch** to create a new agent. You can also ch
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step2-3.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240426-tutorial-intro-step2-3.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<a href="/images/seachat/en/tutorial-intro/20240426-tutorial-intro-step2-3.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240426-tutorial-intro-step2-3.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
 </a>
 
 *Choose **Start From Scratch***
@@ -69,8 +69,8 @@ In **New Agent**, we need to give our agent some context of its role and functio
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2-rs.jpg" alt="An image the shows the interface of agent configuration.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step2-2-rs.jpg" alt="An image the shows the interface of agent configuration.">
 </a>
 
 *Agent Configuration*
@@ -92,8 +92,8 @@ Feel free to try out the different ways to upload data to your knowledge base. F
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step3-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step3-rs.jpg" alt="An image that suggests the user to choose the upload spreadsheet method for uploading to agent's knowledge base.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step3-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step3-rs.jpg" alt="An image that suggests the user to choose the upload spreadsheet method for uploading to agent's knowledge base.">
 </a>
 
 *Choose an Upload Method*
@@ -109,8 +109,8 @@ Download the sample .csv file [here](/sample-files/ncc_Car_Parks.csv), and try i
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-rs.jpg" alt="An image that illustrate the dashboard of file upload">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-rs.jpg" alt="An image that illustrate the dashboard of file upload">
 </a>
 
 *Review Uploaded File and Submit*
@@ -123,8 +123,8 @@ To see the uploaded data of parking lots, we simply navigate to the **Existing**
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2-rs.jpg" alt="An image that shows the success message when the file is uploaded">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-2-rs.jpg" alt="An image that shows the success message when the file is uploaded">
 </a>
 
 *Uploaded Successfully*
@@ -136,8 +136,8 @@ That’s it. Now, My Parking Agent has processed the uploaded data, and let’s 
 
 `<br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3-rs.jpg" alt="An image that indicates the location of the button, Test AI Agent">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step4-3-rs.jpg" alt="An image that indicates the location of the button, Test AI Agent">
 </a>
 
 *Click on **Test AI Agent***
@@ -155,8 +155,8 @@ Here is what my agent has to say.
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" alt="An image that showcase the conversation with the AI agent.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-1-rs.jpg" alt="An image that showcase the conversation with the AI agent.">
 </a>
 
 *Conversation with AI Agent*
@@ -170,8 +170,8 @@ Oops, it looks like My Parking Agent needs some fine-tuning. I will give a thumb
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" alt="An image that shows how to review the agent's answers.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step5-2-rs.jpg" alt="An image that shows how to review the agent's answers.">
 </a>
 
 *Review Agent's Response*
@@ -186,8 +186,8 @@ SeaChat provides a set of sophisticated tools for you to fine-tune your agent to
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1-rs.jpg" alt="An image indicates the button to modify agent's knowledge data.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-1-rs.jpg" alt="An image indicates the button to modify agent's knowledge data.">
 </a>
 
 *Review Agent's Response*
@@ -200,8 +200,8 @@ It looks like the information about Unicorn Road Car Park is missing in the know
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" alt="An image illustrate how to fine-tune your AI agent's responses.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-2-rs.jpg" alt="An image illustrate how to fine-tune your AI agent's responses.">
 </a>
 
 *Modify Relevant Documents*
@@ -214,8 +214,8 @@ You can switch to **Reviewed** section to see the changes you've made. All done!
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3-rs.jpg" alt="An image that reminds the user to mark the reviewed message as reviewed.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-3-rs.jpg" alt="An image that reminds the user to mark the reviewed message as reviewed.">
 </a>
 
 *Mark Conversation as Reviewed*
@@ -228,8 +228,8 @@ Ta-da! My Parking Agent now is giving me the right information. It is that easy!
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4-rs.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4-rs.jpg" alt="An image illustrates the optimized performance of the AI agent.">
+<a href="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4-rs.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/tutorial-intro/20240311-tutorial-intro-step6-4-rs.jpg" alt="An image illustrates the optimized performance of the AI agent.">
 </a>
 
 *Optimal Performance with Fine-tuned Responses*

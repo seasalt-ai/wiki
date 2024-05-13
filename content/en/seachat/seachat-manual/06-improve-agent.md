@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-intro/01-introduction/
+  - /en/seachat/seachat-manual/06-improve-agent/
 weight: 60
 toc: true
 ---

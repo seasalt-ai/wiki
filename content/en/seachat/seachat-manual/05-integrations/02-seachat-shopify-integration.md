@@ -11,7 +11,6 @@ menu:
 aliases:
    - /en/seachat/seachat-integrations/shopify/
    - /seachat/seachat-integrations/shopify/
-   - /seachat/seachat-integrations/01-seachat-shopify-integration/
 weight: 20
 toc: true
 ---

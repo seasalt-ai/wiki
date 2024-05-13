@@ -23,8 +23,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/choose-workspace.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/choose-workspace.png" alt="示意圖顯示創建工作區的儀表板。">
+<a href="/images/seachat/zh/tutorial-intro/choose-workspace.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/choose-workspace.png" alt="示意圖顯示創建工作區的儀表板。">
 </a>
 
 *創建第一個工作區*
@@ -43,8 +43,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/create-agent.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/create-agent.png" alt="圖片顯示如何導航到助理創建儀表板。">
+<a href="/images/seachat/zh/tutorial-intro/create-agent.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/create-agent.png" alt="圖片顯示如何導航到助理創建儀表板。">
 </a>
 
 *新增AI助理*
@@ -54,8 +54,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/choose-agent-create.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/choose-agent-create.png" alt="一個顯示如何進入代理創建儀表板的圖片。">
+<a href="/images/seachat/zh/tutorial-intro/choose-agent-create.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/choose-agent-create.png" alt="一個顯示如何進入代理創建儀表板的圖片。">
 </a>
 
 *選擇 **一鍵開始***
@@ -70,8 +70,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/new-agent-info.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/new-agent-info.png" alt="圖片顯示助理配置界面。">
+<a href="/images/seachat/zh/tutorial-intro/new-agent-info.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/new-agent-info.png" alt="圖片顯示助理配置界面。">
 </a>
 
 *AI助理配置*
@@ -95,8 +95,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/choose-upload-method.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/choose-upload-method.png" alt="圖片建議用戶選擇上傳試算表方法來上傳至助理的知識庫。">
+<a href="/images/seachat/zh/tutorial-intro/choose-upload-method.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/choose-upload-method.png" alt="圖片建議用戶選擇上傳試算表方法來上傳至助理的知識庫。">
 </a>
 
 *選擇一種上傳方式*
@@ -113,8 +113,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/upload-document.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/upload-document.png" alt="圖片顯示文件上傳成功的消息。">
+<a href="/images/seachat/zh/tutorial-intro/upload-document.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/upload-document.png" alt="圖片顯示文件上傳成功的消息。">
 </a>
 
 *文件上傳*
@@ -126,8 +126,8 @@ aliases:
 
 `<br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/review-upload.png" alt="圖片指示測試AI助理按鈕的位置。">
+<a href="/images/seachat/zh/tutorial-intro/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem;cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/review-upload.png" alt="圖片指示測試AI助理按鈕的位置。">
 </a>
 
 *點擊**測試AI助理***
@@ -143,8 +143,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/agent-conversation.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/agent-conversation.png" alt="圖片展示與AI助理的對話。">
+<a href="/images/seachat/zh/tutorial-intro/agent-conversation.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/agent-conversation.png" alt="圖片展示與AI助理的對話。">
 </a>
 
 *與AI助理的對話*
@@ -158,8 +158,8 @@ aliases:
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/conversation-feedback.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/conversation-feedback.png" alt="圖片顯示如何審查助理的回答。">
+<a href="/images/seachat/zh/tutorial-intro/conversation-feedback.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/conversation-feedback.png" alt="圖片顯示如何審查助理的回答。">
 </a>
 
 *審查助理的回應*
@@ -174,8 +174,8 @@ SeaChat為您提供了一套先進的工具，讓您能夠將您的助理調整�
 看起來獨角獸公園的信息並沒出現在我的AI助理的知識庫中。點擊**新增知識庫文章**來新增相關知識。
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/review-feedback.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/review-feedback.png" alt="圖片指示修改助理知識數據的按鈕。">
+<a href="/images/seachat/zh/tutorial-intro/review-feedback.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/review-feedback.png" alt="圖片指示修改助理知識數據的按鈕。">
 </a>
 
 *審查助理的回應*
@@ -187,8 +187,8 @@ SeaChat為您提供了一套先進的工具，讓您能夠將您的助理調整�
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/edit-response.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/edit-response.png" alt="圖片顯示如何微調您的AI助理的回應。">
+<a href="/images/seachat/zh/tutorial-intro/edit-response.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/edit-response.png" alt="圖片顯示如何微調您的AI助理的回應。">
 </a>
 
 *修改相關文件*
@@ -201,8 +201,8 @@ SeaChat為您提供了一套先進的工具，讓您能夠將您的助理調整�
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/move-reviewed-response.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/move-reviewed-response.png" alt="圖片提醒用戶將審查過的消息標記為已審查。">
+<a href="/images/seachat/zh/tutorial-intro/move-reviewed-response.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/move-reviewed-response.png" alt="圖片提醒用戶將審查過的消息標記為已審查。">
 </a>
 
 *標記對話為已審查*
@@ -214,8 +214,8 @@ SeaChat為您提供了一套先進的工具，讓您能夠將您的助理調整�
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/zh/tutorial-intro/finetune-result.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/product-updates/seachat/zh/tutorial-intro/finetune-result.png" alt="圖片展示AI助理的優化表現。">
+<a href="/images/seachat/zh/tutorial-intro/finetune-result.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/tutorial-intro/finetune-result.png" alt="圖片展示AI助理的優化表現。">
 </a>
 
 *經過微調的優化回應*

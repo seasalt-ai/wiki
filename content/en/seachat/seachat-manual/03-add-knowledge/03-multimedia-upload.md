@@ -26,8 +26,8 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a video or audio file to an agent by selecting Transcribe Audio/Video.">
+<a href="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a video or audio file to an agent by selecting Transcribe Audio/Video.">
 </a>
 
 *Knowledge Base Dashboard*
@@ -39,8 +39,8 @@ By clicking on the upload button, you can submit to your agent choosing from var
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" alt="Screenshot illustrating the variety of file types that SeaChat accepts">
+<a href="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step3.png" alt="Screenshot illustrating the variety of file types that SeaChat accepts">
 </a>
 
 *Choose the Language of the Uploading File*
@@ -61,8 +61,8 @@ corresponding language.
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step4.png" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
 </a>
 
 *Uploading Status*
@@ -74,8 +74,8 @@ Voilà! You have successfully customized your AI agent with new knowledge. To vi
 
 <br/>
 <center>
-<a href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a href="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step5.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Look for Files in **Existing***
@@ -86,8 +86,8 @@ Click on the file you just uploaded to review the content. That's it! Your SeaCh
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" alt="Review the uploaded information in a dropdown view">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/multimedia/20240319-multimedia-tutorial-step6.png" alt="Review the uploaded information in a dropdown view">
 </a>
 
 *Review Uploaded File*

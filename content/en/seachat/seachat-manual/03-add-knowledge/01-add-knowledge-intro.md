@@ -8,7 +8,7 @@ weight: 30
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/add-knowledge-intro
+  - /en/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/
 ---
 ## Overview
 This tutorial takes a deep dive into the different features to add information to your knowledge-based agent. We will guide you through every single step of the feature, and we will also highlight some key takeaways along the way.

@@ -8,7 +8,7 @@ weight: 35
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/import-urls/
+  - /en/seachat/seachat-intro/03-add-knowledge/06-import-urls/
 ---
 
 ## Overview
@@ -22,7 +22,7 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/choose-import-urls.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload by importing urls.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/import-urls/choose-import-urls.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload by importing urls.">
 
 *Knowledge Base Dashboard*
 </center>
@@ -32,7 +32,7 @@ SeaChat supports importing URLs to your agent. Copy and paste the URLs into the 
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/enter-urls.png" alt="Image of the Knowledge Base interface where we lead the user to insert the url of the webpage that they wish to import">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/import-urls/enter-urls.png" alt="Image of the Knowledge Base interface where we lead the user to insert the url of the webpage that they wish to import">
 
 *Insert the URL of the page to import text from the page*
 </center>
@@ -41,7 +41,7 @@ By now, you should notice the additional option on the right-hand of the user in
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/enter-urls-2.png" alt="Image of the Knowledge Base interface where we lead the user to insert the url of the webpage that they wish to import">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/import-urls/enter-urls-2.png" alt="Image of the Knowledge Base interface where we lead the user to insert the url of the webpage that they wish to import">
 
 *Insert the URL of the page to import text from the pages linked on this page*
 </center>
@@ -55,8 +55,8 @@ You will see a success message once the files are uploaded successfully. You hav
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/urls-in-existing.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/urls-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/import-urls/urls-in-existing.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/import-urls/urls-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Look for **URLs** in **Existing***
@@ -67,8 +67,8 @@ Click on the file you just uploaded to review the content. The texts on your URL
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/import-urls/review-upload.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/import-urls/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/import-urls/review-upload.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Review the uploaded content*

@@ -8,7 +8,7 @@ weight: 33
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/document-upload/
+  - /en/seachat/seachat-manual/03-add-knowledge/05-document-upload/
 ---
 
 ## Overview
@@ -24,7 +24,7 @@ Find your agent's knowledge base by navigating to the **Knowledge Base** dashboa
 
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/choose-document-upload.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/document-upload/choose-document-upload.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
 
 *Knowledge Base Dashboard*
 </center>
@@ -45,8 +45,8 @@ You will see the status of each uploading file in the section below the drag-and
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" alt="Interface of SeaChat showing the upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded, reminding users to verify file format and content before submission. A success message indicates the uploaded has been successful">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/document-upload/file-upload.png" alt="Interface of SeaChat showing the upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded, reminding users to verify file format and content before submission. A success message indicates the uploaded has been successful">
 </a>
 
 *File Uploaded Successfully*
@@ -58,8 +58,8 @@ You will see a success message once the files are uploaded successfully. You hav
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/document-upload/existing-files.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
 *Look for Files in  **Existing***
@@ -70,8 +70,8 @@ Click on the file you just uploaded to review the content. That's all. You can n
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/product-updates/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" alt="Review the uploaded information in a dropdown view">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/document-upload/review-upload.png" alt="Review the uploaded information in a dropdown view">
 </a>
 
 *Review Uploaded DOCX File*
