@@ -7,9 +7,9 @@ draft: false
 images: []
 menu:
   seachat:
-      parent: "seachat-intro"
+      parent: "seachat-manual"
 aliases:
-   - /zh/seachat/05-install-on-line/
+  - /zh/seachat/seachat-manual/04-channels/05-install-on-line/
 weight: 50
 toc: true
 ---

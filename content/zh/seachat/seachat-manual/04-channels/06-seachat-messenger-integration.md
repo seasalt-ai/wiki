@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /zh/seachat/seachat-integrations/messenger/
+  - /zh/seachat/seachat-integrations/messenger/
 weight: 60
 toc: true
 ---

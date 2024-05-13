@@ -8,6 +8,8 @@ weight: 80
 draft: false
 images: []
 toc: true
+aliases:
+   - /en/seachat/seachaat-manual/02-create-agent/02-live-agent-transfer
 ---
 
 # Overview

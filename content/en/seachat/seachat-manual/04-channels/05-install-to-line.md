@@ -9,8 +9,8 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-intro/01-introduction/
-   - /seachat/seachat-manual/05-install-to-line-and-web/
+  - /en/seachat/seachat-manual/04-channels/05-install-on-line/
+  - /en/seachat/seachat-manual/04-channels/08-install-on-webpage/
 weight: 50
 toc: true
 ---

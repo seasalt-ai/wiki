@@ -9,7 +9,7 @@ menu:
   seachat:
       parent: "seachat-intro"
 aliases:
-   - /zh/seachat/04-test-improve-knowledge/
+  - /en/seachat/04-improve-agent/
 weight: 60
 toc: true
 ---
