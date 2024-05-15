@@ -48,11 +48,11 @@ If a customer requests a live agent during the chat conversation, the human agen
 
 That's it. You have now set up a Live Agent Transfer function for your SeaChat AI Agent. You can have a live agent take over the conversation to further assist your customer. Once the live agent has completed the request that the customer has, the live agent must click on the **Complete** button to give the conversation back to the AI agent.
 
-<br/>
+<center>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
 </a>
-<br/>
+</center>
 <br/>
 
 
@@ -85,9 +85,27 @@ The chat conversation will let your customer know how many live agents are curre
 
 Once you have integrated the LINE channel, your customer will see the **Live Agent** button at the bottom of the LINE chat. The customer can click on the **Live Agent** button to request a live agent during the chat conversation.
 
-<br/>
+<center>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
 </a>
+</center>
 <br/>
+
+## :dart: Troubleshooting
+
+### Remove Live Agent Feature
+If you wish to deactivate the live agent feature, simply uncheck the box that says ***Users can request a live agent during chat*** in the **Basic Settings** in your **Agent Information**. This will disable the live agent feature and your customers will no longer be able to request a live agent during the chat conversation, nor will they see the **Live Agent** button.
+
+<center>
+<a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
+</a>
+</center>
+<br/>
+
+> :pushpin: Note
+>
+> Live agent, if available, will still be able to monitor and take over conversations in **Conversations**. Unchecking the box only removes the option for customers to request a live agent.
+
 
