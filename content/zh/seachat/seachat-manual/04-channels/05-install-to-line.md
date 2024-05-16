@@ -44,6 +44,7 @@ toc: true
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將line回應設定選擇手動聊天加自動回應.png" target="_blank">
 <img height="60%" width="100%" src="/images/seachat-channels/line/將line回應設定選擇手動聊天加自動回應.png" alt="將LINE回應設定選擇手動聊天加自動回應">
 </a>
+
 *將LINE回應設定選擇手動聊天加自動回應*
 </center>
 <br/>
@@ -55,6 +56,7 @@ toc: true
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將LINE自動回應改為關鍵字回應.png" target="_blank">
 <img height="60%" width="100%" src="/images/seachat-channels/line/將LINE自動回應改為關鍵字回應.png" alt="將LINE的自動回應改為關鍵字回應">
 </a>
+
 *將LINE的自動回應改為關鍵字回應*
 </center>
 <br/>
@@ -67,6 +69,7 @@ toc: true
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/新增關鍵字於關鍵字回應內.png" target="_blank">
 <img height="60%" width="100%" src="/images/seachat-channels/line/新增關鍵字於關鍵字回應內.png" alt="新增關鍵字於關鍵字回應內">
 </a>
+
 *新增關鍵字於關鍵字回應內*
 </center>
 <br/>
@@ -78,6 +81,7 @@ toc: true
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/seachat-知識庫.png" target="_blank">
 <img height="60%" width="100%" src="/images/seachat-channels/line/seachat-知識庫.png" alt="新增知識到SeaChat知識庫內">
 </a>
+
 *新增知識到SeaChat知識庫內*
 </center>
 <br/>
@@ -89,6 +93,7 @@ toc: true
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" target="_blank">
 <img height="60%" width="100%" src="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" alt="將關鍵字應答輸入到SeaChat知識庫">
 </a>
+
 *將關鍵字應答輸入到SeaChat知識庫*
 </center>
 <br/>
