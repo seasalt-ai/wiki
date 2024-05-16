@@ -1,6 +1,6 @@
 ---
 title: "Webpage"
-description: "Learn how to seamlessly integrate SeaChat into your webpage and LINE messaging platform. Our comprehensive guide walks you through the installation process step-by-step, ensuring you can harness the power of SeaChat across multiple platforms. Enhance your online presence and streamline communication with this versatile solution. Watch our tutorial now!"
+description: "Integrate SeaChat into your webpage so your customers can chat with your AI customer service chatbot anytime. Enhance your online presence and streamline communication."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
@@ -17,7 +17,7 @@ toc: true
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-## Customize Your Own Enterprise Webpage Widget
+## Customize Your Own Company Webpage Widget
 
 Webpage widget is a powerful tool that allows you to integrate SeaChat into your website. This feature enables you to provide real-time customer support and engage with your website visitors. The widget can be customized to match your brand identity and website design. You can also create forms to collect visitor information and feedback.
 
@@ -25,7 +25,7 @@ Webpage widget is a powerful tool that allows you to integrate SeaChat into your
 SeaChat widgets come with a range of customization options to help you create a seamless customer experience. You can adjust the widget's appearance, behavior to suit your needs.
 
 ### Basic Settings and Chat Setting
-Here, you can define the widget's name, description, and choose the language in **Basic Setting**. Scroll down to see the **Chat Setting**. Here you can define the agent's behavior during the chat. 
+Here, you can define the widget's name, description, and choose the widget UI language in **Basic Setting**. Scroll down to see the **Chat Setting**. Here you can define the agent's behavior during the chat. 
 
 <br/>
 <center>

@@ -1,6 +1,6 @@
 ---
 title: "Agent Memory"
-description: "Memory tutorial"
+description: "SeaChat Memory can be used to qualify and track customer profiles. Memory allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-04-26T08:48:45+00:00
