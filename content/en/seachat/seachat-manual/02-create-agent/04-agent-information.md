@@ -35,8 +35,8 @@ The use case of your AI agent. This will help you to categorize your AI agent. S
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/seachat/en/memory/example-conversation.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-conversation.png" alt="image that display the use case options available in SeaChat">
+    <a href="/images/seachat/en/agent-information/use-case-examples.png" target="_blank">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/use-case-examples.png" alt="image that display the use case options available in SeaChat">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Choose a use case for your AI agent</p>
@@ -47,8 +47,8 @@ A brief description of your AI agent that details your agent's behavior and its 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/seachat/en/memory/example-conversation.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-conversation.png" alt="image showcasing how to write an agent description">
+    <a href="/images/seachat/en/agent-information/description-preview.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/description-preview.png" alt="image showcasing how to write an agent description">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Agent Description</p>
