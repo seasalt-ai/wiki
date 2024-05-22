@@ -2,14 +2,11 @@
 title: "如何創建AI助理"
 description: "探索如何在SeaChat平台上快速創建您自己的AI助理。本指南提供簡單的步驟，包括如何選擇AI助理名稱、描述和服務類型，並配置客戶支持選項，包括是否允許轉接至真人客服。此外，您將找到一個嵌入的YouTube視頻教程，詳細說明從創建到部署AI助理的全過程，使您能夠迅速部署高效的AI客服，提升客戶互動體驗。"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-05-21T08:48:57+00:00
 draft: false
 images: []
-menu:
-  seachat:
-      parent: "seachat-intro"
 aliases:
-   - /zh/seachat/seachaat-manual/02-create-agent/01-create-new-agent/
+   - /zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/
 weight: 20
 toc: true
 ---

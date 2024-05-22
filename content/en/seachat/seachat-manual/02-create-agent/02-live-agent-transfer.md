@@ -3,14 +3,13 @@ title: "Live Agent"
 description: "Learn how to seamlessly transfer to a live agent during chat conversations with SeaChat. Our tutorial guides you through the setup process, enabling the live agent feature in your SeaChat account. Discover how to initiate live agent transfers, manage conversations, and ensure smooth customer support experiences. Explore the steps for requesting live agents on different channels like WebChat and LINE. Enhance your customer service capabilities and elevate your business interactions with SeaChat's live agent functionality."
 lead: ""
 date: 2020-10-06T08:48:45+00:00
-lastmod: 2020-10-06T08:48:45+00:00
+lastmod: 2024-05-21T08:48:45+00:00
 weight: 70
 draft: false
 images: []
 toc: true
 aliases:
-  - /en/seachat/seachaat-manual/02-create-agent/02-live-agent-transfer
-  - /seachat/seachat-manual/06-live-agent-transfer/
+  - /en/seachat/seachat-manual/02-create-agent/02-live-agent-transfer
 ---
 A live agent is a human agent who can take over the conversation from the AI agent when needed. Not only can live agents take over the conversation, but they can also provide the virtual agent with new knowledge, and help train the virtual agent by testing and fine-tuning the response of the AI agent.
 

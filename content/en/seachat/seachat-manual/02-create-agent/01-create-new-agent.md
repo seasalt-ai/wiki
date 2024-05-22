@@ -5,9 +5,6 @@ date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-05-16T08:48:57+00:00
 draft: false
 images: []
-menu:
-  seachat:
-    parent: "seachat-manual"
 aliases:
    - /en/seachat/seachaat-manual/02-create-agent/01-create-new-agent/
 weight: 10
