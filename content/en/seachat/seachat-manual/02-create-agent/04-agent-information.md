@@ -1,6 +1,6 @@
 ---
 title: "Agent Information"
-description: "Explore SeaChat's AI agent information. Set up basic parameters such as name, use case, description, and response language, and learn about advanced features like Agent Memory and Retrieval Augmented Generation (RAG)."
+description: "Explore SeaChat's AI agent information section to set up your AI agent. Agent name, use case, description, and response language, and learn about advanced features like Agent Memory and Retrieval Augmented Generation (RAG)."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-19T08:48:45+00:00
