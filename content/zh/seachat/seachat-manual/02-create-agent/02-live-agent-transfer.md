@@ -4,7 +4,7 @@ description: "學習如何在與 SeaChat 的聊天對話中無縫轉接至真人
 lead: ""
 date: 2024-05-08T08:48:45+00:00
 lastmod: 202-05-08T08:48:45+00:00
-weight: 70
+weight: 90
 draft: false
 images: []
 aliases:
