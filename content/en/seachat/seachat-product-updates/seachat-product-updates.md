@@ -15,6 +15,18 @@ weight: 101
 toc: true
 ---
 
+### 05/18/2024
+##### **<font color="#739963">New Features</font>** 
+- Added mail language settings to make email notifications more readable (now you can receive chat email notifications from `seaChat@seasalt.ai`).
+- Introduced RAG (Retrieval-Augmented Generation) with new query modes, retrieval methods, and retrieval counts to enhance data retrieval and AI assistant response accuracy.
+- Added automatic clearing of Memory information when a user clears a conversation.
+
+##### **<font color="#739963">New Features</font>** 
+- Fixed issues with uploading CSV and Excel files, addressing upload failures and blank screen problems.
+- Repaired missing Knowledge Base data and related answers.
+- Fixed issues with reply messages containing broken links.
+- Corrected strings and updated the use-case library.
+
 ### 05/02/2024
 ##### **<font color="#739963">New Features</font>** 
 - Upload Table Optimization: On the upload table page, users can now choose whether to upload each row in a table file as an individual Knowledge Base document or as a single file.
@@ -22,7 +34,7 @@ toc: true
 - Database Enhancement: Restructured Knowledge Base data for optimized data retrieval and interpretation.
 - Interface Optimization for Shopify and Squarespace Channels: Enhanced user interface for more streamlined operations for these integrations.
 
-##### **<font color="#d66a60">Bugfix</font>**
+c
 - Automatically fill out bot description for the Survey use case.
 - Fixed Live Agent Transfer Behavior in the Survey use case.
 
