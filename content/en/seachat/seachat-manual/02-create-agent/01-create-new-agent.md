@@ -12,7 +12,7 @@ toc: true
 ---
 ## Creating a New AI Agent 
 
-If this is your first time using SeaChat, you will need to create a new agent. After creating your workspace or being invited to one, SeaChat will take you to the agent creation page.  
+If this is your first time using SeaChat, you will need to create a new agent. After creating your workspace or being invited to one, SeaChat will take you to the agent creation page. There are a lot of things to consider when creating an agent, and we suggest you to read more on [Agent Information](/en/seachat/seachaat-manual/02-create-agent/04-agent-information) to understand the basic settings of your AI agent.
 
 Sometimes you might want to create a new agent for different use cases, languages, or different agent description. SeaChat allows users to create an agent from scratch or to apply predefined use cases. Now, let's see how we can create a new agent using the two different methods.
 
@@ -62,7 +62,7 @@ We will look into the difference in these two methods below:
 
 ## Custom AI Agent: Creating from Scratch
 
-If you wish to configure your agent to your existing prompt description or a brand-new definition, you might want to create it from scratch, since it offers you the full control to customize your agent description. For users who already have instructions in place, this is the best way to go.
+If you wish to configure your agent to your existing prompt description or a brand-new definition, you might want to create it from scratch, since it offers you the full control to customize your prompt. For users who already have instructions in place, this is the best way to go.
 
 Choose a use case for your agent, and simply input the description that defines your agent's behavior. Once you are done with the setup, click on **Create** to finish the process.
 
