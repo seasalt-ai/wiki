@@ -1,6 +1,6 @@
 ---
 title: "Agent Information"
-description: "探索SeaChat的AI助理資訊。設置名稱、使用案例、描述和回覆語言等基本參數，並了解進階設置中的Agent Memory和Retrieval Augmented Generation（RAG）等功能。"
+description: "Explore SeaChat's AI agent information. Set up basic parameters such as name, use case, description, and response language, and learn about advanced features like Agent Memory and Retrieval Augmented Generation (RAG)."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-19T08:48:45+00:00
