@@ -17,7 +17,7 @@ toc: true
 此頁教學將詳細說明嵌入整合SeaChat AI助理到您Wix網站的過程。
 
 ## 步驟1：創建一個SeaChat帳戶
-如果您還沒有SeaChat帳戶， 您可以在 [SeaChat網站](https://chat.seasalt.ai/)免費註冊！ 然後您可以將構建好的AI助理，移至您的Squarespace網站上。
+如果您還沒有SeaChat帳戶， 您可以在 [SeaChat網站](https://chat.seasalt.ai/)免費註冊！ 然後您可以將構建好的AI助理，移至您的Wix網站上。
 
 
 ## 步驟2：開啟Wix
