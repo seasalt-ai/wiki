@@ -15,6 +15,15 @@ weight: 101
 toc: true
 ---
 
+
+### 05/24/2024
+##### **<font color="#739963">New Features and Performance Improvements</font>** 
+- Database Update: Improved file naming in the database for better visibility of documents.
+- Automatic Overwrite: When uploading files with duplicate names, you have the option to overwrite the existing files for updates.
+- Optimized Database Switching: Enhanced the fluidity of switching databases.
+- Customer Service Access: We have added a customer service portal on the left side of our service interface. If you have any questions, you can contact us anytime. Providing the best experience is our greatest motivation.
+- Email Template Modification: For SeaChat emails, we've modified the email templates to simplify how you view your emails.
+
 ### 05/18/2024
 ##### **<font color="#739963">New Features</font>** 
 - Added mail language settings to make email notifications more readable (now you can receive chat email notifications from `seaChat@seasalt.ai`).
