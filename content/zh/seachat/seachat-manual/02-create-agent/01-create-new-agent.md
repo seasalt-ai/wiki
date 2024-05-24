@@ -21,7 +21,7 @@ toc: true
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/create-a-new-agent/create-new-agent-shortcut.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/create-new-agent-shortcut.png" alt="">
 </a>
@@ -57,9 +57,9 @@ toc: true
 
 ### 名稱和回覆語言
 
-為您的助理選擇一個名稱。您可以選擇一個描述助理負責的任務的名稱。例如，我有一個叫做客服助理的助理，這應該能立即告訴您它的作用。
+為您的助理選擇一個名稱。您可以選擇一個描述助理負責的任務的名稱。例如，我有一個叫做客服助理的助理。
 
-在**預設回覆語言**中，選擇助理將用來回答客戶的語言。在本教學中，我選擇了繁體中文。
+在**預設回覆語言**中，選擇助理將用來回答客戶的語言。在本教學中，我選擇了繁體中文。如果你希望助理能用多國語言回答，請使用「以用戶輸入的語言回答」。
 
 ### 真人客服
 最後，您可以通過勾選**用戶可以在聊天期間要求與客服人員對話**來啟用[真人客服](/zh/seachat/seachaat-manual/02-create-agent/02-live-agent-transfer)功能。
