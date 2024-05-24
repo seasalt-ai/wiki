@@ -24,7 +24,7 @@ toc: true
 登入後，在左側選單中找到並點擊「方案與帳務」頁面。
 
  <center>
-    <img src="/images/seameet-zh/方案與帳務.png" alt="SeaMeet方案與帳務"/>
+    <img src="/images/seameet-zh/17-seameet-subscription/方案與帳務.png" alt="SeaMeet方案與帳務"/>
 </center>
 
 ## 3. **編輯方案**
@@ -32,7 +32,7 @@ toc: true
 進入「方案」頁後，點擊「編輯方案」按鈕以查看可用的訂閱方案。
 
   <center>
-    <img src="/images/seameet-zh/編輯方案.png" alt="SeaMeet編輯方案.png"/>
+    <img src="/images/seameet-zh/17-seameet-subscription/編輯方案.png" alt="SeaMeet編輯方案.png"/>
     </center>
 
 
@@ -45,5 +45,5 @@ toc: true
 確認所選方案無誤後，點擊「確認訂閱」，然後按照指示完成付款流程。
 
   <center>
-    <img src="/images/seameet-zh/SeaMeet付款方式.png" alt="SeaMeet付款方式.png"/>
+    <img src="/images/seameet-zh/17-seameet-subscription/付款方式.png" alt="SeaMeet付款方式.png"/>
     </center>
