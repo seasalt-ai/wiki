@@ -3,13 +3,13 @@ title: "Agent Memory"
 description: "SeaChat Memory can be used to qualify and track customer profiles. Memory allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
-lastmod: 2024-04-26T08:48:45+00:00
+lastmod: 2024-05-21T08:48:45+00:00
 weight: 80
 draft: false
 images: []
 toc: true
 aliases:
-   - /en/seachat/seachaat-manual/02-create-agent/03-agent-memory
+   - /en/seachat/seachat-manual/02-create-agent/03-agent-memory
 ---
 
 # Overview
