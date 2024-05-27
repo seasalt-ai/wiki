@@ -1,13 +1,13 @@
 ---
 title: "如何訂閱方案"
-description: ""
+description: "了解如何訂閱 SeaMeet 方案。按照我們的逐步指南註冊、登入、選擇最佳訂閱方案並完成付款流程，輕鬆開始使用 SeaMeet。"
 date: 2024-05-22T08:48:57+00:00
 lastmod: 2024-05-22T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-    parent: "17-seameet-subscription-how-to"
+    parent: "seameet-manual"
 aliases:
   - /zh/seameet/17-seameet-subscription-how-to/
 weight: 117
