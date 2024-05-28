@@ -1,10 +1,10 @@
 ---
-title: "Advanced Settings"
+title: "Advanced Settings in Agent Information"
 description: "Discover SeaChat's advanced settings, including Agent Memory and Retrieval Augmented Generation (RAG). Learn how to optimize your AI agent's performance and real-time user engagement."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
-lastmod: 2024-05-19T08:48:45+00:00
-weight: 100
+lastmod: 2024-05-26T08:48:45+00:00
+weight: 20
 draft: false
 images: []
 toc: true
