@@ -12,13 +12,11 @@ aliases:
    - /zh/seachat/seachat-manual/02-create-agent/03-agent-memory
 ---
 
-# 簡介
-
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Msgg3U3lW4M&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-大型語言模型基於 LSTM - 長短期記憶體架構。然而，LSTM 僅用於語言模型本身內部，例如共參照解析。實際上，我們需要一種機制來記住對話或用戶的某些屬性。我們需要一個「持久的」記憶，以便每當對話重新開始時，LLM 仍然記得其先前的狀態。
+大型語言模型是基於LSTM（長短期記憶體架構）。但LSTM只在語言模型內部使用，不能實時紀錄現在對話的資訊。所以，我們需要一種方法來記住對話或用戶的某些特徵，我們稱之為「持久的記憶」，這樣每次對話重新開始時，大型語言模型仍能記住之前的狀態。例如，當客戶說明他吃素食，我們可以透過「記憶」在每次對談中讓大型語言模型記得客戶這項特質，藉以提供更好的回答。
 
-記憶允許用戶直觀地定義對話中最重要的部分，以保持對話的相關性，並有助於客觀地確定對話結果。
+「記憶」允許你定義對話中最重要的部分，並儲存標註在客戶檔案，提供之後查詢和再利用。
 
 記憶的使用案例包括：
 * 建立用戶形象，以便下次相同用戶回來時，AI 助理仍記得上次對話的要點。例如：`{married: yes, family: 2 kids, hobby: golf}`。
