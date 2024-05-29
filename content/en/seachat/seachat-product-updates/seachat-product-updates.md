@@ -43,7 +43,7 @@ toc: true
 - Database Enhancement: Restructured Knowledge Base data for optimized data retrieval and interpretation.
 - Interface Optimization for Shopify and Squarespace Channels: Enhanced user interface for more streamlined operations for these integrations.
 
-c
+
 - Automatically fill out bot description for the Survey use case.
 - Fixed Live Agent Transfer Behavior in the Survey use case.
 

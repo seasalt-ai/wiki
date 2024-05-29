@@ -59,6 +59,8 @@ The use case comes with a basic prompt. Description is where you can customize t
 ### Response Language
 The language the AI agent will use to respond to the user. If you want the AI agent to be multilingual and respond based on customer query language, you can choose, you can choose **Always match user input language**. 
 
+By choosing a response language, you can help frame the conversation and ensure that the AI agent responds in the correct language. This is especially useful when you have a multilingual audience. Take English language as an example, standard US English and UK English nuance in many ways. By setting the response language to US English, the AI agent will optimize the response to match the US English.
+
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/agent-information/response-language.png" target="_blank">
