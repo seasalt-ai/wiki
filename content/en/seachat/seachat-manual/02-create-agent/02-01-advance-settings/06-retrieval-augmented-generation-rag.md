@@ -16,23 +16,7 @@ aliases:
 Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhancing data retrieval and augmenting the accuracy of interactions with the AI agent. By providing you with the ability to tailor query patterns, select search methods, and define knowledge base retrieval counts.
 
 
-
-
-[//]: # (<div style="display: flex; flex-direction: column; align-items: center;">)
-
-[//]: # (<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">)
-
-[//]: # (    <a href="/images/seachat/en/advanced-settings/advanced-settings-dashboard.png" target="_blank">)
-
-[//]: # (    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/advanced-settings-dashboard.png" alt="image that displays the additional options in Basic Settings">)
-
-[//]: # (    </a>)
-
-[//]: # (</div>)
-
-[//]: # (    <p style="margin-top: 20px; font-size: 15px">Advanced Settings Dashboard</p>)
-
-[//]: # (</div>)
+---
 
 ### Query Pattern
 Whether you require comprehensive context, focused engagement, or quick, precise responses, SeaChat's flexible query patterns for querying the knowledge base ensure an optimized chat experience tailored to your preferences.
@@ -60,22 +44,6 @@ Focuses more heavily on the user’s requests and is not influenced by the AI ag
 ### Current Query
 Provides a succinct approach, considering only the user's latest input, i.e.Query 2, for the AI agent's next response. This is ideal for one-turn dialogues or cases where users frequently switch topics. However, it may miss important context when discussing the same topic over multiple turns.
 
-[//]: # (<div style="display: flex; flex-direction: column; align-items: center;">)
-
-[//]: # (<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">)
-
-[//]: # (    <a href="/images/seachat/en/advanced-settings/rag-input-fields.png" target="_blank">)
-
-[//]: # (    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/rag-input-fields.png" alt="image of the Retrieval Augmented Generation &#40;RAG&#41; feature in SeaChat">)
-
-[//]: # (    </a>)
-
-[//]: # (</div>)
-
-[//]: # (    <p style="margin-top: 20px; font-size: 15px">Retrieval Augmented Generation &#40;RAG&#41;</p></p>)
-
-[//]: # (</div>)
-
 ## Search Method
 
 You can optimize knowledge base search by choosing from distinct knowledge base search methods:
@@ -95,15 +63,15 @@ Integrates both Keyword and Vector Search methods to optimize information retrie
 This field allows you to specify the number of KB chunks to retrieve, ensuring efficient information retrieval. The ideal count is flexible and depends on the token limits and document types.
 
 Considerations for Setting the Count:
-- **Too Few Chunks**:
+- **Too Few Chunks**
 
 You may miss essential information, leading to incomplete or inaccurate responses from GPT.
 
-- **Too Many Chunks**:
+- **Too Many Chunks**
 
 Important information may get buried under irrelevant details, making it harder for GPT to provide accurate responses.
 
-- **Context Limit**:
+- **Context Limit**
 
 There is a limit to the amount of context that can be provided with each request. If the retrieved documents exceed this limit, SeaChat will use as many documents as can fit within the limit.
 
