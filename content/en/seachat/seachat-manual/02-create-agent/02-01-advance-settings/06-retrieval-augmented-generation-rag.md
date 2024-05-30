@@ -15,10 +15,18 @@ aliases:
 ## Overview
 Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhancing data retrieval and augmenting the accuracy of interactions with the AI agent. By providing you with the ability to tailor query patterns, select search methods, and define knowledge base retrieval counts.
 
-
 ---
 
-### Query Pattern
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-rag-ui" href="/images/seachat/en/agent-advanced-settings/rag-dashboard.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-advanced-settings/rag-dashboard.png" alt="image of the Retrieval Augmented Generation (RAG) feature in SeaChat">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">RAG Settings in SeaChat</p></p>
+</div>
+
+## [1. Query Pattern](#seachat-rag-ui)
 Whether you require comprehensive context, focused engagement, or quick, precise responses, SeaChat's flexible query patterns for querying the knowledge base ensure an optimized chat experience tailored to your preferences.
 
 Example conversation between a customer and a parking lot FAQ AI agent with information of more than hundreds of parking lots in the knowledge base:
@@ -33,7 +41,7 @@ Example conversation between a customer and a parking lot FAQ AI agent with info
 
 ---
 
-## Query Pattern Options
+#### Query Pattern Options
 
 ### Previous Query &#8594; Bot Response &#8594; Current Query
 Offers comprehensive context by incorporating the last three turns of the conversation. In this case, the complete conversation (Query 1 + Bot Response + Query 2) is used to query the knowledge base and to generate the AI agent's next response for Query 2 .
@@ -44,7 +52,7 @@ Focuses more heavily on the user’s requests and is not influenced by the AI ag
 ### Current Query
 Provides a succinct approach, considering only the user's latest input, i.e.Query 2, for the AI agent's next response. This is ideal for one-turn dialogues or cases where users frequently switch topics. However, it may miss important context when discussing the same topic over multiple turns.
 
-## Search Method
+## [2. Search Method](#seachat-rag-ui)
 
 You can optimize knowledge base search by choosing from distinct knowledge base search methods:
 
@@ -58,7 +66,7 @@ Utilizes the capabilities of text embedding to enhance the retrieval of relevant
 Integrates both Keyword and Vector Search methods to optimize information retrieval. 
 
 
-## Knowledge Base Retrieval Count
+## [3. Knowledge Base Retrieval Count](#seachat-rag-ui)
 
 This field allows you to specify the number of KB chunks to retrieve, ensuring efficient information retrieval. The ideal count is flexible and depends on the token limits and document types.
 
