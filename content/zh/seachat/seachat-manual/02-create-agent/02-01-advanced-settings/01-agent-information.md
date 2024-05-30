@@ -3,13 +3,13 @@ title: "AI助理資訊"
 description: "AI助理資訊是SeaChat助理的核心，包括名稱、描述和進階設置。這篇文章詳細介紹如何配置您的AI助理，以及如何使用進階功能如助理記憶和檢索增強生成(RAG)。如果您想了解更多關於SeaChat中進階功能的資訊，請查看進階設置教學。"
 lead: ""
 date: 2024-04-26T08:48:45+00:00
-lastmod: 2024-05-20T08:48:45+00:00
+lastmod: 2024-05-29T08:48:45+00:00
 weight: 70
 draft: false
 images: []
 toc: true
 aliases:
-  - /zh/seachat/seachaat-manual/02-create-agent/04-agent-information/
+  - /zh/seachat/seachaat-manual/02-create-agent/01-agent-information/
 ---
 
 # 簡介
