@@ -9,7 +9,7 @@ draft: false
 images: []
 toc: true
 aliases:
-  - /zh/seachat/seachaat-manual/02-create-agent/01-agent-information/
+  - /zh/seachat/seachaat-manual/02-create-agent/03-advanced-settings/01-agent-information/
 ---
 
 # 簡介

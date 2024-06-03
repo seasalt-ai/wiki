@@ -33,11 +33,11 @@ Example conversation between a customer and a parking lot FAQ AI agent with info
 
 ---
 
-👨 (Query 1): Is there a parking lot near the Seattle Space Needle?
+👨 (Query 1 &#8594; Previous Query): Is there a parking lot near the Seattle Space Needle?
 
-🤖️ (Response): Yes, you can park at the ABC Parking Lot on 123rd Ave NE. It has 50 parking spots. The parking fee starts at $10 per hour, with a daily maximum of $60.
+🤖️ (Response &#8594; Bot Response): Yes, you can park at the ABC Parking Lot on 123rd Ave NE. It has 50 parking spots. The parking fee starts at $10 per hour, with a daily maximum of $60.
 
-👨 (Query 2): I will be working near there. Can I rent a parking spot monthly?
+👨 (Query 2 &#8594; Current Query): I will be working near there. Can I rent a parking spot monthly?
 
 ---
 
