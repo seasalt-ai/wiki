@@ -9,7 +9,7 @@ draft: false
 images: []
 toc: true
 aliases:
-   - /en/seachat/seachat-manual/02-create-agent/02-01-advanced-settings/03-agent-memory
+   - /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory
 ---
 
 # Overview
