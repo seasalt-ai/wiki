@@ -33,24 +33,24 @@ Example conversation between a customer and a parking lot FAQ AI agent with info
 
 ---
 
-👨 (Query 1 &#8594; Previous Query): Is there a parking lot near the Seattle Space Needle?
+👨 (Previous Query): Is there a parking lot near the Seattle Space Needle?
 
-🤖️ (Response &#8594; Bot Response): Yes, you can park at the ABC Parking Lot on 123rd Ave NE. It has 50 parking spots. The parking fee starts at $10 per hour, with a daily maximum of $60.
+🤖️ (Bot Response): Yes, you can park at the ABC Parking Lot on 123rd Ave NE. It has 50 parking spots. The parking fee starts at $10 per hour, with a daily maximum of $60.
 
-👨 (Query 2 &#8594; Current Query): I will be working near there. Can I rent a parking spot monthly?
+👨 (Current Query): I will be working near there. Can I rent a parking spot monthly?
 
 ---
 
 #### Query Pattern Options
 
 ### Previous Query &#8594; Bot Response &#8594; Current Query
-Offers comprehensive context by incorporating the last three turns of the conversation. In this case, the complete conversation (Query 1 + Bot Response + Query 2) is used to query the knowledge base and to generate the AI agent's next response for Query 2 .
+Offers comprehensive context by incorporating the last three turns of the conversation. In this case, the complete conversation (Previous Query + Bot Response + Current Query) is used to query the knowledge base and to generate the AI agent's next response for Current Query .
 
 ### Previous Query &#8594; Current Query
-Focuses more heavily on the user’s requests and is not influenced by the AI agent’s response. It includes the last two user inputs (Query 1 and Query 2) to query the knowledge base and to generate the AI agent's next response.
+Focuses more heavily on the user’s requests and is not influenced by the AI agent’s response. It includes the last two user inputs (Previous Query and Current Query) to query the knowledge base and to generate the AI agent's next response.
 
 ### Current Query
-Provides a succinct approach, considering only the user's latest input, i.e.Query 2, for the AI agent's next response. This is ideal for one-turn dialogues or cases where users frequently switch topics. However, it may miss important context when discussing the same topic over multiple turns.
+Provides a succinct approach, considering only the user's latest input, i.e.Current Query, for the AI agent's next response. This is ideal for one-turn dialogues or cases where users frequently switch topics. However, it may miss important context when discussing the same topic over multiple turns.
 
 ## [2. Search Method](#seachat-rag-ui)
 
