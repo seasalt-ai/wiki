@@ -26,7 +26,7 @@ toc: true
 
 ### 05/18/2024
 ##### **<font color="#739963">New Features</font>** 
-- Added mail language settings to make email notifications more readable (now you can receive chat email notifications from `seaChat@seasalt.ai`).
+- Added mail language settings to make email notifications more readable (now you can receive chat email notifications from `seachat@seasalt.ai`).
 - Introduced RAG (Retrieval-Augmented Generation) with new query modes, retrieval methods, and retrieval counts to enhance data retrieval and AI assistant response accuracy.
 - Added automatic clearing of Memory information when a user clears a conversation.
 
@@ -42,8 +42,6 @@ toc: true
 - Added Wix Channel: You can now deploy your Agent on Wix.
 - Database Enhancement: Restructured Knowledge Base data for optimized data retrieval and interpretation.
 - Interface Optimization for Shopify and Squarespace Channels: Enhanced user interface for more streamlined operations for these integrations.
-
-c
 - Automatically fill out bot description for the Survey use case.
 - Fixed Live Agent Transfer Behavior in the Survey use case.
 
