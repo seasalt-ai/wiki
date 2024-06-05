@@ -1,73 +1,96 @@
 ---
-title: "自動加入會議"
+title: "Auto Join Meetings"
 description: ""
 date: 2024-04-18T08:48:57+00:00
-lastmod: 2024-04-18T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "16-seameet-also-join"
+      parent: "seameet-manual"
 aliases:
-   - /zh/seameet/16-seameet-also-join/
+  - /en/seameet/16-seameet-auto-join/
 weight: 116
 toc: true
 ---
 
-讓SeaMeet自動加入您的會議，不再需要手動輸入會議ID和手動開始新會議紀錄。您可以在SeaMeet設定中啟用自動加入功能，並在會議開始時自動加入。
+Let SeaMeet automatically join your meetings without the need to manually enter the meeting ID and start a new meeting record. You can enable the auto-join feature in SeaMeet settings, and it will automatically join at the start of the meeting.
 
-## 同步綁定 Google 行事曆
-1. 到SeaMeet設定頁面，點選 **第三方整合**，並選擇您要連結的Google帳號<sup>[1](#seameet-第三方整合)</sup>。
-
-<br/>
-<center>
-<a name="seameet-第三方整合" href="/images/seameet-zh/16-seameet-auto-join/seameet-第三方整合.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/16-seameet-auto-join/seameet-第三方整合.png" alt="Seameet第三方整合"/>
-</a>
-
-*1. SeaMeet介面 – 第三方整合*
-</center>
-
-2. 到**會議設定**頁面，點選 **自動加入**，啟用自動加入會議，並選擇**我的行事曆中所有會議**<sup>[2](#seameet-選擇我的行事曆中所有會議)</sup>。
-
+## Sync with Google Calendar
+1. Go to the SeaMeet settings page, click **Integration**, and connect SeaMeet to the Google account you want.
 
 <br/>
+
 <center>
-<a name="seameet-選擇我的行事曆中所有會議" href="/images/seameet-zh/16-seameet-auto-join/seameet-選擇我的行事曆中所有會議.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/16-seameet-auto-join/seameet-選擇我的行事曆中所有會議.png" alt="Seameet選擇我的行事曆中所有會議"/>
+
+<a name="seameet-third-party-integration" href="/images/seameet-en/16-seameet-auto-join/seameet-third-party-integration.png" target="_blank">
+
+<img style="width: 80%" src="/images/seameet-en/16-seameet-auto-join/seameet-third-party-integration.png" alt="Seameet Third-Party Integration"/>
+
 </a>
 
-*2. SeaMeet介面 – 選擇我的行事曆中所有會議*
+
+*1. SeaMeet Interface – Integration*
+
 </center>
 
-## Google 行事曆設定
-
-請在Google行事曆預約新會議時，記得點選新增視訊會議，這樣才有視訊會議連結，SeaMeet 才能正確地將會議新增至列表。沒有視訊會議連結的會議，SeaMeet不會自動加入會議唷。
-
-在完成上述程序後，您的Google行事曆將會自動新增到SeaMeet的會議列表中，並在會議開始時自動加入。
+2. Go to the **Meeting Preference** page, click **Auto-join Meetings**, enable auto join meetings, and select **All Meetings in My Calendar**.
 
 <br/>
+
 <center>
-<a name="seameet-選擇我的行事曆中所有會議" href="/images/seameet-zh/16-seameet-auto-join/google-行事曆設定.png" target="_blank">
-<img src="/images/seameet-zh/16-seameet-auto-join/google-行事曆設定.png" alt="google行事曆設定"/>
+
+<a name="seameet-select-all-meetings-in-my-calendar" href="/images/seameet-en/16-seameet-auto-join/seameet-select-all-meetings-in-my-calendar.png" target="_blank">
+
+<img style="width: 80%" src="/images/seameet-en/16-seameet-auto-join/seameet-select-all-meetings-in-my-calendar.png" alt="Seameet Select All Meetings in My Calendar"/>
+
 </a>
 
-*新增視訊會議*
+
+*2. SeaMeet Interface – Select All Meetings in My Calendar*
+
 </center>
 
+## Google Calendar Settings
 
-## 查看預定會議列表
+When scheduling a new meeting in Google Calendar, make sure to click add a video meeting, so that there is a video meeting link, and SeaMeet can correctly add the meeting to the list. Meetings without video meeting links will not be automatically joined by SeaMeet.
 
-啟用自動加入會議功能後，您可以在會議列表中找到新增的會議。當會議開始時，SeaMeet會自動加入會議，並開始紀錄。
+After completing the above steps, your Google Calendar will automatically be added to the SeaMeet meeting list, and it will automatically join at the start of the meeting.
+
+[//]: # (<br/>)
+
+[//]: # (<center>)
+
+[//]: # (<a name="seameet-select-all-meetings-in-my-calendar" href="/images/seameet-en/16-seameet-auto-join/google-calendar-settings.png" target="_blank">)
+
+[//]: # (<img src="/images/seameet-en/16-seameet-auto-join/google-calendar-settings.png" alt="Google Calendar Settings"/>)
+
+[//]: # (</a>)
+
+[//]: # ()
+[//]: # (*Add Video Meeting*)
+
+[//]: # (</center>)
+
+## View Scheduled Meetings List
+
+After enabling the auto-join meetings feature, you can find the added meetings in the meetings list. When the meeting starts, SeaMeet will automatically join and start recording.
 
 <br/>
+
 <center>
-<a name="seameet-選擇我的行事曆中所有會議" href="/images/seameet-zh/16-seameet-auto-join/seameet-自動加入新會議.png" target="_blank">
-<img src="/images/seameet-zh/16-seameet-auto-join/seameet-自動加入新會議.png" alt="seameet自動加入新會議"/>
+
+<a name="seameet-select-all-meetings-in-my-calendar" href="/images/seameet-en/16-seameet-auto-join/seameet-auto-join-new-meeting.png" target="_blank">
+
+<img src="/images/seameet-en/16-seameet-auto-join/seameet-auto-join-new-meeting.png" alt="Seameet Auto Join New Meeting"/>
+
 </a>
 
-*在會議列表查看所有預定會議*
+
+*View All Scheduled Meetings in the Meetings List*
+
 </center>
 
-## 需要幫忙嗎？
-需要幫忙？歡迎聯絡我們 [seameet@seasalt.ai](mailto:seameet@seasalt.ai).
+## Need Help?
+
+Need help? Feel free to contact us at [seameet@seasalt.ai](mailto:seameet@seasalt.ai).
