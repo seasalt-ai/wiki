@@ -2,12 +2,12 @@
 title: "追蹤會議成效"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "14-seameet-advanced-dashboard"
+      parent: "seameet-manual"
 aliases:
    - /zh/seameet/14-seameet-advanced-dashboard/
 weight: 114
