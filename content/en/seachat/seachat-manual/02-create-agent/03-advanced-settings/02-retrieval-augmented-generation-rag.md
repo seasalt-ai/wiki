@@ -13,7 +13,7 @@ aliases:
 ---
 
 ## Overview
-Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhancing data retrieval and augmenting the accuracy of interactions with the AI agent. By providing you with the ability to tailor query patterns, select search methods, and define knowledge base retrieval counts.
+Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhancing data retrieval and augmenting the accuracy of interactions with the AI agent. It provides you with the ability to change settings for Query Pattern, Search Method, and Knowledge Base Retrieval Count. By experimenting with these settings, you can customize how your AI agent interacts with the knowledge base efficiently.
 
 ---
 
@@ -26,10 +26,10 @@ Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhanc
     <p style="margin-top: 20px; font-size: 15px">RAG Settings in SeaChat</p></p>
 </div>
 
-## [1. Query Pattern](#seachat-rag-ui)
+## [Query Pattern](#seachat-rag-ui)
 Whether you require comprehensive context, focused engagement, or quick, precise responses, SeaChat's flexible query patterns for querying the knowledge base ensure an optimized chat experience tailored to your preferences.
 
-Example conversation between a customer and a parking lot FAQ AI agent with information of more than hundreds of parking lots in the knowledge base:
+The following is an example conversation between a customer and a parking lot FAQ AI agent with information of more than hundreds of parking lots in the knowledge base:
 
 ---
 
@@ -41,23 +41,21 @@ Example conversation between a customer and a parking lot FAQ AI agent with info
 
 ---
 
-#### Query Pattern Options
-
 ### Previous Query &#8594; Bot Response &#8594; Current Query
-Offers comprehensive context by incorporating the last three turns of the conversation. In this case, the complete conversation (Previous Query + Bot Response + Current Query) is used to query the knowledge base and to generate the AI agent's next response for Current Query .
+Offers comprehensive context by incorporating the last three turns of the conversation. In this case, the complete conversation (Previous Query + Bot Response + Current Query) is used to query the knowledge base and to generate the AI agent's next response for Current Query.
 
 ### Previous Query &#8594; Current Query
-Focuses more heavily on the user’s requests and is not influenced by the AI agent’s response. It includes the last two user inputs (Previous Query and Current Query) to query the knowledge base and to generate the AI agent's next response.
+Focuses more heavily on the user’s requests and is not influenced by the AI agent’s response. It includes the last two user inputs (Previous User Query and Current User Query) to query the knowledge base and to generate the AI agent's next response.
 
 ### Current Query
-Provides a succinct approach, considering only the user's latest input, i.e.Current Query, for the AI agent's next response. This is ideal for one-turn dialogues or cases where users frequently switch topics. However, it may miss important context when discussing the same topic over multiple turns.
+Provides a succinct approach, considering only the user's latest input, i.e. Current User Query, for the AI agent's next response. This is ideal for one-turn dialogues or cases where users frequently switch topics. However, it may miss important context when discussing the same topic over multiple turns.
 
-## [2. Search Method](#seachat-rag-ui)
+## [Search Method](#seachat-rag-ui)
 
 You can optimize knowledge base search by choosing from distinct knowledge base search methods:
 
 ### Keyword Search
-Matches user’s provided keywords against the knowledge base to deliver relevant results. This works well when you have unique tokens such as product names, locations, IDs, etc. but may miss cases where the user doesn’t say the exact keyword (ex/ they use a synonym or a different language than the KB document).
+Matches user’s provided keywords against the knowledge base to deliver relevant results. This works well when you have unique tokens such as product names, locations, IDs, etc. but may miss cases where the user doesn’t say the exact keyword (for example, they use a synonym or a different language than the KB document).
 
 ### Vector Search
 Utilizes the capabilities of text embedding to enhance the retrieval of relevant information. Vector search can work well across languages and retrieve similar documents even if they don’t have matching keywords. However, it may struggle with rare tokens such as product names, locations, or IDs.
@@ -66,16 +64,17 @@ Utilizes the capabilities of text embedding to enhance the retrieval of relevant
 Integrates both Keyword and Vector Search methods to optimize information retrieval. 
 
 
-## [3. Knowledge Base Retrieval Count](#seachat-rag-ui)
+## [Knowledge Base Retrieval Count](#seachat-rag-ui)
 
-This field allows you to specify the number of KB chunks to retrieve, ensuring efficient information retrieval. The ideal count is flexible and depends on the token limits and document types.
+Changing Knowledge Base Retrieval Count allows you to specify the number of KB documents(chunks) to retrieve, ensuring efficient information retrieval. These retrieved documents will serve as important contexts for AI agent responses at each turn. The ideal count is flexible and depends on the token limits and document types.
 
-Considerations for Setting the Count:
-- **Too Few Chunks**
+### Considerations for setting the count
+
+- **Too Few Documents/Chunks**
 
 You may miss essential information, leading to incomplete or inaccurate responses from GPT.
 
-- **Too Many Chunks**
+- **Too Many Documents/Chunks**
 
 Important information may get buried under irrelevant details, making it harder for GPT to provide accurate responses.
 
