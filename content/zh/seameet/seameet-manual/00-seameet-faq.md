@@ -2,15 +2,15 @@
 title: "FAQ - SeaMeet 常見問題集"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "02-seameet-faq"
+    parent: "seameet-manual"
 aliases:
-   - /zh/seameet/02-seameet-faq/
-weight: 200
+   - /zh/seameet/00-seameet-faq/
+weight: 300
 toc: true
 ---
 
