@@ -1,44 +1,47 @@
 ---
-title: "切換會議語言"
+title: "Switch Meeting Language"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "08-seameet-language-setting"
+    parent: "08-seameet-language-setting"
 aliases:
-   - /zh/seameet/08-seameet-language-setting/
+  - /en/seameet/08-seameet-language-setting/
 weight: 108
 toc: true
 ---
 
-SeaMeet目前支援中文(繁體)、英文，以及自動偵測語言等三種模式，您可以在會議開始前或會議進行中隨時切換會議記錄語言
+SeaMeet currently supports three modes: Traditional Chinese, English, and automatic language detection. You can switch the meeting record language at any time before or during the meeting.
 
+## Switch Default Transcription Language
 
-## 切換預設轉錄語言
+1. Go to the **Account** -> **Preference** page.
+2. Set the default meeting recording language for your account for future invitations to the bot. 
+3. When starting a "Scheduled Meeting" recording, you will see that the default recording language has changed.
 
-1. 點選「個人設定 ─ 會議設定」頁面
-2. 設定您的帳號未來邀請機器人進行會議記錄時，所預設的會議記錄語言
+[//]: # (<center>)
 
-<center>
-<img src="/images/seameet-zh/預設SeaMeet會議記錄語言.png" alt="預設SeaMeet會議記錄語言"/>
-</center>
+[//]: # (<img src="/images/seameet-en/default-seameet-meeting-recording-language.png" alt="Default SeaMeet Meeting Recording Language"/>)
 
-3. 開始「預約會議」的會議記錄時，即可看到預設記錄語言已經改變
+[//]: # (</center>)
+[//]: # (</br>)
+[//]: # (<center>)
 
-<center>
-<img src="/images/seameet-zh/在SeaMeet會議裡查看預設語言.png" alt="在SeaMeet會議裡查看預設語言"/>
-</center>
+[//]: # (<img src="/images/seameet-en/view-default-language-in-seameet-meeting.png" alt="View Default Language in SeaMeet Meeting"/>)
 
+[//]: # (</center>)
 
-## 切換個別會議記錄語言
+## Switch Individual Meeting Recording Language
 
-1. 進入個別會議頁面，並點選「選擇目前的會議語言」
-2. 從選單中選擇另一個預計使用的會議紀錄語言
-3. 選擇後即可以新模型進行記錄
+1. Enter the individual meeting page and click **Current Meeting Language**.
+2. Choose another expected meeting recording language from the menu.
+3. After selecting, the recording will proceed with the new model.
 
-<center>
-<img src="/images/seameet-zh/切換個別SeaMeet會議記錄語言.png" alt="切換個別SeaMeet會議記錄語言"/>
-</center>
+[//]: # (<center>)
+
+[//]: # (<img src="/images/seameet-en/switch-individual-seameet-meeting-recording-language.png" alt="Switch Individual SeaMeet Meeting Recording Language"/>)
+
+[//]: # (</center>)
