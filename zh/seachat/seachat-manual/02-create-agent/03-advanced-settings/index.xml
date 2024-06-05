@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>進階設置 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/</link><description>Recent content in 進階設置 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 27 May 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/index.xml" rel="self" type="application/rss+xml"/><item><title>檢索增強生成 (RAG)</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</link><pubDate>Wed, 29 May 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</guid><description>簡介 # 檢索增強生成 (RAG) 是 SeaChat 中一個進階功能，增強了知識檢索和 AI 助理互動的準確性。通過提供您調整查詢模式、選擇檢索方法和定義知識庫檢索數量的能力，優化了 AI 助理的性能。
+SeaChat 中的 RAG 設置
+檢索查詢模式 # 無論您需要全面的上下文、專注的互動，還是快速、精確的回應，SeaChat 靈活的查詢模式確保了優化的聊天體驗，以滿足您的偏好。
+以下是客戶與停車場 FAQ AI 助理之間的示例對話，知識庫中包含數百個停車場的資料：
+👨 (上一用戶提問)：西雅圖太空針塔附近有停車場嗎？
+🤖️ (AI助理機器人回應)：是的，您可以停在位於 123rd Ave NE 的 ABC 停車場。該停車場有 50 個車位。停車費每小時 $10 起，全天最多 $60。
+👨 (當前用戶提問)：我會在那附近工作，可以每月租一個停車位嗎？
+前一用戶提問 → 機器人回應 → 當前用戶提問 # 通過結合對話的前三輪提供全面的上下文。在這種情況下，完整的對話（上一用戶提問 + 機器人回應 + 當前用戶提問）將用於查詢知識庫並生成機器人對當前用戶提問的下一個回應。
+上一用戶提問 → 當前用戶提問 # 更加關注用戶的請求，不受機器人回應的影響。它包括最近兩個用戶輸入（上一用戶提問 和 當前用戶提問）來查詢知識庫並生成機器人對下一個回應。
+當前用戶提問 # 只考慮用戶的最新提問，即當前用戶提問，用於生成機器人的下一個回應。這對於一次性對話或用戶頻繁切換主題的情況非常理想。然而，在多輪對話中討論相同主題時，它可能會忽略重要的上下文。
+檢索方法 # 您可以通過選擇不同的知識庫檢索方法來優化知識庫檢索：</description></item><item><title>AI助理資訊</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/01-agent-information/</link><pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/01-agent-information/</guid><description>簡介 # 助理資訊是您的 AI 助理的核心。它包含有關您的助理的所有必要資訊，包括其名稱、描述和其他進階設置，如記憶。在本教學中，我們將帶您了解助理資訊下的助理配置中的每個參數。
+基本設置 # SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例和描述。在基本設置中，用戶可以設置以下參數：
+名稱 # 您的 AI 助理的名稱。此名稱將顯示在對話窗口中。
+📄 備註
+這將是您的助理用於管理助理的名稱。如果您希望更改助理整合中顯示的名稱，請參閱網頁整合。
+使用案例 # 您的 AI 助理的使用案例。這將幫助您對助理進行分類。SeaChat 提供了一系列可供選擇的使用案例。根據您的需求，您可以選擇最適合您的 AI 助理的使用案例。不同的使用案例可能需要不同的描述設置，但在導入使用案例時，您可以簡單地按照描述部分的說明進行操作。
+描述 # 關於您的 AI 助理的簡要描述，詳細說明您的助理的行為及其參考資料。您在描述欄位中輸入的任何內容都將顯示在頁面右側的助理指導中。然後，此描述將用於提示語言模型生成回覆。
+回覆語言 # AI 助理將用於回覆用戶的語言。如果需要AI助理以多國語言回答問題，您可以選擇以用戶輸入的語言回答。
+透過選擇回覆語言，您可以確保 AI 助理以正確的語言進行回應。這對有多種語言的用戶的企業們，十分有用。以中文為例，繁體中文和簡體中文在許多方面都有細微差別。透過將回覆語言設定為繁體中文，AI 助理將以繁體中文的回應。
+真人客服 # 真人客服功能允許人類客服在需要時介入對話。如果啟用此功能，您的客戶將在聊天對話期間有請求真人客服的選擇。這需要您提供一名實際的人類客服來監控和回覆用戶。
+您可以取消選中該框以禁用此功能，從而使您的用戶無法在對話期間請求真人客服，但是真人客服仍可以從對話儀表板接管對話。您可以訪問我們的真人客服教學以獲得有關該功能的更詳細說明。
+與 AI 助理互動 # 您可以立即與您剛建立的 AI 助理進行互動。在AI助理網址中，您可以點擊 URL 以在獨立窗口中與您的 AI 助理進行互動。
+或者，如果您希望將 AI 助理集成到您的網站中，您還可以在API 金鑰部分訪問您的 API 金鑰。請查看網頁機器人以獲得有關如何將您的 AI 助理以編程方式集成到您的網站的更多信息。
+進階設置 # 我們建議您參閱進階設置教學，以了解 SeaChat 中提供的進階功能。對於助理記憶和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。</description></item></channel></rss>
