@@ -3,13 +3,13 @@ title: "AI助理資訊"
 description: "AI助理資訊是SeaChat助理的核心，包括名稱、描述和進階設置。這篇文章詳細介紹如何配置您的AI助理，以及如何使用進階功能如助理記憶和檢索增強生成(RAG)。如果您想了解更多關於SeaChat中進階功能的資訊，請查看進階設置教學。"
 lead: ""
 date: 2024-04-26T08:48:45+00:00
-lastmod: 2024-05-20T08:48:45+00:00
+lastmod: 2024-05-29T08:48:45+00:00
 weight: 70
 draft: false
 images: []
 toc: true
 aliases:
-  - /zh/seachat/seachaat-manual/02-create-agent/04-agent-information/
+  - /zh/seachat/seachaat-manual/02-create-agent/03-advanced-settings/01-agent-information/
 ---
 
 # 簡介
@@ -40,6 +40,7 @@ SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例�
 ### 回覆語言
 AI 助理將用於回覆用戶的語言。如果需要AI助理以多國語言回答問題，您可以選擇**以用戶輸入的語言回答**。
 
+透過選擇回覆語言，您可以確保 AI 助理以正確的語言進行回應。這對有多種語言的用戶的企業們，十分有用。以中文為例，繁體中文和簡體中文在許多方面都有細微差別。透過將回覆語言設定為繁體中文，AI 助理將以繁體中文的回應。
 
 ### 真人客服
 真人客服功能允許人類客服在需要時介入對話。如果啟用此功能，您的客戶將在聊天對話期間有請求真人客服的選擇。這需要您提供一名實際的人類客服來監控和回覆用戶。

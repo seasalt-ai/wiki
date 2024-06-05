@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-04-15T08:48:57+00:00
+lastmod: 2024-06-05T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,23 @@ weight: 101
 toc: true
 ---
 
+### 06/06/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Interface Adjustment: Added design styles to AI Agent information, allowing you to better design the dialogue interface.
+- New WordPress Integration: You can now deploy your AI Agent on WordPress.
+- New MailerLite Integration: You can now sync contact information to MailerLite integration.
+- New Integration Pages and Channel Design: Offers new integration options and improved channel designs.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed Several Knowledge Base Errors: Including issues with deleting knowledge bases and document error messages.
+
+### 05/30/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Knowledge Base Files: Now you can directly overwrite files with duplicate names, making it easier to update documents.
+- New Refresh Button for Chat Window: You can click the button to refresh the chat window when WebSocket is disconnected.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Bug Fixes in Workspace Creation: Errors encountered during workspace creation have been resolved.
 
 ### 05/24/2024
 ##### **<font color="#739963">New Features and Performance Improvements</font>** 
