@@ -2,12 +2,12 @@
 title: "使用會議逐字稿和AI會議分析"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "07-seameet-meeting-analytics"
+    parent: "seameet-manual"
 aliases:
    - /zh/seameet/07-seameet-meeting-analytics/
 weight: 107
