@@ -1,22 +1,22 @@
 ---
-title: "提供反饋"
+title: "Provide Feedback"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "15-seameet-help"
+      parent: "15-seameet-manual"
 aliases:
-   - /zh/seameet/15-seameet-help/
+   - /en/seameet/15-seameet-help/
 weight: 199
 toc: true
 ---
 
-對操作方式有不解之處，隨時可以點擊SeaMeet左下角「如何使用」來教學手冊查看教學文章和影片。
+If you have any questions about how to operate, you can always click on the **How to Use** section in the bottom left corner of SeaMeet to view instructional articles and videos in the manual.
 
-# 有更多疑問？想提供反饋意見？
+# Have More Questions? Want to Provide Feedback?
 
-若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 < email: seameet@seasalt.ai > 說明需求或問題。
-SeaMeet團隊將會在最遲24-48小時內回覆。
+If you want to provide feedback, you can select the "Feedback" page from the left sidebar in SeaMeet and send an email to <email: seameet@seasalt.ai> explaining your needs or issues.
+The SeaMeet team will respond within 24-48 hours at the latest.
