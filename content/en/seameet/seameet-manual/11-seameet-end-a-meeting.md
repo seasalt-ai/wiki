@@ -1,35 +1,39 @@
 ---
-title: "結束會議記錄"
+title: "End Meeting Recording"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "11-seameet-end-a-meeting"
+    parent: "seameet-manual"
 aliases:
-   - /zh/seameet/11-seameet-end-a-meeting/
+   - /en/seameet/11-seameet-end-a-meeting/
 weight: 111
 toc: true
 ---
 
+When the meeting ends, you can choose to:
 
-當會議結束時，您可以選擇：
+1. Press the end meeting recording button on the SeaMeet meeting page
 
-1. 在SeaMeet會議頁面按下中止會議紀錄的按鈕
+[//]: # (<center>)
 
-<center>
-<img src="/images/seameet-zh/SeaMeet會議頁面按下中止會議紀錄.png" alt="SeaMeet會議頁面按下中止會議紀錄"/>
-</center>
+[//]: # (<img src="/images/seameet-en/seameet-end-meeting-recording.png" alt="SeaMeet End Meeting Recording"/>)
 
-2. 或者在擴充程式手動按下中止會議的按鈕
+[//]: # (</center>)
 
-<center>
-<img src="/images/seameet-zh/在SeaMeet擴充程式手動按下中止會議的按鈕.png" alt="在SeaMeet擴充程式手動按下中止會議的按鈕"/>
-</center>
+2. Manually press the end meeting button on the extension
 
-若您忘記手動中止會議紀錄，則機器人會在以下狀況直接離開Google Meet會議室：
+[//]: # (<center>)
 
-1. 當所有與會者都離開會議室的30秒後
-2. 若有用戶仍然留在會議室中，機器人會等待15分鐘確認是否為會議暫停，若15分鐘內無人說話，機器人便會自動離開
+[//]: # (<img src="/images/seameet-en/manual-end-meeting-button-extension.png" alt="Manual End Meeting Button on Extension"/>)
+
+[//]: # (</center>)
+
+If you forget to manually end the meeting recording, the bot will leave the Google Meet room under the following conditions:
+
+1. 30 seconds after all participants have left the meeting room
+
+2. If a user remains in the meeting room, the bot will wait 15 minutes to confirm if the meeting is paused. If no one speaks within 15 minutes, the bot will automatically leave.
