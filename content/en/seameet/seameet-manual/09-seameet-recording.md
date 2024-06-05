@@ -1,35 +1,38 @@
 ---
-title: "播放會議錄音"
+title: "Play Meeting Recordings"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "09-seameet-recording"
+    parent: "seameet-manual"
 aliases:
-   - /zh/seameet/09-seameet-recording/
+   - /en/seameet/09-seameet-recording/
 weight: 109
 toc: true
 ---
 
-您可以播放每場會議的會議錄音
+You can play the recording of each meeting.
 
-## 播放整場會議錄音
-1. 點擊會議頁下方的播放條，即可重播該場會議的完整錄音
-2. 您可以選擇任意拖動錄音條，快轉10秒、暫停/播放、倒轉10秒等功能
-3. 目前播放的段落將於逐字稿上加亮顯示
+## Play the Entire Meeting Recording
+1. Click the play bar at the bottom of the meeting page to replay the full recording of the meeting.
+2. You can choose to drag the recording bar, fast-forward 10 seconds, pause/play, rewind 10 seconds, and other functions.
+3. The currently playing segment will be highlighted in the transcript.
 
-<center>
-<img src="/images/seameet-zh/播放SeaMeet會議錄音.png" alt="播放SeaMeet會議錄音"/>
-</center>
+[//]: # (<center>)
 
-## 播放個別對話段落
-1. 當滑鼠懸空於一段逐字稿上時，將出現播放鈕
-2. 點擊後即可播放對應段落的逐字稿
+[//]: # (<img src="/images/seameet-en/play-seameet-meeting-recording.png" alt="Play SeaMeet Meeting Recording"/>)
 
+[//]: # (</center>)
 
-<center>
-<img src="/images/seameet-zh/SeaMeet播放個別對話段落.png" alt="SeaMeet播放個別對話段落"/>
-</center>
+## Play Individual Conversation Segments
+1. When the mouse hovers over a segment of the transcript, a play button will appear.
+2. Click it to play the corresponding segment of the transcript.
+
+[//]: # (<center>)
+
+[//]: # (<img src="/images/seameet-en/seameet-play-individual-conversation-segment.png" alt="SeaMeet Play Individual Conversation Segment"/>)
+
+[//]: # (</center>)
