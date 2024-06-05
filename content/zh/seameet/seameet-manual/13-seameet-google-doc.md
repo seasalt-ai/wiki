@@ -2,12 +2,12 @@
 title: "輸出會議到Google Doc"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "13-seameet-google-doc"
+     parent: "seameet-manual"
 aliases:
    - /zh/seameet/13-seameet-google-doc/
 weight: 113

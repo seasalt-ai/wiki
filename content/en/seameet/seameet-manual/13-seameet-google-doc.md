@@ -1,39 +1,37 @@
 ---
-title: "輸出會議到Google Doc"
+title: "Export Meeting to Google Doc"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "13-seameet-google-doc"
+     parent: "seameet-manual"
 aliases:
-   - /zh/seameet/13-seameet-google-doc/
+   - /en/seameet/13-seameet-google-doc/
 weight: 113
 toc: true
 ---
 
-當會議結束後，這份會議紀錄會被輸出成Google Docs文檔。點擊頁面右上角的按鈕，就可開啟Google Docs，裡面包含剛剛所有的會議資訊。
+After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.
 
-1. 綁定Google雲端硬碟
+1. Bind Google Drive
 
-    如果您希望將會議記錄輸出成Google文件，請先將工作區綁定至一個Google雲端硬碟。您可以至「工作區設定」─「第三方整合」中綁定Google硬碟。
+   If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in **Workspace** - **Integration**.
 
     <center>
-    <img src="/images/seameet-zh/SeaMeet綁定Google雲端硬碟.png" alt="SeaMeet綁定Google雲端硬碟"/>
+
+    <img src="/images/seameet-en/13-seameet-google-doc/seameet-bind-google-drive.png" alt="SeaMeet Bind Google Drive"/>
+
     </center>
 
-2. 會議後自動輸出Google文件
+2. Automatically Export Google Document After Meeting
 
-    點擊會議頁右上角的Google Docs按鈕
-    
-    <center>
-    <img src="/images/seameet-zh/SeaMeet會議後自動輸出Google文件.png" alt="SeaMeet會議後自動輸出Google文件"/>
-    </center>
-
-    即可訪問對應的會議記錄
+   Click the Google Docs button in the top right corner of the meeting page to access the corresponding meeting record
 
     <center>
-    <img src="/images/seameet-zh/訪問SeaMeet對應的會議記錄.png" alt="訪問SeaMeet對應的會議記錄"/>
+
+    <img src="/images/seameet-en/13-seameet-google-doc/seameet-auto-export-google-doc.png" alt="SeaMeet Auto Export Google Document"/>
+
     </center>
