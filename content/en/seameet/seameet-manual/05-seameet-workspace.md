@@ -1,110 +1,127 @@
 ---
-title: "設定SeaMeet工作區"
+title: "Set Up SeaMeet Workspace"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
-draft: false
+lastmod: 2024-06-03T08:48:57+00:00
+draft: true
 images: []
 menu:
   seameet:
-      parent: "05-seameet-workspace"
+     parent: "seameet-manual"
 aliases:
-   - /zh/seameet/05-seameet-workspace/
+   - /en/seameet/05-seameet-workspace/
 weight: 105
 toc: true
 ---
 
-工作區是您用來管理所有會議、團隊成員與方案的地方。您可以為您的公司、部門或團隊創建一個共用的工作區，即可讓被邀請加入的用戶共同管理所有儲存到這個工作區的會議記錄。
+A workspace is where you manage all meetings, team members, and plans. You can create a shared workspace for your company, department, or team, allowing invited users to jointly manage all meeting records stored in this workspace.
 
-<center>
-<img src="/images/seameet-zh/SeaMeet工作區管理.png" alt="SeaMeet工作區管理"/>
-</center>
+[//]: # (<center>)
 
+[//]: # (<img src="/images/seameet-en/seameet-workspace-management.png" alt="SeaMeet Workspace Management"/>)
 
-### 管理會議
+[//]: # (</center>)
 
-會議記錄將儲存到您指定的工作區，不論是未來、進行中或是已完成的會議，都可以在工作區進行管理。
+### Manage Meetings
 
-<center>
-<img src="/images/seameet-zh/管理SeaMeet會議.png" alt="管理SeaMeet會議"/>
-</center>
+Meeting records will be stored in the designated workspace. You can manage future, ongoing, or completed meetings in the workspace.
 
-### 團隊協作
+[//]: # (<center>)
 
-您可以到「工作區設定 ─ 用戶」頁面邀請團隊成員加入工作區，共同瀏覽、編輯會議記錄，您還可以設定不同權限以便更好地管理工作區。
+[//]: # (<img src="/images/seameet-en/manage-seameet-meetings.png" alt="Manage SeaMeet Meetings"/>)
 
-當您寄出邀請後，受邀的用戶即可用邀請信中的連結註冊登入，並加入您邀請的工作區。
+[//]: # (</center>)
 
-1. 用戶權限分為「管理員」、「成員」兩種
-2. 管理員
-    - 可閱覽所有工作區中的會議
-    - 可刪除會議
-    - 可邀請用戶進入該工作區，並賦予任何權限
-    - 可移除用戶
-3. 成員
-- 預設為可閱覽所有工作區中的會議，但可調整為僅能閱覽個人會議
-- 不可刪除會議
-- 可邀請用戶進入該工作區，但僅能邀請為「成員」
-- 不可移除用戶
+### Team Collaboration
 
-<center>
-<img src="/images/seameet-zh/管理SeaMeet成員.png" alt="管理SeaMeet成員"/>
-</center>
+You can invite team members to join the workspace on the "Workspace Settings - Users" page to collaboratively view and edit meeting records. You can also set different permissions to better manage the workspace.
 
-### 方案
+Once you send the invitation, the invited users can register and log in using the link in the invitation email and join the invited workspace.
 
-如果您希望擁有更多逐字稿時數或進階功能，歡迎升級工作區方案或聯繫我們的客服人員 < email: seameet@seasalt.ai >，我們會很樂於提供協助。
+1. User permissions are divided into "Admin" and "Member".
+2. Admin
+    - Can view all meetings in the workspace.
+    - Can delete meetings.
+    - Can invite users to the workspace and grant any permissions.
+    - Can remove users.
+3. Member
+    - Default can view all meetings in the workspace but can be adjusted to view personal meetings only.
+    - Cannot delete meetings.
+    - Can invite users to the workspace but can only invite as "Member".
+    - Cannot remove users.
 
-### 建立新工作區
+[//]: # (<center>)
 
-如果您希望建立多個工作區以供不同單位使用，您可以點擊畫面右上方的「工作區清單」。
+[//]: # (<img src="/images/seameet-en/manage-seameet-members.png" alt="Manage SeaMeet Members"/>)
 
-<center>
-<img src="/images/seameet-zh/前往SeaMeet工作區.png" alt="前往SeaMeet工作區"/>
-</center>
+[//]: # (</center>)
 
-並在「工作區清單」點選「建立」，即可開始建立新工作區。
+### Plans
 
-<center>
-<img src="/images/seameet-zh/建立新SeaMeet工作區.png" alt="建立新SeaMeet工作區"/>
-</center>
+If you need more transcription hours or advanced features, feel free to upgrade your workspace plan or contact our customer service <email: seameet@seasalt.ai>. We will be happy to assist you.
 
-### 刪除會議
+### Create a New Workspace
 
-目前僅供「管理員」權限的用戶刪除會議，您可以點擊會議標題旁的「...」以刪除會議
+If you want to create multiple workspaces for different units, click the "Workspace List" at the top right of the screen.
 
-<center>
-<img src="/images/seameet-zh/刪除SeaMeet會議.png" alt="刪除SeaMeet會議"/>
-</center>
+[//]: # (<center>)
 
-點擊「刪除」確認刪除會議
+[//]: # (<img src="/images/seameet-en/go-to-seameet-workspace.png" alt="Go to SeaMeet Workspace"/>)
 
-<center>
-<img src="/images/seameet-zh/刪除SeaMeet會議-2.png" alt="刪除SeaMeet會議-2"/>
-</center>
+[//]: # (</center>)
 
-### 預設會議語言與儲存工作區
+Then click "Create" in the "Workspace List" to start creating a new workspace.
 
-點擊「個人設定—會議設定」，即可設定您個人的會議預設語言以及預設工作區。
+[//]: # (<center>)
 
-<center>
-<img src="/images/seameet-zh/SeaMeet預設會議語言與儲存工作區.png" alt="SeaMeet預設會議語言與儲存工作區"/>
-</center>
+[//]: # (<img src="/images/seameet-en/create-new-seameet-workspace.png" alt="Create New SeaMeet Workspace"/>)
 
-1. 預設語言
+[//]: # (</center>)
 
-    這是您在Google行事曆提前建立「未來會議」時，會採用的預設語言。
+### Delete Meetings
 
-    您依然可以到個別會議中，調整其會議所要採用的記錄語言。
+Currently, only users with "Admin" permissions can delete meetings. Click the "..." next to the meeting title to delete the meeting.
 
-2. 預設工作區
+[//]: # (<center>)
 
-    這是您在Google行事曆提前建立「未來會議」時，會預設儲存的工作區。
+[//]: # (<img src="/images/seameet-en/delete-seameet-meeting.png" alt="Delete SeaMeet Meeting"/>)
 
-### 調整SeaMeet介面語系
+[//]: # (</center>)
 
-若需調整介面顯示語系，您可以至「個人設定—外觀」中調整介面語言。
+Click "Delete" to confirm the deletion of the meeting.
 
-<center>
-<img src="/images/seameet-zh/SeaMeet調整介面語系.png" alt="SeaMeet調整介面語系"/>
-</center>
+[//]: # (<center>)
+
+[//]: # (<img src="/images/seameet-en/delete-seameet-meeting-2.png" alt="Confirm Delete SeaMeet Meeting"/>)
+
+[//]: # (</center>)
+
+### Default Meeting Language and Storage Workspace
+
+Click "Personal Settings - Meeting Settings" to set your personal default meeting language and default workspace.
+
+[//]: # (<center>)
+
+[//]: # (<img src="/images/seameet-en/seameet-default-meeting-language-and-storage-workspace.png" alt="SeaMeet Default Meeting Language and Storage Workspace"/>)
+
+[//]: # (</center>)
+
+1. Default Language
+
+    This is the default language used when you schedule "future meetings" in Google Calendar.
+
+    You can still adjust the meeting recording language in individual meetings.
+
+2. Default Workspace
+
+    This is the default workspace where the "future meetings" scheduled in Google Calendar will be stored.
+
+### Adjust SeaMeet Interface Language
+
+To adjust the interface display language, go to "Personal Settings - Appearance" and change the interface language.
+
+[//]: # (<center>)
+
+[//]: # (<img src="/images/seameet-en/seameet-adjust-interface-language.png" alt="SeaMeet Adjust Interface Language"/>)
+
+[//]: # (</center>)
