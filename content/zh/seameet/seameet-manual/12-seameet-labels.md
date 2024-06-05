@@ -2,12 +2,12 @@
 title: "會議標籤"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "12-seameet-labels"
+      parent: "seameet-manual"
 aliases:
    - /zh/seameet/12-seameet-labels/
 weight: 112

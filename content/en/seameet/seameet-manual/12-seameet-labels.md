@@ -1,57 +1,73 @@
 ---
-title: "會議標籤"
+title: "Meeting Labels"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
+lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 menu:
   seameet:
-      parent: "12-seameet-labels"
+    parent: "seameet-manual"
 aliases:
-   - /zh/seameet/12-seameet-labels/
+   - /en/seameet/12-seameet-labels/
 weight: 112
 toc: true
 ---
 
-您可以在工作區中新增各種有利於分類會議的會議標籤，並且管理每場會議的標籤。
+You can add various meeting labels to your workspace to help categorize meetings and manage the labels for each meeting.
 
-## 在會議中新增會議標籤
-1. 點擊「+」號，即可管理該會議的標籤。
-2. 您可以從工作區既有的標籤選擇將其新增到該會議中，「V」代表已將該標籤加入該會議，空白代表未加入到該會議。
-
+## Adding Meeting Labels in a Meeting
+1. Go to the **Meeting List** page and click on the meeting you want to add labels to.
+2. Click the **+** sign to manage the labels for that meeting.
 <center>
-<img src="/images/seameet-zh/SeaMeet編輯會議標籤.png" alt="SeaMeet編輯會議標籤"/>
-</center>
 
-3. 您也可以在會議中直接為該工作區建立新標籤，並新增到這場會議中。在搜尋框中輸入尚未於工作區建立的標籤文字，即可點擊建立新標籤。
+<img width="80%" src="/images/seameet-en/12-seameet-labels/seameet-plus-meeting-labels.png" alt="To Add Meeting Labels"/>
 
-<center>
-<img src="/images/seameet-zh/SeaMeet新增會議標籤.png" alt="SeaMeet新增會議標籤"/>
-</center>
-
-4. 點擊編輯標籤，即可跳轉至「標籤管理」頁面
-
-<center>
-<img src="/images/seameet-zh/SeaMeet標籤管理.png" alt="SeaMeet標籤管理"/>
 </center>
 
 
-## 標籤管理
-1. 點選「工作區設定 ─ 標籤管理」頁面，或經由會議標籤管理頁連結至此頁
+3. You can also create new labels for the workspace directly in the meeting and add them to the meeting. Enter the label text that has not been created in the workspace in the search box and click create new label.
+
 
 <center>
-<img src="/images/seameet-zh/SeaMeet工作區設定標籤.png" alt="SeaMeet工作區設定標籤"/>
+
+<img src="/images/seameet-en/12-seameet-labels/seameet-add-meeting-label.png" alt="SeaMeet Add Meeting Label"/>
+
 </center>
 
-2. 點擊右上角「新增標籤」，即可在此工作區新增標籤
+4. Click edit label to jump to the "Label Management" page.
+
+
 
 <center>
-<img src="/images/seameet-zh/SeaMeet工作區新增標籤.png" alt="SeaMeet工作區新增標籤"/>
+
+<img width="80%" src="/images/seameet-en/12-seameet-labels/seameet-edit-meeting-labels.png" alt="SeaMeet Edit Meeting Labels"/>
+
 </center>
 
-3. 點擊每個標籤右邊的「...」，即可編輯標籤或刪除標籤
+## Label Management
+1. Go to the **Workspace Settings** -> **Label Management** page, or link to this page from the meeting label management page.
+
 
 <center>
-<img src="/images/seameet-zh/SeaMeet工作區編輯和刪除標籤.png" alt="SeaMeet工作區編輯和刪除標籤"/>
+
+<img src="/images/seameet-en/12-seameet-labels/seameet-workspace-settings-labels.png" alt="SeaMeet Workspace Settings Labels"/>
+
+</center>
+
+2. Click the **New Label** button in the top right corner to add a label to the workspace.
+
+
+<center>
+
+<img src="/images/seameet-en/12-seameet-labels/seameet-workspace-add-label.png" alt="SeaMeet Workspace Add Label"/>
+
+</center>
+
+3. Click the "..." to the right of each label to edit or delete the label.
+
+<center>
+
+<img src="/images/seameet-en/12-seameet-labels/seameet-workspace-edit-delete-label.png" alt="SeaMeet Workspace Edit and Delete Label"/>
+
 </center>
