@@ -1,53 +1,63 @@
 ---
-title: "查看會議紀錄"
+title: "View Meeting Records"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2023-11-22T08:48:57+00:00
-draft: false
+lastmod: 2024-06-03T08:48:57+00:00
+draft: true
 images: []
 menu:
   seameet:
-      parent: "06-seameet-view-meeting"
+    parent: "seameet-manual"
 aliases:
-   - /zh/seameet/06-seameet-view-meeting/
+   - /en/seameet/06-seameet-view-meeting/
 weight: 106
 toc: true
 ---
 
-邀請機器人加入會議，邀請後會議記錄將自動儲存到您的SeaMeet工作區中以供檢視。
+Invite the bot to join the meeting. Once invited, the meeting records will be automatically saved to your SeaMeet workspace for review.
 
-# 瀏覽會議記錄
+# Browse Meeting Records
 
-點選「會議清單」頁面後，即可看到目前已記錄、進行中，以及即將紀錄的會議清單
+Click the "Meeting List" page to see the list of recorded, ongoing, and upcoming meetings.
 
-<center>
-<img src="/images/seameet-zh/SeaMeet瀏覽會議記錄.png" alt="SeaMeet瀏覽會議記錄"/>
-</center>
+[//]: # (<center>)
 
-點擊會議標題即可瀏覽會議記錄
+[//]: # (<img src="/images/seameet-en/seameet-browse-meeting-records.png" alt="SeaMeet Browse Meeting Records"/>)
 
-<center>
-<img src="/images/seameet-zh/SeaMeet點擊會議標題即可瀏覽會議記錄.png" alt="SeaMeet點擊會議標題即可瀏覽會議記錄"/>
-</center>
+[//]: # (</center>)
 
-若您尚未同意機器人加入Google Meet會議室，您將看到這則通知訊息。
+Click the meeting title to view the meeting records.
 
-<center>
-<img height="350px" src="/images/seameet-zh/SeaMeet機器人等待進入會議室.png" alt="SeaMeet機器人等待進入會議室"/>
-</center>
+[//]: # (<center>)
 
-允許機器人進入會議室
+[//]: # (<img src="/images/seameet-en/seameet-click-meeting-title-view-records.png" alt="SeaMeet Click Meeting Title to View Records"/>)
 
-現在，讓我們到Google Meet中允許機器人加入會議室。
+[//]: # (</center>)
 
-<center>
-<img height="450px" src="/images/seameet-zh/SeaMeet允許機器人進入會議室.png" alt="SeaMeet允許機器人進入會議室"/>
-</center>
+If you have not yet allowed the bot to join the Google Meet room, you will see this notification message.
 
-機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
+[//]: # (<center>)
 
-在會議過程中，AI會每隔一段時間自動從對話中摘取會議摘要、待辦事項和討論主題。
+[//]: # (<img height="350px" src="/images/seameet-en/seameet-bot-waiting-to-enter.png" alt="SeaMeet Bot Waiting to Enter"/>)
 
-<center>
-<img src="/images/seameet-zh/SeaMeet會議記錄.png" alt="SeaMeet會議記錄"/>
-</center>
+[//]: # (</center>)
+
+Allow the bot to enter the meeting room.
+
+Now, let's allow the bot to join the meeting room in Google Meet.
+
+[//]: # (<center>)
+
+[//]: # (<img height="450px" src="/images/seameet-en/seameet-allow-bot-to-enter.png" alt="SeaMeet Allow Bot to Enter"/>)
+
+[//]: # (</center>)
+
+Once the bot joins, you will see the real-time meeting transcript being generated, including the speaker and speaking time. SeaMeet's transcript recognition is specially trained for the Taiwanese market and can recognize mixed Chinese and English conversation scenarios.
+
+During the meeting, AI will automatically extract meeting summaries, action items, and discussion topics from the conversation at regular intervals.
+
+[//]: # (<center>)
+
+[//]: # (<img src="/images/seameet-en/seameet-meeting-record.png" alt="SeaMeet Meeting Record"/>)
+
+[//]: # (</center>)
