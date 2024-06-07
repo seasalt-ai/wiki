@@ -16,7 +16,7 @@ toc: true
 ---
 
 ### 06/06/2024
-- Help - Users can chat with the support bot anytime for assistance.
+- Help Desk - Users can chat with the support bot anytime for assistance.
 - Contact Support - Users can book support sessions via Hubspot for help.
 - WhatsApp Fix - Users can edit phone numbers on the contact page.
 
