@@ -6,7 +6,7 @@ lastmod: 2024-05-29T08:48:57+00:00
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-manual/08-add-webpage-link-in-answers/
+  - /en/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/
 weight: 150
 toc: true
 ---
@@ -21,7 +21,7 @@ toc: true
 [//]: # (---)
 # Overview
 
-You can also include relevant reference URLs in the AI assistant's responses, allowing users to access more detailed content or play related videos. In the **Existing Knowledge** page, you can find relevant knowledge and add reference URLs to enrich the AI agent's responses. This feature enhances the user experience by providing additional information and resources to users when they are looking for some specific information.
+You can include relevant reference URLs in the AI assistant's responses, allowing users to access more detailed content or play related videos. In the **Existing Knowledge** page, you can find relevant knowledge and add reference URLs to enrich the AI agent's responses. This feature enhances the user experience by providing additional information and resources to users when they are looking for some specific information.
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -34,7 +34,7 @@ You can also include relevant reference URLs in the AI assistant's responses, al
 
 ## [Additional Settings in Knowledge Base](#additional-setting-ui)
 
-Find **Write a New KB Document** under **Knowledge Base** and click on it. You will be directed to the dashboard of **Knowledge Base** in the **Manual Entry**. For adding a URL to ONE specific answer, manual entry allows us to upload one piece of information at a time and adjust the settings accordingly.
+Find **Write a New KB Document** under **Knowledge Base** and click on it. You will be directed to the dashboard of **Knowledge Base** in the **Manual Entry**. You can choose any uploading methods and add url to the agent's answer, we will use the method of manual entry to demonstrate how to add URL to the agent's answer.
 
 Make sure to provide a clear **Document Title** for the agent to retrieve the knowledge easily. Additionally, carefully describe the information to your agent in the **Document Text**. Your description will help the agent to form a response based on the information you provide.
 
@@ -53,7 +53,7 @@ The URL you provide here will be displayed as a button in the chat window. When 
 
 ## Add URL to the Answer
 
-Now, let's test out the URL button in the chat window. When the user asks a question that matches the answer you have added the URL to, the AI agent will display the answer with the URL button. The user can click on the button to access the URL and get more detailed information. As simple as that!
+Now, let's test out the URL button in the chat window. When the AI agent retrieves certain information from knowledge base as contextual information, it will display the answer with the URL button if the button feature is enabled for this piece of information. The user can click on the button to access the URL and get more detailed information. As simple as that!
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">

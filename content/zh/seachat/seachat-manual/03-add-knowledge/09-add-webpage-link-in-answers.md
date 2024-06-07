@@ -31,8 +31,7 @@ toc: true
 
 ## [知識庫中的其他設置](#additional-setting-ui)
 
-在**知識庫**下找到**撰寫新知識文件**並點擊。這將引導您進入**手動輸入**的**知識庫**儀表板。要為某一特定回答添加網址，手動輸入允許我們一次上傳一條資訊並相應地調整設置。
-
+找到 **知識庫** 下的 **撰寫新知識文件**，並點擊它。系統會將您導向 **知識庫** 的 **手動輸入** 儀表板。您可以選擇任何上傳方法並將 URL 添加到助理的答案中，我們將使用手動輸入的方法來演示如何將 URL 添加到助理的答案中。
 確保為文檔提供一個明確的**文檔標題**，以便助理能夠輕鬆檢索知識。此外，在**文檔正文**中清楚地描述資訊，這將幫助助理根據您提供的資訊形成回應。
 
 ## [按鈕](#additional-setting-ui)
@@ -50,8 +49,7 @@ toc: true
 
 ## 新增網址到回答中
 
-現在，讓我們在聊天窗口中測試網址按鈕。當用戶提問並符合您添加了網址的回答時，AI助理將顯示帶有網址按鈕的回答。用戶可以點擊按鈕以訪問網址並獲取更詳細的信息，就這麼簡單！
-
+現在，讓我們在聊天視窗中測試 URL 按鈕功能。當 AI 助理從知識庫中檢索到某些信息作為上下文時，如果該信息啟用了按鈕功能，將會在回答中顯示 URL 按鈕。用戶可以點擊該按鈕訪問 URL，獲取更詳細的信息。就是這麼簡單！
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/knowledge-advanced-features/url-button/url-to-answer.png" target="_blank">
