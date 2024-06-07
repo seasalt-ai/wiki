@@ -15,6 +15,11 @@ weight: 104
 toc: true
 ---
 
+### 06/06/2024
+- Help - Users can chat with the support bot anytime for assistance.
+- Contact Support - Users can book support sessions via Hubspot for help.
+- WhatsApp Fix - Users can edit phone numbers on the contact page.
+
 ### 05/02/2024
 ##### **<font color="#739963">New Feature</font>** 
 - Added WhatsApp Channel: Bind WhatsApp numbers and send WhatsApp messages via SeaX.

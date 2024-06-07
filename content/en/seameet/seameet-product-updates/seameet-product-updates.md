@@ -15,6 +15,13 @@ weight: 101
 toc: true
 ---
 
+### 06/06/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>** 
+- SeaMeet Performance Optimization - Adjust the number of concurrent meetings supported by SeaMeet, update database frequency and sync speed, and implement error handling for re-join entries.
+- Audio Download for Paid Users - Paid users can download audio files for meetings held after June 1st.
+- Help Desk - SeaMeet users can chat with the support anytime for assistance.
+- Contact Support - Users can book support sessions via Hubspot for help.
+
 ### 05/02/2024
 ##### **<font color="#739963">New Features</font>** 
 - Extension Enhancement: Change meeting language within Google Meet extension during meetings.
