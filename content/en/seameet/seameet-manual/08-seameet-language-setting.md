@@ -19,20 +19,22 @@ SeaMeet currently supports three modes: Traditional Chinese, English, and automa
 ## Switch Default Transcription Language
 
 1. Go to the **Account** -> **Preference** page.
-2. Set the default meeting recording language for your account for future invitations to the bot. 
+2. Set the default meeting recording language for your account for future invitations to the copilot. 
 3. When starting a "Scheduled Meeting" recording, you will see that the default recording language has changed.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/default-seameet-meeting-recording-language.png" alt="Default SeaMeet Meeting Recording Language"/>)
+<img src="/images/seameet-en/08-seameet-language-setting/default-seameet-meeting-recording-language.png" alt="Default SeaMeet Meeting Recording Language"/>
 
-[//]: # (</center>)
-[//]: # (</br>)
-[//]: # (<center>)
+</center>
 
-[//]: # (<img src="/images/seameet-en/view-default-language-in-seameet-meeting.png" alt="View Default Language in SeaMeet Meeting"/>)
+<br/>
 
-[//]: # (</center>)
+<center>
+
+<img src="/images/seameet-en/08-seameet-language-setting/view-default-language-in-seameet-meeting.png" alt="View Default Language in SeaMeet Meeting"/>
+
+</center>
 
 ## Switch Individual Meeting Recording Language
 
@@ -40,8 +42,8 @@ SeaMeet currently supports three modes: Traditional Chinese, English, and automa
 2. Choose another expected meeting recording language from the menu.
 3. After selecting, the recording will proceed with the new model.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/switch-individual-seameet-meeting-recording-language.png" alt="Switch Individual SeaMeet Meeting Recording Language"/>)
+<img src="/images/seameet-en/08-seameet-language-setting/switch-individual-seameet-meeting-recording-language.png" alt="Switch Individual SeaMeet Meeting Recording Language"/>
 
-[//]: # (</center>)
+</center>

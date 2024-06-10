@@ -3,7 +3,7 @@ title: "Set Up SeaMeet Workspace"
 description: ""
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
-draft: true
+draft: false
 images: []
 menu:
   seameet:
@@ -16,21 +16,21 @@ toc: true
 
 A workspace is where you manage all meetings, team members, and plans. You can create a shared workspace for your company, department, or team, allowing invited users to jointly manage all meeting records stored in this workspace.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-workspace-management.png" alt="SeaMeet Workspace Management"/>)
+<img src="/images/seameet-en/05-seameet-workspace/seameet-workspace-management.png" alt="SeaMeet Workspace Management"/>
 
-[//]: # (</center>)
+</center>
 
 ### Manage Meetings
 
 Meeting records will be stored in the designated workspace. You can manage future, ongoing, or completed meetings in the workspace.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/manage-seameet-meetings.png" alt="Manage SeaMeet Meetings"/>)
+<img src="/images/seameet-en/05-seameet-workspace/manage-seameet-meetings.png" alt="Manage SeaMeet Meetings"/>
 
-[//]: # (</center>)
+</center>
 
 ### Team Collaboration
 
@@ -50,11 +50,11 @@ Once you send the invitation, the invited users can register and log in using th
     - Can invite users to the workspace but can only invite as "Member".
     - Cannot remove users.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/manage-seameet-members.png" alt="Manage SeaMeet Members"/>)
+<img src="/images/seameet-en/05-seameet-workspace/manage-seameet-members.png" alt="Manage SeaMeet Members"/>
 
-[//]: # (</center>)
+</center>
 
 ### Plans
 
@@ -64,47 +64,47 @@ If you need more transcription hours or advanced features, feel free to upgrade 
 
 If you want to create multiple workspaces for different units, click the "Workspace List" at the top right of the screen.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/go-to-seameet-workspace.png" alt="Go to SeaMeet Workspace"/>)
+<img src="/images/seameet-en/05-seameet-workspace/go-to-seameet-workspace.png" alt="Go to SeaMeet Workspace"/>
 
-[//]: # (</center>)
+</center>
 
 Then click "Create" in the "Workspace List" to start creating a new workspace.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/create-new-seameet-workspace.png" alt="Create New SeaMeet Workspace"/>)
+<img src="/images/seameet-en/05-seameet-workspace/create-new-seameet-workspace.png" alt="Create New SeaMeet Workspace"/>
 
-[//]: # (</center>)
+</center>
 
 ### Delete Meetings
 
 Currently, only users with "Admin" permissions can delete meetings. Click the "..." next to the meeting title to delete the meeting.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/delete-seameet-meeting.png" alt="Delete SeaMeet Meeting"/>)
+<img src="/images/seameet-en/05-seameet-workspace/delete-seameet-meeting.png" alt="Delete SeaMeet Meeting"/>
 
-[//]: # (</center>)
+</center>
 
 Click "Delete" to confirm the deletion of the meeting.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/delete-seameet-meeting-2.png" alt="Confirm Delete SeaMeet Meeting"/>)
+<img src="/images/seameet-en/05-seameet-workspace/delete-seameet-meeting-2.png" alt="Confirm Delete SeaMeet Meeting"/>
 
-[//]: # (</center>)
+</center>
 
 ### Default Meeting Language and Storage Workspace
 
 Click "Personal Settings - Meeting Settings" to set your personal default meeting language and default workspace.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-default-meeting-language-and-storage-workspace.png" alt="SeaMeet Default Meeting Language and Storage Workspace"/>)
+<img src="/images/seameet-en/05-seameet-workspace/seameet-default-meeting-language-and-storage-workspace.png" alt="SeaMeet Default Meeting Language and Storage Workspace"/>
 
-[//]: # (</center>)
+</center>
 
 1. Default Language
 
@@ -120,8 +120,8 @@ Click "Personal Settings - Meeting Settings" to set your personal default meetin
 
 To adjust the interface display language, go to "Personal Settings - Appearance" and change the interface language.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-adjust-interface-language.png" alt="SeaMeet Adjust Interface Language"/>)
+<img src="/images/seameet-en/05-seameet-workspace/seameet-adjust-interface-language.png" alt="SeaMeet Adjust Interface Language"/>
 
-[//]: # (</center>)
+</center>

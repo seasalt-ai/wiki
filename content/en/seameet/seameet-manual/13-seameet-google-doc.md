@@ -16,7 +16,7 @@ toc: true
 
 After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.
 
-1. Bind Google Drive
+1. Connect Google Drive
 
    If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in **Workspace** - **Integration**.
 
@@ -26,6 +26,8 @@ After the meeting ends, the meeting record will be exported as a Google Docs doc
 
     </center>
 
+<br/>
+
 2. Automatically Export Google Document After Meeting
 
    Click the Google Docs button in the top right corner of the meeting page to access the corresponding meeting record
@@ -33,5 +35,17 @@ After the meeting ends, the meeting record will be exported as a Google Docs doc
     <center>
 
     <img src="/images/seameet-en/13-seameet-google-doc/seameet-auto-export-google-doc.png" alt="SeaMeet Auto Export Google Document"/>
+
+    </center>
+
+<br/>
+
+3. Check the Google Docs Document
+
+    If your googhle drive is connected to the SeaMeet, you can now read the transcription and summary of the meeting in your own Google Drive. Go to your Google Drive and open the document to view the meeting record.
+
+    <center>
+
+    <img src="/images/seameet-en/13-seameet-google-doc/seameet-google-doc-content.png" alt="SeaMeet Google Docs Content"/>
 
     </center>

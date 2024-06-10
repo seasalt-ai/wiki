@@ -37,11 +37,11 @@ You can set the auto-sharing feature in the "Common Settings". Currently, SeaMee
 
 1. **Share only with yourself**
 
-    When you invite the bot to record a meeting and the meeting ends, the system will automatically send an email to your inbox.
+    When you invite the copilot to record a meeting and the meeting ends, the system will automatically send an email to your inbox.
 
 2. **Share with all calendar attendees**
 
-    When you invite the bot to transcribe a meeting and the meeting ends, the system will automatically send an email to all attendees invited via the Google Calendar.
+    When you invite the copilot to transcribe a meeting and the meeting ends, the system will automatically send an email to all attendees invited via the Google Calendar.
 
 3. **Do not automatically share with anyone (including yourself)**
 

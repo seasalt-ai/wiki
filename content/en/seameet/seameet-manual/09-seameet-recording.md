@@ -21,18 +21,18 @@ You can play the recording of each meeting.
 2. You can choose to drag the recording bar, fast-forward 10 seconds, pause/play, rewind 10 seconds, and other functions.
 3. The currently playing segment will be highlighted in the transcript.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/play-seameet-meeting-recording.png" alt="Play SeaMeet Meeting Recording"/>)
+<img src="/images/seameet-en/09-seameet-recording/play-seameet-meeting-recording.png" alt="Play SeaMeet Meeting Recording"/>
 
-[//]: # (</center>)
+</center>
 
 ## Play Individual Conversation Segments
 1. When the mouse hovers over a segment of the transcript, a play button will appear.
 2. Click it to play the corresponding segment of the transcript.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-play-individual-conversation-segment.png" alt="SeaMeet Play Individual Conversation Segment"/>)
+<img src="/images/seameet-en/09-seameet-recording/seameet-play-individual-conversation-segment.png" alt="SeaMeet Play Individual Conversation Segment"/>
 
-[//]: # (</center>)
+</center>

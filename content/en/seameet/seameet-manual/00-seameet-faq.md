@@ -16,7 +16,7 @@ toc: true
 
 ## 1. **How do I start meeting transcription?**
 
-You can invite the SeaMeet bot to join the meeting in Google Calendar or Google Meet. Once the meeting starts, the bot will automatically join and begin transcription.
+You can invite the SeaMeet Copilot to join the meeting in Google Calendar or Google Meet. Once the meeting starts, the Copilot will automatically join and begin transcription.
 
 ## 2. **Which meeting platforms does SeaMeet support?**
 

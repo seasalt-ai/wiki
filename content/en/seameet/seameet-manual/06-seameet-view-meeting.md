@@ -3,7 +3,7 @@ title: "View Meeting Records"
 description: ""
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
-draft: true
+draft: false
 images: []
 menu:
   seameet:
@@ -14,50 +14,56 @@ weight: 106
 toc: true
 ---
 
-Invite the bot to join the meeting. Once invited, the meeting records will be automatically saved to your SeaMeet workspace for review.
+When you invite the SeaMeet Copilot to join a meeting, it will create a meeting entry in your workspace's meeting list.
+Click on the meeting title to access detailed meeting information, including meeting transcription, discussed topics, summary, and action items.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/dTeuYbK1IwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"/></iframe>
+
+
+<br/>
 
 # Browse Meeting Records
 
 Click the "Meeting List" page to see the list of recorded, ongoing, and upcoming meetings.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-browse-meeting-records.png" alt="SeaMeet Browse Meeting Records"/>)
+<img src="/images/seameet-en/06-seameet-view-meeting/seameet-meeting-records.png" alt="SeaMeet Browse Meeting Records"/>
 
-[//]: # (</center>)
+</center>
 
 Click the meeting title to view the meeting records.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-click-meeting-title-view-records.png" alt="SeaMeet Click Meeting Title to View Records"/>)
+<img src="/images/seameet-en/06-seameet-view-meeting/seameet-click-meeting-title-view-records.png" alt="SeaMeet Click Meeting Title to View Records"/>
 
-[//]: # (</center>)
+</center>
 
-If you have not yet allowed the bot to join the Google Meet room, you will see this notification message.
+If you have not yet allowed the copilot to join the Google Meet room, you will see this notification message.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img height="350px" src="/images/seameet-en/seameet-bot-waiting-to-enter.png" alt="SeaMeet Bot Waiting to Enter"/>)
+<img width="60%" height="150px" src="/images/seameet-en/06-seameet-view-meeting/seameet-bot-waiting-to-enter.png" alt="SeaMeet Copilot Waiting to Enter"/>
 
-[//]: # (</center>)
+</center>
 
-Allow the bot to enter the meeting room.
+Allow the copilot to enter the meeting room.
 
-Now, let's allow the bot to join the meeting room in Google Meet.
+Now, let's allow the copilot to join the meeting room in Google Meet.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img height="450px" src="/images/seameet-en/seameet-allow-bot-to-enter.png" alt="SeaMeet Allow Bot to Enter"/>)
+<img height="450px" src="/images/seameet-en/06-seameet-view-meeting/seameet-allow-bot-to-enter.png" alt="SeaMeet Allow Copilot to Enter"/>
 
-[//]: # (</center>)
+</center>
 
-Once the bot joins, you will see the real-time meeting transcript being generated, including the speaker and speaking time. SeaMeet's transcript recognition is specially trained for the Taiwanese market and can recognize mixed Chinese and English conversation scenarios.
+Once the copilot joins, you will see the real-time meeting transcript being generated, including the speaker and speaking time. SeaMeet's transcript recognition is specially trained for the Taiwanese market and can recognize mixed Chinese and English conversation scenarios.
 
 During the meeting, AI will automatically extract meeting summaries, action items, and discussion topics from the conversation at regular intervals.
 
-[//]: # (<center>)
+<center>
 
-[//]: # (<img src="/images/seameet-en/seameet-meeting-record.png" alt="SeaMeet Meeting Record"/>)
+<img src="/images/seameet-en/06-seameet-view-meeting/seameet-meeting-records.png" alt="SeaMeet Meeting Record"/>
 
-[//]: # (</center>)
+</center>
