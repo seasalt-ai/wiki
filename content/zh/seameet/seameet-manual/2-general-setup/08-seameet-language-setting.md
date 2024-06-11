@@ -10,7 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
    - /zh/seameet/08-seameet-language-setting/
-weight: 108
+weight: 22
 toc: true
 ---
 

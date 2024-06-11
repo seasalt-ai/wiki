@@ -10,7 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
    - /zh/seameet/06-seameet-view-meeting/
-weight: 106
+weight: 31
 toc: true
 ---
 

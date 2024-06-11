@@ -10,7 +10,7 @@ menu:
       parent: "04-seameet-register"
 aliases:
    - /zh/seameet/04-seameet-register/
-weight: 104
+weight: 100
 toc: true
 ---
 

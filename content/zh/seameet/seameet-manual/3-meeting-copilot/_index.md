@@ -1,6 +1,6 @@
 ---
-title: "SeaMeet Copilot"
-description: "SeaMeet Meeting Copilot"
+title: "SeaMeet 助理"
+description: "SeaMeet 會議助理"
 lead: ""
 date: 2024-06-10T08:48:45+00:00
 lastmod: 2024-06-10T08:48:45+00:00
