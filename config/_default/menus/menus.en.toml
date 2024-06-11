@@ -5,7 +5,7 @@
 
 [[main]]
   name = "SeaMeet"
-  url = "/seameet/seameet-manual/0-browser-extension/"
+  url = "/seameet/seameet-manual/01-seameet-intro/"
   weight = 10
 
 [[main]]

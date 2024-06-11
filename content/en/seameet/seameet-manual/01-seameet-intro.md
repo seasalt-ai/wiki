@@ -9,7 +9,7 @@ menu:
   seameet:
     parent: "seameet-manual"
 aliases:
-   - /en/seameet/1-how-to-use-seameet/
+   - /en/seameet/01-seameet-intro/
 weight: 5
 toc: true
 ---
