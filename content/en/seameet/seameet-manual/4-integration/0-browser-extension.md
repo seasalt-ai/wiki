@@ -6,8 +6,8 @@ lastmod: 2023-11-22T08:48:57+00:00
 draft: false
 images: []
 aliases:
-   - /en/seameet/0-browser-extension/
-weight: 5
+   - /en/seameet/4-integration/0-browser-extension/
+weight: 41
 toc: true
 ---
 
