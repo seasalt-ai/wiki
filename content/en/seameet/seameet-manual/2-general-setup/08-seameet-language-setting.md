@@ -5,12 +5,9 @@ date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
-menu:
-  seameet:
-    parent: "08-seameet-language-setting"
 aliases:
   - /en/seameet/08-seameet-language-setting/
-weight: 108
+weight: 20
 toc: true
 ---
 

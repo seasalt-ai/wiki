@@ -5,12 +5,9 @@ date: 2024-04-18T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
-menu:
-  seameet:
-      parent: "seameet-manual"
 aliases:
   - /en/seameet/16-seameet-auto-join/
-weight: 116
+weight: 22
 toc: true
 ---
 
