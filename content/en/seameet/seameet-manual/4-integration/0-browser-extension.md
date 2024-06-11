@@ -25,3 +25,4 @@ We recommend taking the first step by installing our browser extension so you wi
     </div>
 </div>
 
+SeaMeet also offers support to many different browsers, including Arc, Brave, Edge and Google Meet. For Google Chrome users, you can install the extension via the link above. 
