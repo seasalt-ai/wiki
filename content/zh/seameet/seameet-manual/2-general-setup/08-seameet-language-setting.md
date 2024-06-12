@@ -42,3 +42,12 @@ SeaMeet目前支援中文(繁體)、英文，以及自動偵測語言等三種�
 <center>
 <img src="/images/seameet-zh/切換個別SeaMeet會議記錄語言.png" alt="切換個別SeaMeet會議記錄語言"/>
 </center>
+
+## 切換 SeaMeet 小工具中的會議記錄語言
+
+1. 開始使用 SeaMeet 助理轉錄會議。
+2. 點擊下拉選單更改轉錄會議語言。
+
+<center>
+<img width="60%" src="/images/seameet-zh/在小工具中切換個別SeaMeet會議記錄語言.png" alt="在小工具中切換個別SeaMeet會議記錄語言"/>
+</center>

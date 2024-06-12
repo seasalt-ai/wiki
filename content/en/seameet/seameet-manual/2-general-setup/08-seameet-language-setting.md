@@ -44,3 +44,15 @@ SeaMeet currently supports three modes: Traditional Chinese, English, and automa
 <img src="/images/seameet-en/08-seameet-language-setting/switch-individual-seameet-meeting-recording-language.png" alt="Switch Individual SeaMeet Meeting Recording Language"/>
 
 </center>
+
+## Switch Meeting Recording Language on SeaMeet Widget
+
+1. Start recording a meeting with the SeaMeet Copilot.
+2. Change the recording language by clicking on the dropdown menu.
+3. Choose the language you need.
+
+<center>
+
+<img src="/images/seameet-en/08-seameet-language-setting/switch-individual-seameet-recording-language-in-widget.png" alt="Switch Individual SeaMeet Meeting Recording Language"/>
+
+</center>

@@ -10,7 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
    - /en/seameet/00-seameet-faq/
-weight: 300
+weight: 200
 toc: true
 ---
 

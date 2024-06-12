@@ -6,8 +6,8 @@ lastmod: 2023-11-22T08:48:57+00:00
 draft: false
 images: []
 aliases:
-   - /en/seameet/4-seameet-workspace-management/
-weight: 11
+   - /en/seameet/05-seameet-workspace-management/
+weight: 12
 toc: true
 ---
 
