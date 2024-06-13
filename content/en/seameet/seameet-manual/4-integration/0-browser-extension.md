@@ -25,4 +25,4 @@ We recommend taking the first step by installing our browser extension so you wi
     </div>
 </div>
 
-SeaMeet also offers support to many different browsers, including Arc, Brave, and Edge. You can install the extension via the link above. SeaChat also works seamlessly with Google Meet. You can directly connect your Google Calendar to SeaMeet and let the copilot join automatically or manually insert the Google Meeting code to start the recording. 
+SeaMeet also offers support to many different browsers, including Arc, Brave, and Edge. You can install the extension via the link above. SeaMeet also works seamlessly with Google Meet. You can directly connect your Google Calendar to SeaMeet and let the copilot join automatically or manually insert the Google Meeting code to start the recording. 

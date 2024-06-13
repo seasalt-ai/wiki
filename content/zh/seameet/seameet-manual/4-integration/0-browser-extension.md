@@ -24,4 +24,4 @@ SeaMeet 是一個使用的會議 AI 助理，能夠實時轉錄、記錄和分�
     </div>
 </div>
 
-SeaMeet 也支持多種不同的瀏覽器，包括 Arc、Brave 和 Edge。您可以通過上方的連結安裝該擴充程式。SeaChat 也能無縫連接 Google Meet。您可以直接將 Google 行事曆連接到 SeaMeet，讓助理自動加入或手動輸入 Google 會議代碼以開始記錄。
+SeaMeet 也支持多種不同的瀏覽器，包括 Arc、Brave 和 Edge。您可以通過上方的連結安裝該擴充程式。SeaMeet 也能無縫連接 Google Meet。您可以直接將 Google 行事曆連接到 SeaMeet，讓助理自動加入或手動輸入 Google 會議代碼以開始記錄。
