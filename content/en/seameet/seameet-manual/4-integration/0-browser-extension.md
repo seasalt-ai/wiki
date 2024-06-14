@@ -24,6 +24,6 @@ toc: true
 
 SeaMeet is an easy-to-use meeting AI copilot that helps you transcribe, record, and analyze your meetings in REAL TIME.
 
-SeaMeet offers support to many different browsers, including Arc, Brave, and Edge. We recommend taking the first step by installing our browser extension, so you will always have SeaMeet on your side in meetings. Simply click the button above to install the SeaMeet extension.
+SeaMeet offers support to many different browsers, including Arc, Brave, Edge, and Chrome. We recommend taking the first step by installing our browser extension, so you will always have SeaMeet on your side in meetings. Simply click the button above to install the SeaMeet extension.
 
 For users that work with Google Office Suite, you can leverage SeaMeet's seamless integration with Google Meet, Google Calendar, and Google Docs to further optimize your meeting documentation process . You can connect your Google Calendar to SeaMeet, allowing the copilot to automatically join or manually input the Google Meet code to start recording. Once the meetings are done and recorded, you can easily access the meeting transcripts and summaries in Google Docs. Find out how to get started with the following tutorials in this section.   
