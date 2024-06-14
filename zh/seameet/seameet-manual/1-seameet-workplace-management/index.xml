@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工作區管理 on</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/</link><description>Recent content in 工作區管理 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/index.xml" rel="self" type="application/rss+xml"/><item><title>工作區管理員</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/4-seameet-workspace-management/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/4-seameet-workspace-management/</guid><description>關於 SeaMeet 團隊版 # 如果你使用的是SeaMeet團隊版，你的工作區管理員可以設定並管理工作區和各工作區的使用者。如沒有申請更改，管理員是團隊中第一個創建工作區的使用者。
+工作區主管理員 # 建立工作區的用戶帳號將被視為主管理員，該用戶所訂閱的方案將適用於其作為主管理員的所有工作區。若您的團隊有多個不同部門的工作區，希望適用於同個訂閱方案並合併收費，請由要做為主管理員的帳號統一創建各部門的工作區。例如 xxx@gmail.com 建立兩個工作區並訂閱團隊方案，則團隊方案將適用於這兩個工作區。
+※若無法在SeaMeet產品介面更換工作區主管理員，請來信至 seameet@seasalt.ai 通知我們。
+方案人數計算 # 方案人數計算方式為，主管理員擁有的所有工作區將被視為同一個方案計算，其中不重複的帳號總人數即為訂閱方案時的總訂閱授權數。
+例如，xxx@gmail.com將A、B、C、D等4位同事分別邀請至2個工作區中，即便用戶B同時存在於2個工作區，訂閱方案時仍會計算為5位用戶〈含主管理員〉的授權費用，而非6位用戶。</description></item><item><title>設定SeaMeet工作區</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/</guid><description>工作區是您用來管理所有會議、團隊成員與方案的地方。您可以為您的公司、部門或團隊創建一個共用的工作區，即可讓被邀請加入的用戶共同管理所有儲存到這個工作區的會議記錄。
+管理會議 # 會議記錄將儲存到您指定的工作區，不論是未來、進行中或是已完成的會議，都可以在工作區進行管理。
+團隊協作 # 您可以到「工作區設定 ─ 用戶」頁面邀請團隊成員加入工作區，共同瀏覽、編輯會議記錄，您還可以設定不同權限以便更好地管理工作區。
+當您寄出邀請後，受邀的用戶即可用邀請信中的連結註冊登入，並加入您邀請的工作區。
+用戶權限分為「管理員」、「成員」兩種 管理員 可閱覽所有工作區中的會議 可刪除會議 可邀請用戶進入該工作區，並賦予任何權限 可移除用戶 成員 預設為可閱覽所有工作區中的會議，但可調整為僅能閱覽個人會議 不可刪除會議 可邀請用戶進入該工作區，但僅能邀請為「成員」 不可移除用戶 方案 # 如果您希望擁有更多逐字稿時數或進階功能，歡迎升級工作區方案或聯繫我們的客服人員 &amp;lt; email: seameet@seasalt.ai &amp;gt;，我們會很樂於提供協助。
+建立新工作區 # 如果您希望建立多個工作區以供不同單位使用，您可以點擊畫面右上方的「工作區清單」。
+並在「工作區清單」點選「建立」，即可開始建立新工作區。
+刪除會議 # 目前僅供「管理員」權限的用戶刪除會議，您可以點擊會議標題旁的「&amp;hellip;」以刪除會議
+點擊「刪除」確認刪除會議
+預設會議語言與儲存工作區 # 點擊「個人設定—會議設定」，即可設定您個人的會議預設語言以及預設工作區。
+預設語言
+這是您在Google行事曆提前建立「未來會議」時，會採用的預設語言。
+您依然可以到個別會議中，調整其會議所要採用的記錄語言。
+預設工作區</description></item></channel></rss>

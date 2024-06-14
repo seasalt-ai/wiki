@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SeaMeet 說明書 on</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/</link><description>Recent content in SeaMeet 說明書 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/index.xml" rel="self" type="application/rss+xml"/><item><title>快速上手 SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</guid><description> 邀請 SeaMeet 機器人記錄會議 # 邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
 方法ㄧ：使用 SeaMeet 擴充程式邀請 # 到Chrome應用程式商店安裝SeaMeet擴充程式 安裝後開啟Google Meet，就會自動開啟程式 點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議 方法二：在 SeaMeet 會議清單「開始新會議記錄」 # 按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中 方法三：在 Google 日曆寄送邀請 # 在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議 查看會議記錄 # 當您邀請 SeaMeet Copilot 加入會議時，它會在您的工作區會議清單中創建一個會議。 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
-查看會議工作區 # 你可以登入SeaMeet後，在會議工作區查看所有歷史、正在進行中、以及未來的會議紀錄，並在工作區管理團隊成員。</description></item><item><title>轉錄會議</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/03-seameet-how-to-invite-seameet/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/03-seameet-how-to-invite-seameet/</guid><description>邀請機器人記錄會議 # SeaMeet是一款協助自動生成線上會議記錄的AI工具，只要將機器人邀請至會議室中，即可自動記錄會議。目前SeaMeet主要支援Google Meet平台。SeaMeet支援多種機器人邀請方式，您可以從三種方式中選擇一種進行邀請：
-1. 工作區邀請 # 按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中 2. SeaMeet擴充程式邀請 # 到Chrome應用程式商店安裝擴充程式，Edge也可以使用。
-https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn
-安裝後開啟Google Meet，就會自動開啟程式
-點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議 3. Google日曆邀請 # 在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議</description></item><item><title>註冊SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid><description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
-點擊登入註冊 # 1. 點擊官網登入按鈕 # 2. 點選「用Google帳號登入」 # 3. 選擇您希望註冊的Google帳號 # 4. 開始註冊登入流程 #</description></item><item><title>工作區管理員</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-2-seameet-workspace-management/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-2-seameet-workspace-management/</guid><description>關於 SeaMeet 團隊版 # 如果你使用的是SeaMeet團隊版，你的工作區管理員可以設定並管理工作區和各工作區的使用者。如沒有申請更改，管理員是團隊中第一個創建工作區的使用者。
-工作區主管理員 # 建立工作區的用戶帳號將被視為主管理員，該用戶所訂閱的方案將適用於其作為主管理員的所有工作區。若您的團隊有多個不同部門的工作區，希望適用於同個訂閱方案並合併收費，請由要做為主管理員的帳號統一創建各部門的工作區。例如 xxx@gmail.com 建立兩個工作區並訂閱團隊方案，則團隊方案將適用於這兩個工作區。
-※若無法在SeaMeet產品介面更換工作區主管理員，請來信至 seameet@seasalt.ai 通知我們。
-方案人數計算 # 方案人數計算方式為，主管理員擁有的所有工作區將被視為同一個方案計算，其中不重複的帳號總人數即為訂閱方案時的總訂閱授權數。
-例如，xxx@gmail.com將A、B、C、D等4位同事分別邀請至2個工作區中，即便用戶B同時存在於2個工作區，訂閱方案時仍會計算為5位用戶〈含主管理員〉的授權費用，而非6位用戶。</description></item><item><title>設定SeaMeet工作區</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-seameet-workspace/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/05-seameet-workspace/</guid><description>工作區是您用來管理所有會議、團隊成員與方案的地方。您可以為您的公司、部門或團隊創建一個共用的工作區，即可讓被邀請加入的用戶共同管理所有儲存到這個工作區的會議記錄。
-管理會議 # 會議記錄將儲存到您指定的工作區，不論是未來、進行中或是已完成的會議，都可以在工作區進行管理。
-團隊協作 # 您可以到「工作區設定 ─ 用戶」頁面邀請團隊成員加入工作區，共同瀏覽、編輯會議記錄，您還可以設定不同權限以便更好地管理工作區。
-當您寄出邀請後，受邀的用戶即可用邀請信中的連結註冊登入，並加入您邀請的工作區。
-用戶權限分為「管理員」、「成員」兩種 管理員 可閱覽所有工作區中的會議 可刪除會議 可邀請用戶進入該工作區，並賦予任何權限 可移除用戶 成員 預設為可閱覽所有工作區中的會議，但可調整為僅能閱覽個人會議 不可刪除會議 可邀請用戶進入該工作區，但僅能邀請為「成員」 不可移除用戶 方案 # 如果您希望擁有更多逐字稿時數或進階功能，歡迎升級工作區方案或聯繫我們的客服人員 &amp;lt; email: seameet@seasalt.ai &amp;gt;，我們會很樂於提供協助。
-建立新工作區 # 如果您希望建立多個工作區以供不同單位使用，您可以點擊畫面右上方的「工作區清單」。
-並在「工作區清單」點選「建立」，即可開始建立新工作區。
-刪除會議 # 目前僅供「管理員」權限的用戶刪除會議，您可以點擊會議標題旁的「&amp;hellip;」以刪除會議
-點擊「刪除」確認刪除會議
-預設會議語言與儲存工作區 # 點擊「個人設定—會議設定」，即可設定您個人的會議預設語言以及預設工作區。
-預設語言
-這是您在Google行事曆提前建立「未來會議」時，會採用的預設語言。
-您依然可以到個別會議中，調整其會議所要採用的記錄語言。
-預設工作區</description></item><item><title>查看會議紀錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/06-seameet-view-meeting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/06-seameet-view-meeting/</guid><description>邀請機器人加入會議，邀請後會議記錄將自動儲存到您的SeaMeet工作區中以供檢視。
-瀏覽會議記錄 # 點選「會議清單」頁面後，即可看到目前已記錄、進行中，以及即將紀錄的會議清單
-點擊會議標題即可瀏覽會議記錄
-若您尚未同意機器人加入Google Meet會議室，您將看到這則通知訊息。
-允許機器人進入會議室
-現在，讓我們到Google Meet中允許機器人加入會議室。
-機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
-在會議過程中，AI會每隔一段時間自動從對話中摘取會議摘要、待辦事項和討論主題。</description></item><item><title>使用會議逐字稿和AI會議分析</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/07-seameet-meeting-analytics/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/07-seameet-meeting-analytics/</guid><description>機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
-在會議過程中，AI會每隔一段時間自動從對話中摘取會議摘要、待辦事項和討論主題。
-1. 會議摘要 # 2. 待辦事項 # 3. 討論主題 # 4. 團隊筆記 # 除了AI筆記之外，團隊也可以在共同編輯的團隊筆記中寫下其他想記錄的內容，例如會議議程、決議事項等等。</description></item><item><title>切換會議語言</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/08-seameet-language-setting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/08-seameet-language-setting/</guid><description>SeaMeet目前支援中文(繁體)、英文，以及自動偵測語言等三種模式，您可以在會議開始前或會議進行中隨時切換會議記錄語言
-切換預設轉錄語言 # 點選「個人設定 ─ 會議設定」頁面 設定您的帳號未來邀請機器人進行會議記錄時，所預設的會議記錄語言 開始「預約會議」的會議記錄時，即可看到預設記錄語言已經改變 切換個別會議記錄語言 # 進入個別會議頁面，並點選「選擇目前的會議語言」 從選單中選擇另一個預計使用的會議紀錄語言 選擇後即可以新模型進行記錄</description></item><item><title>播放會議錄音</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/09-seameet-recording/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/09-seameet-recording/</guid><description>您可以播放每場會議的會議錄音
-播放整場會議錄音 # 點擊會議頁下方的播放條，即可重播該場會議的完整錄音 您可以選擇任意拖動錄音條，快轉10秒、暫停/播放、倒轉10秒等功能 目前播放的段落將於逐字稿上加亮顯示 播放個別對話段落 # 當滑鼠懸空於一段逐字稿上時，將出現播放鈕 點擊後即可播放對應段落的逐字稿</description></item><item><title>自動分享會議記錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/10-seameet-sharing/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/10-seameet-sharing/</guid><description>您可以在「工作區設定」的「常用設定」調整自動分享會議記錄的發送對象。
-常用設定
-您可以在「常用設定」中設定自動分享功能，目前SeaMeet提供三種選項：
-只分享給自己
-當您作為邀請者邀請機器人記錄的會議結束後，系統會自動發一封信到您的信箱。
-分享給所有行事曆與會者
-當您邀請機器人轉錄的會議結束後，系統會自動發一封信到所有Google行事曆上受邀參加這個會議的與會者。
-不自動分享給任何人 〈包括自己〉
-會議結束後將不會發送任何會議記錄。
-如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。</description></item></channel></rss>
+查看會議工作區 # 你可以登入SeaMeet後，在會議工作區查看所有歷史、正在進行中、以及未來的會議紀錄，並在工作區管理團隊成員。</description></item><item><title>如何訂閱方案</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/17-seameet-subscription-how-to/</link><pubDate>Wed, 22 May 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/17-seameet-subscription-how-to/</guid><description>1. 註冊並登入 SeaMeet 產品 # 登入SeaMeet並馬上開始使用。如果您尚未註冊，請參考這裡進行註冊。
+2. 方案與帳務 # 登入後，在左側選單中找到並點擊「方案與帳務」頁面。
+3. 編輯方案 # 進入「方案」頁後，點擊「編輯方案」按鈕以查看可用的訂閱方案。
+4. 選擇您所要選用的方案 # 根據您的需求，選擇最適合的訂閱方案。方案說明可以參考以下連結。或直接在SeaMeet介面上了解。
+5. 選擇「確認訂閱」，並完成付款流程 # 確認所選方案無誤後，點擊「確認訂閱」，然後按照指示完成付款流程。</description></item><item><title>註冊SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid><description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
+點擊登入註冊 # 1. 點擊官網登入按鈕 # 2. 點選「用Google帳號登入」 # 3. 選擇您希望註冊的Google帳號 # 4. 開始註冊登入流程 #</description></item><item><title>FAQ - SeaMeet 常見問題集</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</guid><description>1. 我該怎麼開始會議轉錄？ # 您可以在Google日曆或Google Meet中，邀請SeaMeet機器人加入會議。當會議開始後，機器人會自動加入會議並開始轉錄。
+2. SeaMeet支援哪些會議平台？ # SeaMeet目前支援轉錄Google Meet進行的會議，未來將支援更多會議平台。
+3. SeaMeet支援哪些語言？ # SeaMeet目前支援轉錄中文、英文會議，未來將逐步擴大支援其他語言。
+4. 我可以和我的團隊成員一起協作嗎？ # 當然可以，只要將您的團隊成員邀請至您的工作區中，即可看到共用工作區的所有會議，並可共同編輯會議記錄。
+5. 什麼是工作區？ # 工作區是您用來管理所有會議、團隊成員與方案的工作區。
+5-1. 如何在工作區管理會議？ # 任何轉錄的會議記錄都會被儲存到工作區，不論是未來、進行中、已完成的會議，都可以在工作區進行管理。
+5-2. 如何在工作區團隊協作? # 您可以邀請團隊成員加入工作區，共同瀏覽、編輯會議記錄，您還可以設定不同權限以便更好地管理工作區。
+5-3. 如何選擇方案？ # 如果您希望擁有更多轉錄時數或進階功能，歡迎升級工作區方案或聯繫我們的客服人員&amp;lt; email: seameet@seasalt.ai &amp;gt;，我們會很樂於提供協助。
+6. 我該如何登入SeaMeet？ # 您可以使用您的Google帳號登入SeaMeet，或者使用電子信箱進行註冊。
+7. 我能否編輯已經記錄好的逐字稿？ # 您可以使用輸出成Google Docs的功能進行編輯。SeaMeet會議頁目前暫時不允許編輯，預計近期會再支援相關功能
+8. 我能否下載會議錄音檔？ # 目前暫不允許下載會議錄音檔
+9. SeaMeet目前是否支援實體會議？能否更換說話人？ # 您可以在實體會議中使用一台電腦開啟Google Meet進行會議記錄，但目前尚未提供更換說話人等實體會議功能，預計2024 Q1將提供
+10. 如果我有多個工作區，我可以分開存放到不同工作區嗎？能否切換語言？ # 如果是在Google行事曆上預約會議，會依照「個人設定—會議設定」中的預設語言以及預設工作區決定您存放的位置以及語言。若是使用Chrome應用程式邀請，可以指定要存放到哪個工作區。</description></item><item><title>提供反饋</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</guid><description>對操作方式有不解之處，隨時可以點擊SeaMeet左下角「如何使用」來教學手冊查看教學文章和影片。
+有更多疑問？想提供反饋意見？ # 若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 &amp;lt; email: seameet@seasalt.ai &amp;gt; 說明需求或問題。 SeaMeet團隊將會在最遲24-48小時內回覆。</description></item></channel></rss>
