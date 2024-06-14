@@ -144,4 +144,4 @@ Currently, we do not support setting an activation time for the AI Agent to star
 
 ### Can I see the response of the AI Agent in the LINE chat?
 
-Yes, you can see the response of the AI Agent in the LINE chat. However, we recommend using SeaChat's conversation platform to have a better overview and control of all the conversations.
+Yes, you can see both the agent's and live agent's responses. You will have a complete overview of the chat. However, we recommend using SeaChat's conversation platform to have a better overview and control of all the conversations.
