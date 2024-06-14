@@ -84,4 +84,4 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
     <p style="margin-top: 20px; font-size: 15px">URL 已新增到助理的答案中</p>
 </div>
 
-在 SeaChat 助理的知識庫中還有更多高級功能，您可以利用這些功能來優化助理的回應。請查看我們的[高級功能](/zh/seachat/seachat-manual/03-add-knowledge/09-advanced-features/)教程，以了解有關這些功能的更多信息。
+在 SeaChat 助理的知識庫中還有更多進階功能，您可以利用這些功能來優化助理的回應。請查看我們的[進階功能](/zh/seachat/seachat-manual/03-add-knowledge/09-advanced-features/)教學，以了解有關這些功能的更多信息。

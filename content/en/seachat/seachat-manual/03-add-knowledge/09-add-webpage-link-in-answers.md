@@ -93,4 +93,4 @@ Once there is information in the knowledge base, the agent will start using this
 </div>
 
 
-There are a more advanced features in SeaChat agents' knowledge base that you can leverage to optimize your agent's responses. Check out our tutorials on [Advanced Features](/en/seachat/seachat-manual/03-add-knowledge/09-advanced-features/) to learn more about these functionalities.
+There are more advanced features in SeaChat agents' knowledge base that you can leverage to optimize your agent's responses. Check out our tutorials on [Advanced Features](/en/seachat/seachat-manual/03-add-knowledge/09-advanced-features/) to learn more about these functionalities.
