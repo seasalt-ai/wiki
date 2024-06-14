@@ -29,7 +29,7 @@ You can include relevant reference URLs in the AI assistant's responses, allowin
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/new-kb-ui.png" alt="image showcasing how to write an agent description">
     </a>
 </div>
-    <p style="margin-top: 20px; font-size: 15px">Additional Setting in Manual Entry</p>
+    <p style="margin-top: 20px; font-size: 15px">Knowledge Setting</p>
 </div>
 
 ## [Additional Settings in Knowledge Base](#additional-setting-ui)
@@ -50,6 +50,17 @@ Make sure to provide a clear **Document Title** for the agent to retrieve the kn
 Now the AI agent will remember to attach the URL button in its response every time it retrieves this piece of information from the knowledge base.
 
 ## [Buttons](#additional-setting-ui)
+
+SeaChat Provides different ways to add additional information to the agent's response. Choose the **Buttons** option to add a URL button to the agent's response.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/choose-button.png" target="_blank">
+    <img width="70%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/choose-button.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Choose <strong>Button</strong></p>
+</div>
 
 The URL you provide here will be displayed as a button in the chat window. When the user clicks on the button, they will be redirected to the URL you have provided. Put the label that you wish to show your user in the **Title** and provide the URL in the **Content** field. You can add as many buttons as you want to the answer by simply clicking on the Plus(Add) sign.
 

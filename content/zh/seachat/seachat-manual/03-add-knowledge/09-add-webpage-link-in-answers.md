@@ -21,7 +21,7 @@ toc: true
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/new-kb-ui.png" alt="展示如何撰寫代理描述的圖像">
     </a>
 </div>
-    <p style="margin-top: 20px; font-size: 15px">手動輸入中的附加設置</p>
+    <p style="margin-top: 20px; font-size: 15px">知識附加設置</p>
 </div>
 
 ## [知識庫中的其他設置](#additional-setting-ui)
@@ -42,6 +42,17 @@ toc: true
 現在，每當 AI 助理從知識庫檢索這些信息時，它將記得在其回應中附上 URL 按鈕。
 
 ## [按鈕](#additional-setting-ui)
+
+SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選擇「按鈕」選項，將 URL 按鈕添加到助理的回應中。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/choose-button.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/choose-button.png" alt="展示如何撰寫代理描述的圖像">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px"> 選擇按鈕類型</p>
+</div>
 
 您在這裡提供的 URL 將作為按鈕顯示在聊天窗口中。當用戶點擊該按鈕時，他們將被重定向到您提供的 URL。在 **標題** 中放入您希望顯示給用戶的標籤，並在 **內容** 欄位中提供 URL。您可以通過簡單地點擊加號（新增）按鈕來將任意多個按鈕新增到答案中。
 
