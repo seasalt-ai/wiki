@@ -8,5 +8,5 @@ weight: 30
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-intro/03-add-knowledge/
+  - /zh/seachat/seachat-manual/03-add-knowledge/
 ---
