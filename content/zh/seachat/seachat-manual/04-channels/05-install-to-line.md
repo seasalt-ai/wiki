@@ -115,3 +115,26 @@ toc: true
 [LINE的AI自動回覆功能](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/)將在2024年5月停止服務。
 
 如果你還在使用AI自動回覆功能，需要盡快安排替代方案。
+
+## 🔖 常見問題
+
+### 客戶如何知道真人客服已經離開聊天？
+
+當真人客服結束對話後，他/她可以點擊 **完成** 按鈕。客戶會看到一條消息，告訴他們「真人客服已完成對話」。
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/faq-1.png" target="_blank">
+<img height="50%" width="100%" src="/images/seachat-channels/line/faq-1.png" alt="LINE text messages you can rely on SeaChat">
+</a>
+
+</center>
+<br/>
+
+### 我可以設定指定運作時間讓我的 AI 助理自動開始對話嗎？
+
+目前，我們不支持設定指定運作時間來讓 AI 助理自動開始對話。不過，您可以在完成對話後，通過點擊 **完成** 按鈕來輕鬆啟動 AI 助理。請參考我們真人客服的[教學](/zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer)。
+
+### 我可以在 LINE 聊天中看到 AI 助理的回應嗎？
+
+當然可以，您不只可以在 LINE 聊天中看到 AI 助理的回應，真人助理的回應也看得到！不過，我們建議使用 SeaChat 的對話平台，以便更好地瀏覽和控制所有對話。

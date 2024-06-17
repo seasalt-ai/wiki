@@ -122,3 +122,26 @@ You can use SeaChat as an AI assistant providing useful information, capable of 
 [LINE's AI auto-response function](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/) will be discontinued in May 2024.
 
 If you are still using the AI auto-response function, make sure to arrange alternative solutions soon.
+
+## 🔖 FAQ
+
+### How do the customers know that the Live Agent has left the chat?
+
+When the Live Agent finishes a conversation, he/she can click on the **Complete** button. The customer will see a message saying that **the Live Agent has left the conversation.**
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/channels/line/faq-1.png" target="_blank">
+<img height="50%" width="100%" src="/images/seachat/en/channels/line/faq-1.png" alt="LINE text messages you can rely on SeaChat">
+</a>
+
+</center>
+<br/>
+
+### Can I set an activation time for my AI Agent to start the conversation automatically? 
+
+Currently, we do not support setting an activation time for the AI Agent to start the conversation automatically. However, you can easily turn on the AI Agent by clicking on **Complete** button in a conversation once you have finished your conversation. Refer to our [tutorial](/en/seachat/seachat-manual/02-create-agent/02-live-agent-transfer) for more information.
+
+### Can I see the response of the AI Agent in the LINE chat?
+
+Yes, you can see both the agent's and live agent's responses. You will have a complete overview of the chat. However, we recommend using SeaChat's conversation platform to have a better overview and control of all the conversations.
