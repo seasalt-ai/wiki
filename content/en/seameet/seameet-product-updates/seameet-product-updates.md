@@ -15,6 +15,17 @@ weight: 101
 toc: true
 ---
 
+### 06/13/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>** 
+- Added "Change Speaker" feature - Adjust the speaker when multiple users using one Google Meet account to speak in a meeting.
+- Updated "Free Plan" hours calculation - The 6-hour limit no longer resets monthly. Each account on the free plan has a total of 6 hours available. "Individual Plan" and "Team Plan" remain unaffected, with monthly resets.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue where "Create New Meeting" button saved to a different workspace - Meetings were being saved to other workspaces you own.
+- Resolved the issue where pressing Enter to "Create New Meeting" was unresponsive in some scenarios.
+- Fixed "Delete Meeting" causing usage calculation inaccuracies.
+
+
 ### 06/06/2024
 ##### **<font color="#739963">New Features and Performance Optimization</font>** 
 - Adjust the number of concurrent meetings supported by SeaMeet, update database frequency and sync speed, and implement error handling for re-join entries.
