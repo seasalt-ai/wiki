@@ -15,7 +15,13 @@ weight: 104
 toc: true
 ---
 
+### 06/13/2024
+##### **<font color="#739963">New Feature</font>** 
+- Added "Members" sorting functionality - Sort by account email, username, permissions, etc.
+
+
 ### 06/06/2024
+##### **<font color="#739963">New Feature</font>** 
 - Help Desk - Users can chat with the support bot anytime for assistance.
 - Contact Support - Users can book support sessions via Hubspot for help.
 - WhatsApp Fix - Users can edit phone numbers on the contact page.

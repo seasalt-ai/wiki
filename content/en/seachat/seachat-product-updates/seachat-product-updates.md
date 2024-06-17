@@ -15,6 +15,12 @@ weight: 101
 toc: true
 ---
 
+### 06/13/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Supports LINE card messages and button messages, enriching your conversations.
+- Enhanced User Experience: Improved behavior of adding buttons to lists.
+- Message Response Support: Supports URL and Markdown formats.
+
 ### 06/06/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
 - Interface Adjustment: Added design styles to AI Agent information, allowing you to better design the dialogue interface.
