@@ -56,6 +56,9 @@ smallLimit = "300"
 # Footer
 footer = "Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎"
 
+# Custom js
+custom_js = ["js/custom.js", "js/widget.js"]
+
 # Feed
 copyRight = "Copyright (c) 2020-Today Seasalt.ai"
 
