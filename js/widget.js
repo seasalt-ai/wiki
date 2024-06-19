@@ -30,17 +30,17 @@ const bindWidgets = (() => {
         const handleWidgetBtnClick = () => {
             const widgetIcons = selectAll(".widget-btn");
 
-            if (widgetBtn.className == "close") {
+            if (widgetBtn.className == "is-closed") {
                 widgetIcons?.forEach((div) => {
                     div?.classList?.remove('show');
                 })
-                widgetBtn.classList.remove("close");
+                widgetBtn.classList.remove("is-closed");
                 select("#sui-webchat").style.display = "none";
             } else {
                 widgetIcons?.forEach((div) => {
                     div?.classList?.add('show');
                 })
-                widgetBtn.classList.add("close");
+                widgetBtn.classList.add("is-closed");
             }
         };
 
