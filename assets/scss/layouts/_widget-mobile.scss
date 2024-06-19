@@ -1,4 +1,4 @@
-$mobileIconWidgetBottomSize: 60px;
+$mobileIconWidgetBottomSize: 20px;
 $mobileIconBottomSize: 56px;
 $mobileIconLineBottomSize: calc(
   #{$mobileIconWidgetBottomSize} + #{$mobileIconBottomSize} + 80px
@@ -53,14 +53,13 @@ $mobileIconWebChatBottomSize: calc(
 
     &.show-iframe {
       display: block;
-      bottom: 60px;
-      z-index: 9981;
+      bottom: $mobileIconWidgetBottomSize;
+      z-index: 981;
     }
   }
 
   #sui-webchat {
     right: 50%;
-    transform: translate(50%, -10%);
-    bottom: 60px;
+    transform: translate(50%, -4%);
   }
 }

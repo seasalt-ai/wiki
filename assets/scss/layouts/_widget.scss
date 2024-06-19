@@ -18,7 +18,7 @@ $landingIconWhatsappBottomSize: calc(
   width: 56px;
   height: 56px;
   right: 16px;
-  z-index: 9970;
+  z-index: 980;
   border: none;
   border-radius: 50%;
   box-shadow: 1px 2px 8px 0px #000;
@@ -58,9 +58,9 @@ $landingIconWhatsappBottomSize: calc(
   background: 50%/24px no-repeat
     url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-widget.svg);
   background-size: cover;
-  z-index: 9980;
+  z-index: 980;
 
-  &.close {
+  &.is-closed {
     background: 50%/24px no-repeat
       url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg) #fff;
     background-size: cover;
@@ -83,7 +83,7 @@ $landingIconWhatsappBottomSize: calc(
   border: none;
   border-radius: 50%;
   box-shadow: 1px 2px 8px 0px #000;
-  z-index: 9980;
+  z-index: 980;
   cursor: pointer;
 }
 
@@ -99,5 +99,5 @@ $landingIconWhatsappBottomSize: calc(
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
-  z-index: 9980;
+  z-index: 980;
 }
