@@ -1,6 +1,10 @@
 <footer class="footer text-muted">
   <p style="text-align: center;">{{ .Site.Params.footer | safeHTML }}</p>
-  <button id="sui-webchat-btn"></button>
+  {{ partial "partials/footer/widget.html" . }}
+  {{ range .Site.Params.custom_js }}
+    <script src="{{ . | absURL }}"></script>
+  {{ end }}  
+  <!-- <button id="sui-webchat-btn"></button>
   <iframe id="sui-webchat" src=""></iframe>
   <style>
     #sui-webchat-btn {
@@ -58,7 +62,7 @@
       }
     }
     button.addEventListener('click', handleClick);
-  </script>
+  </script> -->
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
