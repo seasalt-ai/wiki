@@ -66,6 +66,20 @@ Once you have successfully connected your device, head back to **Channels** unde
 
 Simply go to **Conversations** in the sidebar menu and start chatting with your customers on WhatsApp. You can now leverage the power of SeaX Messaging to engage with your customers on WhatsApp utilizing tools such as campaigns and bulk messages.
 
+## Multiple WhatsApp Accounts
+
+If you have multiple WhatsApp business accounts, you can connect them to SeaX Messaging by clicking on **Add Account** in the **WhatsApp** section the **Channels**. Follow the same steps above to connect your additional WhatsApp accounts to SeaX Messaging.
+
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" alt="">
+</a>
+
+*Add Multiple WhatsApp Accounts*
+</center>
+
 ## :dart: Troubleshooting
 
 - Connection Issue: If your account failed to connect to WhatsApp after you logged in, please try to reconnect your device to WhatsApp Business App by clicking on **Reconnect** in the **WhatsApp Business App** dashboard.
@@ -73,7 +87,7 @@ Simply go to **Conversations** in the sidebar menu and start chatting with your 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/reconnect-app.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="">
 </a>
 
 *Reconnect App*
