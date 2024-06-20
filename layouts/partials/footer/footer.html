@@ -3,67 +3,7 @@
   {{ partial "partials/footer/widget.html" . }}
   {{ range .Site.Params.custom_js }}
     <script src="{{ . | absURL }}"></script>
-  {{ end }}  
-  <!-- <button id="sui-webchat-btn"></button>
-  <iframe id="sui-webchat" src=""></iframe>
-  <style>
-    #sui-webchat-btn {
-      position: fixed;
-      display: block;
-      width: 56px;
-      height: 56px;
-      bottom: 16px;
-      right: 16px;
-      padding: 0;
-      font-size: 0;
-      color: transparent;
-      background: 50%/24px no-repeat url(https://ngchat-api-dev.s3.us-west-2.amazonaws.com/icon-chat.gif) #19b9c3;
-      background-size: cover;
-      border: none;
-      border-radius: 50%;
-      box-shadow: 1px 2px 8px 0px #000;
-      z-index: 9999;
-      cursor: pointer;
-    }
-
-    #sui-webchat {
-      position: fixed;
-      display: none;
-      width: 30%;
-      min-width: 375px;
-      height: 500px;
-      bottom: 80px;
-      right: 80px;
-      margin-top: 24px;
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
-      z-index: 9998;
-    }
-
-    @media only screen and (max-width: 460px) {
-      #sui-webchat {
-        right: 50%;
-        transform: translate(50%, 0%)
-      }
-    }
-  </style>
-  <script>
-    const button = document.querySelector('#sui-webchat-btn')
-    const iframe = document.querySelector('#sui-webchat')
-    const handleClick = () => {
-      if (iframe.src !== "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93") {
-        iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
-      }
-      if (iframe.style.display !== 'block') {
-        iframe.style.display = 'block';
-      } else {
-        iframe.style.display = 'none';
-      }
-    }
-    button.addEventListener('click', handleClick);
-  </script> -->
-
+  {{ end }}
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
