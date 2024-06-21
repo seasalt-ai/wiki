@@ -1,5 +1,5 @@
 ---
-title: "Adding buttons to KB responses"
+title: "Adding URL buttons to KB responses"
 description: "Learn how to add reference URLs to SeaChat AI assistant answers to provide more detailed information  to users. This guide will walk you through adding URLs in the 'Existing Knowledge' page, enriching AI assistant interactions. Included YouTube video tutorials will demonstrate this process in detail, ensuring easy comprehension and implementation of these enhancements. By adding URLs, your AI assistant will be able to offer more comprehensive customer support, enhancing user experience."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-05-29T08:48:57+00:00
@@ -92,5 +92,34 @@ Once there is information in the knowledge base, the agent will start using this
     <p style="margin-top: 20px; font-size: 15px">URLs added to Agent's Answer</p>
 </div>
 
+## URL Buttons from Spreadsheets
+
+You can also add URL buttons to your agent's responses using a spreadsheet. When you are adding knowledge using a spreadsheet to upload a large amount of information, it can be difficult to add reference buttons to each knowledge manually. Don't worry. SeaChat has a solution for you. 
+
+By adding an addtional column called **seachat_ref** in your spreadsheet, you agent will automatically extract information to add URL buttons to the agent's responses.
+
+| seachat_ref      ||
+|------------------|-|
+| button text |
+|button value |
+|                  |
+
+Since the agent will look into this particular column, we need to make sure that we use the correct variables to help the agent understand the information.
+
+**Please make sure to follow the format below to ensure the agent can extract the information correctly:**
+
+In each row of the **seachat_ref** column, your AI agent will look for two pieces of information: <code>button text</code> (line1) and <code>button value</code> (line2). The following is what your seachat_ref column should look like:
+
+```
+"User Manual Wiki" --- line 1
+"https://user-manual-wiki.com" --- line 2
+```
+
+> 🚨Attention🚨
+> 
+> If the button value is not a URL, e.g. some text, 2 paragraphs, or 3 URLs in 3 lines, the button will show the entire content of button value when clicked.
+> 
+
+<br/>
 
 There are more advanced features in SeaChat agents' knowledge base that you can leverage to optimize your agent's responses. Check out our tutorials on [Advanced Features](/en/seachat/seachat-manual/03-add-knowledge/09-advanced-features/) to learn more about these functionalities.
