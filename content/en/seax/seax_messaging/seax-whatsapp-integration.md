@@ -68,7 +68,9 @@ Simply go to **Conversations** in the sidebar menu and start chatting with your 
 
 ## Multiple WhatsApp Accounts
 
-If you have multiple WhatsApp business accounts, you can connect them to SeaX Messaging by clicking on **Add Account** in the **WhatsApp** section the **Channels**. Follow the same steps above to connect your additional WhatsApp accounts to SeaX Messaging.
+For business that have multiple Whatsapp business accounts, you will find this feature to be particularly useful as it allows you to collect all your business channels in one place. 
+
+You can connect them to SeaX Messaging by clicking on **Add Account** in the **WhatsApp** section the **Channels**. Follow the same steps above to connect your additional WhatsApp accounts to SeaX Messaging.
 
 
 <br/>
@@ -78,6 +80,30 @@ If you have multiple WhatsApp business accounts, you can connect them to SeaX Me
 </a>
 
 *Add Multiple WhatsApp Accounts*
+</center>
+
+
+
+Once all the accounts are connected, you can manage all your business channels from SMS to WhatsApp in one place. Let's go to **Number** section by clicking on the **Number Settings** in the dropdown menu right next to your avatar. 
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" target="_blank">
+<img width="50%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" alt="">
+</a>
+
+*Number Settings*
+</center>
+
+Not only can you edit all your connected accounts here, but you can also have a much better overview of all your connected accounts thanks to the detailed information and labeling provided the **Number** table.
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/number-dashboard.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-dashboard.png" alt="">
+</a>
+
+*Find Connect Numbers*
 </center>
 
 ## :dart: Troubleshooting

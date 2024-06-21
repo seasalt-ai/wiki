@@ -68,16 +68,44 @@ SeaX Messaging 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連
 
 ## 多個 WhatsApp 帳戶
 
+對於擁有多個 WhatsApp 商業帳號的企業，這個功能特別有用，因為它允許您將所有商業渠道集中在一個地方管理。
+
 如果您有多個 WhatsApp 商業帳戶，您可以在 **頻道** 中的 **WhatsApp** 部分點擊 **新增帳戶** 將它們連接到 SeaX Messaging。按照上述相同的步驟將其他 WhatsApp 帳戶連接到 SeaX Messaging。
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/zh/whatsapp-integration/multiple-whatsapp-accounts.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/zh/whatsapp-integration/multiple-whatsapp-accounts.png" alt="">
 </a>
 
 *新增多個 WhatsApp 帳戶*
 </center>
+
+所有帳號連接完成後，您可以在一個地方管理所有商業渠道，從 SMS 到 WhatsApp。通過點擊頭像旁邊的下拉選單中的 **電話號碼設定** 進入 **號碼** 部分。
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/zh/whatsapp-integration/number-settings-shortcut.png" target="_blank">
+<img width="50%" style="border-radius: 0.4rem" src="/images/seax/zh/whatsapp-integration/number-settings-shortcut.png" alt="">
+</a>
+
+*電話號碼設定*
+</center>
+
+在這裡，您不僅可以編輯所有連接的帳號，還可以通過 **號碼** 提供的詳細信息和標籤，獲得所有連接帳號的資訊。
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/zh/whatsapp-integration/number-dashboard.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/zh/whatsapp-integration/number-dashboard.png" alt="">
+</a>
+
+*所有連接的號碼*
+</center>
+
+
+<br/>
+
 
 ## :dart: 疑難排解
 
