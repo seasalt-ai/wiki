@@ -2,15 +2,14 @@
 title: "WhatsApp Business"
 description: "Learn how to seamlessly integrate WhatsApp with SeaX Messaging through our comprehensive guide. Connect with your customers on WhatsApp and unlock the full potential of SeaX Messaging for engaging campaigns, bulk messages, and personalized interactions. Follow our step-by-step instructions to establish a strong presence on WhatsApp and enhance your customer engagement strategy today!"
 date: 2024-05-02T08:48:57+00:00
-lastmod: 2024-05-08T08:48:57+00:00
+lastmod: 2024-06-24T08:48:57+00:00
 draft: false
 images: []
 menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-  - /en/seachat/seachat-integrations/messenger/
-  - /seachat/seachat-integrations/messenger/
+  - /zh/seax/seax_messaging/seax-whatsapp-integration/
 weight: 60
 toc: true
 ---
@@ -68,9 +67,12 @@ SeaX Messaging 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連
 
 ## 多個 WhatsApp 帳戶
 
-對於擁有多個 WhatsApp 商業帳號的企業，這個功能特別有用，因為它允許您將所有商業渠道集中在一個地方管理。
+對於擁有多個 WhatsApp 商業帳號的企業，您會發現這個功能特別有用，因為它允許您在一個地方收集所有帳號。
 
-如果您有多個 WhatsApp 商業帳戶，您可以在 **頻道** 中的 **WhatsApp** 部分點擊 **新增帳戶** 將它們連接到 SeaX Messaging。按照上述相同的步驟將其他 WhatsApp 帳戶連接到 SeaX Messaging。
+傳統上，WhatsApp 商業應用程式只允許您登錄 4 台設備，這意味著最多只有 4 人可以在 WhatsApp 商業應用程式中聊天。然而，使用 SeaX Messaging，您可以將任意多的 WhatsApp 商業帳號連接到 SeaX Messaging。
+
+您可以在 **頻道** 的 **WhatsApp** 部分點擊 **新增帳戶** 將它們連接到 SeaX Messaging。按照上述相同的步驟將其他 WhatsApp 帳號連接到 SeaX Messaging。
+
 
 <br/>
 <center>
@@ -81,7 +83,7 @@ SeaX Messaging 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連
 *新增多個 WhatsApp 帳戶*
 </center>
 
-所有帳號連接完成後，您可以在一個地方管理所有商業渠道，從 SMS 到 WhatsApp。通過點擊頭像旁邊的下拉選單中的 **電話號碼設定** 進入 **號碼** 部分。
+一旦所有帳號都連接完畢，請點擊頭像旁的下拉選單中的 **電話號碼設定** 進入 **號碼** 部分。
 
 <br/>
 <center>
@@ -102,6 +104,8 @@ SeaX Messaging 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連
 
 *所有連接的號碼*
 </center>
+
+從 SMS 到 WhatsApp，您可以將不同的助理分配到不同的 WhatsApp 帳號或號碼，這些都可以在 SeaX Messaging 的單一用戶界面中管理。您不再需要在不同的設備或帳號之間切換來管理您的業務通道，也不需要擔心 WhatsApp Business App 的設備連接限制。
 
 
 <br/>
