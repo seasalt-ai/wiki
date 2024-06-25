@@ -112,7 +112,45 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
 > 🚨注意🚨
 >
 > 如果按鈕值不是 URL，例如某些文本、2段落或3行中的3個 URL，按鈕將在點擊時顯示按鈕值的全部內容。
->
+
+
+<br/>
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/spreadsheet-example.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/spreadsheet-example.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">試算表範例</p>
+</div>
+
+
+您放入 `seachat_ref` 的所有信息都會被提取為按鈕。如果按鈕值的內容是 URL，則點擊按鈕時會將用戶重定向到該 URL。如果按鈕值不是 URL，則按鈕會在回應中顯示按鈕值。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/non-url-buttons.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/non-url-buttons.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">回應中加上按鈕</p>
+</div>
+
+
+<br/>
+
+這樣一來，當您上傳包含大量信息的試算表格時，就不再需要擔心需要手動將 URL 按鈕添加到您的助理回應中。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">回應中加上多個連結按鈕</p>
+</div>
+
 
 <br/>
 

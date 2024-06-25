@@ -114,10 +114,44 @@ In each row of the **seachat_ref** column, your AI agent will look for two piece
 "https://user-manual-wiki.com" --- line 2
 ```
 
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Spreadsheet Example</p>
+</div>
+
 > 🚨Attention🚨
 > 
 > If the button value is not a URL, e.g. some text, 2 paragraphs, or 3 URLs in 3 lines, the button will show the entire content of button value when clicked.
-> 
+
+All the information that you put inside `seachat_ref` will be extracted as buttons. If the content of the button value is a URL, the button will redirect the user to that URL when clicked. If the button value is not a URL, the button will return the button value in a response.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Buttons in Agent Response</p>
+</div>
+
+
+<br/>
+
+That's it. Now you no longer have to worry about manually adding URL buttons to your agent's responses when you are uploading a spreadsheet with a large amount of information.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Multiple URL Buttons in Agent Response</p>
+</div>
+
 
 <br/>
 
