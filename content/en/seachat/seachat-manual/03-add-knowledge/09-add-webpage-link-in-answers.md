@@ -96,23 +96,7 @@ Once there is information in the knowledge base, the agent will start using this
 
 You can also add URL buttons to your agent's responses using a spreadsheet. When you are adding knowledge using a spreadsheet to upload a large amount of information, it can be difficult to add reference buttons to each knowledge manually. Don't worry. SeaChat has a solution for you. 
 
-By adding a column called **seachat_ref** in your spreadsheet, your agent will automatically extract information to add URL buttons to the agent's responses. You can put as many column as you want to add multiple URL buttons to the answer.
-
-| seachat_ref      ||
-|------------------|-|
-| button text |
-|button value |
-
-Since the agent will look into this particular column, we need to make sure that we use the correct variables to help the agent understand the information.
-
-**Please make sure to follow the format below to ensure the agent can extract the information correctly:**
-
-In each row of the **seachat_ref** column, your AI agent will look for two pieces of information: <code>button text</code> (line1) and <code>button value</code> (line2). The following is what your seachat_ref column should look like:
-
-```
-"User Manual Wiki" --- line 1
-"https://user-manual-wiki.com" --- line 2
-```
+By adding columns called **seachat_ref** in your spreadsheet, your agent will automatically extract information to add URL buttons to the agent's responses. You can put as many column as you want to add multiple URL buttons to the answer.
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -122,6 +106,18 @@ In each row of the **seachat_ref** column, your AI agent will look for two piece
 </div>
     <p style="margin-top: 20px; font-size: 15px">Spreadsheet Example</p>
 </div>
+
+Since the agent will look into this particular column, we need to make sure that we use the correct variables to help the agent understand the information.
+
+**Please make sure to follow the format below to ensure the agent can extract the information correctly:**
+
+In each row of the **seachat_ref** column, your AI agent will look for two pieces of information: <code>button text</code> (line 1) and <code>button value</code> (line 2). The following is what your seachat_ref column should look like:
+
+```
+"User Manual Wiki" --- line 1
+"https://user-manual-wiki.com" --- line 2
+```
+
 
 > 🚨Attention🚨
 > 
