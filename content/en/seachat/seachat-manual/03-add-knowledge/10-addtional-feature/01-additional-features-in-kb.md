@@ -17,7 +17,7 @@ In addition to your prompt response, SeaChat provides more advanced features to 
 
 ## Additional Features in Knowledge Base
 
-Let's first navigate to the knowledge base dashboard and pick an existing knowledge to add the additional features to. Find **Knowledge Base** under **Agent Configuration** in the sidebar on the left-hand side, and then click on **Existing** to view all the knowledge that has been uploaded to your AI agent. 
+Let's first navigate to the knowledge base dashboard and pick an existing knowledge to add the additional features to. Find **Knowledge Base** under **Agent Configuration** in the sidebar on the left-hand side, and then click on **Existing** to view all the knowledge that has been uploaded to your AI agent.
 
 Open the knowledge that you wish to add the additional features to, and then click on the **Edit** button.
 
@@ -92,3 +92,4 @@ The document weight is a parameter that allows you to prioritize a particular pi
 </div>
     <p style="margin-top: 20px; font-size: 15px">Knowledge Setting</p>
 </div>
+

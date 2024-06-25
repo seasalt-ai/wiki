@@ -9,8 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-integrations/messenger/
-   - /seachat/seachat-integrations/messenger/
+  - /en/seax/seax_messaging/seax-whatsapp-integration/
 weight: 60
 toc: true
 ---
@@ -66,6 +65,50 @@ Once you have successfully connected your device, head back to **Channels** unde
 
 Simply go to **Conversations** in the sidebar menu and start chatting with your customers on WhatsApp. You can now leverage the power of SeaX Messaging to engage with your customers on WhatsApp utilizing tools such as campaigns and bulk messages.
 
+## Multiple WhatsApp Accounts
+
+For business that have multiple Whatsapp business accounts, you will find this feature to be particularly useful as it allows you to collect all your accounts in one place. 
+
+Traditionally, WhatsApp Business App only allows you to log into 4 devices that means only up to 4 people can chat in WhatsApp Business App. However, with SeaX Messaging, you can connect as many WhatsApp business accounts to SeaX Messaging as you want. 
+
+You can connect them to SeaX Messaging by clicking on **Add Account** in the **WhatsApp** section of **Channels**. Follow the same steps above to connect your additional WhatsApp accounts to SeaX Messaging.
+
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" alt="">
+</a>
+
+*Add Multiple WhatsApp Accounts*
+</center>
+
+
+Once all the accounts are connected, let's go to **Number** section by clicking on the **Number Settings** in the dropdown menu right next to your avatar. 
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" target="_blank">
+<img width="50%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" alt="">
+</a>
+
+*Number Settings*
+</center>
+
+Not only can you edit all your connected accounts here, but you can also have a much better overview of all your connected accounts thanks to the detailed information and labeling provided the **Number** table.
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/number-dashboard.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-dashboard.png" alt="">
+</a>
+
+*Find Connect Numbers*
+</center>
+
+From SMS to WhatsApp, you can assign different agents to different WhatsApp accounts or numbers, and all these will be managed in just one single user interface of SeaX Messaging. No longer do you need to switch between different devices or accounts to manage your business channels, and neither do you need to worry about the capacity of connecting devices in WhatsApp Business App.
+
+
 ## :dart: Troubleshooting
 
 - Connection Issue: If your account failed to connect to WhatsApp after you logged in, please try to reconnect your device to WhatsApp Business App by clicking on **Reconnect** in the **WhatsApp Business App** dashboard.
@@ -73,7 +116,7 @@ Simply go to **Conversations** in the sidebar menu and start chatting with your 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/reconnect-app.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="">
 </a>
 
 *Reconnect App*
