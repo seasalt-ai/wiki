@@ -65,3 +65,11 @@ You can use a computer to open Google Meet for meeting recording during in-perso
 ## 10. **If I have multiple workspaces, can I store meetings in different workspaces separately? Can I switch languages?**
 
 If the meeting is scheduled in Google Calendar, the storage location and language will be determined according to the default language and default workspace in "Personal Settings - Meeting Settings". If you use the Chrome application to invite, you can specify which workspace to store it in.
+
+## 11. **Why does SeaMeet Copilot still join the meeting even after I've turned off the auto-join feature?**
+
+First, please disconnect your Google Calendar in order to stop SeaMeet Copilot from synchronizing with your Google Calendar. Go to **Account** -> **Integration** to disconnect Google Calendar. 
+
+If after disconnecting, SeaMeet Copilot still joins the meeting, this is because the meeting was scheduled before the disconnection. In this case, you can manually remove the meeting from your meeting list. Go to **Meeting List** and find the future meetings with the turquoise background. Simply click on the trash can icon to delete the meeting. 
+
+
