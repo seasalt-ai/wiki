@@ -35,7 +35,7 @@ You can set the auto-sharing feature in the **General**. Currently, SeaMeet offe
 
 1. **Only share with me**
 
-   When you invite the copilot to record a meeting and the meeting ends, the system will automatically send an email to your inbox.
+   When you invite the copilot to transcribe a meeting, the system will automatically send an email to your inbox once the meeting ends.
 
 2. **All participants in calendar event**
 
