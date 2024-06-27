@@ -74,7 +74,7 @@ id title text references reminder capture live_agent_transfer sample_key kb-1 Sa
 請注意，並非所有網站都有站點地圖。取得定位網站的 XML 站點地圖的最常見（且簡單）方法之一是手動檢查。您需要做的是在瀏覽器中輸入您的網站 URL，然後在 URL 的末尾添加 sitemap.xml，例如 www.YourWebsiteUrl.com/sitemap.xml。如果出現站點地圖（看起來像 XML 文件），則該網站具有站點地圖。有更多定位您的站點地圖的方法，請參閱 此文章 以了解更多信息。
 插入站點地圖的 URL
 提交之前 # 一旦您添加了站點地圖，SeaChat 將自動解析 XML 文件並提取網址。您可以在提交到您的助理的知識庫之前檢查這些網址。
-檢查已上傳的文件</description></item><item><title>新增按鈕到知識庫回應</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</guid><description>簡介 # 您可以在 AI 助理的回應中包含相關的參考 URL，讓用戶可以訪問更詳細的內容。在 現有知識 頁面中，您可以找到相關知識並將參考 URL 新增到 AI 助理的回應中。此功能通過在用戶尋找特定信息時提供額外的信息和資源來增強用戶體驗。
+檢查已上傳的文件</description></item><item><title>新增URL按鈕到知識庫回應</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</guid><description>簡介 # 您可以在 AI 助理的回應中包含相關的參考 URL，讓用戶可以訪問更詳細的內容。在 現有知識 頁面中，您可以找到相關知識並將參考 URL 新增到 AI 助理的回應中。此功能通過在用戶尋找特定信息時提供額外的信息和資源來增強用戶體驗。
 知識附加設置
 知識庫中的其他設置 # 在AI助理配置下找到知識庫並點擊開啟已上傳的知識，找到編輯按鈕，並新增URL按鈕到該知識上。
 Choose the Knowledge to add URL Buttons to
