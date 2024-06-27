@@ -43,7 +43,7 @@ You can set the auto-sharing feature in the **General**. Currently, SeaMeet offe
 
 3. **Share with attendees who have the same domain as me**
 
-   When the meeting ends, the system will automatically send an email to all attendees who have the same domain as you. For example, if I am using an email with the domain,`@seasalt.ai`, in a meeting where there are attendees using `@seasalt.ai` and `@gmail.com`, the system will only send the meeting record to attendees with the private domain of `@seasalt.ai` instead of the public domain `@gmail.com`. It only applies to those with private email addresses sharing your domain, not to those using public email domains like Gmail, Hotmail, and Outlook.
+   When the meeting ends, the system will automatically send an email to all attendees who have the same domain as you. For example, if I am using an email with the domain,`@seasalt.ai`, in a meeting where there are attendees using `@seasalt.ai` and `@client-company.com`, the system will only send the meeting record to attendees with the private domain of `@seasalt.ai` instead of `@client-company.com`. It only applies to those with private email addresses sharing your domain, not to those using public email domains like Gmail, Hotmail, and Outlook.
 
 4. **Off for anyone including myself**
 
@@ -69,7 +69,7 @@ If you enable the auto-sharing feature, the system will automatically send the m
 
 <br/>
 
-The additional list allows you to send the meeting record to recipients who did not attend the meeting. You can send CC and BCC of the meeting record to additional recipients.
+The additional list allows you to send the meeting record to recipients who did not attend the meeting. You can send CC and BCC of the meeting record to additional recipients. The recipients can also be an email group.
 
 One very useful feature of the additional list is the blocklist. When you choose the option to send the meeting record to all attendees in the calendar event, you can exclude certain attendees from receiving the meeting record by adding them to the blocklist.
 
