@@ -1,5 +1,5 @@
 ---
-title: "Adding buttons to KB responses"
+title: "Adding URL buttons to KB responses"
 description: "Learn how to add reference URLs to SeaChat AI assistant answers to provide more detailed information  to users. This guide will walk you through adding URLs in the 'Existing Knowledge' page, enriching AI assistant interactions. Included YouTube video tutorials will demonstrate this process in detail, ensuring easy comprehension and implementation of these enhancements. By adding URLs, your AI assistant will be able to offer more comprehensive customer support, enhancing user experience."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-05-29T08:48:57+00:00
@@ -92,5 +92,63 @@ Once there is information in the knowledge base, the agent will start using this
     <p style="margin-top: 20px; font-size: 15px">URLs added to Agent's Answer</p>
 </div>
 
+## URL Buttons from Spreadsheets
+
+You can also add URL buttons to your agent's responses using a spreadsheet. When you are adding knowledge using a spreadsheet to upload a large amount of information, it can be difficult to add reference buttons to each knowledge manually. Don't worry. SeaChat has a solution for you. 
+
+By adding columns called **seachat_ref** in your spreadsheet, your agent will automatically extract information to add URL buttons to the agent's responses. You can put as many column as you want to add multiple URL buttons to the answer.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Spreadsheet Example</p>
+</div>
+
+Since the agent will look into this particular column, we need to make sure that we use the correct variables to help the agent understand the information.
+
+**Please make sure to follow the format below to ensure the agent can extract the information correctly:**
+
+In each row of the **seachat_ref** column, your AI agent will look for two pieces of information: <code>button text</code> (line 1) and <code>button value</code> (line 2). The following is what your seachat_ref column should look like:
+
+```
+"User Manual Wiki" --- line 1
+"https://user-manual-wiki.com" --- line 2
+```
+
+
+> 🚨Attention🚨
+> 
+> If the button value is not a URL, e.g. some text, 2 paragraphs, or 3 URLs in 3 lines, the button will show the entire content of button value when clicked.
+
+All the information that you put inside `seachat_ref` will be extracted as buttons. If the content of the button value is a URL, the button will redirect the user to that URL when clicked. If the button value is not a URL, the button will return the button value in a response.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Buttons in Agent Response</p>
+</div>
+
+
+<br/>
+
+That's it. Now you no longer have to worry about manually adding URL buttons to your agent's responses when you are uploading a spreadsheet with a large amount of information.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" alt="image showcasing how to write an agent description">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Multiple URL Buttons in Agent Response</p>
+</div>
+
+
+<br/>
 
 There are more advanced features in SeaChat agents' knowledge base that you can leverage to optimize your agent's responses. Check out our tutorials on [Advanced Features](/en/seachat/seachat-manual/03-add-knowledge/09-advanced-features/) to learn more about these functionalities.
