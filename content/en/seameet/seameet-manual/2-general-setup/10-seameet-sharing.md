@@ -69,7 +69,7 @@ If you enable the auto-sharing feature, the system will automatically send the m
 
 <br/>
 
-The additional list allows you to send the meeting record to recipients who did not attend the meeting. You can send CC and BCC of the meeting record to additional recipients. The recipients can also be an email group.
+The additional list allows you to send the meeting record to recipients who did not attend the meeting. You can send CC and BCC of the meeting record to additional recipients. The CC and BCC recipients can also be an email group.
 
 One very useful feature of the additional list is the blocklist. When you choose the option to send the meeting record to all attendees in the calendar event, you can exclude certain attendees from receiving the meeting record by adding them to the blocklist.
 
