@@ -18,5 +18,5 @@
 8. 我能否下載會議錄音檔？ # 目前暫不允許下載會議錄音檔
 9. SeaMeet目前是否支援實體會議？能否更換說話人？ # 您可以在實體會議中使用一台電腦開啟Google Meet進行會議記錄，但目前尚未提供更換說話人等實體會議功能，預計2024 Q1將提供
 10. 如果我有多個工作區，我可以分開存放到不同工作區嗎？能否切換語言？ # 如果是在Google行事曆上預約會議，會依照「個人設定—會議設定」中的預設語言以及預設工作區決定您存放的位置以及語言。若是使用Chrome應用程式邀請，可以指定要存放到哪個工作區。
-11. 為什麼我取消自動加入功能後，SeaMeet Copilot 仍然加入會議？ # 首先，請取消您 Google 行事曆的連接，以阻止 SeaMeet Copilot 與您的 Google 行事曆的同步。前往 個人設定 -&amp;gt; 第三方整合 以取消 Google 行事曆的連線。</description></item><item><title>提供反饋</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</guid><description>對操作方式有不解之處，隨時可以點擊SeaMeet左下角「如何使用」來教學手冊查看教學文章和影片。
+11. 為什麼我取消自動加入功能後，SeaMeet Copilot 仍然加入會議？ # 首先，請先取消您 Google 行事曆的連結，以阻止 SeaMeet Copilot 與您的 Google 行事曆的同步。前往 個人設定 -&amp;gt; 第三方整合 取消 Google 行事曆的連結。</description></item><item><title>提供反饋</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</guid><description>對操作方式有不解之處，隨時可以點擊SeaMeet左下角「如何使用」來教學手冊查看教學文章和影片。
 有更多疑問？想提供反饋意見？ # 若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 &amp;lt; email: seameet@seasalt.ai &amp;gt; 說明需求或問題。 SeaMeet團隊將會在最遲24-48小時內回覆。</description></item></channel></rss>

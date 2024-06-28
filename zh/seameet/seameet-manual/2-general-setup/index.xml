@@ -3,16 +3,22 @@
 https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn
 安裝後開啟Google Meet，就會自動開啟程式
 點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議 3. Google日曆邀請 # 在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議</description></item><item><title>切換會議語言</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</guid><description>SeaMeet目前支援中文(繁體)、英文，以及自動偵測語言等三種模式，您可以在會議開始前或會議進行中隨時切換會議記錄語言
-切換預設轉錄語言 # 點選「個人設定 ─ 會議設定」頁面 設定您的帳號未來邀請機器人進行會議記錄時，所預設的會議記錄語言 開始「預約會議」的會議記錄時，即可看到預設記錄語言已經改變 切換個別會議記錄語言 # 進入個別會議頁面，並點選「選擇目前的會議語言」 從選單中選擇另一個預計使用的會議紀錄語言 選擇後即可以新模型進行記錄 切換 SeaMeet 小工具中的會議記錄語言 # 開始使用 SeaMeet 助理轉錄會議。 點擊下拉選單更改轉錄會議語言。</description></item><item><title>自動分享會議記錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</guid><description>您可以在「工作區設定」的「常用設定」調整自動分享會議記錄的發送對象。
+切換預設轉錄語言 # 點選「個人設定 ─ 會議設定」頁面 設定您的帳號未來邀請機器人進行會議記錄時，所預設的會議記錄語言 開始「預約會議」的會議記錄時，即可看到預設記錄語言已經改變 切換個別會議記錄語言 # 進入個別會議頁面，並點選「選擇目前的會議語言」 從選單中選擇另一個預計使用的會議紀錄語言 選擇後即可以新模型進行記錄 切換 SeaMeet 小工具中的會議記錄語言 # 開始使用 SeaMeet 助理轉錄會議。 點擊下拉選單更改轉錄會議語言。</description></item><item><title>自動分享會議記錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</guid><description>開始使用 # 您可以在「工作區設定」的「常用設定」調整自動分享會議記錄的發送對象。
 常用設定
-您可以在「常用設定」中設定自動分享功能，目前SeaMeet提供三種選項：
+您可以在「常用設定」中設定自動分享功能，目前SeaMeet提供以下選項：
 只分享給自己
 當您作為邀請者邀請機器人記錄的會議結束後，系統會自動發一封信到您的信箱。
 分享給所有行事曆與會者
 當您邀請機器人轉錄的會議結束後，系統會自動發一封信到所有Google行事曆上受邀參加這個會議的與會者。
-不自動分享給任何人 〈包括自己〉
+分享給與我同信箱網域的與會者
+當會議結束時，系統會自動將會議記錄發送給所有擁有與您相同域名的參與者。舉例來說，如果在會議中有來自 @seasalt.ai 和 @client-company.com 的參與者，系統只會將會議記錄發送給 @seasalt.ai 的參與者，而不會發送給 @client-company.com 的參與者。該功能僅對與您相同網域且為私人信箱的與會者有效，而不會對使用公用信箱（如Gmail、Hotmail和Outlook）的與會者生效。
+不自動分享給任何人（包括自己）
 會議結束後將不會發送任何會議記錄。
-如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。</description></item><item><title>自動加入會議</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</link><pubDate>Thu, 18 Apr 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</guid><description>讓SeaMeet自動加入您的會議，不再需要手動輸入會議ID和手動開始新會議紀錄。您可以在SeaMeet設定中啟用自動加入功能，並在會議開始時自動加入。
+如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。
+額外分享清單 # 額外分享清單
+額外分享清單允許您將會議記錄發送給未參加會議的收件人。您可以將會議記錄副本（CC）和密件副本（BCC）寄給額外的收件人。
+額外分享清單的一個非常有用的功能是黑名單。當您選擇將會議記錄發送給所有行事曆與會者時，可以通過黑名單將某些參與者排除在接收會議記錄之外。
+請記得先啟用額外分享清單功能，才能使用它。</description></item><item><title>自動加入會議</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</link><pubDate>Thu, 18 Apr 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</guid><description>讓SeaMeet自動加入您的會議，不再需要手動輸入會議ID和手動開始新會議紀錄。您可以在SeaMeet設定中啟用自動加入功能，並在會議開始時自動加入。
 同步綁定 Google 行事曆 # 到SeaMeet設定頁面，點選 第三方整合，並選擇您要連結的Google帳號1。 1. SeaMeet介面 – 第三方整合
 到會議設定頁面，點選 自動加入，啟用自動加入會議，並選擇我的行事曆中所有會議2。 2. SeaMeet介面 – 選擇我的行事曆中所有會議
 Google 行事曆設定 # 請在Google行事曆預約新會議時，記得點選新增視訊會議，這樣才有視訊會議連結，SeaMeet 才能正確地將會議新增至列表。沒有視訊會議連結的會議，SeaMeet不會自動加入會議唷。
