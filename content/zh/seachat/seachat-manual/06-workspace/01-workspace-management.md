@@ -7,7 +7,7 @@ lastmod: 2024-06-27T08:48:45+00:00
 weight: 91
 draft: false
 images: []
-aliases: 
+aliases:
   - /en/seachat/seachat-manual/workspace/01-workspace-management
   - /seachat/seachat-manual/workspace/01-workspace-management
 ---
@@ -15,7 +15,7 @@ aliases:
 ## AI助理
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/agents.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/agents.png" alt="">
     </a>
@@ -23,13 +23,12 @@ aliases:
     <p style="margin-top: 20px; font-size: 15px">助理管理</p>
 </div>
 
-
 這裡可以管理所有的AI助理。每一行代表一個AI助理及其名稱、電子郵件和狀態。您還可以看到未讀消息的數量，找到AI助理對話的 URL，直接啟動對話或新增AI助理。
 
 ## 成員
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/members.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/members.png" alt="">
     </a>
@@ -40,13 +39,13 @@ aliases:
 成員有不同的類型。根據成員類型，他們會有不同的權限。如果您是工作區的擁有者，可以新增成員並分配不同的角色。以下是一些可以分配給成員的角色：
 
 1. 系統管理者：擁有工作區的全部訪問權限，可以管理所有設置，編輯 AI 助理的設置，管理知識庫，訪問助理對話並以人工助理的身份接管對話。
-2. AI 助理開發：可以編輯 AI 助理的設置，管理知識庫，訪問助理對話和測試。
+2. AI 助理開發者：可以編輯 AI 助理的設置，管理知識庫，訪問助理對話和測試。
 3. 人工助理：可以訪問助理對話並以人工助理的身份接管對話。
 
 ### 編輯使用者
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/add-member.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/add-member.png" alt="">
     </a>
@@ -54,13 +53,12 @@ aliases:
     <p style="margin-top: 20px; font-size: 15px">成員設置</p>
 </div>
 
-您可以將不同的助理分配給不同的成員。例如，將測試中的助理分配給您的 AI 助理編輯者，將產線中的助理分配給您的人工助理。管理員可以訪問和監控這兩種類型的助理。
-
+您可以將不同的助理分配給不同的成員。例如，將測試中的助理分配給您的 AI 助理開發者，將產線中的助理分配給您的人工助理。管理員可以訪問和監控這兩種類型的助理。
 
 ## 工作區偏好設置
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/preference.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/preference.png" alt="">
     </a>
@@ -77,7 +75,7 @@ SeaChat 提供不同語言的通知。您可以選擇接收通知的語言。雖
 ## 工作區 API 金鑰
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/workspace-api.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/workspace-api.png" alt="">
     </a>
