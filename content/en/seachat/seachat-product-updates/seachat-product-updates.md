@@ -15,6 +15,13 @@ weight: 101
 toc: true
 ---
 
+### 06/26/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Now users can create workspace in one click 
+- Label conversations with channel icon
+- Improve the UI of Table upload options
+- The number of free messages in the free plan has been revised to 100 messages life-time usage
+
 ### 06/13/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
 - Supports LINE card messages and button messages, enriching your conversations.
