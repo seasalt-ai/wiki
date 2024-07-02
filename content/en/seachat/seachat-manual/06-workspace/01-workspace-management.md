@@ -12,6 +12,17 @@ aliases:
   - /seachat/seachat-manual/workspace/01-workspace-management
 ---
 
+Workspace is the control center of all your agents and members. Let's first navigate to the section under **Workspace** to find all the features that we will cover in this article. 
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div height="10%" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/en/workspace/01-workspace-management/workspace-sidebar.png" target="_blank">
+    <img height="10%" width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/workspace-sidebar.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Workspace in Sidebar Menu</p>
+</div>
+
 ## Agents
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
@@ -42,7 +53,7 @@ There are different types of members. Depending on the type of membership, membe
 2. **AI Agent Editor**: AI Agent Editors can edit the AI agents' settings, manage the knowledge base, and access the agent conversation and testing.
 3. **Human Agent**: Human Agents can access the agent conversation and take over conversations as human agents.
 
-### Agent Assignment
+### Membership Assignment
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
@@ -54,6 +65,17 @@ There are different types of members. Depending on the type of membership, membe
 </div>
 
 You can assign different agents to different members. For instance, a good practice is assigning the testing agents to your AI agent editors and agents in production to your human agents. Admins can access both types of agents for monitoring and control.
+
+> **🤖 Agents vs. 👨 Members**
+> 
+> We use the word “agent” and “bot” interchangeably in this document. As you can see, most URL parameters use “bot” while the writeup most of the time uses “agent”. 
+> 
+> Seasalt.ai is adding more reasoning and execution functionalities to the normal “chatbot”, thus why we prefer to use the word “agent” rather than “bot”, meaning that an agent can execute things than a bot.
+> 
+> However, “agent” can be confused with a human in the context of “live agent” or “human agent”. In these situations we’ll use “AI agent” to refer to autonomous agents and “live agent” to refer to a live human.
+> 
+> On the other hand, members can only mean real human members.
+
 
 ## Workspace Preferences
 
