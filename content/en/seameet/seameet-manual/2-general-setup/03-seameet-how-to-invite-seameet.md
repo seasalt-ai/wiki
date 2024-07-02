@@ -53,5 +53,5 @@ SeaMeet is an AI tool that automatically generates meeting transcripts by inviti
 2. The SeaMeet copilot will join the Google Meet meeting on time.
 
 <center>
-<img src="/images/seameet-en/03-seameet-how-to-invite-se``ameet/google-calendar-invitation.png" alt="Google Calendar Invitation"/>
+<img src="/images/seameet-en/03-seameet-how-to-invite-seameet/google-calendar-invitation.png" alt="Google Calendar Invitation"/>
 </center>
