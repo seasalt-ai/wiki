@@ -8,9 +8,21 @@ weight: 91
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-manual/workspace/01-workspace-management
+  - /zh/seachat/seachat-manual/workspace/01-workspace-management
   - /seachat/seachat-manual/workspace/01-workspace-management
 ---
+
+工作區是您管理所有助理和成員的控制中心。我們首先導航到**工作區**部分，以找到本文將介紹的所有功能。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div height="10%" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/zh/workspace/01-workspace-management/workspace-sidebar.png" target="_blank">
+    <img height="10%" width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/workspace-sidebar.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">側邊選單中的工作區</p>
+</div>
+
 
 ## AI助理
 
@@ -38,9 +50,9 @@ aliases:
 
 成員有不同的類型。根據成員類型，他們會有不同的權限。如果您是工作區的擁有者，可以新增成員並分配不同的角色。以下是一些可以分配給成員的角色：
 
-1. 系統管理者：擁有工作區的全部訪問權限，可以管理所有設置，編輯 AI 助理的設置，管理知識庫，訪問助理對話並以人工助理的身份接管對話。
+1. 系統管理者：擁有工作區的全部訪問權限，可以管理所有設置，編輯 AI 助理的設置，管理知識庫，訪問助理對話並以真人助理的身份接管對話。
 2. AI 助理開發者：可以編輯 AI 助理的設置，管理知識庫，訪問助理對話和測試。
-3. 人工助理：可以訪問助理對話並以人工助理的身份接管對話。
+3. 真人助理：可以訪問助理對話並以真人助理的身份接管對話。
 
 ### 編輯使用者
 
@@ -53,7 +65,18 @@ aliases:
     <p style="margin-top: 20px; font-size: 15px">成員設置</p>
 </div>
 
-您可以將不同的助理分配給不同的成員。例如，將測試中的助理分配給您的 AI 助理開發者，將產線中的助理分配給您的人工助理。管理員可以訪問和監控這兩種類型的助理。
+您可以將不同的助理分配給不同的成員。例如，將測試中的助理分配給您的 AI 助理開發者，將產線中的助理分配給您真人助理。管理員可以訪問和監控這兩種類型的助理。
+
+> **🤖 助理與 👨 成員**
+>
+> 在本文中，“助理”和“機器人”這兩個詞可以互換使用。如您所見，大多數URL參數使用“bot”(機器人)，而文中大多使用“agent”(助理)。
+>
+> Seasalt.ai 正在為普通“聊天機器人”增加更多推理和執行功能，因此我們更喜歡使用“助理”一詞，這意味著助理可以執行機器人無法完成的任務。
+>
+> 然而，在“助理”或“真人助理”的情境下，這可能會讓人混淆。因此，在這些情況下，我們將使用“AI助理”來指代自主助理，而“真人助理”指代人類助理。
+> 
+> 反觀成員一詞，一律代表真人成員。
+
 
 ## 工作區偏好設置
 
