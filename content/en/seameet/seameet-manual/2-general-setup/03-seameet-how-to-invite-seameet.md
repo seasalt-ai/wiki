@@ -1,5 +1,5 @@
 ---
-title: "轉錄會議"
+title: "Transcribe Meetings"
 description: ""
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
@@ -14,43 +14,44 @@ weight: 21
 toc: true
 ---
 
-# 邀請機器人記錄會議
+# Invite SeaMeet Copilot to Transcribe Meetings
 
-SeaMeet是一款協助自動生成線上會議記錄的AI工具，只要將機器人邀請至會議室中，即可自動記錄會議。目前SeaMeet主要支援Google Meet平台。SeaMeet支援多種機器人邀請方式，您可以從三種方式中選擇一種進行邀請：
+SeaMeet is an AI tool that automatically generates meeting transcripts by inviting the copilot into the meeting room. Currently, SeaMeet mainly supports the Google Meet platform. SeaMeet supports multiple invitation methods, and you can choose one of the following three methods to invite the copilot:
 
-### 1. 工作區邀請
+### 1. Workspace Invitation
 
-1. 按下「開始新會議記錄」按鈕
-2. 輸入 Google Meet 會議代碼並送出
-3. 會議會自動被新增到會議清單中
+1. Click the **Start Recording** button.
+2. Enter the Google Meet meeting code and submit.
+3. The meeting will automatically be added to the meeting list.
 
 <center>
-<img src="/images/seameet-zh/SeaMeet工作區邀請.png" alt="SeaMeet工作區邀請"/>
+<img src="/images/seameet-en/03-seameet-how-to-invite-seameet/workspace-invitation.png" alt="SeaMeet Workspace Invitation"/>
 </center>
 
-### 2. SeaMeet擴充程式邀請
+### 2. SeaMeet Extension Invitation
 
-1. 到Chrome應用程式商店安裝擴充程式，Edge也可以使用。
+1. Install the extension from the Chrome Web Store (also available on Edge).
 
-    [https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn](https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn)
+   [https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn](https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn)
 
-2. 安裝後開啟Google Meet，就會自動開啟程式
+2. After installation, open Google Meet, and the extension will automatically open.
 
 <center>
-<img src="/images/seameet-zh/SeaMeet Chrome Extension邀請.png" alt="SeaMeet Chrome Extension邀請"/>
+<img src="/images/seameet-en/03-seameet-how-to-invite-seameet/extension-invitation.png" alt="SeaMeet Extension Invitation"/>
 </center>
 
-3. 點擊「開始轉錄」，邀請機器人參與會議
-4. 允許機器人加入，並開始記錄會議
+3. Click **Start Recording** to invite the copilot to the meeting.
+4. Allow the copilot to join and start recording the meeting.
 
 <center>
-<img src="/images/seameet-zh/Chrome Extension轉錄中.png" alt="Chrome Extension轉錄中"/>
+<img src="/images/seameet-en/03-seameet-how-to-invite-seameet/exntension-transcribing.png" alt="Chrome Extension Transcribing"/>
 </center>
 
-### 3. Google日曆邀請
-1. 在Google行事曆邀請 SeaMeet 機器人 <信箱：meet@seasalt.ai> 至會議中
-2. SeaMeet機器人將準時加入Google Meet會議
+### 3. Google Calendar Invitation
+
+1. Invite the SeaMeet copilot <email: meet@seasalt.ai> to the meeting in Google Calendar.
+2. The SeaMeet copilot will join the Google Meet meeting on time.
 
 <center>
-<img src="/images/seameet-zh/Google日曆邀請SeaMeet.png" alt="Google日曆邀請SeaMeet"/>
+<img src="/images/seameet-en/03-seameet-how-to-invite-se``ameet/google-calendar-invitation.png" alt="Google Calendar Invitation"/>
 </center>
