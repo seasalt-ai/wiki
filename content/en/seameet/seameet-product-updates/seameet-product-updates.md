@@ -15,6 +15,22 @@ weight: 101
 toc: true
 ---
 
+### 06/27/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Resolved the issue where the bot could not properly end a meeting and start a new one if it
+left due to reasons such as "not being permitted to join the meeting" or "no conversation in the meeting".
+- Fixed the issue causing new users to repeat the registration process due to "login and registration process optimization."
+
+
+### 06/20/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>** 
+- Optimized the login and registration process.
+- Updated the landing page.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Urgently fixed speaker recognition errors due to a temporary Google Meet update.
+- Prevented duplicate speaker names from being created in meetings when using the "Change Speaker" feature.
+
 ### 06/13/2024
 ##### **<font color="#739963">New Features and Performance Optimization</font>** 
 - Added "Change Speaker" feature - Adjust the speaker when multiple users using one Google Meet account to speak in a meeting.
