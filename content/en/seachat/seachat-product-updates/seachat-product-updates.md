@@ -19,7 +19,6 @@ toc: true
 ### 07/04/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
 - Agent list page: To make the screen consistent, only display the first row of prompts.
-- Update monthly license fee for each Twilio phone number to $3/month.
 - SeaChat landing page now supports Portuguese, Korean, Russian, Spanish, and Vietnamese.
 - Added a new TTS voice for Chinese: Tongtong voice.
 
