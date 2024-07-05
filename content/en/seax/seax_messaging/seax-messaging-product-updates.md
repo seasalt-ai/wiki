@@ -15,6 +15,21 @@ weight: 104
 toc: true
 ---
 
+### 06/27/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed formatting issues with Canadian numbers.
+- Resolved the issue where the count of unread messages was incorrect.
+- Corrected the display issue for sending times in bulk messaging campaigns.
+- Ensured the last unread message is properly displayed.
+- Fixed the problem where the conversation thread would jump back to a specific conversation during loading.
+
+### 06/20/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Added a "Loading" status effect when setting up mass messaging campaigns to prevent multiple creation clicks.
+- Disabled Twilio AMD detection to speed up AI customer service interactions.
+- Fixed the issue where workspace icons could not be replaced.
+- Fixed errors in contact uploads.
+
 ### 06/13/2024
 ##### **<font color="#739963">New Feature</font>** 
 - Added "Members" sorting functionality - Sort by account email, username, permissions, etc.
