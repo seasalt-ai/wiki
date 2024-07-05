@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-06-05T08:48:57+00:00
+lastmod: 2024-07-04T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,16 @@ aliases:
 weight: 101
 toc: true
 ---
+
+
+### 07/04/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Agent list page: To make the screen consistent, only display the first row of prompts.
+- SeaChat landing page now supports Portuguese, Korean, Russian, Spanish, and Vietnamese.
+- Added a new TTS voice for Chinese: Tongtong voice.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed AI Agent design style cannot be saved bug.
 
 ### 06/26/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
