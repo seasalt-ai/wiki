@@ -94,6 +94,35 @@ Or if you wish to integrate your AI agent into your website, you can also access
     <p style="margin-top: 20px; font-size: 15px">Additional Options in Basic Settings</p>
 </div>
 
+
+## Chat Design Style
+
+### Style Settings
+
+SeaChat allows you to design your own web chat widget. You can customize the chat widget to match your brand's color scheme and style. You can choose from a variety of colors and styles to create a chat widget that fits your brand's aesthetic. Everytime you make a change, you can preview the chat widget in real-time to see how it will look on your website by clicking on the **Preview** button.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/agent-information/style-setting.png" target="_blank">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/style-setting.png" alt="image that displays the additional options in Style Settings">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Customizable WebChat</p>
+</div>
+
+### Chat Settings
+
+In addition to the style settings, you can also customize the chat settings. This feature can reduce the amount of time that your AI agent editor spends on basic conversational trainings. You can set the chat settings to automatically set-up the conversation flow, such as greeting messages, conversation start messages, and conversation end messages.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/agent-information/chat-setting.png" target="_blank">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/chat-setting.png" alt="image that displays the additional options in Chat Settings">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px"> Personalized Chat Settings </p>
+</div>
+
 ## Advanced Settings
 
 We suggest you to refer to the [Advanced Settings](/seachat/seachat-manual/02-create-agent/05-advanced-settings) tutorial to learn more about the advanced features available in SeaChat. For feature such as Agent Memory and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.

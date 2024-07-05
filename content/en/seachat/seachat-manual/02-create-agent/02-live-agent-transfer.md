@@ -45,6 +45,10 @@ If a customer requests a live agent during the chat conversation, the human agen
 <br/>
 <br/>
 
+> **Agent Conversations**
+> 
+> SeaChat conversations support url and Markdown formats in its web channel. Both your live agents and your users can insert links and Markdown text in the chat conversation. The conversation will be displayed in the same format as it was inputted. This feature is especially useful when information needs to maintain its original format for readability. You can easily copy and paste the information to the conversation without losing the format.
+
 That's it. You have now set up a Live Agent Transfer function for your SeaChat AI Agent. You can have a live agent take over the conversation to further assist your customer. Once the live agent has completed the request that the customer has, the live agent must click on the **Complete** button to give the conversation back to the AI agent.
 
 <center>
