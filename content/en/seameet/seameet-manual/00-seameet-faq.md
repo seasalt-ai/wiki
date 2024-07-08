@@ -72,17 +72,17 @@ First, please disconnect your Google Calendar in order to stop SeaMeet Copilot f
 
 If after disconnecting, SeaMeet Copilot still joins the meeting, it is because the meeting was scheduled before the disconnection. In this case, you can manually remove the meeting from your meeting list. Go to **Meeting List** and find the future meetings with the turquoise background. Simply click on the trash can icon to delete the meeting.
 
-## 12. **As a licensed user, can I invite the copilot back to the meeting if the copilot leaves the meeting?**
+## 12. **As a registered user, can I invite the copilot back to the meeting if the copilot leaves the meeting?**
 
 Yes, you can invite the copilot back to the meeting. You can go to your meeting list and click on **Start Recording** to invite the copilot back to the meeting.
 
-## 13. **If I use an unlicensed account, will the licensed user be able to see the meeting records?**
+## 13. **If I use an unregistered account, will the registered user be able to see the meeting records?**
 
-If the licensed user has invited the copilot to the meeting, then the licensed user will be able to see the meeting records. Moreover, if the licensed user has scheduled the meeting in the meeting list, they can use the auto-share feature to share the meeting records with everyone that is invited to that meeting. Simply go to **General** -> **Auto Share** and choose **All participants in calendar event**. You can take a look at our [tutorial](https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/) for more information.
+If the registered user has invited the copilot to the meeting, then the registered user will be able to see the meeting records. Moreover, if the registered user has scheduled the meeting in the meeting list, they can use the auto-share feature to share the meeting records with everyone that is invited to that meeting. Simply go to **General** -> **Auto Share** and choose **All participants in calendar event**. You can take a look at our [tutorial](https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/) for more information.
 
-## 14. **Will the licensed user be able to receive the meeting transcription if they join a meeting scheduled by other users?**
+## 14. **Will the registered user be able to receive the meeting transcription if they join a meeting scheduled by other users?**
 
-If the licensed user invites the copilot to the meeting, then the licensed user will be able to receive the meeting transcription. If the licensed user has not invited the copilot to the meeting, then they will not be able to receive the meeting transcription. However, if the meeting owner has enabled the auto-share feature, the meeting transcription will be shared with everyone that is invited to the meeting.
+If the registered user invites the copilot to the meeting, then the registered user will be able to receive the meeting transcription. If the registered user has not invited the copilot to the meeting, then they will not be able to receive the meeting transcription. However, if the meeting owner has enabled the auto-share feature, the meeting transcription will be shared with everyone that is invited to the meeting.
 
 ## 15. **Where can I see the email that I have set up for auto-sharing?**
 
@@ -96,7 +96,7 @@ No, as long as you have invited the copilot to the meeting, and you have enough 
 
 Not necessarily. SeaMeet provides multiple ways to invite the copilot to the meeting. You can find more information in our [tutorial](https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/).
 
-## 18. **If a licensed user hosts more than one meeting at the same time, will the copilot be able to join all the meetings?**
+## 18. **If a registered user hosts more than one meeting at the same time, will the copilot be able to join all the meetings?**
 
 No, only users with team plans can host multiple meetings at the same time. If you are using an individual plan, you can only host one meeting at a time. The number of available copilots depends on the number of paid licenses. That is, if there are two paid licenses, you can invite two copilots to join the meetings.
 
