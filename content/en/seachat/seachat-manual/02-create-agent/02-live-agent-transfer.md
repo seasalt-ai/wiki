@@ -54,10 +54,36 @@ That's it. You have now set up a Live Agent Transfer function for your SeaChat A
 </center>
 <br/>
 
-
 Once the live agent has completed the conversation, the conversation will be marked as completed and the customer will be notified that the conversation has been completed. Live agents can also reactivate the conversation when needed. Simply click on the **Reactivate** button to restart the conversation.
 
 
+### Markdown Support
+
+SeaChat conversations support url and Markdown formats in its web channel. Both your live agents and your users can insert links and Markdown text in the chat conversation.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/en/live-agent-transfer/markdown-support-in-response.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/markdown-support-in-response.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Markdown Support in Agent Response</p>
+</div>
+</div>
+
+<br/> 
+
+The conversation will be displayed in the same format as it was inputted. This feature is especially useful when information needs to maintain its original format for readability. You can easily copy and paste the information to the conversation without losing the format. Currently, the markdown support only applies to the web chat integration.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/en/live-agent-transfer/markdown-response-in-web-ui.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/markdown-response-in-web-ui.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">Markdown Support in WebChat UI</p>
+</div>
+</div>
+
+<br/> 
 
 
 ## How to Request Live Agent on WebChat

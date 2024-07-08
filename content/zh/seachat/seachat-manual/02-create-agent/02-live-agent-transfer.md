@@ -63,6 +63,35 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 
 一旦真人客服完成對話，對話將標記為已完成，並通知客戶對話已完成。 在需要時，真人客服也可以重新啟動對話。 只需點擊**重新啟用**按鈕即可重新開始對話。
 
+### Markdown 支援
+
+SeaChat 對話在其網頁頻道中支援 URL 和 Markdown 格式。無論是您的真人助理還是用戶，都可以在聊天對話中插入連結和 Markdown 文字。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/zh/live-agent-transfer/markdown-support-in-response.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/markdown-support-in-response.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">助理回應中的 Markdown 支援</p>
+</div>
+</div>
+
+<br/> 
+
+對話將以輸入時的相同格式顯示。這個功能在需要保持信息的原始格式以便於閱讀時特別有用。您可以輕鬆地將信息複製並貼上到對話中，而不會丟失格式。目前，Markdown 支援僅適用於網頁聊天整合。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/zh/live-agent-transfer/markdown-response-in-web-ui.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/markdown-response-in-web-ui.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">WebChat UI 中的 Markdown 支援</p>
+</div>
+</div>
+
+<br/> 
+
+
 ## 如何在 WebChat 上轉接真人客服
 
 > :open_book: **備註** :open_book:
