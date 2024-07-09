@@ -1,10 +1,11 @@
 {
-    "name": "@hyas/doks",
+    "name": "doks",
     "description": "Doks theme",
-    "version": "0.4.0",
+    "version": "0.0.0",
     "browserslist": [
         "defaults"
     ],
+    "author": "Hyas",
     "repository": "https://github.com/h-enk/doks",
     "license": "MIT",
     "publishConfig": {
@@ -16,7 +17,7 @@
         "prestart": "npm run clean",
         "start": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender",
         "prebuild": "npm run clean",
-        "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
+        "build": "exec-bin node_modules/.bin/hugo/hugo --minify --gc",
         "build:preview": "npm run build -D -F",
         "clean": "shx rm -rf public resources",
         "clean:install": "shx rm -rf package-lock.json node_modules ",
@@ -32,7 +33,13 @@
         "check": "exec-bin node_modules/.bin/hugo/hugo version",
         "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
         "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
-        "version": "auto-changelog -p && git add CHANGELOG.md"
+        "version": "auto-changelog -p && git add CHANGELOG.md",
+        "dev": "hugo server --disableFastRender --noHTTPCache",
+        "format": "prettier **/** -w -c",
+        "preview": "vite preview --outDir public"
+    },
+    "engines": {
+        "node": ">=20.11.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.17",
@@ -56,12 +63,22 @@
         "node-fetch": "^3.2",
         "postcss": "^8.4",
         "postcss-cli": "^9.1",
+        "prettier": "^3.3.2",
         "purgecss-whitelister": "^2.4",
         "shx": "^0.3.4",
         "stylelint": "^14.3",
-        "stylelint-config-standard-scss": "^3.0"
+        "stylelint-config-standard-scss": "^3.0",
+        "vite": "^5.3.3"
     },
     "otherDependencies": {
         "hugo": "0.92.2"
+    },
+    "dependencies": {
+        "@hyas/doks-core": "^1.6.1",
+        "@hyas/images": "^3.2.0",
+        "@hyas/inline-svg": "^1.1.0",
+        "@hyas/seo": "^2.3.0",
+        "@tabler/icons": "^3.9.0",
+        "gethyas": "^2.4.2"
     }
 }
