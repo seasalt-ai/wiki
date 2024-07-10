@@ -108,7 +108,7 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 
 ### 聊天設置
 
-除了風格設置外，您還可以自訂聊天設置。這個功能可以減少您的AI代理編輯器在基本對話訓練上花費的時間。您可以設置聊天設置，自動設置對話流程，例如問候語、對話開始消息和對話結束消息。
+除了風格設置外，您還可以自訂聊天設置。這個功能可以減少您的AI助理編輯器在基本對話訓練上花費的時間。您可以設置聊天設置，自動設置對話流程，例如問候語、對話開始消息和對話結束消息。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -124,4 +124,21 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 
 我們建議您參閱[**進階設置**](/zh/seachat/seachaat-manual/02-create-agent/05-advanced-settings)教學，以了解 SeaChat 中提供的進階功能。對於助理記憶和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。
 
+## :dart: 疑難排解
 
+### 如何更改我的助理設定在頻道和整合中？
+
+當您需要更改系統的顯示語言或頻道和整合中助理的行為和回應語言時，應該前往 **Webchat Widget** 頻道。
+
+請將網頁聊天頻道視為延伸至其他第三方頻道（如 LINE 或 WhatsApp）的主要頻道。因此，這些第三方頻道的基本設定和聊天設定都是繼承自網頁聊天頻道。
+
+如果您需要修改助理 UI 的語言設定，例如，應該前往 **Webchat Widget** 頻道並在那裡更改語言設定。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/zh/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
+      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/webchat-settings-for-thrid-parties.png" alt="顯示聊天設定額外選項的圖片">
+    </a>
+  </div>
+  <p style="margin-top: 20px; font-size: 15px">網頁聊天設定與基本設定</p>
+</div>
