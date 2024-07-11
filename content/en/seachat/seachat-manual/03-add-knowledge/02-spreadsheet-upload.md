@@ -88,6 +88,12 @@ You can upload as many spreadsheet files as you wish and each file can have more
 
 Scroll further down for the dedicated preview window that will list the first 10 rows of your spreadsheet. Once you have included all the files to be uploaded, you can upload them by clicking on the **Next** button.
 
+> :construction: **Embedded Image in Excel**
+> 
+> Currently, SeaChat does not support uploading images embedded in Excel files. If you wish to include image data, please upload the images separately to the specific knowledge that requires them.
+> 
+> For example, if you want to include an image to a card to a certain knowledge, you can still upload the Excel file first and then upload the image separately to the card knowledge.
+
 ###### Preview Example:
 <br/>
 <center>

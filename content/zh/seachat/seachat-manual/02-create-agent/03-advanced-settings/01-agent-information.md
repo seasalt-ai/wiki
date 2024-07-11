@@ -126,13 +126,13 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 
 ## :dart: 疑難排解
 
-### 如何更改我的助理設定在頻道和整合中？
+### 如何更改我在頻道和整合中的聊天設定？
 
-當您需要更改系統的顯示語言或頻道和整合中助理的行為和回應語言時，應該前往 **Webchat Widget** 頻道。
+當您需要更改頻道和整合中系統的顯示語言或聊天設定時，應該前往 **Webchat Widget** 頻道。
 
-請將網頁聊天頻道視為延伸至其他第三方頻道（如 LINE 或 WhatsApp）的主要頻道。因此，這些第三方頻道的基本設定和聊天設定都是繼承自網頁聊天頻道。
+請將SeaChat網頁聊天頻道視為延伸至其他第三方頻道（如 LINE 或 WhatsApp）的主要頻道。因此，這些第三方頻道的基本設定和聊天設定都是繼承自網頁聊天頻道。
 
-如果您需要修改助理 UI 的語言設定，例如，應該前往 **Webchat Widget** 頻道並在那裡更改語言設定。
+假設您需要修改助理 UI 的在LINE上語言設定，應該前往 **Webchat Widget** 頻道並在那裡更改語言設定。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">

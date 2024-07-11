@@ -128,13 +128,13 @@ We suggest you to refer to the [Advanced Settings](/seachat/seachat-manual/02-cr
 
 ## :dart: Troubleshooting
 
-### How to change my agent's settings in channel and integration?
+### How to change my chat's language and chat settings in channel and integration?
 
-When you need to change the appearance language of the system or the agent's behavior and response language in a channel and integration, you should go to the **Webchat Widget** channel. 
+When you need to change the appearance language of the system or the chat settings in a channel and integration, you should go to the **Webchat Widget** channel. 
 
-Think of the webchat channel as the main channel that extends to other third-party channels such as LINE or WhatsApp. Therefore, basic settings and chat settings for these third-party channels are inherited from the webchat channel.
+Think of the webchat channel as the main channel that extends to other third-party channels such as LINE or WhatsApp. Basic settings and chat settings for these third-party channels are inherited from the webchat channel.
 
-If you need to modify the language of the agent UI, for example, you should go to the **Webchat Widget** channel and change the language settings there.
+For example, if you need to modify the language of the agent UI on your WhatsApp Integration, you should go to the **Webchat Widget** channel and change the language settings there.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
