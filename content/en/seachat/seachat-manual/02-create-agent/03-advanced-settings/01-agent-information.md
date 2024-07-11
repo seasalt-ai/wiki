@@ -126,21 +126,3 @@ In addition to the style settings, you can also customize the chat settings. Thi
 
 We suggest you to refer to the [Advanced Settings](/seachat/seachat-manual/02-create-agent/05-advanced-settings) tutorial to learn more about the advanced features available in SeaChat. For feature such as Agent Memory and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.
 
-## :dart: Troubleshooting
-
-### How to change my chat's language and chat settings in channel and integration?
-
-When you need to change the appearance language of the system or the chat settings in a channel and integration, you should go to the **Webchat Widget** channel. 
-
-Think of the webchat channel as the main channel that extends to other third-party channels such as LINE or WhatsApp. Basic settings and chat settings for these third-party channels are inherited from the webchat channel.
-
-For example, if you need to modify the language of the agent UI on your WhatsApp Integration, you should go to the **Webchat Widget** channel and change the language settings there.
-
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
-    <a href="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
-      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="image that displays the additional options in Chat Settings">
-    </a>
-  </div>
-  <p style="margin-top: 20px; font-size: 15px">Webchat Chat Settings and Basic Settings</p>
-</div>

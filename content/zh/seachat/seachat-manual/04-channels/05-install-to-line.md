@@ -138,3 +138,18 @@ toc: true
 ### 我可以在 LINE 聊天中看到 AI 助理的回應嗎？
 
 當然可以，您不只可以在 LINE 聊天中看到 AI 助理的回應，真人助理的回應也看得到！不過，我們建議使用 SeaChat 的對話平台，以便更好地瀏覽和控制所有對話。
+
+### 如何更改我的 LINE 頻道語言？
+
+如果您想更改 LINE 頻道的語言，應前往 **Webchat Widget** 頻道。
+
+將 Webchat 頻道視為擴展到其他第三方頻道（如 LINE 或 WhatsApp）的主頻道。這意味著，要修改 LINE 上的語言設定，您只需在 **Webchat Widget** 頻道中更改一次即可。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/zh/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
+      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/webchat-settings-for-thrid-parties.png" alt="顯示聊天設定額外選項的圖片">
+    </a>
+  </div>
+  <p style="margin-top: 20px; font-size: 15px">網頁聊天設定與基本設定</p>
+</div>

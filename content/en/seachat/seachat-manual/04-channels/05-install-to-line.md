@@ -145,3 +145,19 @@ Currently, we do not support setting an activation time for the AI Agent to star
 ### Can I see the response of the AI Agent in the LINE chat?
 
 Yes, you can see both the agent's and live agent's responses. You will have a complete overview of the chat. However, we recommend using SeaChat's conversation platform to have a better overview and control of all the conversations.
+
+### How to change the language on my LINE channel?
+
+If you want to change the language in your LINE channel, you should go to the **Webchat Widget** channel.
+
+Think of the webchat channel as the main channel that extends to other third-party channels such as LINE or WhatsApp. This means to modify the language settings on LINE, you only need to change it once in the **Webchat Widget** channel.
+
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
+      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="image that displays the additional options in Chat Settings">
+    </a>
+  </div>
+  <p style="margin-top: 20px; font-size: 15px">Webchat Chat Settings and Basic Settings</p>
+</div>
