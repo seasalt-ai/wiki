@@ -132,4 +132,9 @@ curl -X 'POST' \
 SeaChat API is an in-depth tool that allows you to access your workspace and agents programmatically. You can use the API to create new AI agents, manage existing agents, and access the conversation history. For more information on the SeaChat API, please refer to the [API documentation](https://chat.seasalt.ai/redoc). Or contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai)
 
 
+##  Multiple Workspaces
+
+The concept of workspace is meant to represent a team of AI agents and members. Under a workspace, you can have multiple AI agents and members. If you are part of multiple workspaces, you can switch between them by clicking on the workspace name in the top left corner of the screen to go to **Workspace Management**.
+
+You can build multiple AI agents in a workspace, each with different use cases, languages, and agent descriptions. These AI agents can then serve different clients in different channels or integrations under a single workspaces. A practical example to utilize the multiple workspace feature is in testing and development of new agents. You might want to create a separate workspace for testing and development, and another for production. This way, you can test new agents without affecting the production environment.
 
