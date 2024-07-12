@@ -139,17 +139,17 @@ toc: true
 
 當然可以，您不只可以在 LINE 聊天中看到 AI 助理的回應，真人助理的回應也看得到！不過，我們建議使用 SeaChat 的對話平台，以便更好地瀏覽和控制所有對話。
 
-### 如何更改我的 LINE 頻道語言？
+### 為什麼我的 LINE 聊天介面在 AI助理資訊 中設定為中文時，顯示的是英文？
 
-如果您想更改 LINE 頻道的語言，應前往 **Webchat Widget** 頻道。
+如果您想更改 LINE 頻道的 UI 語言，例如「Live Agent」按鈕，應前往 **Webchat Widget** 頻道。
 
-將 Webchat 頻道視為擴展到其他第三方頻道（如 LINE 或 WhatsApp）的主頻道。這意味著，要修改 LINE 上的語言設定，您只需在 **Webchat Widget** 頻道中更改一次即可。
+前往 **頻道** 並找到 **網頁AI助理** 頻道。在 **基本設定** 中將**語系**修改為中文。這樣就可以更改 LINE 聊天中的 UI 語言。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
-    <a href="/images/seachat/zh/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
-      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/webchat-settings-for-thrid-parties.png" alt="顯示聊天設定額外選項的圖片">
+    <a href="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
+      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="顯示聊天設定的圖片">
     </a>
   </div>
-  <p style="margin-top: 20px; font-size: 15px">網頁聊天設定與基本設定</p>
+  <p style="margin-top: 20px; font-size: 15px">Webchat 聊天設定和基本設定</p>
 </div>
