@@ -80,6 +80,15 @@ SeaChat offers CSV and JSON template files that you can download and fill in wit
 }]
 ```
 
+1. **id**: Unique identifier for the document.
+2. **title**: Title of the document.
+3. **text**: Content of the document that the AI agent will interpret.
+4. **custom**: Additional information that the AI agent can refer to. For example, when you need to refine a knowledge base response, you can add a custom key-value pair to the document for the AI agent to refer to.
+4. **references**: Additional information or links that the AI agent can provide. Where **title** is the name of the reference that will render in the UI and **url** is the link.
+5. **reminder**: Additional information that the AI agent will provide in the formatted reminder banner.
+6. **capture**: Information that the AI agent will capture from the user. For example, when this specific knowledge is used. Agent will ask users for the inputs in capture field.
+7. **live_agent_transfer**: Boolean value to enable or disable live agent transfer.
+
 ## Before Submission
 You will see the status of each uploading file in the section below the drag-and-drop zone. Once you are sure with the uploaded files, you can upload them by clicking on the **Submit** button.
 

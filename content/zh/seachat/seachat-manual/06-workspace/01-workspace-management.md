@@ -131,3 +131,29 @@ curl -X 'POST' \
 ```
 
 SeaChat API 是一個進階的工具，允許您以編程方式訪問您的工作區和助理。您可以使用 API 創建新AI助理，管理現有AI助理，並訪問對話歷史記錄。更多有關 SeaChat API 的信息，請參閱 [API 文檔](https://chat.seasalt.ai/redoc)。或通過 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 聯繫我們。
+
+## 多重工作區
+
+工作區的概念是指一組AI助理和成員。在一個工作區下，你可以擁有多個AI助理和成員。如果你擁有多個工作區，你可以通過點擊螢幕左上角的工作區名稱切換到別的工作區，或直接前往至**工作區儀表板**操作。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/zh/workspace/01-workspace-management/access-workspace-dashboard.png" target="_blank">
+    <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/access-workspace-dashboard.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">前往工作區儀表板</p>
+</div>
+
+一旦進入工作區儀表板，您可以訪問所有的工作區。如果您希望創建新的工作區，可以點擊**建立**按鈕來完成。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/zh/workspace/01-workspace-management/create-workspace.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/create-workspace.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">建立新的工作區</p>
+</div>
+
+你可以在一個工作區中建立多個AI助理，每個助理有不同的使用情境、語言和助理描述。這些AI助理可以在單一工作區中為不同的客戶服務於不同的頻道或整合。利用多重工作區功能的一個實際例子是新助理的測試和開發。你可以創建一個獨立的工作區進行測試和開發，另一個用於產線。這樣可以在不影響生產環境的情況下測試新助理。
