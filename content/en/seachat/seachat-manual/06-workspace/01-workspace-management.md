@@ -134,7 +134,28 @@ SeaChat API is an in-depth tool that allows you to access your workspace and age
 
 ##  Multiple Workspaces
 
-The concept of workspace is meant to represent a team of AI agents and members. Under a workspace, you can have multiple AI agents and members. If you are part of multiple workspaces, you can switch between them by clicking on the workspace name in the top left corner of the screen to go to **Workspace Management**.
+The concept of workspace is meant to represent a team of AI agents and members. Under a workspace, you can have multiple AI agents and members. If you are part of multiple workspaces, you can switch between them by clicking on the workspace name in the top left corner of the screen or simply go to **Workspace Dashboard** to manage them.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/en/workspace/01-workspace-management/access-workspace-dashboard.png" target="_blank">
+    <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/access-workspace-dashboard.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Navigate to Workspace</p>
+</div>
+
+Once you are in the workspace dashboard, you can access all your workspaces. If you wish to create a new workspace, you can do so by clicking on the **Create** button. 
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <a href="/images/seachat/en/workspace/01-workspace-management/create-workspace.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/create-workspace.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Creating a New Workspace</p>
+</div>
+
 
 You can build multiple AI agents in a workspace, each with different use cases, languages, and agent descriptions. These AI agents can then serve different clients in different channels or integrations under a single workspaces. A practical example to utilize the multiple workspace feature is in testing and development of new agents. You might want to create a separate workspace for testing and development, and another for production. This way, you can test new agents without affecting the production environment.
 
