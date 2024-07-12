@@ -18,7 +18,7 @@ toc: true
 ### 07/11/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
 - Create workspace automatically when onboarding new users
-- Allow Custom plan to hide Seasalt.ai SeaChat branding message in Agent design styles
+- Allow Premium plan to hide Seasalt.ai SeaChat branding message in Agent design styles
 
 ### 07/04/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 

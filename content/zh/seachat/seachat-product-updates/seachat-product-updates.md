@@ -19,7 +19,7 @@ toc: true
 ### 07/11/2024
 ##### **<font color="#739963">新功能和效能優化</font>** 
 - 為新用戶自動創建工作區
-- 允許自定義方案隱藏Seasalt.ai SeaChat 品牌字樣
+- 允許進階方案隱藏Seasalt.ai SeaChat 品牌字樣
 
 ### 07/04/2024
 ##### **<font color="#739963">新功能和效能優化</font>** 
