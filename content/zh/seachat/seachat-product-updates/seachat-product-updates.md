@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-04T08:48:57+00:00
+lastmod: 2024-07-12T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,12 @@ aliases:
 weight: 101
 toc: true
 ---
+
+
+### 07/11/2024
+##### **<font color="#739963">新功能和效能優化</font>** 
+- 為新用戶自動創建工作區
+- 允許進階方案隱藏Seasalt.ai SeaChat 品牌字樣
 
 ### 07/04/2024
 ##### **<font color="#739963">新功能和效能優化</font>** 

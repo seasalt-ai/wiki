@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-04T08:48:57+00:00
+lastmod: 2024-07-12T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,10 @@ weight: 101
 toc: true
 ---
 
+### 07/11/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Create workspace automatically when onboarding new users
+- Allow Premium plan to hide Seasalt.ai SeaChat branding message in Agent design styles
 
 ### 07/04/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
