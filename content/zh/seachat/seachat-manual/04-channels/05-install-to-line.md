@@ -141,9 +141,9 @@ toc: true
 
 ### 為什麼我的按鈕在 LINE 頻道中顯示 "Live Agent"？如何把它更改為中文？
 
-要在 LINE 頻道的 UI 中將按鈕的語言從英文改為中文，您需要前往 **Webchat Widget** 頻道。
+要在 LINE 頻道的 UI 中將按鈕的語言從英文改為中文，您需要前往 **網頁AI助理** 頻道。
 
-在 **Channels** 中，找到 **Webchat Widget** 頻道。在 **Basic Settings** 中將語言修改為中文。這將更改 LINE 聊天 UI 中按鈕的語言。現在應該顯示 **真人客服** 而不是 **Live Agent**。
+在 **頻道** 中，找到 **網頁AI助理** 頻道。在 **基本設定** 中將語言修改為中文。這將更改 LINE 聊天 UI 中按鈕的語言。現在應該顯示 **真人客服** 而不是 **Live Agent**。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
