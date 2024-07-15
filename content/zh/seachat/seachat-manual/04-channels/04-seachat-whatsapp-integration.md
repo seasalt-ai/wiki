@@ -360,7 +360,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <a href="/images/seachat/zh/channels/whatsapp/test-whatsapp-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/test-whatsapp-1.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">WhatsApp Conversation</p>
+    <p style="margin-top: 20px; font-size: 15px">WhatsApp 對話</p>
 </div>
 </div>
 
@@ -373,7 +373,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <a href="/images/seachat/zh/channels/whatsapp/test-whatsapp-2.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/test-whatsapp-2.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">SeaChat Conversation</p>
+    <p style="margin-top: 20px; font-size: 15px">SeaChat 對話</p>
 </div>
 </div>
 
@@ -403,7 +403,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <a href="/images/seachat/zh/channels/whatsapp/deploy-2.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-2.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Make Changes to Account</p>
+    <p style="margin-top: 20px; font-size: 15px">編輯帳戶</p>
 </div>
 </div>
 
@@ -444,7 +444,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
   <a href="/images/seachat/zh/channels/whatsapp/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/live-agent-status.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent status
+    <p style="margin-top: 20px; font-size: 15px">真人助理狀態
 </p>
 </div>
 </div>
@@ -458,7 +458,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
   <a href="/images/seachat/zh/channels/whatsapp/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/live-agent-interaction.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent interaction
+    <p style="margin-top: 20px; font-size: 15px">Live agent 互動
 </p>
 </div>
 </div>
@@ -472,7 +472,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
   <a href="/images/seachat/zh/channels/whatsapp/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/ai-agent-preference.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent preference
+    <p style="margin-top: 20px; font-size: 15px">Live agent 偏好設定
 </p>
 </div>
 </div>
@@ -494,7 +494,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
   <a href="/images/seachat/zh/channels/whatsapp/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/remove-app-1.png" alt="">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Remove integration</p>
+    <p style="margin-top: 20px; font-size: 15px">移除整合</p>
 </div>
 </div>
 
