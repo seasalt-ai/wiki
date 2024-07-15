@@ -139,11 +139,11 @@ toc: true
 
 當然可以，您不只可以在 LINE 聊天中看到 AI 助理的回應，真人助理的回應也看得到！不過，我們建議使用 SeaChat 的對話平台，以便更好地瀏覽和控制所有對話。
 
-### 聊天內容是中文，但LINE介面中的按鈕卻是英文。如何將按鈕的語言更改為中文？
+### 為什麼我的按鈕在 LINE 頻道中顯示 "Live Agent"？如何把它更改為中文？
 
-您應該前往 **網頁AI助理** 頻道。
+要在 LINE 頻道的 UI 中將按鈕的語言從英文改為中文，您需要前往 **Webchat Widget** 頻道。
 
-在 **頻道** 中，找到 **網頁AI助理** 頻道。在 **基本設定** 中將語言修改為中文。這樣就會將 LINE 聊天中的介面語言更改為中文。
+在 **Channels** 中，找到 **Webchat Widget** 頻道。在 **Basic Settings** 中將語言修改為中文。這將更改 LINE 聊天 UI 中按鈕的語言。現在應該顯示 **真人客服** 而不是 **Live Agent**。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
@@ -151,6 +151,6 @@ toc: true
       <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="image that displays the additional options in Chat Settings">
     </a>
   </div>
-  <p style="margin-top: 20px; font-size: 15px">Webchat 聊天設置和基本設置</p>
+  <p style="margin-top: 20px; font-size: 15px">Webchat Chat Settings and Basic Settings</p>
 </div>
 

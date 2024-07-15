@@ -146,11 +146,11 @@ Currently, we do not support setting an activation time for the AI Agent to star
 
 Yes, you can see both the agent's and live agent's responses. You will have a complete overview of the chat. However, we recommend using SeaChat's conversation platform to have a better overview and control of all the conversations.
 
-### The chat is in Chinese but the buttons in the LINE UI is in English. How do I change the button's language to Chinese?
+### Why does my button sayx "Live Agent" in my LINE Channel? How can I change it to Chinese?
 
-You should go to the **Webchat Widget** channel.
+To change the language of your button from English to Chinese in the UI of your LINE channel, you should go to the **Webchat Widget** channel.
 
-In **Channels**, find the **Webchat Widget** channel. Modify the language to Chinese in the **Basic Settings**. This will then change the language of the buttons in the UI of your LINE chat.
+In **Channels**, find the **Webchat Widget** channel. Modify the language to Chinese in the **Basic Settings**. This will then change the language of the buttons in the UI of your LINE chat. Now it should say **真人客服** instead of **Live Agent**.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
@@ -160,4 +160,3 @@ In **Channels**, find the **Webchat Widget** channel. Modify the language to Chi
   </div>
   <p style="margin-top: 20px; font-size: 15px">Webchat Chat Settings and Basic Settings</p>
 </div>
-
