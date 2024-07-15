@@ -146,7 +146,7 @@ Currently, we do not support setting an activation time for the AI Agent to star
 
 Yes, you can see both the agent's and live agent's responses. You will have a complete overview of the chat. However, we recommend using SeaChat's conversation platform to have a better overview and control of all the conversations.
 
-### Why does my button sayx "Live Agent" in my LINE Channel? How can I change it to Chinese?
+### Why does my button says "Live Agent" in my LINE Channel? How can I change it to Chinese?
 
 To change the language of your button from English to Chinese in the UI of your LINE channel, you should go to the **Webchat Widget** channel.
 
