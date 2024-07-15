@@ -139,11 +139,11 @@ toc: true
 
 當然可以，您不只可以在 LINE 聊天中看到 AI 助理的回應，真人助理的回應也看得到！不過，我們建議使用 SeaChat 的對話平台，以便更好地瀏覽和控制所有對話。
 
-### 聊天內容是英文，但介面是中文。如何將介面語言更改為英文？
+### 聊天內容是中文，但LINE介面中的按鈕卻是英文。如何將按鈕的語言更改為中文？
 
-您應該前往 **Webchat Widget** 頻道。
+您應該前往 **網頁AI助理** 頻道。
 
-在 **頻道** 中，找到 **Webchat Widget** 頻道。在 **基本設置** 中將語言修改為英文。這樣就會將 LINE 聊天中的介面語言更改為英文。
+在 **頻道** 中，找到 **網頁AI助理** 頻道。在 **基本設定** 中將語言修改為中文。這樣就會將 LINE 聊天中的介面語言更改為中文。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
