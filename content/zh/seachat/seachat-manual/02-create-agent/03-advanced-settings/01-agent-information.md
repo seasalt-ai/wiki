@@ -108,7 +108,7 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 
 ### 聊天設置
 
-除了風格設置外，您還可以自訂聊天設置。這個功能可以減少您的AI代理編輯器在基本對話訓練上花費的時間。您可以設置聊天設置，自動設置對話流程，例如問候語、對話開始消息和對話結束消息。
+除了風格設置外，您還可以自訂聊天設置。這個功能可以減少您的AI助理編輯器在基本對話訓練上花費的時間。您可以設置聊天設置，自動設置對話流程，例如問候語、對話開始消息和對話結束消息。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -123,5 +123,3 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 ## 進階設置
 
 我們建議您參閱[**進階設置**](/zh/seachat/seachaat-manual/02-create-agent/05-advanced-settings)教學，以了解 SeaChat 中提供的進階功能。對於助理記憶和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。
-
-

@@ -78,7 +78,6 @@ You can disable this feature by unchecking the box such that your user cannot re
 > :page_facing_up: **NOTE**
 > 
 > If no agent is online, the customer can leave a message. The human agent can review the conversation summary and respond during work hour.
-> 
 
 ### Test your AI Agent
 You can immediately test the AI agent that you have just built. In **Agent URL**, you can click the URL to interact with your AI agent in a standalone window. 
@@ -126,3 +125,4 @@ In addition to the style settings, you can also customize the chat settings. Thi
 ## Advanced Settings
 
 We suggest you to refer to the [Advanced Settings](/seachat/seachat-manual/02-create-agent/05-advanced-settings) tutorial to learn more about the advanced features available in SeaChat. For feature such as Agent Memory and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.
+
