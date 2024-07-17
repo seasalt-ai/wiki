@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-03T08:48:57+00:00
+lastmod: 2024-07-17T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,22 @@ aliases:
 weight: 101
 toc: true
 ---
+
+
+### 07/17/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>** 
+- Optimize onboarding process
+- Add signup page and OTP login
+- Display plan names in Chinese
+- Improve copilot performance and efficiency
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Correct plan name display error in plan limit messages
+- Fix sorting issue for single meeting in the new meeting list
+- Resolve slow transcript updates
+- Fix issue where meetings didn't end properly after the bot exited in SeaMeet
+
+
 
 ### 06/27/2024
 ##### **<font color="#d66a60">Bugfix</font>**
