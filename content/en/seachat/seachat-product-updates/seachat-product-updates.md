@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-12T08:48:57+00:00
+lastmod: 2024-07-19T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,14 @@ aliases:
 weight: 101
 toc: true
 ---
+
+
+### 07/19/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Added support for playing and downloading audio recordings
+- Premium Plan Feature: Option to enable Memory is only available for Premium Plan
+- Premium Features Tips: New tips for managing multiple premium features, including adding additional members, AI agents, workspaces, memory, and setting up voice agents
+- Plain text URLs are now clickable in webchat
 
 ### 07/11/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
