@@ -20,9 +20,6 @@
 
 
 [[main]]
-  name = "Near Me Messaging"
-  url = "/nearme/setup/0-intro_video/"
-  weight = 25
 
  [[main]]
    name = "RESTful APIs"
