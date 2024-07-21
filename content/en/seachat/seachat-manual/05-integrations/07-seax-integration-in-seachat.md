@@ -1,5 +1,5 @@
 ---
-title: "SeaX Messaging Integration"
+title: "SeaX Integration"
 description: ""
 date: 2024-07-16T08:48:57+00:00
 lastmod: 2024-07-16T08:48:57+00:00
@@ -18,19 +18,23 @@ toc: true
 
 ## Overview
 
-In this tutorial, we will guide you through setting up SeaSalt's bulk-messaging platform, SeaX, in SeaChat. SeaX is a powerful omni-channel platform that enables you to manage all your business channels from a single interface.
+In this tutorial, we will guide you through setting up Seasalt's bulk-messaging platform, SeaX, in SeaChat. SeaX is a powerful omni-channel platform that enables you to manage all your business channels from a single interface.
 
-For more information, check out our [SeaX Messaging Documentation](https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/).
+For more information, check out our [SeaX Documentation](https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/).
 
 With SeaX integrated into SeaChat, you can not only manually manage customer conversations but also automate responses with your SeaChat AI agent. SeaX consolidates all your business channels, such as WhatsApp, phone calls, and SMS, allowing these channels to be directed to SeaChat for AI-driven responses.
 
-## SeaX Bulk Messaging
+## SeaX Bulk Call/Send
 
-SeaX Messaging provides a channel for your AI agents to communicate with customers. Once SeaX is integrated with SeaChat, you can start sending bulk messages to your customers via SeaX Messaging.
+SeaX provides a channel for your AI agents to communicate with customers. Once SeaX is integrated with SeaChat, you can start sending bulk messages to your customers via SeaX. 
 
-You can create **Campaigns** to send SMS messages or voice drops to your customers. These campaigns will be delivered through SeaX Messaging, and then handled by your personalized AI agent on SeaChat.
+SeaChat and SeaX work seamlessly with each other to perform the bulk messaging. SeaX will start calling each customer on the given list about 1 second per call. Once the call is answered, the AI agent will take over the conversation, and all you have to do now is go to the **Conversations** dashboard to view the conversation.
 
-## Outbound Calls Integration
+SeaChat does not know the list of the customers you are calling, and neither is it capable of making calls. SeaChat only handles the conversation once conversation is initiated. On the other hand, SeaX is responsible for initiating the calls and sending the messages. 
+
+You can create **Campaigns** to send SMS messages or voice drops to your customers. These campaigns will be delivered through SeaX, and then handled by your personalized AI agent on SeaChat.
+
+## Outbound Call Campaign
 
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
@@ -72,9 +76,9 @@ SMS is an effective tool for text marketing. Starting or receiving an SMS conver
 
 ## Test It Out
 
-With SeaX set up in SeaChat, you can test the integration by sending a message to your SeaChat AI agent. Before sending bulk messages to your customers via SeaX Messaging, we recommend testing locally by using the designated buttons on each page.
+With SeaX set up in SeaChat, you can test the integration by sending a message to your SeaChat AI agent. Before sending bulk messages to your customers via SeaX, we recommend testing locally by using the designated buttons on each page.
 
-Once you have completed the testing, you can begin sending bulk messages to your customers through SeaX Messaging and let your SeaChat agent continue the conversation.
+Once you have completed the testing, you can begin sending bulk messages to your customers through SeaX and let your SeaChat agent continue the conversation.
 
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
