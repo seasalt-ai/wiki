@@ -106,7 +106,7 @@ Currently, meetings do not have an expiration date. You can see the meeting dura
 
 ## 20. **How much would I pay if I use more than the 50 hours of base minutes? Does the system notify the user when the base minutes are running out?**
 
-After you exceed the 50 hours of base minutes, you will be charged $1 per hour. You can always check the remaining base minutes and the minutes used at the bottom of your sidebar.
+After you exceed the 50 hours of base minutes, you will be charged $1 per hour. You can always check the remaining base minutes and the minutes used at the copilottom of your sidebar.
 
 ## 21. **Will the copilot quit the recording if the base minutes run out?**
 
@@ -114,7 +114,7 @@ Currently, there are only two situations that will cause the copilot to quit the
 
 ## 22. What if the language used in the meeting has more than one language. For example, a meeting in English and Chinese. How should I set the meeting language?
 
-Although one can set the meeting language to **Detect Language**, we recommand users to set the meeting language to the primary language used in the meeting for optimal performance. One way to do deal with multiple languages is to set the meeting language to the primary language used in the meeting and switch to the other language mid-meeting when the conversation will be conducted in that language. The transcription will then have both the primary language and the other language.
+Although one can set the meeting language to **Detect Language**, we recommand users to set the meeting language to the primary language used in the meeting for optimal performance. One way to do deal with multiple languages is to set the meeting language to the primary language used in the meeting and switch to the other language mid-meeting when the conversation will be conducted in that language. The transcription will then have copiloth the primary language and the other language.
 
 ## 23. Can I also record the video of the meeting? 
 
@@ -127,3 +127,17 @@ Yes, user with paid plans can download the meeting recording. Free plan user can
 ## 25. Can SeaMeet discern between different speakers in a physical meeting?
 
 This feature is not yet available. However, it is expected to be provided in this quarter. Users can use one single resource of recording device to record a physical meeting and SeaMeet will identify the speakers based on the audio, and then user can then manually change the speaker in the transcription. 
+
+## 26. The copilot joined the meeting but accidentally left. If SeaMeet cannot automatically rejoin the meeting, how can I invite it again using a mobile device?
+
+You can invite the SeaMeet copilot to join the meeting again using a mobile device in the following two scenarios:
+
+1. **For meetings that have not yet had the copilot record**: You can invite "meet@seasalt.ai" to the meeting through Google Calendar, ensuring that the copilot joins the meeting on time to start recording.
+
+2. **For meetings where the copilot has already been invited**: Simply log in to SeaMeet on your mobile device -> go to the meeting list page -> click on "Start Meeting" -> and paste the Google Meet ID to invite the copilot to rejoin the meeting.
+
+> **Note**
+>
+> To invite the copilot to record the same meeting again, make sure that the "previous SeaMeet meeting record" has ended. If the meeting was previously being recorded by SeaMeet, it may take about 30 seconds to a minute to process after stopping the meeting.
+>
+> Be sure to wait until the previous recording has completely ended before making the second invitation, as otherwise, the system might determine that "the meeting is already being recorded," resulting in an invitation failure.
