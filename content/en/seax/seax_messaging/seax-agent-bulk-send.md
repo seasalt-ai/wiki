@@ -44,7 +44,7 @@ First, deploy a functional AI agent on SeaChat and set up the SeaX integration. 
 
 For more information, see the [SeaX integration on SeaChat](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/).
 
-## Send Bulk Messages with SeaX
+## Bulk Send with SeaX
 
 Once the integration is set up, you can start sending bulk messages with SeaX. There are various features available with SeaX integration on SeaChat. Let’s first ensure SeaX is properly configured before starting.
 
@@ -69,8 +69,8 @@ After selecting recipient labels, you'll be directed to the **Contacts** section
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/contact-step.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/contact-step.png" alt="">
 </a>
 
 *Manage Contacts*
@@ -82,8 +82,8 @@ A campaign is the unit for sending bulk messages. Configure the campaign’s nam
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/contact-step.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/contact-step.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" alt="">
 </a>
 
 *Compose a Campaign*
@@ -137,7 +137,7 @@ Set up the sending time for scheduled campaigns. You can choose to send the camp
 
 Select the sender for the campaign and choose the phone number to send messages from. Ensure the selected phone number has the necessary channels enabled.
 
-To add a new phone number, click **Quote for a New Number**, and SeaSalt will provide a quote.
+To add a new phone number, click **Quote for a New Number**, and Seasalt will provide a quote.
 
 <br/>
 <center>
