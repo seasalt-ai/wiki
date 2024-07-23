@@ -106,7 +106,7 @@ Currently, meetings do not have an expiration date. You can see the meeting dura
 
 ## 20. **How much would I pay if I use more than the 50 hours of base minutes? Does the system notify the user when the base minutes are running out?**
 
-After you exceed the 50 hours of base minutes, you will be charged $1 per hour. You can always check the remaining base minutes and the minutes used at the copilottom of your sidebar.
+After you exceed the 50 hours of base minutes, you will be charged $1 per hour. You can always check the remaining base minutes and the minutes used at the bottom of your sidebar.
 
 ## 21. **Will the copilot quit the recording if the base minutes run out?**
 
@@ -114,7 +114,7 @@ Currently, there are only two situations that will cause the copilot to quit the
 
 ## 22. What if the language used in the meeting has more than one language. For example, a meeting in English and Chinese. How should I set the meeting language?
 
-Although one can set the meeting language to **Detect Language**, we recommand users to set the meeting language to the primary language used in the meeting for optimal performance. One way to do deal with multiple languages is to set the meeting language to the primary language used in the meeting and switch to the other language mid-meeting when the conversation will be conducted in that language. The transcription will then have copiloth the primary language and the other language.
+Although one can set the meeting language to **Detect Language**, we recommand users to set the meeting language to the primary language used in the meeting for optimal performance. One way to do deal with multiple languages is to set the meeting language to the primary language used in the meeting and switch to the other language mid-meeting when the conversation will be conducted in that language. The transcription will then have both the primary language and the other language.
 
 ## 23. Can I also record the video of the meeting? 
 
