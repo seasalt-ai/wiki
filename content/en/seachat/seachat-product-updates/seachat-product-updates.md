@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-19T08:48:57+00:00
+lastmod: 2024-07-25T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,10 @@ weight: 101
 toc: true
 ---
 
+### 07/25/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Knowledge base limitations: Upload limits are now tailored to specific plans, including restrictions on file size, file count, and token count.
+- Improved Plan Downgrade Process: Users receive notifications advising them to remove excess agents, files, and workspace members. This allows for necessary cleanup before the downgrade takes effect.
 
 ### 07/19/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
