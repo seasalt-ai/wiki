@@ -91,7 +91,7 @@ A campaign is the unit for sending bulk messages. Configure the campaign’s nam
 
 #### Campaign Name and Labels
 
-When creating a campaign, provide a name and select the labels it will be associated with. This ensures the message is sent to all contacts within the selected label group. Note that the labels chosen in this step will be considered as a complete group by SeaX. That means the message will be sent to all contacts within the selected labels. If you wish to send messages to specific contacts, you need to select the labels in the **Recipients** section and do so in the **Contacts** section.
+When creating a campaign, provide a name and select the labels it will be associated with. Note that the labels on the **Compose** page are intended to be added to the selected contacts after this campaign was initiated. If you wish to send messages to specific contacts, you need to select the labels in the **Recipients** section and do so in the **Contacts** section.
 
 #### Outbound SMS and Calls
 
@@ -135,7 +135,7 @@ Set up the sending time for scheduled campaigns. You can choose to send the camp
 
 ### Senders
 
-Select the sender for the campaign and choose the phone number to send messages from. Ensure the selected phone number has the necessary channels enabled.
+Select the sender for the campaign and choose the phone number to send messages from.
 
 To add a new phone number, click **Quote for a New Number**, and Seasalt will provide a quote.
 
@@ -154,7 +154,7 @@ Before sending the campaign, review the settings to ensure everything is configu
 
 #### Update Inbound Agent
 
-For SMS campaigns, update the inbound agent to handle incoming messages. Choose the agent set up on SeaChat for this purpose.
+For SMS and call campaigns, update the inbound agent to handle incoming messages. Choose the agent set up on SeaChat for this purpose.
 
 <br/>
 <center>
