@@ -11,8 +11,6 @@ weight: 101
 toc: true
 ---
 
-## Billing and Subscription
-
 You can find all the information about billing and subscription in the billing section of the SeaMeet dashboard. Find **Billing** in the left sidebar of the dashboard.
 
 <br/>
@@ -32,7 +30,7 @@ In the **Plan** section, you can see the details of your current subscription pl
 
 Click on **Cost Breakdown** under **Next Billing Period** to see the details of your next billing details according to your subscription and usage.
 
-### Billing Recipients
+### Billing Recipient
 
 In the **Billing Recipients** section, you can see the details of the billing recipients. Click on **Change Recipient** to modify the billing recipient. If you have an organization name, you can add it here.
 
@@ -42,14 +40,14 @@ In the **Billing Recipients** section, you can see the details of the billing re
 <img width="60%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-recipients.png" alt="">
 </a>
 
-**Change Billing Recipients**
+**Change Billing Recipient**
 </center>
 
 
 ## Usage Details
 
-In the **Usage** section, you can see the details of your usage. Your monthly usage is calculated based on the total conversations communicated in the last 30 days.
+In the **Usage** section, you can see the details of your usage. Your monthly usage is calculated based on the total meeting minutes used in the current billing cycle.
 
 ## Billing History - Invoices
 
-In the **Billing History** section, you can see the details of your past billing history. Click on the download icon to download the invoice in PDF format.
+In the **Billing History** section, you can see the details of your past billing history. Click on the Download icon to download the invoice in PDF format.
