@@ -11,7 +11,7 @@ menu:
 aliases:
    - /zh/seachat-product-updates/
    - /zh/seachat/seachat-product-updates/
-weight: 101
+weight: 104
 toc: true
 ---
 
