@@ -4,7 +4,14 @@
 2. 方案與帳務 # 登入後，在左側選單中找到並點擊「方案與帳務」頁面。
 3. 編輯方案 # 進入「方案」頁後，點擊「編輯方案」按鈕以查看可用的訂閱方案。
 4. 選擇您所要選用的方案 # 根據您的需求，選擇最適合的訂閱方案。方案說明可以參考以下連結。或直接在SeaMeet介面上了解。
-5. 選擇「確認訂閱」，並完成付款流程 # 確認所選方案無誤後，點擊「確認訂閱」，然後按照指示完成付款流程。</description></item><item><title>註冊SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid><description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
+5. 選擇「確認訂閱」，並完成付款流程 # 確認所選方案無誤後，點擊「確認訂閱」，然後按照指示完成付款流程。</description></item><item><title>方案與帳務</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</link><pubDate>Wed, 24 Jul 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</guid><description>您可以在 SeaMeet 儀表板的帳單區段找到所有有關帳單和訂閱的信息。請在儀表板的左側邊欄找到 帳單。
+帳單與訂閱
+訂閱計畫 # 在 計畫 區段，您可以查看當前訂閱計畫的詳細資訊。點擊 編輯計畫 按鈕以編輯您的計畫。
+帳單明細 # 點擊 成本明細 在 下個帳單週期 下方，查看根據您的訂閱和使用情況的下一帳單詳情。
+帳單收件人 # 在 帳單收件人 區段，您可以查看帳單收件人的詳細資訊。點擊 更換收件人 以修改帳單收件人。如果您有組織名稱，您可以在此添加。
+更改帳單收件人
+使用詳情 # 在 使用 區段，您可以查看您的使用詳情。您的每月使用量是根據現在方案期間的總對話數計算的。
+帳單歷史 - 發票 # 在 帳單歷史 區段，您可以查看過去帳單的詳細資訊。點擊下載圖示以下載 PDF 格式的發票。</description></item><item><title>註冊SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid><description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
 點擊登入註冊 # 1. 點擊官網登入按鈕 # 2. 點選「用Google帳號登入」 # 3. 選擇您希望註冊的Google帳號 # 4. 開始註冊登入流程 #</description></item><item><title>FAQ - SeaMeet 常見問題集</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</guid><description>1. 我該怎麼開始會議轉錄？ # 您可以在 Google 日曆或 Google Meet 中邀請 SeaMeet 機器人加入會議。當會議開始後，機器人會自動加入會議並開始轉錄。
 2. SeaMeet 支援哪些會議平台？ # SeaMeet 目前支援轉錄 Google Meet 進行的會議，未來將支援更多會議平台。
 3. SeaMeet 支援哪些語言？ # SeaMeet 目前支援轉錄中文、英文會議，未來將逐步擴大支援其他語言。
