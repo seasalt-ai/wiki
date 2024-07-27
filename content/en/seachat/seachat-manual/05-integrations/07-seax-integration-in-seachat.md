@@ -89,3 +89,28 @@ Once you have completed the testing, you can begin sending bulk messages to your
     <p style="font-size: 15px">SeaX Messages in SeaChat</p>
 </div>
 </div>
+
+## :dart: Troubleshooting
+
+1. **No phone available for inbound calls and inbound SMS. How can I configure my phone correctly?**
+
+<div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <a href="/images/seachat-integrations/seax/no-phone-available.png" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+        <img style="width: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat-integrations/seax/no-phone-available.png" alt="No Phone Available Warning">
+    </a>
+<br/>
+    <p style="font-size: 15px;">No Phone Available Warning</p>
+</div>
+</div>
+
+When the system displays the above warning, it means you need to provide a phone number to the AI agent so that the agent can use it as the channel to manage incoming calls and SMS messages. If someone calls this number or sends an SMS, the AI agent will handle the conversation.
+
+To provide this number, you need to configure SeaX and send an outbound call or SMS to the SeaChat agent first. Please follow the [SeaX Documentation](https://wiki.seasalt.ai/seax/seax-agent-bulk-send/) for instructions on how to send an SMS or make a call to the agent.
+
+Specifically:
+
+1. SeaX -> Outbound calls to agent -> Configure agent inbound call number
+2. SeaX -> Outbound SMS to agent -> Configure agent inbound SMS number
+
+If you are unsure whether the agent has received the call or SMS, you can check the conversation in the **Conversations** dashboard.
