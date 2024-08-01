@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-25T08:48:57+00:00
+lastmod: 2024-08-01T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,13 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 08/01/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Enhanced Widget Installation: Easily install multiple widgets for SeaChat AI Agent web chat, LINE, WhatsApp, and Messenger on your website by simply copying and pasting one code snippet.
+- Improved Popup Window: Experience a more user-friendly popup window that helps you easily track when hit Knowledge Base quota limit.
+- Enhanced Browser Notifications: New notifications on the browser tab make unread messages more noticeable.
+- Advanced Twilio Call Settings: Configure speed adjustments for both inbound and outbound calls, with options for outbound voicemail to either send a customizable voicemail message or automatically hang up.
 
 ### 07/25/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 

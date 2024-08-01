@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-25T08:48:57+00:00
+lastmod: 2024-08-01T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,13 @@ aliases:
 weight: 104
 toc: true
 ---
+
+### 08/01/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- 安裝各種頻道的圖示到網站上：只需複製並粘貼一段程式碼，即可輕鬆在您的網站上安裝多個對話圖示：SeaChat AI Agent 網頁聊天、LINE、WhatsApp 和 Facebook Messenger。
+- 改進彈出窗口：體驗更友好的彈出窗口，幫助您輕鬆追蹤知識庫配額限制的使用情況。
+- 未讀訊息通知：新的瀏覽器標籤頁通知讓未讀消息更為醒目。
+- 高級 Twilio 通話設置：為進出電話配置速度調整，並可選擇在外撥語音信箱中發送可自定義的語音信箱訊息或自動掛斷。
 
 ### 07/25/2024
 ##### **<font color="#739963">新功能和效能優化</font>** 
