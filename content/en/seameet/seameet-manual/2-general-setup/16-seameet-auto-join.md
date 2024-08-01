@@ -2,7 +2,7 @@
 title: "Auto Join Meetings"
 description: ""
 date: 2024-04-18T08:48:57+00:00
-lastmod: 2024-06-03T08:48:57+00:00
+lastmod: 2024-08-01T08:48:57+00:00
 draft: false
 images: []
 aliases:
@@ -87,6 +87,13 @@ After enabling the auto-join meetings feature, you can find the added meetings i
 *View All Scheduled Meetings in the Meetings List*
 
 </center>
+
+## Disable Auto-join
+
+First, please disconnect your Google Calendar in order to stop SeaMeet Copilot from synchronizing with your Google Calendar. Go to **Account** -> **Integration** to disconnect Google Calendar.
+
+After disconnecting, if SeaMeet Copilot still joins the meeting automatically, it is because the meeting was scheduled before the disconnection. In this case, you can manually remove the meeting from your meeting list. Go to Meeting List and find the future meetings with the turquoise background. Simply click on the trash can icon to delete the meeting.
+
 
 ## Need Help?
 

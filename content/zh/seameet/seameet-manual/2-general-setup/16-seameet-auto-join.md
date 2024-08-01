@@ -2,7 +2,7 @@
 title: "自動加入會議"
 description: ""
 date: 2024-04-18T08:48:57+00:00
-lastmod: 2024-06-03T08:48:57+00:00
+lastmod: 2024-08-01T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -68,6 +68,12 @@ toc: true
 
 *在會議列表查看所有預定會議*
 </center>
+
+## 如何停用自動加入功能
+
+首先，請取消您 Google 日曆的連結，以阻止 SeaMeet Copilot 與您的 Google 日曆同步。前往 **個人設定** -> **第三方整合** 取消 Google 日曆的連結。
+
+如果取消連結後，SeaMeet Copilot 仍然加入會議，這是因為該會議是在取消連結之前安排的。在這種情況下，您可以手動從會議列表中刪除會議。前往**會議列表**並找到具有淺藍色背景的未來會議，點擊垃圾桶圖示即可刪除會議。
 
 ## 需要幫忙嗎？
 需要幫忙？歡迎聯絡我們 [seameet@seasalt.ai](mailto:seameet@seasalt.ai).
