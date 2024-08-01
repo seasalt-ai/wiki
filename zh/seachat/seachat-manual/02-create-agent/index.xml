@@ -16,7 +16,23 @@
 快速開始：選擇使用案例模板 # 使用案例可以幫助您快速設置助理並開始對話。選擇適合您助理用途的使用案例，剩下的就是進一步定義助理的描述。
 選擇使用案例
 與從頭開始不同，使用案例帶有 SeaChat 為您準備的預定義指示。您可以輸入自己的描述，這些描述將稍後附加到這些指示中。通過這樣做，您可以在預定義指示的基礎上為助理提供上下文。
-定義助理描述</description></item><item><title>複製AI助理</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/</link><pubDate>Wed, 10 Jul 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/</guid><description>複製AI助理 # 當您想要創建一個與現有助理設置相似的新助理時，複製AI助理是一個非常有用的功能，允許您基於現有助理創建新的助理。
+定義助理描述</description></item><item><title>AI助理資訊</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-agent-information/</link><pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-agent-information/</guid><description>簡介 # 助理資訊是您的 AI 助理的核心。它包含有關您的助理的所有必要資訊，包括其名稱、描述和其他進階設置，如記憶。在本教學中，我們將帶您了解助理資訊下的助理配置中的每個參數。
+基本設置 # SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例和描述。在基本設置中，用戶可以設置以下參數：
+名稱 # 您的 AI 助理的名稱。此名稱將顯示在對話窗口中。
+📄 備註
+這將是您的助理用於管理助理的名稱。如果您希望更改助理整合中顯示的名稱，請參閱網頁整合。
+使用情境 # 您的 AI 助理的使用案例。這將幫助您對助理進行分類。SeaChat 提供了一系列可供選擇的使用案例。根據您的需求，您可以選擇最適合您的 AI 助理的使用案例。不同的使用案例可能需要不同的描述設置，但在導入使用案例時，您可以簡單地按照描述部分的說明進行操作。
+選擇適合的使用情境
+描述 # 關於您的 AI 助理的簡要描述，詳細說明您的助理的行為及其參考資料。您在描述欄位中輸入的任何內容都將顯示在頁面右側的助理指導中。然後，此描述將用於提示語言模型生成回覆。
+Agent Description
+回覆語言 # AI 助理將用於回覆用戶的語言。如果需要AI助理以多國語言回答問題，您可以選擇以用戶輸入的語言回答。
+透過選擇回覆語言，您可以確保 AI 助理以正確的語言進行回應。這對有多種語言的用戶的企業們，十分有用。以中文為例，繁體中文和簡體中文在許多方面都有細微差別。透過將回覆語言設定為繁體中文，AI 助理將以繁體中文的回應。
+Agent's Response Language
+真人客服 # 真人客服功能允許人類客服在需要時介入對話。如果啟用此功能，您的客戶將在聊天對話期間有請求真人客服的選擇。這需要您提供一名實際的人類客服來監控和回覆用戶。
+您可以取消選中該框以禁用此功能，從而使您的用戶無法在對話期間請求真人客服，但是真人客服仍可以從對話儀表板接管對話。您可以訪問我們的真人客服教學以獲得有關該功能的更詳細說明。
+📄 注意
+如果沒有真人助理在線，客戶可以留言。真人可以在工作時間查看對話摘要並回覆。
+與 AI 助理互動 # 您可以立即與您剛建立的 AI 助理進行互動。在AI助理網址中，您可以點擊 URL 以在獨立窗口中與您的 AI 助理進行互動。</description></item><item><title>複製AI助理</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/</link><pubDate>Wed, 10 Jul 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/</guid><description>複製AI助理 # 當您想要創建一個與現有助理設置相似的新助理時，複製AI助理是一個非常有用的功能，允許您基於現有助理創建新的助理。
 要複製助理，請在工作區下的助理中點擊您想要複製的助理旁邊的複製此AI助理按鈕。這將創建一個名為**{助理名稱} (COPY)的新助理，該助理與原助理具有相同的設置。您可以點擊編輯來修改設置或直接進入助理信息**。
 複製AI助理按鈕
 這個功能對於助理編輯者在新助理的原型設計設置和分離開發與生產線助理以進行測試和優化時非常強大。
@@ -32,4 +48,9 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
 以真人客服身份與客戶交談 # 點開在左側選單的對話部分。 在這裡，您可以查看 AI 助理與客戶之間的所有對話。 您可以查看對話歷史和對話狀態，這是您的真人客服對話的控制中心。
 如果客戶在聊天對話期間轉接真人客服，人類助理將看到一個指示轉接的彈出通知。 如果對話列表過長，只需點擊真人客服按鈕即可查看真人客服需要完成的對話列表。
 就是這麼簡單。 您現在已為您的 SeaChat AI 助理設置了真人客服轉接功能。 您可以讓真人客服接管對話，以進一步協助您的客戶。 一旦真人客服完成客戶的轉接，真人客服必須點擊完成按鈕將對話交還給 AI 助理。
-一旦真人客服完成對話，對話將標記為已完成，並通知客戶對話已完成。 在需要時，真人客服也可以重新啟動對話。 只需點擊重新啟用按鈕即可重新開始對話。</description></item></channel></rss>
+一旦真人客服完成對話，對話將標記為已完成，並通知客戶對話已完成。 在需要時，真人客服也可以重新啟動對話。 只需點擊重新啟用按鈕即可重新開始對話。</description></item><item><title>助理對話</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/04-seachat-conversation/</link><pubDate>Tue, 30 Jul 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/04-seachat-conversation/</guid><description>對話列表 # 對話列表是您可以查看和管理所有助理正在處理的對話的地方。您可以查看每個對話的詳細資訊，檢查對話歷史記錄，並手動回答用戶的問題。
+助理對話
+用戶可以在所有對話和真人助理對話之間切換。在真人助理對話中，用戶可以查看由真人助理處理的對話。
+在每個對話行中，都會有一個圖標指示對話頻道，如LINE或網頁機器人。您可以通過這些圖標輕鬆識別對話的溝通渠道。
+下載音訊對話 # 下載音訊對話
+對於帶有電話圖標的對話，您可以通過點擊對話內的下載圖標來下載音訊對話。音訊對話將以 mp3 格式下載。這是功能在品質保管理和培訓目的上非常有用，因為您可以收聽助理和用戶之間的對話，並提供回饋以改善助理的回應。</description></item></channel></rss>
