@@ -4,7 +4,7 @@ description: "Learn how to efficiently duplicate AI agents in SeaChat, allowing 
 lead: "Discover the power of SeaChat's agent duplication feature for creating new agents based on existing settings, perfect for prototyping and optimizing your AI agents."
 date: 2024-07-10T08:48:45+00:00
 lastmod: 2024-07-10T08:48:45+00:00
-weight: 20
+weight: 31
 draft: false
 images: []
 toc: true
