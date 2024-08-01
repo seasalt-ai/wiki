@@ -2,7 +2,7 @@
 title: "FAQ"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-06-03T08:48:57+00:00
+lastmod: 2024-08-01T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -126,4 +126,18 @@ Yes, user with paid plans can download the meeting recording. Free plan user can
 
 ## 25. Can SeaMeet discern between different speakers in a physical meeting?
 
-This feature is not yet available. However, it is expected to be provided in this quarter. Users can use one single resource of recording device to record a physical meeting and SeaMeet will identify the speakers based on the audio, and then user can then manually change the speaker in the transcription. 
+This feature is not yet available. However, we expect to provide an alternative feature by the end of 2024. Users can use one single resource of recording device to record a physical meeting and SeaMeet will identify the speakers based on the audio, and then user can manually change the speaker names in the transcription. 
+
+## 26. The copilot joined the meeting but accidentally left. If SeaMeet cannot automatically rejoin the meeting, how can I invite it again using a mobile device?
+
+You can invite the SeaMeet copilot to join the meeting again using a mobile device in the following two scenarios:
+
+1. **For meetings that have not yet had the copilot record**: You can invite `meet@seasalt.ai` to the meeting through Google Calendar, ensuring that the copilot joins the meeting on time to start recording.
+
+2. **For meetings where the copilot has already been invited**: Simply log in to SeaMeet on your mobile device -> go to the meeting list page -> click on "Start Meeting" -> and paste the Google Meet ID to invite the copilot to rejoin the meeting.
+
+> **Note**
+>
+> To invite SeaMeet to record the same meeting again, make sure that the "previous SeaMeet meeting record" has ended. If the meeting was previously being recorded by SeaMeet, it may take about 30 seconds to a minute to process after stopping the meeting.
+>
+> Be sure to wait until the previous recording has completely ended before making the second invitation, as otherwise, the system might determine that "the meeting is already being recorded," resulting in an invitation failure.
