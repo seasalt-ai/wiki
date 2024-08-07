@@ -10,6 +10,10 @@ images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload
 ---
+> 🧭 **檔案大小規則**
+>
+> 根據您的訂閱方案，您可以上傳一定大小的檔案。如果超過檔案上傳限制，您將收到錯誤訊息。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
+
 
 ## 簡介
 SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教學中，我們將專注於**上傳試算表**的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
