@@ -12,6 +12,40 @@ weight: 105
 toc: true
 ---
 
+<div style="display: flex; align-self: flex-end; align-items: baseline">
+
+` 本項功能僅開發給: `
+   <div style="border-radius: 30%; 
+    background: linear-gradient(90deg, #135f5c, #3a947b); 
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+    align-content: center;
+   ">
+   <div>企業方案</div>
+</div>
+<div style="border-radius: 30%; 
+    background: linear-gradient(90deg,#824a14,#886f40);
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+   margin-left: .5rem;
+        align-content: center;
+   ">
+   <div>高級方案</div>
+</div>
+</div>
+
 ### SeaMeet API
 
 透過 SeaSalt 的 SeaMeet API，充分發揮視訊會議的潛力。這個設計完善的 API 使開發人員能輕鬆地自動化和管理視訊會議。主要功能包括自動會議轉錄、錄製和紀錄分享，這些都能簡化您的會議需求。本文件提供詳細的指南和參考資料，確保開發人員能高效地整合 API。

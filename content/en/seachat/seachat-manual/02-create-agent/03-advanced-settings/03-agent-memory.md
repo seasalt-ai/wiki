@@ -1,5 +1,5 @@
 ---
-title: "Agent Memory"
+title: "Agent Memory "
 description: "SeaChat Memory can be used to qualify and track customer profiles. Memory allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
@@ -12,13 +12,49 @@ aliases:
    - /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory
 ---
 
+
+<div style="display: flex; align-self: flex-end; align-items: baseline">
+
+` This feature in only available for: `
+   <div style="border-radius: 30%; 
+    background: linear-gradient(90deg, #135f5c, #3a947b); 
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+    align-content: center;
+   ">
+   <div>Enterprise</div>
+</div>
+<div style="border-radius: 30%; 
+    background: linear-gradient(90deg,#824a14,#886f40);
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+   margin-left: .5rem;
+        align-content: center;
+   ">
+   <div>Premium</div>
+</div>
+</div>
+
 # Overview
+
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Msgg3U3lW4M&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 Large language models are based on the LSTM -- Long Short-Term Memory -- architecture. 
 However, LSTM is only used for *within* the language model itself, such as 
-coreference resolution. In reality, we want a mechanism to remember certain attributes
+co-reference resolution. In reality, we want a mechanism to remember certain attributes
 of a conversation or a user. We need a "long-lasting" memory so whenever the conversation
 resumes, the LLM still remembers its previous state.
 

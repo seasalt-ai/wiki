@@ -11,6 +11,40 @@ menu:
 weight: 104
 toc: true
 ---
+<div style="display: flex; align-self: flex-end; align-items: baseline">
+
+` This feature in only available for: `
+   <div style="border-radius: 30%; 
+    background: linear-gradient(90deg, #135f5c, #3a947b); 
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+    align-content: center;
+   ">
+   <div>Enterprise</div>
+</div>
+<div style="border-radius: 30%; 
+    background: linear-gradient(90deg,#824a14,#886f40);
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+   margin-left: .5rem;
+        align-content: center;
+   ">
+   <div>Premium</div>
+</div>
+</div>
+
 SeaX Messaging API allows users to integrate and automate messaging workflows, providing the flexibility to manage campaigns programmatically. By utilizing the API, users can incorporate messaging capabilities into their own applications or systems, streamlining operations, automating processes, and efficiently scaling messaging efforts. The API documentation offers detailed information and guidance for seamless integration, and users can obtain their API key from the "Settings" tab to securely access the API functionalities.
 
 <div class="row justify-content-center">
