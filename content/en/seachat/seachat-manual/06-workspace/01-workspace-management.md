@@ -159,3 +159,13 @@ Once you are in the workspace dashboard, you can access all your workspaces. If 
 
 You can build multiple AI agents in a workspace, each with different use cases, languages, and agent descriptions. These AI agents can then serve different clients in different channels or integrations under a single workspaces. A practical example to utilize the multiple workspace feature is in testing and development of new agents. You might want to create a separate workspace for testing and development, and another for production. This way, you can test new agents without affecting the production environment.
 
+## Workspace Limits
+
+Different plans have different limits on the number of workspaces you can create. If you have reached the limit, you can upgrade your plan to create more workspaces. If you have any questions about the pricing, please refer to [Pricing and Plans](https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/).
+
+Here are the numbers of workspaces you can create based on the plan you are subscribed to:
+
+- **Free** - 1 workspace
+- **Standard** -  1 workspace
+- **Premium** -  2 workspaces
+- **Enterprise** -  multiple workspaces

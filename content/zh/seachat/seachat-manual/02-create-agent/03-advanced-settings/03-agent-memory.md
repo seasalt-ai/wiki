@@ -11,6 +11,39 @@ toc: true
 aliases:
    - /zh/seachat/seachat-manual/02-create-agent/03-agent-memory
 ---
+<div style="display: flex; align-self: flex-end; align-items: baseline">
+
+` 本項功能僅開發給: `
+   <div style="border-radius: 30%; 
+    background: linear-gradient(90deg, #135f5c, #3a947b); 
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+    align-content: center;
+   ">
+   <div>企業方案</div>
+</div>
+<div style="border-radius: 30%; 
+    background: linear-gradient(90deg,#824a14,#886f40);
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+   margin-left: .5rem;
+        align-content: center;
+   ">
+   <div>高級方案</div>
+</div>
+</div>
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Msgg3U3lW4M&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 

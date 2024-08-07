@@ -10,6 +10,10 @@ images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/
 ---
+> 🧭 **檔案大小規則**
+>
+> 根據您的訂閱方案，您可以上傳一定大小的檔案。如果超過檔案上傳限制，您將收到錯誤訊息。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
+
 
 ## 簡介
 SeaChat 提供多種方法將文件上傳到您AI助理的知識庫。在本教程中，我們將專注於 **匯入網址** 方法。讓我們以一篇部落格文章作為例子，向您展示如何將網址匯入到您的助理。

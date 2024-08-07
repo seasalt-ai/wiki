@@ -10,6 +10,10 @@ images: []
 aliases:
   - /en/seachat/seachat-intro/03-add-knowledge/08-manual-upload/
 ---
+> 🧭 **File Size Rule**
+>
+> According to your subscription plan, you can upload files up to a certain size. If you exceed the file upload limitation, you will receive an error message. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
+
 
 ## Overview
 SeaChat provides several methods to upload files to your agent. We will focus on the **Manual Entry** method in this tutorial. Let's use a blog post as an example to show you how to manually enter data to your agent.

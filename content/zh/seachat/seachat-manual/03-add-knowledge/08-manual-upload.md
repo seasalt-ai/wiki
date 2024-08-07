@@ -10,6 +10,10 @@ images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/
 ---
+> 🧭 **檔案大小規則**
+>
+> 根據您的訂閱方案，您可以上傳一定大小的檔案。如果超過檔案上傳限制，您將收到錯誤訊息。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
+
 
 ## 簡介
 SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 **手動輸入** 方法，向您展示如何手動輸入數據到您的AI助理。
