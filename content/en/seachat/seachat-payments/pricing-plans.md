@@ -17,6 +17,16 @@ Each plan includes a set of features that cater to different business requiremen
 
 Here we will take a look into the different pricing plans available for SeaChat.
 
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/pricing-plans.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-plans.png" alt="">
+</a>
+
+**Pricing Information**
+</center>
+
+
 ## Free
 
 - Lifetime 100 free AI text replies
@@ -49,11 +59,11 @@ Premium and Enterprise users can choose from a range of models for their AI agen
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/pricing-model.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-model.png" alt="">
 </a>
 
-**Pricing Information**
+**Model Pricing**
 </center>
 
 
@@ -63,8 +73,8 @@ For customers with complex usage scenarios, we recommend subscribing to our **La
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" alt="">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/pricing-support.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-support.png" alt="">
 </a>
 
 **Support Plans**
