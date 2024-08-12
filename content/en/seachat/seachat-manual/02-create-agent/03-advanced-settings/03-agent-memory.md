@@ -15,7 +15,7 @@ aliases:
 
 <div style="display: flex; align-self: flex-end; align-items: baseline">
 
-` This feature in only available for: `
+`This feature is only available on `
    <div style="border-radius: 30%; 
     background: linear-gradient(90deg, #135f5c, #3a947b); 
     width: 5rem; 
@@ -45,6 +45,9 @@ aliases:
    ">
    <div>Premium</div>
 </div>
+
+`plans `
+
 </div>
 
 # Overview

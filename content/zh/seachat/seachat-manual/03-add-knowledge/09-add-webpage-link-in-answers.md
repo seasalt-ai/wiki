@@ -12,7 +12,7 @@ toc: true
 ---
 > 🧭 **檔案大小規則**
 >
-> 根據您的訂閱方案，您可以上傳一定大小的檔案。如果超過檔案上傳限制，您將收到錯誤訊息。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
+> 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
 
 
 # 簡介

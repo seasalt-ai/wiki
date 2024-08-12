@@ -12,8 +12,8 @@ aliases:
 ---
 
 > 🧭 **File Size Rule**
-> 
-> According to your subscription plan, you can upload files up to a certain size. If you exceed the file upload limitation, you will receive an error message. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
+>
+> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
 
 ## Overview
 SeaChat provides many methods to upload files to your agent. We will focus on the **Upload Spreadsheet** method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.

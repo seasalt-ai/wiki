@@ -14,7 +14,7 @@ toc: true
 
 <div style="display: flex; align-self: flex-end; align-items: baseline">
 
-` This feature in only available for: `
+`This feature is only available on `
    <div style="border-radius: 30%; 
     background: linear-gradient(90deg, #135f5c, #3a947b); 
     width: 5rem; 
@@ -44,6 +44,9 @@ toc: true
    ">
    <div>Premium</div>
 </div>
+
+`plans `
+
 </div>
 
 Unlock the full potential of video conferencing with the SeaMeet API from SeaSalt. Designed for seamless integration, this API empowers developers to automate and manage video meetings with ease. Key features include automated meeting transcription, recording, and sharing, all of which streamline your conferencing needs. This comprehensive documentation provides detailed guides and references, ensuring developers can implement the API efficiently.

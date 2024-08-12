@@ -13,7 +13,7 @@ toc: true
 ---
 <div style="display: flex; align-self: flex-end; align-items: baseline">
 
-` This feature in only available for: `
+`This feature is only available on `
    <div style="border-radius: 30%; 
     background: linear-gradient(90deg, #135f5c, #3a947b); 
     width: 5rem; 
@@ -43,6 +43,9 @@ toc: true
    ">
    <div>Premium</div>
 </div>
+
+`plans `
+
 </div>
 
 SeaChat RESTful API allows users to integrate and automate chatbot workflows, providing the flexibility to manage AI agents programmatically. By utilizing the API, users can incorporate chatbot capabilities into their own applications or systems. The API documentation offers detailed information and guidance for seamless integration.

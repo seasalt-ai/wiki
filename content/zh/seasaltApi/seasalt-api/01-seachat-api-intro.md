@@ -13,7 +13,7 @@ toc: true
 ---
 <div style="display: flex; align-self: flex-end; align-items: baseline">
 
-` 本項功能僅開發給: `
+`此功能僅適用於  `
    <div style="border-radius: 30%; 
     background: linear-gradient(90deg, #135f5c, #3a947b); 
     width: 5rem; 

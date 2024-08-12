@@ -1,6 +1,6 @@
 ---
-title: "Pricing and Plans"
-description: ""
+title: "Pricing"
+description: "SeaChat pricing details"
 date: 2024-08-06T08:48:57+00:00
 lastmod: 2024-08-06T08:48:57+00:00
 draft: false
