@@ -12,7 +12,42 @@ weight: 105
 toc: true
 ---
 
-### SeaMeet API
+<div style="display: flex; align-self: flex-end; align-items: baseline">
+
+`This feature is only available on `
+   <div style="border-radius: 30%; 
+    background: linear-gradient(90deg, #135f5c, #3a947b); 
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+    align-content: center;
+   ">
+   <div>Enterprise</div>
+</div>
+<div style="border-radius: 30%; 
+    background: linear-gradient(90deg,#824a14,#886f40);
+    width: 5rem; 
+    color: #ffffff; 
+    padding: calc(min(100vw, 1366px)* 0.00439) calc(min(100vw, 1366px)* 0.00878);
+    border-radius: calc(min(100vw, 1366px)* 0.01464);
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+   font-size: .8rem;
+   margin-left: .5rem;
+        align-content: center;
+   ">
+   <div>Premium</div>
+</div>
+
+`plans `
+
+</div>
 
 Unlock the full potential of video conferencing with the SeaMeet API from SeaSalt. Designed for seamless integration, this API empowers developers to automate and manage video meetings with ease. Key features include automated meeting transcription, recording, and sharing, all of which streamline your conferencing needs. This comprehensive documentation provides detailed guides and references, ensuring developers can implement the API efficiently.
 

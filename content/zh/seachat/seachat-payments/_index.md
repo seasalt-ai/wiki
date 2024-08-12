@@ -6,7 +6,7 @@ lastmod: 2024-07-24T08:48:57+00:00
 draft: false
 images: []
 aliases:
-   - /zh/seachat/account-and-subscription/
+   - /zh/seachat/seachat-payments/
 weight: 103
 toc: true
 ---

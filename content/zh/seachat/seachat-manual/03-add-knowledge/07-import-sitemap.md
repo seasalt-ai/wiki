@@ -10,6 +10,10 @@ images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/
 ---
+> 🧭 **檔案大小規則**
+>
+> 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
+
 
 ## 簡介
 SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 **匯入站點地圖** 方法。讓我們以站點地圖向您展示如何將網址匯入到您的助理的知識庫。

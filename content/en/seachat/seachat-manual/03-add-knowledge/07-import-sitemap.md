@@ -10,6 +10,10 @@ images: []
 aliases:
   - /en/seachat/seachat-intro/03-add-knowledge/07-import-sitemaps/
 ---
+> 🧭 **File Size Rule**
+>
+> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
+
 
 ## Overview
 SeaChat provides several methods to upload files to your agent. We will focus on the **Import Sitemaps** method in this tutorial. Let's use a sitemap example to show you how to import URLs to your agent.
