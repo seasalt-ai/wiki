@@ -8,7 +8,8 @@ SeaChat 中的 RAG 設置
 前一用戶提問 → 機器人回應 → 當前用戶提問 # 通過結合對話的前三輪提供全面的上下文。在這種情況下，完整的對話（上一用戶提問 + 機器人回應 + 當前用戶提問）將用於查詢知識庫並生成機器人對當前用戶提問的下一個回應。
 上一用戶提問 → 當前用戶提問 # 更加關注用戶的請求，不受機器人回應的影響。它包括最近兩個用戶輸入（上一用戶提問 和 當前用戶提問）來查詢知識庫並生成機器人對下一個回應。
 當前用戶提問 # 只考慮用戶的最新提問，即當前用戶提問，用於生成機器人的下一個回應。這對於一次性對話或用戶頻繁切換主題的情況非常理想。然而，在多輪對話中討論相同主題時，它可能會忽略重要的上下文。
-檢索方法 # 您可以通過選擇不同的知識庫檢索方法來優化知識庫檢索：</description></item><item><title>AI助理記憶</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</link><pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</guid><description>大型語言模型是基於LSTM（長短期記憶體架構）。但LSTM只在語言模型內部使用，不能實時紀錄現在對話的資訊。所以，我們需要一種方法來記住對話或用戶的某些特徵，我們稱之為「持久的記憶」，這樣每次對話重新開始時，大型語言模型仍能記住之前的狀態。例如，當客戶說明他吃素食，我們可以透過「記憶」在每次對談中讓大型語言模型記得客戶這項特質，藉以提供更好的回答。
+檢索方法 # 您可以通過選擇不同的知識庫檢索方法來優化知識庫檢索：</description></item><item><title>AI助理記憶</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</link><pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</guid><description>此功能僅適用於
+企業方案 高級方案 大型語言模型是基於LSTM（長短期記憶體架構）。但LSTM只在語言模型內部使用，不能實時紀錄現在對話的資訊。所以，我們需要一種方法來記住對話或用戶的某些特徵，我們稱之為「持久的記憶」，這樣每次對話重新開始時，大型語言模型仍能記住之前的狀態。例如，當客戶說明他吃素食，我們可以透過「記憶」在每次對談中讓大型語言模型記得客戶這項特質，藉以提供更好的回答。
 「記憶」允許你定義對話中最重要的部分，並儲存標註在客戶檔案，提供之後查詢和再利用。
 記憶的使用案例包括：
 建立用戶形象，以便下次相同用戶回來時，AI 助理仍記得上次對話的要點。例如：{married: yes, family: 2 kids, hobby: golf}。 存儲問卷結果，然後通過 API 檢索這些結果以進行分析。例如：{score: 2, feedback: wifi charging issue}。 確認潛在買家，然後根據此觸發某些操作。例如：{intent: buying an iPhone, lease or cash: cash, when: ASAP}。 在本教學中，我們將涵蓋：
