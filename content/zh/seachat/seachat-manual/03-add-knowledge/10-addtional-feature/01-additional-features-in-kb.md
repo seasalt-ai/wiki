@@ -92,3 +92,20 @@ aliases:
 </div>
     <p style="margin-top: 20px; font-size: 15px">知識設置</p>
 </div>
+
+## 同步 URL 知識
+
+如果知識是通過 URL 或站點地圖導入的，您可以將知識與來源 URL 進行同步。當知識頻繁更新時，這個功能特別有用，並且可以確保您知識庫中的知識始終是最新的。
+
+此功能可以讓用戶在知識庫管理方面有更好的體驗。只要該 URL 仍存在，用戶就不需要重新將知識上傳到知識庫。
+
+您現在只需點擊要與來源 URL 同步的知識旁邊的 **同步** 按鈕，SeaChat 會自動使用來源 URL 的最新信息更新該知識。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/knowledge-additional-features/sync-button.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/knowledge-additional-features/sync-button.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">同步知識</p>
+</div>

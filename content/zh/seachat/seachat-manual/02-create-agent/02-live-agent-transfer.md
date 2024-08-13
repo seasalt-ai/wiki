@@ -123,5 +123,16 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 </center>
 <br/>
 
+## 自動切換
+
+您也可以為真人助理功能設置超時。有時，真人助理可能會同時處理很多對話，並且他們可能會忘記點擊 **完成** 按鈕將對話交還給 AI 助理。為了防止這種情況發生，您可以為真人助理功能設置自動超時。如果在客服人員離開後一定時間內沒有任何聊天活動，系統將自動完成該對話。
+
+<center>
+<a href="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" alt="">
+</a>
+</center>
+<br/>
+
 ## 需要幫忙?
 需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai)。
