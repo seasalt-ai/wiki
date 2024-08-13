@@ -117,6 +117,17 @@ Once you have integrated the LINE channel, your customer will see the **Live Age
 </center>
 <br/>
 
+## Automatic Timeout
+
+You can also set up a timeout for the live agent feature. Sometimes, a human live agent might have to deal with a lot of the conversation at once, and they can forget to click on the **Complete** button to give the conversation back to the AI agent. To prevent this from happening, you can set up an automatic timeout for the live agent feature. This will automatically complete the conversation if there is no activity from the chat for a certain amount of time.
+
+<center>
+<a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
+</a>
+</center>
+<br/>
+
 ## :dart: Troubleshooting
 
 ### Remove Live Agent Feature
@@ -132,5 +143,5 @@ If you wish to deactivate the live agent feature, simply uncheck the box that sa
 > :pushpin: Note
 >
 > Live agent, if available, will still be able to monitor and take over conversations in **Conversations**. Unchecking the box only removes the option for customers to request a live agent.
-
+> 
 

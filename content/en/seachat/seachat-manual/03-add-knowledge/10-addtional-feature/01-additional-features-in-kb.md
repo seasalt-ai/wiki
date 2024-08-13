@@ -93,3 +93,19 @@ The document weight is a parameter that allows you to prioritize a particular pi
     <p style="margin-top: 20px; font-size: 15px">Knowledge Setting</p>
 </div>
 
+## Synchronize URL Knowledge
+
+If the knowledge is imported through a URL or sitemap, you can synchronize the knowledge with the source URL. This feature is particularly useful when the knowledge is updated frequently, and you want to ensure that the knowledge in your knowledge base is always up-to-date. 
+
+This feature allows the users to have a better eexperience of knowledge management. As long as the URL is still accessible, users do not need to re-upload the knowledge to the knowledge base.  
+
+All you have to do now just click on the **Sync** button of the knowledge that you want to synchronize with the source URL, and Seachat will automatically update the knowledge with the latest information from the source URL.
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/knowledge-additional-features/sync-button.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/knowledge-additional-features/sync-button.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Sync Knowledge</p>
+</div>
