@@ -10,6 +10,8 @@ menu:
     parent: "stt"
 weight: 102
 toc: true
+aliases:
+    - /seavoice/
 ---
 
 ## Customization Panel

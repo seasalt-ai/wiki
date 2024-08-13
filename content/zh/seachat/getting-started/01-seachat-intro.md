@@ -11,6 +11,7 @@ menu:
 aliases:
    - /zh/seachat/01-seachat-intro/
    - /zh/seachat/seachat-intro/01-seachat-intro/
+   - /zh/seachat/
 weight: 10
 toc: true
 ---

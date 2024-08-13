@@ -11,6 +11,7 @@ menu:
 aliases:
    - /zh/seameet/01-seameet-intro/
    - /zh/seameet/seameet-intro/01-seameet-intro/
+    - /zh/seameet/
 weight: 5
 toc: true
 ---
