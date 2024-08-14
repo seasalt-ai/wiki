@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-08-08T08:48:57+00:00
+lastmod: 2024-08-15T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,13 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 08/15/2024
+##### **<font color="#739963">New Features and Improvements</font>** 
+- Easy Agent Replacement: The new one-click feature in the agent management page simplifies version control and agent duplication, making the process more convenient.
+- Improved Test AI Agent Access: The 'Test AI Agent' button has been relocated to the header for easier and more convenient access.
+- Expanded Context Window: Open a 128K context window for advanced large language models such as GPT-4o, GPT-4o mini, and Mistral Large.
+- Enhanced Button Content Management: Use the `$KB_ID_` header and KB document IDs as button content for streamlined access to knowledge base articles directly through button interactions.
 
 ### 08/08/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
