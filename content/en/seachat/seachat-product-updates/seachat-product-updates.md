@@ -25,7 +25,7 @@ toc: true
 ### 08/08/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
 - Introduced a Card-Style Agent Listing Page: Experience our newly designed layout for a more visual and organized way to browse agents.
-- Added Model Switching Capability: Users can now switch between different large language models, including GPT-4o-mini, GPT-4o, and Mistral Large, directly from the interface.
+- Added Model Switching Capability: Users can now switch between different large language models, including GPT-4o mini, GPT-4o, and Mistral Large, directly from the interface.
 - Customizable Automatic Transfer Back to AI Agent: Automate the transfer back to the AI agent after a customizable minutes of inactivity from a live agent.
 - Customizable "Live Agent Has Left the Conversation" Message: User can design the message that appears when a live agent exits the chat.
 - Enabled Customization of Live Agent Transfer Phrases: Allow users to set specific phrases that trigger the seamless transfer of a conversation from the AI agent to a live agent.
