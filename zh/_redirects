@@ -1,6 +1,6 @@
 
 /zh/seameet/01-seameet-intro/ /zh/seameet/seameet-manual/01-seameet-intro/
-/zh/seameet/seameet-intro/01-seameet-intro/ /zh/seameet/seameet-manual/01-seameet-intro/
+/zh/seameet/seameet-intro/01-seameet-intro/ - /zh/seameet/ /zh/seameet/seameet-manual/01-seameet-intro/
 /zh/seameet/17-seameet-subscription-how-to/ /zh/seameet/seameet-manual/17-seameet-subscription-how-to/
 /zh/seachat/seachat-integrations/shopify/ /zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/
 /seachat/seachat-integrations/shopify/ /zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/
@@ -8,6 +8,7 @@
 /zh/seachat/seachaat-manual/02-create-agent/01-create-new-agent/ /zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/
 /zh/seachat/01-seachat-intro/ /zh/seachat/getting-started/01-seachat-intro/
 /zh/seachat/seachat-intro/01-seachat-intro/ /zh/seachat/getting-started/01-seachat-intro/
+/zh/seachat/ /zh/seachat/getting-started/01-seachat-intro/
 /zh/seameet/05-seameet-workspace/ /zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/
 /zh/seachat/seachaat-manual/02-create-agent/03-advanced-settings/01-agent-information/ /zh/seachat/seachat-manual/02-create-agent/01-agent-information/
 /zh/seachat/seachat-manual/02-create-agent/03-agent-duplication /zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/
@@ -64,9 +65,11 @@
 /zh/seameet/seameet-product-updates/ /zh/seameet/seameet-product-updates/seameet-product-updates/
 /zh/seachat/seachat-resources/prompt-examples/ /zh/seachat/seachat-resources/prompt-examples/
 /zh/seachat/seachat-resources/seachat-api/ /zh/seachat/seachat-resources/seachat-api/
+/zh/seavoice/ /zh/seavoice/tts/panel_tutorial_zh/
 /zh/seachat/seachat-payments/ /zh/seachat/seachat-payments/
 /zh/seachat-product-updates/ /zh/seachat/seachat-product-updates/seachat-product-updates/
 /zh/seachat/seachat-product-updates/ /zh/seachat/seachat-product-updates/seachat-product-updates/
+/zh/seax/ /zh/seax/demo_videos_zh/videos/
 /zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/ /zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/
 /zh/seachat/seachat-manual/ /zh/seachat/seachat-manual/
 /zh/seachat/file-size-rule/ /zh/seachat/seachat-manual/03-add-knowledge/file-size-rule/

@@ -1,5 +1,6 @@
 
 /en/seameet/01-seameet-intro/ /seameet/seameet-manual/01-seameet-intro/
+/seameet/ /seameet/seameet-manual/01-seameet-intro/
 /en/seachat/seachat-integrations/google-calendar/ /seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/
 /seachat/seachat-integrations/google-calendar/ /seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/
 /seachat/seachat-integrations/05-seachat-google-calendar-integration/ /seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/
@@ -79,8 +80,10 @@
 /en/seachat/seachat-resources/seachat-api/ /seachat/seachat-resources/seachat-api/
 /en/seax/seax-widget/ /seax/seax_messaging/seax-widget/
 /seax/seax-widget/ /seax/seax_messaging/seax-widget/
+/seavoice/ /seavoice/stt/panel_tutorial_en/
 /seax/seax_intro/01-introduction/ /seax/seax_enterprise/seax-features/
 /seax/demo_videos/videos/ /seax/seax_enterprise/seax-features/
+/seax/ /seax/seax_enterprise/seax-features/
 /en/seax/seax-agent-bulk-send/ /seax/seax_messaging/seax-agent-bulk-send/
 /seax/seax-agent-bulk-send/ /seax/seax_messaging/seax-agent-bulk-send/
 /en/seax-product-updates/ /seax/seax_messaging/seax-messaging-product-updates/
@@ -94,6 +97,7 @@
 /en/seameet/00-seameet-faq/ /seameet/seameet-manual/00-seameet-faq/
 /en/seachat/seachat-intro/01-introduction/ /seachat/getting-started/01-seachat-intro/
 /seachat/seachat-intro/01-seachat-intro/ /seachat/getting-started/01-seachat-intro/
+/seachat/ /seachat/getting-started/01-seachat-intro/
 /en/seachat/seachat-intro/02-quick-start/ /seachat/getting-started/02-quick-start/
 /seachat/seachat-intro/02-quick-start/ /seachat/getting-started/02-quick-start/
 /en/seameet/15-seameet-help/ /seameet/seameet-manual/15-seameet-help/# /docs/1.0/prologue/   /docs/1.0/prologue/introduction/
