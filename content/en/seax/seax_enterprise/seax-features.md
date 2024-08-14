@@ -11,6 +11,7 @@ menu:
 aliases:
    - /seax/seax_intro/01-introduction/
    - /seax/demo_videos/videos/
+   - /seax/
 weight: 102
 toc: true
 ---

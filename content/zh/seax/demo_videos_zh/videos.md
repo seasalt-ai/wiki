@@ -9,6 +9,8 @@ images: []
 menu:
   demo_videos:
     parent: "demo_videos_zh"
+aliases: 
+    - /zh/seax/
 weight: 120
 toc: true
 ---

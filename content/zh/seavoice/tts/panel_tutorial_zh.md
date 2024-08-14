@@ -8,6 +8,8 @@ images: []
 menu:
   seax:
     parent: "tts"
+aliases:
+  - /zh/seavoice/
 weight: 102
 toc: true
 ---
