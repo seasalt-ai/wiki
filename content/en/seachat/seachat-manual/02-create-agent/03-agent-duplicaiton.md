@@ -1,5 +1,5 @@
 ---
-title: "Agent Duplication and Replacement"
+title: "Agent Version Control"
 description: "Learn how to efficiently duplicate and replace AI agents in SeaChat. This guide covers creating new agents based on existing ones for seamless testing and development, and managing different agent versions to streamline your production workflow."
 lead: "Explore SeaChat's powerful agent duplication and replacement features, designed for creating and managing different versions of your AI agents. Perfect for prototyping, testing, and smoothly transitioning from development to production."
 date: 2024-07-10T08:48:45+00:00
@@ -12,11 +12,16 @@ aliases:
   - /en/seachat/seachat-manual/02-create-agent/03-agent-duplication-replacement
 ---
 
+
 ## Agent Duplication
 
-Agent duplication is a feature that allows you to create a new agent based on an existing agent. This feature is useful when you want to create a new agent with similar settings as an existing agent.
+> 📍What is duplicated?
+> 
+> When an agent is duplicated or replaced, the agent's basic info, advanced settings, knowledge base, and widget are concerned. Channels cannot be duplicated or replaced.
 
-To duplicate an agent, click on the **Agent Duplicate** button located next to the agent you want to duplicate in **Agents** under **Workspace**. This will create a new agent called **{Agent Name} (COPY)** with the same settings as the original agent. You can then modify the settings by clicking on **Edit** or simply go to **Agent Information**.
+Agent duplication is a feature that allows you to create a new agent based on an existing one. This is useful when you want to create a new agent with similar settings as an existing one.
+
+To duplicate an agent, click on the Agent Duplicate button located next to the agent you want to duplicate in Agents under Workspace. This will create a new agent called {Agent Name} (COPY) with the same settings as the original agent. You can then modify the settings by clicking on Edit or by going to Agent Information.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
@@ -29,9 +34,9 @@ To duplicate an agent, click on the **Agent Duplicate** button located next to t
 
 <br/>
 
-This feature is very powerful for agent editors in prototyping new agent settings and separating development and production agents for testing and optimization.
+This feature is very powerful for agent editors when prototyping new agent settings and separating development and production agents for testing and optimization.
 
-This process might take some time based on the complexity of the agent. Once you see the success message, you can start training your agent. Everything is set up, including the available knowledge base and agent information.
+This process might take some time depending on the complexity of the agent. Once you see the success message, you can start training your agent. Everything is set up, including the available knowledge base and agent information.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
@@ -47,6 +52,10 @@ This process might take some time based on the complexity of the agent. Once you
 For users with integrations or channels connected to the original agent, you will need to update the integration to include the new agent copy since the agent copy is still a new agent.
 
 ## Agent Replacement
+
+> 📍What is replaced?
+> 
+> When an agent is duplicated or replaced, the agent's basic info, advanced settings, knowledge base, and widget are concerned. Channels cannot be duplicated or replaced.
 
 The agent replacement feature provides an efficient way to manage different versions of your agent.
 
