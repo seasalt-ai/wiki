@@ -110,13 +110,91 @@ toc: true
 </center>
 <br/>
 
-## LINE的AI自動回覆功能即將停用
+本節將說明在整合 LINE 和 SeaChat 時的步驟與考量，包括完全取代 Line 的真人聊天功能或同時使用兩個平台的選項。
+
+## 管理 LINE 和 SeaChat 的整合
+
+### 選項 1：完全關閉 LINE 的真人聊天功能
+
+**步驟 1：** 關閉 LINE 的真人聊天功能。
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line//turn-off-live-chat.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-channels/line//turn-off-live-chat.png" alt="">
+</a>
+
+**關閉 LINE 的真人聊天功能**
+</center>
+
+**關閉後：**
+
+* 此時，您可以使用 SeaChat 的功能來取代 LINE 的自動回覆和真人聊天功能，所有對話記錄都將保存在 SeaChat 中。
+
+### 選項 2：同時使用兩個平台
+
+在此設置中，LINE 和 SeaChat 都可以對來訊作出回應。不過，需要注意處理每個平台回覆的相關事項。用戶均可從Line後台或SeaChat後台切換真人
+
+#### 自動回覆：
+
+* SeaChat 可以自動回覆訊息。這些回覆會同時顯示在 LINE 後台和 SeaChat 後台。
+
+#### 從 Line 後台真人回覆：
+
+**優點：**
+
+* 真人回覆的訊息會完整展示在 LINE 後台。
+
+**缺點：**
+
+* 真人回覆的訊息不會顯示在 SeaChat 後台。
+* SeaChat 不會知道 LINE 已經有真人回覆訊息，因此 SeaChat 仍會照常回覆，這可能導致用戶收到兩則回覆：SeaChat 的回覆（通常是第一條）以及 Line 後台的真人回覆。
+* 使用 SeaChat 回覆會產生費用，每則訊息大約花費新台幣 $0.3（GPT-3.5）或 $0.18（GPT-4o-mini）。
+
+#### 從 SeaChat 真人回覆：
+
+**優點：**
+
+* 真人回覆的訊息會完整展示在 SeaChat 後台。
+
+**缺點：**
+
+* 真人回覆的訊息不會顯示在 LINE 後台。
+* 這些回覆會占用 LINE 的每月訊息數量限額（免費用戶每月 200 則）。若當月用完，則無法發送訊息，必須升級方案。
+
+## LINE 的收費策略
+
+* 透過 LINE 官方帳號管理員真人回覆不會佔用免費訊息數量。
+* 參考官方定價詳情：[LINE 官方帳號管理員定價](https://tw.linebiz.com/column/LINEOA-2023-Price-Plan/)
+
+### 哪些訊息類型會列入計費？
+
+* 只有「群發訊息」、「Messaging API 進階功能的 Push API 訊息」以及「漸進式訊息」會列入計費。以下訊息類型屬於「免付費」訊息：
+    * 加入好友的歡迎訊息。
+    * 一對一的真人聊天訊息。
+    * 自動回覆訊息。
+    * AI 自動回覆訊息。
+    * Messaging API 的 Reply API。
+
+<br/>
+* 請參考以下LINE 的可用訂閱方案，並詳細說明了各個訊息限額的定價。
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/line-reply-pricing.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-channels/line/line-reply-pricing.png" alt="">
+</a>
+
+**LINE 推廣方案細節**
+</center>
+
+## 🚨 LINE的AI自動回覆功能即將停用
 
 [LINE的AI自動回覆功能](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/)將在2024年5月停止服務。
 
 如果你還在使用AI自動回覆功能，需要盡快安排替代方案。
 
-## 🔖 常見問題
+## 🎯 常見問題
 
 ### 客戶如何知道真人客服已經離開聊天？
 
@@ -151,6 +229,6 @@ toc: true
       <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="image that displays the additional options in Chat Settings">
     </a>
   </div>
-  <p style="margin-top: 20px; font-size: 15px">Webchat Chat Settings and Basic Settings</p>
+  <p style="margin-top: 20px; font-size: 15px">聊天小工具基本設定</p>
 </div>
 
