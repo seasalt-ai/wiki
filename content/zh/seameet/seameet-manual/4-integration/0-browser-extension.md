@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /zh/seameet/4-integration/0-browser-extension/
+   - /zh/seameet/seameet-manual/0-browser-extension/
 weight: 41
 toc: true
 ---
