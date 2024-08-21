@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-17T08:48:57+00:00
+lastmod: 2024-08-20T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,23 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 08/15/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>** 
+- Adjusted the email template for auto share.
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the incorrect timing for plan limit prompts.
+- Resolved errors caused by the Google Meet update.
+- Optimized performance when syncing a large number of participants.
+
+### 08/08/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Resolved the error caused by changes in Google Calendar login authentication.
+
+### 08/01/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>** 
+- Improved system infrastructure stability and performance.
+- Optimized the user flow on the plan selection page.
 
 
 ### 07/17/2024
