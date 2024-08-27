@@ -88,6 +88,42 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
     <p style="margin-top: 20px; font-size: 15px">URL 已新增到助理的答案中</p>
 </div>
 
+### KB IDs
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" alt="">
+    </a>
+</div>
+</div>
+
+<br/>
+
+KB ID 是每個知識項目的唯一識別碼。您可以透過點擊該知識項目下的**更多**按鈕中的**複製KB ID**按鈕，將其 ID 複製到剪貼簿。
+
+接著，您可以將此 KB ID 貼到按鈕的內容欄位中。當按下該按鈕時，AI 助理將會檢索相關資訊並將其返回給用戶。
+
+這在按鈕內容變得過長時特別有用。由於每個按鈕都有字元限制，KB ID 功能允許用戶在不超過字元限制的情況下提供詳細資訊。
+
+AI 助理會參考知識庫來檢索資訊並做出回應，從而繞過按鈕內容的字元限制。
+
+此功能不僅解除了按鈕內容的字元限制，還使得AI助理編輯者能夠更好地管理知識庫中的資訊。您可以建立一個可供 AI 助理訪問的單獨知識，並讓按鈕鏈接到該知識，而不是將所有資訊塞入按鈕內容中。
+
+> 🚨注意 🚨
+>
+> 出於安全考量，AI 助理無法訪問來自其他 AI 助理知識庫中的 KB ID。KB ID 是該指定 AI 助理知識庫中的知識的唯一識別碼，無論它們是否位於同一工作區。
+
+### 按鈕訊息的限制
+
+以下是我們按鈕模板和回傳按鈕的目前的限制摘要：
+
+- 訊息字元限制：200 字元
+- 回傳按鈕內容字元限制：所有按鈕共 300 字元
+- 回傳按鈕數量限制：最多 4 個按鈕
+
+
+
 ## 從試算表中新增URL按鈕到助理的回應
 
 您也可以使用試算表在助理的回應中新增 URL 按鈕。當您使用試算表上傳大量資訊時，手動為每個知識添加參考按鈕可能會很困難。不用擔心，SeaChat 為您提供了解決方案。
