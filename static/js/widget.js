@@ -53,6 +53,7 @@ const bindWidgets = (() => {
             const webChatButton = document.createElement("button");
             webChatButton.id = "sui-webchat-btn";
             webChatButton.className = "widget-btn";
+            webChatButton.setAttribute("aria-label", "Open Webchat")
             
             const iframeContainer = document.createElement("iframe");
             iframeContainer.id = "sui-webchat";
@@ -90,6 +91,14 @@ const bindWidgets = (() => {
             widgetButton.href = url;
             widgetButton.rel = "noopener noreferrer";
             widgetButton.target = "_blank";
+
+            if (channel === channelTypes.whatsapp) {
+                widgetButton.setAttribute("aria-label", "Contact us on WhatsApp");
+            } else if (channel === channelTypes.facebook) {
+                widgetButton.setAttribute("aria-label", "Visit our Facebook page");
+            } else if (channel === channelTypes.line) {
+                widgetButton.setAttribute("aria-label", "Chat with us on LINE");
+            }
 
             widgetContainer.prepend(widgetButton);
         }
