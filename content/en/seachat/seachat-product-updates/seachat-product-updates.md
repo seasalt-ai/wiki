@@ -15,7 +15,7 @@ weight: 101
 toc: true
 ---
 
-### 08/21/2024
+### 08/28/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Message Quota Management: Users can now set specific quotas in the Advanced Settings page for the number of chat and voice messages an AI agent can send.
 - Enhanced SeaX Calls Integration Page: Features improved control over call speed and voicemail settings.
