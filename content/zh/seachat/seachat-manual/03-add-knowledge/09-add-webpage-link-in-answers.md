@@ -88,14 +88,35 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
     <p style="margin-top: 20px; font-size: 15px">URL 已新增到助理的答案中</p>
 </div>
 
+### 按鈕訊息的限制
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" alt="">
+    </a>
+</div>
+        <p style="margin-top: 20px; font-size: 15px">因字元限制所造成的訊息中斷</p>
+</div>
+
+<br/>
+
+以下是我們按鈕模板和回傳按鈕的目前的限制摘要：
+
+- 訊息字元限制：200 字元
+- 回傳按鈕內容字元限制：所有按鈕共 300 字元
+- 回傳按鈕數量限制：最多 4 個按鈕
+
+
 ### KB IDs
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" alt="">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" alt="">
     </a>
 </div>
+        <p style="margin-top: 20px; font-size: 15px">利用KB ID而產出的完整訊息</p>
 </div>
 
 <br/>
@@ -113,16 +134,6 @@ AI 助理會參考知識庫來檢索資訊並做出回應，從而繞過按鈕�
 > 🚨注意 🚨
 >
 > 出於安全考量，AI 助理無法訪問來自其他 AI 助理知識庫中的 KB ID。KB ID 是該指定 AI 助理知識庫中的知識的唯一識別碼，無論它們是否位於同一工作區。
-
-### 按鈕訊息的限制
-
-以下是我們按鈕模板和回傳按鈕的目前的限制摘要：
-
-- 訊息字元限制：200 字元
-- 回傳按鈕內容字元限制：所有按鈕共 300 字元
-- 回傳按鈕數量限制：最多 4 個按鈕
-
-
 
 ## 從試算表中新增URL按鈕到助理的回應
 

@@ -92,17 +92,27 @@ Once there is information in the knowledge base, the agent will start using this
     <p style="margin-top: 20px; font-size: 15px">URLs added to Agent's Answer</p>
 </div>
 
-### KB IDs
+### Limits of Button Messages
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" alt="">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/kb-id-problem.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id-problem.png" alt="">
     </a>
 </div>
+    <p style="margin-top: 20px; font-size: 15px">Message Cutoff due to Message Limitation</p>
 </div>
-
 <br/>
+
+Here is a summary of the current limits for our button templates and postback buttons:
+
+- Message character limit: 200 characters
+
+- Postback button content character limit: 300 characters across all buttons
+
+- Postback button number limit: Up to 4 buttons
+
+### KB IDs
 
 A KB ID is a unique identifier for each piece of knowledge in the knowledge base. You can copy the ID of any knowledge item to your clipboard by clicking on the **Copy KB ID** button located under the **More** button for that knowledge.
 
@@ -114,19 +124,20 @@ The AI agent will reference the knowledge base to retrieve the information and r
 
 Not only does this feature free users from the character limit of the button content, but it also enables agent editors to better manage information in the knowledge base. Instead of overloading the button content with information, you can create a separate knowledge item accessible to the AI agent, which the button can link to.
 
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" target="_blank">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Complete Message Using KB ID</p>
+</div>
+
+<br/>
+
 > 🚨Attention 🚨
 >
 > For security reasons, AI agents cannot access KB IDs from another AI agent's knowledge base. KB IDs are unique to the knowledge in the knowledge base of a given AI agent, regardless of whether the agents are in the same workspace.
-
-### Limits of Button Messages 
-
-Here is a summary of the current limits for our button templates and postback buttons:
-
-- Message character limit: 200 characters
-
-- Postback button content character limit: 300 characters across all buttons
-
-- Postback button number limit: Up to 4 buttons
 
 
 ## URL Buttons from Spreadsheets
