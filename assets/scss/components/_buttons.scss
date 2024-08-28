@@ -46,7 +46,7 @@ body .toggle-light {
 }
 
 body .btn-primary {
-    @include button-variant($button-color-dark, $button-color-dark);
+    @include button-variant($button-color, $button-color-dark);
     color: #fff;
 }
 
