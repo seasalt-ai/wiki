@@ -177,3 +177,11 @@ Click **Send Now** to activate the campaign and start sending messages through S
 
 *Campaign Dashboard*
 </center>
+
+## Conversation synchronized between SeaX and SeaChat
+
+SeaX + SeaChat is a powerful combination for managing bulk messaging and calls. With SeaX, you can send messages to thousands of customers and automate conversations with the help of AI agents on SeaChat. The two conversations, one on SeaX and the other on SeaChat, are synchronized for a seamless experience. Yet, there are the following differences:
+
+- All the outbound calls initiated by SeaX through SeaChat agents are listed in both the **Conversations** section on SeaChat and SeaX. However, if a call is received from on SeaChat, then it will not sync to SeaX.
+
+- If the user replies to a SMS from SeaX, it will not be synced to SeaChat unless that same number in SeaX is a recipient of an active AI Agent Campaign.
