@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: ""
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-08-15T08:48:57+00:00
+lastmod: 2024-08-28T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,26 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 08/28/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Message Quota Management: Users can now set specific quotas in the Advanced Settings page for the number of chat and voice messages an AI agent can send.
+- Enhanced SeaX Calls Integration Page: Features improved control over call speed and voicemail settings.
+- Updated UI with New Tabs Style: Streamlined navigation with a fresh tabs design, enhancing user interface interaction.
+- LINE Live Agent Message Cap Notification: Notifications are now sent in SeaChat when the message sent by live agent through SeaChat to LINE approaches LINE’s limit.
+- Increased Character Limit for Agent Descriptions: Agent descriptions can now include up to 3000 characters, allowing for more detailed explanations.
+- Simplified Onboarding Process: New users can build their first knowledgeable AI agent by uploading just a small file or a website URL.
+
+
+### 08/21/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Easily Copy KB ID: Now you can quickly copy the Knowledge Base ID from file’s right menu and use it as button content.
+- Enforced Memory Fields Character Limit: Memory fields now have a strict character limit of 1024.
+- Knowledge Base Quota Page: Introducing Quota page for knowledge base that helps you track and optimize your document and token usage efficiently.
+- Updated Tab Styles: Enjoy a refreshed look with brand-new tab styles for a more intuitive and modern interface.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Correct Chat Participant Names in Emails: Fixed an issue where a random value was shown instead of the correct chat participant’s name in the "New message received" email.
 
 ### 08/15/2024
 ##### **<font color="#739963">New Features and Improvements</font>** 
