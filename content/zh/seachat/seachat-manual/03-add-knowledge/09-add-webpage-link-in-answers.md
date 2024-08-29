@@ -88,6 +88,65 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
     <p style="margin-top: 20px; font-size: 15px">URL 已新增到助理的答案中</p>
 </div>
 
+### 按鈕訊息的限制
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" alt="">
+    </a>
+</div>
+        <p style="margin-top: 20px; font-size: 15px">因字元限制所造成的訊息中斷</p>
+</div>
+
+<br/>
+
+以下是我們按鈕模板和回傳按鈕的目前的限制摘要：
+
+- 訊息字元限制：200 字元
+- 回傳按鈕內容字元限制：所有按鈕共 300 字元
+- 回傳按鈕數量限制：最多 4 個按鈕
+
+
+### KB ID
+
+KB ID 是每個知識庫項目中的知識的唯一識別碼。您可以通過點擊該知識項目下的 **更多** 按鈕中的 **複製 KB ID** 按鈕，將知識項目的 ID 複製到剪貼板。
+
+然後，您可以將此 KB ID 貼上到按鈕的內容欄位中。當按鈕被點擊時，AI 助理將會檢索相關資訊並回傳給使用者。
+
+當按鈕內容過長時，此功能特別有用。對於使用 [LINE](http://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/#line-按鈕訊息的限制) 等第三方頻道的用戶，按鈕消息有一套相關的字符限制。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">由於消息限制導致消息被截斷</p>
+</div>
+<br/>
+
+KB ID 功能為這些用戶提供了一個解決方案，可以在不擔心超過字符限制的情況下提供詳細資訊。
+
+AI 助理將參考知識庫來檢索資訊並回應，從而繞過字符限制。
+
+此功能不僅解除了用戶在按鈕內容字符限制上的煩惱，還使得AI助理編輯者能更好地管理知識庫中的信息。與其將所有信息都塞入按鈕內容中，您可以創建一個獨立的知識項目，讓 AI 助理訪問，並通過按鈕鏈接到該知識項目。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" target="_blank">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">使用 KB ID 完整消息</p>
+</div>
+
+<br/>
+
+> 🚨注意 🚨
+>
+> 出於安全考量，AI 助理無法訪問來自其他 AI 助理知識庫中的 KB ID。KB ID 是該指定 AI 助理知識庫中的知識的唯一識別碼，無論它們是否位於同一工作區。
+
 ## 從試算表中新增URL按鈕到助理的回應
 
 您也可以使用試算表在助理的回應中新增 URL 按鈕。當您使用試算表上傳大量資訊時，手動為每個知識添加參考按鈕可能會很困難。不用擔心，SeaChat 為您提供了解決方案。
