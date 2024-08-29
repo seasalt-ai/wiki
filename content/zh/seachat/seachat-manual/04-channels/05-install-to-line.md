@@ -1,6 +1,6 @@
 ---
 title: "LINE官方帳號"
-description: "將SeaChat無縫整合到您的LINE官方帳號，提升客戶服務體驗。這份詳盡的指南將引導您完成SeaChat的安裝過程，並展示如何與LINE的自動回應功能協同工作，以優化客戶互動。學習如何利用SeaChat的高級AI功能，理解客戶查詢，並提供精準的知識庫回答。我們的視頻教學將提供直觀的步驟，確保您能夠快速上手。此外，了解如何設定LINE回應以減少重複消息，並將文本訊息的處理交由SeaChat，讓您的LINE帳號更專注於發送影像和其他媒體訊息。立即開始，利用SeaChat和LINE的合作優勢，提升您的客戶服務質量和效率。"
+description: "將SeaChat無縫整合到您的LINE官方帳號，提升客戶服務體驗。這份詳盡的指南將引導您完成SeaChat的安裝過程，並展示如何與LINE的自動回應功能協同工作，以優化客戶互動。學習如何利用SeaChat的高級AI功能，理解客戶查詢，並提供精準的知識庫回答。我們的視頻教學將提供直觀的步驟，確保您能夠快速上手。此外，了解如何設定LINE回應以減少重複訊息，並將文本訊息的處理交由SeaChat，讓您的LINE帳號更專注於發送影像和其他媒體訊息。立即開始，利用SeaChat和LINE的合作優勢，提升您的客戶服務質量和效率。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-05-03T08:48:57+00:00
 draft: false
@@ -188,6 +188,27 @@ toc: true
 **LINE 推廣方案細節**
 </center>
 
+## LINE 按鈕訊息的限制
+
+當用戶在使用 SeaChat 的 LINE 頻道時，可能會遇到按鈕訊息在點擊按鈕後被截斷的問題。這是由於 LINE 按鈕訊息的字符限制所致。
+
+SeaChat 為此問題提供了解決方案。利用 KB ID 功能來避免訊息被截斷。請查看我們的 Wiki 關於 [KB ID](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids) 的更多信息，以了解如何避免訊息被截斷。
+
+以下是我們目前按鈕模板和回傳按鈕的字符限制總結：
+
+- **訊息字符限制**：200 字符
+
+- **回傳按鈕內容字符限制**：300 字符（所有按鈕總計）
+
+- **回傳按鈕數量限制**：最多 4 個按鈕
+
+如需詳細參考，請訪問 LINE 開發者文檔中的以下部分：
+
+在 [按鈕模板](https://developers.line.biz/zh-hant/reference/messaging-api/#template-messages) 部分下查閱按鈕模板訊息字符限制和按鈕數量限制。
+
+在 [回傳動作](https://developers.line.biz/zh-hant/reference/messaging-api/#action-objects) 部分下查閱回傳按鈕內容的字符限制。
+
+
 ## 🚨 LINE的AI自動回覆功能即將停用
 
 [LINE的AI自動回覆功能](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/)將在2024年5月停止服務。
@@ -198,7 +219,7 @@ toc: true
 
 ### 客戶如何知道真人客服已經離開聊天？
 
-當真人客服結束對話後，他/她可以點擊 **完成** 按鈕。客戶會看到一條消息，告訴他們「真人客服已完成對話」。
+當真人客服結束對話後，他/她可以點擊 **完成** 按鈕。客戶會看到一條訊息，告訴他們「真人客服已完成對話」。
 
 <br/>
 <center>

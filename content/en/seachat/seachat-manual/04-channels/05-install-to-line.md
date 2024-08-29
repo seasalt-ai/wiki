@@ -117,6 +117,84 @@ You can use SeaChat as an AI assistant providing useful information, capable of 
 </center>
 <br/>
 
+## Managing LINE and SeaChat Integration
+
+### Option 1: Completely Disable LINE Live Chat
+
+**Step 1:** Disable the LINE live chat feature.
+
+**After Disabling:**
+
+* You can then use SeaChat's features to replace LINE's auto-reply and live chat functions, with all conversation records being saved in SeaChat.
+
+### Option 2: Using Both Platforms Simultaneously
+
+In this setup, both LINE and SeaChat can respond to incoming messages. However, special attention is needed when managing replies from each platform. Users can switch between the LINE backend or the SeaChat backend for live chat.
+
+#### Auto-Reply:
+
+* SeaChat can automatically respond to messages. These replies will appear in both the LINE backend and the SeaChat backend.
+
+#### Live Reply from LINE Backend:
+
+**Advantages:**
+
+* Live replies will be fully displayed in the LINE backend.
+
+**Disadvantages:**
+
+* Live replies will not be shown in the SeaChat backend.
+* SeaChat won't be aware that a live reply has been sent from LINE, so it will continue to send its own reply. This may result in the user receiving two responses: the SeaChat reply (usually the first) and the live reply from the LINE backend.
+* Using SeaChat to reply incurs a cost of approximately NT$0.3 per message (GPT-3.5) or NT$0.18 per message (GPT-4o-mini).
+
+#### Live Reply from SeaChat:
+
+**Advantages:**
+
+* Live replies will be fully displayed in the SeaChat backend.
+
+**Disadvantages:**
+
+* Live replies will not be shown in the LINE backend.
+* These replies will count against LINE's monthly message limit (200 messages per month for free users). If the monthly limit is reached, you won't be able to send additional messages without upgrading your plan.
+
+## LINE's Pricing Strategy
+
+* Live replies sent through the LINE Official Account Manager do not count toward the free message quota.
+* For detailed pricing, refer to the official pricing information: [LINE Official Account Manager Pricing](https://tw.linebiz.com/column/LINEOA-2023-Price-Plan/)
+
+### Which Types of Messages Are Charged?
+
+* Only "Broadcast Messages," "Push API Messages from the Advanced Features of the Messaging API," and "Progressive Messages" are counted toward the message limit. The following types of messages are considered "free":
+    * Welcome messages for new friends.
+    * One-on-one live chat messages.
+    * Auto-reply messages.
+    * AI auto-reply messages.
+    * Messaging API's Reply API.
+
+<br/>
+
+
+## Limits of LINE Button Messages
+
+When users are using the LINE channel with SeaChat, they may encounter issues where the button message is cut off when the message button is clicked. This is due to the character limit for the LINE button message.
+
+SeaChat has a solution for this issue. Utilize the feature of KB ID to avoid the message being cut off. Please check out our wiki about [KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids) for more information on how to avoid the message being cut off.
+
+Here is a summary of the current limits for our button templates and postback buttons:
+
+- **Message character limit**: 200 characters
+
+- **Postback button content character limit**: 300 characters across all buttons
+
+- **Postback button number limit**: Up to 4 buttons
+
+For detailed reference, please visit the following sections on LINE's developer documentation:
+
+Button template message character limit and number of buttons limit under the [Buttons Template](https://developers.line.biz/en/reference/messaging-api/#template-messages) section.
+
+Postback Button’s content character limit under the [Postback Action](https://developers.line.biz/en/reference/messaging-api/#action-objects) section.
+
 ## LINE's AI Auto-Reply Function Will Be Discontinued Soon
 
 [LINE's AI auto-response function](https://tw.linebiz.com/manual/line-official-account/oa-manager-smartchat/) will be discontinued in May 2024.

@@ -92,7 +92,14 @@ Once there is information in the knowledge base, the agent will start using this
     <p style="margin-top: 20px; font-size: 15px">URLs added to Agent's Answer</p>
 </div>
 
-### Limits of Button Messages
+
+### KB IDs
+
+A KB ID is a unique identifier for each piece of knowledge in the knowledge base. You can copy the ID of any knowledge item to your clipboard by clicking on the **Copy KB ID** button located under the **More** button for that knowledge.
+
+You can then paste this KB ID to the content field of a button. The AI agent will then retrieve the information and return it to the user when the button is clicked.
+
+This is particularly useful when the content of a button becomes too lengthy. For users that are using external channels like [LINE](http://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/#limits-of-line-button-messages), there is a set of limits related to the button messages. 
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -104,23 +111,9 @@ Once there is information in the knowledge base, the agent will start using this
 </div>
 <br/>
 
-Here is a summary of the current limits for our button templates and postback buttons:
+The KB ID feature provides a solution for these users to provide detailed information without worrying about exceeding the character limit.
 
-- Message character limit: 200 characters
-
-- Postback button content character limit: 300 characters across all buttons
-
-- Postback button number limit: Up to 4 buttons
-
-### KB IDs
-
-A KB ID is a unique identifier for each piece of knowledge in the knowledge base. You can copy the ID of any knowledge item to your clipboard by clicking on the **Copy KB ID** button located under the **More** button for that knowledge.
-
-You can then paste this KB ID to the content field of a button. The AI agent will then retrieve the information and return it to the user when the button is clicked. 
-
-This is particularly useful when the content of a button becomes too lengthy. Given that each button has a character limit, the KB ID feature allows users to provide detailed information without worrying about exceeding the character limit.
-
-The AI agent will reference the knowledge base to retrieve the information and respond, bypassing the character limit imposed on the button content.
+The AI agent will reference the knowledge base to retrieve the information and respond, bypassing the character limit imposed.
 
 Not only does this feature free users from the character limit of the button content, but it also enables agent editors to better manage information in the knowledge base. Instead of overloading the button content with information, you can create a separate knowledge item accessible to the AI agent, which the button can link to.
 

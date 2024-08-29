@@ -108,7 +108,29 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
 - 回傳按鈕數量限制：最多 4 個按鈕
 
 
-### KB IDs
+### KB ID
+
+KB ID 是每個知識庫項目中的知識的唯一識別碼。您可以通過點擊該知識項目下的 **更多** 按鈕中的 **複製 KB ID** 按鈕，將知識項目的 ID 複製到剪貼板。
+
+然後，您可以將此 KB ID 貼上到按鈕的內容欄位中。當按鈕被點擊時，AI 助理將會檢索相關資訊並回傳給使用者。
+
+當按鈕內容過長時，此功能特別有用。對於使用 [LINE](http://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/#line-按鈕訊息的限制) 等第三方頻道的用戶，按鈕消息有一套相關的字符限制。
+
+<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id-problem.png" alt="">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">由於消息限制導致消息被截斷</p>
+</div>
+<br/>
+
+KB ID 功能為這些用戶提供了一個解決方案，可以在不擔心超過字符限制的情況下提供詳細資訊。
+
+AI 助理將參考知識庫來檢索資訊並回應，從而繞過字符限制。
+
+此功能不僅解除了用戶在按鈕內容字符限制上的煩惱，還使得AI助理編輯者能更好地管理知識庫中的信息。與其將所有信息都塞入按鈕內容中，您可以創建一個獨立的知識項目，讓 AI 助理訪問，並通過按鈕鏈接到該知識項目。
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -116,20 +138,10 @@ SeaChat 提供了不同的方法來向助理的回應中添加額外信息。選
     <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/url-button/kb-id.png" alt="">
     </a>
 </div>
-        <p style="margin-top: 20px; font-size: 15px">利用KB ID而產出的完整訊息</p>
+    <p style="margin-top: 20px; font-size: 15px">使用 KB ID 完整消息</p>
 </div>
 
 <br/>
-
-KB ID 是每個知識項目的唯一識別碼。您可以透過點擊該知識項目下的**更多**按鈕中的**複製KB ID**按鈕，將其 ID 複製到剪貼簿。
-
-接著，您可以將此 KB ID 貼到按鈕的內容欄位中。當按下該按鈕時，AI 助理將會檢索相關資訊並將其返回給用戶。
-
-這在按鈕內容變得過長時特別有用。由於每個按鈕都有字元限制，KB ID 功能允許用戶在不超過字元限制的情況下提供詳細資訊。
-
-AI 助理會參考知識庫來檢索資訊並做出回應，從而繞過按鈕內容的字元限制。
-
-此功能不僅解除了按鈕內容的字元限制，還使得AI助理編輯者能夠更好地管理知識庫中的資訊。您可以建立一個可供 AI 助理訪問的單獨知識，並讓按鈕鏈接到該知識，而不是將所有資訊塞入按鈕內容中。
 
 > 🚨注意 🚨
 >
