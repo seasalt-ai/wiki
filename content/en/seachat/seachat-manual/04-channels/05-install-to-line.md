@@ -179,8 +179,6 @@ In this setup, both LINE and SeaChat can respond to incoming messages. However, 
 
 When users are using the LINE channel with SeaChat, they may encounter issues where the button message is cut off when the message button is clicked. This is due to the character limit for the LINE button message.
 
-SeaChat has a solution for this issue. Utilize the feature of KB ID to avoid the message being cut off. Please check out our wiki about [KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids) for more information on how to avoid the message being cut off.
-
 Here is a summary of the current limits for our button templates and postback buttons:
 
 - **Message character limit**: 200 characters
@@ -194,6 +192,9 @@ For detailed reference, please visit the following sections on LINE's developer 
 Button template message character limit and number of buttons limit under the [Buttons Template](https://developers.line.biz/en/reference/messaging-api/#template-messages) section.
 
 Postback Button’s content character limit under the [Postback Action](https://developers.line.biz/en/reference/messaging-api/#action-objects) section.
+
+SeaChat has a solution for this issue. Utilize the feature of KB ID to avoid the message being cut off. Please check out our wiki about [KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids) for more information on how to avoid the message being cut off.
+
 
 ## LINE's AI Auto-Reply Function Will Be Discontinued Soon
 
