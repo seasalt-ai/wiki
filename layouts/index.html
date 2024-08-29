@@ -8,7 +8,7 @@
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ if eq $.Site.Language.LanguageName "English" }} <a class="btn btn-primary btn-lg px-4 mb-2"
         href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" role="button">Book a Demo</a>
-      <p class="meta">Learn more at <a href="https://Seasalt.ai">Seasalt.ai</a></p>{{ end }}
+        <p class="meta">Learn more at <a href="https://Seasalt.ai" style="text-decoration: underline;">Seasalt.ai</a></p></p>{{ end }}
       {{ if eq $.Site.Language.LanguageName "繁體中文" }} <a class="btn btn-primary btn-lg px-4 mb-2"
         href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" role="button">預約諮詢</a>
       <p class="meta">訪問 <a href="https://Seasalt.ai">Seasalt.ai</a> 瞭解更多</p>{{ end }}
@@ -45,9 +45,10 @@
         <h2 class="h4">SeaX ⭐ </h2>
         <a class="btn btn-primary btn-secondary px-3 mb-2" href="/seax/seax_messaging/bulk-messaging-features/" role="button">Get
           Started</a>
-        <p>A collaborative contact center built on top of <a
-            href="https://showcase.twilio.com/partner-listings?q=seasalt.ai" target="_blank">Twilio Flex</a>.
-          Omni-channel customer service delivered with state-of-the-art speech intelligence.</p>
+          <p>
+            A collaborative contact center built on top of <a href="https://showcase.twilio.com/partner-listings?q=seasalt.ai" target="_blank" style="text-decoration: underline;">Twilio Flex</a>.
+            Omni-channel customer service delivered with state-of-the-art speech intelligence.
+          </p>
       </div>
       <!-- <div class="col-lg-5">
           <h2 class="h4">SeaMeet 📝 </h2>
