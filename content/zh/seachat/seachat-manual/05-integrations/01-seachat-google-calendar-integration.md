@@ -19,6 +19,15 @@ toc: true
 
 ## Google Calendar 整合
 
+<br/>
+<center>
+  <a href="/images/seachat-integrations/google-calendar/zh/google-calendar-ui.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat-integrations/google-calendar/zh/google-calendar-ui.png" alt="">
+</a>
+
+*Google Calendar 整合介面*
+</center>
+
 透過 Google Calendar 整合，您的 SeaChat 助理可以透過聊天或語音互動為您預約。這個過程非常簡單，只需兩個步驟。按照螢幕上的指示將 SeaChat 與您的 Google Calendar 整合。
 
 首先，授權 SeaChat 連接您的 Google Calendar。接下來，設置工作時間，讓 SeaChat 助理知道何時安排預約。
