@@ -9,7 +9,8 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-   - /en/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
+  - /en/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
+  - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
 weight: 60
 toc: true
 ---

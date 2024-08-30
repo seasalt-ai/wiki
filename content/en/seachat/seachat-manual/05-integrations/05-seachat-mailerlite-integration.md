@@ -9,9 +9,9 @@ menu:
   seachat:
     parent: "seachat-integrations"
 aliases:
-   - /en/seachat/seachat-integrations/mailerlite/
-   - /seachat/seachat-integrations/mailerlite/
-   - /seachat/seachat-integrations/05-seachat-mailerlite-integration/
+  - /en/seachat/seachat-integrations/mailerlite/
+  - /seachat/seachat-integrations/mailerlite/
+  - /seachat/seachat-integrations/05-seachat-mailerlite-integration/
 weight: 50
 toc: true
 ---

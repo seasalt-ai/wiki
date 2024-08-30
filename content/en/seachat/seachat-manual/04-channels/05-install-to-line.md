@@ -10,6 +10,7 @@ seachat:
 parent: "seachat-manual"
 aliases:
   - /en/seachat/seachat-manual/04-channels/05-install-to-line/
+  - /seachat/seachat-manual/05-install-to-line-and-web/
 weight: 50
 toc: true
 ---
