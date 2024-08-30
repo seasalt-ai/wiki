@@ -6,8 +6,8 @@ lastmod: 2024-05-13T08:48:57+00:00
 draft: false
 images: []
 menu:
-seachat:
-parent: "seachat-manual"
+  seachat:
+    parent: "seachat-manual"
 aliases:
   - /en/seachat/seachat-manual/04-channels/05-install-to-line/
   - /seachat/seachat-manual/05-install-to-line-and-web/
