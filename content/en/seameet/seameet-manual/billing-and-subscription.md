@@ -1,6 +1,6 @@
 ---
 title: "Billing and Subscription"
-description: ""
+description: "Manage your SeaMeet billing and subscriptions: View plans, usage, billing history, and update recipient details."
 date: 2024-07-24T08:48:57+00:00
 lastmod: 2024-07-24T08:48:57+00:00
 draft: false

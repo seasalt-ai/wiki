@@ -1,6 +1,6 @@
 ---
 title: "Import Sitemaps"
-description: "Enhance your SeaChat AI agent's knowledge base with ease by importing sitemaps. Our tutorial guides you through the process, from signing up for a free account to navigating the Knowledge Base dashboard. Discover how to quickly add website URLs using XML files and customize your agent with new knowledge. Need help? Contact seachat@seaslt.ai for assistance."
+description: "Enhance your AI agent’s knowledge base by importing sitemaps. Integrate website URLs into your AI agent."
 lead: ""
 date: 2024-04-15 10:43:51.069 +0100
 lastmod: 2024-04-15 10:43:51.069 +0100

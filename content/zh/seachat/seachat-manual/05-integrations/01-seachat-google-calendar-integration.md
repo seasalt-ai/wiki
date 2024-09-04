@@ -1,6 +1,6 @@
 ---
 title: "Google Calendar"
-description: "透過 SeaChat 輕鬆預約並同步至您的 Google Calendar，實現無縫的日程安排。了解如何將 SeaChat 的 AI 聊天和語音助理與 Google Calendar 整合，以便有效管理預約。"
+description: "了解如何透過 SeaChat 的 AI 聊天和語音助理與 Google Calendar之間的整合，自動化會議安排，以便有效管理預約。"
 date: 2024-03-19T08:48:57+00:00
 lastmod: 2024-08-28T08:48:57+00:00
 draft: false

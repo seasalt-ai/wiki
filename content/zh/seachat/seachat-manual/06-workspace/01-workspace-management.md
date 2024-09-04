@@ -1,6 +1,6 @@
 ---
 title: "工作區管理"
-description: "SeaChat 工作區管理"
+description: "學習如何在 SeaChat 中管理工作區，包含 AI 助理與成員管理、通知設置及 API 金鑰使用。探索多重工作區的功能，提升工作效率。"
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2024-06-27T08:48:45+00:00

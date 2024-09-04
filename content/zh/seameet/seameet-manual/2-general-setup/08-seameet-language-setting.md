@@ -1,6 +1,6 @@
 ---
 title: "切換會議語言"
-description: ""
+description: "了解如何切換 SeaMeet 會議中以及SeaMeet 小工具的語言，支援繁體中文、英文及自動偵測模式，提升會議轉錄效率。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

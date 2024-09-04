@@ -1,6 +1,6 @@
 ---
 title: "Webpage"
-description: "Integrate SeaChat into your webpage so your customers can chat with your AI customer service chatbot anytime. Enhance your online presence and streamline communication."
+description: "Integrate SeaChat into your webpage so your customers can chat with your AI agent anytime. Enhance your online presence and streamline communication."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

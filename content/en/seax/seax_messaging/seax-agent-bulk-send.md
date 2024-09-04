@@ -1,6 +1,6 @@
 ---
 title: "SeaX Bulk Send/Call with SeaChat"
-description: "Learn how to effectively manage and automate bulk messaging with SeaX and SeaChat. This guide covers setting up your workspace, creating AI agents, and sending bulk messages and calls. Streamline your business communication by integrating SeaX with SeaChat for seamless outbound SMS and call campaigns. Discover how to set up recipients, compose campaigns, and monitor interactions for optimized results."
+description: "Master bulk messaging with SeaX and SeaChat. Learn to set up AI agents, automate campaigns, and streamline communications."
 date: 2024-07-22T08:48:57+00:00
 lastmod: 2024-07-22T08:48:57+00:00
 draft: false

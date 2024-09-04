@@ -1,6 +1,6 @@
 ---
 title: "SeaChat Release History"
-description: ""
+description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-08-28T08:48:57+00:00
 draft: false

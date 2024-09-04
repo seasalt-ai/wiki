@@ -1,6 +1,6 @@
 ---
 title: "SeaMeet 版本發布資訊"
-description: ""
+description: "深入了解 SeaMeet 版本發布資訊，掌握最新功能更新、效能優化與錯誤修復。透過本頁面，保持軟體最新狀態，確保最佳會議體驗。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-08-20T08:48:57+00:00
 draft: false

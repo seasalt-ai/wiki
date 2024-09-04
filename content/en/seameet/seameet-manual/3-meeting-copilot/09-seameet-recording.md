@@ -1,6 +1,6 @@
 ---
 title: "Play Meeting Recordings"
-description: ""
+description: "Replay full meetings or segments with SeaMeet. Navigate recordings or transcript segments with intuitive controls."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

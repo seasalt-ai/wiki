@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp Business"
-description: "Learn how to seamlessly integrate WhatsApp with SeaX Messaging through our comprehensive guide. Connect with your customers on WhatsApp and unlock the full potential of SeaX Messaging for engaging campaigns, bulk messages, and personalized interactions. Follow our step-by-step instructions to establish a strong presence on WhatsApp and enhance your customer engagement strategy today!"
+description: "Integrate WhatsApp with SeaX Messaging for enhanced customer engagement. Follow our step-by-step guide to set up and manage WhatsApp campaigns."
 date: 2024-05-02T08:48:57+00:00
 lastmod: 2024-05-08T08:48:57+00:00
 draft: false

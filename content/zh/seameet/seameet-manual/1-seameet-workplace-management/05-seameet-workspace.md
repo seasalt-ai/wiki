@@ -1,6 +1,6 @@
 ---
 title: "設定SeaMeet工作區"
-description: ""
+description: "學習如何設定和管理 SeaMeet 工作區，協作團隊成員、升級方案、管理會議記錄，確保高效會議管理與團隊協作。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

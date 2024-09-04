@@ -1,6 +1,6 @@
 ---
 title: "助理對話"
-description: "SeaChat 助理對話"
+description: "透過 SeaChat 助理對話，輕鬆管理和回應所有進行中的對話，並有效提升互動效率。瞭解如何查看對話歷史並下載音訊記錄。"
 date: 2024-07-30T08:48:57+00:00
 lastmod: 2024-07-30T08:48:57+00:00
 draft: false

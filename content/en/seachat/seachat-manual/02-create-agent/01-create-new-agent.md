@@ -1,6 +1,6 @@
 ---
 title: "Create New Agent"
-description: "Create a new AI agent effortlessly with SeaChat. Follow the user guide to set up agents from scratch or pick predefined use cases. Get started now!"
+description: "Create an AI agent with SeaChat using our guide to set up agents from scratch or predefined use cases."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-05-16T08:48:57+00:00
 draft: false

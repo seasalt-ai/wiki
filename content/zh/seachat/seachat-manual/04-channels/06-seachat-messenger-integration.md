@@ -1,6 +1,6 @@
 ---
 title: "Facebook Messenger"
-description: "探索如何將SeaChat AI助理集成到Facebook Messenger，實現高效的自動客服回應。本教程將引導您通過簡單的步驟設置由ChatGPT驅動的聊天機器人，包括如何連接您的Messenger商業帳號至SeaChat平台，設置自動回應，並管理真人客服交接。了解如何使用先進的大語言模型來提供準確回應，並通過實時分析來優化客戶互動。此外，本指南提供YouTube視頻教程，詳細展示整個設定過程，讓您輕鬆部署Messenger AI助理並開始改善客戶服務經驗。"
+description: "利用本指南或YouTube視頻教程，探索如何將SeaChat AI助理集成到Facebook Messenger，設置自動回應，並管理真人客服交接。"
 date: 2024-04-22T08:48:57+00:00
 lastmod: 2024-04-22T08:48:57+00:00
 draft: false

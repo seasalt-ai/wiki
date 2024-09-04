@@ -1,6 +1,6 @@
 ---
 title: "Facebook Messenger"
-description: "Learn how to set up a ChatGPT-powered chatbot on Facebook Messenger with our comprehensive guide. From creating a Meta app to configuring webhooks and tokens, we walk you through each step to ensure a successful integration. Get your bot live and interacting with users in no time. Need help? Contact seachat@seaslt.ai for assistance."
+description: "Set up a ChatGPT-powered bot on Facebook Messenger. Follow our guide to create a Meta app, configure webhooks, and launch your bot for seamless communication."
 date: 2024-04-08T08:48:57+00:00
 lastmod: 2024-04-08T08:48:57+00:00
 draft: false

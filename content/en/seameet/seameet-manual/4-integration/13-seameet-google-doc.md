@@ -1,6 +1,6 @@
 ---
 title: "Export Meeting to Google Doc"
-description: ""
+description: "Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Shopify"
-description: "Enhance your Shopify storefront with SeaChat's AI agent for personalized customer interactions. Follow our step-by-step guide to seamlessly integrate SeaChat into your Shopify website. Sign up for free at SeaChat, customize your AI agent, and embed it into your Shopify theme effortlessly. Optimize your customer engagement and boost sales with SeaChat on Shopify. "
+description: "Integrate SeaChat AI into your Shopify store to boost customer engagement with personalized AI-driven interactions."
 date: 2024-03-10T08:48:57+00:00
 lastmod: 2024-03-10T08:48:57+00:00
 draft: false

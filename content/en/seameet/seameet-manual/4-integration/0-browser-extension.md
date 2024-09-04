@@ -1,6 +1,6 @@
 ---
 title: "Browser Extension"
-description: "SeaMeet Browser Extension"
+description: "Enhance meetings with the SeaMeet Browser Extension. Integrate Google suite with AI-powered meeting management."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Team Workspace Management"
-description: "SeaMeet User Guide"
+description: "Manage multiple workspaces and users on SeaMeet. Learn how to streamline user management across workspaces."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

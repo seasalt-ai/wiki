@@ -1,6 +1,6 @@
 ---
 title: "FAQ - SeaMeet 常見問題集"
-description: ""
+description: "SeaMeet 常見問題集，涵蓋如何開始會議轉錄、支援平台與語言、團隊協作、工作區管理與解決方案，幫助您高效運用 SeaMeet 進行會議記錄與協作。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-08-01T08:48:57+00:00
 draft: false

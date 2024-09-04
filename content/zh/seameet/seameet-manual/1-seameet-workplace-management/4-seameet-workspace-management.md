@@ -1,6 +1,6 @@
 ---
 title: "工作區管理員"
-description: ""
+description: "了解如何管理 SeaMeet 工作區與使用者，設定主管理員和計算方案人數。確保您的團隊有效利用 SeaMeet 團隊版進行協作。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

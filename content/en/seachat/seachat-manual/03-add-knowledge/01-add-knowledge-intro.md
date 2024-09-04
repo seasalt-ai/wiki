@@ -1,6 +1,6 @@
 ---
 title: "How to Add Knowledge"
-description: "Explore our in-depth tutorial to enhance your knowledge-based agent with advanced features. Follow our step-by-step guide for seamless integration and discover key insights to optimize your SeaChat agent’s performance. Start now to elevate your agent’s capabilities!"
+description: "Learn to optimize your SeaChat agent's performance with advanced features by adding knowledge seamlessly."
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-03-04 10:43:51.069 +0100

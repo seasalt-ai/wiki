@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp"
-description: "利用Seasalt.ai的SeaChat平台解鎖無縫的WhatsApp自動化功能。透過整合**ChatGPT**驅動的聊天機器人，輕鬆管理對話，並通過真人助理連接提升客戶支持。非常適合高流量訊息和個性化體驗。"
+description: "利用Seasalt.ai的SeaChat平台解鎖WhatsApp自動化功能。透過整合ChatGPT驅動的聊天AI，輕鬆管理對話，並通過真人助理連接提升客戶支持。"
 date: 2024-07-12T08:48:57+00:00
 lastmod: 2024-07-12T08:48:57+00:00
 draft: false

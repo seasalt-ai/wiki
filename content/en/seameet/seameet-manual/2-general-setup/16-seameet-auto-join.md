@@ -1,6 +1,6 @@
 ---
 title: "Auto Join Meetings"
-description: ""
+description: "Auto-join meetings with SeaMeet by syncing Google Calendar. Start recordings automatically without manual input."
 date: 2024-04-18T08:48:57+00:00
 lastmod: 2024-08-01T08:48:57+00:00
 draft: false

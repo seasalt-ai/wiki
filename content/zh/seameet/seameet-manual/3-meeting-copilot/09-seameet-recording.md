@@ -1,6 +1,6 @@
 ---
 title: "播放會議錄音"
-description: ""
+description: "了解如何在 SeaMeet 中結束會議記錄，並設定自動退出會議的條件，利用 SeaMeet 直觀的介面強化在會議重播上的效率。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

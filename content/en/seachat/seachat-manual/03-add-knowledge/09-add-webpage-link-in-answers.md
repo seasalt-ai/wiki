@@ -1,6 +1,6 @@
 ---
 title: "Adding URL buttons to KB responses"
-description: "Learn how to add reference URLs to SeaChat AI assistant answers to provide more detailed information  to users. This guide will walk you through adding URLs in the 'Existing Knowledge' page, enriching AI assistant interactions. Included YouTube video tutorials will demonstrate this process in detail, ensuring easy comprehension and implementation of these enhancements. By adding URLs, your AI assistant will be able to offer more comprehensive customer support, enhancing user experience."
+description: "Enhance your SeaChat AI agent's responses by adding URL buttons for more information in responses."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-05-29T08:48:57+00:00
 draft: false

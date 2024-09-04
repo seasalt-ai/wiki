@@ -1,6 +1,6 @@
 ---
 title: "註冊SeaMeet"
-description: ""
+description: "了解如何註冊使用 SeaMeet，並通過 Google 帳號快速完成登入流程。簡單又快速的流程讓您立馬開始體驗SeaMeet的功能。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

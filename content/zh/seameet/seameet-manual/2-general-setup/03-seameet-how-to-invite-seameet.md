@@ -1,6 +1,6 @@
 ---
 title: "轉錄會議"
-description: ""
+description: "學習如何邀請 SeaMeet 機器人來自動轉錄您的 Google Meet 會議，通過工作區邀請、擴充程式或 Google 日曆，輕鬆生成精確記錄。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

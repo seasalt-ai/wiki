@@ -1,6 +1,6 @@
 ---
 title: "Manual Entry"
-description: "Discover the ease of creating a knowledge-based AI agent with SeaChat’s Manual Entry method. Learn how to manually input data, set additional attributes, and customize your agent with our user-friendly tutorial. Get started now and enhance your AI agent’s capabilities with Seasalt.ai’s comprehensive guide."
+description: "Manually input data into your SeaChat AI agent's knowledge base using our comprehensive tutorial."
 lead: ""
 date: 2024-04-15 10:43:51.069 +0100
 lastmod: 2024-04-15 10:43:51.069 +0100

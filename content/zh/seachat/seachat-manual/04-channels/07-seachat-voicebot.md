@@ -1,6 +1,6 @@
 ---
 title: "電話"
-description: "SeaChat 電話"
+description: "了解如何在 SeaChat 設置語音助理，處理來電語音和對外撥話，並使用免費電話號碼提供客戶支援。快速上手設置並測試您的語音助理。"
 date: 2024-04-30T08:48:57+00:00
 lastmod: 2024-04-30T08:48:57+00:00
 draft: false
