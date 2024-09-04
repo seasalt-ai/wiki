@@ -1,6 +1,6 @@
 ---
 title: "Audio/Video File"
-description: "Enhance your SeaChat agent’s knowledge base with our seamless audio/video upload feature. Transcribe and integrate multimedia files effortlessly, ensuring your AI agent is equipped with comprehensive customer service insights. Perfect for incorporating past conversations, SeaChat’s transcription service supports English and Traditional Chinese, catering to a global audience1. Get started today and empower your SeaChat agent with rich, conversational intelligence."
+description: "Enhance your AI agent’s knowledge base by uploading audio/video files in English or Traditional Chinese."
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-03-04 10:43:51.069 +0100

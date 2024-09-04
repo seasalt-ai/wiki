@@ -1,6 +1,6 @@
 ---
 title: "Agent Version Control"
-description: "Learn how to efficiently duplicate and replace AI agents in SeaChat. This guide covers creating new agents based on existing ones for seamless testing and development, and managing different agent versions to streamline your production workflow."
+description: "Efficiently duplicate and manage AI agents in SeaChat. Create, test, and handle agent versions smoothly."
 lead: "Explore SeaChat's powerful agent duplication and replacement features, designed for creating and managing different versions of your AI agents. Perfect for prototyping, testing, and smoothly transitioning from development to production."
 date: 2024-07-10T08:48:45+00:00
 lastmod: 2024-07-10T08:48:45+00:00

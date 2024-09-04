@@ -1,6 +1,6 @@
 ---
 title: "SeaChat 版本發布資訊"
-description: ""
+description: "掌握 SeaChat 最新版本發布資訊，了解新增功能、效能優化及錯誤修復，確保您隨時使用最穩定、最先進的 AI 助理功能。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-08-28T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "How to Subscribe to a Plan"
-description: "Learn how to subscribe to a SeaMeet plan with our step-by-step guide. Register, log in, choose the best subscription plan for your needs, and complete the payment process."
+description: "Subscribe to a SeaMeet plan with this step-by-step guide. Register, log in, choose the best plan for your needs."
 date: 2024-05-26T08:48:57+00:00
 lastmod: 2024-05-26T08:48:57+00:00
 draft: false

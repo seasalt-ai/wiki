@@ -1,6 +1,6 @@
 ---
 title: "快速上手 SeaMeet"
-description: ""
+description: "快速上手 SeaMeet，邀請機器人記錄 Google Meet 會議，並管理會議紀錄。支援擴充程式、自動加入及行事曆邀請功能。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

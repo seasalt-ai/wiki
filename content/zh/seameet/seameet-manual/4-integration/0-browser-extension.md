@@ -1,6 +1,6 @@
 ---
 title: "瀏覽器擴充功能"
-description: "SeaMeet 瀏覽器擴充功能"
+description: "SeaMeet 瀏覽器擴充功能，支援多種瀏覽器，提升會議效率與整合性。其中更以與Google 辦公套件的無縫接合，替用戶創造更優化的作業流程。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

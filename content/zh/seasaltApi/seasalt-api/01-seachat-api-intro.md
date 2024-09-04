@@ -1,6 +1,6 @@
 ---
 title: "SeaChat API"
-description: "SeaChat RESTful API"
+description: "使用 SeaChat API 整合和自動化聊天機器人工作流程。以程式設計方式管理 AI 助理，並透過無縫整合增強您的應用程式。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

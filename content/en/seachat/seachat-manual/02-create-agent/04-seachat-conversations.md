@@ -1,6 +1,6 @@
 ---
 title: "Conversations"
-description: "SeaChat Conversations - Agent View"
+description: "Manage customer interactions with Conversations board. Access details, history, and download audio files."
 date: 2024-07-30T08:48:57+00:00
 lastmod: 2024-07-30T08:48:57+00:00
 draft: false

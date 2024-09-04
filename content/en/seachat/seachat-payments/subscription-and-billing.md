@@ -1,6 +1,6 @@
 ---
 title: "Billing and Subscription"
-description: ""
+description: "Manage your SeaChat billing and subscription. View and edit your plan, update billing info, and download invoices directly from the SeaChat dashboard."
 date: 2024-07-24T08:48:57+00:00
 lastmod: 2024-07-24T08:48:57+00:00
 draft: false

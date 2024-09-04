@@ -1,6 +1,6 @@
 ---
 title: "方案與帳務"
-description: ""
+description: "了解如何在 SeaMeet 儀表板管理訂閱與帳單，輕鬆操作各項帳務功能。本文提供使用詳情等功能的操作指南，確保您能有效掌握 SeaMeet 的所有帳務管理。"
 date: 2024-07-24T08:48:57+00:00
 lastmod: 2024-07-24T08:48:57+00:00
 draft: false

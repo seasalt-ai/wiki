@@ -1,6 +1,6 @@
 ---
 title: "Retrieval Augmented Generation (RAG)"
-description: "Discover SeaChat's advanced settings, including Agent Memory and Retrieval Augmented Generation (RAG). Learn how to optimize your AI agent's performance and real-time user engagement."
+description: "Enhance SeaChat AI with Retrieval Augmented Generation (RAG). Design query patterns to boost performance."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-26T08:48:45+00:00

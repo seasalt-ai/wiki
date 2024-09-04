@@ -1,6 +1,6 @@
 ---
 title: "End Meeting Recording"
-description: ""
+description: "End your SeaMeet recording with in-app controls or extension options, or set a timeout to automatically stops recording."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

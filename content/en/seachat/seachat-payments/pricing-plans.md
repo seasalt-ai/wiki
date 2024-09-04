@@ -1,6 +1,6 @@
 ---
 title: "Pricing"
-description: "SeaChat pricing details"
+description: "SeaChat's flexible pricing plans for various business needs. Learn about plan features, model options, and support packages."
 date: 2024-08-06T08:48:57+00:00
 lastmod: 2024-08-06T08:48:57+00:00
 draft: false

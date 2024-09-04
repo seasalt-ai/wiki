@@ -1,6 +1,6 @@
 ---
 title: "使用會議逐字稿和AI會議分析"
-description: ""
+description: "使用 SeaMeet 會議中英逐字稿與 AI 會議分析功能，自動生成摘要、待辦事項、會議議程、決議事項與討論主題等等。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

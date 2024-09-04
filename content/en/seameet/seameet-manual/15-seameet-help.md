@@ -1,6 +1,6 @@
 ---
 title: "Provide Feedback"
-description: ""
+description: "Need help with SeaMeet or have feedback? Access tutorials or send your questions directly to our team."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

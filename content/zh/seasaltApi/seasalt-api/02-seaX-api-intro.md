@@ -1,6 +1,6 @@
 ---
 title: "SeaX API"
-description: "SeaX Messaging API"
+description: "使用 SeaX API 整合並自動化訊息工作流程。以程式設計方式管理活動，簡化操作並有效擴展訊息傳遞效率。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

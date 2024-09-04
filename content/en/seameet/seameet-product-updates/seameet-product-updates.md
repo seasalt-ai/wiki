@@ -1,6 +1,6 @@
 ---
 title: "SeaMeet Release History"
-description: ""
+description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-08-20T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Switch Meeting Language"
-description: ""
+description: "Learn how to switch between Chinese, English, or auto-detection for SeaMeet transcriptions before or during meetings."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "SeaX API"
-description: "SeaX Messaging API"
+description: "Leverage the SeaX API to integrate and automate messaging workflows, streamlining operations, and managing campaigns."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

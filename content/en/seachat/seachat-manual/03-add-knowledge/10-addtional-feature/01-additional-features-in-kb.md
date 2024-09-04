@@ -1,6 +1,6 @@
 ---
 title: "Additional Features in Knowledge"
-description: "SeaChat Additional Features in Knowledge Base"
+description: "Enhance AI responses with buttons and images. Learn to edit entries, prioritize info, and sync content."
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-06-17 10:43:51.069 +0100

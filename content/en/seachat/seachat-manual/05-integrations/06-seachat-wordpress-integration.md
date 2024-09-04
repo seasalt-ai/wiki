@@ -1,6 +1,6 @@
 ---
 title: "Wordpress"
-description: "Embed SeaChat AI agents into Wordpress website by yourself! Follow our simple step-by-step guide to start chatting with your website visitors."
+description: "Embed SeaChat AI agents into Wordpress website. Follow our guide to start chatting with your website visitors."
 date: 2024-05-20T08:48:57+00:00
 lastmod: 2024-05-20T08:48:57+00:00
 draft: false

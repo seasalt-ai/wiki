@@ -1,6 +1,6 @@
 ---
 title: "Test and Improve AI Agent"
-description: "Delve into the SeaChat User Guide to master the art of testing and enhancing your AI agent. Discover invaluable tips and techniques through our video tutorial, designed to optimize your agent's performance. Elevate customer interactions and streamline operations with a refined AI agent. Watch the tutorial now and embark on the journey to AI excellence with SeaChat."
+description: "Learn to test and enhance your AI agent on SeaChat with video tutorial and practical tips for customer interactions."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

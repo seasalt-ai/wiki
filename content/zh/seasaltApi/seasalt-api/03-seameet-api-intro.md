@@ -1,6 +1,6 @@
 ---
 title: "SeaMeet API"
-description: "SeaMeet Messaging API"
+description: "使用 SeaMeet API 自動化和管理視訊會議，整合轉錄、錄製和分享功能，實現無縫且可擴展的會議解決方案。"
 date: 2024-07-12T08:48:57+00:00
 lastmod: 2024-07-12T08:48:57+00:00
 draft: false

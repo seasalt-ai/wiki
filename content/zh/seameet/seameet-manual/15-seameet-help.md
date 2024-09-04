@@ -1,6 +1,6 @@
 ---
 title: "提供反饋"
-description: ""
+description: "Seasalt.ai 歡迎您提供任何關於 SeaMeet 產品的反饋。您的使用經驗以及意見對我們的產品改進至關重要，歡迎隨時與我們聯繫。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

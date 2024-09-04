@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-description: ""
+description: "Frequently asked questions about SeaMeet. Find answers to common queries about SeaMeet's setup, transcription, and more."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-08-01T08:48:57+00:00
 draft: false

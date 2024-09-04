@@ -1,6 +1,6 @@
 ---
 title: "SeaChat API"
-description: "SeaChat RESTful API"
+description: "Enhance applications with SeaChat API. Manage AI agents programmatically for seamless, efficient operations."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false

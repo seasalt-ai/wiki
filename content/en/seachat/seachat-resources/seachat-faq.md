@@ -1,6 +1,6 @@
 ---
 title: "SeaChat FAQ"
-description: "Frequently asked questions about SeaChat, the AI chat and voice agent platform. Find answers to common queries about SeaChat's features, channels, and more."
+description: "Frequently asked questions about SeaChat. Find answers to common queries about SeaChat's features, channels, and more."
 lead: ""
 date: 2024-08-10T08:48:45+00:00
 lastmod: 2024-08-10T08:48:45+00:00

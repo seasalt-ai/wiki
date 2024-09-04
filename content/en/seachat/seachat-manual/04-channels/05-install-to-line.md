@@ -1,6 +1,6 @@
 ---
 title: "LINE Official Account"
-description: "Use SeaChat AI Chatbot for your LINE Official Account to enhance customer experience. SeaChat can work with LINE's auto-response feature to optimize customer interactions."
+description: "Enhance your LINE Official Account by integrating auto-response in LINE with SeaChat AI agents."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-05-13T08:48:57+00:00
 draft: false

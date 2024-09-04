@@ -1,6 +1,6 @@
 ---
 title: "結束會議記錄"
-description: ""
+description: "了解如何手動或自動結束 SeaMeet 會議記錄，機器人將在適當情況下自動退出，完全掌握 SeaMeet Copilot 在會議紀錄上的控制。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false

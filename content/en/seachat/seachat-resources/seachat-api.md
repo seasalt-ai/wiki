@@ -1,6 +1,6 @@
 ---
 title: "SeaChat API"
-description: ""
+description: "Integrate and automate AI agent workflows with SeaChat's RESTful API, detailed in our API documentation."
 lead: ""
 date: 2024-08-10T08:48:45+00:00
 lastmod: 2024-08-10T08:48:45+00:00

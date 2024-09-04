@@ -1,6 +1,6 @@
 ---
 title: "自動加入會議"
-description: ""
+description: "了解如何設定SeaMeet自動加入會議功能，讓AI助理自動加入並轉錄您的Google Meet會議，同步Google行事曆、及管理預定會議列表的操作步驟。"
 date: 2024-04-18T08:48:57+00:00
 lastmod: 2024-08-01T08:48:57+00:00
 draft: false
