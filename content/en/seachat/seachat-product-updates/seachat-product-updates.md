@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-08-28T08:48:57+00:00
+lastmod: 2024-09-04T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,14 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 09/04/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Enhanced Knowledge Base Search: The search functionality for existing knowledge base articles now uses the same strategy as RAG search method, improving search accuracy and efficiency.
+- Support for WebP Format: You can now upload WebP format images to use as icons, allowing for more flexible image options.
+- Google Calendar Integration: Users can now select which Google Calendar to book appointments, providing more control over scheduling.
+- Customizable Webchat Widget Icon: You can now personalize your webchat widget by uploading any image as the widget icon, giving you more customization options.
+- Simplified Webchat Widget Installation: The webchat widget installation code block has been updated in all integrations page. You can now easily copy and paste one code block to install multiple widgets to your integration channels.
 
 ### 08/28/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
