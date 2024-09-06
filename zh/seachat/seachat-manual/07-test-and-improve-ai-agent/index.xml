@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>如何測試和改善 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/</link><description>Recent content in 如何測試和改善 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 06 Sep 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/index.xml" rel="self" type="application/rss+xml"/><item><title>After launching SeaChat – SOP to a successful operation</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/posrt-launch-sop/</link><pubDate>Mon, 02 Sep 2024 00:22:19 -0700</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/posrt-launch-sop/</guid><description>恭喜您成功將 SeaChat 部署到選定的頻道 – 網站、WhatsApp 或其他平台。我們只完成了一半的工作。本指南將引導您完成剩餘步驟，以確保日常運營的成功。
+設置 # 1. 向工作區添加更多成員 # 工作區 → 成員
+如果您尚未添加，您可以前往 工作區 → 成員 將您的團隊添加進去。
+請注意，成員有 三種角色: 管理員、AI 助理編輯者和人工客服。
+人工客服無法看到您如何配置 AI 助理，他們只負責回覆收到的訊息。
+您的 AI 助理編輯者可以修改 AI 助理，因此請謹慎分配這些角色。
+如果您有 多個 AI 助理，您可以為不同的 AI 助理分配不同的人工客服。
+2. 啟用郵件通知 # 您應該要求每個客服在 工作區 → 偏好設置 啟用郵件通知。
+在 SeaChat 上啟用郵件通知
+這樣，當有人開始與您的 AI 助理聊天時，您會立即收到通知，然後您可以選擇是否要參與其中。
+3. 考慮在網頁小工具上啟用表單 # 如果您使用網頁聊天小工具，訪客可能不會留下他們的電話號碼、姓名或電子郵件。這樣您將無法知道您正在與誰聊天。此時，您可以前往 頻道 → 網頁聊天小工具 → 自定義表單，強制訪客在聊天前填寫聯絡資訊：
+網頁聊天小工具中的自定義表單
+創建網頁聊天小工具</description></item><item><title>如何測試和改善回答品質</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</guid><description>加入知識之後，你可以開始測試你的AI助理，你可以準備一系列的問答題庫來模擬使用者可能會問的問題，並且參照答案來評斷AI助理是不是提供好的回覆。</description></item></channel></rss>
