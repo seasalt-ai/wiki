@@ -1,10 +1,10 @@
 ---
-title: "After launching SeaChat – SOP to a successful operation"
+title: "SOP for After Launch Operations"
 description: "After launching SeaChat, follow this SOP guide to optimize daily operations and improve team workflows for productivity."
 date: 2024-09-02T00:22:19-07:00
 lastmod: 2024-09-02T00:22:19-07:00
 draft: false
-weight: 1
+weight: 2
 aliases: 
     - /en/seachat/seacaht-manual/07-test-and-improve-ai-agent/post-launch-sop
 ---
