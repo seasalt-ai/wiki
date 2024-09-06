@@ -11,7 +11,6 @@ menu:
 aliases:
   - /en/seachat/seachat-manual/06-improve-agent/
 weight: 60
-toc: true
 ---
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>

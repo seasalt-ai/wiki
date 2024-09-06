@@ -1,7 +1,6 @@
 ---
 title: "上傳影片/音頻檔案"
-description: "學習如何將影片和音頻文件直接上傳到您的SeaChat知識庫。本全面指南將詳細介紹如何有效地轉錄和上傳多媒體內容到您的AI助理，包括所有必要的檔案格式和長度要求。“
-lead: ""
+description: "學習如何將影片和音頻文件直接上傳到您的SeaChat知識庫。本全面指南將詳細介紹如何有效地轉錄和上傳多媒體內容到您的AI助理，包括所有必要的檔案格式和長度要求。"
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100
 weight: 32
@@ -10,6 +9,7 @@ images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/
 ---
+
 > 🧭 **檔案大小規則**
 >
 > 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
