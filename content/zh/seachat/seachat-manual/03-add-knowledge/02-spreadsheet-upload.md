@@ -20,7 +20,7 @@ SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教�
 
 ## 創建 SeaChat 助理
 
-如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-manual/01-create-agent/) 找到創建AI助理的步驟。
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/) 找到創建AI助理的步驟。
 
 
 ## 開啟知識庫
@@ -28,7 +28,7 @@ SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/20240313-spreadsheet-tutorial-step2.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step2.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
 </a>
 
@@ -42,7 +42,7 @@ SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/20240313-spreadsheet-tutorial-step3.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step3.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step3.png" alt="SeaChat知識庫的試算表上傳功能介面">
 </a>
 
@@ -79,7 +79,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/20240313-spreadsheet-tutorial-step4.jpg" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4.jpg" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4.jpg" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
 </a>
 

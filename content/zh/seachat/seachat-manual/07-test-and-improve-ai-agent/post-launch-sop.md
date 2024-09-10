@@ -1,6 +1,6 @@
 ---
-title: "After launching SeaChat – SOP to a successful operation"
-description: "After launching SeaChat, follow this SOP guide to optimize daily operations and improve team workflows for productivity."
+title: "連上 SeaChat 後 - 成功營運的 SOP"
+description: "連上 SeaChat 後，請遵循此標準作業程序 (SOP) 指南，以優化日常運營並改善團隊工作流程，提高工作效率。"
 date: 2024-09-02T00:22:19-07:00
 lastmod: 2024-09-02T00:22:19-07:00
 draft: false
@@ -28,7 +28,7 @@ aliases:
 
 如果您尚未添加，您可以前往 *工作區* → *成員* 將您的團隊添加進去。
 
-請注意，成員有 [三種角色](https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/01-workspace-management/#members): 管理員、AI 助理編輯者和人工客服。
+請注意，成員有 [三種角色](https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/01-workspace-management/#members): 管理員、AI 助理編輯者和人工客服。
 
 人工客服無法看到您如何配置 AI 助理，他們只負責回覆收到的訊息。
 

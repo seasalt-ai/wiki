@@ -8,8 +8,8 @@ weight: 61
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-manual/workspace/01-workspace-management
-  - /seachat/seachat-manual/workspace/01-workspace-management
+  - /en/seachat/workspace/01-workspace-management
+  - /seachat/workspace/01-workspace-management
 ---
 
 Workspace is the control center of all your agents and members. Let's first navigate to the section under **Workspace** to find all the features that we will cover in this article. 
@@ -40,7 +40,7 @@ This is where you can manage all your AI agents. Each row represents an agent an
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
-    <a href="/images/seachat/en/seachat-manual/workspace/01-workspace-management/members.png" target="_blank">
+    <a href="/images/seachat/en/workspace/01-workspace-management/members.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/members.png" alt="">
     </a>
 </div>
@@ -57,7 +57,7 @@ There are different types of members. Depending on the type of membership, membe
 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
-    <a href="/images/seachat/en/seachat-manual/workspace/01-workspace-management/add-member.png" target="_blank">
+    <a href="/images/seachat/en/workspace/01-workspace-management/add-member.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/add-member.png" alt="">
     </a>
 </div>

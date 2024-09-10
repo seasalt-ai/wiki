@@ -170,7 +170,7 @@ AI 助理將參考知識庫來檢索資訊並回應，從而繞過字符限制�
 
 在 **seachat_ref** 欄位的每一行中，您的 AI 助理將尋找兩條資訊：<code>按鈕標題</code>（第1行）和<code>按鈕值</code>（第2行）。以下是 seachat_ref 欄位的範例：
 
-在 SeaChat 助理的知識庫中還有更多進階功能，您可以利用這些功能來優化助理的回應。請查看我們的[進階功能](/zh/seachat/seachat-manual/03-add-knowledge/09-advanced-features/)教學，以了解有關這些功能的更多信息。
+在 SeaChat 助理的知識庫中還有更多進階功能，您可以利用這些功能來優化助理的回應。請查看我們的[進階功能](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/)教學，以了解有關這些功能的更多信息。
 
 ```
 "用戶手冊 Wiki" --- 第1行
@@ -210,4 +210,4 @@ AI 助理將參考知識庫來檢索資訊並回應，從而繞過字符限制�
 
 <br/>
 
-在 SeaChat 助理的知識庫中還有更多進階功能，您可以利用這些功能來優化助理的回應。請查看我們的[進階功能](/zh/seachat/seachat-manual/03-add-knowledge/09-advanced-features/)教學，以了解有關這些功能的更多信息。
+在 SeaChat 助理的知識庫中還有更多進階功能，您可以利用這些功能來優化助理的回應。請查看我們的[進階功能](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/)教學，以了解有關這些功能的更多信息。

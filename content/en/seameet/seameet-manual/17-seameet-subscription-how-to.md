@@ -16,7 +16,7 @@ toc: true
 
 ## 1. **Register and Log In to SeaMeet**
 
-Log in to [SeaMeet](https://meet.seasalt.ai/signin) and start using it immediately. If you haven't registered yet, please refer to [here](/en/seameet/seameet-manual/1-how-to-use-seameet/) to register.
+Log in to [SeaMeet](https://meet.seasalt.ai/signin) and start using it immediately. If you haven't registered yet, please refer to [here](https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/) to register.
 
 ## 2. **Plans and Billing**
 

@@ -100,7 +100,7 @@ The WebChat Channel is a channel that allows you to embed the SeaChat widget on 
 The chat conversation will let your customer know how many live agents are currently available, and they can request a live agent during the chat conversation by clicking the ***Talk to Live Agent*** button.
 
 <br/>
-<a href="/images/search/en/live-agent-transfer/20240325-live-agent-transfer-`webpage`-1.png" target="_blank">
+<a href="/images/search/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
 </a>
 <br/>
