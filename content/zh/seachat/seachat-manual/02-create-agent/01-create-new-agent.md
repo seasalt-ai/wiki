@@ -13,7 +13,7 @@ toc: true
 
 ## 建立新的 AI 助理
 
-如果這是您第一次使用 SeaChat，您將需要建立一個新的助理。在創建工作區或被邀請加入工作區後，SeaChat 會將您帶到助理創建頁面。請查看我們[AI助理資訊](/zh/seachat/seachaat-manual/02-create-agent/04-agent-information/)的教學，以深入了解AI助理。
+如果這是您第一次使用 SeaChat，您將需要建立一個新的助理。在創建工作區或被邀請加入工作區後，SeaChat 會將您帶到助理創建頁面。請查看我們[AI助理資訊](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-agent-information/)的教學，以深入了解AI助理。
 
 有時您可能希望為不同的使用案例、語言或不同的助理描述創建新的助理。SeaChat 允許用戶從頭開始創建助理或應用預定義的使用案例。現在，讓我們來看看如何使用這兩種不同的方法來創建新的助理。
 
@@ -62,7 +62,7 @@ toc: true
 在**預設回覆語言**中，選擇助理將用來回答客戶的語言。在本教學中，我選擇了繁體中文。如果你希望助理能用多國語言回答，請使用「以用戶輸入的語言回答」。
 
 ### 真人客服
-最後，您可以通過勾選**用戶可以在聊天期間要求與客服人員對話**來啟用[真人客服](/zh/seachat/seachaat-manual/02-create-agent/02-live-agent-transfer)功能。
+最後，您可以通過勾選**用戶可以在聊天期間要求與客服人員對話**來啟用[真人客服](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/)功能。
 
 ### 使用案例和描述
 

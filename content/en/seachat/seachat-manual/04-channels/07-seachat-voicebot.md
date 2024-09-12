@@ -39,7 +39,7 @@ Once we have created our voice agent, let's start setting up the voice agent to 
 
 <br/>
 <center>
-  <a href="/images/seachat/en/channels/voicebot/choose-inbound-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+  <a href="/images/seachat/en/channels/voicebot/choose-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/choose-calls.png" alt="">
 </a>
 

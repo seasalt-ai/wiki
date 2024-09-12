@@ -10,6 +10,8 @@ menu:
     parent: "stt"
 weight: 102
 toc: true
+aliases:
+  - /zh/seavoice/stt/decoder_zh/
 ---
 
 ## 解碼器

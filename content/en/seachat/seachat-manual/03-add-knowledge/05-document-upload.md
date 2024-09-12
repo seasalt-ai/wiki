@@ -20,7 +20,7 @@ SeaChat provides several methods to upload files to your agent. We will focus on
 
 
 ## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](/en/seachat/seachat-intro/02-how-to-create/).
+If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/).
 
 
 ## Open Knowledge Base
@@ -39,7 +39,7 @@ SeaChat supports more than 20 types[^1] of documents that you can upload to your
 
 > :rotating_light: **Note** :rotating_light:
 >
-> For picture files e.g. png, we only support English documents. For best result on audio files, we suggest you use [audio/video upload](/en/seachat/seachat-intro/03-add-knowledge/multimedia-upload/) instead.
+> For picture files e.g. png, we only support English documents. For best result on audio files, we suggest you use [audio/video upload](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/) instead.
 
 
 [^1]: SeaChat supports .doc, .docx, .eml, .epub, .gif, .jpg, .json, .html, .mp3, .msg, .odt, .ogg, .pdf, .png, .pptx, .ps, .rtf, .tiff, .txt, .wav, .zip files.

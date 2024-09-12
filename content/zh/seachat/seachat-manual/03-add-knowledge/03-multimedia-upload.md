@@ -22,7 +22,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 
 ## 創建 SeaChat 助理
 
-如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](/zh/seachat/seachat-manual/01-create-agent/) 找到創建AI助理的步驟。
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/) 找到創建AI助理的步驟。
 
 ## 開啟知識庫
 在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**轉錄音訊/影訊**，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。
@@ -74,7 +74,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/existing-files.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/existing-files.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step5.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Submit' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 
@@ -87,7 +87,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/05-document-upload/20240319-multimedia-tutorial-step6.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step6.png" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step6.png" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 

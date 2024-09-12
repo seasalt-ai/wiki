@@ -20,7 +20,7 @@ SeaChat provides several methods to upload files to your agent. We will focus on
 
 
 ## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI in [Create an Agent](/en/seachat/seachat-intro/02-how-to-create/).
+If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI in [Create an Agent](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/).
 
 
 ## Open Knowledge Base

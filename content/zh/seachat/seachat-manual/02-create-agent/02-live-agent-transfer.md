@@ -96,7 +96,7 @@ SeaChat 對話在其網頁頻道中支援 URL 和 Markdown 格式。無論是您
 
 > :open_book: **備註** :open_book:
 >
-> WebChat widget 可以同時嵌入在你的自製網站或者你的**Shopify**、**Squarespace**、**Wix**網站中。可以查看[網頁機器人](/zh/seachat/seachat-manual/04-channels/06-install-on-webpage/)和[第三方整合](/zh/seachat/seachat-integrations/) 以獲取更多把Webchat widget嵌入到網站的相關信息。
+> WebChat widget 可以同時嵌入在你的自製網站或者你的**Shopify**、**Squarespace**、**Wix**網站中。可以查看[網頁機器人](https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/)和[第三方整合](/zh/seachat/seachat-integrations/) 以獲取更多把Webchat widget嵌入到網站的相關信息。
 
 
 WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是企業用於提供客戶支援的最常見頻道。
@@ -105,7 +105,7 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 
 <br/>
 <center>
-<a href="/images/search/zh/live-agent-transfer/20240325-live-agent-transfer`webpage`-1.png" target="_blank">
+<a href="/images/search/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="若沒有真人客服在線上，客戶也可以選擇留言，客服人員上班時可以查看並回覆訊息。">
 </a>
 </center>
