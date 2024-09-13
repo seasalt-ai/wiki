@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-09-04T08:48:57+00:00
+lastmod: 2024-09-10T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,13 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 09/11/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Messenger Cards Support : You can now enhance user interactions on Messenger with buttons featuring canned messages and cards with images and buttons, offering a richer, more dynamic experience for your audience.
+- Image Support Across Platforms: SeaChat Webchat, WhatsApp, and LINE integrations now support sending and receiving images, enabling more visual and engaging communication across all platforms.
+- Analytics Page: Our new Analytics page is now available to all users. Easily track your AI agent’s activities and gain deeper insights into performance and interactions.
+- Email Preferences for Human Agents: Human agents can now configure their email preferences to receive email notifications, ensuring a more customized and efficient workflow.
 
 ### 09/04/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
