@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-08-20T08:48:57+00:00
+lastmod: 2024-09-16T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,50 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 09/19/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Saved both "Final Summary" and "Real-time Summary" within meetings to retain all necessary information.
+- Added date grouping in the meeting list for easier differentiation of meeting dates.
+- Adjusted the structure and presentation of action items.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue where the extension failed to correctly capture the meeting title.
+
+### 09/12/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Introduced Beta features for "Speaker ID" and "Re-run Summary" to split in-person meetings by speaker and regenerate summaries, available for paid users only.
+- Removed automatically added meetings from the meeting list when "Auto-Join" is disabled.
+- Added a safeguard to prevent duplicate subscriptions during plan selection.
+- Added a "Use Case" section to the product landing page.
+- Updated button styles on the product landing page.
+- Optimized word segmentation in meeting transcripts.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue where external users did not receive "Auto-shared Meeting Notes" emails.
+
+### 09/05/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Updated the format of new meeting summaries in Google Docs.
+- Standardized the template for "Auto-shared Meeting Notes."
+- When replacing a speaker with "Speaker ID," the identified speaker will be automatically replaced in the participants list.
+
+### 08/29/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Updated the presentation format for meeting summaries.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue where speakers couldn't be identified due to a Google Meet update.
+
+### 08/22/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Unified the structure of the extension websocket to improve SeaMeet's stability.
+- Updated the tab styles within the product.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the broken product Wikipedia link.
+- Resolved the issue with abnormal event IDs caused by a Google Calendar update.
+
 
 ### 08/15/2024
 ##### **<font color="#739963">New Features and Performance Optimization</font>** 
