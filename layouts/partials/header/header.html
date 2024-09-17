@@ -58,7 +58,6 @@
           {{ end }}
           {{ end -}}
         </ul>
-
         <hr class="text-black-50 my-4 d-md-none">
         <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
         <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
@@ -107,9 +106,32 @@
       </ul>
     </div>
     {{ end -}}
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
   </nav>
 </header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      // Initialize Pagefind
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
 
+      // Search icon toggle functionality
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
 {{ if eq .Site.Params.options.flexSearch false }}
 </div>
 {{ end -}}
@@ -118,13 +140,12 @@
 <nav class="doks-subnavbar py-2 sticky-lg-top{{ if eq .Site.Params.options.flexSearch false }} d-lg-none{{ end }}" aria-label="Secondary navigation">
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} d-flex align-items-md-center">
 
-    {{ if .Site.Params.options.flexSearch -}}
-    <form class="doks-search position-relative flex-grow-1 me-auto">
-      <input id="search" class="form-control is-search" type="search" placeholder="Search docs..." aria-label="Search docs..." autocomplete="off">
-      <div id="suggestions" class="shadow bg-white rounded d-none"></div>
-    </form>
-    {{ end -}}
-
+<!--    {{ if .Site.Params.options.flexSearch -}}-->
+<!--    <form class="doks-search position-relative flex-grow-1 me-auto">-->
+<!--      <input id="search" class="form-control is-search" type="search" placeholder="Search docs..." aria-label="Search docs..." autocomplete="off">-->
+<!--      <div id="suggestions" class="shadow bg-white rounded d-none"></div>-->
+<!--    </form>-->
+<!--    {{ end -}}-->
     {{ if eq .Site.Params.options.docsVersioning true -}}
     <div class="dropdown ms-3">
       <button class="btn btn-doks-light dropdown-toggle" id="doks-versions" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Toggle version menu">
