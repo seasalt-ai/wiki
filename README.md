@@ -77,6 +77,7 @@ hugo server
 *Note: The above process has been implemented in the CI script:*
 
 ```bash 
+npm run prestart # recommended to run before starting the project to ensure the indexing content for pagefind is up-to-date
 npm run start
 ```
 
