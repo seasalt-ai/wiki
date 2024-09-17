@@ -27,7 +27,7 @@
         "clean:install": "shx rm -rf package-lock.json node_modules ",
         "clean:pagefind": "shx rm -rf static/pagefind",
         "index:pagefind": "npx pagefind --site ./public && npm run copy:pagefind-generated",
-        "server": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc",
+        "server": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender",
         "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
         "lint:scripts": "eslint assets/js config functions",
         "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
