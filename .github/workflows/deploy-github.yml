@@ -9,22 +9,47 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # Check out the repository
       - uses: actions/checkout@v2
 
+      # Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.92.2'
           extended: true
 
+      # Setup Node.js
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
           node-version: '20.11.0'
 
-      - run: npm ci
-      - run: hugo --gc --minify
+      # Install dependencies
+      - name: Install dependencies
+        run: npm ci
 
+      # Clean previous builds (clean public and pagefind directories)
+      - name: Clean previous builds
+        run: npm run clean && npm run clean:pagefind
+
+      # Build the Hugo site for development (equivalent to `npm run build:hugo`)
+      - name: Build Hugo site
+        run: npm run build:hugo
+
+      # Generate Pagefind index (equivalent to `npm run index:pagefind`)
+      - name: Generate Pagefind index
+        run: npm run index:pagefind
+
+      # Copy Pagefind files to static folder (equivalent to `npm run copy:pagefind-generated`)
+      - name: Copy Pagefind files to static
+        run: npm run copy:pagefind-generated
+
+      # Build the Hugo site for development (same as `npm run build:dev`)
+      - name: Build Hugo site for dev
+        run: npm run build:dev
+
+      #  Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
