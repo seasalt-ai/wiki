@@ -1,11 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>第三方整合 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/</link><description>Recent content in 第三方整合 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Calendar</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</link><pubDate>Tue, 19 Mar 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</guid><description>簡介 # 登入 SeaChat 後，導航到 AI助理配置 -&amp;gt; 整合 -&amp;gt; Google Calendar 來添加整合。
-Google Calendar 整合 # Google Calendar 整合介面
-透過 Google Calendar 整合，您的 SeaChat 助理可以透過聊天或語音互動為您預約。這個過程非常簡單，只需兩個步驟。按照螢幕上的指示將 SeaChat 與您的 Google Calendar 整合。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第三方整合 on </title>
+    <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/</link>
+    <description>Recent content in 第三方整合 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Calendar</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</link>
+      <pubDate>Tue, 19 Mar 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</guid>
+      <description>簡介 #  登入 SeaChat 後，導航到 AI助理配置 -&amp;gt; 整合 -&amp;gt; Google Calendar 來添加整合。
+ Google Calendar 整合 #    Google Calendar 整合介面
+ 透過 Google Calendar 整合，您的 SeaChat 助理可以透過聊天或語音互動為您預約。這個過程非常簡單，只需兩個步驟。按照螢幕上的指示將 SeaChat 與您的 Google Calendar 整合。
 首先，授權 SeaChat 連接您的 Google Calendar。接下來，設置工作時間，讓 SeaChat 助理知道何時安排預約。
 會議邀請 # 一旦整合完成，您的 SeaChat 助理就可以代您預約會議。助理將向用戶發送會議邀請並自動將活動添加到您的 Google Calendar 中。客戶將直接收到助理發送的會議邀請。
 然而，會議邀請的格式會根據所使用的助理類型而有所不同：
-語音助理: 包含日曆連結的 SMS 將發送到客戶的電話號碼。請注意，由於邀請不會通過電子郵件發送，客戶可能會忘記參加會議。因此建議再次致電提醒他們。
-聊天助理: 請確保在 SeaChat 中啟用了電子郵件收集功能，導航至 頻道 → 網頁AI助理 → 客製表單，新增或編輯現有表單，確保 電子郵件 欄位被標記為 必填 和 啟用。如果預約會議，日曆邀請將發送到所收集的電子郵件地址。</description></item><item><title>Shopify</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</guid><description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Shopify商店前端的過程。
+  語音助理: 包含日曆連結的 SMS 將發送到客戶的電話號碼。請注意，由於邀請不會通過電子郵件發送，客戶可能會忘記參加會議。因此建議再次致電提醒他們。
+  聊天助理: 請確保在 SeaChat 中啟用了電子郵件收集功能，導航至 頻道 → 網頁AI助理 → 客製表單，新增或編輯現有表單，確保 電子郵件 欄位被標記為 必填 和 啟用。如果預約會議，日曆邀請將發送到所收集的電子郵件地址。</description>
+    </item>
+    
+    <item>
+      <title>Shopify</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</guid>
+      <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Shopify商店前端的過程。
 步驟1：建立一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將訓練好的AI助理，移至您的Shopify網站上。
 步驟2：開啟Shopify # 前往您的Shopify儀表板，從選單中點擊「Online Store」。
 步驟3：在Shopify上編輯程式 # 點擊您目前主題旁邊的刪節號圖標•••，選擇「Edit Code」並開始編輯。
@@ -15,7 +39,16 @@ Google Calendar 整合 # Google Calendar 整合介面
 步驟6：儲存並預覽 # 點擊右上方的「Save」按鈕。接著點擊「Preview Store」來測試AI助理。當您準備好時，記得再次啟動商店！
 非常重要: 如果你想要設定網頁助理的外觀和樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。在設定好外觀和樣式後，你的所有網頁將共享相同的設計。
 步驟7：（Optional）移除其他聊天機器人 # 請移除任何其他的聊天機器人服務，如Shopify Inbox，以避免混淆。Shopify的用戶們，請將您網站的自定頁面切換成禁用「Apps embeds」。最後，如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
-協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description></item><item><title>Squarespace</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</guid><description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Squarespace網站的過程。
+協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
+    </item>
+    
+    <item>
+      <title>Squarespace</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</guid>
+      <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Squarespace網站的過程。
 步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的Squarespace網站上。
 步驟2：開啟Squarespace # 前往您的Squarespace網站的儀表板上。在側邊選單上選擇「Website」。
 步驟3：開啟網站工具 # 接著，在側邊選單中選擇「Website Tools」。
@@ -25,7 +58,16 @@ Google Calendar 整合 # Google Calendar 整合介面
 步驟6：儲存並預覽 # 使用Squarespace上的「Preview」功能來測試AI助理。當您準備好時，記得重新啟動網站！
 非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 步驟7：（Optional）移除其他聊天機器人 # 請移除任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心從「Code Injection」部分移除。
-協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description></item><item><title>Wordpress</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/05-seachat-wordpress-integration/</link><pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/05-seachat-wordpress-integration/</guid><description>此頁教學將詳細說明嵌入整合SeaChat AI助理到 Wordpress 網站的過程。
+協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/05-seachat-wordpress-integration/</link>
+      <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/05-seachat-wordpress-integration/</guid>
+      <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到 Wordpress 網站的過程。
 步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的 Wordpress 網站上。
 步驟2：開啟Wordpress # 前往您的 Wordpress 網站的儀表板。在右方選單選擇「外觀」。
 步驟3：複製SeaChat程式代碼 # 您需要登入SeaChat才能查看此程式片段。您可至SeaChat免費註冊。在SeaChat儀表板的工作區內導航至「AI助理配置」-&amp;gt;「頻道」，並在Wordpress頻道下，來取得所需的程式片段。
@@ -33,7 +75,16 @@ Google Calendar 整合 # Google Calendar 整合介面
 步驟4：打開「佈景主題檔案編輯器」並貼上SeaChat程式碼 # 打開左方功能選單的「佈景主題檔案編輯器」 -&amp;gt; 右方選單的「Theme Footer」。在程式碼中貼上SeaChat程式碼（在&amp;lt;body&amp;gt;和&amp;lt;/body&amp;gt;之間。最後，點擊「更新檔案」。
 步驟5：預覽 # 步驟8：儲存並預覽 # 現在訪問你的網站，即可看到SeaChat網頁聊天機器人在右下角。
 非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
-協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description></item><item><title>Wix</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</link><pubDate>Wed, 03 Apr 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</guid><description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Wix網站的過程。
+協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
+    </item>
+    
+    <item>
+      <title>Wix</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</link>
+      <pubDate>Wed, 03 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</guid>
+      <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Wix網站的過程。
 步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的Wix網站上。
 步驟2：開啟Wix # 前往您的Wix網站的儀表板上。在右上角選單選擇「Design Site」。
 步驟3：開啟網站工具 # 接著，在側邊選單中選擇「Add Elements」。
@@ -46,4 +97,8 @@ Google Calendar 整合 # Google Calendar 整合介面
 步驟8：儲存並預覽 # 使用Wix上的「Preview」功能來測試AI助理。當您準備好時，記得重新啟動網站！
 非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 步驟8：（Optional）移除其他聊天機器人 # 請移除任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
-協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description></item></channel></rss>
+協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
+    </item>
+    
+  </channel>
+</rss>

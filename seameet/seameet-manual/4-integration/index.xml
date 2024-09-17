@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Integrations on</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/</link><description>Recent content in Integrations on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/index.xml" rel="self" type="application/rss+xml"/><item><title>Browser Extension</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/</guid><description>🚀 Install SeaMeet Extension SeaMeet is an easy-to-use meeting AI copilot that helps you transcribe, record, and analyze your meetings in REAL TIME.
-SeaMeet offers support to many different browsers, including Arc, Brave, Edge, and Chrome. We recommend taking the first step by installing our browser extension, so you will always have SeaMeet on your side in meetings. Simply click the button above to install the SeaMeet extension.</description></item><item><title>Export Meeting to Google Doc</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/</guid><description>After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.
-Connect Google Drive
-If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in Workspace - Integration.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrations on </title>
+    <link>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/</link>
+    <description>Recent content in Integrations on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Browser Extension</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/</guid>
+      <description>🚀 Install SeaMeet Extension    SeaMeet is an easy-to-use meeting AI copilot that helps you transcribe, record, and analyze your meetings in REAL TIME.
+SeaMeet offers support to many different browsers, including Arc, Brave, Edge, and Chrome. We recommend taking the first step by installing our browser extension, so you will always have SeaMeet on your side in meetings. Simply click the button above to install the SeaMeet extension.</description>
+    </item>
+    
+    <item>
+      <title>Export Meeting to Google Doc</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/</guid>
+      <description>After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.
+  Connect Google Drive
+If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in Workspace - Integration.</description>
+    </item>
+    
+  </channel>
+</rss>

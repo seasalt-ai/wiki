@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test and Improve AI Agent on</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/</link><description>Recent content in Test and Improve AI Agent on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 06 Sep 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/index.xml" rel="self" type="application/rss+xml"/><item><title>Test and Improve AI Agent</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</guid><description/></item><item><title>SOP for After Launch Operations</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</link><pubDate>Mon, 02 Sep 2024 00:22:19 -0700</pubDate><guid>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</guid><description>Congratulations on successfully launching SeaChat to your selected channels – website, WhatsApp, or others. We are only half way there. This guide walks you through the remaining steps to ensure a successful operation on a daily basis.
-Setup # 1. Add More Members to your Workspace # Workspace → Members
-If you haven’t done so already, you can go to Workspace → Members to add your team there.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test and Improve AI Agent on </title>
+    <link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/</link>
+    <description>Recent content in Test and Improve AI Agent on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 06 Sep 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test and Improve AI Agent</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>SOP for After Launch Operations</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</link>
+      <pubDate>Mon, 02 Sep 2024 00:22:19 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</guid>
+      <description>Congratulations on successfully launching SeaChat to your selected channels – website, WhatsApp, or others. We are only half way there. This guide walks you through the remaining steps to ensure a successful operation on a daily basis.
+Setup # 1. Add More Members to your Workspace #    Workspace → Members
+ If you haven’t done so already, you can go to Workspace → Members to add your team there.</description>
+    </item>
+    
+  </channel>
+</rss>

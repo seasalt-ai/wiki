@@ -1,18 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SeaMeet 說明書 on</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/</link><description>Recent content in SeaMeet 說明書 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/index.xml" rel="self" type="application/rss+xml"/><item><title>快速上手 SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</guid><description> 邀請 SeaMeet 機器人記錄會議 # 邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
-方法ㄧ：使用 SeaMeet 擴充程式邀請 # 到Chrome應用程式商店安裝SeaMeet擴充程式 安裝後開啟Google Meet，就會自動開啟程式 點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議 方法二：在 SeaMeet 會議清單「開始新會議記錄」 # 按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中 方法三：在 Google 日曆寄送邀請 # 在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議 查看會議記錄 # 當您邀請 SeaMeet Copilot 加入會議時，它會在您的工作區會議清單中創建一個會議。 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
-查看會議工作區 # 你可以登入SeaMeet後，在會議工作區查看所有歷史、正在進行中、以及未來的會議紀錄，並在工作區管理團隊成員。</description></item><item><title>如何訂閱方案</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/17-seameet-subscription-how-to/</link><pubDate>Wed, 22 May 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/17-seameet-subscription-how-to/</guid><description>1. 註冊並登入 SeaMeet 產品 # 登入SeaMeet並馬上開始使用。如果您尚未註冊，請參考這裡進行註冊。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaMeet 說明書 on </title>
+    <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/</link>
+    <description>Recent content in SeaMeet 說明書 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快速上手 SeaMeet</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</guid>
+      <description>   邀請 SeaMeet 機器人記錄會議 # 邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
+方法ㄧ：使用 SeaMeet 擴充程式邀請 #  到Chrome應用程式商店安裝SeaMeet擴充程式 安裝後開啟Google Meet，就會自動開啟程式 點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議   方法二：在 SeaMeet 會議清單「開始新會議記錄」 #  按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中   方法三：在 Google 日曆寄送邀請 #  在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議    查看會議記錄 # 當您邀請 SeaMeet Copilot 加入會議時，它會在您的工作區會議清單中創建一個會議。 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
+  查看會議工作區 # 你可以登入SeaMeet後，在會議工作區查看所有歷史、正在進行中、以及未來的會議紀錄，並在工作區管理團隊成員。
+ </description>
+    </item>
+    
+    <item>
+      <title>如何訂閱方案</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/17-seameet-subscription-how-to/</link>
+      <pubDate>Wed, 22 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/17-seameet-subscription-how-to/</guid>
+      <description>1. 註冊並登入 SeaMeet 產品 # 登入SeaMeet並馬上開始使用。如果您尚未註冊，請參考這裡進行註冊。
 2. 方案與帳務 # 登入後，在左側選單中找到並點擊「方案與帳務」頁面。
-3. 編輯方案 # 進入「方案」頁後，點擊「編輯方案」按鈕以查看可用的訂閱方案。
-4. 選擇您所要選用的方案 # 根據您的需求，選擇最適合的訂閱方案。方案說明可以參考以下連結。或直接在SeaMeet介面上了解。
-5. 選擇「確認訂閱」，並完成付款流程 # 確認所選方案無誤後，點擊「確認訂閱」，然後按照指示完成付款流程。</description></item><item><title>方案與帳務</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</link><pubDate>Wed, 24 Jul 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</guid><description>您可以在 SeaMeet 儀表板的帳單區段找到所有有關帳單和訂閱的信息。請在儀表板的左側邊欄找到 帳單。
-帳單與訂閱
-訂閱計畫 # 在 計畫 區段，您可以查看當前訂閱計畫的詳細資訊。點擊 編輯計畫 按鈕以編輯您的計畫。
+  3. 編輯方案 # 進入「方案」頁後，點擊「編輯方案」按鈕以查看可用的訂閱方案。
+  4. 選擇您所要選用的方案 # 根據您的需求，選擇最適合的訂閱方案。方案說明可以參考以下連結。或直接在SeaMeet介面上了解。
+5. 選擇「確認訂閱」，並完成付款流程 # 確認所選方案無誤後，點擊「確認訂閱」，然後按照指示完成付款流程。
+ </description>
+    </item>
+    
+    <item>
+      <title>方案與帳務</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</link>
+      <pubDate>Wed, 24 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</guid>
+      <description>您可以在 SeaMeet 儀表板的帳單區段找到所有有關帳單和訂閱的信息。請在儀表板的左側邊欄找到 帳單。
+   帳單與訂閱
+ 訂閱計畫 # 在 計畫 區段，您可以查看當前訂閱計畫的詳細資訊。點擊 編輯計畫 按鈕以編輯您的計畫。
 帳單明細 # 點擊 成本明細 在 下個帳單週期 下方，查看根據您的訂閱和使用情況的下一帳單詳情。
 帳單收件人 # 在 帳單收件人 區段，您可以查看帳單收件人的詳細資訊。點擊 更換收件人 以修改帳單收件人。如果您有組織名稱，您可以在此添加。
-更改帳單收件人
-使用詳情 # 在 使用 區段，您可以查看您的使用詳情。您的每月使用量是根據現在方案期間的總對話數計算的。
-帳單歷史 - 發票 # 在 帳單歷史 區段，您可以查看過去帳單的詳細資訊。點擊下載圖示以下載 PDF 格式的發票。</description></item><item><title>註冊SeaMeet</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid><description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
-點擊登入註冊 # 1. 點擊官網登入按鈕 # 2. 點選「用Google帳號登入」 # 3. 選擇您希望註冊的Google帳號 # 4. 開始註冊登入流程 #</description></item><item><title>FAQ - SeaMeet 常見問題集</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</guid><description>1. 我該怎麼開始會議轉錄？ # 您可以在 Google 日曆或 Google Meet 中邀請 SeaMeet 機器人加入會議。當會議開始後，機器人會自動加入會議並開始轉錄。
+   更改帳單收件人
+ 使用詳情 # 在 使用 區段，您可以查看您的使用詳情。您的每月使用量是根據現在方案期間的總對話數計算的。
+帳單歷史 - 發票 # 在 帳單歷史 區段，您可以查看過去帳單的詳細資訊。點擊下載圖示以下載 PDF 格式的發票。</description>
+    </item>
+    
+    <item>
+      <title>註冊SeaMeet</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</guid>
+      <description>如欲註冊使用SeaMeet，可至SeaMeet官網註冊登入使用。也可以直接安裝擴充程式開始使用。
+點擊登入註冊 # 1. 點擊官網登入按鈕 #   2. 點選「用Google帳號登入」 #   3. 選擇您希望註冊的Google帳號 #   4. 開始註冊登入流程 #   </description>
+    </item>
+    
+    <item>
+      <title>FAQ - SeaMeet 常見問題集</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</guid>
+      <description>1. 我該怎麼開始會議轉錄？ # 您可以在 Google 日曆或 Google Meet 中邀請 SeaMeet 機器人加入會議。當會議開始後，機器人會自動加入會議並開始轉錄。
 2. SeaMeet 支援哪些會議平台？ # SeaMeet 目前支援轉錄 Google Meet 進行的會議，未來將支援更多會議平台。
 3. SeaMeet 支援哪些語言？ # SeaMeet 目前支援轉錄中文、英文會議，未來將逐步擴大支援其他語言。
 4. 我可以和我的團隊成員一起協作嗎？ # 當然可以，只要將您的團隊成員邀請至您的工作區中，即可看到共用工作區的所有會議，並可共同編輯會議記錄。
@@ -22,5 +75,18 @@
 5-3. 如何選擇方案？ # 如果您希望擁有更多轉錄時數或進階功能，歡迎 升級工作區方案 或 聯繫我們的客服人員 &amp;lt;email: seameet@seasalt.ai&amp;gt;，我們會很樂於提供協助。
 6. 我該如何登入 SeaMeet？ # 您可以使用您的 Google 帳號登入 SeaMeet，或者使用電子郵件進行註冊。
 7. 我能否編輯已經記錄好的逐字稿？ # 您可以使用輸出成 Google Docs 的功能進行編輯。目前 SeaMeet 會議頁面不允許編輯，但預計近期會支援相關功能。
-8. 我能否下載會議錄音檔？ # 目前暫不允許下載會議錄音檔。</description></item><item><title>提供反饋</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</guid><description>對操作方式有不解之處，隨時可以點擊SeaMeet左下角「如何使用」來教學手冊查看教學文章和影片。
-有更多疑問？想提供反饋意見？ # 若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 &amp;lt; email: seameet@seasalt.ai &amp;gt; 說明需求或問題。 SeaMeet團隊將會在最遲24-48小時內回覆。</description></item></channel></rss>
+8. 我能否下載會議錄音檔？ # 目前暫不允許下載會議錄音檔。</description>
+    </item>
+    
+    <item>
+      <title>提供反饋</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</guid>
+      <description>對操作方式有不解之處，隨時可以點擊SeaMeet左下角「如何使用」來教學手冊查看教學文章和影片。
+有更多疑問？想提供反饋意見？ # 若想提供反饋意見，可以在SeaMeet左側欄中選擇「反饋」頁，並寄出電子信件 &amp;lt; email: seameet@seasalt.ai &amp;gt; 說明需求或問題。 SeaMeet團隊將會在最遲24-48小時內回覆。</description>
+    </item>
+    
+  </channel>
+</rss>

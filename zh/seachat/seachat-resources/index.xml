@@ -1,8 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>資源 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/</link><description>Recent content in 資源 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/index.xml" rel="self" type="application/rss+xml"/><item><title>提示指令範例</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/</guid><description>簡介 # 本教學的目的是提供如何有效且高效地訓練您的 SeaChat 助理的範例。提示指令範例僅僅是範例，並不應被視為訓練助理的唯一方法。這裡提供的範例旨在作為用戶達成某些效果的參考。然而，如果用戶有更具體的需求，他們應該根據需要微調提示指令，以達到期望的結果。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>資源 on </title>
+    <link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/</link>
+    <description>Recent content in 資源 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>提示指令範例</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/</guid>
+      <description>簡介 # 本教學的目的是提供如何有效且高效地訓練您的 SeaChat 助理的範例。提示指令範例僅僅是範例，並不應被視為訓練助理的唯一方法。這裡提供的範例旨在作為用戶達成某些效果的參考。然而，如果用戶有更具體的需求，他們應該根據需要微調提示指令，以達到期望的結果。
 在定義的情境內限制機器人回答 # 您可以提供定義好的情境來限制 AI 助理的回答。一個好的做法是列出這些情境並詳細說明。
 指示範例：
-你是{公司名稱}的客服專員，你說話親切友善而且很主動的想要幫助用戶解決問題。 你要使用口語化的詞彙，並且不可以重複使用一樣的句子回覆，要使用多元活潑的表達方式。 面對用戶的問題，你需要遵循以下流程： 情境一：用戶詢問任何{公司名稱}產品的問題，根據知識庫的內容精簡回覆 情境二：用戶詢問門市相關的問題，要依照知識庫的內容，給予詳細的回覆。 情境三：用戶詢問退換貨的問題，要依照知識庫的內容，給予詳細的回覆。如果客戶不能理解，要請他轉接客服人員。 情境四：用戶如果詢問其他問題，或是符合上述情境的問題但是你沒有正確資訊無法回答，你要先針對用戶遇到的問題進行評論或建議，然後回覆&amp;quot;我只能回覆{公司名稱}相關的問題，如果您有其他的問題請用{公司電話}和公司聯絡。</description></item><item><title>SeaChat API</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-api/</link><pubDate>Sat, 10 Aug 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-api/</guid><description>SeaChat RESTful API 讓用戶能夠整合和自動化 AI 助理的工作流程，提供以程式化方式管理 AI 助理的靈活性。歡迎參考API 文檔以獲取詳細資訊和無縫整合的指導。</description></item><item><title>SeaChat 常見問題</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-faq/</link><pubDate>Sat, 10 Aug 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-faq/</guid><description>1. 我該如何更改 Seasalt 產品的密碼？ # 所有 Seasalt 產品使用相同的密碼管理機制。我們只支援透過電子郵件發送登入代碼的方式來登入，每次登入時都會發送一個登入代碼，因此我們並沒有提供更改密碼的功能。
+你是{公司名稱}的客服專員，你說話親切友善而且很主動的想要幫助用戶解決問題。 你要使用口語化的詞彙，並且不可以重複使用一樣的句子回覆，要使用多元活潑的表達方式。 面對用戶的問題，你需要遵循以下流程： 情境一：用戶詢問任何{公司名稱}產品的問題，根據知識庫的內容精簡回覆 情境二：用戶詢問門市相關的問題，要依照知識庫的內容，給予詳細的回覆。 情境三：用戶詢問退換貨的問題，要依照知識庫的內容，給予詳細的回覆。如果客戶不能理解，要請他轉接客服人員。 情境四：用戶如果詢問其他問題，或是符合上述情境的問題但是你沒有正確資訊無法回答，你要先針對用戶遇到的問題進行評論或建議，然後回覆&amp;quot;我只能回覆{公司名稱}相關的問題，如果您有其他的問題請用{公司電話}和公司聯絡。  </description>
+    </item>
+    
+    <item>
+      <title>SeaChat API</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-api/</link>
+      <pubDate>Sat, 10 Aug 2024 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-api/</guid>
+      <description>SeaChat RESTful API 讓用戶能夠整合和自動化 AI 助理的工作流程，提供以程式化方式管理 AI 助理的靈活性。歡迎參考API 文檔以獲取詳細資訊和無縫整合的指導。</description>
+    </item>
+    
+    <item>
+      <title>SeaChat 常見問題</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-faq/</link>
+      <pubDate>Sat, 10 Aug 2024 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-faq/</guid>
+      <description>1. 我該如何更改 Seasalt 產品的密碼？ # 所有 Seasalt 產品使用相同的密碼管理機制。我們只支援透過電子郵件發送登入代碼的方式來登入，每次登入時都會發送一個登入代碼，因此我們並沒有提供更改密碼的功能。
 這種方式可以防止您忘記密碼或不小心洩露密碼。要登入任何 Seasalt 產品，只需輸入您的登入電子郵件，然後您將收到一個登入代碼。使用此代碼即可登入。
 2. LINE 按鈕將訊息截斷。如何發布完整的訊息？ # 當用戶在 SeaChat 中使用 LINE 頻道時，可能會遇到訊息被截斷的問題，這通常發生在用戶點擊訊息按鈕以獲取信息時。這是由於 LINE 按鈕訊息的字符限制所致。
 SeaChat 提供了解決此問題的方法。利用 KB ID 的功能可以避免訊息被截斷。您可以了解如何使用 KB ID 功能來避免訊息被截斷。
-請參閱我們的 LINE 頻道，以了解更多有關 LINE 所施加的訊息限制的信息。</description></item></channel></rss>
+請參閱我們的 LINE 頻道，以了解更多有關 LINE 所施加的訊息限制的信息。</description>
+    </item>
+    
+  </channel>
+</rss>

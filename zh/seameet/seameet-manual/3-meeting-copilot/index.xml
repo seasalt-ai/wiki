@@ -1,14 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SeaMeet 助理 on</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/</link><description>Recent content in SeaMeet 助理 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/index.xml" rel="self" type="application/rss+xml"/><item><title>查看會議紀錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</guid><description>邀請機器人加入會議，邀請後會議記錄將自動儲存到您的SeaMeet工作區中以供檢視。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaMeet 助理 on </title>
+    <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/</link>
+    <description>Recent content in SeaMeet 助理 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>查看會議紀錄</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</guid>
+      <description>邀請機器人加入會議，邀請後會議記錄將自動儲存到您的SeaMeet工作區中以供檢視。
 瀏覽會議記錄 # 點選「會議清單」頁面後，即可看到目前已記錄、進行中，以及即將紀錄的會議清單
-點擊會議標題即可瀏覽會議記錄
-若您尚未同意機器人加入Google Meet會議室，您將看到這則通知訊息。
-允許機器人進入會議室
+  點擊會議標題即可瀏覽會議記錄
+  若您尚未同意機器人加入Google Meet會議室，您將看到這則通知訊息。
+  允許機器人進入會議室
 現在，讓我們到Google Meet中允許機器人加入會議室。
-機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
-在會議過程中，AI會每隔一段時間自動從對話中摘取會議摘要、待辦事項和討論主題。</description></item><item><title>使用會議逐字稿和AI會議分析</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</guid><description>機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
+  機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
 在會議過程中，AI會每隔一段時間自動從對話中摘取會議摘要、待辦事項和討論主題。
-1. 會議摘要 # 2. 待辦事項 # 3. 討論主題 # 4. 團隊筆記 # 除了AI筆記之外，團隊也可以在共同編輯的團隊筆記中寫下其他想記錄的內容，例如會議議程、決議事項等等。</description></item><item><title>播放會議錄音</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</guid><description>您可以播放每場會議的會議錄音
-播放整場會議錄音 # 點擊會議頁下方的播放條，即可重播該場會議的完整錄音 您可以選擇任意拖動錄音條，快轉10秒、暫停/播放、倒轉10秒等功能 目前播放的段落將於逐字稿上加亮顯示 播放個別對話段落 # 當滑鼠懸空於一段逐字稿上時，將出現播放鈕 點擊後即可播放對應段落的逐字稿</description></item><item><title>結束會議記錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</guid><description>當會議結束時，您可以選擇：
-在SeaMeet會議頁面按下中止會議紀錄的按鈕 或者在擴充程式手動按下中止會議的按鈕 若您忘記手動中止會議紀錄，則機器人會在以下狀況直接離開Google Meet會議室：
-當所有與會者都離開會議室的30秒後 若有用戶仍然留在會議室中，機器人會等待15分鐘確認是否為會議暫停，若15分鐘內無人說話，機器人便會自動離開</description></item><item><title>會議標籤</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</guid><description>您可以在工作區中新增各種有利於分類會議的會議標籤，並且管理每場會議的標籤。
-在會議中新增會議標籤 # 點擊「+」號，即可管理該會議的標籤。 您可以從工作區既有的標籤選擇將其新增到該會議中，「V」代表已將該標籤加入該會議，空白代表未加入到該會議。 您也可以在會議中直接為該工作區建立新標籤，並新增到這場會議中。在搜尋框中輸入尚未於工作區建立的標籤文字，即可點擊建立新標籤。 點擊編輯標籤，即可跳轉至「標籤管理」頁面 標籤管理 # 點選「工作區設定 ─ 標籤管理」頁面，或經由會議標籤管理頁連結至此頁 點擊右上角「新增標籤」，即可在此工作區新增標籤 點擊每個標籤右邊的「&amp;hellip;」，即可編輯標籤或刪除標籤</description></item></channel></rss>
+ </description>
+    </item>
+    
+    <item>
+      <title>使用會議逐字稿和AI會議分析</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</guid>
+      <description>機器人加入後，您便可以看到目前正在即時生成的會議逐字稿，包括說話人與說話時間。SeaMeet的逐字稿辨識特別針對台灣市場訓練，可辨識中英混雜的對話情境。
+在會議過程中，AI會每隔一段時間自動從對話中摘取會議摘要、待辦事項和討論主題。
+  1. 會議摘要 #   2. 待辦事項 #   3. 討論主題 #   4. 團隊筆記 # 除了AI筆記之外，團隊也可以在共同編輯的團隊筆記中寫下其他想記錄的內容，例如會議議程、決議事項等等。
+  </description>
+    </item>
+    
+    <item>
+      <title>播放會議錄音</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</guid>
+      <description>您可以播放每場會議的會議錄音
+播放整場會議錄音 #  點擊會議頁下方的播放條，即可重播該場會議的完整錄音 您可以選擇任意拖動錄音條，快轉10秒、暫停/播放、倒轉10秒等功能 目前播放的段落將於逐字稿上加亮顯示    播放個別對話段落 #  當滑鼠懸空於一段逐字稿上時，將出現播放鈕 點擊後即可播放對應段落的逐字稿   </description>
+    </item>
+    
+    <item>
+      <title>結束會議記錄</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</guid>
+      <description>當會議結束時，您可以選擇：
+ 在SeaMeet會議頁面按下中止會議紀錄的按鈕    或者在擴充程式手動按下中止會議的按鈕    若您忘記手動中止會議紀錄，則機器人會在以下狀況直接離開Google Meet會議室：
+ 當所有與會者都離開會議室的30秒後 若有用戶仍然留在會議室中，機器人會等待15分鐘確認是否為會議暫停，若15分鐘內無人說話，機器人便會自動離開  </description>
+    </item>
+    
+    <item>
+      <title>會議標籤</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</guid>
+      <description>您可以在工作區中新增各種有利於分類會議的會議標籤，並且管理每場會議的標籤。
+在會議中新增會議標籤 #  點擊「+」號，即可管理該會議的標籤。 您可以從工作區既有的標籤選擇將其新增到該會議中，「V」代表已將該標籤加入該會議，空白代表未加入到該會議。    您也可以在會議中直接為該工作區建立新標籤，並新增到這場會議中。在搜尋框中輸入尚未於工作區建立的標籤文字，即可點擊建立新標籤。    點擊編輯標籤，即可跳轉至「標籤管理」頁面    標籤管理 #  點選「工作區設定 ─ 標籤管理」頁面，或經由會議標籤管理頁連結至此頁    點擊右上角「新增標籤」，即可在此工作區新增標籤    點擊每個標籤右邊的「&amp;hellip;」，即可編輯標籤或刪除標籤    </description>
+    </item>
+    
+  </channel>
+</rss>

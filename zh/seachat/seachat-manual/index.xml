@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SeaChat 說明書 on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/</link><description>Recent content in SeaChat 說明書 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/index.xml" rel="self" type="application/rss+xml"/><item><title>設定SeaChat語言和外觀</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/</guid><description>你能夠指定AI助理使用的主要語言，並且調整AI助理的名稱和外觀。在網頁助理的頁面你可以在相關欄位進行設定，把AI助理調成你想要的模樣。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaChat 說明書 on </title>
+    <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/</link>
+    <description>Recent content in SeaChat 說明書 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>設定SeaChat語言和外觀</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/</guid>
+      <description>你能夠指定AI助理使用的主要語言，並且調整AI助理的名稱和外觀。在網頁助理的頁面你可以在相關欄位進行設定，把AI助理調成你想要的模樣。
+ </description>
+    </item>
+    
+  </channel>
+</rss>

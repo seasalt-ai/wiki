@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文字轉語音 on</title><link>https://wiki.seasalt.ai/zh/seavoice/tts/</link><description>Recent content in 文字轉語音 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Feb 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seavoice/tts/index.xml" rel="self" type="application/rss+xml"/><item><title>文字轉語音客製化教學影片</title><link>https://wiki.seasalt.ai/zh/seavoice/tts/panel_tutorial_zh/</link><pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seavoice/tts/panel_tutorial_zh/</guid><description>客製化後台 # SeaVoice 文字轉語音客製化後台 提供一個使用者友善的介面，讓用戶可以輕鬆客製化合成的語音，依照需求調整：
-發音 格式 停頓 強調 這個影片中我們會展示如何使用 SeaVoice 文字轉語音客製化後台 的各項功能：
-這個影片中我們會展示 SeaVoice 文字轉語音客製化後台 的一些實際使用範例：</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文字轉語音 on </title>
+    <link>https://wiki.seasalt.ai/zh/seavoice/tts/</link>
+    <description>Recent content in 文字轉語音 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Feb 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seavoice/tts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文字轉語音客製化教學影片</title>
+      <link>https://wiki.seasalt.ai/zh/seavoice/tts/panel_tutorial_zh/</link>
+      <pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seavoice/tts/panel_tutorial_zh/</guid>
+      <description>客製化後台 #  SeaVoice 文字轉語音客製化後台 提供一個使用者友善的介面，讓用戶可以輕鬆客製化合成的語音，依照需求調整：
+ 發音 格式 停頓 強調  這個影片中我們會展示如何使用 SeaVoice 文字轉語音客製化後台 的各項功能：
+ 這個影片中我們會展示 SeaVoice 文字轉語音客製化後台 的一些實際使用範例：
+ </description>
+    </item>
+    
+  </channel>
+</rss>

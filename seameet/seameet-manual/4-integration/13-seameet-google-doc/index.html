@@ -1,24 +1,822 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link href=https://wiki.seasalt.ai/pagefind/pagefind-ui.css rel=stylesheet><script src=https://wiki.seasalt.ai/pagefind/pagefind-ui.js></script>
-<script src=https://wiki.seasalt.ai/pagefind/pagefind.js defer></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','AW-10880948239')</script><script>(function(b,d,e,a,g){b[a]=b[a]||[],b[a].push({'gtm.start':(new Date).getTime(),event:'gtm.js'});var f=d.getElementsByTagName(e)[0],c=d.createElement(e),h=a!='dataLayer'?'&l='+a:'';c.async=!0,c.src='https://www.googletagmanager.com/gtm.js?id='+g+h,f.parentNode.insertBefore(c,f)})(window,document,'script','dataLayer','GTM-PJGXPTGC')</script><link rel=preload as=font href=https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-10405841-7','auto'),ga('send','pageview')</script><link rel=stylesheet href=https://wiki.seasalt.ai/main.2602b41bee171a80ecc77d6e8381b3c7e4f6a7da458695159720c408fe22f99213c452eac05c0da86a960465e09a9d859ee5d69c9b7e7ac33ed34f4ad440148b.css integrity="sha512-JgK0G+4XGoDsx31ug4Gzx+T2p9pFhpUVlyDECP4i+ZITxFLqwFwNqGqWBGXgmp2FnuXWnJt+esM+009K1EAUiw==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Export Meeting to Google Doc - Seasalt.ai</title><meta name=description content="Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account."><link rel=canonical href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Export Meeting to Google Doc"><meta property="og:description" content="Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account."><meta property="og:url" content="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/"><meta property="og:site_name" content="Seasalt.ai"><meta property="article:published_time" content="2023-11-22T08:48:57+00:00"><meta property="article:modified_time" content="2024-09-17T09:34:02-07:00"><meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"><meta property="og:image:alt" content="Seasalt.ai"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content><meta name=twitter:creator content><meta name=twitter:title content="Export Meeting to Google Doc"><meta name=twitter:description content="Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account."><meta name=twitter:image content="https://wiki.seasalt.ai/seasalt-logo.png"><meta name=twitter:image:alt content="Export Meeting to Google Doc"><script type=application/ld+json>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://wiki.seasalt.ai/#/schema/organization/1","name":"Doks","url":"https://wiki.seasalt.ai/","sameAs":["https://www.linkedin.com/company/seasalt-ai/"],"logo":{"@type":"ImageObject","@id":"https://wiki.seasalt.ai/#/schema/image/1","url":"https://wiki.seasalt.ai/seasalt-logo.png","width":512,"height":512,"caption":"Doks"},"image":{"@id":"https://wiki.seasalt.ai/#/schema/image/1"}},{"@type":"WebSite","@id":"https://wiki.seasalt.ai/#/schema/website/1","url":"https://wiki.seasalt.ai/","name":"Seasalt.ai","description":"Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.","publisher":{"@id":"https://wiki.seasalt.ai/#/schema/organization/1"}},{"@type":"WebPage","@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/","url":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/","name":"Export Meeting to Google Doc","description":"Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account.","isPartOf":{"@id":"https://wiki.seasalt.ai/#/schema/website/1"},"about":{"@id":"https://wiki.seasalt.ai/#/schema/organization/1"},"datePublished":"2023-11-22T08:48:57CET","dateModified":"2024-09-17T09:34:02CET","breadcrumb":{"@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/breadcrumb/1"},"primaryImageOfPage":{"@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/image/2"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/"]}]},{"@type":"BreadcrumbList","@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/breadcrumb/1","name":"Breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://wiki.seasalt.ai/","url":"https://wiki.seasalt.ai/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://wiki.seasalt.ai/seameet/","url":"https://wiki.seasalt.ai/seameet/","name":"Seameet"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://wiki.seasalt.ai/seameet/seameet-manual/","url":"https://wiki.seasalt.ai/seameet/seameet-manual/","name":"Seameet Manual"}},{"@type":"ListItem","position":4,"item":{"@type":"WebPage","@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/","url":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/","name":"4 Integration"}},{"@type":"ListItem","position":5,"item":{"@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/"}}]},{"@context":"https://schema.org","@graph":[{"@type":"ImageObject","@id":"https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/image/2","url":"https://wiki.seasalt.ai/seasalt-logo.png","contentUrl":"https://wiki.seasalt.ai/seasalt-logo.png","caption":"Export Meeting to Google Doc"}]}]}</script><meta name=theme-color content="#fff"><link rel=apple-touch-icon sizes=180x180 href=https://wiki.seasalt.ai/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://wiki.seasalt.ai/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://wiki.seasalt.ai/favicon-16x16.png><link rel=manifest crossorigin=use-credentials href=https://wiki.seasalt.ai/site.webmanifest></head><body class="seameet single"><div class=sticky-lg-top><div class=header-bar></div><header class="navbar navbar-expand-md navbar-light doks-navbar"><nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation"><a class="navbar-brand p-0 me-auto" href=https://wiki.seasalt.ai/ aria-label=Seasalt.ai>Seasalt.ai</a>
-<button class="btn btn-menu d-block d-md-none order-5" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasDoks aria-controls=offcanvasDoks aria-label="Open main menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button><div class="offcanvas offcanvas-start border-0 py-md-1" tabindex=-1 id=offcanvasDoks data-bs-backdrop=true aria-labelledby=offcanvasDoksLabel><div class="header-bar d-md-none"></div><div class="offcanvas-header d-md-none"><h2 class="h5 offcanvas-title ps-2" id=offcanvasDoksLabel><a class=text-dark href=https://wiki.seasalt.ai/>Seasalt.ai</a></h2><button type=button class="btn-close text-reset me-2" data-bs-dismiss=offcanvas aria-label="Close main menu"></button></div><div class="offcanvas-body px-4"><h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3><ul class="nav flex-column flex-md-row ms-md-n3"><li class=nav-item><a class="nav-link ps-0 py-1" href=https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/ aria-label=SeaVoice>SeaVoice</a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/ aria-label=SeaMeet>SeaMeet</a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://wiki.seasalt.ai/seachat/seachat-intro/01-seachat-intro/ aria-label=SeaChat>SeaChat</a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/ aria-label=SeaX>SeaX</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle ps-0 py-1" href=# id=navbarDropdownMenuLink role=button data-bs-toggle=dropdown aria-expanded=false>RESTful APIs
-<span class=dropdown-caret><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span></a><ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby=navbarDropdownMenuLink><li><a class=dropdown-item href=https://wiki.seasalt.ai/seasaltapi/seasalt-api/01-seachat-api-intro/ aria-label="SeaChat API">SeaChat API</a></li><li><a class=dropdown-item href=https://wiki.seasalt.ai/seasaltapi/seasalt-api/02-seax-api-intro/ aria-label="SeaX API">SeaX API</a></li><li><a class=dropdown-item href=https://wiki.seasalt.ai/seasaltapi/seasalt-api/03-seameet-api-intro/ aria-label="SeaMeet API">SeaMeet API</a></li></ul></li></ul><hr class="text-black-50 my-4 d-md-none"><h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3><ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2"><li class=nav-item><a class="nav-link ps-0 py-1" href=https://seasalt.ai/ aria-label=Home><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg><small class="ms-2 d-md-none">Home</small></a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://www.youtube.com/@seasaltai aria-label=YouTube><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78.0 00-1.94-2C18.88 4 12 4 12 4s-6.88.0-8.6.46a2.78 2.78.0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78.0 003.4 19c1.72.46 8.6.46 8.6.46s6.88.0 8.6-.46a2.78 2.78.0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg><small class="ms-2 d-md-none">YouTube</small></a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://www.linkedin.com/company/seasalt-ai/ aria-label=LinkedIn><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><small class="ms-2 d-md-none">LinkedIn</small></a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://meetings.hubspot.com/seasalt-ai/seasalt-meeting aria-label=Contact><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><small class="ms-2 d-md-none">Contact</small></a></li></ul></div></div><button id=mode class="btn btn-link order-md-1" type=button aria-label="Toggle user interface mode">
-<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button><div class="dropdown order-md-2"><button class="btn btn-doks-light dropdown-toggle" id=doks-languages data-bs-toggle=dropdown aria-expanded=false data-bs-display=static>
-EN
-<span class=dropdown-caret><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span></button><ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby=doks-languages><li><a class="dropdown-item current" aria-current=true href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/>English</a></li><li><hr class=dropdown-divider></li><li><a class=dropdown-item rel=alternate href=https://wiki.seasalt.ai/zh/seameet/seameet-manual/4-integration/13-seameet-google-doc/ hreflang=zh lang=zh>繁體中文</a></li></ul></div><button class="btn btn-search-icon btn-link order-md-1" id=search-icon type=button aria-label="Open search bar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button></nav></header><div id=search-container style=display:none;padding:1em;background-color:#f8f9fa><div id=search></div></div><script>window.addEventListener('DOMContentLoaded',c=>{new PagefindUI({element:"#search",showSubResults:!0,resetStyles:!0});const b=document.getElementById('search-icon'),a=document.getElementById('search-container');b.addEventListener('click',()=>{const b=a.style.display==='block';a.style.display=b?'none':'block'})})</script></div><nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation"><div class="container-xxl d-flex align-items-md-center"><span class="navbar-text ms-0">Seameet</span>
-<button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type=button data-bs-toggle=collapse data-bs-target=#doks-docs-nav aria-controls=doks-docs-nav aria-expanded=false aria-label="Toggle documentation navigation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg></button></div></nav><div class=container-xxl><aside class=doks-sidebar><nav id=doks-docs-nav class="collapse d-lg-none" aria-label="Tertiary navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-8d42880248bad0c8e58d01d9492967a6 aria-expanded=true>
-SeaMeet User Guide</button><div class="collapse show" id=section-8d42880248bad0c8e58d01d9492967a6><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/>How to Use SeaMeet Copilot</a></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-1da2374b50f497e208c8dab11e6b2c98 aria-expanded=true>
-Workspace Management</button><div class="collapse show" id=section-1da2374b50f497e208c8dab11e6b2c98><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/>Set Up SeaMeet Workspace</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/>Team Workspace Management</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-849a2f5b7ea20df9efbcde57a3364eda aria-expanded=true>
-General Setup</button><div class="collapse show" id=section-849a2f5b7ea20df9efbcde57a3364eda><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/>Switch Meeting Language</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/>Auto Share Meeting Records</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/>Transcribe Meetings</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/>Auto Join Meetings</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/>Identify Speakers in In-Person Meetings</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-f16a696454e80796ee070ac7257ba01c aria-expanded=true>
-SeaMeet Copilot</button><div class="collapse show" id=section-f16a696454e80796ee070ac7257ba01c><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/>View Meeting Records</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/>Using Meeting Transcripts and AI Meeting Analytics</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/>Play Meeting Recordings</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/>End Meeting Recording</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/>Meeting Labels</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-e01aecb528730f3bfe10f9d57f1317bf aria-expanded=true>
-Integrations</button><div class="collapse show" id=section-e01aecb528730f3bfe10f9d57f1317bf><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/>Browser Extension</a></li><li><a class="docs-link rounded active" href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/>Export Meeting to Google Doc</a></li></ul></div></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/>How to Subscribe to a Plan</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/billing-and-subscription/>Billing and Subscription</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/00-seameet-faq/>FAQ</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/15-seameet-help/>Provide Feedback</a></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-4310045e312bcab3bff238716f455875 aria-expanded=true>
-New Features & Releases</button><div class="collapse show" id=section-4310045e312bcab3bff238716f455875><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/>SeaMeet Release History</a></li></ul></div></li></ul></nav></aside></div><div class="wrap container-xxl" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block"><nav class=docs-links aria-label="Main navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-8d42880248bad0c8e58d01d9492967a6 aria-expanded=true>
-SeaMeet User Guide</button><div class="collapse show" id=section-8d42880248bad0c8e58d01d9492967a6><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/>How to Use SeaMeet Copilot</a></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-1da2374b50f497e208c8dab11e6b2c98 aria-expanded=true>
-Workspace Management</button><div class="collapse show" id=section-1da2374b50f497e208c8dab11e6b2c98><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/>Set Up SeaMeet Workspace</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/>Team Workspace Management</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-849a2f5b7ea20df9efbcde57a3364eda aria-expanded=true>
-General Setup</button><div class="collapse show" id=section-849a2f5b7ea20df9efbcde57a3364eda><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/>Switch Meeting Language</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/>Auto Share Meeting Records</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/>Transcribe Meetings</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/>Auto Join Meetings</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/>Identify Speakers in In-Person Meetings</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-f16a696454e80796ee070ac7257ba01c aria-expanded=true>
-SeaMeet Copilot</button><div class="collapse show" id=section-f16a696454e80796ee070ac7257ba01c><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/>View Meeting Records</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/>Using Meeting Transcripts and AI Meeting Analytics</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/>Play Meeting Recordings</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/>End Meeting Recording</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/>Meeting Labels</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-e01aecb528730f3bfe10f9d57f1317bf aria-expanded=true>
-Integrations</button><div class="collapse show" id=section-e01aecb528730f3bfe10f9d57f1317bf><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/>Browser Extension</a></li><li><a class="docs-link rounded active" href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/>Export Meeting to Google Doc</a></li></ul></div></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/>How to Subscribe to a Plan</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/billing-and-subscription/>Billing and Subscription</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/00-seameet-faq/>FAQ</a></li><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-manual/15-seameet-help/>Provide Feedback</a></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-4310045e312bcab3bff238716f455875 aria-expanded=true>
-New Features & Releases</button><div class="collapse show" id=section-4310045e312bcab3bff238716f455875><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/>SeaMeet Release History</a></li></ul></div></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"></nav><main class="docs-content col-lg-11 col-xl-9"><h1>Export Meeting to Google Doc</h1><p class=lead></p><nav class=d-xl-none aria-label="Quaternary navigation"></nav><p>After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.</p><ol><li><p>Connect Google Drive</p><p>If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in <strong>Workspace</strong> - <strong>Integration</strong>.</p><center><img src=https://wiki.seasalt.ai/images/seameet-en/13-seameet-google-doc/seameet-bind-google-drive.png alt="SeaMeet Bind Google Drive"></center></li></ol><br><ol start=2><li><p>Automatically Export Google Document After Meeting</p><p>Click the Google Docs button in the top right corner of the meeting page to access the corresponding meeting record</p><center><img src=https://wiki.seasalt.ai/images/seameet-en/13-seameet-google-doc/seameet-auto-export-google-doc.png alt="SeaMeet Auto Export Google Document"></center></li></ol><br><ol start=3><li><p>Check the Google Docs Document</p><p>If your googhle drive is connected to the SeaMeet, you can now read the transcription and summary of the meeting in your own Google Drive. Go to your Google Drive and open the document to view the meeting record.</p><center><img src=https://wiki.seasalt.ai/images/seameet-en/13-seameet-google-doc/seameet-google-doc-content.png alt="SeaMeet Google Docs Content"></center></li></ol><div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div><div class="docs-navigation d-flex justify-content-between"><a href=https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/><div class="card my-1"><div class="card-body py-2">&larr; Browser Extension</div></div></a><a class=ms-auto href=https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/><div class="card my-1"><div class="card-body py-2">How to Subscribe to a Plan &rarr;</div></div></a></div></main></div></div></div><footer class="footer text-muted"><p style=text-align:center>Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p><link rel=stylesheet href=https://wiki.seasalt.ai/css/widget.css><div id=sui-right-widgets><div id=sui-widget-btn></div></div><script src=https://wiki.seasalt.ai/js/custom.js></script>
-<script src=https://wiki.seasalt.ai/js/widget.js></script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript></footer><script src=https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp+dznJkhQ2nKWFuqYPz9DUA==" crossorigin=anonymous defer></script>
-<script src=https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V+Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296+Tx1MwY25qTpslERKCPKSQ==" crossorigin=anonymous defer></script>
-<script src=https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin=anonymous defer></script></body></html>
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://wiki.seasalt.ai/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind-ui.js"></script>
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10880948239');
+  </script>
+  
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJGXPTGC');</script>
+  
+  <link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-10405841-7', 'auto');
+    ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="https://wiki.seasalt.ai/main.2602b41bee171a80ecc77d6e8381b3c7e4f6a7da458695159720c408fe22f99213c452eac05c0da86a960465e09a9d859ee5d69c9b7e7ac33ed34f4ad440148b.css" integrity="sha512-JgK0G&#43;4XGoDsx31ug4Gzx&#43;T2p9pFhpUVlyDECP4i&#43;ZITxFLqwFwNqGqWBGXgmp2FnuXWnJt&#43;esM&#43;009K1EAUiw==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>Export Meeting to Google Doc - Seasalt.ai</title>
+<meta name="description" content="Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account.">
+<link rel="canonical" href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Export Meeting to Google Doc">
+<meta property="og:description" content="Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account.">
+<meta property="og:url" content="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/">
+<meta property="og:site_name" content="Seasalt.ai">
+<meta property="article:published_time" content="2023-11-22T08:48:57+00:00">
+  <meta property="article:modified_time" content="2024-09-17T11:08:52-07:00">
+  
+  <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
+      <meta property="og:image:alt" content="Seasalt.ai">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Export Meeting to Google Doc">
+<meta name="twitter:description" content="Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account.">
+<meta name="twitter:image" content="https://wiki.seasalt.ai/seasalt-logo.png">
+    <meta name="twitter:image:alt" content="Export Meeting to Google Doc">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://wiki.seasalt.ai/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://wiki.seasalt.ai/",
+      "sameAs": [
+        , "https://www.linkedin.com/company/seasalt-ai/"
+        ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://wiki.seasalt.ai/#/schema/website/1",
+      "url": "https://wiki.seasalt.ai/",
+      "name": "Seasalt.ai",
+      "description": "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.",
+      "publisher": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/",
+      "url": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/",
+      "name": "Export Meeting to Google Doc",
+      "description": "Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account.",
+      "isPartOf": {
+        "@id": "https://wiki.seasalt.ai/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        },
+      "datePublished": "2023-11-22T08:48:57CET",
+      "dateModified": "2024-09-17T11:08:52CET",
+      "breadcrumb": {
+        "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/",
+          "url": "https://wiki.seasalt.ai/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seameet/",
+          "url": "https://wiki.seasalt.ai/seameet/",
+          "name": "Seameet"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/",
+          "url": "https://wiki.seasalt.ai/seameet/seameet-manual/",
+          "name": "Seameet Manual"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/",
+          "url": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/",
+          "name": "4 Integration"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  5 ,
+        "item": {
+          "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/#/schema/image/2",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "contentUrl": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "caption": "Export Meeting to Google Doc"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiki.seasalt.ai/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wiki.seasalt.ai/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wiki.seasalt.ai/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://wiki.seasalt.ai/site.webmanifest">
+
+</head>
+  <body class="seameet single">
+    <div class="sticky-lg-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="https://wiki.seasalt.ai/" aria-label="Seasalt.ai">
+      Seasalt.ai
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="https://wiki.seasalt.ai/">Seasalt.ai</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/" aria-label="SeaVoice">SeaVoice</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/" aria-label="SeaMeet">SeaMeet</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seachat/seachat-intro/01-seachat-intro/" aria-label="SeaChat">SeaChat</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/" aria-label="SeaX">SeaX</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESTful APIs
+              <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/01-seachat-api-intro/" aria-label="SeaChat API">SeaChat API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/02-seax-api-intro/" aria-label="SeaX API">SeaX API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/03-seameet-api-intro/" aria-label="SeaMeet API">SeaMeet API</a>
+              </li>
+              </ul>
+          </li>
+          
+          
+          
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://seasalt.ai/" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><small class="ms-2 d-md-none">Home</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.youtube.com/@seasaltai" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><small class="ms-2 d-md-none">YouTube</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.linkedin.com/company/seasalt-ai/" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><small class="ms-2 d-md-none">LinkedIn</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" aria-label="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><small class="ms-2 d-md-none">Contact</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        EN
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/">English</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/4-integration/13-seameet-google-doc/" hreflang="zh" lang="zh">繁體中文</a></li>
+        
+      </ul>
+    </div>
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </nav>
+</header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
+
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</div>
+<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+    <span class="navbar-text ms-0">Seameet</span>
+    <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-8d42880248bad0c8e58d01d9492967a6" aria-expanded="true">
+          SeaMeet User Guide
+        </button>
+        <div class="collapse show" id="section-8d42880248bad0c8e58d01d9492967a6">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/">How to Use SeaMeet Copilot</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1da2374b50f497e208c8dab11e6b2c98" aria-expanded="true">
+                    Workspace Management
+                  </button>
+                  <div class="collapse show" id="section-1da2374b50f497e208c8dab11e6b2c98">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/">Set Up SeaMeet Workspace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/">Team Workspace Management</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-849a2f5b7ea20df9efbcde57a3364eda" aria-expanded="true">
+                    General Setup
+                  </button>
+                  <div class="collapse show" id="section-849a2f5b7ea20df9efbcde57a3364eda">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/">Switch Meeting Language</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/">Auto Share Meeting Records</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/">Transcribe Meetings</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/">Auto Join Meetings</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/">Identify Speakers in In-Person Meetings</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-f16a696454e80796ee070ac7257ba01c" aria-expanded="true">
+                    SeaMeet Copilot
+                  </button>
+                  <div class="collapse show" id="section-f16a696454e80796ee070ac7257ba01c">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/">View Meeting Records</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/">Using Meeting Transcripts and AI Meeting Analytics</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/">Play Meeting Recordings</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/">End Meeting Recording</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/">Meeting Labels</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e01aecb528730f3bfe10f9d57f1317bf" aria-expanded="true">
+                    Integrations
+                  </button>
+                  <div class="collapse show" id="section-e01aecb528730f3bfe10f9d57f1317bf">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/">Browser Extension</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/">Export Meeting to Google Doc</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/">How to Subscribe to a Plan</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/billing-and-subscription/">Billing and Subscription</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/00-seameet-faq/">FAQ</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/15-seameet-help/">Provide Feedback</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4310045e312bcab3bff238716f455875" aria-expanded="true">
+          New Features &amp; Releases
+        </button>
+        <div class="collapse show" id="section-4310045e312bcab3bff238716f455875">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/">SeaMeet Release History</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+    <div class="wrap container-xxl" role="document">      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-8d42880248bad0c8e58d01d9492967a6" aria-expanded="true">
+          SeaMeet User Guide
+        </button>
+        <div class="collapse show" id="section-8d42880248bad0c8e58d01d9492967a6">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/">How to Use SeaMeet Copilot</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1da2374b50f497e208c8dab11e6b2c98" aria-expanded="true">
+                    Workspace Management
+                  </button>
+                  <div class="collapse show" id="section-1da2374b50f497e208c8dab11e6b2c98">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/">Set Up SeaMeet Workspace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/">Team Workspace Management</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-849a2f5b7ea20df9efbcde57a3364eda" aria-expanded="true">
+                    General Setup
+                  </button>
+                  <div class="collapse show" id="section-849a2f5b7ea20df9efbcde57a3364eda">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/">Switch Meeting Language</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/">Auto Share Meeting Records</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/">Transcribe Meetings</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/">Auto Join Meetings</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/">Identify Speakers in In-Person Meetings</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-f16a696454e80796ee070ac7257ba01c" aria-expanded="true">
+                    SeaMeet Copilot
+                  </button>
+                  <div class="collapse show" id="section-f16a696454e80796ee070ac7257ba01c">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/">View Meeting Records</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/">Using Meeting Transcripts and AI Meeting Analytics</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/">Play Meeting Recordings</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/">End Meeting Recording</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/">Meeting Labels</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e01aecb528730f3bfe10f9d57f1317bf" aria-expanded="true">
+                    Integrations
+                  </button>
+                  <div class="collapse show" id="section-e01aecb528730f3bfe10f9d57f1317bf">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/">Browser Extension</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/">Export Meeting to Google Doc</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/">How to Subscribe to a Plan</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/billing-and-subscription/">Billing and Subscription</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/00-seameet-faq/">FAQ</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-manual/15-seameet-help/">Provide Feedback</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4310045e312bcab3bff238716f455875" aria-expanded="true">
+          New Features &amp; Releases
+        </button>
+        <div class="collapse show" id="section-4310045e312bcab3bff238716f455875">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/">SeaMeet Release History</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>Export Meeting to Google Doc</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				
+			</nav>
+			<p>After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.</p>
+<ol>
+<li>
+<p>Connect Google Drive</p>
+<p>If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in <strong>Workspace</strong> - <strong>Integration</strong>.</p>
+ <center>
+ <img src="https://wiki.seasalt.ai/images/seameet-en/13-seameet-google-doc/seameet-bind-google-drive.png" alt="SeaMeet Bind Google Drive"/>
+ </center>
+</li>
+</ol>
+<br/>
+<ol start="2">
+<li>
+<p>Automatically Export Google Document After Meeting</p>
+<p>Click the Google Docs button in the top right corner of the meeting page to access the corresponding meeting record</p>
+ <center>
+ <img src="https://wiki.seasalt.ai/images/seameet-en/13-seameet-google-doc/seameet-auto-export-google-doc.png" alt="SeaMeet Auto Export Google Document"/>
+ </center>
+</li>
+</ol>
+<br/>
+<ol start="3">
+<li>
+<p>Check the Google Docs Document</p>
+<p>If your googhle drive is connected to the SeaMeet, you can now read the transcription and summary of the meeting in your own Google Drive. Go to your Google Drive and open the document to view the meeting record.</p>
+ <center>
+ <img src="https://wiki.seasalt.ai/images/seameet-en/13-seameet-google-doc/seameet-google-doc-content.png" alt="SeaMeet Google Docs Content"/>
+ </center>
+</li>
+</ol>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; Browser Extension
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					How to Subscribe to a Plan &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <p style="text-align: center;">Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p>
+  
+<link rel="stylesheet" href="https://wiki.seasalt.ai/css/widget.css">
+<div id="sui-right-widgets">
+    <div id="sui-widget-btn"></div>
+</div>
+
+  
+    <script src="https://wiki.seasalt.ai/js/custom.js"></script>
+  
+    <script src="https://wiki.seasalt.ai/js/widget.js"></script>
+  
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+</footer>
+    <script src="https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js" integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp&#43;dznJkhQ2nKWFuqYPz9DUA==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js" integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V&#43;Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296&#43;Tx1MwY25qTpslERKCPKSQ==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js" integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin="anonymous" defer></script>
+  
+  </body>
+</html>

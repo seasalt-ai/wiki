@@ -1,3 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Speech to Text on</title><link>https://wiki.seasalt.ai/seavoice/stt/</link><description>Recent content in Speech to Text on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Feb 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seavoice/stt/index.xml" rel="self" type="application/rss+xml"/><item><title>Speech to Text Customization Tutorial</title><link>https://wiki.seasalt.ai/seavoice/stt/panel_tutorial_en/</link><pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seavoice/stt/panel_tutorial_en/</guid><description>Customization Panel # The SeaVoice STT Customization Panel is a user-friendly interface that allows you to easily customize the state-of-the-art speech-to-text engine to increase accuracy. This allows the STT engine to better recognize domain-specific jargons and words with ambiguous pronunciations.
-Here we demonstrate the advantages and how to navigate the SeaVoice STT Customization Panel:</description></item><item><title>Speech to Text Lightning Fast GPU Accurate Decoder</title><link>https://wiki.seasalt.ai/seavoice/stt/decoder/</link><pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seavoice/stt/decoder/</guid><description>Decoder # The SeaVoice STT Decoder achieves lightning fast speed for speech recognition with state-of-the-art accuracy. This will be evaluated using the following metrics:
-Real Time Factor (RTFx): Decoding speed relative to audio duration Word Error Rate (WER): Overall accuracy of the transcription Here we compare our STT engine with Microsoft Azure STT where we achieve better accuracy and speed:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speech to Text on </title>
+    <link>https://wiki.seasalt.ai/seavoice/stt/</link>
+    <description>Recent content in Speech to Text on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Feb 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seavoice/stt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speech to Text Customization Tutorial</title>
+      <link>https://wiki.seasalt.ai/seavoice/stt/panel_tutorial_en/</link>
+      <pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seavoice/stt/panel_tutorial_en/</guid>
+      <description>Customization Panel #  The SeaVoice STT Customization Panel is a user-friendly interface that allows you to easily customize the state-of-the-art speech-to-text engine to increase accuracy. This allows the STT engine to better recognize domain-specific jargons and words with ambiguous pronunciations.
+Here we demonstrate the advantages and how to navigate the SeaVoice STT Customization Panel:
+ </description>
+    </item>
+    
+    <item>
+      <title>Speech to Text Lightning Fast GPU Accurate Decoder</title>
+      <link>https://wiki.seasalt.ai/seavoice/stt/decoder/</link>
+      <pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seavoice/stt/decoder/</guid>
+      <description>Decoder #  The SeaVoice STT Decoder achieves lightning fast speed for speech recognition with state-of-the-art accuracy. This will be evaluated using the following metrics:
+ Real Time Factor (RTFx): Decoding speed relative to audio duration Word Error Rate (WER): Overall accuracy of the transcription  Here we compare our STT engine with Microsoft Azure STT where we achieve better accuracy and speed:
+ </description>
+    </item>
+    
+  </channel>
+</rss>

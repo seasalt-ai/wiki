@@ -1,9 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SeaMeet Copilot on</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/</link><description>Recent content in SeaMeet Copilot on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/index.xml" rel="self" type="application/rss+xml"/><item><title>View Meeting Records</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</guid><description>When you invite the SeaMeet Copilot to join a meeting, it will create a meeting entry in your workspace&amp;rsquo;s meeting list. Click on the meeting title to access detailed meeting information, including meeting transcription, discussed topics, summary, and action items.
-Browse Meeting Records # Click the &amp;ldquo;Meeting List&amp;rdquo; page to see the list of recorded, ongoing, and upcoming meetings.
-Click the meeting title to view the meeting records.</description></item><item><title>Using Meeting Transcripts and AI Meeting Analytics</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</guid><description>Once the copilot joins, you will see the real-time meeting transcript being generated, including the speaker and speaking time. SeaMeet&amp;rsquo;s transcript recognition is specially trained for the Taiwanese market and can recognize mixed Chinese and English conversation scenarios.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaMeet Copilot on </title>
+    <link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/</link>
+    <description>Recent content in SeaMeet Copilot on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Meeting Records</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</guid>
+      <description>When you invite the SeaMeet Copilot to join a meeting, it will create a meeting entry in your workspace&amp;rsquo;s meeting list. Click on the meeting title to access detailed meeting information, including meeting transcription, discussed topics, summary, and action items.
+  Browse Meeting Records # Click the &amp;ldquo;Meeting List&amp;rdquo; page to see the list of recorded, ongoing, and upcoming meetings.
+  Click the meeting title to view the meeting records.</description>
+    </item>
+    
+    <item>
+      <title>Using Meeting Transcripts and AI Meeting Analytics</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</guid>
+      <description>Once the copilot joins, you will see the real-time meeting transcript being generated, including the speaker and speaking time. SeaMeet&amp;rsquo;s transcript recognition is specially trained for the Taiwanese market and can recognize mixed Chinese and English conversation scenarios.
 During the meeting, AI will automatically extract meeting summaries, action items, and discussion topics from the conversation at regular intervals.
-1. Meeting Summary # 2. Action Items # 3.</description></item><item><title>Play Meeting Recordings</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</guid><description>You can play the recording of each meeting.
-Play the Entire Meeting Recording # Click the play bar at the bottom of the meeting page to replay the full recording of the meeting. You can choose to drag the recording bar, fast-forward 10 seconds, pause/play, rewind 10 seconds, and other functions. The currently playing segment will be highlighted in the transcript. Play Individual Conversation Segments # When the mouse hovers over a segment of the transcript, a play button will appear.</description></item><item><title>End Meeting Recording</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</guid><description>When the meeting ends, you can choose to:
-Press the end meeting recording button on the SeaMeet meeting page Manually press the end meeting button on the extension If you forget to manually end the meeting recording, the copilot will leave the Google Meet room under the following conditions:
-30 seconds after all participants have left the meeting room</description></item><item><title>Meeting Labels</title><link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</guid><description>You can add various meeting labels to your workspace to help categorize meetings and manage the labels for each meeting.
-Adding Meeting Labels in a Meeting # Go to the Meeting List page and click on the meeting you want to add labels to. Click the + sign to manage the labels for that meeting. You can also create new labels for the workspace directly in the meeting and add them to the meeting.</description></item></channel></rss>
+  1. Meeting Summary #   2. Action Items #   3.</description>
+    </item>
+    
+    <item>
+      <title>Play Meeting Recordings</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</guid>
+      <description>You can play the recording of each meeting.
+Play the Entire Meeting Recording #  Click the play bar at the bottom of the meeting page to replay the full recording of the meeting. You can choose to drag the recording bar, fast-forward 10 seconds, pause/play, rewind 10 seconds, and other functions. The currently playing segment will be highlighted in the transcript.    Play Individual Conversation Segments #  When the mouse hovers over a segment of the transcript, a play button will appear.</description>
+    </item>
+    
+    <item>
+      <title>End Meeting Recording</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</guid>
+      <description>When the meeting ends, you can choose to:
+ Press the end meeting recording button on the SeaMeet meeting page     Manually press the end meeting button on the extension     If you forget to manually end the meeting recording, the copilot will leave the Google Meet room under the following conditions:
+  30 seconds after all participants have left the meeting room</description>
+    </item>
+    
+    <item>
+      <title>Meeting Labels</title>
+      <link>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</guid>
+      <description>You can add various meeting labels to your workspace to help categorize meetings and manage the labels for each meeting.
+Adding Meeting Labels in a Meeting #  Go to the Meeting List page and click on the meeting you want to add labels to. Click the + sign to manage the labels for that meeting.    You can also create new labels for the workspace directly in the meeting and add them to the meeting.</description>
+    </item>
+    
+  </channel>
+</rss>

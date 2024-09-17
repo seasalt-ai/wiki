@@ -1,17 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workspace on</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/</link><description>Recent content in Workspace on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/index.xml" rel="self" type="application/rss+xml"/><item><title>工作區管理</title><link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/01-workspace-management/</link><pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/01-workspace-management/</guid><description>工作區是您管理所有助理和成員的控制中心。我們首先導航到工作區部分，以找到本文將介紹的所有功能。
-側邊選單中的工作區
-AI助理 # 助理管理
-這裡可以管理所有的AI助理。每一行代表一個AI助理及其名稱、電子郵件和狀態。您還可以看到未讀消息的數量，找到AI助理對話的 URL，直接啟動對話或新增AI助理。
-成員 # 成員管理
-成員有不同的類型。根據成員類型，他們會有不同的權限。如果您是工作區的擁有者，可以新增成員並分配不同的角色。以下是一些可以分配給成員的角色：
-系統管理者：擁有工作區的全部訪問權限，可以管理所有設置，編輯 AI 助理的設置，管理知識庫，訪問助理對話並以真人助理的身份接管對話。 AI 助理開發者：可以編輯 AI 助理的設置，管理知識庫，訪問助理對話和測試。 真人助理：可以訪問助理對話並以真人助理的身份接管對話。 編輯使用者 # 成員設置
-您可以將不同的助理分配給不同的成員。例如，將測試中的助理分配給您的 AI 助理開發者，將產線中的助理分配給您真人助理。管理員可以訪問和監控這兩種類型的助理。
-🤖 助理與 👨 成員
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workspace on </title>
+    <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/</link>
+    <description>Recent content in Workspace on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工作區管理</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/01-workspace-management/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/01-workspace-management/</guid>
+      <description>工作區是您管理所有助理和成員的控制中心。我們首先導航到工作區部分，以找到本文將介紹的所有功能。
+  側邊選單中的工作區
+ AI助理 #   助理管理
+ 這裡可以管理所有的AI助理。每一行代表一個AI助理及其名稱、電子郵件和狀態。您還可以看到未讀消息的數量，找到AI助理對話的 URL，直接啟動對話或新增AI助理。
+成員 #   成員管理
+ 成員有不同的類型。根據成員類型，他們會有不同的權限。如果您是工作區的擁有者，可以新增成員並分配不同的角色。以下是一些可以分配給成員的角色：
+ 系統管理者：擁有工作區的全部訪問權限，可以管理所有設置，編輯 AI 助理的設置，管理知識庫，訪問助理對話並以真人助理的身份接管對話。 AI 助理開發者：可以編輯 AI 助理的設置，管理知識庫，訪問助理對話和測試。 真人助理：可以訪問助理對話並以真人助理的身份接管對話。  編輯使用者 #   成員設置
+ 您可以將不同的助理分配給不同的成員。例如，將測試中的助理分配給您的 AI 助理開發者，將產線中的助理分配給您真人助理。管理員可以訪問和監控這兩種類型的助理。
+ 🤖 助理與 👨 成員
 在本文中，“助理”和“機器人”這兩個詞可以互換使用。如您所見，大多數URL參數使用“bot”(機器人)，而文中大多使用“agent”(助理)。
 Seasalt.ai 正在為普通“聊天機器人”增加更多推理和執行功能，因此我們更喜歡使用“助理”一詞，這意味著助理可以執行機器人無法完成的任務。
 然而，在“助理”或“真人助理”的情境下，這可能會讓人混淆。因此，在這些情況下，我們將使用“AI助理”來指代自主助理，而“真人助理”指代人類助理。
 反觀成員一詞，一律代表真人成員。
-工作區偏好設置 # 偏好設置
-這裡可以管理工作區的通知設置。SeaChat 可以自動向您發送電子郵件，通知您新對話和新的人工助理請求。啟用您想接收的通知類型後，還可以設置通知的語言。
+ 工作區偏好設置 #   偏好設置
+ 這裡可以管理工作區的通知設置。SeaChat 可以自動向您發送電子郵件，通知您新對話和新的人工助理請求。啟用您想接收的通知類型後，還可以設置通知的語言。
 通知設置 # SeaChat 提供不同語言的通知。您可以選擇接收通知的語言。雖然可以將語言設置為默認值（與外觀語言相同），但我們建議設置為您在對話中的預定語言。這有助於優化助理的性能並加快操作速度。
-工作區 API 金鑰 # SeaChat API 金鑰</description></item></channel></rss>
+工作區 API 金鑰 #   SeaChat API 金鑰</description>
+    </item>
+    
+  </channel>
+</rss>

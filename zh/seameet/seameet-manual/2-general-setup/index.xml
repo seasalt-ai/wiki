@@ -1,33 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>基本設置 on</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/</link><description>Recent content in 基本設置 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>轉錄會議</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/</guid><description>邀請機器人記錄會議 # SeaMeet是一款協助自動生成線上會議記錄的AI工具，只要將機器人邀請至會議室中，即可自動記錄會議。目前SeaMeet主要支援Google Meet平台。SeaMeet支援多種機器人邀請方式，您可以從三種方式中選擇一種進行邀請：
-1. 工作區邀請 # 按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中 2. SeaMeet擴充程式邀請 # 到Chrome應用程式商店安裝擴充程式，Edge也可以使用。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>基本設置 on </title>
+    <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/</link>
+    <description>Recent content in 基本設置 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>轉錄會議</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/</guid>
+      <description>邀請機器人記錄會議 # SeaMeet是一款協助自動生成線上會議記錄的AI工具，只要將機器人邀請至會議室中，即可自動記錄會議。目前SeaMeet主要支援Google Meet平台。SeaMeet支援多種機器人邀請方式，您可以從三種方式中選擇一種進行邀請：
+1. 工作區邀請 #  按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中    2. SeaMeet擴充程式邀請 #   到Chrome應用程式商店安裝擴充程式，Edge也可以使用。
 https://chrome.google.com/webstore/detail/seameet-ai-meeting-minute/gkkhkniggakfgioeeclbllpihmipkcmn
-安裝後開啟Google Meet，就會自動開啟程式
-點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議 3. Google日曆邀請 # 在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議</description></item><item><title>切換會議語言</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</guid><description>SeaMeet目前支援中文(繁體)、英文，以及自動偵測語言等三種模式，您可以在會議開始前或會議進行中隨時切換會議記錄語言
-切換預設轉錄語言 # 點選「個人設定 ─ 會議設定」頁面 設定您的帳號未來邀請機器人進行會議記錄時，所預設的會議記錄語言 開始「預約會議」的會議記錄時，即可看到預設記錄語言已經改變 切換個別會議記錄語言 # 進入個別會議頁面，並點選「選擇目前的會議語言」 從選單中選擇另一個預計使用的會議紀錄語言 選擇後即可以新模型進行記錄 切換 SeaMeet 小工具中的會議記錄語言 # 開始使用 SeaMeet 助理轉錄會議。 點擊下拉選單更改轉錄會議語言。</description></item><item><title>自動分享會議記錄</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</link><pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</guid><description>開始使用 # 您可以在「工作區設定」的「常用設定」調整自動分享會議記錄的發送對象。
-常用設定
-您可以在「常用設定」中設定自動分享功能，目前SeaMeet提供以下選項：
-只分享給自己
+  安裝後開啟Google Meet，就會自動開啟程式
+    點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議    3. Google日曆邀請 #  在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議   </description>
+    </item>
+    
+    <item>
+      <title>切換會議語言</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</guid>
+      <description>SeaMeet目前支援中文(繁體)、英文，以及自動偵測語言等三種模式，您可以在會議開始前或會議進行中隨時切換會議記錄語言
+切換預設轉錄語言 #  點選「個人設定 ─ 會議設定」頁面 設定您的帳號未來邀請機器人進行會議記錄時，所預設的會議記錄語言    開始「預約會議」的會議記錄時，即可看到預設記錄語言已經改變    切換個別會議記錄語言 #  進入個別會議頁面，並點選「選擇目前的會議語言」 從選單中選擇另一個預計使用的會議紀錄語言 選擇後即可以新模型進行記錄    切換 SeaMeet 小工具中的會議記錄語言 #  開始使用 SeaMeet 助理轉錄會議。 點擊下拉選單更改轉錄會議語言。   </description>
+    </item>
+    
+    <item>
+      <title>自動分享會議記錄</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</guid>
+      <description>開始使用 # 您可以在「工作區設定」的「常用設定」調整自動分享會議記錄的發送對象。
+   常用設定
+  您可以在「常用設定」中設定自動分享功能，目前SeaMeet提供以下選項：
+  只分享給自己
 當您作為邀請者邀請機器人記錄的會議結束後，系統會自動發一封信到您的信箱。
-分享給所有行事曆與會者
+  分享給所有行事曆與會者
 當您邀請機器人轉錄的會議結束後，系統會自動發一封信到所有Google行事曆上受邀參加這個會議的與會者。
-分享給與我同信箱網域的與會者
+  分享給與我同信箱網域的與會者
 當會議結束時，系統會自動將會議記錄發送給所有擁有與您相同域名的參與者。舉例來說，如果在會議中有來自 @seasalt.ai 和 @client-company.com 的參與者，系統只會將會議記錄發送給 @seasalt.ai 的參與者，而不會發送給 @client-company.com 的參與者。該功能僅對與您相同網域且為私人信箱的與會者有效，而不會對使用公用信箱（如Gmail、Hotmail和Outlook）的與會者生效。
-不自動分享給任何人（包括自己）
+  不自動分享給任何人（包括自己）
 會議結束後將不會發送任何會議記錄。
-如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。
-額外分享清單 # 額外分享清單
-額外分享清單允許您將會議記錄發送給未參加會議的收件人。您可以將會議記錄副本（CC）和密件副本（BCC）寄給額外的收件人。
+  如果您開啟自動分享功能，會議結束後系統會依照您的自動分享設定，自動將會議記錄以信件形式寄發給指定對象的信箱。
+  額外分享清單 #    額外分享清單
+  額外分享清單允許您將會議記錄發送給未參加會議的收件人。您可以將會議記錄副本（CC）和密件副本（BCC）寄給額外的收件人。
 額外分享清單的一個非常有用的功能是黑名單。當您選擇將會議記錄發送給所有行事曆與會者時，可以通過黑名單將某些參與者排除在接收會議記錄之外。
-請記得先啟用額外分享清單功能，才能使用它。</description></item><item><title>實體會議 - 如何辨識說話人</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/</link><pubDate>Thu, 18 Apr 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/</guid><description>當使用Google Meet側錄實體會議時，您可以透過「辨識說話人」、「更換說話人」、「重新進行會議摘要」等功能，為會議逐字稿重新分配並替換為正確的說話人，並依照新的說話人重新產出對應摘要。
-辨識說話人 # 您可以依照會議實際參與人數，使用「辨識說話人」將逐字稿重新拆分，並指定要區分為多少位說話人 辨識說話人處理期間，您可以隨時離開該場會議，並在完成後回來查看辨識結果 當辨識完成後，您可以看到被區分為不同說話人（例如：說話人 1、說話人 2、說話人 3）的與會者 更換說話人 # 當完成辨識說話人後，您可以聆聽會議中的個別說話人（例如：說話人 1、說話人 2、說話人 3、錄音，以確認並更換為正確的說話人。
-聆聽會議中的個別說話人錄音，並確認實際說話人 選擇已經存在的與會者或者創建新的與會者，以替代原有的說話人 選擇「新的說話人」應取代「舊的說話人」的單一對話或是所有對話段落 將逐字稿中的所有說話人都更換為正確說話人後，即完成逐字稿調整 重新進行會議摘要 # 更換逐字稿的所有說話人後，您可以依調整後的逐字稿重新產出會議摘要 重新進行會議摘要期間，您可以隨時離開該場會議，並在完成後回來查看 完成會議摘要後，即可查看依照新的說話人生成的會議摘要 需要幫忙嗎？ # 需要幫忙？歡迎聯絡我們 seameet@seasalt.</description></item><item><title>自動加入會議</title><link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</link><pubDate>Thu, 18 Apr 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</guid><description>讓SeaMeet自動加入您的會議，不再需要手動輸入會議ID和手動開始新會議紀錄。您可以在SeaMeet設定中啟用自動加入功能，並在會議開始時自動加入。
-同步綁定 Google 行事曆 # 到SeaMeet設定頁面，點選 第三方整合，並選擇您要連結的Google帳號1。 1. SeaMeet介面 – 第三方整合
-到會議設定頁面，點選 自動加入，啟用自動加入會議，並選擇我的行事曆中所有會議2。 2. SeaMeet介面 – 選擇我的行事曆中所有會議
-Google 行事曆設定 # 請在Google行事曆預約新會議時，記得點選新增視訊會議，這樣才有視訊會議連結，SeaMeet 才能正確地將會議新增至列表。沒有視訊會議連結的會議，SeaMeet不會自動加入會議唷。
+請記得先啟用額外分享清單功能，才能使用它。</description>
+    </item>
+    
+    <item>
+      <title>實體會議 - 如何辨識說話人</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/</link>
+      <pubDate>Thu, 18 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/</guid>
+      <description>當使用Google Meet側錄實體會議時，您可以透過「辨識說話人」、「更換說話人」、「重新進行會議摘要」等功能，為會議逐字稿重新分配並替換為正確的說話人，並依照新的說話人重新產出對應摘要。
+辨識說話人 #  您可以依照會議實際參與人數，使用「辨識說話人」將逐字稿重新拆分，並指定要區分為多少位說話人            辨識說話人處理期間，您可以隨時離開該場會議，並在完成後回來查看辨識結果       當辨識完成後，您可以看到被區分為不同說話人（例如：說話人 1、說話人 2、說話人 3）的與會者       更換說話人 # 當完成辨識說話人後，您可以聆聽會議中的個別說話人（例如：說話人 1、說話人 2、說話人 3、錄音，以確認並更換為正確的說話人。
+ 聆聽會議中的個別說話人錄音，並確認實際說話人       選擇已經存在的與會者或者創建新的與會者，以替代原有的說話人       選擇「新的說話人」應取代「舊的說話人」的單一對話或是所有對話段落       將逐字稿中的所有說話人都更換為正確說話人後，即完成逐字稿調整       重新進行會議摘要 #  更換逐字稿的所有說話人後，您可以依調整後的逐字稿重新產出會議摘要       重新進行會議摘要期間，您可以隨時離開該場會議，並在完成後回來查看       完成會議摘要後，即可查看依照新的說話人生成的會議摘要  需要幫忙嗎？ # 需要幫忙？歡迎聯絡我們 seameet@seasalt.</description>
+    </item>
+    
+    <item>
+      <title>自動加入會議</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</link>
+      <pubDate>Thu, 18 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</guid>
+      <description>讓SeaMeet自動加入您的會議，不再需要手動輸入會議ID和手動開始新會議紀錄。您可以在SeaMeet設定中啟用自動加入功能，並在會議開始時自動加入。
+同步綁定 Google 行事曆 #  到SeaMeet設定頁面，點選 第三方整合，並選擇您要連結的Google帳號1。     1. SeaMeet介面 – 第三方整合
+ 到會議設定頁面，點選 自動加入，啟用自動加入會議，並選擇我的行事曆中所有會議2。     2. SeaMeet介面 – 選擇我的行事曆中所有會議
+ Google 行事曆設定 # 請在Google行事曆預約新會議時，記得點選新增視訊會議，這樣才有視訊會議連結，SeaMeet 才能正確地將會議新增至列表。沒有視訊會議連結的會議，SeaMeet不會自動加入會議唷。
 在完成上述程序後，您的Google行事曆將會自動新增到SeaMeet的會議列表中，並在會議開始時自動加入。
-新增視訊會議
-查看預定會議列表 # 啟用自動加入會議功能後，您可以在會議列表中找到新增的會議。當會議開始時，SeaMeet會自動加入會議，並開始紀錄。
-在會議列表查看所有預定會議
-如何停用自動加入功能 # 首先，請取消您 Google 日曆的連結，以阻止 SeaMeet Copilot 與您的 Google 日曆同步。前往 個人設定 -&amp;gt; 第三方整合 取消 Google 日曆的連結。
+   新增視訊會議
+ 查看預定會議列表 # 啟用自動加入會議功能後，您可以在會議列表中找到新增的會議。當會議開始時，SeaMeet會自動加入會議，並開始紀錄。
+   在會議列表查看所有預定會議
+ 如何停用自動加入功能 # 首先，請取消您 Google 日曆的連結，以阻止 SeaMeet Copilot 與您的 Google 日曆同步。前往 個人設定 -&amp;gt; 第三方整合 取消 Google 日曆的連結。
 如果取消連結後，SeaMeet Copilot 仍然加入會議，這是因為該會議是在取消連結之前安排的。在這種情況下，您可以手動從會議列表中刪除會議。前往會議列表並找到具有淺藍色背景的未來會議，點擊垃圾桶圖示即可刪除會議。
-需要幫忙嗎？ # 需要幫忙？歡迎聯絡我們 seameet@seasalt.ai.</description></item></channel></rss>
+需要幫忙嗎？ # 需要幫忙？歡迎聯絡我們 seameet@seasalt.ai.</description>
+    </item>
+    
+  </channel>
+</rss>

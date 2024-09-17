@@ -1,6 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SeaX Messaging on</title><link>https://wiki.seasalt.ai/zh/seax/seax_messaging/</link><description>Recent content in SeaX Messaging on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax_messaging/index.xml" rel="self" type="application/rss+xml"/><item><title>WhatsApp Business</title><link>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/</link><pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/</guid><description>SeaX Messaging 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連結。本指南將引導您完成 WhatsApp 與 SeaX Messaging 的整合步驟。立即開始利用 SeaX Messaging 的強大功能在 WhatsApp 上與您的客戶互動吧！
-連結 WhatsApp 與 SeaX Messaging # 前往側邊欄選單中的 工作區 下的 頻道。點擊 WhatsApp Business App 以開始整合過程。
-點擊 WhatsApp Business App
-步驟 1: 將設備連結到 WhatsApp Business App # 按照說明使用 QR 碼將您的設備連結到 WhatsApp Business App。
-使用 QR 碼連結到 WhatsApp
-步驟 2: 按照 WhatsApp App 上的說明進行操作 # 按照應用上的鏈接和 QR 碼說明將您的設備連結到 WhatsApp。更多信息請查看這裡。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaX Messaging on </title>
+    <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/</link>
+    <description>Recent content in SeaX Messaging on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax_messaging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WhatsApp Business</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/</link>
+      <pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/</guid>
+      <description>SeaX Messaging 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連結。本指南將引導您完成 WhatsApp 與 SeaX Messaging 的整合步驟。立即開始利用 SeaX Messaging 的強大功能在 WhatsApp 上與您的客戶互動吧！
+ 連結 WhatsApp 與 SeaX Messaging # 前往側邊欄選單中的 工作區 下的 頻道。點擊 WhatsApp Business App 以開始整合過程。
+   點擊 WhatsApp Business App
+ 步驟 1: 將設備連結到 WhatsApp Business App # 按照說明使用 QR 碼將您的設備連結到 WhatsApp Business App。
+   使用 QR 碼連結到 WhatsApp
+ 步驟 2: 按照 WhatsApp App 上的說明進行操作 # 按照應用上的鏈接和 QR 碼說明將您的設備連結到 WhatsApp。更多信息請查看這裡。</description>
+    </item>
+    
+  </channel>
+</rss>

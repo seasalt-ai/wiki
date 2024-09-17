@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advanced Settings on</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/</link><description>Recent content in Advanced Settings on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 27 May 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/index.xml" rel="self" type="application/rss+xml"/><item><title>Retrieval Augmented Generation (RAG)</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</link><pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</guid><description>Overview # Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhancing data retrieval and augmenting the accuracy of interactions with the AI agent. It provides you with the ability to change settings for Query Pattern, Search Method, and Knowledge Base Retrieval Count. By experimenting with these settings, you can customize how your AI agent interacts with the knowledge base efficiently.
-RAG Settings in SeaChat
-Query Pattern # Whether you require comprehensive context, focused engagement, or quick, precise responses, SeaChat&amp;rsquo;s flexible query patterns for querying the knowledge base ensure an optimized chat experience tailored to your preferences.</description></item><item><title>Agent Memory</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</link><pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate><guid>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</guid><description>This feature is only available on
-Enterprise Premium plans
-Overview # Large language models are based on the LSTM &amp;ndash; Long Short-Term Memory &amp;ndash; architecture. However, LSTM is only used for within the language model itself, such as co-reference resolution. In reality, we want a mechanism to remember certain attributes of a conversation or a user. We need a &amp;ldquo;long-lasting&amp;rdquo; memory so whenever the conversation resumes, the LLM still remembers its previous state.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced Settings on </title>
+    <link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/</link>
+    <description>Recent content in Advanced Settings on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 27 May 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retrieval Augmented Generation (RAG)</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</link>
+      <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</guid>
+      <description>Overview # Retrieval Augmented Generation (RAG) is a pivotal feature within SeaChat, enhancing data retrieval and augmenting the accuracy of interactions with the AI agent. It provides you with the ability to change settings for Query Pattern, Search Method, and Knowledge Base Retrieval Count. By experimenting with these settings, you can customize how your AI agent interacts with the knowledge base efficiently.
+   RAG Settings in SeaChat
+ Query Pattern # Whether you require comprehensive context, focused engagement, or quick, precise responses, SeaChat&amp;rsquo;s flexible query patterns for querying the knowledge base ensure an optimized chat experience tailored to your preferences.</description>
+    </item>
+    
+    <item>
+      <title>Agent Memory </title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</link>
+      <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</guid>
+      <description>This feature is only available on 
+Enterprise  Premium  plans 
+ Overview #  Large language models are based on the LSTM &amp;ndash; Long Short-Term Memory &amp;ndash; architecture. However, LSTM is only used for within the language model itself, such as co-reference resolution. In reality, we want a mechanism to remember certain attributes of a conversation or a user. We need a &amp;ldquo;long-lasting&amp;rdquo; memory so whenever the conversation resumes, the LLM still remembers its previous state.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Additional Features on</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/</link><description>Recent content in Additional Features on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 04 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/index.xml" rel="self" type="application/rss+xml"/><item><title>Additional Features in Knowledge</title><link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</link><pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate><guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</guid><description>Overview # In addition to your prompt response, SeaChat provides more advanced features to enhance your AI agent&amp;rsquo;s responses. These features include adding buttons, images, and videos to your responses. This guide will walk you through how to add these features to your AI agent&amp;rsquo;s responses, ensuring that your users receive the most comprehensive support possible. All the following parameters are available for every piece of knowledge that you have uploaded to your knowledge base.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Additional Features on </title>
+    <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/</link>
+    <description>Recent content in Additional Features on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 04 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Additional Features in Knowledge</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</link>
+      <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</guid>
+      <description>Overview # In addition to your prompt response, SeaChat provides more advanced features to enhance your AI agent&amp;rsquo;s responses. These features include adding buttons, images, and videos to your responses. This guide will walk you through how to add these features to your AI agent&amp;rsquo;s responses, ensuring that your users receive the most comprehensive support possible. All the following parameters are available for every piece of knowledge that you have uploaded to your knowledge base.</description>
+    </item>
+    
+  </channel>
+</rss>

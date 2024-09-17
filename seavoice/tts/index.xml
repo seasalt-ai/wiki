@@ -1,3 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Text to Speech on</title><link>https://wiki.seasalt.ai/seavoice/tts/</link><description>Recent content in Text to Speech on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Feb 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seavoice/tts/index.xml" rel="self" type="application/rss+xml"/><item><title>Text to Speech Customization Tutorial</title><link>https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/</link><pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate><guid>https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/</guid><description>Customization Panel # The SeaVoice TTS Customization Panel is a user-friendly text to speech interface that gives you fine-grained control over:
-pronunciation format pacing emphasis Here we demonstrate how to navigate and utilize the SeaVoice TTS Customization Panel:
-Here we will try to synthesis audio from some real-world example paragraphs, and then demonstrate how to utilize the SeaVoice TTS Customization Panel to fix or improve the results with natural humanlike voices.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text to Speech on </title>
+    <link>https://wiki.seasalt.ai/seavoice/tts/</link>
+    <description>Recent content in Text to Speech on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Feb 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seavoice/tts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text to Speech Customization Tutorial</title>
+      <link>https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/</link>
+      <pubDate>Mon, 12 Feb 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/</guid>
+      <description>Customization Panel #  The SeaVoice TTS Customization Panel is a user-friendly text to speech interface that gives you fine-grained control over:
+ pronunciation format pacing emphasis  Here we demonstrate how to navigate and utilize the SeaVoice TTS Customization Panel:
+ Here we will try to synthesis audio from some real-world example paragraphs, and then demonstrate how to utilize the SeaVoice TTS Customization Panel to fix or improve the results with natural humanlike voices.</description>
+    </item>
+    
+  </channel>
+</rss>
