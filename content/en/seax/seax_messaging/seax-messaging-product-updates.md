@@ -2,7 +2,7 @@
 title: "New Features & Releases"
 description: "Explore the latest features and updates in SeaX. Stay informed on new functionalities, bug fixes, and enhancements to optimize your experience."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-07-17T08:48:57+00:00
+lastmod: 2024-09-16T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,33 @@ aliases:
 weight: 104
 toc: true
 ---
+
+### 09/12/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Added the "Business Caller ID" binding feature, allowing purchased numbers to be linked with verified "Business Caller IDs" for outbound calls.
+- Introduced dynamic loading for WhatsApp messages to improve overall loading efficiency and user experience.
+- Added a history log for purchased numbers.
+- Conversations with deleted contacts are retained and linked when contacts are re-added.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue where AI agents failed to handle incoming calls.
+
+### 09/05/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Updated the SeaX product landing page and URL.
+- Introduced user registration and login processes.
+- New users can create workspaces independently.
+- Added the ability to forward numbers to other specified numbers.
+
+### 08/22/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Added the feature to purchase phone numbers.
+- Introduced error checking and prompts for Excel uploads.
+- Added a new use case for Excel uploads, allowing batch message sending to contacts via Excel.
+- Introduced background loading for WhatsApp messages to speed up message loading.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the issue with unread message count display.
 
 ### 07/17/2024
 ##### **<font color="#d66a60">Bugfix</font>**
