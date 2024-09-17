@@ -49,6 +49,37 @@ Other attributes:
 
 To preview the static files that will be generated, run `hugo` and check `/public`. Open `/public/index.html` to see result.
 
+## Pagefind
+
+This repo uses [Pagefind](https://pagefind.app/) to enable the searching feature. Pagefind is a search engine for static sites. It indexes your site and provides a search bar to search through your content.
+
+### How to Update Pagefind Index?
+Pagefind uses indices to search for content. Pagefind will index the content in the `content` directory and generate the `pagefind-entry.json` file in the `/public/pagefind/` directory. The following is the actual process that happens when you run `npm run start`:
+
+1. Build the Hugo project
+
+```bash
+hugo
+```
+
+2. Generate the indexing files
+
+```bash
+npx pagefind --site ./public # this will generate the indexing and configuration files inside /pagefind in the public directory
+```
+
+3. Run project server
+
+```bash
+hugo server
+```
+
+*Note: The above process has been implemented in the CI script:*
+
+```bash 
+npm run prestart # strongly recommended to run this command before starting the project to ensure the indexing content for pagefind is up-to-date
+npm run start
+```
 
 ### Deployment
 To deploy your changes, make a PR to merge changes to `main` branch as usual. When your code is merged to `main` branch, Github Actions for deployment (see `.github/workflows/deploy-github.yml`) will be triggered to rebuild and publish static files to `gh-pages` branch. The webpage, [wiki.seasalt.ai](https://wiki.seasalt.ai), serves the static files that are pushed to `gh-pages` directly.

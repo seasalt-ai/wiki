@@ -443,3 +443,26 @@ button#doks-versions {
 .dropdown-item:active {
   color: inherit;
 }
+
+#search {
+  position: relative;
+  background-color: white;
+}
+
+#search .pagefind-ui__result {
+  background-color: white;
+  overflow-y: auto;
+  z-index: 1000;
+}
+.pagefind-ui__result-item a {
+  text-decoration: none;
+}
+
+.pagefind-ui__result-item a:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-search-icon {
+  margin-left: 1em;
+}
+
