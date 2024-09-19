@@ -14,7 +14,7 @@
       
       <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</guid>
       <description>恭喜您成功將 SeaChat 部署到選定的頻道 – 網站、WhatsApp 或其他平台。我們只完成了一半的工作。本指南將引導您完成剩餘步驟，以確保日常運營的成功。
-設置 # 1. 向工作區添加更多成員 #    工作區 → 成員
+設置 # 1. 向工作區添加更多成員 #  ``  工作區 → 成員
  如果您尚未添加，您可以前往 工作區 → 成員 將您的團隊添加進去。
 請注意，成員有 三種角色: 管理員、AI 助理編輯者和人工客服。
 人工客服無法看到您如何配置 AI 助理，他們只負責回覆收到的訊息。
