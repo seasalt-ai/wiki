@@ -17,8 +17,8 @@ aliases:
 
 <br/>
 
-<center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<center>``
+<a href="/images/seachat/zh/post-launch-sop/add-members.png">
 <img height="100%" width="40%" src="/images/seachat/zh/post-launch-sop/add-members.png"  alt="通過 SeaChat 的工作區和成員管理區域添加更多成員。">
 </a>
 
@@ -41,7 +41,7 @@ aliases:
 您應該要求每個客服在 *工作區* → *偏好設置* 啟用郵件通知。
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/zh/post-launch-sop/enable-email-notification.png">
 <img height="100%" width="80%" src="/images/seachat/zh/post-launch-sop/enable-email-notification.png"  alt="在 SeaChat 平台上啟用郵件通知以跟蹤聊天對話。">
 </a>
 
@@ -91,7 +91,7 @@ aliases:
 當 AI 助理編輯者或管理員發現需要改進的地方後，他們可以進入 *需要審核* 區域，開始添加或修改知識庫：
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/zh/post-launch-sop/need-review.png">
 <img height="100%" width="80%" src="/images/seachat/zh/post-launch-sop/need-review.png"  alt="AI 助理編輯者和管理員應該每天審查 '需要審核' 區域中的對話，以改善聊天質量">
 </a>
 
@@ -116,7 +116,7 @@ aliases:
 - 如果您的網站有變更，您可以通過點擊 *立即同步* 按鈕重新導入。
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/zh/post-launch-sop/knowledge-base.png">
 <img height="100%" width="80%" src="/images/seachat/zh/post-launch-sop/knowledge-base.png"  alt="每週更新您的 AI 助理知識庫，以提高其回覆的效率。">
 </a>
 

@@ -78,18 +78,27 @@ aliases:
 > 反觀成員一詞，一律代表真人成員。
 
 
-## 工作區偏好設置
+[//]: # (## 工作區偏好設置)
 
-<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
-    <a href="/images/seachat/zh/workspace/01-workspace-management/preference.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/preference.png" alt="">
-    </a>
-</div>
-    <p style="margin-top: 20px; font-size: 15px">偏好設置</p>
-</div>
+[//]: # ()
+[//]: # (<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">)
 
-這裡可以管理工作區的通知設置。SeaChat 可以自動向您發送電子郵件，通知您新對話和新的人工助理請求。啟用您想接收的通知類型後，還可以設置通知的語言。
+[//]: # (<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">)
+
+[//]: # (    <a href="/images/seachat/zh/workspace/01-workspace-management/preference.png" target="_blank">)
+
+[//]: # (    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/preference.png" alt="">)
+
+[//]: # (    </a>)
+
+[//]: # (</div>)
+
+[//]: # (    <p style="margin-top: 20px; font-size: 15px">偏好設置</p>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (這裡可以管理工作區的通知設置。SeaChat 可以自動向您發送電子郵件，通知您新對話和新的人工助理請求。啟用您想接收的通知類型後，還可以設置通知的語言。)
 
 ### 通知設置
 
