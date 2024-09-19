@@ -77,18 +77,27 @@ You can assign different agents to different members. For instance, a good pract
 > On the other hand, members can only mean real human members.
 
 
-## Workspace Preferences
+[//]: # (## Workspace Preferences)
 
-<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
-    <a href="/images/seachat/en/workspace/01-workspace-management/preference.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/preference.png" alt="">
-    </a>
-</div>
-    <p style="margin-top: 20px; font-size: 15px">Preference Settings</p>
-</div>
+[//]: # ()
+[//]: # (<div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">)
 
-Here is where you can manage the notification settings of your workspace. SeaChat can automatically send you emails to notify you about new conversations and new live agent requests. After enabling the types of notifications you want to receive, you can also set the language of the notifications.
+[//]: # (<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">)
+
+[//]: # (    <a href="/images/s``eachat/en/workspace/01-workspace-management/preference.png" target="_blank">)
+
+[//]: # (    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/preference.png" alt="">)
+
+[//]: # (    </a>)
+
+[//]: # (</div>)
+
+[//]: # (    <p style="margin-top: 20px; font-size: 15px">Preference Settings</p>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (Here is where you can manage the notification settings of your workspace. SeaChat can automatically send you emails to notify you about new conversations and new live agent requests. After enabling the types of notifications you want to receive, you can also set the language of the notifications.)
 
 ### Notification Settings
 

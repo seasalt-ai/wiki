@@ -18,7 +18,7 @@ Congratulations on successfully launching SeaChat to your selected channels – 
 <br/>
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/en/post-launch-sop/add-members.png">
 <img height="100%" width="40%" src="/images/seachat/en/post-launch-sop/add-members.png"  alt="Add more members through workspace and member management section on SeaChat.">
 </a>
 
@@ -41,7 +41,7 @@ If you have **multiple AI Agents**, you can assign different human agents to dif
 You should ask each of your agents to enable email notifications at *Workspace* → *Preference*.
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/en/post-launch-sop/enable-email-notification.png">
 <img height="100%" width="80%" src="/images/seachat/en/post-launch-sop/enable-email-notification.png"  alt="Enable email notification on SeaChat platform to keep track with chat conversation.">
 </a>
 
@@ -91,7 +91,7 @@ Every day, your AI Agent Editor or Admin should do three things:
 Once the AI Agent Editor or Admin identified areas that need improvement, they can go to the *Needs Review* session and start adding or modifying the Knowledge Base:
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/en/post-launch-sop/need-review.png">
 <img height="100%" width="80%" src="/images/seachat/en/post-launch-sop/need-review.png"  alt="AI Agent Editor and Admin should review daily conversations in 'Need Reviews' section on SeaChat to improvement chat quality">
 </a>
 
@@ -116,7 +116,7 @@ Every week for about 30 minutes to 1 hour, the Admin should work with the AI Age
 - If your website changed, you can re-import them by clicking on the *Sync Now* button.
 
 <center>
-<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<a href="/images/seachat/en/post-launch-sop/knowledge-base.png">
 <img height="100%" width="80%" src="/images/seachat/en/post-launch-sop/knowledge-base.png"  alt="Update your agent's Knowledge Base on a weekly bases to improve the performance of your agents' response.">
 </a>
 
