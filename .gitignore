@@ -26,3 +26,6 @@ resources/
 # hugo
 .hugo_build.lock
 public/
+
+# pagefind
+/pagefind
