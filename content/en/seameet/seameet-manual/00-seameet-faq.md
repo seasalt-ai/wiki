@@ -142,7 +142,7 @@ You can invite the SeaMeet copilot to join the meeting again using a mobile devi
 >
 > Be sure to wait until the previous recording has completely ended before making the second invitation, as otherwise, the system might determine that "the meeting is already being recorded," resulting in an invitation failure.
 
-27. How can I set up automatic meeting joining in the team workspace?
+27. How can I use only the hours from the team workspace to automatically join meetings, instead of using the hours from my personal workspace?
 
-Currently, SeaMeet determines which plan's hours are deducted based on the workspace where the meeting is stored.
+Currently, SeaMeet determines which plan's hours are deducted, **based on the workspace where the meeting is stored**.
 So, if you want the feature of "automatically joined meetings" to use the team plan's hours and store the meeting records in the team workspace, you can set the default workspace to the team workspace by following this path: **Account** -> **Meeting Preference** -> **Default Settings** -> **Default Workspace**.
