@@ -462,11 +462,40 @@ Currently, it supports English speech to transcription, but let us know if you w
 
 <br/> 
 
+## Messages Postback on Messenger
+
+Once you have set up your Messenger integration, you will be able to interact with your customers using the [button feature](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/) of SeaChat. User would have to activate the postback feature on Messenger to hit SeaChat's API. 
+
+Edit on the **Edit Page Subscription** on Messenger. 
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px"><strong>Enable Postback on Edit Page Subscription</strong></p>
+</div>
+</div>
+
+<br/> 
+
+### Button limits on Messenger
+
+After following the above steps, you can now use the button feature on Messenger. However, since we are still using the API provided by Messenger, there are some limitations to keep in mind:
+
+- The button template allows up to 3 postback buttons per message template.
+- Each button can have a payload of up to 1000 characters, which is sent back to your webhook when clicked.
+- The button title is limited to 20 characters.
+- These limits apply to each individual button, so you can have 3 buttons per message, each with its own 1000-character payload and 20-character title.
+- [Developer Documentation](https://developers.facebook.com/docs/messenger-platform/reference/buttons/postback)
+
+A good solution to mitigate these limitations is to use the **[KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids)** feature. Please check out the link for more information.
+
 ## :dart: Troubleshooting
 
 If you have not received responses from SeaChat Agent on Messenger, you should verify the following easily missed settings:
 - Has your Messenger application been set to [**Live mode**](#live-mode)? Be sure that it is not operating in Development mode.
-- Did you configure the [**webhook fields**](#perma-token-webhook) to allow the **message permission**? If this permission is not properly granted, SeaChat will be unable to receive messages from messegner.
+- Did you configure the [**webhook fields**](#perma-token-webhook) to allow the **message permission**? If this permission is not properly granted, SeaChat will be unable to receive messages from messenger.
 
 
 ## Support
