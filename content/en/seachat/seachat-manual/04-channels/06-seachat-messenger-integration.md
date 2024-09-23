@@ -483,9 +483,9 @@ Edit on the **Edit Page Subscription** on Messenger.
 
 After following the above steps, you can now use the button feature on Messenger. However, since we are still using the API provided by Messenger, there are some limitations to keep in mind:
 
-- The button template allows up to 3 postback buttons per message template.
-- Each button can have a payload of up to 1000 characters, which is sent back to your webhook when clicked.
-- The button title is limited to 20 characters.
+- The button template allows up to **3 postback buttons** per message template.
+- Each button can have a **payload of up to 1000 characters**, which is sent back to your webhook when clicked.
+- The **button title** is limited to **20 characters**.
 - These limits apply to each individual button, so you can have 3 buttons per message, each with its own 1000-character payload and 20-character title.
 - [Developer Documentation](https://developers.facebook.com/docs/messenger-platform/reference/buttons/postback)
 
