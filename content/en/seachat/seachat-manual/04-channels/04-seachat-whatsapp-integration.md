@@ -500,6 +500,28 @@ For Step 1, please go to your [Meta Business app](https://developers.facebook.co
 
 <br/> 
 
+## Messages Postback on WhatsApp
+
+Once you have set up your Messenger integration, you will be able to interact with your customers using the [button feature](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/) of SeaChat. This allows you to add urls or additional information to your answers in the form of buttons. 
+
+Now the customers can click on the buttons to get more information or to navigate to a webpage.
+
+Every time a button is clicked, a postback message triggers the SeaChat API in conjunction with the WhatsApp API.
+
+### Button limits on WhatsApp
+
+WhatsApp has certain limitations on the postback messages. Make sure to  keep the following in mind when creating your buttons to avoid any issues.
+
+The following are the limitations:
+
+- WhatsApp’s message API supports up to **3 interactive buttons per message**.
+- Each button’s text (title) is limited to **20 characters**.
+- The payload or postback data sent when a button is clicked is limited to **200 characters**.
+- These limits apply individually to each button, not collectively across all buttons.
+- [Developer Documentation](https://developers.facebook.com/docs/whatsapp/guides/interactive-messages/)
+
+A good solution to reduce the effect of these limitations is to use SeaChat's **[KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids)** feature. Please check out the link for more information.
+
 ## :dart: Troubleshooting
 
 If you have not received responses from SeaChat Agent on WhatsApp, you should verify the following settings that users tend to overlook:

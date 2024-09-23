@@ -479,6 +479,26 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 
 <br/>
 
+## WhatsApp 的訊息回傳 (Postback)
+當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的[按鈕功能](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/)來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。
+
+現在，客戶可以點擊按鈕來獲取更多資訊或導航到網頁。
+
+每次按鈕被點擊時，會觸發 SeaChat API 與 WhatsApp API 的訊息回傳。
+
+### WhatsApp 按鈕限制
+WhatsApp 對於訊息回傳有一些限制。請在創建按鈕時注意以下事項，以避免任何問題。
+
+限制條件如下：
+
+- WhatsApp 的訊息 API 支援每條訊息最多**3個互動按鈕**。
+- 每個按鈕的文字（標題）限制為**20個字元**。
+- 按鈕被點擊時傳送的回傳資料或回傳訊息限制為**200個字元**。
+- 這些限制適用於每個按鈕，並非所有按鈕的總和。
+- [開發者文件](https://developers.facebook.com/docs/whatsapp/guides/interactive-messages/)
+
+用戶可以使用 SeaChat 的 **[KB ID](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-id)** 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。
+
 
 ## 移除您的 WhatsApp 整合
 
