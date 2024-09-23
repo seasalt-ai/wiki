@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-09-10T08:48:57+00:00
+lastmod: 2024-09-20T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,15 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 09/20/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Language Support: Added additional language support, including French, expanding the localization capabilities of SeaChat. This update enhances user experience for multi-language environments.
+- Annual Payment Plan: Users can subscribe to a newly introduced annual payment plan, providing more flexible billing choices and the ability to save on long-term commitments.
+- Export Conversation History: Users can now export their conversation history data for their own analytics or admin management purposes, offering more control over their communication data and insights.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed Messenger Live Agent Transfer Issue: Resolved an issue with the Facebook Messenger live agent transfer quick reply button functionality, ensuring smooth transitions between AI and human agent responses.
 
 ### 09/11/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
