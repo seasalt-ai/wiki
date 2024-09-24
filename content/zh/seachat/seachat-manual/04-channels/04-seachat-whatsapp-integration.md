@@ -497,7 +497,7 @@ WhatsApp 對於訊息回傳有一些限制。請在創建按鈕時注意以下�
 - 這些限制適用於每個按鈕，並非所有按鈕的總和。
 - [開發者文件](https://developers.facebook.com/docs/whatsapp/guides/interactive-messages/)
 
-用戶可以使用 SeaChat 的 **[KB ID](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-id)** 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。
+[//]: # (用戶可以使用 SeaChat 的 **[KB ID]&#40;https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-id&#41;** 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。)
 
 
 ## 移除您的 WhatsApp 整合

@@ -520,7 +520,7 @@ The following are the limitations:
 - These limits apply individually to each button, not collectively across all buttons.
 - [Developer Documentation](https://developers.facebook.com/docs/whatsapp/guides/interactive-messages/)
 
-A good solution to reduce the effect of these limitations is to use SeaChat's **[KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids)** feature. Please check out the link for more information.
+[//]: # (A good solution to reduce the effect of these limitations is to use SeaChat's **[KB ID]&#40;https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids&#41;** feature. Please check out the link for more information.)
 
 ## :dart: Troubleshooting
 
