@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-04-22T08:48:57+00:00">
-  <meta property="article:modified_time" content="2024-09-22T23:52:47-07:00">
+  <meta property="article:modified_time" content="2024-09-24T18:14:28-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -113,7 +113,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-04-22T08:48:57CET",
-      "dateModified": "2024-09-22T23:52:47CET",
+      "dateModified": "2024-09-24T18:14:28CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/#/schema/breadcrumb/1"
       },
@@ -1133,6 +1133,11 @@
   <ul>
     <li><a href="#移除您的messenger集成">移除您的Messenger集成</a></li>
     <li><a href="#回應語音剪輯">回應語音剪輯</a></li>
+    <li><a href="#messenger-的訊息回傳-postback">Messenger 的訊息回傳 (Postback)</a>
+      <ul>
+        <li><a href="#messenger-按鈕限制">Messenger 按鈕限制</a></li>
+      </ul>
+    </li>
     <li><a href="#-故障排除">🎯 故障排除</a></li>
     <li><a href="#支持">支持</a></li>
   </ul>
@@ -1171,6 +1176,11 @@
   <ul>
     <li><a href="#移除您的messenger集成">移除您的Messenger集成</a></li>
     <li><a href="#回應語音剪輯">回應語音剪輯</a></li>
+    <li><a href="#messenger-的訊息回傳-postback">Messenger 的訊息回傳 (Postback)</a>
+      <ul>
+        <li><a href="#messenger-按鈕限制">Messenger 按鈕限制</a></li>
+      </ul>
+    </li>
     <li><a href="#-故障排除">🎯 故障排除</a></li>
     <li><a href="#支持">支持</a></li>
   </ul>
@@ -1566,6 +1576,29 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 </div>
 </div>
 <br/> 
+<h2 id="messenger-的訊息回傳-postback">Messenger 的訊息回傳 (Postback) <a href="#messenger-%e7%9a%84%e8%a8%8a%e6%81%af%e5%9b%9e%e5%82%b3-postback" class="anchor" aria-hidden="true">#</a></h2>
+<p>當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的<a href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/">按鈕功能</a>來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。</p>
+<p>要啟動此功能，請進入 Messenger 的 <strong>Edit Page Subscription</strong> 頁面。</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px"><strong>Edit Page Subscription</strong></p>
+</div>
+</div>
+<br/> 
+<h3 id="messenger-按鈕限制">Messenger 按鈕限制 <a href="#messenger-%e6%8c%89%e9%88%95%e9%99%90%e5%88%b6" class="anchor" aria-hidden="true">#</a></h3>
+<p>按照上述步驟操作後，你現在可以在整合後的 Messenger 中使用 SeaChat 的按鈕功能。然而，由於我們仍在使用 Messenger 提供的 API，因此在建立按鈕時有一些限制需要注意，以避免任何問題。</p>
+<p>以下是限制條件：</p>
+<p>兒每個訊息範本最多允許<strong>3個回傳按鈕</strong>。</p>
+<ul>
+<li>每個按鈕的回傳資料最多可達<strong>1000個字元</strong>，按下時將傳送回你的webhook。</li>
+<li>按鈕標題限制為<strong>20個字元</strong>。</li>
+<li>這些限制適用於每個按鈕，因此你可以每個訊息擁有 3 個按鈕，每個按鈕擁有各自的 1000 字元回傳資料與 20 字元的標題。</li>
+<li><a href="https://developers.facebook.com/docs/messenger-platform/reference/buttons/postback">開發者文件</a></li>
+</ul>
+<p>用戶可以使用 SeaChat 的 <strong><a href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-id">KB ID</a></strong> 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。</p>
 <h2 id="-故障排除">🎯 故障排除 <a href="#-%e6%95%85%e9%9a%9c%e6%8e%92%e9%99%a4" class="anchor" aria-hidden="true">#</a></h2>
 <p>如果您沒有收到來自SeaChat助理的Messenger回應，您應該驗證以下容易被忽略的設置：</p>
 <ul>

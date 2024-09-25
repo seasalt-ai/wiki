@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/</loc>
-      <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+      <lastmod>2024-09-24T18:14:28-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-agent-information/</loc>
-      <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+      <lastmod>2024-09-24T18:14:28-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -36,21 +36,21 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-agent-duplicaiton/</loc>
-      <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+      <lastmod>2024-09-24T18:14:28-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/04-seachat-conversations/</loc>
-      <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+      <lastmod>2024-09-24T18:14:28-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/</loc>
-      <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+      <lastmod>2024-09-24T18:14:28-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -67,7 +67,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/</loc>
-      <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+      <lastmod>2024-09-24T18:14:28-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -83,7 +83,7 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</loc>
-        <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+        <lastmod>2024-09-24T18:14:28-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -99,7 +99,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</loc>
-        <lastmod>2024-09-22T23:52:47-07:00</lastmod>
+        <lastmod>2024-09-24T18:14:28-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
