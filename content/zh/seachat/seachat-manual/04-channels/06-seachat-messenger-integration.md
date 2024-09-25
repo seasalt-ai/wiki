@@ -445,6 +445,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 
 <br/> 
 
+
 ## 回應語音剪輯
 您知道SeaChat也支持語音消息嗎？如果用戶發送語音剪輯，SeaChat可以將其轉錄為文字，並通過文字回應！
 
@@ -460,6 +461,37 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 </div>
 
 <br/> 
+
+## Messenger 的訊息回傳 (Postback)
+當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的[按鈕功能](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/)來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。
+
+要啟動此功能，請進入 Messenger 的 **Edit Page Subscription** 頁面。
+
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" alt="">
+</a>
+    <p style="margin-top: 20px; font-size: 15px"><strong>Edit Page Subscription</strong></p>
+</div>
+</div>
+
+<br/> 
+
+### Messenger 按鈕限制
+
+按照上述步驟操作後，你現在可以在整合後的 Messenger 中使用 SeaChat 的按鈕功能。然而，由於我們仍在使用 Messenger 提供的 API，因此在建立按鈕時有一些限制需要注意，以避免任何問題。
+
+以下是限制條件：
+
+兒每個訊息範本最多允許**3個回傳按鈕**。
+- 每個按鈕的回傳資料最多可達**1000個字元**，按下時將傳送回你的webhook。
+- 按鈕標題限制為**20個字元**。
+- 這些限制適用於每個按鈕，因此你可以每個訊息擁有 3 個按鈕，每個按鈕擁有各自的 1000 字元回傳資料與 20 字元的標題。
+- [開發者文件](https://developers.facebook.com/docs/messenger-platform/reference/buttons/postback)
+
+用戶可以使用 SeaChat 的 **[KB ID](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-id)** 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。
 
 ## :dart: 故障排除
 
