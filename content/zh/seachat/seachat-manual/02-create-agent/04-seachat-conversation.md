@@ -71,8 +71,27 @@ toc: true
 
 
 - **發送者類型 (Sender type)**：發送者的類型。您可以識別發送者是AI助理、系統通知、用戶等。
-- **頻道類型 (Channel type)**：對話的通訊通道。您可以識別對話是來自 WebChat、WhatsApp、電話等。
+- **頻道類型 (Channel type)**：對話的通訊通道。您可以識別對話是來自 WebChat、WhatsApp、電話等。以下為頻道類型的列表：
+  - `系統（這指的是系統訊息）`
+  - `WebChat`
+  - `SeaAuth（這通常用於驗證目的）`
+  - `Line`
+  - `WhatsApp`
+  - `Messenger`
+  - `Instagram`
+  - `語音（這指的是電話通話）`
+  - `第三方客戶端`
+  - `AgentPhone（這指的是來自 SeaChat 語音助理的電話通話，通常用於驗證 token）`
+  - `SeaX_Call（這指的是透過 SeaX 進行的電話通話）`
+  - `SeaX_SMS（這指的是透過 SeaX 發送的 SMS）`
 - **發送者名稱 (Sender name)**：發送者的名稱。如果發送者是真人用戶，您會在此欄位找到發送者的 ID 或電子郵件。否則，將會顯示系統的識別碼。
 - **GMT 時間 (Time in GMT)**：訊息的 GMT 格式時間戳。
 - **訊息 (Message)**：對話的訊息內容。
+  - `/live_agent: 使用者要求將對話轉接至 live agent。`
+  - `/submit_form: 使用者提交表單。如果涉及實體，指令會顯示為 /submit_form{"entity_name":"entity_value"}。`
+  - `/clear_history: 使用者要求 bot 忘記對話記錄並重新開始。`
+  - `/ai_agent: 使用者要求將對話轉接至 AI agent。`
 - **資料 (Data)**：對話中的資料內容，以 JSON 格式保存。如果對話中沒有資料內容，此欄位將會是空的。
+  - `在訊息中傳送的圖片 URL。`
+  - `語音通話的錄音檔案 URL。`
+  - `使用者在聊天過程中填寫的表單。`

@@ -47,9 +47,9 @@ For conversations with phone icons, you can download the audio conversation by c
 
 ## Download Agent Conversation History
 
-If you wish to download the conversation history of certain agent conversations, you can do so by navigating to **Workspace** -> **Agents**. 
+If you wish to download the conversation history of certain agent conversations, you can do so by navigating to **Workspace*  - `-> **Agents**. 
 
-Click on **Download Conversations** and Choose the year of the conversation history you wish to download. 
+Click on **Download Conversations*  - `and Choose the year of the conversation history you wish to download. 
 
 <br/>
 <center>
@@ -70,8 +70,27 @@ You will see the conversation history in a CSV file format. The CSV file contain
 |-------------|--------------|-------------|-------------|---------|------|
 
 - **Sender type**: The type of sender. You can identify whether the sender is the agent, system notification, user, etc.
-- **Channel type**: The communication channel of the conversation. You can identify whether the conversation is from WebChat, WhatsApp, calls, etc.
+- **Channel type**: The communication channel of the conversation. The following is the list of channel types:
+   - `System (this means system message)`
+   - `WebChat`
+   - `SeaAuth (this is usually for verification purpose)`
+   - `Line`
+   - `WhatsApp`
+   - `Messenger`
+   - `Instagram`
+   - `Voice (this means phone calls)`
+   - `ThirdPartyClient`
+   - `AgentPhone (this means phone calls from SeaChat voice agent, usually for token verification purposes)`
+   - `SeaX_Call (this means phone calls through SeaX)`
+   - `SeaX_SMS (this means SMS through SeaX)`
 - **Sender name**: The name of the sender. You will find the senders' ID or Email in this column if the sender is an actual user. Otherwise, it will be an identifier from the system.
 - **Time in GMT**: The timestamp of the message in GMT format.
-- **Message**: The message content of the conversation.
-- **Data**: The data content of the conversation in JSON format. This column will be empty if there is no data content in the conversation.
+- **Message**: The message content of the conversation. The following is the list of message types:
+   - `/live_agent:  User requests conversation transfer to a live agent.`
+   - `/submit_form: User submits a form. If an entity is involved, the command will appear as /submit_form{"entity_name":"entity_value"}.`
+   - `/clear_history: User requests the bot to forget the conversation history and start fresh.`
+   - `/ai_agent: User requests conversation transfer to an AI agent.`
+- **Data**: The data content of the conversation in JSON format. This column will be empty if there is no data content in the conversation. The following is the list of data types:
+   - `Image URL that gets sent in the message.`
+   - `Recording file URL of the voice call.`
+   - `A form that the user completes during the chat.`
