@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/04-seachat-conversation/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-07-30T08:48:57+00:00">
-  <meta property="article:modified_time" content="2024-09-24T18:14:28-07:00">
+  <meta property="article:modified_time" content="2024-09-27T18:30:35+02:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -113,7 +113,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-07-30T08:48:57CET",
-      "dateModified": "2024-09-24T18:14:28CET",
+      "dateModified": "2024-09-27T18:30:35CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/04-seachat-conversation/#/schema/breadcrumb/1"
       },
@@ -1114,6 +1114,7 @@
   <ul>
     <li><a href="#對話列表">對話列表</a></li>
     <li><a href="#下載音訊對話">下載音訊對話</a></li>
+    <li><a href="#下載助理對話歷史記錄">下載助理對話歷史記錄</a></li>
   </ul>
 </nav>
 </div>
@@ -1131,6 +1132,7 @@
   <ul>
     <li><a href="#對話列表">對話列表</a></li>
     <li><a href="#下載音訊對話">下載音訊對話</a></li>
+    <li><a href="#下載助理對話歷史記錄">下載助理對話歷史記錄</a></li>
   </ul>
 </nav>
 </div>
@@ -1156,6 +1158,67 @@
 <p><strong>下載音訊對話</strong></p>
 </center>
 <p>對於帶有電話圖標的對話，您可以通過點擊對話內的下載圖標來下載音訊對話。音訊對話將以 <code>mp3</code> 格式下載。這是功能在品質保管理和培訓目的上非常有用，因為您可以收聽助理和用戶之間的對話，並提供回饋以改善助理的回應。</p>
+<h2 id="下載助理對話歷史記錄">下載助理對話歷史記錄 <a href="#%e4%b8%8b%e8%bc%89%e5%8a%a9%e7%90%86%e5%b0%8d%e8%a9%b1%e6%ad%b7%e5%8f%b2%e8%a8%98%e9%8c%84" class="anchor" aria-hidden="true">#</a></h2>
+<p>如果您希望下載某些助理對話的歷史記錄，您可以前往 <strong>工作區</strong> -&gt; <strong>AI助理</strong>。</p>
+<p>點擊 <strong>下載對話</strong>，然後選擇您想下載的對話歷史記錄的年份。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/seachat-conversation/download-conversation-history.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seachat/zh/seachat-conversation/download-conversation-history.png" alt="">
+</a>
+<p><strong>下載對話歷史記錄</strong></p>
+</center>
+<p>根據對話歷史記錄的大小，這個過程可能需要一些時間。當下載準備好時，您會收到系統通知，內容為「AI助理對話歷史導出成功,請點擊或複製連結至瀏覽器下載,該連結有效期為 24 小時。」</p>
+<p>點擊連結以下載以壓縮檔格式保存的對話歷史記錄。</p>
+<p>您將會看到以 CSV 檔案格式保存的對話歷史記錄。CSV 檔案包含以下欄位：</p>
+<table>
+<thead>
+<tr>
+<th>Sender type</th>
+<th>Channel type</th>
+<th>Sender name</th>
+<th>Time in GMT</th>
+<th>Message</th>
+<th>Data</th>
+</tr>
+</thead>
+</table>
+<ul>
+<li><strong>發送者類型 (Sender type)</strong>：發送者的類型。您可以識別發送者是AI助理、系統通知、用戶等。</li>
+<li><strong>頻道類型 (Channel type)</strong>：對話的通訊通道。您可以識別對話是來自 WebChat、WhatsApp、電話等。以下為頻道類型的列表：
+<ul>
+<li><code>系統（這指的是系統訊息）</code></li>
+<li><code>WebChat</code></li>
+<li><code>SeaAuth（這通常用於驗證目的）</code></li>
+<li><code>Line</code></li>
+<li><code>WhatsApp</code></li>
+<li><code>Messenger</code></li>
+<li><code>Instagram</code></li>
+<li><code>語音（這指的是電話通話）</code></li>
+<li><code>第三方客戶端</code></li>
+<li><code>AgentPhone（這指的是來自 SeaChat 語音助理的電話通話，通常用於驗證 token）</code></li>
+<li><code>SeaX_Call（這指的是透過 SeaX 進行的電話通話）</code></li>
+<li><code>SeaX_SMS（這指的是透過 SeaX 發送的 SMS）</code></li>
+</ul>
+</li>
+<li><strong>發送者名稱 (Sender name)</strong>：發送者的名稱。如果發送者是真人用戶，您會在此欄位找到發送者的 ID 或電子郵件。否則，將會顯示系統的識別碼。</li>
+<li><strong>GMT 時間 (Time in GMT)</strong>：訊息的 GMT 格式時間戳。</li>
+<li><strong>訊息 (Message)</strong>：對話的訊息內容。大部分情況下，這個欄位包含純文字訊息。然而，它也可以包含特定的指令類型，例如：
+<ul>
+<li><code>/live_agent: 使用者要求將對話轉接至 live agent。</code></li>
+<li><code>/submit_form: 使用者提交表單。如果涉及實體，指令會顯示為 /submit_form{&quot;entity_name&quot;:&quot;entity_value&quot;}。</code></li>
+<li><code>/clear_history: 使用者要求 bot 忘記對話記錄並重新開始。</code></li>
+<li><code>/ai_agent: 使用者要求將對話轉接至 AI agent。</code></li>
+</ul>
+</li>
+<li><strong>資料 (Data)</strong>：以JSON格式呈現的對話資料內容。如果對話中沒有資料內容，這個欄位將會是空的。當資料存在時，它可能包含但不限於以下類型：
+<ul>
+<li><code>在訊息中傳送的圖片 URL。</code></li>
+<li><code>語音通話的錄音檔案 URL。</code></li>
+<li><code>使用者在聊天過程中填寫的表單。</code></li>
+</ul>
+</li>
+</ul>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>

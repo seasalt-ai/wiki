@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/04-seachat-conversations/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-07-30T08:48:57+00:00">
-  <meta property="article:modified_time" content="2024-09-24T18:14:28-07:00">
+  <meta property="article:modified_time" content="2024-09-27T18:30:35+02:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -113,7 +113,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-07-30T08:48:57CET",
-      "dateModified": "2024-09-24T18:14:28CET",
+      "dateModified": "2024-09-27T18:30:35CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/04-seachat-conversations/#/schema/breadcrumb/1"
       },
@@ -1150,6 +1150,7 @@
   <ul>
     <li><a href="#conversation-dashboard">Conversation Dashboard</a></li>
     <li><a href="#download-audio-conversation">Download Audio Conversation</a></li>
+    <li><a href="#download-agent-conversation-history">Download Agent Conversation History</a></li>
   </ul>
 </nav>
 </div>
@@ -1167,6 +1168,7 @@
   <ul>
     <li><a href="#conversation-dashboard">Conversation Dashboard</a></li>
     <li><a href="#download-audio-conversation">Download Audio Conversation</a></li>
+    <li><a href="#download-agent-conversation-history">Download Agent Conversation History</a></li>
   </ul>
 </nav>
 </div>
@@ -1192,6 +1194,67 @@
 <p><strong>Download Audio Conversations</strong></p>
 </center>
 <p>For conversations with phone icons, you can download the audio conversation by clicking on the download icon inside the conversation. The audio conversation will be downloaded in <code>mp3</code> format. This is a useful tool for quality assurance and training purposes, as you can listen to the conversation between the agent and the user and provide critical feedback to fine-tune the agent&rsquo;s responses.</p>
+<h2 id="download-agent-conversation-history">Download Agent Conversation History <a href="#download-agent-conversation-history" class="anchor" aria-hidden="true">#</a></h2>
+<p>If you wish to download the conversation history of certain agent conversations, you can do so by navigating to *<em>Workspace</em>  - `-&gt; <strong>Agents</strong>.</p>
+<p>Click on *<em>Download Conversations</em>  - `and Choose the year of the conversation history you wish to download.</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/en/seachat-conversation/download-conversation-history.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seachat/en/seachat-conversation/download-conversation-history.png" alt="">
+</a>
+<p><strong>Download Conversation History</strong></p>
+</center>
+<p>This process might take a while depending on the size of the conversation history. Once the download is ready, you will receive a system notification says <code>AI agent conversation history export successful. Please click link or copy the link to browser to download. The link will expire in 24 hours.</code></p>
+<p>Click on the link to download the conversation history in a zip file format.</p>
+<p>You will see the conversation history in a CSV file format. The CSV file contains the following columns:</p>
+<table>
+<thead>
+<tr>
+<th>Sender type</th>
+<th>Channel type</th>
+<th>Sender name</th>
+<th>Time in GMT</th>
+<th>Message</th>
+<th>Data</th>
+</tr>
+</thead>
+</table>
+<ul>
+<li><strong>Sender type</strong>: The type of sender. You can identify whether the sender is the agent, system notification, user, etc.</li>
+<li><strong>Channel type</strong>: The communication channel of the conversation. The following is the list of channel types:
+<ul>
+<li><code>System (this means system message)</code></li>
+<li><code>WebChat</code></li>
+<li><code>SeaAuth (this is usually for verification purpose)</code></li>
+<li><code>Line</code></li>
+<li><code>WhatsApp</code></li>
+<li><code>Messenger</code></li>
+<li><code>Instagram</code></li>
+<li><code>Voice (this means phone calls)</code></li>
+<li><code>ThirdPartyClient</code></li>
+<li><code>AgentPhone (this means phone calls from SeaChat voice agent, usually for token verification purposes)</code></li>
+<li><code>SeaX_Call (this means phone calls through SeaX)</code></li>
+<li><code>SeaX_SMS (this means SMS through SeaX)</code></li>
+</ul>
+</li>
+<li><strong>Sender name</strong>: The name of the sender. You will find the senders' ID or Email in this column if the sender is an actual user. Otherwise, it will be an identifier from the system.</li>
+<li><strong>Time in GMT</strong>: The timestamp of the message in GMT format.</li>
+<li><strong>Message</strong>: The message content of the conversation. Most of the time, this field contains plain text messages. However, it can also include specific command types, such as:
+<ul>
+<li><code>/live_agent:  User requests conversation transfer to a live agent.</code></li>
+<li><code>/submit_form: User submits a form. If an entity is involved, the command will appear as /submit_form{&quot;entity_name&quot;:&quot;entity_value&quot;}.</code></li>
+<li><code>/clear_history: User requests the bot to forget the conversation history and start fresh.</code></li>
+<li><code>/ai_agent: User requests conversation transfer to an AI agent.</code></li>
+</ul>
+</li>
+<li><strong>Data</strong>: The data content of the conversation in JSON format. This column will be empty if there is no data content in the conversation. When data is present, it can include, but is not limited to, the following types:
+<ul>
+<li><code>Image URL that gets sent in the message.</code></li>
+<li><code>Recording file URL of the voice call.</code></li>
+<li><code>A form that the user completes during the chat.</code></li>
+</ul>
+</li>
+</ul>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
