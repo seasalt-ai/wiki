@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-09-20T08:48:57+00:00
+lastmod: 2024-09-29T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,14 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 09/27/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- AI Agent Time Awareness: For every message, the AI agent will now be aware of the current time, such as: "The current time is 9:41 AM, September 11, 2024, Wednesday, PST timezone." This allows the AI agent to respond more accurately to user queries about business hours and other time-related questions.
+- SeaX Integration Page Redesign: The SeaX integration page has been redesigned to enhance the user experience.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Webchat Icon Clickability: Fixed an issue where the webchat widget installation code caused the webchat icon to be unclickable.
 
 ### 09/20/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
