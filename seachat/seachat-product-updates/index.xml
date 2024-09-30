@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/</guid>
-      <description>09/20/2024 # New Features and Improvements #  Language Support: Added additional language support, including French, expanding the localization capabilities of SeaChat. This update enhances user experience for multi-language environments. Annual Payment Plan: Users can subscribe to a newly introduced annual payment plan, providing more flexible billing choices and the ability to save on long-term commitments. Export Conversation History: Users can now export their conversation history data for their own analytics or admin management purposes, offering more control over their communication data and insights.</description>
+      <description>09/27/2024 # New Features and Improvements #  AI Agent Time Awareness: For every message, the AI agent will now be aware of the current time, such as: &amp;ldquo;The current time is 9:41 AM, September 11, 2024, Wednesday, PST timezone.&amp;rdquo; This allows the AI agent to respond more accurately to user queries about business hours and other time-related questions. SeaX Integration Page Redesign: The SeaX integration page has been redesigned to enhance the user experience.</description>
     </item>
     
   </channel>
