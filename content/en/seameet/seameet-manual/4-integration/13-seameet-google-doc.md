@@ -15,7 +15,7 @@ After the meeting ends, the meeting record will be exported as a Google Docs doc
 
 1. Connect Google Drive
 
-   If you want to export the meeting record as a Google document, please bind the workspace to a Google Drive. You can bind Google Drive in **Workspace** - **Integration**.
+   If you want to export the meeting record as a Google document, please **log in** at https://meet.seasalt.ai and bind the workspace to a Google Drive.
 
     <center>
 

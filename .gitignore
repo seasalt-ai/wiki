@@ -28,4 +28,4 @@ resources/
 public/
 
 # pagefind
-/pagefind
+static/pagefind
