@@ -18,7 +18,7 @@ toc: true
 
 1. 綁定Google雲端硬碟
 
-   如果您想將會議記錄匯出為 Google 文件，請在 https://meet.seasalt.ai 登入並將工作區綁定到 Google 雲端硬碟。
+   如果您想將會議記錄匯出為 Google 文件，請在 [https://meet.seasalt.ai](https://meet.seasalt.ai) 登入並將工作區綁定到 Google 雲端硬碟。
 
     <center>
     <img src="/images/seameet-zh/SeaMeet綁定Google雲端硬碟.png" alt="SeaMeet綁定Google雲端硬碟"/>
