@@ -9,6 +9,7 @@ menu:
   seachat:
     parent: "seachat-integrations"
 aliases:
+  - /seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/
   - /en/seachat/seachat-integrations/seax-integration-in-seachat/
   - /seachat/seachat-integrations/seax-integration-in-seachat/
   - /seachat/seachat-integrations/07-seax-integration-in-seachat/
@@ -106,7 +107,7 @@ Once you have completed the testing, you can begin sending bulk messages to your
 
 When the system displays the above warning, it means you need to provide a phone number to the AI agent so that the agent can use it as the channel to manage incoming calls and SMS messages. If someone calls this number or sends an SMS, the AI agent will handle the conversation.
 
-To provide this number, you need to configure SeaX and send an outbound call or SMS to the SeaChat agent first. Please follow the [SeaX Documentation](https://wiki.seasalt.ai/seax/seax-agent-bulk-send/) for instructions on how to send an SMS or make a call to the agent.
+To provide this number, you need to configure SeaX and send an outbound call or SMS to the SeaChat agent first. Please follow the [SeaX Documentation](https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/) for instructions on how to send an SMS or make a call to the agent.
 
 Specifically:
 

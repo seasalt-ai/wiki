@@ -8,6 +8,5 @@ weight: 40
 draft: false
 images: []
 aliases:
-    - /en/seachat/seachat-manual/channels/
     - /seachat/seachat-manual/channels/
 ---

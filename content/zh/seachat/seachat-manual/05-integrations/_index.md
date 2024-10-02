@@ -8,5 +8,5 @@ weight: 50
 draft: false
 images: []
 aliases:
-  - /zh/seachat/seachat-integrations/
+  - /zh/seachat/seachat-manual/integrations/
 ---
