@@ -243,7 +243,7 @@ Fine-tuning your AI agent is a crucial and continuous process. We kindly advise 
 ##  Custom AI Agent at Your Service
 
 Sit back and watch how SeaChat AI agents can elevate your operations. From customer service and marketing to serving as a collaboration coordinator, SeaChat empowers you to automate your workflows for optimal efficiency with ease.
-In this tutorial, we've walked you through the steps necessary to set up your first AI agent. However, to fully unleash the power of SeaChat AI agent, there are a few more aspects for you to grasp. We kindly invite you to explore our detailed [user manual]( /en/seachat/seachat-intro/02-how-to-create/) to understand the true potential of SeaChat, or you can directly contact our [support team](#support) for further information and assistance. 
+In this tutorial, we've walked you through the steps necessary to set up your first AI agent. However, to fully unleash the power of SeaChat AI agent, there are a few more aspects for you to grasp. We kindly invite you to explore our detailed [user manual](https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/) to understand the true potential of SeaChat, or you can directly contact our [support team](#support) for further information and assistance. 
 
 ## Support
 Need assistance? Contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai).

@@ -9,5 +9,5 @@ draft: false
 images: []
 toc: true
 aliases:
-  - /zh/seachat/seachat-channels/
+  - /zh/seachat/seachat-manual/04-channels/
 ---

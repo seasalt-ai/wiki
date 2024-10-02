@@ -230,7 +230,7 @@ SeaChat 為此問題提供了解決方案。利用 KB ID 功能來避免訊息�
 
 ### 我可以設定指定運作時間讓我的 AI 助理自動開始對話嗎？
 
-目前，我們不支持設定指定運作時間來讓 AI 助理自動開始對話。不過，您可以在完成對話後，通過點擊 **完成** 按鈕來輕鬆啟動 AI 助理。請參考我們真人客服的[教學](/zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer)。
+目前，我們不支持設定指定運作時間來讓 AI 助理自動開始對話。不過，您可以在完成對話後，通過點擊 **完成** 按鈕來輕鬆啟動 AI 助理。請參考我們真人客服的[教學](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/)。
 
 ### 我可以在 LINE 聊天中看到 AI 助理的回應嗎？
 
