@@ -105,7 +105,7 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 
 <br/>
 <center>
-<a href="/images/search/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
+<a href="/images/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="若沒有真人客服在線上，客戶也可以選擇留言，客服人員上班時可以查看並回覆訊息。">
 </a>
 </center>

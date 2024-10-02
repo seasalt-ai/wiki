@@ -74,7 +74,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 
 <br/>
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/existing-files.png" target="_blank">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step5.jpg" target="_blank">
 <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step5.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Submit' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
 </a>
 

@@ -89,7 +89,7 @@ aliases:
 ## 步驟3：新增知識
 為了充分利用您的SeaChat助理的功能，我們需要向其知識庫添加知識。SeaChat為您的助理知識庫上傳內容提供了多種選擇。通過導航到側邊選單中的**知識庫**儀表板，找到您助理的知識庫。
 
-你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用**上傳試算表**方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的[知識庫](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/03-add-knowledge)部分，以獲取全面的指導和建議。
+你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用**上傳試算表**方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的[知識庫](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/)部分，以獲取全面的指導和建議。
 
 歡迎下載本教學的[試算表範本](/sample-files/TaipeiParkFacility_Arcade.xlsx)，並自己試試看如何上傳到AI助理的知識庫中。
 
