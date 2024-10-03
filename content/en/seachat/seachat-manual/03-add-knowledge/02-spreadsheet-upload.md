@@ -61,7 +61,7 @@ By clicking on the upload button, you can submit to your agent choosing from var
 
 We now support two modes for uploading spreadsheets or tables to the knowledge base.
 
-- **Upload each row in the table as an individual KB document**: This is especially helpful when you have a table where each row contains a self-contained piece of information. For instance, if each row is about a product, we recommend choosing this option to store each product description separately in the knowledge base.
+- **Upload each row in the table as a separate KB document**: This is especially helpful when you have a table where each row contains a self-contained piece of information. For instance, if each row is about a product, we recommend choosing this option to store each product description separately in the knowledge base.
 
 - **Upload the table as a single KB document**: Use this option when the information in the entire table is interconnected. For example, if you have a table containing a full-day event schedule, we recommend uploading the entire table as a single KB document to ensure the AI agent learns about the entire schedule together during retrieval.
 
