@@ -24,7 +24,20 @@ While these features are less sophisticated than RAG and Memory, they can still 
 
 ## Time Awareness
 
-The time awareness feature enables the AI agent to understand the current time in a specified timezone. This is useful for delivering time-sensitive information to customers. For instance, a time-aware agent can be set up to share your business hours or assist with appointment scheduling.
+<br/>
+
+<center>
+<a href="/images/seachat/en/time-awareness-context/time-awareness-ui.png">
+<img height="100%" width="100%" src="/images/seachat/en/time-awareness-context/time-awareness-ui.png"  alt="">
+</a>
+
+</center>
+
+<br/>
+
+The time awareness feature enables the AI agent to understand the current time in a specified timezone. This is useful for delivering time-sensitive information to customers. 
+
+For instance, if a business user has two different numbers for customer support during business hours and after hours, the time-aware AI agent can provide the appropriate number based on the current time.
 
 ## Context
 

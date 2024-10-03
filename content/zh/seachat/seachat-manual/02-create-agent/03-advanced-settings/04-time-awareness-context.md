@@ -24,7 +24,18 @@ aliases:
 
 ## 時間意識
 
-時間意識功能讓 AI 助理能夠理解選擇時區的當前時間。這對於向客戶提供時間敏感的信息非常有用。例如，可以設置一個時間意識助理來提供您的營業時間或協助預約安排。
+<br/>
+
+<center>
+<a href="/images/seachat/zh/time-awareness-context/time-awareness-ui.png">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-ui.png"  alt="">
+</a>
+
+</center>
+
+<br/>
+
+時間感知功能讓AI助理可以理解指定時區的當前時間。這對於向客戶提供時間敏感的資訊非常有用。例如，若企業用戶在營業時間和非營業時間有兩個不同的客服電話，具備時間感知的AI助理可以根據當前時間提供適當的電話號碼。
 
 ## 上下文
 
