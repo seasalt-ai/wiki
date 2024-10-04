@@ -28,7 +28,7 @@ aliases:
 
 <center>
 <a href="/images/seachat/zh/time-awareness-context/time-awareness-ui.png">
-<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-ui.png"  alt="UI of Time Awareness Feature">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-ui.png"  alt="時間意識功能介面">
 </a>
 
 </center>
@@ -41,7 +41,7 @@ aliases:
 
 <center>
 <a href="/images/seachat/zh/time-awareness-context/time-awareness-kb.png">
-<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-kb.png"  alt="Knowledge Example Used in Example Use Case">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-kb.png"  alt="時間意識使用實例的知識提示">
 </a>
 
 </center>
@@ -55,7 +55,7 @@ aliases:
 
 <center>
 <a href="/images/seachat/zh/time-awareness-context/time-awareness-example.png">
-<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-example.png"  alt="Example Use Case of Time Awareness">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-example.png"  alt="時間意識使用實例">
 </a>
 
 </center>

@@ -28,7 +28,7 @@ While these features are less sophisticated than RAG and Memory, they can still 
 
 <center>
 <a href="/images/seachat/en/time-awareness-context/time-awareness-ui.png">
-<img height="100%" width="100%" src="/images/seachat/en/time-awareness-context/time-awareness-ui.png"  alt="">
+<img height="100%" width="100%" src="/images/seachat/en/time-awareness-context/time-awareness-ui.png"  alt="UI of Time Awareness Feature">
 </a>
 
 </center>
@@ -57,7 +57,7 @@ If a customer contact the AI agent during business hours, the AI agent can provi
 
 <center>
 <a href="/images/seachat/en/time-awareness-context/time-awareness-example.png">
-<img height="100%" width="100%" src="/images/seachat/en/time-awareness-context/time-awareness-example.png"  alt="">
+<img height="100%" width="100%" src="/images/seachat/en/time-awareness-context/time-awareness-example.png"  alt="Example Use Case of Time Awareness">
 </a>
 
 </center>
