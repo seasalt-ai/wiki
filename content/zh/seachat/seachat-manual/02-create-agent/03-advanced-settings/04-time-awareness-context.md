@@ -28,7 +28,7 @@ aliases:
 
 <center>
 <a href="/images/seachat/zh/time-awareness-context/time-awareness-ui.png">
-<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-ui.png"  alt="">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-ui.png"  alt="UI of Time Awareness Feature">
 </a>
 
 </center>
@@ -37,6 +37,17 @@ aliases:
 
 時間感知功能讓 AI 助理能夠理解特定時區的當前時間。這對於向客戶提供與時間相關的資訊非常有幫助。
 
+<br/>
+
+<center>
+<a href="/images/seachat/zh/time-awareness-context/time-awareness-kb.png">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-kb.png"  alt="Knowledge Example Used in Example Use Case">
+</a>
+
+</center>
+
+<br/>
+
 例如，如果企業用戶在營業時間和非營業時間有兩個不同的客戶服務電話號碼（分別是 02-37284471 和 02-37222231），時間感知的 AI 助理可以根據當前時間提供相應的號碼。
 
 如果客戶在營業時間聯絡 AI 助理，助理可以提供第一個號碼（02-37284471）。如果在非營業時間聯絡，助理則會提供第二個號碼（02-37222231）。這項功能為 AI 助理的回應增添了個性化的層次。
@@ -44,7 +55,7 @@ aliases:
 
 <center>
 <a href="/images/seachat/zh/time-awareness-context/time-awareness-example.png">
-<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-example.png"  alt="">
+<img height="100%" width="100%" src="/images/seachat/zh/time-awareness-context/time-awareness-example.png"  alt="Example Use Case of Time Awareness">
 </a>
 
 </center>

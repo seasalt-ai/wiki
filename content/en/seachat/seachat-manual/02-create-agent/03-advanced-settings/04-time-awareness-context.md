@@ -37,6 +37,17 @@ While these features are less sophisticated than RAG and Memory, they can still 
 
 The time awareness feature enables the AI agent to understand the current time in a specified timezone. This is useful for delivering time-sensitive information to customers. 
 
+<br/>
+
+<center>
+<a href="/images/seachat/en/time-awareness-context/time-awareness-kb.png">
+<img height="100%" width="100%" src="/images/seachat/en/time-awareness-context/time-awareness-kb.png"  alt="Knowledge Example Used in Example Use Case">
+</a>
+
+</center>
+
+<br/>
+
 For instance, if a business user has two different numbers (number 559-894-3287 and 334-380-9257) for customer support during business hours and after hours, the time-aware AI agent can provide the appropriate number based on the current time. 
 
 If a customer contact the AI agent during business hours, the AI agent can provide the first number (559-894-3287). If the customer contacts the AI agent after hours, the AI agent can provide the second number(334-380-9257).  This feature adds another layer of personalization to the AI agent's responses.
