@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/</guid>
-      <description>09/27/2024 # New Features and Improvements #  AI Agent Time Awareness: For every message, the AI agent will now be aware of the current time, such as: &amp;ldquo;The current time is 9:41 AM, September 11, 2024, Wednesday, PST timezone.&amp;rdquo; This allows the AI agent to respond more accurately to user queries about business hours and other time-related questions. SeaX Integration Page Redesign: The SeaX integration page has been redesigned to enhance the user experience.</description>
+      <description>10/03/2024 # New Features and Improvements #  Human-Agent Assignment: This feature introduces a streamlined interface that allows users to easily assign human agents to respond to customers. Additionally, a new filter has been added to help users quickly locate conversations that have been assigned to them. Billing Usage Page Enhancements: The Billing -&amp;gt; Usage page has been upgraded and enhanced to deliver improved functionality and a more user-friendly experience. Conversation Title Consistency: The conversation title now consistently aligns with the user’s full name, ensuring greater accuracy in how conversations are displayed.</description>
     </item>
     
   </channel>
