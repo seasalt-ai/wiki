@@ -18,7 +18,7 @@ toc: true
 ### 10/03/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Human-Agent Assignment: This feature introduces a streamlined interface that allows users to easily assign human agents to respond to customers. Additionally, a new filter has been added to help users quickly locate conversations that have been assigned to them.
-- Billing Usage Page Enhancements: The Billing -> Usage page has been upgraded and enhanced to deliver improved functionality and a more user-friendly experience.
+- Billing Usage Page Enhancements: The Billing -> Usage page has been upgraded. Users can now see the model and usage information for text and voice messages.
 - Conversation Title Consistency: The conversation title now consistently aligns with the user’s full name, ensuring greater accuracy in how conversations are displayed.
 - Messenger Interaction Flow: It has been improved to ensure that a quick reply is sent after every message, resulting in smoother and more efficient communication.
 

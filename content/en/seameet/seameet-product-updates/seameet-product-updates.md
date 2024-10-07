@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-09-16T08:48:57+00:00
+lastmod: 2024-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,20 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 10/03/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed incorrect or incomplete bot names when joining meetings due to Google Meet page loading issues.
+- Fixed issue where canceling a plan prevented users from initiating new meetings from the meeting list.
+- Updated wording for pricing plans.
+
+### 09/26/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Automatically switch to "Final Summary" when the meeting ends.
+- Adjusted the meeting list to display the summary title instead of summary content.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed the error caused by Google Calendar event IDs starting with "_".
 
 ### 09/19/2024
 ##### **<font color="#739963">New Features and Performance Optimization</font>**

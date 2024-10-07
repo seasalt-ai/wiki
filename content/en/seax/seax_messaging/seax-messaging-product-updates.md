@@ -2,7 +2,7 @@
 title: "New Features & Releases"
 description: "Explore the latest features and updates in SeaX. Stay informed on new functionalities, bug fixes, and enhancements to optimize your experience."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-09-16T08:48:57+00:00
+lastmod: 2024-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,21 @@ aliases:
 weight: 104
 toc: true
 ---
+
+### 10/03/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Added dynamic loading for WhatsApp messages to avoid errors from loading too many messages.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Added a feature allowing cancel campaigns from the SeaX customer support.
+- Fixed issue where "unsent messages" caused the conversations to display as blank.
+- Fixed issue where SMS campaign end time was earlier than the start time.
+
+### 09/26/2024
+##### **<font color="#739963">New Features and Performance Optimization</font>**
+- Added WhatsApp and Omni-Channel pricing plans.
+- Updated plan descriptions on the landing page.
+- Implemented a mechanism to prevent duplicate campaign bookings.
 
 ### 09/12/2024
 ##### **<font color="#739963">New Features and Performance Optimization</font>**

@@ -18,6 +18,12 @@ toc: true
 
 This page details the process for setting up MailerLite integration with SeaChat. After setting up this integration, you can use SeaChat forms to collect customer emails and information, and add them to your email lists on [MailerLite](https://www.mailerlite.com/) automatically.
 
+For a visual guide on how to integrate SeaChat with MailerLite, you can watch the tutorial video below:
+<br/>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=xTnJ9L1sVC4&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+---
+
 ## Step 1: Create a SeaChat account
 If you do not have a SeaChat account, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! Then you can build your AI agent and integrate with MailerLite.
 
