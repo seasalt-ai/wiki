@@ -1,6 +1,6 @@
 ---
 title: "Step 0: Near Me Walkthrough"
-description: "An in-depth walkthrough of Near Me Messaging, from linking your Google call-forwarding-setup-setup profile to customizing and deploying your virtual agent."
+description: "An in-depth walkthrough of Near Me Messaging, from linking your Google call-forwarding-setup profile to customizing and deploying your virtual agent."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
