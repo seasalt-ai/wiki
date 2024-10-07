@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>來電轉接設定 on </title>
+    <link>https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/</link>
+    <description>Recent content in 來電轉接設定 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Oct 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android/ iPhone</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/</link>
+      <pubDate>Thu, 03 Oct 2024 10:43:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/</guid>
+      <description>確認準備步驟是否完成 # 要繼續進行來電轉接的設定，我們需要確認是否已經部署了一個由 SeaChat AI 助理接聽的電話號碼。如果您尚未完成此步驟，請參閱我們的教學來了解如何操作。
+將個人來電轉接到SeaChat（Android） # 要將您的個人來電轉接到Seasalt.ai，我們需要配置您的個人手機和指定的SeaChat AI助理。您可以按照以下步驟完成設置：
+ 步驟1 – 配置手機的來電轉接功能:  現在我們需要在您的設備上配置您的號碼，以啟用來電轉接功能。請注意，iOS系統與Android系統的配置方式不同。本節將側重於Android設備的配置。  步驟1.1 – 打開電話應用程式。  在您的設備上找到電話應用程式。這通常是帶有電話圖標的應用程式。   步驟1.2 – 進入來電設置。  在電話應用程式中找到設置選項。通常可以通過點擊菜單圖標來找到它。   步驟1.3 – 找到並啟用來電轉接。  在設置中搜索來電轉接。在該部分中找到關鍵詞“來電轉接”或“轉接”，可能會出現在“通話”或“高級設置”下。   步驟1.4 – 輸入AI助理的號碼。  現在您應該會看到如下圖像，允許您將來電轉接到AI助理的號碼。將號碼輸入到您希望AI助理接手的字段中。對於有條件轉接，我們將側重於“忙線時”、“無應答時”和“無法接通時”這些字段。   步驟1.5 – 在目標字段中輸入AI號碼。         輸入要轉接的電話號碼
+  步驟2 – 保存設置:  一旦您輸入了SeaChat助理的電話號碼，點擊保存或確定按鈕以保存來電轉接設置。現在，您的Android設備上的來電將被轉接到您的SeaChat助理。   步驟3 – 測試來電轉接:  現在您應該已經成功設置來電轉接功能到您的SeaChat助理。測試一下，看看這個功能是否有效。如果無效，請再次檢查以上每個步驟，看看是否有遺漏的地方。    將個人來電轉接到SeaChat from Seasalt.</description>
+    </item>
+    
+    <item>
+      <title>商業來電 - US, VoIP, Taiwan, Singapore</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/business/</link>
+      <pubDate>Thu, 03 Oct 2024 10:43:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/business/</guid>
+      <description>確認準備步驟是否完成 # 要繼續進行來電轉接的設定，我們需要確認是否已經部署了一個由 SeaChat AI 助理接聽的電話號碼。如果您尚未完成此步驟，請參閱我們的教學來了解如何操作。
+將商業來電轉接到SeaChat # 轉接商業來電可能比轉接個人來電更為複雜。建議您查閱官方文檔或聯繫電信商客服獲得幫助以進行具體設置。請謹慎按照以下說明進行操作，以避免潛在問題。
+美國電信商 # AT&amp;amp;T #  無條件來電轉接:
+拿起電話聽筒，撥打 *72（或 72#），然後輸入您想要轉接來電的號碼。長途電話需包括 1 + 10位數字的號碼。
+本地電話只需使用區號和7位數字號碼，或對於不需要區號的電話直接使用7位數字號碼。
+當您聽到確認音後，來電轉接即已啟用。 無應答來電轉接:
+撥打 *92，然後輸入10位數轉接號碼並按 #。等待確認音。 忙線來電轉接:
+撥打 *90，然後輸入10位數轉接號碼並按 #。確認音表示來電轉接已激活。 選擇性來電轉接:
+撥打 *63 並按照提示轉接特定預選號碼。 取消來電轉接:
+無條件轉接：撥打 *73#。
+無應答轉接：撥打 *93#。
+忙線轉接：撥打 *91#。  Frontier #  無條件來電轉接:
+撥打 *72 並輸入10位數轉接號碼。等待電話接通並聽到確認音。
+例外情況：在某些地區（如印第安納州、伊利諾伊州、賓夕法尼亞州），撥打72#。對於康涅狄格州的Frontier語音用戶，撥打72後接號碼。 無應答來電轉接:
+撥打 *92 並設置轉接前的鈴響次數。然後，輸入10位數轉接號碼。
+例外情況：在Seneca Gorham撥打52；在Rochester撥打44。您還可以通過撥打40來更改鈴響持續時間，並設置轉接前的秒數。 忙線來電轉接:
+撥打 *90，輸入10位數號碼並按 #。
+例外情況：在Seneca Gorham撥打50；在Rochester撥打48。 選擇性來電轉接:
+撥打 *63 並按照語音指示管理您的轉接清單。 取消來電轉接:
+無條件轉接：撥打 *73 並按通話。</description>
+    </item>
+    
+  </channel>
+</rss>

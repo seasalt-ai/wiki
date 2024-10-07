@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Call Forwarding Setup on </title>
+    <link>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/</link>
+    <description>Recent content in Call Forwarding Setup on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Oct 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android/ iPhone</title>
+      <link>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/</link>
+      <pubDate>Thu, 03 Oct 2024 10:43:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/</guid>
+      <description>Check if the preparation step is done # To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven&amp;rsquo;t done this, Please check out our tutorial on how to do so.
+Forward your personals calls to SeaChat (Android) # To forward your personal calls to Seasalt.ai, we need to configure both your personal phone and the destined SeaChat AI agent.</description>
+    </item>
+    
+    <item>
+      <title>Businesses - US, VoIP, Taiwan, Singapore</title>
+      <link>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/</link>
+      <pubDate>Thu, 03 Oct 2024 10:43:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/</guid>
+      <description>Check if the preparation step is done # To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven&amp;rsquo;t done this, Please check out our tutorial on how to do so.
+Forward your Business calls to SeaChat # Forwarding business calls can be more complex than forwarding personal calls. For specific instructions and proper setup, it&amp;rsquo;s recommended to consult the official documentation or contact customer support for assistance.</description>
+    </item>
+    
+  </channel>
+</rss>

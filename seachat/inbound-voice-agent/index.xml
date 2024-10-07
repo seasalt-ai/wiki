@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inbound Voice Agent on </title>
+    <link>https://wiki.seasalt.ai/seachat/inbound-voice-agent/</link>
+    <description>Recent content in Inbound Voice Agent on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Oct 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forward Inbound Calls to Voice Agents - Video Tutorial</title>
+      <link>https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/</link>
+      <pubDate>Thu, 03 Oct 2024 10:43:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/</guid>
+      <description>The following is a video tutorial of the above walkthrough to deploy an AI voice agent in 18 minutes with no coding skills required:
+   Introduction to Call Forwarding and How It Works #    Call Forwarding
+ Call forwarding is a telecommunication feature that allows users to redirect incoming calls from one number to another. This ensures that important calls are not missed, even when you&amp;rsquo;re unable to answer your primary phone.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1622 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://wiki.seasalt.ai/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind-ui.js"></script>
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10880948239');
+  </script>
+  
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJGXPTGC');</script>
+  
+  <link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-10405841-7', 'auto');
+    ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="https://wiki.seasalt.ai/main.2602b41bee171a80ecc77d6e8381b3c7e4f6a7da458695159720c408fe22f99213c452eac05c0da86a960465e09a9d859ee5d69c9b7e7ac33ed34f4ad440148b.css" integrity="sha512-JgK0G&#43;4XGoDsx31ug4Gzx&#43;T2p9pFhpUVlyDECP4i&#43;ZITxFLqwFwNqGqWBGXgmp2FnuXWnJt&#43;esM&#43;009K1EAUiw==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>Businesses - US, VoIP, Taiwan, Singapore - Seasalt.ai</title>
+<meta name="description" content="SeaChat Feature Tutorial | Call Forwarding Setup (Businesses - US, VoIP, Taiwan, Singapore)">
+<link rel="canonical" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Businesses - US, VoIP, Taiwan, Singapore">
+<meta property="og:description" content="SeaChat Feature Tutorial | Call Forwarding Setup (Businesses - US, VoIP, Taiwan, Singapore)">
+<meta property="og:url" content="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">
+<meta property="og:site_name" content="Seasalt.ai">
+<meta property="article:published_time" content="2024-10-03T10:43:51+01:00">
+  <meta property="article:modified_time" content="2024-10-07T11:10:22-07:00">
+  
+  <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
+      <meta property="og:image:alt" content="Seasalt.ai">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Businesses - US, VoIP, Taiwan, Singapore">
+<meta name="twitter:description" content="SeaChat Feature Tutorial | Call Forwarding Setup (Businesses - US, VoIP, Taiwan, Singapore)">
+<meta name="twitter:image" content="https://wiki.seasalt.ai/seasalt-logo.png">
+    <meta name="twitter:image:alt" content="Businesses - US, VoIP, Taiwan, Singapore">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://wiki.seasalt.ai/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://wiki.seasalt.ai/",
+      "sameAs": [
+        , "https://www.linkedin.com/company/seasalt-ai/"
+        ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://wiki.seasalt.ai/#/schema/website/1",
+      "url": "https://wiki.seasalt.ai/",
+      "name": "Seasalt.ai",
+      "description": "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.",
+      "publisher": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/",
+      "url": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/",
+      "name": "Businesses - US, VoIP, Taiwan, Singapore",
+      "description": "SeaChat Feature Tutorial | Call Forwarding Setup (Businesses - US, VoIP, Taiwan, Singapore)",
+      "isPartOf": {
+        "@id": "https://wiki.seasalt.ai/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        },
+      "datePublished": "2024-10-03T10:43:51CET",
+      "dateModified": "2024-10-07T11:10:22CET",
+      "breadcrumb": {
+        "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/",
+          "url": "https://wiki.seasalt.ai/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seachat/",
+          "url": "https://wiki.seasalt.ai/seachat/",
+          "name": "Seachat"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/",
+          "url": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/",
+          "name": "Inbound Voice Agent"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/",
+          "url": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/",
+          "name": "Call Forwarding Setup"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  5 ,
+        "item": {
+          "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/#/schema/image/2",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "contentUrl": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "caption": "Businesses - US, VoIP, Taiwan, Singapore"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiki.seasalt.ai/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wiki.seasalt.ai/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wiki.seasalt.ai/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://wiki.seasalt.ai/site.webmanifest">
+
+</head>
+  <body class="seachat single">
+    <div class="sticky-lg-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="https://wiki.seasalt.ai/" aria-label="Seasalt.ai">
+      Seasalt.ai
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="https://wiki.seasalt.ai/">Seasalt.ai</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/" aria-label="SeaVoice">SeaVoice</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/" aria-label="SeaMeet">SeaMeet</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seachat/seachat-intro/01-seachat-intro/" aria-label="SeaChat">SeaChat</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/" aria-label="SeaX">SeaX</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESTful APIs
+              <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/01-seachat-api-intro/" aria-label="SeaChat API">SeaChat API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/02-seax-api-intro/" aria-label="SeaX API">SeaX API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/03-seameet-api-intro/" aria-label="SeaMeet API">SeaMeet API</a>
+              </li>
+              </ul>
+          </li>
+          
+          
+          
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://seasalt.ai/" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><small class="ms-2 d-md-none">Home</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.youtube.com/@seasaltai" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><small class="ms-2 d-md-none">YouTube</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.linkedin.com/company/seasalt-ai/" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><small class="ms-2 d-md-none">LinkedIn</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" aria-label="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><small class="ms-2 d-md-none">Contact</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        EN
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">English</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/business/" hreflang="zh" lang="zh">繁體中文</a></li>
+        
+      </ul>
+    </div>
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </nav>
+</header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
+
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</div>
+<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+    <span class="navbar-text ms-0">Seachat</span>
+    <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bf647454e36069fd16f1a7a35cf6a865" aria-expanded="true">
+          Getting Started
+        </button>
+        <div class="collapse show" id="section-bf647454e36069fd16f1a7a35cf6a865">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/">Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/">Quickstart</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1afe5594b7932218164d1a3306a10ca4" aria-expanded="true">
+          SeaChat User Manual
+        </button>
+        <div class="collapse show" id="section-1afe5594b7932218164d1a3306a10ca4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-30fedd80b024632ad65791bc9c5fea27" aria-expanded="true">
+                    Agent Management
+                  </button>
+                  <div class="collapse show" id="section-30fedd80b024632ad65791bc9c5fea27">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/">Create New Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-agent-information/">Agent Information</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-agent-duplicaiton/">Agent Version Control</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/04-seachat-conversations/">Conversations</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/">Live Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9ffc3ccc968a96d902af963c6d7b4e97" aria-expanded="true">
+                              Advanced Settings
+                            </button>
+                            <div class="collapse show" id="section-9ffc3ccc968a96d902af963c6d7b4e97">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/">Retrieval Augmented Generation (RAG)</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/">Agent Memory </a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/">Time Awareness and Context</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ad52a9104895534d7363f9b0ccd71e11" aria-expanded="true">
+                    Add knowledge
+                  </button>
+                  <div class="collapse show" id="section-ad52a9104895534d7363f9b0ccd71e11">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/">How to Add Knowledge</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/">Manual Entry</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/">Spreadsheet and Table</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/">Audio/Video File</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/">Template Upload</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/">Upload Documents</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/">Import URLs</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/">Import Sitemaps</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/">Adding URL buttons to KB responses</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/">File Size Rule</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3370dcd92b099b6292576580a2cdca1e" aria-expanded="true">
+                              Additional Features
+                            </button>
+                            <div class="collapse show" id="section-3370dcd92b099b6292576580a2cdca1e">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/">Additional Features in Knowledge</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-14cb425d8170ed04f3d8016d5a0ccf20" aria-expanded="true">
+                    Channels
+                  </button>
+                  <div class="collapse show" id="section-14cb425d8170ed04f3d8016d5a0ccf20">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/">WhatsApp</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/">LINE Official Account</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/">Webpage</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/">Facebook Messenger</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/">Calls</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e01aecb528730f3bfe10f9d57f1317bf" aria-expanded="true">
+                    Integrations
+                  </button>
+                  <div class="collapse show" id="section-e01aecb528730f3bfe10f9d57f1317bf">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/">Google Calendar</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/">Shopify</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/">Squarespace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/">Wordpress</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/">Wix</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/">MailerLite</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/">SeaX Integration</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-d37c49811ea9c7b49ad21037d619fd8a" aria-expanded="true">
+                    Test and Improve AI Agent
+                  </button>
+                  <div class="collapse show" id="section-d37c49811ea9c7b49ad21037d619fd8a">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/">Test and Improve AI Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">SOP for After Launch Operations</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-03a21915504df93cf5dba0636080f62e" aria-expanded="true">
+                    Workspace
+                  </button>
+                  <div class="collapse show" id="section-03a21915504df93cf5dba0636080f62e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/01-workspace-management/">Workspace Management</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0007e3962c7851c287134303c49f522e" aria-expanded="true">
+          Inbound Voice Agent
+        </button>
+        <div class="collapse show" id="section-0007e3962c7851c287134303c49f522e">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/">Forward Inbound Calls to Voice Agents - Video Tutorial</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e933eb6017b23da44350dc5345c3e439" aria-expanded="true">
+                    Call Forwarding Setup
+                  </button>
+                  <div class="collapse show" id="section-e933eb6017b23da44350dc5345c3e439">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">Android/ iPhone</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">Businesses - US, VoIP, Taiwan, Singapore</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e3d7fb951904a5c4849bc63e9b31109c" aria-expanded="true">
+          Full Tutorials
+        </button>
+        <div class="collapse show" id="section-e3d7fb951904a5c4849bc63e9b31109c">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/">Build Email Lists with MailerLite</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-daef64964ee3b9b904f5d467586e217f" aria-expanded="true">
+          Payments
+        </button>
+        <div class="collapse show" id="section-daef64964ee3b9b904f5d467586e217f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/">Pricing</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-payments/subscription-and-billing/">Billing and Subscription</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ddcf50c29294d4414f3f7c1bbc892cb5" aria-expanded="true">
+          Resources
+        </button>
+        <div class="collapse show" id="section-ddcf50c29294d4414f3f7c1bbc892cb5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/">Prompt Examples</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-api/">SeaChat API</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-faq/">SeaChat FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4310045e312bcab3bff238716f455875" aria-expanded="true">
+          New Features &amp; Releases
+        </button>
+        <div class="collapse show" id="section-4310045e312bcab3bff238716f455875">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/">SeaChat Release History</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+    <div class="wrap container-xxl" role="document">      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bf647454e36069fd16f1a7a35cf6a865" aria-expanded="true">
+          Getting Started
+        </button>
+        <div class="collapse show" id="section-bf647454e36069fd16f1a7a35cf6a865">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/">Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/">Quickstart</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1afe5594b7932218164d1a3306a10ca4" aria-expanded="true">
+          SeaChat User Manual
+        </button>
+        <div class="collapse show" id="section-1afe5594b7932218164d1a3306a10ca4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-30fedd80b024632ad65791bc9c5fea27" aria-expanded="true">
+                    Agent Management
+                  </button>
+                  <div class="collapse show" id="section-30fedd80b024632ad65791bc9c5fea27">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/">Create New Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-agent-information/">Agent Information</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-agent-duplicaiton/">Agent Version Control</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/04-seachat-conversations/">Conversations</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/">Live Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9ffc3ccc968a96d902af963c6d7b4e97" aria-expanded="true">
+                              Advanced Settings
+                            </button>
+                            <div class="collapse show" id="section-9ffc3ccc968a96d902af963c6d7b4e97">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/">Retrieval Augmented Generation (RAG)</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/">Agent Memory </a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/">Time Awareness and Context</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ad52a9104895534d7363f9b0ccd71e11" aria-expanded="true">
+                    Add knowledge
+                  </button>
+                  <div class="collapse show" id="section-ad52a9104895534d7363f9b0ccd71e11">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/">How to Add Knowledge</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/">Manual Entry</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/">Spreadsheet and Table</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/">Audio/Video File</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/">Template Upload</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/">Upload Documents</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/">Import URLs</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/">Import Sitemaps</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/">Adding URL buttons to KB responses</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/">File Size Rule</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3370dcd92b099b6292576580a2cdca1e" aria-expanded="true">
+                              Additional Features
+                            </button>
+                            <div class="collapse show" id="section-3370dcd92b099b6292576580a2cdca1e">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/">Additional Features in Knowledge</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-14cb425d8170ed04f3d8016d5a0ccf20" aria-expanded="true">
+                    Channels
+                  </button>
+                  <div class="collapse show" id="section-14cb425d8170ed04f3d8016d5a0ccf20">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/">WhatsApp</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/">LINE Official Account</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/">Webpage</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/">Facebook Messenger</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/">Calls</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e01aecb528730f3bfe10f9d57f1317bf" aria-expanded="true">
+                    Integrations
+                  </button>
+                  <div class="collapse show" id="section-e01aecb528730f3bfe10f9d57f1317bf">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/">Google Calendar</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/">Shopify</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/">Squarespace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/">Wordpress</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/">Wix</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/">MailerLite</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/">SeaX Integration</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-d37c49811ea9c7b49ad21037d619fd8a" aria-expanded="true">
+                    Test and Improve AI Agent
+                  </button>
+                  <div class="collapse show" id="section-d37c49811ea9c7b49ad21037d619fd8a">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/">Test and Improve AI Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">SOP for After Launch Operations</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-03a21915504df93cf5dba0636080f62e" aria-expanded="true">
+                    Workspace
+                  </button>
+                  <div class="collapse show" id="section-03a21915504df93cf5dba0636080f62e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/01-workspace-management/">Workspace Management</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0007e3962c7851c287134303c49f522e" aria-expanded="true">
+          Inbound Voice Agent
+        </button>
+        <div class="collapse show" id="section-0007e3962c7851c287134303c49f522e">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/">Forward Inbound Calls to Voice Agents - Video Tutorial</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e933eb6017b23da44350dc5345c3e439" aria-expanded="true">
+                    Call Forwarding Setup
+                  </button>
+                  <div class="collapse show" id="section-e933eb6017b23da44350dc5345c3e439">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">Android/ iPhone</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">Businesses - US, VoIP, Taiwan, Singapore</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e3d7fb951904a5c4849bc63e9b31109c" aria-expanded="true">
+          Full Tutorials
+        </button>
+        <div class="collapse show" id="section-e3d7fb951904a5c4849bc63e9b31109c">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/">Build Email Lists with MailerLite</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-daef64964ee3b9b904f5d467586e217f" aria-expanded="true">
+          Payments
+        </button>
+        <div class="collapse show" id="section-daef64964ee3b9b904f5d467586e217f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/">Pricing</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-payments/subscription-and-billing/">Billing and Subscription</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ddcf50c29294d4414f3f7c1bbc892cb5" aria-expanded="true">
+          Resources
+        </button>
+        <div class="collapse show" id="section-ddcf50c29294d4414f3f7c1bbc892cb5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/">Prompt Examples</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-api/">SeaChat API</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-faq/">SeaChat FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4310045e312bcab3bff238716f455875" aria-expanded="true">
+          New Features &amp; Releases
+        </button>
+        <div class="collapse show" id="section-4310045e312bcab3bff238716f455875">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/">SeaChat Release History</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+   <h3>On this page</h3> 
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#check-if-the-preparation-step-is-done">Check if the preparation step is done</a></li>
+    <li><a href="#forward-your-business-calls-to-seachat">Forward your Business calls to SeaChat</a></li>
+    <li><a href="#us-carriers">US Carriers</a>
+      <ul>
+        <li><a href="#att">AT&amp;T</a></li>
+        <li><a href="#frontier">Frontier</a></li>
+        <li><a href="#us-mobile">US Mobile</a></li>
+        <li><a href="#t-mobile">T-Mobile</a></li>
+        <li><a href="#comcast-business">Comcast (Business)</a></li>
+        <li><a href="#xfinity-mobile-comcast-consumers">Xfinity Mobile (Comcast consumers)</a></li>
+        <li><a href="#verizon">Verizon</a></li>
+        <li><a href="#ringcentral">RingCentral</a></li>
+        <li><a href="#vonage">Vonage</a></li>
+        <li><a href="#google-voice">Google Voice</a></li>
+      </ul>
+    </li>
+    <li><a href="#taiwan-carriers">Taiwan Carriers</a>
+      <ul>
+        <li><a href="#chunghwa-telecom">Chunghwa Telecom</a></li>
+        <li><a href="#taiwan-mobile">Taiwan Mobile</a></li>
+      </ul>
+    </li>
+    <li><a href="#singapore-carriers">Singapore Carriers</a>
+      <ul>
+        <li><a href="#singtel">Singtel</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+		
+			<h1>Businesses - US, VoIP, Taiwan, Singapore</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="page-links">
+   <h3>On this page</h3> 
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#check-if-the-preparation-step-is-done">Check if the preparation step is done</a></li>
+    <li><a href="#forward-your-business-calls-to-seachat">Forward your Business calls to SeaChat</a></li>
+    <li><a href="#us-carriers">US Carriers</a>
+      <ul>
+        <li><a href="#att">AT&amp;T</a></li>
+        <li><a href="#frontier">Frontier</a></li>
+        <li><a href="#us-mobile">US Mobile</a></li>
+        <li><a href="#t-mobile">T-Mobile</a></li>
+        <li><a href="#comcast-business">Comcast (Business)</a></li>
+        <li><a href="#xfinity-mobile-comcast-consumers">Xfinity Mobile (Comcast consumers)</a></li>
+        <li><a href="#verizon">Verizon</a></li>
+        <li><a href="#ringcentral">RingCentral</a></li>
+        <li><a href="#vonage">Vonage</a></li>
+        <li><a href="#google-voice">Google Voice</a></li>
+      </ul>
+    </li>
+    <li><a href="#taiwan-carriers">Taiwan Carriers</a>
+      <ul>
+        <li><a href="#chunghwa-telecom">Chunghwa Telecom</a></li>
+        <li><a href="#taiwan-mobile">Taiwan Mobile</a></li>
+      </ul>
+    </li>
+    <li><a href="#singapore-carriers">Singapore Carriers</a>
+      <ul>
+        <li><a href="#singtel">Singtel</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+			</nav>
+			<h2 id="check-if-the-preparation-step-is-done">Check if the preparation step is done <a href="#check-if-the-preparation-step-is-done" class="anchor" aria-hidden="true">#</a></h2>
+<p>To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven&rsquo;t done this, Please check out our <a href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding/">tutorial</a> on how to do so.</p>
+<h2 id="forward-your-business-calls-to-seachat">Forward your Business calls to SeaChat <a href="#forward-your-business-calls-to-seachat" class="anchor" aria-hidden="true">#</a></h2>
+<p>Forwarding business calls can be more complex than forwarding personal calls. For specific instructions and proper setup, it&rsquo;s recommended to consult the official documentation or contact customer support for assistance. Please carefully proceed with the instructions below to avoid potential issues.</p>
+<h2 id="us-carriers">US Carriers <a href="#us-carriers" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="att">AT&amp;T <a href="#att" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Lift the phone receiver and dial <code>*72 </code> (or  <code>72# </code>), then enter the number you want to forward calls to. For long-distance calls, include 1 + the 10-digit number.<br>
+For local calls, use just the area code and 7-digit number, or simply the 7-digit number for calls that don&rsquo;t require an area code.<br>
+Call forwarding is activated when you hear the confirmation tone.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Dial  <code>*92 </code>, then enter the 10-digit forwarding number and press #. Wait for the confirmation tone.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Dial  <code>*90 </code>, then enter the 10-digit forwarding number and press #. The confirmation tone indicates the activation of call forwarding.</li>
+<li><strong>Selective Call Forwarding:</strong><br>
+Dial  <code>*63 </code> and follow prompts to forward specific pre-selected numbers.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+For unconditional forwarding, dial  <code>*73# </code>.<br>
+For no-answer forwarding, dial  <code>*93# </code>.<br>
+For busy forwarding, dial  <code>*91# </code>.</li>
+</ul>
+<h3 id="frontier">Frontier <a href="#frontier" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Dial  <code>*72 </code> and enter the 10-digit forwarding number. Wait for the phone to be answered and for the confirmation tone.<br>
+Exceptions: In certain areas (e.g., Indiana, Illinois, Pennsylvania), dial <code>72#</code>. For Connecticut Frontier Voice customers, dial <code>72</code> followed by the number.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Dial  <code>*92 </code> and set the number of rings before forwarding. Then, enter the 10-digit forwarding number.<br>
+Exceptions: In Seneca Gorham, dial <code>52</code>; in Rochester, dial <code>44</code>. You can also change the ring duration by dialing <code>40</code> and setting the number of seconds before forwarding.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Dial  <code>*90 </code>, enter the 10-digit number, and press #.<br>
+Exceptions: In Seneca Gorham, dial <code>50</code>; in Rochester, dial <code>48</code>.</li>
+<li><strong>Selective Call Forwarding:</strong><br>
+Dial  <code>*63 </code> and follow the voice instructions to manage your forwarding list.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+Unconditional: Dial  <code>*73 </code> and press <strong>Talk</strong>.<br>
+No Answer: Dial  <code>*93 </code> and press <strong>Talk</strong>.<br>
+Busy: Dial  <code>*91 </code> and press <strong>Talk</strong>.</li>
+</ul>
+<h3 id="us-mobile">US Mobile <a href="#us-mobile" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+On your phone&rsquo;s dial pad, enter <code>*72</code>. Then, input the 10-digit number (including the area code) where you want to forward your calls (e.g., <code>*72-908-123-4567</code>). Tap the Call button and wait for the confirmation tone or message. End your call to activate call forwarding.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+On your phone&rsquo;s dial pad, enter <code>*71</code>. Enter the 10-digit forwarding number, including the area code (e.g., <code>*71-908-123-4567</code>). Tap the Call button and wait for the confirmation tone or message. Call forwarding will be activated after confirmation.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Similar to No Answer Call Forwarding, on your phone&rsquo;s dial pad, enter <code>*71</code>, followed by the 10-digit number where you want calls forwarded. Tap Call and wait for the confirmation tone. End the call once forwarding is confirmed.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+To cancel any type of call forwarding, dial <code>*73</code> on your phone. Tap Call, and once you hear the confirmation tone, end the call to deactivate call forwarding.</li>
+</ul>
+<h3 id="t-mobile">T-Mobile <a href="#t-mobile" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Dial <code>*21</code> followed by the 10-digit forwarding number and press the call button. Wait for the activation tone to confirm the setup.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Dial <code>*61</code> followed by the 10-digit forwarding number and press the call button. The forwarding will activate upon hearing the confirmation tone.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Dial <code>*67</code> followed by the 10-digit forwarding number and press the call button. The call forwarding is activated once you hear the activation tone.</li>
+<li><strong>Not Reachable Call Forwarding:</strong><br>
+Dial <code>*62</code> followed by the 10-digit forwarding number and press the call button. The call forwarding will be activated once you hear the activation tone.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+Unconditional Call Forwarding: Dial <code>##21#</code>, press the call button, and wait for the confirmation tone to turn off.<br>
+No Answer Call Forwarding: Dial <code>##61#</code> and press the call button.<br>
+Busy Call Forwarding: Dial <code>##67#</code> and press the call button.<br>
+Not Reachable Call Forwarding: Dial <code>##62#</code> and press the call button.<br>
+All Conditional Call Forwarding: Dial <code>##004#</code> to disable all conditional call forwarding.</li>
+</ul>
+<h3 id="comcast-business">Comcast (Business) <a href="#comcast-business" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Before picking up the receiver or pressing <strong>Talk</strong>, dial <code>*72</code>. Then, dial the 10-digit number you wish to forward calls to. Press <strong>Talk</strong> to activate call forwarding, which will be confirmed by a tone and message.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Before picking up the receiver or pressing <strong>Talk</strong>, dial <code>*71</code>. Then, enter the 10-digit forwarding number and press <strong>Talk.</strong> Call forwarding will activate after the confirmation tone.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Dial <code>*90</code> before picking up the receiver or pressing <strong>Talk</strong>, then enter the 10-digit forwarding number. Press <strong>Talk,</strong> and wait for the confirmation tone.</li>
+<li><strong>Selective Call Forwarding:</strong><br>
+Lift the receiver and dial <code>*63</code>. Follow the voice prompts to select which numbers to forward, and activate after the confirmation code.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+Unconditional Call Forwarding: Dial <code>*73</code>, wait for the confirmation tone, then hang up.<br>
+No Answer Call Forwarding: Dial <code>*93</code>, wait for the tone, and hang up.<br>
+Busy Call Forwarding: Dial <code>*91</code>, wait for the confirmation tone, and hang up.<br>
+Selective Call Forwarding: Dial <code>*83</code>, enter rule details, and save to deactivate.</li>
+</ul>
+<h3 id="xfinity-mobile-comcast-consumers">Xfinity Mobile (Comcast consumers) <a href="#xfinity-mobile-comcast-consumers" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Lift the receiver, listen for the dial tone, and press <code>*72</code>. Enter the 10-digit forwarding number provided by your answering service. Call forwarding will activate once you hear the confirmation tone.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Lift the receiver, listen for the dial tone, and press <code>*92</code>. Enter the 10-digit forwarding number. The call forwarding will activate after you hear the confirmation code.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Lift the receiver, listen for the dial tone, and press <code>*90</code>. Enter the 10-digit number. Call forwarding is activated once the confirmation tone is heard.</li>
+<li><strong>Selective Call Forwarding:</strong><br>
+Lift the receiver, listen for the dial tone, and press <code>*63</code>. Enter the 10-digit number you want to forward. The service will activate once you hear the confirmation tone.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+Unconditional Call Forwarding: Dial <code>*73</code> to turn off the service. Wait for the confirmation tone.<br>
+No Answer Call Forwarding: Dial <code>*93</code> to deactivate. Wait for the confirmation tone.<br>
+Busy Call Forwarding: Dial <code>*91</code> to disable. Wait for the confirmation tone.<br>
+Selective Call Forwarding: Dial <code>*83</code> and press <code>3</code> to turn off selective forwarding. Wait for the confirmation tone.</li>
+</ul>
+<h3 id="verizon">Verizon <a href="#verizon" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Lift the receiver, listen for the dial tone, and dial <code>*72</code> followed by the 10-digit forwarding number (e.g., <code>*72-999-555-4567</code>). Wait for a series of beeps, then the call will automatically end, confirming that call forwarding is active.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Lift the receiver, listen for the dial tone, and dial <code>*71</code> followed by the 10-digit forwarding number (e.g., <code>*71-999-555-4567</code>). The call will be forwarded if not answered after 3 to 6 rings. Once you hear the beeps, the call will automatically end, confirming activation.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Dial <code>*71</code> and enter the 10-digit number where you want calls to be forwarded if the line is busy. After hearing the beeps, the call will end, activating the feature.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+To turn off call forwarding, dial <code>*73</code>. Wait for the confirmation tone, and the service will be deactivated.</li>
+</ul>
+<h3 id="ringcentral">RingCentral <a href="#ringcentral" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li>
+<p><strong>Call Forward for Unreachable Phones:</strong><br>
+When your phone is offline, incoming calls are forwarded to another user’s extension or an external number. This can be configured under different call handling rules:</p>
+<ul>
+<li>User/Business hours</li>
+<li>After hours</li>
+<li>Custom answering rules<br>
+Once the phone service is restored, calls will automatically resume ringing on the original phone.</li>
+</ul>
+</li>
+<li>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>The extension must have at least one desk phone with a DigitalLine assigned.</li>
+<li>Desktop &amp; Mobile Apps must be disabled in the ring list.</li>
+<li>PSTN numbers should also be turned off in the ring list.</li>
+</ul>
+</li>
+<li>
+<p><strong>Conditions</strong>:</p>
+<ul>
+<li>All desk phones tied to the extension must be unreachable for this feature to activate.</li>
+<li>If forwarding calls to other phones, all forwarding devices must be unreachable for this feature to trigger.</li>
+<li>Turning on PSTN numbers or Desktop &amp; Mobile Apps in the ring list will prevent this feature from working.</li>
+</ul>
+</li>
+<li>
+<p><strong>Enabling Call Forwarding for Unreachable Phones:</strong><br>
+Sign in to your RingCentral online account.</p>
+<ul>
+<li><em><strong>Non-admin users</strong></em>:<br>
+Click Settings in the top menu. Open the Call Handling section and select your call rule (Work-hours, After-hours, or Custom).</li>
+<li><em><strong>Admin users</strong></em>:<br>
+Click Users in the top menu. Select a user from the Users with Extensions list. Open the Call Handling section and select the desired call rule.<br>
+In the Work Hours tab, click Edit under Call Forward for Unreachable Phone. Toggle on the Call Redirection feature.<br>
+Choose where you want the calls to be forwarded:
+<ul>
+<li>Extension</li>
+<li>Other number</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Click Save to activate the forwarding rule.</strong></p>
+</li>
+</ul>
+<h3 id="vonage">Vonage <a href="#vonage" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong>
+<ul>
+<li>Lift the receiver, dial <code>*72</code>, and enter the 10-digit number you wish to forward calls to. Press 1 to confirm, and wait for the confirmation tone.</li>
+<li>Online Setup: You can also set up call forwarding via your Online Account or the Vonage Enterprise Portal by navigating to the <strong>Summary tab</strong> &gt; <strong>My Numbers</strong> &gt; <strong>Calling Features</strong> &gt; <strong>Call Forwarding</strong> and following the prompts to enter the forwarding number and desired ring duration before forwarding.</li>
+</ul>
+</li>
+<li><strong>No Answer Call Forwarding:</strong>
+<ul>
+<li>Sign in to your Online Account or Vonage Enterprise Portal. Navigate to Calling Features, select Call Forwarding, and set the number of seconds before forwarding. Enter the forwarding number and save the settings.</li>
+</ul>
+</li>
+<li><strong>Busy Call Forwarding:</strong>
+<ul>
+<li>For residential users, sign in to your Online Account, go to Calling Features, and enter the forwarding number. Save the settings.</li>
+<li>For enterprise users, go to <strong>Voice Settings</strong> &gt; <strong>General</strong> in the Vonage Enterprise Portal to enable busy call forwarding.</li>
+</ul>
+</li>
+<li><strong>Selective Call Forwarding:</strong>
+<ul>
+<li>In the Online Account or Enterprise Portal, navigate to Calling Features, set the conditions for selective forwarding, and enter the forwarding number. Save the settings.</li>
+</ul>
+</li>
+</ul>
+<h3 id="google-voice">Google Voice <a href="#google-voice" class="anchor" aria-hidden="true">#</a></h3>
+<h4 id="android">Android: <a href="#android" class="anchor" aria-hidden="true">#</a></h4>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Open the Google Voice app on your mobile device. <strong>Tap Menu</strong> &gt; <strong>Settings</strong>, and under Custom Call Forwarding, select Manage rules. Choose the contact whose calls you want to forward, and enter the number where you want calls forwarded. The rule will be applied once saved.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+In the Google Voice app, <strong>go to Menu</strong> &gt; <strong>Settings</strong> &gt; <strong>Manage</strong> rules. Set a rule for a specific contact or group, and select the option to forward calls when unanswered. Specify the forwarding number.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Access Manage rules in the Google Voice settings. Choose the contact you wish to forward, and create a rule to forward calls when your line is busy. Enter the forwarding number and save the rule.</li>
+<li><strong>Selective Call Forwarding:</strong><br>
+In the Google Voice settings, under Custom Call Forwarding, tap Manage rules. Select a specific contact or contact group to forward their calls to a different number. The rule will activate after saving.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+To turn off custom call forwarding for a specific contact, go to Manage rules in the Google Voice settings. Find the contact or rule you want to disable, and delete or edit the rule accordingly.</li>
+</ul>
+<h4 id="iphoneios">iPhone/iOS: <a href="#iphoneios" class="anchor" aria-hidden="true">#</a></h4>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Open the Google Voice app on your mobile device. Tap Menu &gt; Settings, then navigate to Custom Call Forwarding and select Manage rules. Choose a contact or contact group and enter the number you want to forward calls to. The rule will activate once saved.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+In the Google Voice app, go to Menu &gt; Settings &gt; Manage rules. Create a rule to forward calls when unanswered and enter the forwarding number. The call forwarding will activate after saving the rule.</li>
+<li><strong>Busy Call Forwarding:</strong><br>
+Access the Google Voice settings under Manage rules. Set a rule for calls to be forwarded when the line is busy. Enter the forwarding number and save the changes.</li>
+<li><strong>Selective Call Forwarding:</strong><br>
+In Google Voice, go to Manage rules under Custom Call Forwarding. Set a rule to forward calls from specific contacts or groups and specify the forwarding number. The service will activate after saving.</li>
+<li><strong>Turning Off Call Forwarding:</strong><br>
+To turn off custom call forwarding for a specific contact or group, go to Manage rules in Google Voice, find the rule you want to disable, and delete or edit the rule.</li>
+</ul>
+<h2 id="taiwan-carriers">Taiwan Carriers <a href="#taiwan-carriers" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="chunghwa-telecom">Chunghwa Telecom <a href="#chunghwa-telecom" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Immediate Call Forwarding:</strong><br>
+To activate, dial <code>*77</code> followed by the forwarding number, then hang up.<br>
+To deactivate, dial <code>#77</code>.</li>
+<li><strong>Busy Line Call Forwarding:</strong><br>
+To activate, dial <code>*76</code> followed by the forwarding number, then hang up.<br>
+To deactivate, dial #76.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+To activate, dial <code>*75</code> followed by the forwarding number, then hang up.<br>
+To deactivate, dial #75.</li>
+</ul>
+<h3 id="taiwan-mobile">Taiwan Mobile <a href="#taiwan-mobile" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Forwarding:</strong><br>
+Forward to a Landline: Dial <code>*21</code> followed by the area code and phone number, then <code>*11#</code>, and press Send.<br>
+Forward to a Mobile Phone: Dial <code>*21</code> followed by the mobile number, then <code>*11#</code>, and press Send.<br>
+Video Calls Forward to Mobile: Dial <code>*21</code> followed by the mobile number, then <code>*24#</code>, and press Send.</li>
+<li><strong>No Answer Call Forwarding:</strong><br>
+Forward to a Landline: Dial <code>*61</code> followed by the area code and phone number, then <code>*11#</code>, and press Send.<br>
+Forward to a Mobile Phone: Dial <code>*61</code> followed by the mobile number, then <code>*11#</code>, and press Send.<br>
+Video Calls Forward to Mobile: Dial <code>*61</code> followed by the mobile number, then <code>*24#</code>, and press Send.</li>
+<li><strong>Unavailable Call Forwarding:</strong><br>
+Forward to a Landline: Dial <code>*62</code> followed by the area code and phone number, then <code>*11#</code>, and press Send.<br>
+Forward to a Mobile Phone: Dial <code>*62</code> followed by the mobile number, then <code>*11#</code>, and press Send.<br>
+Video Calls Forward to Mobile: Dial <code>*62*</code> followed by the mobile number, then <code>*24#</code>, and press Send.</li>
+<li><strong>Busy Line Call Forwarding:</strong><br>
+Forward to a Landline: Dial <code>*67*</code> followed by the area code and phone number, then <code>*11#</code>, and press Send.<br>
+Forward to a Mobile Phone: Dial <code>*67</code> followed by the mobile number, then <code>*11#</code>, and press Send.<br>
+Video Calls Forward to Mobile: Dial <code>*67</code> followed by the mobile number, then <code>*24#</code>, and press Send.</li>
+<li><strong>Cancel Call Forwarding:</strong><br>
+To cancel individual forwarding settings, dial ## followed by the specific service code (21/61/62/67) and #, then press Send.<br>
+To cancel all call forwarding, dial ##002# and press Send.</li>
+</ul>
+<h2 id="singapore-carriers">Singapore Carriers <a href="#singapore-carriers" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="singtel">Singtel <a href="#singtel" class="anchor" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Unconditional Call Transfer:</strong><br>
+Lift the handset, wait for the dial tone, and dial <code>#210YYYYYYYY#</code>, where <code>YYYYYYYY</code> is the number you want calls to be forwarded to. Wait for the repeated tone and hang up. Your call transfer is now activated.</li>
+<li><strong>Cancel Unconditional Call Transfer:</strong><br>
+Lift the handset, wait for the dial tone, and dial <code>#211#</code>. Wait for the repeated tone and hang up.</li>
+<li><strong>Call Transfer When No Reply:</strong><br>
+Lift the handset, wait for the dial tone, and dial <code>#220YYYYYYYY#</code> where <code>YYYYYYYY</code> is the number to forward calls when there’s no reply. Wait for the repeated tone and hang up.</li>
+<li><strong>Cancel Call Transfer When No Reply:</strong><br>
+Lift the handset, wait for the dial tone, and dial <code>#221#</code>. Wait for the repeated tone and hang up.</li>
+<li><strong>Call Transfer When Busy:</strong><br>
+Lift the handset, wait for the dial tone, and dial <code>#230YYYYYYYY#</code> where <code>YYYYYYYY</code> is the number to forward calls when your line is busy. Wait for the repeated tone and hang up.</li>
+<li><strong>Cancel Call Transfer When Busy:</strong><br>
+Lift the handset, wait for the dial tone, and dial <code>#231#</code>. Wait for the repeated tone and hang up.</li>
+</ul>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; Android/ iPhone
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <p style="text-align: center;">Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p>
+  
+<link rel="stylesheet" href="https://wiki.seasalt.ai/css/widget.css">
+<div id="sui-right-widgets">
+    <div id="sui-widget-btn"></div>
+</div>
+
+  
+    <script src="https://wiki.seasalt.ai/js/custom.js"></script>
+  
+    <script src="https://wiki.seasalt.ai/js/widget.js"></script>
+  
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+</footer>
+    <script src="https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js" integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp&#43;dznJkhQ2nKWFuqYPz9DUA==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js" integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V&#43;Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296&#43;Tx1MwY25qTpslERKCPKSQ==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js" integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin="anonymous" defer></script>
+  
+  </body>
+</html>
