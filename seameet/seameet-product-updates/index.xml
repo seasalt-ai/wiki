@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/</guid>
-      <description>09/19/2024 # New Features and Performance Optimization #  Saved both &amp;ldquo;Final Summary&amp;rdquo; and &amp;ldquo;Real-time Summary&amp;rdquo; within meetings to retain all necessary information. Added date grouping in the meeting list for easier differentiation of meeting dates. Adjusted the structure and presentation of action items.  Bugfix #  Fixed the issue where the extension failed to correctly capture the meeting title.  09/12/2024 # New Features and Performance Optimization #  Introduced Beta features for &amp;ldquo;Speaker ID&amp;rdquo; and &amp;ldquo;Re-run Summary&amp;rdquo; to split in-person meetings by speaker and regenerate summaries, available for paid users only.</description>
+      <description>10/03/2024 # Bugfix #  Fixed incorrect or incomplete bot names when joining meetings due to Google Meet page loading issues. Fixed issue where canceling a plan prevented users from initiating new meetings from the meeting list. Updated wording for pricing plans.  09/26/2024 # New Features and Performance Optimization #  Automatically switch to &amp;ldquo;Final Summary&amp;rdquo; when the meeting ends. Adjusted the meeting list to display the summary title instead of summary content.</description>
     </item>
     
   </channel>

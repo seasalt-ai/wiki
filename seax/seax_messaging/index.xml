@@ -56,7 +56,7 @@ Set Up Workspace # To integrate SeaX with SeaChat, you&amp;rsquo;ll need a phone
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/</guid>
-      <description>09/12/2024 # New Features and Performance Optimization #  Added the &amp;ldquo;Business Caller ID&amp;rdquo; binding feature, allowing purchased numbers to be linked with verified &amp;ldquo;Business Caller IDs&amp;rdquo; for outbound calls. Introduced dynamic loading for WhatsApp messages to improve overall loading efficiency and user experience. Added a history log for purchased numbers. Conversations with deleted contacts are retained and linked when contacts are re-added.  Bugfix #  Fixed the issue where AI agents failed to handle incoming calls.</description>
+      <description>10/03/2024 # New Features and Performance Optimization #  Added dynamic loading for WhatsApp messages to avoid errors from loading too many messages.  Bugfix #  Added a feature allowing cancel campaigns from the SeaX customer support. Fixed issue where &amp;ldquo;unsent messages&amp;rdquo; caused the conversations to display as blank. Fixed issue where SMS campaign end time was earlier than the start time.  09/26/2024 # New Features and Performance Optimization #  Added WhatsApp and Omni-Channel pricing plans.</description>
     </item>
     
   </channel>
