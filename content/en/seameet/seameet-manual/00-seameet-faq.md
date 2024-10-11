@@ -142,7 +142,14 @@ You can invite the SeaMeet copilot to join the meeting again using a mobile devi
 >
 > Be sure to wait until the previous recording has completely ended before making the second invitation, as otherwise, the system might determine that "the meeting is already being recorded," resulting in an invitation failure.
 
-27. How can I use only the hours from the team workspace to automatically join meetings, instead of using the hours from my personal workspace?
+## 27. How can I use only the hours from the team workspace to automatically join meetings, instead of using the hours from my personal workspace?
 
 Currently, SeaMeet determines which plan's hours are deducted, **based on the workspace where the meeting is stored**.
 So, if you want the feature of "automatically joined meetings" to use the team plan's hours and store the meeting records in the team workspace, you can set the default workspace to the team workspace by following this path: **Account** -> **Meeting Preference** -> **Default Settings** -> **Default Workspace**.
+
+## 28. What is the difference between the SeaMeet individual plan and the team plan?
+
+Here are the main differences between the two plans:
+
+1. The team plan allows multiple people to collaborate in the workspace, where everyone can view transcriptions in the backend, download audio, and export using Google Docs, etc.
+2. The team plan supports multiple simultaneous meetings, whereas the individual plan allows only one copilot to join a meeting at a time. For individual plan users, if the copilot is still attending Meeting A and the user starts another Meeting B, the copilot will not be able to join Meeting B.
