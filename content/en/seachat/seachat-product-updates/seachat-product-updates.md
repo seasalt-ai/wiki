@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-16T08:48:57+00:00
+lastmod: 2024-10-17T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,12 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 10/17/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Display Unread Conversation Count: Users will now see two distinct notifications in the conversation tab and they can hover over each conversation count to understand its purpose. The left number shows the total unread messages. The right number displays unread messages assigned specifically to the user, ensuring agents can easily identify their responsibilities at a glance.
+- Enhanced AI Understanding with Postback Button Content: Your AI agent will now have access to the content of buttons clicked by your customers. This ensures that the AI agent can accurately respond to follow-up queries.
+- Improved Customization Options for Webchat Forms and Menu Cards: Users can now customize the text display in the submit button in custom forms. Users also have options to enable menu cards to be always-on. Additionally, menu cards support sending a text to AI agent on click besides redirecting to an URL, and there’s now an option to remove pictures for menu cards.
 
 ### 10/15/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
