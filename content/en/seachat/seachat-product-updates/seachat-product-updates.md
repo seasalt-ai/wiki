@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-02T08:48:57+00:00
+lastmod: 2024-10-16T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,11 @@ aliases:
 weight: 101
 toc: true
 ---
+
+### 10/15/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Enhanced Upload Progress Indicator: We’ve improved the UI by adding upload progress indicators, allowing users to see exactly which URL or sitemap is being processed in real-time.
+- SeaChat Widget and Mobile Layout Enhancements: When users click the webchat widget icon, the AI agent's webchat will now open in full screen within the current tab. Additionally, layout issues on mobile screens have been resolved, ensuring the webchat is fully displayed in full screen on users’ phones.
 
 ### 10/03/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
