@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/</guid>
-      <description>10/03/2024 # New Features and Improvements #  Human-Agent Assignment: This feature introduces a streamlined interface that allows users to easily assign human agents to respond to customers. Additionally, a new filter has been added to help users quickly locate conversations that have been assigned to them. Billing Usage Page Enhancements: The Billing -&amp;gt; Usage page has been upgraded. Users can now see the model and usage information for text and voice messages.</description>
+      <description>10/17/2024 # New Features and Improvements #  Display Unread Conversation Count: Users will now see two distinct notifications in the conversation tab and they can hover over each conversation count to understand its purpose. The left number shows the total unread messages. The right number displays unread messages assigned specifically to the user, ensuring agents can easily identify their responsibilities at a glance. Enhanced AI Understanding with Postback Button Content: Your AI agent will now have access to the content of buttons clicked by your customers.</description>
     </item>
     
   </channel>
