@@ -2,15 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wiki.seasalt.ai/seax/seax_resources/sms-faq/</loc>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wiki.seasalt.ai/seax/seax_resources/</loc>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -27,7 +41,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-product-updates/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -44,7 +58,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -61,7 +75,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -78,7 +92,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -95,7 +109,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -112,21 +126,21 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/2-why-discord-bot/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -143,7 +157,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -160,28 +174,28 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_enterprise/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -198,7 +212,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -215,14 +229,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/3-how-to-use/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/08-seameet-language-setting/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -239,7 +253,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -256,7 +270,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -273,7 +287,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/16-seameet-auto-join/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -290,7 +304,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -307,7 +321,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -324,7 +338,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-agent-information/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -341,7 +355,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -358,7 +372,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -375,7 +389,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -392,21 +406,21 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/4-configuration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-agent-duplicaiton/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -423,7 +437,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -440,7 +454,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -457,7 +471,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -474,7 +488,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -491,7 +505,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -508,7 +522,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -525,7 +539,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -542,7 +556,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -559,7 +573,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -576,7 +590,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -593,7 +607,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -610,7 +624,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -627,14 +641,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -651,7 +665,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -668,14 +682,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/5-language-support/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -692,7 +706,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/0-browser-extension/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -709,7 +723,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/4-integration/13-seameet-google-doc/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -726,7 +740,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -743,14 +757,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -767,7 +781,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -784,7 +798,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -801,7 +815,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -818,14 +832,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -842,7 +856,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-whatsapp-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -859,7 +873,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -876,14 +890,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/6-community/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/01-workspace-management/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -900,14 +914,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/04-seachat-conversations/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -924,7 +938,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -941,7 +955,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -958,7 +972,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -975,7 +989,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -992,7 +1006,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/17-seameet-subscription-how-to/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1009,7 +1023,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/stt/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1026,7 +1040,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/tts/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1043,7 +1057,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-product-updates/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1060,7 +1074,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seasaltapi/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1077,7 +1091,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seasaltapi/seasalt-api/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1094,7 +1108,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_messaging/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1111,7 +1125,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-resources/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1128,7 +1142,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-payments/subscription-and-billing/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1145,7 +1159,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/billing-and-subscription/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1162,7 +1176,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-payments/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1179,7 +1193,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1196,7 +1210,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1213,7 +1227,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1230,7 +1244,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-resources/seachat-api/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1247,21 +1261,21 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-widget/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/stt/panel_tutorial_en/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/stt/decoder/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1278,21 +1292,21 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_enterprise/seax-features/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-resources/seachat-faq/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1309,14 +1323,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seasaltapi/seasalt-api/01-seachat-api-intro/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1333,14 +1347,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seasaltapi/seasalt-api/02-seax-api-intro/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1357,7 +1371,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seasaltapi/seasalt-api/03-seameet-api-intro/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1374,7 +1388,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1391,7 +1405,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1408,7 +1422,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1425,21 +1439,21 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/full-tutorials/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1456,7 +1470,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1473,14 +1487,14 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/discord/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/00-seameet-faq/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1497,7 +1511,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1514,7 +1528,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1531,7 +1545,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/15-seameet-help/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1548,7 +1562,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1565,7 +1579,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1582,7 +1596,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1599,7 +1613,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1616,7 +1630,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1633,7 +1647,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/seachat-manual/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1650,7 +1664,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/getting-started/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1667,7 +1681,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1684,7 +1698,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seavoice/index/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1701,7 +1715,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/index/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1718,7 +1732,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seameet/seameet-manual/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1735,7 +1749,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seachat/index/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -1752,7 +1766,7 @@
   
   <url>
     <loc>https://wiki.seasalt.ai/seax/index/</loc>
-    <lastmod>2024-10-16T10:42:45-07:00</lastmod>
+    <lastmod>2024-10-17T10:22:43-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
