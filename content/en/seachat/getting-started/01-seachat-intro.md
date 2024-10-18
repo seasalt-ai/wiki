@@ -9,8 +9,6 @@ draft: false
 images: []
 aliases:
   - /en/seachat/seachat-intro/01-introduction/
-  - /seachat/seachat-intro/01-seachat-intro/
-  - /seachat/
 toc: true
 ---
 

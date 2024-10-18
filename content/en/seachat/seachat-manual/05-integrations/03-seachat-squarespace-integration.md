@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-integrations"
 aliases:
-  - /seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/
+  - en/seachat/seachat-manual/05-integrations/squarespace/
 weight: 30
 toc: true
 ---
