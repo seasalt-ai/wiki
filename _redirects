@@ -4,13 +4,10 @@
 /en/seameet/01-seameet-intro/ /seameet/seameet-manual/01-seameet-intro/
 /seameet/ /seameet/seameet-manual/01-seameet-intro/
 /en/seachat/seachat-integrations/google-calendar/ /seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/
-/seachat/seachat-integrations/05-seachat-google-calendar-integration/ /seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/
-/en/seachat/seachaat-manual/02-create-agent/01-create-new-agent/ /seachat/seachat-manual/02-create-agent/01-create-new-agent/
+/en/seachat/seachat-manual/02-create-agent/01-create-new-agent/ /seachat/seachat-manual/02-create-agent/01-create-new-agent/
 /en/seameet/04-seameet-workspace/ /seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/
 /en/seameet/05-seameet-workspace-management/ /seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/
 /en/seachat/seachat-integrations/shopify/ /seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/
-/seachat/seachat-manual/shopify/ /seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/
-/seachat/seachat-integrations/01-seachat-shopify-integration/ /seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/
 /en/seameet/08-seameet-language-setting/ /seameet/seameet-manual/2-general-setup/08-seameet-language-setting/
 /en/seameet/10-seameet-sharing/ /seameet/seameet-manual/2-general-setup/10-seameet-sharing/
 /zh/seameet/03-seameet-how-to-invite-seameet/ /seameet/seameet-manual/2-general-setup/03-seameet-how-to-invite-seameet/
@@ -18,8 +15,7 @@
 /en/seameet/in-person-meetings/ /seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/
 /seameet/in-person-meetings/ /seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/
 /en/seachat/seachaat-manual/02-create-agent/03-advanced-settings/01-agent-information/ /seachat/seachat-manual/02-create-agent/01-agent-information/
-/seachat/seachat-manual/02-create-agent/03-advanced-settings/01-agent-information/ /seachat/seachat-manual/02-create-agent/01-agent-information/
-/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/ /seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/
+en/seachat/seachat-manual/05-integrations/squarespace/ /seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/
 /en/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/ /seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/
 /en/seachat/seachat-manual/02-create-agent/03-agent-duplication-replacement /seachat/seachat-manual/02-create-agent/03-agent-duplicaiton/
 /en/seachat/seachat-intro/03-add-knowledge/08-manual-upload/ /seachat/seachat-manual/03-add-knowledge/08-manual-upload/
@@ -35,14 +31,8 @@
 /en/seameet/12-seameet-labels/ /seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/
 /en/seachat/seachat-intro/03-add-knowledge/07-/import-sitemaps/ /seachat/seachat-manual/03-add-knowledge/07-import-sitemap/
 /en/seachat/seachat-integrations/wordpress/ /seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/
-/seachat/seachat-integrations/wordpress/ /seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/
-/seachat/seachat-integrations/06-seachat-wordpress-integration/ /seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/
 /en/seachat/seachat-integrations/wix/ /seachat/seachat-manual/05-integrations/04-seachat-wix-integration/
-/seachat/seachat-integrations/wix/ /seachat/seachat-manual/05-integrations/04-seachat-wix-integration/
-/seachat/seachat-integrations/02-seachat-wix-integration/ /seachat/seachat-manual/05-integrations/04-seachat-wix-integration/
 /en/seachat/seachat-integrations/whatsapp/ /seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/
-/seachat/seachat-integrations/whatsapp/ /seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/
-/seachat/seachat-integrations/04-seachat-whatsapp-integration/ /seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/
 /seachat/seachat-manual/channels/ /seachat/seachat-manual/04-channels/
 /en/seameet/4-integration/0-browser-extension/ /seameet/seameet-manual/4-integration/0-browser-extension/
 /seameet/seameet-manual/0-browser-extension/ /seameet/seameet-manual/4-integration/0-browser-extension/
@@ -50,18 +40,13 @@
 /en/seameet/13-seameet-google-doc/ /seameet/seameet-manual/4-integration/13-seameet-google-doc/
 /en/seachat/seachaat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag /seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/
 /en/seachat/seachat-integrations/mailerlite/ /seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/
-/seachat/seachat-integrations/mailerlite/ /seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/
-/seachat/seachat-integrations/05-seachat-mailerlite-integration/ /seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/
 /en/seachat/seachat-manual/04-channels/05-install-to-line/ /seachat/seachat-manual/04-channels/05-install-to-line/
 /seachat/seachat-manual/05-install-to-line-and-web/ /seachat/seachat-manual/04-channels/05-install-to-line/
 /en/seachat/seachat-manual/04-channels/08-install-to-webpage/ /seachat/seachat-manual/04-channels/08-install-to-webpage/
 /en/seachat/seachat-manual/integrations/ /seachat/seachat-manual/05-integrations/
 /seachat/seachat-manual/integrations/ /seachat/seachat-manual/05-integrations/
 /seachat/seachat-manual/test-and-improve/ /seachat/seachat-manual/07-test-and-improve-ai-agent/
-/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/ /seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/
 /en/seachat/seachat-integrations/seax-integration-in-seachat/ /seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/
-/seachat/seachat-integrations/seax-integration-in-seachat/ /seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/
-/seachat/seachat-integrations/07-seax-integration-in-seachat/ /seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/
 /zh/seachat/seachat-manual/workspace/ /seachat/seachat-manual/06-workspace/
 /seachat/seachat-manual/workspace/ /seachat/seachat-manual/06-workspace/
 /en/seax/seax_messaging/seax-whatsapp-integration/ /seax/seax_messaging/seax-whatsapp-integration/
@@ -106,11 +91,11 @@
 /en/seachat/seachat-manual/03-add-knowledge/10-additional-feature/01-additional-features-in-kb /seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/
 /en/seameet/00-seameet-faq/ /seameet/seameet-manual/00-seameet-faq/
 /en/seachat/seachat-intro/01-introduction/ /seachat/getting-started/01-seachat-intro/
-/seachat/seachat-intro/01-seachat-intro/ /seachat/getting-started/01-seachat-intro/
-/seachat/ /seachat/getting-started/01-seachat-intro/
 /en/seachat/seachat-intro/02-quick-start/ /seachat/getting-started/02-quick-start/
 /seachat/seachat-intro/02-quick-start/ /seachat/getting-started/02-quick-start/
-/en/seameet/15-seameet-help/ /seameet/seameet-manual/15-seameet-help/# /docs/1.0/prologue/   /docs/1.0/prologue/introduction/
+/en/seameet/15-seameet-help/ /seameet/seameet-manual/15-seameet-help/
+/en/seameet/ /seameet/seameet-manual/
+/en/seachat/ /seachat/# /docs/1.0/prologue/   /docs/1.0/prologue/introduction/
 # /docs/1.0/help/       /docs/1.0/help/how-to-update/
 # /docs/1.0/            /docs/1.0/prologue/introduction/
 # /docs/                /docs/1.0/prologue/introduction/
