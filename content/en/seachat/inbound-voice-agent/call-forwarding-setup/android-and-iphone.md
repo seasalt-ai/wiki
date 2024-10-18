@@ -1,5 +1,5 @@
 ---
-title: "Android/ iPhone"
+title: "Android / iPhone"
 description: "SeaChat Feature Tutorial | Call Forwarding Setup (Android/iPhone)"
 lead: ""
 date: 2024-10-03 10:43:51.069 +0100
@@ -11,7 +11,7 @@ weight: 403
 
 ## Check if the preparation step is done
 
-To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven't done this, Please check out our [tutorial](https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding/) on how to do so.
+To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven't done this, Please check out our [tutorial](https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/) on how to do so.
 
 
 ## Forward your personals calls to SeaChat (Android)
