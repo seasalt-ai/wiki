@@ -5,7 +5,7 @@
 
 [[main]]
   name = "SeaChat"
-  url = "/zh/seachat/01-seachat-intro/"
+  url = "/zh/seachat/getting-started/01-seachat-intro/"
   weight = 20
 
 [[main]]
