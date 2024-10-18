@@ -8,6 +8,6 @@ weight: 60
 draft: false
 images: []
 aliases:
-  - /seachat/seachat-manual/test-and-improve/
+  - /zh/seachat/seachat-manual/test-and-improve/
 ---
   
