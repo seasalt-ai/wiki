@@ -11,7 +11,7 @@ weight: 404
 
 ## Check if the preparation step is done
 
-To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven't done this, Please check out our [tutorial](https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding/) on how to do so. 
+To proceed with the configuration of the call forwarding, we need to make sure that we have deployed a phone number that will be answered by SeaChat AI agents. If you haven't done this, Please check out our [tutorial](https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/) on how to do so. 
 
 ## Forward your Business calls to SeaChat
 
