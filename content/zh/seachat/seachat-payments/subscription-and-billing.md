@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /zh/seachat/billing-and-subscription/
+url: /zh/seachat/billing-subs/   
 weight: 101
 toc: true
 ---

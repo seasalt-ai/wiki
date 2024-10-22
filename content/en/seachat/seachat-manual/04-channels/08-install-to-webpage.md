@@ -10,6 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
   - /en/seachat/seachat-manual/04-channels/08-install-to-webpage/
+url: /en/seachat/manual/channels/webpage/  
 weight: 50
 toc: true
 ---

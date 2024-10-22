@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
   - /en/seameet/16-seameet-auto-join/
+url: /en/seameet/auto-join/  
 weight: 22
 toc: true
 ---

@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /en/seameet/10-seameet-sharing/
+url: /en/seameet/sharing/   
 weight: 21
 toc: true
 ---

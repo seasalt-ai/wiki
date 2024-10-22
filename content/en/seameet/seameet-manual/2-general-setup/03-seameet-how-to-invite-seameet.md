@@ -9,7 +9,8 @@ menu:
   seameet:
       parent: "03-seameet-how-to-invite-seameet"
 aliases:
-   - /zh/seameet/03-seameet-how-to-invite-seameet/
+   - /en/seameet/03-seameet-how-to-invite-seameet/
+url: /en/seameet/invite-seameet/   
 weight: 21
 toc: true
 ---

@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /en/seachat/seachat-intro/03-add-knowledge/03-multimedia-upload/
+url: /en/seachat/manual/add-knowledge/multimedia-upload/
 ---
 > 🧭 **File Size Rule**
 >

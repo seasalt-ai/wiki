@@ -10,6 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
    - /zh/seameet/09-seameet-recording/
+url:   /zh/seameet/recording/
 weight: 33
 toc: true
 ---

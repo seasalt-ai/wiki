@@ -10,6 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
   - /en/seachat/seachat-manual/seachat-agent-conversation/
+url:  /en/seachat/manual/conversation/
 weight: 70
 toc: true
 ---

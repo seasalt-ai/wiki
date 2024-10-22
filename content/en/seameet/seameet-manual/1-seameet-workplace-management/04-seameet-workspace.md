@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /en/seameet/04-seameet-workspace/
+url: /en/seameet/workspace/
 weight: 11
 toc: true
 ---

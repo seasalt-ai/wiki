@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /zh/seachat/file-size-rule/
+url: /zh/seachat/file-size-rule/
 weight: 160 
 toc: true
 ---

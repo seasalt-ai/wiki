@@ -10,7 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
    - /en/seachat/seachat-integrations/whatsapp/
-
+url: /en/seachat/integrations/whatsapp/
 weight: 40
 toc: true
 ---

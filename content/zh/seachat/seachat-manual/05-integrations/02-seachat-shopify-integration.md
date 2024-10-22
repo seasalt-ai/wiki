@@ -10,6 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
    - /zh/seachat/seachat-integrations/shopify/
+url: /zh/seachat/integrations/shopify/
 weight: 10
 toc: true
 ---

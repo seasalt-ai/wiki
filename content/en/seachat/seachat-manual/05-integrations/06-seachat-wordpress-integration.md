@@ -10,6 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/wordpress/
+url: /en/seachat/integrations/wordpress/  
 weight: 40
 toc: true
 ---

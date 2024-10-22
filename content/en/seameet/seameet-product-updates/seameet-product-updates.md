@@ -11,6 +11,7 @@ menu:
 aliases:
    - /en/seameet-product-updates/
    - /en/seameet/seameet-product-updates/
+url: /en/seameet/seameet-product-updates/   
 weight: 101
 toc: true
 ---

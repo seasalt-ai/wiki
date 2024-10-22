@@ -10,6 +10,7 @@ images: []
 toc: true
 aliases:
   - /en/seachat/seachat-manual/02-create-agent/03-agent-duplication-replacement
+url: /en/seachat/manual/create-agent/version-control
 ---
 
 

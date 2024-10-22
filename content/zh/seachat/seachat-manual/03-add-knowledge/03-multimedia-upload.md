@@ -8,6 +8,7 @@ draft: false
 images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/
+url: /zh/seachat/manual/add-knowledge/multimedia-upload/
 ---
 
 > 🧭 **檔案大小規則**

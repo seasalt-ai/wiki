@@ -10,6 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
    - /zh/seameet/11-seameet-end-a-meeting/
+url: /zh/seameet/end-a-meeting/   
 weight: 34
 toc: true
 ---

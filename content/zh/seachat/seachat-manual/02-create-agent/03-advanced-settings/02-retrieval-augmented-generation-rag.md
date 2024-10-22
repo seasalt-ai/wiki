@@ -10,6 +10,7 @@ images: []
 toc: true
 aliases:
   - /zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag
+url: /zh/seachat/manual/create-agent/advanced-settings/rag
 ---
 
 ## 簡介
