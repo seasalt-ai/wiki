@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /en/seachat/seachat-manual/03-add-knowledge/05-document-upload/
+url: /en/seachat/manual/add-knowledge/document-upload/
 ---
 > 🧭 **File Size Rule**
 >

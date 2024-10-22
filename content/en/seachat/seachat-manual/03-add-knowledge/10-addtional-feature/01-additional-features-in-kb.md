@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /en/seachat/seachat-manual/03-add-knowledge/10-additional-feature/01-additional-features-in-kb
+url: /en/seachat/manual/add-knowledge/additional-features-in-kb/
 ---
 
 ## Overview

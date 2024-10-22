@@ -10,6 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
   - /en/seameet/17-seameet-subscription-how-to/
+url: /en/seameet/manual/subscription/  
 weight: 100
 toc: true
 ---

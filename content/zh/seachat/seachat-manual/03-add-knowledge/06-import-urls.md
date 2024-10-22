@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/
+url: /zh/seachat/manual/add-knowledge/import-urls/
 ---
 > 🧭 **檔案大小規則**
 >

@@ -10,6 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/seax-integration-in-seachat/
+url: /seachat/integrations/seax-seachat/  
 weight: 60
 toc: true
 ---

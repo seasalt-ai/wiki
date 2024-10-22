@@ -10,6 +10,7 @@ menu:
       parent: "seameet-manual"
 aliases:
    - /zh/seameet/16-seameet-auto-join/
+url: /zh/seameet/auto-join/
 weight: 24
 toc: true
 ---

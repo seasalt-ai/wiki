@@ -8,7 +8,8 @@ weight: 36
 draft: false
 images: []
 aliases:
-  - /en/seachat/seachat-intro/03-add-knowledge/07-/import-sitemaps/
+  - /en/seachat/seachat-intro/03-add-knowledge/07-import-sitemaps/
+url: /en/seachat/manual/add-knowledge/import-sitemaps/
 ---
 > 🧭 **File Size Rule**
 >

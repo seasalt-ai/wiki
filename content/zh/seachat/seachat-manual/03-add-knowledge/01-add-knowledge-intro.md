@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/
+url: /zh/seachat/manual/add-knowledge/intro/
 ---
 
 ## 簡介

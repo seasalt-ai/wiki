@@ -10,6 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/mailerlite/
+url: /en/seachat/integrations/mailerlite/  
 weight: 50
 toc: true
 ---

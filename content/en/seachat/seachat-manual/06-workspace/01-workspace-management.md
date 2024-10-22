@@ -10,6 +10,7 @@ images: []
 aliases:
   - /en/seachat/workspace/01-workspace-management
   - /seachat/workspace/01-workspace-management
+url: /en/seachat/workspace/workspace-management/
 ---
 
 Workspace is the control center of all your agents and members. Let's first navigate to the section under **Workspace** to find all the features that we will cover in this article. 

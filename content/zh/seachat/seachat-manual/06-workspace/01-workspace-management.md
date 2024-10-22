@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /zh/seachat/seachat-manual/workspace/01-workspace-management
+url: /zh/seachat/workspace/workspace-management/
 ---
 
 工作區是您管理所有助理和成員的控制中心。我們首先導航到**工作區**部分，以找到本文將介紹的所有功能。

@@ -10,6 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
   - /en/seachat/seachat-manual/04-channels/07-seachat-voicebot/
+url: /en/seachat/manual/channels/voicebot/  
 weight: 70
 toc: true
 ---

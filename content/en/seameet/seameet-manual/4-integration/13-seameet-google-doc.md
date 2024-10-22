@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /en/seameet/13-seameet-google-doc/
+url: /en/seameet/manual/google-doc/
 weight: 42
 toc: true
 ---

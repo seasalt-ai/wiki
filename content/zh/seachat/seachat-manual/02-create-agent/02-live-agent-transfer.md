@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/
+url: /zh/seachat/live-agent-transfer/  
 toc: true
 ---
 

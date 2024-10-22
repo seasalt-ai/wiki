@@ -10,6 +10,7 @@ images: []
 toc: true
 aliases:
    - /zh/seachat/seachat-manual/02-create-agent/03-agent-memory
+url: /zh/seachat/manual/create-agent/advanced-settings/agent-memory/
 ---
 <div style="display: flex; align-self: flex-end; align-items: baseline">
 

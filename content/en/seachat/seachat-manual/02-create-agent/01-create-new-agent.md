@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
    - /en/seachat/seachat-manual/02-create-agent/01-create-new-agent/
+url: /en/seachat/manual/create-new-agent/  
 weight: 10
 toc: true
 ---

@@ -10,6 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/google-calendar/
+url: /en/seachat/integrations/google-calendar/  
 weight: 10
 toc: true
 ---

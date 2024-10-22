@@ -10,6 +10,7 @@ images: []
 toc: true
 aliases:
   - /en/seachat/seachat-manual/02-create-agent/02-live-agent-transfer
+url: /en/seachat/live-agent-transfer/
 ---
 A live agent is a human agent who can take over the conversation from the AI agent when needed. Not only can live agents take over the conversation, but they can also provide the virtual agent with new knowledge, and help train the virtual agent by testing and fine-tuning the response of the AI agent.
 

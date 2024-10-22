@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
   - /en/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload
+url: /en/seachat/manual/add-knowledge/csv-upload/
 ---
 
 > 🧭 **File Size Rule**

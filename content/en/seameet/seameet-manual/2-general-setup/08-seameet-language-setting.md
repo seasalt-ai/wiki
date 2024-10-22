@@ -7,6 +7,7 @@ draft: false
 images: []
 aliases:
   - /en/seameet/08-seameet-language-setting/
+url: /en/seameet/language-setting/  
 weight: 20
 toc: true
 ---

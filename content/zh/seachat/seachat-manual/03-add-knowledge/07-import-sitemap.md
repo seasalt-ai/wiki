@@ -8,6 +8,7 @@ draft: false
 images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/
+url: /zh/seachat/manual/add-knowledge/import-sitemaps/
 ---
 > 🧭 **檔案大小規則**
 >

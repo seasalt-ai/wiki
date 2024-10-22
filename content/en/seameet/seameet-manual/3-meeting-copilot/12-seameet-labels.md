@@ -10,6 +10,7 @@ menu:
     parent: "seameet-manual"
 aliases:
    - /en/seameet/12-seameet-labels/
+url: /en/seameet/meeting-labels/   
 weight: 35
 toc: true
 ---
