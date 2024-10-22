@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Set Up SeaMeet Workspace</title>
-      <link>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/</link>
+      <link>https://wiki.seasalt.ai/en/seameet/workspace/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/04-seameet-workspace/</guid>
+      <guid>https://wiki.seasalt.ai/en/seameet/workspace/</guid>
       <description>A workspace is where you manage all meetings, team members, and plans. You can create a shared workspace for your company, department, or team, allowing invited users to jointly manage all meeting records stored in this workspace.
   Manage Meetings # Meeting records will be stored in the designated workspace. You can manage future, ongoing, or completed meetings in the workspace.
   Team Collaboration # You can invite team members to join the workspace on the &amp;ldquo;Workspace Settings - Users&amp;rdquo; page to collaboratively view and edit meeting records.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Team Workspace Management</title>
-      <link>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/</link>
+      <link>https://wiki.seasalt.ai/en/seameet/workspace-management/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace-management/</guid>
+      <guid>https://wiki.seasalt.ai/en/seameet/workspace-management/</guid>
       <description>About Workspace on Team Plan # If your organization purchased SeaMeet Team Plan, the workspace owner (the user account that created the first workspace) can create multiple workspaces and manage users on SeaMeet.
 Workspace Owner # The user account that creates the workspace will be considered Workspace Owner, and the subscribed plan will apply to all workspaces under their administration.
 If your team has multiple workspaces and you wish to use one subscription for all of them, please ensure that the workspace owner creates all the workspaces.</description>

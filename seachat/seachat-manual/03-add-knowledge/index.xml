@@ -9,20 +9,20 @@
     <lastBuildDate>Mon, 04 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Add Knowledge</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/</link>
       <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/</guid>
       <description>Overview # This tutorial takes a deep dive into the different features to add information to your knowledge-based agent. We will guide you through every single step of the feature, and we will also highlight some key takeaways along the way.
 Prerequisites # By now, you should already have a SeaChat agent ready to receive new knowledge. If you have not created an agent, we kindly advise you to refer to our comprehensive tutorial on how to create an agent.</description>
     </item>
     
     <item>
       <title>Manual Entry</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/manual-entry/</link>
       <pubDate>Mon, 15 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/manual-entry/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # SeaChat provides several methods to upload files to your agent. We will focus on the Manual Entry method in this tutorial.</description>
@@ -30,10 +30,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Spreadsheet and Table</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/csv-upload/</link>
       <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/csv-upload/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # SeaChat provides many methods to upload files to your agent. We will focus on the Upload Spreadsheet method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.</description>
@@ -41,10 +41,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Audio/Video File</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/</link>
       <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # Audio and video files can be used as knowledge base for your SeaChat agent too! Usually one would first transcribe these files to text, then upload the text documents to AI agent&amp;rsquo;s knowledge base.</description>
@@ -52,10 +52,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Template Upload</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/template-upload/</link>
       <pubDate>Thu, 11 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/template-upload/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # SeaChat provides several methods to upload files to your agent. We will focus on the Upload Spreadsheet method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.</description>
@@ -63,10 +63,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Upload Documents</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/document-upload/</link>
       <pubDate>Thu, 11 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/document-upload/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # SeaChat provides several methods to upload files to your agent. We will focus on the Upload Documents method in this tutorial and by the end of the tutorial your SeaChat agent will have a customized knowledge base at your service.</description>
@@ -74,10 +74,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Import URLs</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-urls/</link>
       <pubDate>Mon, 15 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-urls/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # SeaChat provides several methods to upload files to your agent. We will focus on the Import URLs method in this tutorial.</description>
@@ -85,10 +85,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Import Sitemaps</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-sitemaps/</link>
       <pubDate>Mon, 15 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-sitemaps/</guid>
       <description>🧭 File Size Rule
 Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the File Size Rule for more information.
  Overview # SeaChat provides several methods to upload files to your agent. We will focus on the Import Sitemaps method in this tutorial.</description>
@@ -96,10 +96,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>Adding URL buttons to KB responses</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/</guid>
       <description>Overview # You can include relevant reference URLs in the AI assistant&amp;rsquo;s responses, allowing users to access more detailed content to users. In the Existing Knowledge page, you can find relevant knowledge and add reference URLs the AI agent&amp;rsquo;s responses. This feature enhances the user experience by providing additional information and resources to users when they are looking for some specific information.
   Knowledge Setting
  Additional Settings in Knowledge Base # Find Knowledge Base under Agent Configuration and click to open the uploaded knowledge.</description>
@@ -107,10 +107,10 @@ Your file size limit for each uploaded document varies depending on your subscri
     
     <item>
       <title>File Size Rule</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/file-size-rule/</link>
       <pubDate>Tue, 06 Aug 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/file-size-rule/</guid>
       <description>According to your subscription plan, you can upload files up to a certain size. If you exceed the file size limit, you will receive an error message.
 To understand the specific features in different plans, please refer to the Pricing and Plans.
 The file size rule for each plan are as follows:

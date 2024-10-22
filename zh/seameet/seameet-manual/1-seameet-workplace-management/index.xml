@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 10 Jun 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工作區管理員</title>
-      <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/4-seameet-workspace-management/</link>
+      <link>https://wiki.seasalt.ai/zh/seameet/workspace-management/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/4-seameet-workspace-management/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seameet/workspace-management/</guid>
       <description>關於 SeaMeet 團隊版 # 如果你使用的是SeaMeet團隊版，你的工作區管理員可以設定並管理工作區和各工作區的使用者。如沒有申請更改，管理員是團隊中第一個創建工作區的使用者。
 工作區主管理員 # 建立工作區的用戶帳號將被視為主管理員，該用戶所訂閱的方案將適用於其作為主管理員的所有工作區。若您的團隊有多個不同部門的工作區，希望適用於同個訂閱方案並合併收費，請由要做為主管理員的帳號統一創建各部門的工作區。例如 xxx@gmail.com 建立兩個工作區並訂閱團隊方案，則團隊方案將適用於這兩個工作區。
 ※若無法在SeaMeet產品介面更換工作區主管理員，請來信至 seameet@seasalt.ai 通知我們。

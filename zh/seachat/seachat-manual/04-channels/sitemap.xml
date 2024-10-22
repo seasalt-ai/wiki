@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/"
+                  href="https://wiki.seasalt.ai/en/seachat/integrations/whatsapp/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/"
+                  href="https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seachat/manual/channels/voicebot/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/channels/voicebot/"
                   />
     </url>
     </urlset>

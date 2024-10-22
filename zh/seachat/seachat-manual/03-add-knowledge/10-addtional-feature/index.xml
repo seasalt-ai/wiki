@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 04 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>知識庫中的額外功能</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/additional-features-in-kb/</link>
       <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/additional-features-in-kb/</guid>
       <description>簡介 # 除了快速回應之外，SeaChat 提供更進階的功能來增強您的 AI 助理的回應。這些功能包括在回應中新增按鈕、圖片和視頻。本指南將引導您如何將這些功能添加到 AI 助理的回應中，確保您的用戶獲得最全面的支持。以下所有參數適用於您上傳到知識庫的每一條知識。
 知識庫中的額外功能 # 首先，導航到知識庫儀表板並選擇要添加額外功能的現有知識。在左側邊欄的 AI助理配置 下找到 知識庫，然後點擊 現有知識 以查看已上傳到您的 AI 助理的所有知識。
 打開您希望添加額外功能的知識，然後點擊 編輯 按鈕。

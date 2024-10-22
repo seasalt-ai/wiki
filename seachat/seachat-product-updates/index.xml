@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-product-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SeaChat Release History</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/product-updates/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-product-updates/seachat-product-updates/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
       <description>10/17/2024 # New Features and Improvements #  Display Unread Conversation Count: Users will now see two distinct notifications in the conversation tab and they can hover over each conversation count to understand its purpose. The left number shows the total unread messages. The right number displays unread messages assigned specifically to the user, ensuring agents can easily identify their responsibilities at a glance. Enhanced AI Understanding with Postback Button Content: Your AI agent will now have access to the content of buttons clicked by your customers.</description>
     </item>
     

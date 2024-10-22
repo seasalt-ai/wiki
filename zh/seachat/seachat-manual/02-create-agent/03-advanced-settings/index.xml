@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 27 May 2024 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>檢索增強生成 (RAG)</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/</link>
       <pubDate>Wed, 29 May 2024 08:48:45 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/</guid>
       <description>簡介 # 檢索增強生成 (RAG) 是 SeaChat 中一個進階功能，增強了知識檢索和 AI 助理互動的準確性。通過提供您調整查詢模式、選擇檢索方法和定義知識庫檢索數量的能力，優化了 AI 助理的性能。
    SeaChat 中的 RAG 設置
  檢索查詢模式 # 無論您需要全面的上下文、專注的互動，還是快速、精確的回應，SeaChat 靈活的查詢模式確保了優化的聊天體驗，以滿足您的偏好。
@@ -28,10 +28,10 @@
     
     <item>
       <title>AI助理記憶</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/agent-memory/</link>
       <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/agent-memory/</guid>
       <description>此功能僅適用於 
 企業方案  高級方案    大型語言模型是基於LSTM（長短期記憶體架構）。但LSTM只在語言模型內部使用，不能實時紀錄現在對話的資訊。所以，我們需要一種方法來記住對話或用戶的某些特徵，我們稱之為「持久的記憶」，這樣每次對話重新開始時，大型語言模型仍能記住之前的狀態。例如，當客戶說明他吃素食，我們可以透過「記憶」在每次對談中讓大型語言模型記得客戶這項特質，藉以提供更好的回答。
 「記憶」允許你定義對話中最重要的部分，並儲存標註在客戶檔案，提供之後查詢和再利用。

@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 08 May 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>建立新助理</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/</guid>
       <description>建立新的 AI 助理 # 如果這是您第一次使用 SeaChat，您將需要建立一個新的助理。在創建工作區或被邀請加入工作區後，SeaChat 會將您帶到助理創建頁面。請查看我們AI助理資訊的教學，以深入了解AI助理。
 有時您可能希望為不同的使用案例、語言或不同的助理描述創建新的助理。SeaChat 允許用戶從頭開始創建助理或應用預定義的使用案例。現在，讓我們來看看如何使用這兩種不同的方法來創建新的助理。
 首先，讓我們使用在您的頭像旁邊的 新增AI助理 按鈕開始。
@@ -37,10 +37,10 @@
     
     <item>
       <title>AI助理資訊</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-agent-information/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/agent-information/</link>
       <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-agent-information/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/agent-information/</guid>
       <description>簡介 # 助理資訊是您的 AI 助理的核心。它包含有關您的助理的所有必要資訊，包括其名稱、描述和其他進階設置，如記憶。在本教學中，我們將帶您了解助理資訊下的助理配置中的每個參數。
  基本設置 # SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例和描述。在基本設置中，用戶可以設置以下參數：
 名稱 # 您的 AI 助理的名稱。此名稱將顯示在對話窗口中。
@@ -62,10 +62,10 @@
     
     <item>
       <title>助理版本控制</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/version-control/</link>
       <pubDate>Wed, 10 Jul 2024 08:48:45 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-agent-duplication/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/version-control/</guid>
       <description>複製AI助理 #  📍複製AI助理時，什麼資料被複製了？
 當AI助理被複製或取代時，會涉及AI助理的基本資訊、進階設置、知識庫和網頁小工具。頻道無法被複製或替換。
  當您想要創建一個與現有助理設置相似的新助理時，複製AI助理是一個非常有用的功能，允許您基於現有助理創建新的助理。
@@ -87,10 +87,10 @@ AI助理取代 #  📍取代AI助理時，什麼資料被取代了？
     
     <item>
       <title>真人客服</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/live-agent-transfer/</link>
       <pubDate>Wed, 08 May 2024 08:48:45 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/live-agent-transfer/</guid>
       <description>真人客服在需要時可以接管 AI 助理的對話。真人客服不僅可以接管對話，還可以為AI助理提供新知識，並通過測試和微調AI助理的回應來幫助培訓AI助理。
 SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟用真人客服功能。 我們建議您參考 第三方整合 或 頻道 以了解如何正確設置您的真人助理模式。
 在本教學中，我們將向您展示如何在聊天對話中轉接至真人客服，以及如何使用 SeaChat 提供的不同方法設置它。
@@ -106,10 +106,10 @@ SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟
     
     <item>
       <title>助理對話</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/04-seachat-conversation/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/conversation/</link>
       <pubDate>Tue, 30 Jul 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/04-seachat-conversation/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/conversation/</guid>
       <description>對話列表 # 對話列表是您可以查看和管理所有助理正在處理的對話的地方。您可以查看每個對話的詳細資訊，檢查對話歷史記錄，並手動回答用戶的問題。
    助理對話
  用戶可以在所有對話和真人助理對話之間切換。在真人助理對話中，用戶可以查看由真人助理處理的對話。

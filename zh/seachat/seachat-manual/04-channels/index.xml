@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WhatsApp</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/</link>
       <pubDate>Fri, 12 Jul 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/</guid>
       <description>🎥影片教學 #  簡介 # 在本節中，我們將深入探討如何在WhatsApp上設置一個ChatGPT驅動的聊天機器人或聊天助理。完成本節後，您將清楚了解如何：
  自動回應用戶訊息:   將您的WhatsApp企業帳戶連接到SeaChat助理平台。 使用ChatGPT的先進語言模型訓練AI助理，生成自然語言回應以應對各種用戶查詢。 配置聊天助理，根據您的知識庫自動回應來訊消息。  通過SeaChat訪問所有與用戶的對話:   使用SeaChat這個用戶友好的界面，訪問和監控用戶與您的AI助理之間的所有對話。 查看聊天記錄，分析用戶行為，識別聊天助理回應中的改進空間。 高效管理和組織對話，確保與用戶的無縫通信。  允許用戶請求真人助理協助:   實施特殊指令，讓用戶在遇到複雜查詢或需要個性化支持時請求真人助理的幫助。 將對話從AI聊天助理無縫轉移到真人助理，確保順利且高效的過渡。 賦予用戶選擇所需支持級別的權利，提升整體客戶體驗。  在開始設置過程之前，請記住以下幾點關鍵：
 WhatsApp Business App限制:
@@ -23,10 +23,10 @@ WhatsApp Business App限制:
     
     <item>
       <title>LINE官方帳號</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/</link>
       <pubDate>Fri, 03 May 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/</guid>
       <description>將Seachat串接到你的LINE官方帳號 # 請按照影片教學，安裝SeaChat到你的LINE官方帳號，開始回覆客戶訊息！
  同時使用SeaChat和LINE的自動回應訊息功能 # 您可以將SeaChat定義為提供專業資訊的AI助理，能理解各式各樣的問題並根據知識庫回答的問題，而LINE則主要用於觸發關鍵字相關的活動，以及發送媒體訊息，如優惠券、卡片訊息和視頻。透過結合這兩者的功能，您可以有效地提升用戶體驗，並加強與客戶的互動。
    LINE自動回應 vs. SeaChat智能助理
@@ -40,10 +40,10 @@ WhatsApp Business App限制:
     
     <item>
       <title>Facebook Messenger</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/</link>
       <pubDate>Mon, 22 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/</guid>
       <description>🎥 影片教學 #  簡介 # 在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
  自動回App戶消息：   將您的Messenger商業帳號連接到SeaChat聊天機器人/AI助理平台。 使用ChatGPT等先進大語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。 配置聊天助理，根據您的知識庫自動回應訊息。  通過SeaChat管理所有與用戶的對話：   使用SeaChat，掌握用戶和您的聊天機器人之間的所有對話。 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的需要改進的部分。 管理對話，確保與用戶的無縫溝通。  用戶能夠請求真人客服協助：   允許用戶在他們有更進階需求或需要個性化支援時請求真人客服的協助。 順暢地將對話從AI聊天助理轉移到真人客服。 用戶可選擇他們需要的客服支援層級，增強整體客戶體驗。  到本教學結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
  使用SeaChat的ChatGPT驅動的聊天機器人與Facebook Messenger集成
@@ -56,20 +56,20 @@ Messenger的限制：
     
     <item>
       <title>網頁機器人</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/</guid>
       <description>Seachat能夠讓你使用同一個AI助理同時服務網站和LINE這兩個通訊方式。在安裝網頁助理的頁面你會有完整的程式碼，把它貼到你的網頁代碼就行。
  </description>
     </item>
     
     <item>
       <title>電話</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/voicebot/</link>
       <pubDate>Tue, 30 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/voicebot/</guid>
       <description>SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許您創建一個基於語音的對話助理來接聽所有來電，或者外撥至客戶電話。這個語音助理可以處理來電語音，回答客戶查詢，並提供客戶支援。SeaChat 語音助理還可以在需要時轉接給真人助理。在接下來的章節中，我們將向您展示設置 SeaChat 語音助理有多容易，以及您如何通過實際通話來測試您的助理。
  設置 SeaChat 語音助理 # 首先，我們需要一個新的助理來處理語音來電。創建一個新的語音助理，請點擊您的頭像旁邊的助理下拉選單。您可以看到您已創建的助理列表。點擊 新增AI助理 按鈕來創建一個新助理。
 在我的助理描述中，我確保包含了這個助理是用於語音接聽。這樣，我就可以輕鬆地辨認哪個助理是用於語音對話，哪個助理是用於文字對話。

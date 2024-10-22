@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 04 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何加入知識</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/intro/</link>
       <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/intro/</guid>
       <description>簡介 # 這份教學指南將會深入的探討，如何添加知識到你的知識庫。我們將會引導你完成每一個步驟，並且在過程中強調一些小技巧。
 開始之前 # 開始加入知識前，請先註冊SeaChat。如果您已經是SeaChat用戶，你現在手邊應該已經有一個準備好接收新知識的 SeaChat 助理。如果你還沒有建立助理，我們建議你參考我們詳細的教學指南 如何創建AI助理。
  </description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>手動輸入</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/manual-entry/</link>
       <pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/manual-entry/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 手動輸入 方法，向您展示如何手動輸入數據到您的AI助理。
@@ -41,10 +41,10 @@
     
     <item>
       <title>上傳試算表</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/csv-upload/</link>
       <pubDate>Mon, 11 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/csv-upload/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。。請參考檔案大小規則了解更多資訊。
  簡介 # SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教學中，我們將專注於上傳試算表的方法，在本教學結束時，您的 SeaChat 助理將擁有一個客製的知識庫為您服務。
@@ -63,10 +63,10 @@
     
     <item>
       <title>上傳影片/音頻檔案</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/multimedia-upload/</link>
       <pubDate>Mon, 04 Mar 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/multimedia-upload/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # 加入多媒體檔到SeaChat助理的知識庫中，不再需要將影片和音檔轉錄成文本，SeaChat替您省去了將語音轉錄成文字的步驟。現在，你可直接上傳多媒體檔案到知識庫中！
@@ -87,10 +87,10 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
     
     <item>
       <title>上傳模板文件</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/template-upload/</link>
       <pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/template-upload/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 上傳試算表 方法，到教學結束時，您的 SeaChat 助理程式將具有一個定制的知識庫，為您提供服務。
@@ -104,10 +104,10 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
     
     <item>
       <title>上傳文件</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/document-upload/</link>
       <pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/document-upload/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 上傳文件 方法，到教學結束時，您的 SeaChat 助理程式將具有一個客制的知識庫，為您提供服務。
@@ -124,10 +124,10 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
     
     <item>
       <title>匯入網址</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-urls/</link>
       <pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-urls/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # SeaChat 提供多種方法將文件上傳到您AI助理的知識庫。在本教程中，我們將專注於 匯入網址 方法。讓我們以一篇部落格文章作為例子，向您展示如何將網址匯入到您的助理。
@@ -145,10 +145,10 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
     
     <item>
       <title>匯入站點地圖</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-sitemaps/</link>
       <pubDate>Thu, 18 Apr 2024 10:43:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-sitemaps/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # SeaChat 提供許多不同的方式讓您上傳文件到您助理的知識庫中。在本教學中，我們將專注於 匯入站點地圖 方法。讓我們以站點地圖向您展示如何將網址匯入到您的助理的知識庫。
@@ -165,10 +165,10 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
     
     <item>
       <title>新增URL按鈕到知識庫回應</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/</guid>
       <description>🧭 檔案大小規則
 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考檔案大小規則了解更多資訊。
  簡介 # 您可以在 AI 助理的回應中包含相關的參考 URL，讓用戶可以訪問更詳細的內容。在 現有知識 頁面中，您可以找到相關知識並將參考 URL 新增到 AI 助理的回應中。此功能通過在用戶尋找特定信息時提供額外的信息和資源來增強用戶體驗。
@@ -186,10 +186,10 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
     
     <item>
       <title>檔案大小規則</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/file-size-rule/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/file-size-rule/</link>
       <pubDate>Tue, 06 Aug 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/file-size-rule/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/file-size-rule/</guid>
       <description>根據您的訂閱方案，您可以上傳一定大小的檔案。如果超過檔案大小限制，您將收到錯誤訊息。
 要了解不同方案的具體功能，請參考定價方案。
 各方案的檔案大小規則如下：

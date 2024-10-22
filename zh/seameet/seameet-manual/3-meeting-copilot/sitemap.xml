@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seameet/manual/view-meeting/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/"
+                  href="https://wiki.seasalt.ai/en/seameet/manual/view-meeting/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/06-seameet-view-meeting/"
+                  href="https://wiki.seasalt.ai/zh/seameet/manual/view-meeting/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seameet/meeting-analytics/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/"
+                  href="https://wiki.seasalt.ai/en/seameet/meeting-analytics/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/07-seameet-meeting-analytics/"
+                  href="https://wiki.seasalt.ai/zh/seameet/meeting-analytics/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seameet/recording/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/"
+                  href="https://wiki.seasalt.ai/en/seameet/recording/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/09-seameet-recording/"
+                  href="https://wiki.seasalt.ai/zh/seameet/recording/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seameet/end-a-meeting/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/"
+                  href="https://wiki.seasalt.ai/en/seameet/end-a-meeting/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/11-seameet-end-a-meeting/"
+                  href="https://wiki.seasalt.ai/zh/seameet/end-a-meeting/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/zh/seameet/meeting-labels/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/"
+                  href="https://wiki.seasalt.ai/en/seameet/meeting-labels/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/12-seameet-labels/"
+                  href="https://wiki.seasalt.ai/zh/seameet/meeting-labels/"
                   />
     </url>
     </urlset>

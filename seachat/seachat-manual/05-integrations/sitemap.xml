@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/integrations/google-calendar/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -13,78 +13,78 @@
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/"
+                  href="https://wiki.seasalt.ai/en/seachat/integrations/google-calendar/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/integrations/shopify/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/"
+                  href="https://wiki.seasalt.ai/zh/seachat/integrations/shopify/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/"
+                  href="https://wiki.seasalt.ai/en/seachat/integrations/shopify/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/manual/integrations/squarespace/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/"
+                  href="https://wiki.seasalt.ai/zh/manual/integrations/squarespace/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/"
+                  href="https://wiki.seasalt.ai/en/manual/integrations/squarespace/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/integrations/wix/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/"
+                  href="https://wiki.seasalt.ai/zh/seachat/integrations/wix/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/"
+                  href="https://wiki.seasalt.ai/en/seachat/integrations/wix/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/integrations/mailerlite/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/seachat/integrations/seax-seachat/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>

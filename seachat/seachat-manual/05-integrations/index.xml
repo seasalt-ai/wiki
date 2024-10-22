@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Calendar</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/google-calendar/</link>
       <pubDate>Tue, 19 Mar 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/google-calendar/</guid>
       <description>Overview #  After logging into SeaChat, navigate to Agent Configuration -&amp;gt; Integrations -&amp;gt; Google Calendar to add the integration.
  Google Calendar Integration #    Google Calendar Integration Interface
  With the Google Calendar integration, your SeaChat agent can book appointments for you through chat or voice interactions. The process is simple and involves just two steps. Follow the on-screen instructions to integrate SeaChat with your Google Calendar.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Shopify</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/shopify/</link>
       <pubDate>Sun, 10 Mar 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/shopify/</guid>
       <description>This page details the process for embedding the SeaChat AI agent into your Shopify storefront.
 Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website! Then you can build your AI agent and bring it to your Shopify websites.
 Step 2: Open Shopify # Go to your Shopify dashboard and click on Online Store from the menu.</description>
@@ -31,10 +31,10 @@ Step 2: Open Shopify # Go to your Shopify dashboard and click on Online Store 
     
     <item>
       <title>Squarespace</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</link>
+      <link>https://wiki.seasalt.ai/en/manual/integrations/squarespace/</link>
       <pubDate>Sun, 10 Mar 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/manual/integrations/squarespace/</guid>
       <description>This page details the process for embedding the SeaChat AI agent into your Squarespace website.
 Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website! Then you can build your AI agent and bring it to your Squarespace websites.
 Step 2: Open Squarespace # Go to your Squarespace dashboard for the website of interest. Select the “Website” on the sidebar menu.</description>
@@ -42,10 +42,10 @@ Step 2: Open Squarespace # Go to your Squarespace dashboard for the website of i
     
     <item>
       <title>Wordpress</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</link>
       <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</guid>
       <description>This page details the process for embedding the SeaChat AI agent into your Wordpress website.
 Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website! Then you can build your AI agent and bring it to your Wix websites.
 Step 2: Open Wordpress and &amp;ldquo;Appearance&amp;rdquo; # Go to your Wordpress dashboard for the website of interest. Click on Appearance on the left-hand side menu.</description>
@@ -53,10 +53,10 @@ Step 2: Open Wordpress and &amp;ldquo;Appearance&amp;rdquo; # Go to your Wordpre
     
     <item>
       <title>Wix</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/wix/</link>
       <pubDate>Wed, 03 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/wix/</guid>
       <description>This page details the process for embedding the SeaChat AI agent into your Wix website.
 Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website! Then you can build your AI agent and bring it to your Wix websites.
 Step 2: Open Wix and &amp;ldquo;Design Site&amp;rdquo; # Go to your Wix dashboard for the website of interest.</description>
@@ -64,10 +64,10 @@ Step 2: Open Wix and &amp;ldquo;Design Site&amp;rdquo; # Go to your Wix dashboar
     
     <item>
       <title>MailerLite</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/mailerlite/</link>
       <pubDate>Tue, 23 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/mailerlite/</guid>
       <description>This page details the process for setting up MailerLite integration with SeaChat. After setting up this integration, you can use SeaChat forms to collect customer emails and information, and add them to your email lists on MailerLite automatically.
 For a visual guide on how to integrate SeaChat with MailerLite, you can watch the tutorial video below: 
   Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website!</description>
@@ -75,10 +75,10 @@ For a visual guide on how to integrate SeaChat with MailerLite, you can watch th
     
     <item>
       <title>SeaX Integration</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/</link>
+      <link>https://wiki.seasalt.ai/seachat/integrations/seax-seachat/</link>
       <pubDate>Tue, 16 Jul 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/</guid>
+      <guid>https://wiki.seasalt.ai/seachat/integrations/seax-seachat/</guid>
       <description>Overview # In this tutorial, we will guide you through setting up Seasalt&amp;rsquo;s bulk-messaging platform, SeaX, in SeaChat. SeaX is a powerful omni-channel platform that enables you to manage all your business channels from a single interface.
 For more information, check out our SeaX Documentation.
 With SeaX integrated into SeaChat, you can not only manually manage customer conversations but also automate responses with your SeaChat AI agent. SeaX consolidates all your business channels, such as WhatsApp, phone calls, and SMS, allowing these channels to be directed to SeaChat for AI-driven responses.</description>

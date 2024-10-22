@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-product-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SeaMeet Release History</title>
-      <link>https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/</link>
+      <link>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seameet/seameet-product-updates/seameet-product-updates/</guid>
+      <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
       <description>10/03/2024 # Bugfix #  Fixed incorrect or incomplete bot names when joining meetings due to Google Meet page loading issues. Fixed issue where canceling a plan prevented users from initiating new meetings from the meeting list. Updated wording for pricing plans.  09/26/2024 # New Features and Performance Optimization #  Automatically switch to &amp;ldquo;Final Summary&amp;rdquo; when the meeting ends. Adjusted the meeting list to display the summary title instead of summary content.</description>
     </item>
     

@@ -9,50 +9,50 @@
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WhatsApp</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/whatsapp/</link>
       <pubDate>Tue, 19 Mar 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/whatsapp/</guid>
       <description>🎥 Video Tutorial #  Overview # In this section, we will dive deeper into the process of setting up a ChatGPT-powered chatbot or chat agent on WhatsApp. By the end of this section, you will have a clear understanding of how to:
  Automate responses to user messages:   Connect your WhatsApp business account to the SeaChat agent platform. Train the AI Agent using ChatGPT&amp;rsquo;s advanced language model to generate natural language responses to a wide range of user queries.</description>
     </item>
     
     <item>
       <title>LINE Official Account</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/</guid>
       <description>🎥 Integrate SeaChat with Your LINE Official Account # Follow the video tutorial to install SeaChat on your LINE Official Account and start responding to customer messages!
  Utilize SeaChat and LINE&amp;rsquo;s Auto-Response Messaging Functionality Together # You can use SeaChat as an AI assistant providing useful information, capable of understanding various questions and answering based on the knowledge base, while the LINE keyword auto-response function is mainly used to trigger actions and send media messages such as coupons, card messages, and videos.</description>
     </item>
     
     <item>
       <title>Webpage</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/</guid>
       <description>🎥 Integrate SeaChat Widget on Webpage #  Customize Your Own Company Webpage Widget # Webpage widget is a powerful tool that allows you to integrate SeaChat into your website. This feature enables you to provide real-time customer support and engage with your website visitors. The widget can be customized to match your brand identity and website design. You can also create forms to collect visitor information and feedback.
 SeaChat Widget Configuration # SeaChat widgets come with a range of customization options to help you create a seamless customer experience.</description>
     </item>
     
     <item>
       <title>Facebook Messenger</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/</link>
       <pubDate>Mon, 08 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/</guid>
       <description>🎥 Video Tutorial #  Overview # In this section, we will dive deeper into the process of setting up a ChatGPT-powered chatbot or chat agent on Facebook Messenger. By the end of this section, you will have a clear understanding of how to:
  Automate responses to user messages:   Connect your Messenger business account to the SeaChat chatbot and agent platform. Train the chatbot using ChatGPT&amp;rsquo;s advanced language model to generate natural language responses to a wide range of user queries.</description>
     </item>
     
     <item>
       <title>Calls</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/</link>
       <pubDate>Tue, 30 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/</guid>
       <description>Not only can SeaChat handle text-based conversations, but it can also handle phone calls. The SeaChat allows you to create a voice-based conversational agent to pick up all the inbound calls or to call out to customers. This voice agent can handle inbound calls, answer customer queries, and provide customer support. The SeaChat voice agent can also transfer calls to live agents when needed, providing a seamless experience for your customers.</description>
     </item>
     

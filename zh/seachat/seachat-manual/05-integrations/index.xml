@@ -25,10 +25,10 @@
     
     <item>
       <title>Shopify</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/shopify/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/shopify/</guid>
       <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Shopify商店前端的過程。
 步驟1：建立一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將訓練好的AI助理，移至您的Shopify網站上。
 步驟2：開啟Shopify # 前往您的Shopify儀表板，從選單中點擊「Online Store」。
@@ -44,10 +44,10 @@
     
     <item>
       <title>Squarespace</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</link>
+      <link>https://wiki.seasalt.ai/zh/manual/integrations/squarespace/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/</guid>
+      <guid>https://wiki.seasalt.ai/zh/manual/integrations/squarespace/</guid>
       <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Squarespace網站的過程。
 步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的Squarespace網站上。
 步驟2：開啟Squarespace # 前往您的Squarespace網站的儀表板上。在側邊選單上選擇「Website」。
@@ -63,10 +63,10 @@
     
     <item>
       <title>Wordpress</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/05-seachat-wordpress-integration/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</link>
       <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/05-seachat-wordpress-integration/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</guid>
       <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到 Wordpress 網站的過程。
 步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的 Wordpress 網站上。
 步驟2：開啟Wordpress # 前往您的 Wordpress 網站的儀表板。在右方選單選擇「外觀」。
@@ -80,10 +80,10 @@
     
     <item>
       <title>Wix</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/wix/</link>
       <pubDate>Wed, 03 Apr 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/wix/</guid>
       <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到您Wix網站的過程。
 步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的Wix網站上。
 步驟2：開啟Wix # 前往您的Wix網站的儀表板上。在右上角選單選擇「Design Site」。

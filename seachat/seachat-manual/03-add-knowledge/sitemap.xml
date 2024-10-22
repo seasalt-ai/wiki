@@ -1,178 +1,178 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/intro/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/manual-entry/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/08-manual-upload/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/manual-entry/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/08-manual-upload/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/manual-entry/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/csv-upload/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/csv-upload/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/csv-upload/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/multimedia-upload/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/template-upload/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/template-upload/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/04-template-file-upload/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/template-upload/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/document-upload/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/05-document-upload/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/document-upload/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/05-document-upload/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/document-upload/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-urls/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/06-import-urls/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-urls/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/06-import-urls/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-urls/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-sitemaps/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-sitemaps/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/07-import-sitemap/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-sitemaps/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/"
+                  href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/"
+                  href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/file-size-rule/</loc>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/file-size-rule/"
+                  href="https://wiki.seasalt.ai/zh/seachat/file-size-rule/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/"
+                  href="https://wiki.seasalt.ai/en/seachat/file-size-rule/"
                   />
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/</loc>
-      <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+      <lastmod>2024-10-22T09:45:53-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -187,19 +187,19 @@
                   />
     </url>
     <url>
-        <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/</loc>
-        <lastmod>2024-10-18T14:54:11-07:00</lastmod>
+        <loc>https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/additional-features-in-kb/</loc>
+        <lastmod>2024-10-22T09:45:53-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/"
+                    href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/additional-features-in-kb/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/"
+                    href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/additional-features-in-kb/"
                     />
       </url>
       </urlset>
