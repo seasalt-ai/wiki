@@ -31,14 +31,21 @@
       "name": "{{ .Site.Params.schemaName }}",
       "url": {{ print $baseURL }},
       "sameAs": [
+      {{ $first := true -}}
         {{ with .Site.Params.schemaTwitter -}}
-        {{ . }}
+      {{ if not $first }},{{ end }}
+      "{{ . }}"
+      {{ $first = false -}}
         {{ end -}}
         {{ with .Site.Params.schemaLinkedIn -}}
-        , {{ . }}
+      {{ if not $first }},{{ end }}
+      "{{ . }}"
+      {{ $first = false -}}
         {{ end -}}
         {{ with .Site.Params.schemaGitHub -}}
-        , {{ . }}
+      {{ if not $first }},{{ end }}
+      "{{ . }}"
+      {{ $first = false -}}
         {{ end -}}
       ],
       {{ if eq .Site.Params.schemaType "Organization" -}}
