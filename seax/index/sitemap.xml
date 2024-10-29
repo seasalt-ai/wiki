@@ -2,21 +2,21 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seax/seax_resources/</loc>
-      <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+      <lastmod>2024-10-29T12:49:40-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/seax/seax_enterprise/</loc>
-      <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+      <lastmod>2024-10-29T12:49:40-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/seax/seax_messaging/</loc>
-      <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+      <lastmod>2024-10-29T12:49:40-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -32,25 +32,25 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/seax/seax_resources/sms-faq/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seax/seax_enterprise/seax-features/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-whatsapp-integration/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -66,19 +66,19 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-widget/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/</loc>
-        <lastmod>2024-10-24T09:06:20-07:00</lastmod>
+        <lastmod>2024-10-29T12:49:40-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
