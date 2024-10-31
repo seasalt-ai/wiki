@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-17T08:48:57+00:00
+lastmod: 2024-10-30T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,12 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 10/31/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Automate Actions with Custom GPT Tools: This new feature enables the SeaChat AI agent to query a user’s API endpoint and perform custom actions based on defined conditions. GPT will trigger these actions automatically at the right time.
+- "Memory" Renamed to "Extraction": The "Memory" feature in the AI agent's Advanced Settings page is now called "Extraction," with no changes to its functionality.
+- Enhanced Workspace List for Better Quota Management: Users will now see their workspace dashboard showing two lists of workspaces. One is Active Workspaces, which shows the number of workspaces created by the user (first number) and the workspace limit allowed under the user's plan (second number). The other is Joined Workspaces, which displays workspaces owned by other users that the current user has joined.
 
 ### 10/17/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
