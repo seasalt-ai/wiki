@@ -56,7 +56,7 @@ Set Up Workspace # To integrate SeaX with SeaChat, you&amp;rsquo;ll need a phone
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/</guid>
-      <description>10/03/2024 # New Features and Performance Optimization #  Added dynamic loading for WhatsApp messages to avoid errors from loading too many messages.  Bugfix #  Added a feature allowing cancel campaigns from the SeaX customer support. Fixed issue where &amp;ldquo;unsent messages&amp;rdquo; caused the conversations to display as blank. Fixed issue where SMS campaign end time was earlier than the start time.  09/26/2024 # New Features and Performance Optimization #  Added WhatsApp and Omni-Channel pricing plans.</description>
+      <description>10/31/2024 # New Features and Improvements #  Added support for binding WhatsApp Business Platform accounts and sending/receiving messages. Updated enable and disabled statuses for AI agent on individual numbers. Enhanced retrieval of AI assistant responses to queries.  10/24/2024 # New Features and Improvements #  Added batch deletion for multiple labels. Optimized behavior logic across options when editing numbers.  Bugfix #  Fixed issues with auto label.  10/03/2024 # New Features and Performance Optimization #  Added dynamic loading for WhatsApp messages to avoid errors from loading too many messages.</description>
     </item>
     
   </channel>
