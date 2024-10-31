@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>10/17/2024 # New Features and Improvements #  Display Unread Conversation Count: Users will now see two distinct notifications in the conversation tab and they can hover over each conversation count to understand its purpose. The left number shows the total unread messages. The right number displays unread messages assigned specifically to the user, ensuring agents can easily identify their responsibilities at a glance. Enhanced AI Understanding with Postback Button Content: Your AI agent will now have access to the content of buttons clicked by your customers.</description>
+      <description>10/31/2024 # New Features and Improvements #  Automate Actions with Custom GPT Tools: This new feature enables the SeaChat AI agent to query a user’s API endpoint and perform custom actions based on defined conditions. GPT will trigger these actions automatically at the right time. &amp;ldquo;Memory&amp;rdquo; Renamed to &amp;ldquo;Extraction&amp;rdquo;: The &amp;ldquo;Memory&amp;rdquo; feature in the AI agent&amp;rsquo;s Advanced Settings page is now called &amp;ldquo;Extraction,&amp;rdquo; with no changes to its functionality. Enhanced Workspace List for Better Quota Management: Users will now see their workspace dashboard showing two lists of workspaces.</description>
     </item>
     
   </channel>
