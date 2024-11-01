@@ -46,7 +46,7 @@ Before moving onto the calling forwarding setup, let’s make sure the AI agent 
 
 
 - **Step 1** – **Create a SeaChat Agent**: 
-  - If this is your first time logging into SeaChat, you will need to set a new agent first to continue the following steps. You are welcome to visit our [wiki](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/) for a more detailed instruction on how to do so.
+  - If this is your first time logging into SeaChat, you will need to set a new agent first to continue the following steps. You are welcome to visit our [wiki](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/) for a more detailed instruction on how to do so.
 - **Step 2** – **Deploy the Voice AI agent**: 
   - We need to assign a phone to the voice AI agent, so we can deploy it into production for call answering. Follow the instructions below to complete the step or you can check out our [wiki](https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/07-seachat-voicebot/) for a more comprehensive guide – Calls Channel Configuration.
       - ***Step 2.1*** – ***Navigate to the configuration page of Calls***.

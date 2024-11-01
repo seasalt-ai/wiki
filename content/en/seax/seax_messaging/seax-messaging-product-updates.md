@@ -2,7 +2,7 @@
 title: "New Features & Releases"
 description: "Explore the latest features and updates in SeaX. Stay informed on new functionalities, bug fixes, and enhancements to optimize your experience."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-06T08:48:57+00:00
+lastmod: 2024-10-31T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,20 @@ aliases:
 weight: 104
 toc: true
 ---
+
+### 10/31/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for binding WhatsApp Business Platform accounts and sending/receiving messages.
+- Updated enable and disabled statuses for AI agent on individual numbers.
+- Enhanced retrieval of AI assistant responses to queries.
+
+### 10/24/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added batch deletion for multiple labels.
+- Optimized behavior logic across options when editing numbers.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed issues with auto label.
 
 ### 10/03/2024
 ##### **<font color="#739963">New Features and Performance Optimization</font>**

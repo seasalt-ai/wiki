@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-06T08:48:57+00:00
+lastmod: 2024-10-31T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,23 @@ url: /en/seameet/seameet-product-updates/
 weight: 101
 toc: true
 ---
+
+### 10/31/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added a light theme option.
+- Adjusted meetings to fully transcribe the entire meeting (with partial data masking depending on the user's SeaMeet plan).
+- Refined in-call messages to include language, inviter information, and plan details.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Improved reconnection mechanisms to handle unexpected service interruptions.
+
+### 10/24/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Introduced an audio retention mechanism to ensure full audio recording in case of brief meeting interruptions.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Resolved issues preventing SeaMeet functionality in meetings initiated by educational accounts due to recent Google updates.
+- Added automated audio reconstruction attempts when errors are detected.
 
 ### 10/03/2024
 ##### **<font color="#d66a60">Bugfix</font>**

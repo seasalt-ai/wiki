@@ -13,7 +13,7 @@ aliases:
 ---
 ---
 * In just under 10 minutes, you'll have your own customized AI agent set up and ready to assist your customers.
-* For more detailed guidance, please consult the [SeaChat User Manual](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/). Should you encounter any issues or have questions, our [support team](#support) is on standby to assist you. Don't hesitate to reach out.
+* For more detailed guidance, please consult the [SeaChat User Manual](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/). Should you encounter any issues or have questions, our [support team](#support) is on standby to assist you. Don't hesitate to reach out.
 ---
 
 In this tutorial, we will create a SeaChat agent from scratch. This AI agent will help answer FAQs about a parking lot business. We will walk you through the process of creating the AI agent, adding knowledge to its knowledge base, testing and fine-tuning the agent to ensure it's ready to answer all incoming questions from customers!
@@ -88,7 +88,7 @@ In **New Agent**, we need to give our agent some context of its role and functio
 ## Step 3:  Add Knowledge
 To fully leverage the capabilities of your SeaChat agent, we need to add knowledge to its knowledge base. SeaChat offers a range of options for uploading content to your agent's knowledge base. Find your agent's knowledge base by navigating to the **Knowledge Base** dashboard under **Agent Configuration** in the sidebar menu. 
 
-Feel free to try out the different ways to upload data to your knowledge base. For the purposes of this tutorial, we'll focus on utilizing the **Upload Spreadsheet** method. However, if you're interested in exploring additional data uploading techniques, we invite you to take a look at the [Add Knowledge](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/) section within our user manual for comprehensive instructions and tips.
+Feel free to try out the different ways to upload data to your knowledge base. For the purposes of this tutorial, we'll focus on utilizing the **Upload Spreadsheet** method. However, if you're interested in exploring additional data uploading techniques, we invite you to take a look at the [Add Knowledge](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/) section within our user manual for comprehensive instructions and tips.
 
 <br/>
 <center>
