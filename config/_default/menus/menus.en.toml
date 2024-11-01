@@ -1,16 +1,10 @@
 [[main]]
-  name = "SeaVoice"
-  url = "/seavoice/tts/panel_tutorial_en/"
-  weight = 5
-
+  name = "SeaChat"
+  url = "/seachat/getting-started/01-seachat-intro/"
+  weight = 10
 [[main]]
   name = "SeaMeet"
   url = "/seameet/seameet-manual/01-seameet-intro/"
-  weight = 10
-
-[[main]]
-  name = "SeaChat"
-  url = "/seachat/getting-started/01-seachat-intro/"
   weight = 15
 
 [[main]]

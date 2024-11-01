@@ -20,7 +20,7 @@ url: /en/seachat/manual/add-knowledge/manual-entry/
 SeaChat provides several methods to upload files to your agent. We will focus on the **Manual Entry** method in this tutorial. Let's use a blog post as an example to show you how to manually enter data to your agent.
 
 ## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/).
+If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/).
 
 ## Open Knowledge Base
 Find your agent's knowledge base by navigating to the **Knowledge Base** dashboard under **Agent Configuration** in the sidebar menu. Choose **Write a new KB Document** under **Manual Entry** and start entering data to be uploaded to your agent.

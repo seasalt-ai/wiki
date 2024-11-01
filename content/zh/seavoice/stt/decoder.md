@@ -11,7 +11,8 @@ menu:
 weight: 102
 toc: true
 aliases:
-  - /zh/seavoice/stt/decoder/
+  - /zh/seavoice/stt/decoder_zh/
+url: /zh/seavoice/stt/decoder/
 ---
 
 ## 解碼器
