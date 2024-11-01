@@ -7,5 +7,5 @@ lastmod: 2024-02-12T08:48:57+00:00
 draft: false
 images: []
 toc: true
-url: "/zh/seachat/"
+url: "/zh/seachat/index"
 ---
