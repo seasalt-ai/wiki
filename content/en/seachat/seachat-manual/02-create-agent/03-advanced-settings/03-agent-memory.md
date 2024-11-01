@@ -244,7 +244,7 @@ Imagine we have an AI agent tailored to enhance customer experience management. 
 
 ### Initial Setup
 
-Before delving into memory field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/) guide for detailed instructions.
+Before delving into memory field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/) guide for detailed instructions.
 
 ### Define Memory
 

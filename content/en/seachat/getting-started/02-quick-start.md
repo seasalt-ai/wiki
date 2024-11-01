@@ -13,7 +13,7 @@ aliases:
 ---
 ---
 * In just under 10 minutes, you'll have your own customized AI agent set up and ready to assist your customers.
-* For more detailed guidance, please consult the [SeaChat User Manual](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/). Should you encounter any issues or have questions, our [support team](#support) is on standby to assist you. Don't hesitate to reach out.
+* For more detailed guidance, please consult the [SeaChat User Manual](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/). Should you encounter any issues or have questions, our [support team](#support) is on standby to assist you. Don't hesitate to reach out.
 ---
 
 In this tutorial, we will create a SeaChat agent from scratch. This AI agent will help answer FAQs about a parking lot business. We will walk you through the process of creating the AI agent, adding knowledge to its knowledge base, testing and fine-tuning the agent to ensure it's ready to answer all incoming questions from customers!
