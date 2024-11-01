@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 14 Feb 2024 23:19:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seavoice/discord/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/</link>
+      <link>https://wiki.seasalt.ai/seavoice/discord/discord-bot/</link>
       <pubDate>Wed, 14 Feb 2024 23:19:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/</guid>
+      <guid>https://wiki.seasalt.ai/seavoice/discord/discord-bot/</guid>
       <description>🐙 The SeaVoice Bot is a new speech-to-text and text-to-speech Discord integration brought to you by Seasalt.ai, a startup run by some of the world’s leading experts in deep speech recognition, neural speech synthesis, and natural language processing. 🐙
 Invite SeaVoice Bot to Discord Server   Watch Video Demo #  Why We Developed SeaVoice Discord Bot? # SeaVoice is a voice intelligence bot that uses advanced AI technology to improve the Discord voice channel experience.</description>
     </item>
