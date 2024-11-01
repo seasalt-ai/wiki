@@ -11,6 +11,7 @@ menu:
 aliases:
   - /zh/seameet/01-seameet-intro/
 weight: 5
+url: /zh/seameet/seameet-manual/01-seameet-intro/
 toc: true
 ---
 

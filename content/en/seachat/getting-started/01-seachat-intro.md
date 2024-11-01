@@ -12,6 +12,7 @@ aliases:
   - /seachat/seachat-intro/01-seachat-intro/
   - /seachat/
 toc: true
+url: /seachat/getting-started/01-seachat-intro/
 ---
 
 ## Welcome to SeaChat
