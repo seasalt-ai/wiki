@@ -88,7 +88,7 @@ In **New Agent**, we need to give our agent some context of its role and functio
 ## Step 3:  Add Knowledge
 To fully leverage the capabilities of your SeaChat agent, we need to add knowledge to its knowledge base. SeaChat offers a range of options for uploading content to your agent's knowledge base. Find your agent's knowledge base by navigating to the **Knowledge Base** dashboard under **Agent Configuration** in the sidebar menu. 
 
-Feel free to try out the different ways to upload data to your knowledge base. For the purposes of this tutorial, we'll focus on utilizing the **Upload Spreadsheet** method. However, if you're interested in exploring additional data uploading techniques, we invite you to take a look at the [Add Knowledge](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/) section within our user manual for comprehensive instructions and tips.
+Feel free to try out the different ways to upload data to your knowledge base. For the purposes of this tutorial, we'll focus on utilizing the **Upload Spreadsheet** method. However, if you're interested in exploring additional data uploading techniques, we invite you to take a look at the [Add Knowledge](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/) section within our user manual for comprehensive instructions and tips.
 
 <br/>
 <center>
