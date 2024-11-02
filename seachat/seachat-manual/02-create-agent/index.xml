@@ -22,7 +22,7 @@
       <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/manual/create-agent/agent-information/</guid>
-      <description>Overview # Agent information is the core of your AI agent. It contains all the necessary information about your agent, including its name, description, and other advanced settings like memory fields. In this tutorial, we will walk you through each of the attribute that you will find in Agent Information under Agent Configuration.
+      <description>Overview # Agent information is the core of your AI agent. It contains all the necessary information about your agent, including its name, description, and other advanced settings like context extraction. In this tutorial, we will walk you through each of the attribute that you will find in Agent Information under Agent Configuration.
  Basic Setting in Agent Information # SeaChat allows you to configure your AI agent&amp;rsquo;s information such as names, use case, and description.</description>
     </item>
     
