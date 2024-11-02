@@ -16,9 +16,9 @@ aliases:
 
 ## 簡介
 
-除了 [檢索增強生成 (RAG)](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) 功能和 [記憶](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/)，SeaChat AI 還提供了多種進階設定選項，讓用戶可以進一步控制助理們行為。
+除了 [檢索增強生成 (RAG)](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) 功能和 [上下文抽取](https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/context-extraction/)，SeaChat AI 還提供了多種進階設定選項，讓用戶可以進一步控制助理們行為。
 
-雖然這些功能不如 RAG 和記憶那麼複雜，但在某些情況下，它們提供相當的價值。本文將簡單介紹這些功能。
+雖然這些功能不如 RAG 和上下文抽取那麼複雜，但在某些情況下，它們提供相當的價值。本文將簡單介紹這些功能。
 
 ---
 

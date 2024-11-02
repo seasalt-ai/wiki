@@ -1,6 +1,6 @@
 ---
 title: "AI助理資訊"
-description: "AI助理資訊是SeaChat助理的核心，包括名稱、描述和進階設置。這篇文章詳細介紹如何配置您的AI助理，以及如何使用進階功能如助理記憶和檢索增強生成(RAG)。"
+description: "AI助理資訊是SeaChat助理的核心，包括名稱、描述和進階設置。這篇文章詳細介紹如何配置您的AI助理，以及如何使用進階功能如助上下文抽取和檢索增強生成(RAG)。"
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-29T08:48:45+00:00
@@ -15,7 +15,7 @@ url: /zh/seachat/manual/create-agent/agent-information/
 
 # 簡介
 
-**助理資訊**是您的 AI 助理的核心。它包含有關您的助理的所有必要資訊，包括其名稱、描述和其他進階設置，如記憶。在本教學中，我們將帶您了解**助理資訊**下的**助理配置**中的每個參數。
+**助理資訊**是您的 AI 助理的核心。它包含有關您的助理的所有必要資訊，包括其名稱、描述和其他進階設置，如上下文抽取。在本教學中，我們將帶您了解**助理資訊**下的**助理配置**中的每個參數。
 
 ---
 
@@ -123,4 +123,4 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 
 ## 進階設置
 
-我們建議您參閱[**進階設置**](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/)教學，以了解 SeaChat 中提供的進階功能。對於助理記憶和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。
+我們建議您參閱[**進階設置**](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/)教學，以了解 SeaChat 中提供的進階功能。對於上下文抽取和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。

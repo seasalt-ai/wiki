@@ -15,7 +15,7 @@ url: /en/seachat/manual/create-agent/agent-information/
 
 # Overview
 
-Agent information is the core of your AI agent. It contains all the necessary information about your agent, including its name, description, and other advanced settings like memory fields. In this tutorial, we will walk you through each of the attribute that you will find in **Agent Information** under **Agent Configuration**.
+Agent information is the core of your AI agent. It contains all the necessary information about your agent, including its name, description, and other advanced settings like context extraction. In this tutorial, we will walk you through each of the attribute that you will find in **Agent Information** under **Agent Configuration**.
 
 ---
 
@@ -125,5 +125,5 @@ In addition to the style settings, you can also customize the chat settings. Thi
 
 ## Advanced Settings
 
-We suggest you to refer to the [Advanced Settings](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) tutorial to learn more about the advanced features available in SeaChat. For feature such as Agent Memory and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.
+We suggest you to refer to the [Advanced Settings](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) tutorial to learn more about the advanced features available in SeaChat. For feature such as context extraction and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.
 

@@ -16,9 +16,9 @@ aliases:
 
 ## Overview
 
-In addition to the [Retrieval Augmented Generation (RAG)](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) feature and [Memory](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory/), SeaChat AI offers various options in advanced settings that allow users to further control their agent’s behavior.
+In addition to the [Retrieval Augmented Generation (RAG)](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) feature and [Context Extraction](https://wiki.seasalt.ai/seachat/manual/create-agent/advanced-settings/context-extraction/), SeaChat AI offers various options in advanced settings that allow users to further control their agent’s behavior.
 
-While these features are less sophisticated than RAG and Memory, they can still be valuable in certain situations. This article provides a general walkthrough of these features.
+While these features are less sophisticated than RAG and Context Extraction, they can still be valuable in certain situations. This article provides a general walkthrough of these features.
 
 ---
 
