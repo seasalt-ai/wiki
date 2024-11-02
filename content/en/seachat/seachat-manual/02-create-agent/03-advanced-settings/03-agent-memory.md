@@ -56,11 +56,6 @@ url: /en/seachat/manual/create-agent/advanced-settings/agent-memory/
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Msgg3U3lW4M&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Large language models are based on the LSTM -- Long Short-Term Memory -- architecture. 
-However, LSTM is only used for *within* the language model itself, such as 
-co-reference resolution. In reality, we want a mechanism to remember certain attributes
-of a conversation or a user. We need a "long-lasting" memory so whenever the conversation
-resumes, the LLM still remembers its previous state.
 
 Extraction allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome. 
 
