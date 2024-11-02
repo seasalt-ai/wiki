@@ -9,8 +9,9 @@ draft: false
 images: []
 toc: true
 aliases:
-   - /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-memory
-url: /en/seachat/manual/create-agent/advanced-settings/agent-memory/
+   - /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-context-extraction
+   - /en/seachat/manual/create-agent/advanced-settings/agent-memory/
+url: /en/seachat/manual/create-agent/advanced-settings/context-extraction/
 ---
 
 
@@ -90,8 +91,8 @@ For most agents, to set up Extraction we'll use the provided UI in the **Advance
 
 
 <center>
-<a href="/images/seachat/en/memory/general-setup.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/general-setup.png" alt="">
+<a href="/images/seachat/en/context-extraction/general-setup.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/general-setup.png" alt="">
 </a>
 
 <br/>
@@ -119,9 +120,9 @@ For most agents, to set up Extraction we'll use the provided UI in the **Advance
 [//]: # ()
 [//]: # (<center>)
 
-[//]: # (<a href="/images/seachat/en/memory/add-and-remove.png" target="_blank">)
+[//]: # (<a href="/images/seachat/en/context-extraction/add-and-remove.png" target="_blank">)
 
-[//]: # (<img width="20%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/add-and-remove.png" alt="">)
+[//]: # (<img width="20%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/add-and-remove.png" alt="">)
 
 [//]: # (</a>)
 
@@ -139,9 +140,9 @@ For most agents, to set up Extraction we'll use the provided UI in the **Advance
 
 [//]: # (<center>)
 
-[//]: # (<a href="/images/seachat/en/memory/save-setting.png" target="_blank">)
+[//]: # (<a href="/images/seachat/en/context-extraction/save-setting.png" target="_blank">)
 
-[//]: # (<img width="40%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/save-setting.png" alt="">)
+[//]: # (<img width="40%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/save-setting.png" alt="">)
 
 [//]: # (</a>)
 
@@ -165,15 +166,15 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the ex
 
 > :rotating_light: NOTE :rotating_light:
 > 
-> DO NOT modify the **//QUESTIONS START** and **//QUESTIONS END** tokens. These are crucial to properly populate the memory field for this use case
+> DO NOT modify the **//QUESTIONS START** and **//QUESTIONS END** tokens. These are crucial to properly populate the extraction field for this use case
 
 2. After setting up the description and question section, press the save button at the bottom.
 
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/9b59ff3a-04aa-44c7-83a8-2cd02fe13f78)
 
 <center>
-<a href="/images/seachat/en/memory/question-start.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/question-start.png" alt="">
+<a href="/images/seachat/en/context-extraction/question-start.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/question-start.png" alt="">
 </a>
 
 <br/>
@@ -191,8 +192,8 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the ex
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/aa6a0fda-3e34-4271-9010-28305d9cd296)
 
 <center>
-<a href="/images/seachat/en/memory/advanced-settings.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/advanced-settings.png" alt="">
+<a href="/images/seachat/en/context-extraction/advanced-settings.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/advanced-settings.png" alt="">
 </a>
 
 <br/>
@@ -209,8 +210,8 @@ The extraction for each conversation will update in real time and we can check t
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/00c4d418-879d-49a5-9ffc-a49972668ed7)
 
 <center>
-<a href="/images/seachat/en/memory/conversation-page.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/conversation-page.png" alt="">
+<a href="/images/seachat/en/context-extraction/conversation-page.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/conversation-page.png" alt="">
 </a>
 
 <br/>
@@ -223,8 +224,8 @@ The extraction for each conversation will update in real time and we can check t
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/9be38868-cdbf-4223-a445-636695b8c922)
 
 <center>
-<a href="/images/seachat/en/memory/memory-btn.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/memory-btn.png" alt="">
+<a href="/images/seachat/en/context-extraction/extraction-btn.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/extraction-btn.png" alt="">
 </a>
 
 <br/>
@@ -237,8 +238,8 @@ The extraction for each conversation will update in real time and we can check t
 [comment]: ![image](https://github.com/seasalt-ai/ngChat/assets/72329316/5872958e-9b35-4ad7-93c2-50ac2a50f81f)
 
 <center>
-<a href="/images/seachat/en/memory/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/extracted-value.png" alt="">
+<a href="/images/seachat/en/context-extraction/extracted-value.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/extracted-value.png" alt="">
 </a>
 
 <br/>
@@ -260,8 +261,8 @@ Proceed by navigating to the **Advanced Settings** tab where you can define the 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/seachat/en/memory/example-advanced-setting.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-advanced-setting.png" alt="">
+    <a href="/images/seachat/en/context-extraction/example-advanced-setting.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-advanced-setting.png" alt="">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Define Extraction</p>
 </div>
@@ -280,19 +281,19 @@ The AI agent will monitor conversations in real time, updating extraction fields
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/seachat/en/memory/example-conversation.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-conversation.png" alt="">
+    <a href="/images/seachat/en/context-extraction/example-conversation.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-conversation.png" alt="">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Monitor Conversation Extraction</p>
 </div>
 
-The extracted values from conversations are accessible within the system. Simply Move to the **Conversations** page, select the desired conversation, and click on the **Extraction** button to view the extracted values. Read again [here](#monitor-conversation-memory) to learn to see your result like the image below.
+The extracted values from conversations are accessible within the system. Simply Move to the **Conversations** page, select the desired conversation, and click on the **Extraction** button to view the extracted values. Read again [here](#monitoring-conversation-extraction) to learn to see your result like the image below.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
-    <a href="/images/seachat/en/memory/example-result.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/example-result.png" alt="">
+    <a href="/images/seachat/en/context-extraction/example-result.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-result.png" alt="">
     </a>
 </div>
  <p style="margin-top: 20px; font-size: 15px">Value Extracted</p>

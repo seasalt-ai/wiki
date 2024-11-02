@@ -9,8 +9,9 @@ draft: false
 images: []
 toc: true
 aliases:
-   - /zh/seachat/seachat-manual/02-create-agent/03-agent-memory
-url: /zh/seachat/manual/create-agent/advanced-settings/agent-memory/
+   - /zh/seachat/seachat-manual/02-create-agent/03-agent-context-extraction
+   - /zh/seachat/manual/create-agent/advanced-settings/agent-memory/
+url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 ---
 <div style="display: flex; align-self: flex-end; align-items: baseline">
 
@@ -78,10 +79,10 @@ url: /zh/seachat/manual/create-agent/advanced-settings/agent-memory/
 1. 在**助理資訊**中，前往右上角的**進階設置**部分。
 
 <center>
-<a href="/images/seachat/zh/memory/general-setup.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/general-setup.png" alt="">
+<a href="/images/seachat/zh/context-extraction/general-setup.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/general-setup.png" alt="">
 </a>
-r
+
 <br/>
 
 *助理資訊 → 進階設置*
@@ -104,9 +105,9 @@ r
 
 [//]: # (<center>)
 
-[//]: # (<a href="/images/seachat/en/memory/add-and-remove.png" target="_blank">)
+[//]: # (<a href="/images/seachat/en/context-extraction/add-and-remove.png" target="_blank">)
 
-[//]: # (<img width="20%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/add-and-remove.png" alt="">)
+[//]: # (<img width="20%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/add-and-remove.png" alt="">)
 
 [//]: # (</a>)
 
@@ -122,9 +123,9 @@ r
 
 [//]: # (<center>)
 
-[//]: # (<a href="/images/seachat/zh/memory/save-setting.png" target="_blank">)
+[//]: # (<a href="/images/seachat/zh/context-extraction/save-setting.png" target="_blank">)
 
-[//]: # (<img width="40%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/save-setting.png" alt="">)
+[//]: # (<img width="40%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/save-setting.png" alt="">)
 
 [//]: # (</a>)
 
@@ -152,8 +153,8 @@ r
 2. 設置描述和問題部分後，按底部的儲存按鈕。
 
 <center>
-<a href="/images/seachat/en/memory/question-start.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/question-start.png" alt="">
+<a href="/images/seachat/en/context-extraction/question-start.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/question-start.png" alt="">
 </a>
 
 <br/>
@@ -168,8 +169,8 @@ r
 > 使用問卷使用案例時，請勿更改上下文抽取窗格中的任何部分。如果需要更改問題，請使用描述頁。
 
 <center>
-<a href="/images/seachat/en/memory/advanced-settings.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/memory/advanced-settings.png" alt="">
+<a href="/images/seachat/en/context-extraction/advanced-settings.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/advanced-settings.png" alt="">
 </a>
 
 <br/>
@@ -184,8 +185,8 @@ r
 1. 從左側前往對話頁面。
 
 <center>
-<a href="/images/seachat/zh/memory/conversation-page.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/conversation-page.png" alt="">
+<a href="/images/seachat/zh/context-extraction/conversation-page.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/conversation-page.png" alt="">
 </a>
 
 <br/>
@@ -196,8 +197,8 @@ r
 2. 從列表中找到所需的對話，並按該對話右下角的三點圖標 <mark>&#8942;</mark>。
 
 <center>
-<a href="/images/seachat/zh/memory/memory-btn.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/memory-btn.png" alt="">
+<a href="/images/seachat/zh/context-extraction/extraction-btn.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extraction-btn.png" alt="">
 </a>
 
 <br/>
@@ -208,8 +209,8 @@ r
 3. 按下**上下文抽取**將顯示該對話的最新提取值。
 
 <center>
-<a href="/images/seachat/zh/memory/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/extracted-value.png" alt="">
+<a href="/images/seachat/zh/context-extraction/extracted-value.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extracted-value.png" alt="">
 </a>
 
 <br/>
@@ -230,8 +231,8 @@ r
 繼續前往**進階設置**標籤，在此您可以定義上下文抽取欄位：
 
 <center>
-<a href="/images/seachat/zh/memory/example-advanced-setting.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/example-advanced-setting.png" alt="">
+<a href="/images/seachat/zh/context-extraction/example-advanced-setting.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/example-advanced-setting.png" alt="">
 </a>
 <p style="margin-top: 20px; font-size: 15px">定義上下文抽取</p>
 </center>
@@ -247,17 +248,17 @@ r
 AI 助理將實時監控對話，在檢測到相關信息時更新上下文抽取欄位。這種動態更新使助理能夠根據提取的數據調整其回應。
 
 <center>
-<a href="/images/seachat/zh/memory/example-conversation.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/example-conversation.png" alt="">
+<a href="/images/seachat/zh/context-extraction/example-conversation.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/example-conversation.png" alt="">
 </a>
 <p style="margin-top: 20px; font-size: 15px">監控對話上下文抽取</p>
 </center>
 
-從對話中提取的值可以在系統內訪問。只需移至**對話**頁面，選擇所需的對話，然後點擊**上下文抽取**按鈕以查看提取的值。再次閱讀[此處](#monitor-conversation-memory)以瞭解如何查看您的結果，如下圖所示。
+從對話中提取的值可以在系統內訪問。只需移至**對話**頁面，選擇所需的對話，然後點擊**上下文抽取**按鈕以查看提取的值。再次閱讀[此處](#monitor-conversation-extraction)以瞭解如何查看您的結果，如下圖所示。
 
 <center>
-<a href="/images/seachat/zh/memory/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/memory/extracted-value.png" alt="">
+<a href="/images/seachat/zh/context-extraction/extracted-value.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extracted-value.png" alt="">
 </a>
 <p style="margin-top: 20px; font-size: 15px">提取的值</p>
 </center>
