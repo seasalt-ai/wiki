@@ -10,7 +10,9 @@ menu:
       parent: "01-seameet-intro"
 aliases:
   - /zh/seameet/01-seameet-intro/
+  - /zh/seameet/
 weight: 5
+url: /zh/seameet/seameet-manual/01-seameet-intro/
 toc: true
 ---
 

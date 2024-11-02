@@ -11,6 +11,7 @@ menu:
     parent: "demo_videos_zh"
 aliases: 
     - /zh/seax/videos
+    - /zh/seax/
 weight: 120
 toc: true
 ---

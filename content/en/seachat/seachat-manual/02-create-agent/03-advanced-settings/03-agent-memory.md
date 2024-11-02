@@ -1,6 +1,6 @@
 ---
-title: "Extraction"
-description: "SeaChat Extraction tracks customer profiles to ensure relevant conversations and assist in expected outcomes."
+title: "Context Extraction"
+description: "SeaChat Context Extraction tracks customer profiles to ensure relevant conversations and assist in expected outcomes."
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-21T08:48:45+00:00
@@ -257,7 +257,7 @@ Imagine we have an AI agent tailored to enhance customer experience management. 
 
 ### Initial Setup
 
-Before delving into extraction field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-create-new-agent/) guide for detailed instructions.
+Before delving into extraction field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/) guide for detailed instructions.
 
 ### Define Extraction
 

@@ -12,7 +12,9 @@ aliases:
    - /zh/seachat/getting-started/01-seachat-intro
    - /zh/seachat/01-seachat-intro/
    - /zh/seachat/seachat-intro/01-seachat-intro/
+   - /zh/seachat/
 weight: 10
+url: /zh/seachat/getting-started/01-seachat-intro/
 toc: true
 ---
 

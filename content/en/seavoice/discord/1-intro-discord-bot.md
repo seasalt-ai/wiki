@@ -11,6 +11,7 @@ menu:
     seax:
         parent: "discord"
 toc: true
+url: /seavoice/discord/discord-bot/
 ---
 
 🐙 The SeaVoice Bot is a new speech-to-text and text-to-speech Discord integration brought to you by Seasalt.ai, a startup run by some of the world’s leading experts in deep speech recognition, neural speech synthesis, and natural language processing. 🐙
