@@ -51,7 +51,7 @@ Here we will take a look into the different pricing plans available for SeaChat.
 - AI agent response starting price $0.006USD
 - Choose your favorite model. Options include GPT-4o mini, GPT-4o, GPT-4-turbo, ChatGPT-3.5-turbo, Mistral etc. 
 - Voice AI agent over phone calls (starting from $0.15 per minute)
-- Advanced features : Memory / API Access / SeaChat branding Removal / Voice Agent
+- Advanced features : Context Extraction / API Access / SeaChat branding Removal / Voice Agent
 
 ## Model Pricing
 
