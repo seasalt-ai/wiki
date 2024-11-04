@@ -10,6 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/wix/
+  - /seachat/seachat-manual/05-integrations/04-seachat-wix-integration/
 url: /en/seachat/integrations/wix/ 
 weight: 40
 toc: true

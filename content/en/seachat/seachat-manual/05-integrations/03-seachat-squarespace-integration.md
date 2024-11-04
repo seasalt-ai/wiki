@@ -11,6 +11,7 @@ menu:
 aliases:
   - /en/seachat/seachat-manual/05-integrations/squarespace/
   - /seachat/seachat-integrations/02-seachat-squarespace-integration/
+  - /seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/
 url: /en/manual/integrations/squarespace/
 weight: 30
 toc: true
