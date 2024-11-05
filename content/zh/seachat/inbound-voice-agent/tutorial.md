@@ -47,9 +47,9 @@ weight: 401
 
 
 - **步驟1** – **創建一個SeaChat助理**:
-  - 如果這是您首次登錄SeaChat，您需要先創建一個新的助理才能繼續後續步驟。歡迎訪問我們的[wiki](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/)，以獲取更詳細的說明。
+  - 如果這是您首次登錄SeaChat，您需要先創建一個新的助理才能繼續後續步驟。歡迎訪問我們的[wiki](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/)，以獲取更詳細的說明。
 - **步驟2** – **部署語音AI助理**:
-  - 我們需要為語音AI助理分配一個電話號碼，這樣我們才能將其部署到生產環境中進行來電應答。按照以下說明完成此步驟，或您可以查看我們的[wiki](https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/)，以獲取更全面的指南——來電通道配置。
+  - 我們需要為語音AI助理分配一個電話號碼，這樣我們才能將其部署到生產環境中進行來電應答。按照以下說明完成此步驟，或您可以查看我們的[wiki](https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/)，以獲取更全面的指南——來電通道配置。
     - ***步驟2.1*** – ***導航到來電配置頁面***。
       - 在左側側邊欄中前往“Channel -> Calls”下的助理配置部分。
     - ***步驟2.2*** – ***購買一個免付費號碼並將AI助理部署到該號碼***。

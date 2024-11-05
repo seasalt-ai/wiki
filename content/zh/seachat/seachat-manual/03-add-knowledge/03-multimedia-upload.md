@@ -13,7 +13,7 @@ url: /zh/seachat/manual/add-knowledge/multimedia-upload/
 
 > 🧭 **檔案大小規則**
 >
-> 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考[檔案大小規則](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/)了解更多資訊。
+> 您的每個上傳文件的檔案大小限制會根據您的訂閱計畫而有所不同。如果超過檔案上傳限制，您將收到錯誤訊息。請在再次上傳前減小檔案大小。請參考[檔案大小規則](https://wiki.seasalt.ai/zh/seachat/file-size-rule/)了解更多資訊。
 
 
 ## 簡介
@@ -23,7 +23,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 
 ## 創建 SeaChat 助理
 
-如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/) 找到創建AI助理的步驟。
+如果你還沒有 Seachat 帳號，你可以在 [SeaChat 網站](https://chat.seasalt.ai/) 免費註冊！並在 [創建助理](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/) 找到創建AI助理的步驟。
 
 ## 開啟知識庫
 在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**轉錄音訊/影訊**，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。

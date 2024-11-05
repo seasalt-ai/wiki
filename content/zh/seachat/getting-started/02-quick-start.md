@@ -13,7 +13,7 @@ aliases:
 ---
 ---
 * 在不到10分鐘的時間內，您就可以設置好自己的定制AI助理，隨時協助您的客戶。
-* 如需更詳細的指導，請查閱[SeaChat說明書](/zh/seachat/seachat-manual/)。如果遇到任何問題或有疑問，我們的[支援團隊](#support)隨時待命協助您。請隨時聯繫我們。
+* 如需更詳細的指導，請查閱[SeaChat說明書](https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/)。如果遇到任何問題或有疑問，我們的[支援團隊](#support)隨時待命協助您。請隨時聯繫我們。
 ---
 
 在本教學中，我們將從頭開始創建一個SeaChat助理。這個AI助理將回答客戶有台北市公園的相關問題。我們將引導您完成創建AI助理的過程，向其知識庫添加知識，測試和調整助理，以確保它準備好回答客戶的所有來信問題！在本教學結束時，你將會擁有一個準備好部署的AI助理。
@@ -89,7 +89,7 @@ aliases:
 ## 步驟3：新增知識
 為了充分利用您的SeaChat助理的功能，我們需要向其知識庫添加知識。SeaChat為您的助理知識庫上傳內容提供了多種選擇。通過導航到側邊選單中的**知識庫**儀表板，找到您助理的知識庫。
 
-你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用**上傳試算表**方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的[知識庫](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/)部分，以獲取全面的指導和建議。
+你可以自由嘗試不同的知識上傳方式。為了本教學的目的，我們將使用**上傳試算表**方法。然而，如果您對探索其他知識上傳方式感興趣，我們邀請您查看我們用戶手冊中的[知識庫](https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/intro/)部分，以獲取全面的指導和建議。
 
 歡迎下載本教學的[試算表範本](/sample-files/TaipeiParkFacility_Arcade.xlsx)，並自己試試看如何上傳到AI助理的知識庫中。
 

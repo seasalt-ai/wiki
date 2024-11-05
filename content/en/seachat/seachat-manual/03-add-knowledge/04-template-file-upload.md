@@ -13,7 +13,7 @@ url: /en/seachat/manual/add-knowledge/template-upload/
 ---
 > 🧭 **File Size Rule**
 >
-> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
+> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/en/seachat/file-size-rule/) for more information.
 
 
 ## Overview
@@ -21,7 +21,7 @@ SeaChat provides several methods to upload files to your agent. We will focus on
 
 
 ## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI in [Create an Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/).
+If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI in [Create an Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/).
 
 
 ## Open Knowledge Base

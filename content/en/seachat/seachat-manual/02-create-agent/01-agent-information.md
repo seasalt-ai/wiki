@@ -28,7 +28,7 @@ The name of your AI agent. This name will be displayed in the conversation windo
 
 > :page_facing_up: **NOTE**
 > 
-> This will be the name of your agent for the purpose of agent management. If you wish to change the displayed name in your agent integration. Please refer to [Webpage Integration](/seachat/seachat-manual/04-channels/08-install-to-webpage/).
+> This will be the name of your agent for the purpose of agent management. If you wish to change the displayed name in your agent integration. Please refer to [Webpage Integration]((https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/).
 
 
 ### Use Case
@@ -83,7 +83,7 @@ You can disable this feature by unchecking the box such that your user cannot re
 ### Test your AI Agent
 You can immediately test the AI agent that you have just built. In **Agent URL**, you can click the URL to interact with your AI agent in a standalone window. 
 
-Or if you wish to integrate your AI agent into your website, you can also access your API key in the **API Key** section. Please check out the [Webpage Integration](/seachat/seachat-manual/04-channels/08-install-to-webpage/) for more information on how to programmatically integrate your AI agent into your website.
+Or if you wish to integrate your AI agent into your website, you can also access your API key in the **API Key** section. Please check out the [Webpage Integration](https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/) for more information on how to programmatically integrate your AI agent into your website.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -125,5 +125,5 @@ In addition to the style settings, you can also customize the chat settings. Thi
 
 ## Advanced Settings
 
-We suggest you to refer to the [Advanced Settings](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/) tutorial to learn more about the advanced features available in SeaChat. For feature such as context extraction and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.
+We suggest you to refer to the [Advanced Settings](https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/) tutorial to learn more about the advanced features available in SeaChat. For feature such as context extraction and Retrieval Augmented Generation (RAG), you can find them in the **Advanced Settings** section under **Agent Information**.
 

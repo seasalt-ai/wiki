@@ -28,7 +28,7 @@ Congratulations on successfully launching SeaChat to your selected channels – 
 
 If you haven’t done so already, you can go to *Workspace* → *Members* to add your team there.
 
-Note that there are [three roles](https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/01-workspace-management/#members): Admin, AI Agent Editor, and Human Agents.
+Note that there are [three roles](https://wiki.seasalt.ai/en/seachat/workspace/workspace-management/#members): Admin, AI Agent Editor, and Human Agents.
 
 Human Agents won’t be able to see how you’ve configured your AI agent, they are just there to reply to incoming messages.
 

@@ -224,7 +224,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 ### 初始設置
 
-在深入探討上下文抽取欄位配置之前，確保您的 AI 助理已運行。如果您尚未設置助理，請參閱我們的[創建新助理](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-create-new-agent/)指南以獲取詳細說明。
+在深入探討上下文抽取欄位配置之前，確保您的 AI 助理已運行。如果您尚未設置助理，請參閱我們的[創建新助理](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/)指南以獲取詳細說明。
 
 ### 定義上下文抽取
 

@@ -21,6 +21,6 @@ aliases:
 
 當用戶在 SeaChat 中使用 LINE 頻道時，可能會遇到訊息被截斷的問題，這通常發生在用戶點擊訊息按鈕以獲取信息時。這是由於 LINE 按鈕訊息的字符限制所致。
 
-SeaChat 提供了解決此問題的方法。利用 KB ID 的功能可以避免訊息被截斷。您可以了解如何使用 [KB ID](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids) 功能來避免訊息被截斷。
+SeaChat 提供了解決此問題的方法。利用 KB ID 的功能可以避免訊息被截斷。您可以了解如何使用 [KB ID](https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/#kb-id) 功能來避免訊息被截斷。
 
-請參閱我們的 [LINE 頻道](http://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/05-install-to-line/#line-按鈕訊息的限制)，以了解更多有關 LINE 所施加的訊息限制的信息。
+請參閱我們的 [LINE 頻道](https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/#line-按鈕訊息的限制)，以了解更多有關 LINE 所施加的訊息限制的信息。

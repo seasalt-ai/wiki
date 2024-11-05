@@ -14,7 +14,7 @@ toc: true
 
 ## How to Create a New Agent
 
-If this is your first time using SeaChat, you will need to create a new agent. After creating your workspace or being invited to one, SeaChat will take you to the agent creation page. There are a lot of things to consider when creating an agent, and we suggest you to read more on [Agent Information](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/01-agent-information/) to understand the basic settings of your AI agent.
+If this is your first time using SeaChat, you will need to create a new agent. After creating your workspace or being invited to one, SeaChat will take you to the agent creation page. There are a lot of things to consider when creating an agent, and we suggest you to read more on [Agent Information](https://wiki.seasalt.ai/en/seachat/manual/create-agent/agent-information/) to understand the basic settings of your AI agent.
 
 You may want to create a new agent for different use cases, languages, or different agent description. SeaChat allows users to create an agent from scratch or to utilize predefined use cases. Now, let's see how we can create a new agent using the two different methods.
 
@@ -48,12 +48,12 @@ Before we can start with the agent configuration, we have to first choose the me
 
 ### Name and Response Language
 
-Pick a name for your agent. You can pick a name that describes the task that the agent will be responsible for. For example, I have an agent with a very straightforward name, Customer Service Agent. Note that this name is for internal use. If you want to change the agent name on Webchat Widget, please go to [Webchat Widget setting](/seachat/seachat-manual/04-channels/08-install-to-webpage/).
+Pick a name for your agent. You can pick a name that describes the task that the agent will be responsible for. For example, I have an agent with a very straightforward name, Customer Service Agent. Note that this name is for internal use. If you want to change the agent name on Webchat Widget, please go to [Webchat Widget setting](https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/).
 
 In **Preferred Response Language**, pick a language that the agent will use to answer to your customer. I pick US English for the purpose of this tutorial. If you want your agent to be multilingual, you can choose "Always match user input language".
 
 ### Live Agent
-Finally, you can enable [live agent](https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/) by checking the **Users can request a live agent during chat**.
+Finally, you can enable [live agent](https://wiki.seasalt.ai/en/seachat/live-agent-transfer/) by checking the **Users can request a live agent during chat**.
 
 ### Use Case and Description
 

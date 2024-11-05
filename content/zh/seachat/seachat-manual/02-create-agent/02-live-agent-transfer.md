@@ -15,7 +15,7 @@ toc: true
 
 真人客服在需要時可以接管 AI 助理的對話。真人客服不僅可以接管對話，還可以為AI助理提供新知識，並通過測試和微調AI助理的回應來幫助培訓AI助理。
 
-SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟用真人客服功能。 我們建議您參考 [第三方整合](https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/) 或 [頻道](https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/) 以了解如何正確設置您的真人助理模式。
+SeaChat 提供許多集成配置和頻道，可能需要不同的配置才能啟用真人客服功能。 我們建議您參考 [第三方整合](https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/) 或 [頻道](https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/) 以了解如何正確設置您的真人助理模式。
 
 在本教學中，我們將向您展示如何在聊天對話中轉接至真人客服，以及如何使用 SeaChat 提供的不同方法設置它。
 
@@ -97,7 +97,7 @@ SeaChat 對話在其網頁頻道中支援 URL 和 Markdown 格式。無論是您
 
 > :open_book: **備註** :open_book:
 >
-> WebChat widget 可以同時嵌入在你的自製網站或者你的**Shopify**、**Squarespace**、**Wix**網站中。可以查看[網頁機器人](https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/)和[第三方整合](https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/) 以獲取更多把Webchat widget嵌入到網站的相關信息。
+> WebChat widget 可以同時嵌入在你的自製網站或者你的**Shopify**、**Squarespace**、**Wix**網站中。可以查看[網頁機器人](https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/)和[第三方整合](https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/) 以獲取更多把Webchat widget嵌入到網站的相關信息。
 
 
 WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是企業用於提供客戶支援的最常見頻道。

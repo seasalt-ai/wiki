@@ -28,7 +28,7 @@ aliases:
 
 如果您尚未添加，您可以前往 *工作區* → *成員* 將您的團隊添加進去。
 
-請注意，成員有 [三種角色](https://wiki.seasalt.ai/zh/seachat/seachat-manual/06-workspace/01-workspace-management/#members): 管理員、AI 助理編輯者和人工客服。
+請注意，成員有 [三種角色](https://wiki.seasalt.ai/zh/seachat/workspace/workspace-management/#members): 管理員、AI 助理編輯者和人工客服。
 
 人工客服無法看到您如何配置 AI 助理，他們只負責回覆收到的訊息。
 

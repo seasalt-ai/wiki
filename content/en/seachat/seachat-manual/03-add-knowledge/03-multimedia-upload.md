@@ -13,7 +13,7 @@ url: /en/seachat/manual/add-knowledge/multimedia-upload/
 ---
 > 🧭 **File Size Rule**
 >
-> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
+> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/en/seachat/file-size-rule/) for more information.
 
 ## Overview
 Audio and video files can be used as knowledge base for your SeaChat agent too! Usually one would first transcribe these files to text, then upload the text documents to AI agent's knowledge base. SeaChat takes care of the transcription step for you by directly accepting audio/video files!
@@ -22,7 +22,7 @@ SeaChat provides many methods to upload files to your agent. We will focus on th
 
 
 ## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based agent in [Create an Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/).
+If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based agent in [Create an Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/).
 
 
 ## Open Knowledge Base
