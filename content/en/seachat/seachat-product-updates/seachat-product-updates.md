@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-30T08:48:57+00:00
+lastmod: 2024-11-07T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,15 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 11/07/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Custom GPT Tools Result Display Options: Users can now select how results from custom GPT tools appear in webchat — either displayed in cards or as plain text in the Edit Custom GPT Tools page.
+- New SeaChat Conversation Handling Mode: Users can choose how chats with customers are managed, the three modes are:
+  - Hybrid Mode: The AI agent handles interactions initially, but users can request a live agent transfer when needed.
+  - AI Agent Only: The AI agent independently manages all chats.
+  - Human Agent Only: Human agents handle all conversations exclusively, and this mode is LIFE-TIME FREE.
+- Updated Webchat Menu Card Behavior for Text Messages: When users click on a menu card, the card name will be sent as a message from the user, and the bot will respond with the complete canned message stored within the card. The behavior for cards with URLs remains unchanged.
 
 ### 10/31/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
