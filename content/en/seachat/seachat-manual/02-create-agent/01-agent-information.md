@@ -28,7 +28,7 @@ The name of your AI agent. This name will be displayed in the conversation windo
 
 > :page_facing_up: **NOTE**
 > 
-> This will be the name of your agent for the purpose of agent management. If you wish to change the displayed name in your agent integration. Please refer to [Webpage Integration]((https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/).
+> This will be the name of your agent for the purpose of agent management. If you wish to change the displayed name in your agent integration. Please refer to [Webpage Integration](https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/).
 
 
 ### Use Case
