@@ -504,7 +504,7 @@ For Step 1, please go to your [Meta Business app](https://developers.facebook.co
 
 ## Messages Postback on WhatsApp
 
-Once you have set up your Messenger integration, you will be able to interact with your customers using the [button feature](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/) of SeaChat. This allows you to add urls or additional information to your answers in the form of buttons. 
+Once you have set up your Messenger integration, you will be able to interact with your customers using the [button feature](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/) of SeaChat. This allows you to add urls or additional information to your answers in the form of buttons. 
 
 Now the customers can click on the buttons to get more information or to navigate to a webpage.
 

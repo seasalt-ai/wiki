@@ -14,7 +14,7 @@ toc: true
 
 根據您的訂閱方案，您可以上傳一定大小的檔案。如果超過檔案大小限制，您將收到錯誤訊息。
 
-要了解不同方案的具體功能，請參考[定價方案](https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/)。
+要了解不同方案的具體功能，請參考[定價方案](https://wiki.seasalt.ai/zh/seachat/seachat-payments/pricing-plans/)。
 
 各方案的檔案大小規則如下：
 

@@ -464,7 +464,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <br/> 
 
 ## Messenger 的訊息回傳 (Postback)
-當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的[按鈕功能](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/)來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。
+當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的[按鈕功能](https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/)來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。
 
 要啟動此功能，請進入 Messenger 的 **Edit Page Subscription** 頁面。
 
@@ -492,7 +492,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 - 這些限制適用於每個按鈕，因此你可以每個訊息擁有 3 個按鈕，每個按鈕擁有各自的 1000 字元回傳資料與 20 字元的標題。
 - [開發者文件](https://developers.facebook.com/docs/messenger-platform/reference/buttons/postback)
 
-用戶可以使用 SeaChat 的 **[KB ID](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-id)** 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。
+用戶可以使用 SeaChat 的 **[KB ID](https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/#kb-id)** 功能，來改善這些限制所帶來的不便，請參閱連結以獲取更多資訊。
 
 ## :dart: 故障排除
 

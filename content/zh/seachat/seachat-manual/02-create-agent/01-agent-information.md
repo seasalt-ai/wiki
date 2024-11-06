@@ -71,7 +71,7 @@ AI 助理將用於回覆用戶的語言。如果需要AI助理以多國語言回
 ### 真人客服
 真人客服功能允許人類客服在需要時介入對話。如果啟用此功能，您的客戶將在聊天對話期間有請求真人客服的選擇。這需要您提供一名實際的人類客服來監控和回覆用戶。
 
-您可以取消選中該框以禁用此功能，從而使您的用戶無法在對話期間請求真人客服，但是真人客服仍可以從**對話**儀表板接管對話。您可以訪問我們的[真人客服教學](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/01-agent-information/)以獲得有關該功能的更詳細說明。
+您可以取消選中該框以禁用此功能，從而使您的用戶無法在對話期間請求真人客服，但是真人客服仍可以從**對話**儀表板接管對話。您可以訪問我們的[真人客服教學](https://wiki.seasalt.ai/zh/seachat/manual/create-agent/agent-information/)以獲得有關該功能的更詳細說明。
 
 > :page_facing_up: **注意**
 >
@@ -81,7 +81,7 @@ AI 助理將用於回覆用戶的語言。如果需要AI助理以多國語言回
 ### 與 AI 助理互動
 您可以立即與您剛建立的 AI 助理進行互動。在**AI助理網址**中，您可以點擊 URL 以在獨立窗口中與您的 AI 助理進行互動。
 
-或者，如果您希望將 AI 助理集成到您的網站中，您還可以在**API 金鑰**部分訪問您的 API 金鑰。請查看[網頁機器人](https://wiki.seasalt.ai/zh/seachat/seachat-manual/04-channels/08-install-to-webpage/)以獲得有關如何將您的 AI 助理以編程方式集成到您的網站的更多信息。
+或者，如果您希望將 AI 助理集成到您的網站中，您還可以在**API 金鑰**部分訪問您的 API 金鑰。請查看[網頁機器人](https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/)以獲得有關如何將您的 AI 助理以編程方式集成到您的網站的更多信息。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
@@ -123,4 +123,4 @@ SeaChat允許您設計自己的網頁聊天小工具。您可以自訂聊天小�
 
 ## 進階設置
 
-我們建議您參閱[**進階設置**](https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag/)教學，以了解 SeaChat 中提供的進階功能。對於上下文抽取和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。
+我們建議您參閱[**進階設置**](https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/)教學，以了解 SeaChat 中提供的進階功能。對於上下文抽取和檢索增強生成（RAG）等功能，您可以在助理資訊下的進階設置部分找到它們。

@@ -479,7 +479,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <br/>
 
 ## WhatsApp 的訊息回傳 (Postback)
-當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的[按鈕功能](https://wiki.seasalt.ai/zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/)來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。
+當你設定好 Messenger 的整合後，你就可以使用 SeaChat 的[按鈕功能](http://localhost:1313/zh/seachat/manual/add-knowledge/webpage-link/)來與客戶互動。這允許你在答案中以按鈕的形式加入網址或其他附加資訊。
 
 現在，客戶可以點擊按鈕來獲取更多資訊或導航到網頁。
 

@@ -80,7 +80,7 @@ Knowledge Base is where our agent will look for information to respond to user q
 
 Now, let's test out the URL button in the chat window. When the AI agent retrieves certain information from knowledge base as contextual information, it will display the answer with the URL button if the button feature is enabled for this piece of information. The user can click on the button to access the URL and get more detailed information. As simple as that!
 
-Let's first upload some information to the agent's knowledge base. Please refer to [here](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/) to find a way to upload information to the agent's knowledge base.
+Let's first upload some information to the agent's knowledge base. Please refer to [here](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/) to find a way to upload information to the agent's knowledge base.
 
 Once there is information in the knowledge base, the agent will start using this information to respond to user queries. I will provide more than one URL in the agent's answer to show you how it works. You can add as many URLs as you want to the agent's answer. 
 
@@ -193,4 +193,4 @@ That's it. Now you no longer have to worry about manually adding URL buttons to 
 
 <br/>
 
-There are more advanced features in SeaChat agents' knowledge base that you can leverage to optimize your agent's responses. Check out our tutorials on [Advanced Features](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/10-addtional-feature/01-additional-features-in-kb/) to learn more about these functionalities.
+There are more advanced features in SeaChat agents' knowledge base that you can leverage to optimize your agent's responses. Check out our tutorials on [Advanced Features](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/additional-features-in-kb/) to learn more about these functionalities.

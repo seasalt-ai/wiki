@@ -253,7 +253,7 @@ Imagine we have an AI agent tailored to enhance customer experience management. 
 
 ### Initial Setup
 
-Before delving into extraction field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/) guide for detailed instructions.
+Before delving into extraction field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/seachat/manual/create-new-agent/) guide for detailed instructions.
 
 ### Define Extraction
 
@@ -288,7 +288,7 @@ The AI agent will monitor conversations in real time, updating extraction fields
     <p style="margin-top: 20px; font-size: 15px">Monitor Conversation Extraction</p>
 </div>
 
-The extracted values from conversations are accessible within the system. Simply Move to the **Conversations** page, select the desired conversation, and click on the **Extraction** button to view the extracted values. Read again [here](#monitoring-conversation-extraction) to learn to see your result like the image below.
+The extracted values from conversations are accessible within the system. Simply Move to the **Conversations** page, select the desired conversation, and click on the **Extraction** button to view the extracted values. Read again [here](#initial-setup) to learn to see your result like the image below.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">

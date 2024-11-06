@@ -14,7 +14,7 @@ url: /en/seachat/live-agent-transfer/
 ---
 A live agent is a human agent who can take over the conversation from the AI agent when needed. Not only can live agents take over the conversation, but they can also provide the virtual agent with new knowledge, and help train the virtual agent by testing and fine-tuning the response of the AI agent.
 
-Depending on your SeaChat channel, it might take different configurations to enable the live agent feature. SeaChat offers many integration configurations and channels. We recommend you refer to [Integration](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/) or [Channels](https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/08-install-to-webpage/) to learn how to set up your agent properly.
+Depending on your SeaChat channel, it might take different configurations to enable the live agent feature. SeaChat offers many integration configurations and channels. We recommend you refer to [Integration](https://wiki.seasalt.ai/seachat/integrations/seax-seachat/) or [Channels](https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/) to learn how to set up your agent properly.
 
 In this tutorial, we will show you how to transfer to a live agent during chat conversations and how to set it up, using the different methods that SeaChat provides.
 
@@ -93,7 +93,7 @@ The conversation will be displayed in the same format as it was inputted. This f
 >
 > The WebChat widget will be the same for **Shopify** and **Squarespace**. The only difference is the way you integrate the widget into your website.
 >
-> Check [Integration](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/) for more information on how to do it.
+> Check [Integration](https://wiki.seasalt.ai/seachat/integrations/seax-seachat/) for more information on how to do it.
 
 
 The WebChat Channel is a channel that allows you to embed the SeaChat widget on your website. This channel is the most common channel used by businesses to provide customer support.

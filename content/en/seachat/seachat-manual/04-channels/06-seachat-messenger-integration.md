@@ -493,7 +493,7 @@ The following are the limitations:
 - These limits apply to each individual button, so you can have 3 buttons per message, each with its own 1000-character payload and 20-character title.
 - [Developer Documentation](https://developers.facebook.com/docs/messenger-platform/reference/buttons/postback)
 
-A good solution to reduce the effect of these limitations is to use SeaChat's **[KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids)** feature. Please check out the link for more information.
+A good solution to reduce the effect of these limitations is to use SeaChat's **[KB ID](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/#kb-ids)** feature. Please check out the link for more information.
 
 ## :dart: Troubleshooting
 

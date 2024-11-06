@@ -13,7 +13,7 @@ url: /en/seachat/manual/add-knowledge/document-upload/
 ---
 > 🧭 **File Size Rule**
 >
-> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/file-size-rule/) for more information.
+> Your file size limit for each uploaded document varies depending on your subscription plan. If you exceed the file upload limitation, you will receive an error message. Please reduce the size of your file before uploading again. Please refer to the [File Size Rule](https://wiki.seasalt.ai/en/seachat/file-size-rule/) for more information.
 
 
 ## Overview
@@ -21,7 +21,7 @@ SeaChat provides several methods to upload files to your agent. We will focus on
 
 
 ## Create a SeaChat Agent
-If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/).
+If you don't have a SeaChat account yet, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! You can find all the information you need to create a knowledge-based AI agent in [Create an Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/).
 
 
 ## Open Knowledge Base
@@ -40,7 +40,7 @@ SeaChat supports more than 20 types[^1] of documents that you can upload to your
 
 > :rotating_light: **Note** :rotating_light:
 >
-> For picture files e.g. png, we only support English documents. For best result on audio files, we suggest you use [audio/video upload](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/) instead.
+> For picture files e.g. png, we only support English documents. For best result on audio files, we suggest you use [audio/video upload](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/) instead.
 
 
 [^1]: SeaChat supports .doc, .docx, .eml, .epub, .gif, .jpg, .json, .html, .mp3, .msg, .odt, .ogg, .pdf, .png, .pptx, .ps, .rtf, .tiff, .txt, .wav, .zip files.
