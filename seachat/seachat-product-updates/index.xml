@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>10/31/2024 # New Features and Improvements #  Automate Actions with Custom GPT Tools: This new feature enables the SeaChat AI agent to query a user’s API endpoint and perform custom actions based on defined conditions. GPT will trigger these actions automatically at the right time. &amp;ldquo;Memory&amp;rdquo; Renamed to &amp;ldquo;Extraction&amp;rdquo;: The &amp;ldquo;Memory&amp;rdquo; feature in the AI agent&amp;rsquo;s Advanced Settings page is now called &amp;ldquo;Extraction,&amp;rdquo; with no changes to its functionality. Enhanced Workspace List for Better Quota Management: Users will now see their workspace dashboard showing two lists of workspaces.</description>
+      <description>11/07/2024 # New Features and Improvements #  Custom GPT Tools Result Display Options: Users can now select how results from custom GPT tools appear in webchat — either displayed in cards or as plain text in the Edit Custom GPT Tools page. New SeaChat Conversation Handling Mode: Users can choose how chats with customers are managed, the three modes are:  Hybrid Mode: The AI agent handles interactions initially, but users can request a live agent transfer when needed.</description>
     </item>
     
   </channel>
