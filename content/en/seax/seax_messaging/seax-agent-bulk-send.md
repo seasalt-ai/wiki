@@ -43,7 +43,7 @@ To integrate SeaX with SeaChat, you'll need a phone number to send messages and 
 
 First, deploy a functional AI agent on SeaChat and set up the SeaX integration. As SeaX is primarily a messaging platform, you will need to navigate to SeaChat to configure the AI agent.
 
-For more information, see the [SeaX integration on SeaChat](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/07-seax-integration-in-seachat/).
+For more information, see the [SeaX integration on SeaChat](https://wiki.seasalt.ai/seachat/integrations/seax-seachat/).
 
 ## Bulk Send with SeaX
 

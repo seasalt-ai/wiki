@@ -78,7 +78,7 @@ Yes, you can invite the copilot back to the meeting. You can go to your meeting 
 
 ## 13. **If I use an unregistered account, will the registered user be able to see the meeting records?**
 
-If the registered user has invited the copilot to the meeting, then the registered user will be able to see the meeting records. Moreover, if the registered user has scheduled the meeting in the meeting list, they can use the auto-share feature to share the meeting records with everyone that is invited to that meeting. Simply go to **General** -> **Auto Share** and choose **All participants in calendar event**. You can take a look at our [tutorial](https://wiki.seasalt.ai/seameet/seameet-manual/2-general-setup/10-seameet-sharing/) for more information.
+If the registered user has invited the copilot to the meeting, then the registered user will be able to see the meeting records. Moreover, if the registered user has scheduled the meeting in the meeting list, they can use the auto-share feature to share the meeting records with everyone that is invited to that meeting. Simply go to **General** -> **Auto Share** and choose **All participants in calendar event**. You can take a look at our [tutorial](https://wiki.seasalt.ai/en/seameet/sharing/) for more information.
 
 ## 14. **Will the registered user be able to receive the meeting transcription if they join a meeting scheduled by other users?**
 
