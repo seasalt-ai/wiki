@@ -1,9 +1,9 @@
 ---
-title: "Quickstart"
+title: "Build Your First Agent"
 description: "Set up AI agents with SeaChat. Integrate AI and human agents and manage workflows in under 10 minutes."
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
-lastmod: 2024-05-13 10:43:51.069 +0100
+lastmod: 2024-11-13 10:43:51.069 +0100
 weight: 202
 draft: false
 images: []
