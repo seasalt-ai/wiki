@@ -9,7 +9,7 @@ weight: 2
 
 ## Overview
 
-Custom GPT Tools in SeaChat allow users to enhance the bot's responses by integrating custom actions directly into conversations. This feature enables users to define specific conditions under which the bot can execute these actions, providing tailored responses and intelligent assistance based on real-time information. For example, you might want the bot to perform a search or fetch data from your company’s API, enabling SeaChat to provide enriched answers that draw on external resources.
+Custom GPT Tools in SeaChat allow users to enhance the agent's responses by integrating custom actions directly into conversations. This feature enables users to define specific conditions under which the agent can execute these actions, providing tailored responses and intelligent assistance based on real-time information. For example, you might want the agent to perform a search or fetch data from your company’s API, enabling SeaChat to provide enriched answers that draw on external resources.
 
 Here’s a quick simple tutorial to call two APIs to display pictures:
 
@@ -121,7 +121,7 @@ Once the API is configured, you can decide how to display its results in the cha
 
 <br/>
 
-*Example usage: In this case, if we check the 'Enabled' checkbox, the result will be displayed in a card format, as shown below.*
+*Example usage: In this case, if we check the *Enabled* checkbox, the result will be displayed in a card format, as shown below.*
 
 </center>
 
@@ -153,7 +153,7 @@ After filling out the required fields, a testing query will be automatically gen
 
 <br/>
 
-*Example: we click 'Submit' to execute the API, resulting in a 200 success status code.*
+*Example: we click *Submit* to execute the API, resulting in a 200 success status code.*
 
 </center>
 
