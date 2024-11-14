@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>11/07/2024 # New Features and Improvements #  Custom GPT Tools Result Display Options: Users can now select how results from custom GPT tools appear in webchat — either displayed in cards or as plain text in the Edit Custom GPT Tools page. New SeaChat Conversation Handling Mode: Users can choose how chats with customers are managed, the three modes are:  Hybrid Mode: The AI agent handles interactions initially, but users can request a live agent transfer when needed.</description>
+      <description>11/14/2024 # New Features and Improvements #  Button Display Limits on Messenger and WhatsApp: We&amp;rsquo;ve resolved an issue where exceeding the platform button limits on Messenger and WhatsApp caused display issues. Now, if the button count exceeds the limit, we will display only the maximum allowable number of buttons. Free Welcome Message and User Form: The welcome message and user form completion no longer count toward the monthly message quota.</description>
     </item>
     
   </channel>

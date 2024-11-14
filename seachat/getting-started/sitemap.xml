@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/</loc>
-      <lastmod>2024-11-06T15:39:11-08:00</lastmod>
+      <lastmod>2024-11-13T16:18:05-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/</loc>
-      <lastmod>2024-11-06T15:39:11-08:00</lastmod>
+      <lastmod>2024-11-13T16:18:05-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -32,5 +32,12 @@
                   hreflang="en"
                   href="https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/"
                   />
+    </url>
+    
+    <url>
+      <loc>https://wiki.seasalt.ai/seachat/getting-started/free-agent-mode/</loc>
+      <lastmod>2024-11-13T16:18:05-08:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
     </url>
     </urlset>
