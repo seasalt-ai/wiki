@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-11-07T08:48:57+00:00
+lastmod: 2024-11-13T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,13 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 11/14/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Button Display Limits on Messenger and WhatsApp: We've resolved an issue where exceeding the platform button limits on Messenger and WhatsApp caused display issues. Now, if the button count exceeds the limit, we will display only the maximum allowable number of buttons.
+- Free Welcome Message and User Form: The welcome message and user form completion no longer count toward the monthly message quota. They are free.
+- Enhanced Conversation Handling Mode Compatibility: Conversation Handling Mode now functions seamlessly across LINE, Messenger, and WhatsApp, besides Webchat. When you switch from any mode to Human Agent Only mode, all customer messages will be sent directly to your live agent. When switching to AI Agent Only mode, customer messages will be handled exclusively by your AI bot. Switching to Hybrid mode keeps the current conversation status unchanged, but your customers can change interaction modes by requesting to return to the AI agent or transfer to a human agent.
+
 
 ### 11/07/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
