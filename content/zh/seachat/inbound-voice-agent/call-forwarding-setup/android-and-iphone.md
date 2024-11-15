@@ -1,6 +1,6 @@
 ---
 title: "Android/ iPhone"
-description: "SeaChat 功能教學｜來電轉接設定（Android/iPhone"
+description: "SeaChat 功能教學｜來電轉接設定(Android/iPhone)"
 lead: ""
 date: 2024-10-03 10:43:51.069 +0100
 lastmod: 2024-10-04 10:43:51.069 +0100
@@ -10,7 +10,7 @@ weight: 403
 ---
 
 ## 確認準備步驟是否完成
-要繼續進行來電轉接的設定，我們需要確認是否已經部署了一個由 SeaChat AI 助理接聽的電話號碼。如果您尚未完成此步驟，請參閱我們的[教學]((https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding/))來了解如何操作。
+要繼續進行來電轉接的設定，我們需要確認是否已經部署了一個由 SeaChat AI 助理接聽的電話號碼。如果您尚未完成此步驟，請參閱我們的[教學](https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/tutorial/)來了解如何操作。
 
 ## 將個人來電轉接到SeaChat（Android）
 要將您的個人來電轉接到Seasalt.ai，我們需要配置您的個人手機和指定的SeaChat AI助理。您可以按照以下步驟完成設置：

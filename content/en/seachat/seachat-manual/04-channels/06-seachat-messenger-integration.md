@@ -466,7 +466,7 @@ Currently, it supports English speech to transcription, but let us know if you w
 
 ## Messages Postback on Messenger
 
-Once you have set up your Messenger integration, you will be able to interact with your customers using the [button feature](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/) of SeaChat. This allows you to add urls or additional information to your answers in the form of buttons.
+Once you have set up your Messenger integration, you will be able to interact with your customers using the [button feature](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/) of SeaChat. This allows you to add urls or additional information to your answers in the form of buttons.
 
 To activate, simply go on the page of **Edit Page Subscription** on Messenger. 
 

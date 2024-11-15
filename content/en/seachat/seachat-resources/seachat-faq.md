@@ -21,6 +21,6 @@ This approach helps prevent you from forgetting your password or inadvertently s
 
 When users are using the LINE channel with SeaChat, they may encounter issues where the message is cut off after clicking the message button for more information. This is due to the character limit for LINE button messages.
 
-SeaChat provides a solution for this issue. Utilize the KB ID feature to avoid the message being cut off. Learn more about how the [KB ID](https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/#kb-ids) feature works to prevent messages from being truncated.
+SeaChat provides a solution for this issue. Utilize the KB ID feature to avoid the message being cut off. Learn more about how the [KB ID](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/#kb-ids) feature works to prevent messages from being truncated.
 
 Please check out our wiki about the [LINE Channel](http://wiki.seasalt.ai/seachat/seachat-manual/04-channels/05-install-to-line/#limits-of-line-button-messages) for more information on the message limits imposed by LINE.

@@ -253,7 +253,7 @@ Imagine we have an AI agent tailored to enhance customer experience management. 
 
 ### Initial Setup
 
-Before delving into extraction field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/seachat/manual/create-new-agent/) guide for detailed instructions.
+Before delving into extraction field configurations, it's crucial to have your AI agent operational. If you haven't set up your agent yet, please consult our [Create New Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/) guide for detailed instructions.
 
 ### Define Extraction
 

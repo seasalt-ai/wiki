@@ -7,9 +7,8 @@ lastmod: 2023-02-3T23:19:57+00:00
 weight: 10
 draft: false
 images: []
-menu:
-    seax:
-        parent: "discord"
+aliases:
+    - /seavoice/discord/discord_bot/
 toc: true
 url: /seavoice/discord/discord-bot/
 ---
