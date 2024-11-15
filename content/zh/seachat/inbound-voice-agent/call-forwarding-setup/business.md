@@ -10,7 +10,7 @@ weight: 404
 ---
 
 ## 確認準備步驟是否完成
-要繼續進行來電轉接的設定，我們需要確認是否已經部署了一個由 SeaChat AI 助理接聽的電話號碼。如果您尚未完成此步驟，請參閱我們的[教學]((https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding/))來了解如何操作。
+要繼續進行來電轉接的設定，我們需要確認是否已經部署了一個由 SeaChat AI 助理接聽的電話號碼。如果您尚未完成此步驟，請參閱我們的[教學](https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/tutorial/)來了解如何操作。
 
 ## 將商業來電轉接到SeaChat
 
