@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Custom GPT Tools</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/gpt-tools/</link>
+      <pubDate>Wed, 13 Nov 2024 00:22:19 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/gpt-tools/</guid>
+      <description>Overview # Custom GPT Tools in SeaChat allow users to enhance the agent&amp;rsquo;s responses by integrating custom actions directly into conversations. This feature enables users to define specific conditions under which the agent can execute these actions, providing tailored responses and intelligent assistance based on real-time information. For example, you might want the agent to perform a search or fetch data from your company’s API, enabling SeaChat to provide enriched answers that draw on external resources.</description>
+    </item>
+    
+    <item>
       <title>SOP for After Launch Operations</title>
       <link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/</link>
       <pubDate>Mon, 02 Sep 2024 00:22:19 -0700</pubDate>
