@@ -84,5 +84,14 @@ For more information, check out our SeaX Documentation.
 With SeaX integrated into SeaChat, you can not only manually manage customer conversations but also automate responses with your SeaChat AI agent. SeaX consolidates all your business channels, such as WhatsApp, phone calls, and SMS, allowing these channels to be directed to SeaChat for AI-driven responses.</description>
     </item>
     
+    <item>
+      <title>Custom GPT Tools</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/gpt-tools/</link>
+      <pubDate>Wed, 13 Nov 2024 00:22:19 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/gpt-tools/</guid>
+      <description>Overview # Custom GPT Tools in SeaChat allow users to enhance the agent&amp;rsquo;s responses by integrating custom actions directly into conversations. This feature enables users to define specific conditions under which the agent can execute these actions, providing tailored responses and intelligent assistance based on real-time information. For example, you might want the agent to perform a search or fetch data from your company’s API, enabling SeaChat to provide enriched answers that draw on external resources.</description>
+    </item>
+    
   </channel>
 </rss>
