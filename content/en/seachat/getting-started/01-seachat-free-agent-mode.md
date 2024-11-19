@@ -30,8 +30,8 @@ Open an account at [SeaChat](https://chat.seasalt.ai/?utm_source=wiki). No credi
 The Human Agent Mode includes:
 - Incoming message support across multiple channels (Web Chat – widget for your website, Facebook Messenger, WhatsApp, LINE)
 - Manual response capability through a unified conversation panel (You will personally respond to all messages)
-- Quota: 1 Agent, 1 user account, and 1 workspace
-- No hidden costs or usage limits
+- Quota: 1 Agent (1 user account) and 1 workspace
+- No hidden costs or usage limits -- unlimited chats and chat history
 
 ### Step 2
 Install your new SeaChat agent to your [website](https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/), [Facebook Messenger](https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/), [WhatsApp](https://wiki.seasalt.ai/en/seachat/integrations/whatsapp/), and/or [LINE](https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/).
