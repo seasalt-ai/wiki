@@ -55,10 +55,19 @@ SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例�
 </div>
 
 ### 回覆語言
-AI 助理將用於回覆用戶的語言。如果需要AI助理以多國語言回答問題，您可以選擇**以用戶輸入的語言回答**。
+
+透過選擇回應語言，您可以幫助設定對話的語境，並確保 AI 助理以正確的語言回應。這對於擁有多語言用戶的情況中特別實用。
 
 透過選擇回覆語言，您可以確保 AI 助理以正確的語言進行回應。這對有多種語言的用戶的企業們，十分有用。以中文為例，繁體中文和簡體中文在許多方面都有細微差別。透過將回覆語言設定為繁體中文，AI 助理將以繁體中文的回應。
 
+操作方式如下：
+
+- 如果使用者有偏好的回應語言，應選擇**使用使用者的語言回應**。
+
+- 如果使用者未指定偏好的回應語言，但希望 AI 助理以與使用者訊息相同的語言回應，則應選擇無，並勾選**始終與用選定的語言回應**。
+
+如果使用者訊息中包含多種語言，AI 助理將以訊息中出現最頻繁或最主要的語言回應。
+ 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/agent-information/response-language.png" target="_blank">
