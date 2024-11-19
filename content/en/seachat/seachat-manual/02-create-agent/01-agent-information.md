@@ -58,9 +58,15 @@ The use case comes with a basic prompt. Description is where you can customize t
 </div>
 
 ### Response Language
-The language the AI agent will use to respond to the user. If you want the AI agent to be multilingual and respond based on customer query language, you can choose, you can choose **Always match user input language**. 
+By choosing a response language, you can help frame the conversation and ensure that the AI agent responds in the correct language. This is especially useful when you have a multilingual audience. 
 
-By choosing a response language, you can help frame the conversation and ensure that the AI agent responds in the correct language. This is especially useful when you have a multilingual audience. Take English language as an example, standard US English and UK English nuance in many ways. By setting the response language to US English, the AI agent will optimize the response to match the US English.
+Take English language as an example, standard US English and UK English nuance in many ways. By setting the response language to US English, the AI agent will optimize the response to match the US English.
+
+This is how it works:
+- If a user has a preferred response language, they should select **Respond in the user's language**.
+- If a user does not specify a preferred response language but wants the AI agent to reply in the language of the user’s message, they should select **Always respond in the selected language** box. 
+
+If the user's message contains multiple languages, the AI agent will respond in the language that appears most frequently or is the most prominent within the message.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
