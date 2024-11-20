@@ -1,6 +1,6 @@
 ---
-title: "Free Live Agent Mode"
-description: "Start for free with human agent mode and upgrade when you're ready."
+title: "Truly Free Plan as in Free 🍺 & 🎙️"
+description: "Truly free plan for web chat widget with unlimited chat and history."
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
 lastmod: 2024-11-13 10:43:51.069 +0100
@@ -11,6 +11,29 @@ toc: true
 url: /seachat/getting-started/free-agent-mode/
 ---
 ---
+
+
+Introducing SeaChat's Human Agent Only Mode: Your Ticket to Unmatched Communication Freedom!
+
+We’re thrilled to present the **SeaChat Human Agent Mode**, offering you **1 human agent free for life**—yes, you heard that right, for life!
+
+### Why Choose SeaChat? Because It's **Truly Free!**
+
+- **Unlimited Chat:** Engage in as many conversations as you need, with no caps.
+- **Unlimited Chat History:** Never lose a conversation—access your chat history anytime.
+- **Unlimited Contacts:** Build your network without any restrictions.
+- **Freedom to Export:** Your data, your rules—export all your chat history effortlessly.
+
+**The Power of Freedom**
+
+We believe in **absolute freedom**—both in terms of cost and control. With SeaChat, you’re not locked into any platform. Imagine enjoying the benefits of "**free beer**" 🍺 and "**free speech**" 🎙️ simultaneously!
+
+**No Limitations, No Worries**
+
+Unlike other options on the market that come with hidden catches—like restricted chat counts, limited history, or unexportable data—SeaChat offers you **true freedom** with no strings attached.
+
+**Try SeaChat’s live agent mode now and embrace a world of endless possibilities!**
+
 ## How to Start using SeaChat for free?
 
 ### Step 1
