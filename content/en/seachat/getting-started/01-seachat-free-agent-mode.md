@@ -24,6 +24,11 @@ We’re thrilled to present the **SeaChat Human Agent Mode**, offering you **1 h
 - **Unlimited Contacts:** Build your network without any restrictions.
 - **Freedom to Export:** Your data, your rules—export all your chat history effortlessly.
 
+
+<br/>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=tYLpWa3LeCM&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
 **The Power of Freedom**
 
 We believe in **absolute freedom**—both in terms of cost and control. With SeaChat, you’re not locked into any platform. Imagine enjoying the benefits of "**free beer**" 🍺 and "**free speech**" 🎙️ simultaneously!
