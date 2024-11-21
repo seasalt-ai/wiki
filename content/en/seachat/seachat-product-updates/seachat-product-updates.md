@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-11-13T08:48:57+00:00
+lastmod: 2024-11-20T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,14 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 11/21/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Preferred and Enforced Response Languages: Users can now specify the language SeaChat should use in responses. With the preferred response language setting, SeaChat detects the user's language and responds accordingly, defaulting to the selected language if it cannot determine the user's language. With the enforced response language setting, SeaChat consistently responds in the selected language regardless of the user's input.
+- Hybrid Conversation Handling Mode: In Hybrid mode, users can now configure whether to allow customers to proactively request a live agent. If enabled, customers will see a "Talk to Human Agent" button in webchat or a quick action button in WhatsApp, Messenger, and LINE.
+- Complete Form Message Configuration: Users can now configure the message sent after a user completes a form, such as "I agree to the Privacy Policy I just submitted." in Webchat Widget Custom Form page.
+- Voice Bot Filler Word Configuration: Users can now enable filler words in the voice bot for faster responses and adjust the probability of including filler words in its replies in Calls integration page and SeaX Calls integration page.
+
 
 ### 11/14/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
