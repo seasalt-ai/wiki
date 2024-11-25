@@ -1,5 +1,5 @@
 ---
-title: "輸出會議到Google Doc"
+title: "輸出會議到Google Docs"
 description: "了解如何將 SeaMeet 會議紀錄自動輸出至 Google Docs，自動化會議記錄的查看和存取，提升每場會議的效果。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
@@ -9,8 +9,8 @@ menu:
   seameet:
      parent: "seameet-manual"
 aliases:
-   - /zh/seameet/13-seameet-google-doc/
-url: /zh/seameet/manual/google-doc/   
+   - /zh/seameet/13-seameet-google-docs/
+url: /zh/seameet/manual/google-docs/  # URL Changed: Nov 26, 2024
 weight: 41
 toc: true
 ---
