@@ -18,15 +18,14 @@ SeaMeet offers support to many different browsers, including Arc, Brave, Edge, a
     </item>
     
     <item>
-      <title>Export Meeting to Google Doc</title>
-      <link>https://wiki.seasalt.ai/en/seameet/manual/google-doc/</link>
+      <title>Export Meeting to Google Docs</title>
+      <link>https://wiki.seasalt.ai/en/seameet/manual/google-docs/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/en/seameet/manual/google-doc/</guid>
+      <guid>https://wiki.seasalt.ai/en/seameet/manual/google-docs/</guid>
       <description>After the meeting ends, the meeting record will be exported as a Google Docs document. Click the button in the top right corner of the page to open Google Docs, which contains all the information from the just-concluded meeting.
   Connect Google Drive
-If you want to export the meeting record as a Google document, please log in at https://meet.seasalt.ai and bind the workspace to a Google Drive.
-      Automatically Export Google Document After Meeting</description>
+If you want to export the meeting record as a Google Docs documents, please log in at https://meet.seasalt.ai and bind the workspace to a Google Drive.</description>
     </item>
     
   </channel>
