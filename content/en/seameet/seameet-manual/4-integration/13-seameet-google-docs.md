@@ -1,13 +1,13 @@
 ---
-title: "Export Meeting to Google Doc"
+title: "Export Meeting to Google Docs"
 description: "Export meeting records to Google Docs. Sync with Google Drive, access transcripts, and summaries in your Google account."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2024-06-03T08:48:57+00:00
 draft: false
 images: []
 aliases:
-   - /en/seameet/13-seameet-google-doc/
-url: /en/seameet/manual/google-doc/
+   - /en/seameet/13-seameet-google-docs/
+url: /en/seameet/manual/google-docs/ # URL Changed: Nov 26, 2024
 weight: 42
 toc: true
 ---
@@ -20,7 +20,7 @@ After the meeting ends, the meeting record will be exported as a Google Docs doc
 
     <center>
 
-    <img src="/images/seameet-en/13-seameet-google-doc/seameet-bind-google-drive.png" alt="SeaMeet Bind Google Drive"/>
+    <img src="/images/seameet-en/13-seameet-google-docs/seameet-bind-google-drive.png" alt="SeaMeet Bind Google Drive"/>
 
     </center>
 
@@ -32,7 +32,7 @@ After the meeting ends, the meeting record will be exported as a Google Docs doc
 
     <center>
 
-    <img src="/images/seameet-en/13-seameet-google-doc/seameet-auto-export-google-doc.png" alt="SeaMeet Auto Export Google Document"/>
+    <img src="/images/seameet-en/13-seameet-google-docs/seameet-auto-export-google-docs.png" alt="SeaMeet Auto Export Google Documents"/>
 
     </center>
 
@@ -44,6 +44,6 @@ After the meeting ends, the meeting record will be exported as a Google Docs doc
 
     <center>
 
-    <img src="/images/seameet-en/13-seameet-google-doc/seameet-google-doc-content.png" alt="SeaMeet Google Docs Content"/>
+    <img src="/images/seameet-en/13-seameet-google-docs/seameet-google-docs-content.png" alt="SeaMeet Google Docs Content"/>
 
     </center>
