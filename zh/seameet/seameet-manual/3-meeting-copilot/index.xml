@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>自訂摘要模板</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/custom-summary/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/custom-summary/</guid>
+      <description>我們即將推出新功能，讓使用者能夠自訂會議摘要的模板。敬請期待更多詳細資訊。</description>
+    </item>
+    
+    <item>
       <title>播放會議錄音</title>
       <link>https://wiki.seasalt.ai/zh/seameet/recording/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
@@ -68,7 +77,7 @@
     </item>
     
     <item>
-      <title>SeaMeet 音檔上傳</title>
+      <title>音檔上傳</title>
       <link>https://wiki.seasalt.ai/zh/seameet/audio-upload/</link>
       <pubDate>Thu, 21 Nov 2024 08:48:57 +0000</pubDate>
       
