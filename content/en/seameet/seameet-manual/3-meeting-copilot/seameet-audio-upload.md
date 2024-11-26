@@ -109,12 +109,46 @@ SeaMeet treats uploaded audio files just like its scheduled meetings, offering:
 This feature is ideal for transcribing external recordings or unscheduled meetings, ensuring no conversation goes undocumented.
 
 
-### **Speaker ID**
+## **Speaker ID**
 
 Speaker ID is a feature that helps the users of SeaMeet to further optimize their transcription experience. 
 
-By enabling the Speaker ID feature, users can leverage Seasalt.ai's expertise in audio diarization to label different speakers in a audio file for even more accurate transcription results.
+When a meeting has multiple speakers, it can be difficult to differentiate between them in the transcription. For documentation and meeting efficiency it is important to know who said what. 
 
+This is done through a process called audio diarization. By providing the number of speakers in the audio file, SeaMeet can accurately diarize the audio into the said number.
+
+Yet, unless the meetings are synchronized, the process of diarization can only give us the number of speakers that are identified. SeaMeet will only differentiate them using the generic naming like speaker 1 and speaker 2.
+
+After identifying the speakers, the user can then label the speaker with the correct name. This will help the user to identify the speaker in the transcription by choosing the ***Change Speaker** after clicking on the name.
+
+<center>
+
+<img width="80%" src="/images/seameet-en/seameet-audio-upload/change-speaker.png" alt="Change Speaker UI"/>
+
+</center>
+
+Choose a name from your contact.
+
+<center>
+
+<img width="80%" src="/images/seameet-en/seameet-audio-upload/choose-speaker.png" alt="Choose Speaker Step"/>
+
+</center>
+
+Users can change the speaker name throughout the whole conversation or just the chosen line. 
+
+
+<center>
+
+<img width="80%" src="/images/seameet-en/seameet-audio-upload/change-name-confirmation.png" alt="Change Name Confirmation"/>
+
+</center>
+
+By enabling the Speaker ID feature, users can leverage Seasalt.ai's expertise in audio diarization to differentiate speakers in an audio file for even more accurate transcription results.
+
+
+
+> Note: Speaker ID is the best for 2-6 people, the more people you add, the performance degrades.
 
 ---
 
