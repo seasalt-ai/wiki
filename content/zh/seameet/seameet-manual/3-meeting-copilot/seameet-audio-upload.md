@@ -1,6 +1,6 @@
 ---
-title: "SeaMeet 音檔上傳"
-description: ""
+title: "音檔上傳"
+description: "了解如何使用 SeaMeet 音檔上傳功能，輕鬆將 MP3、WAV、M4A 等格式的音檔轉錄成文字。支援多語言轉錄、多人對話識別。"
 date: 2024-11-21T08:48:57+00:00
 lastmod: 2024-11-21T08:48:57+00:00
 draft: false
