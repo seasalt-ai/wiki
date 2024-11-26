@@ -1,6 +1,6 @@
 ---
-title: "SeaMeet Audio Upload"
-description: ""
+title: "Audio Upload"
+description: "Convert audio files to text with SeaMeet. Supports MP3, WAV, M4A formats with multi-language and speaker recognition."
 date: 2024-11-21T08:48:57+00:00
 lastmod: 2024-11-21T08:48:57+00:00
 draft: false
