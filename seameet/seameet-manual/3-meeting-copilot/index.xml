@@ -60,5 +60,16 @@ Play the Entire Meeting Recording #  Click the play bar at the bottom of the mee
 Adding Meeting Labels in a Meeting #  Go to the Meeting List page and click on the meeting you want to add labels to. Click the + sign to manage the labels for that meeting.    You can also create new labels for the workspace directly in the meeting and add them to the meeting.</description>
     </item>
     
+    <item>
+      <title>SeaMeet Audio Upload</title>
+      <link>https://wiki.seasalt.ai/en/seameet/audio-upload/</link>
+      <pubDate>Thu, 21 Nov 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seameet/audio-upload/</guid>
+      <description>Transcriptions with SeaMeet Audio Upload # SeaMeet Copilot automatically transcribes scheduled meetings, but did you know you can also upload external audio files for transcription? This feature is perfect for meetings recorded outside the platform or other audio recordings requiring transcription.
+With SeaMeet Copilot’s powerful transcription tools, you can upload and transcribe a wide range of audio file formats, including MP3, WAV, and M4A, among others.
+ How to Upload Audio Files on SeaMeet #  Access the File List:</description>
+    </item>
+    
   </channel>
 </rss>

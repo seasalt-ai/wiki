@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://wiki.seasalt.ai/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind-ui.js"></script>
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10880948239');
+  </script>
+  
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJGXPTGC');</script>
+  
+  <link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-10405841-7', 'auto');
+    ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="https://wiki.seasalt.ai/main.962eff4821e67f5cf415c158157be4eb94ad3de32c3643cfc7ed11d53828e0d2b0d9e042c88d37361526e58457d4c2ec21ddf4805f98cd9af9547c73571e4e88.css" integrity="sha512-li7/SCHmf1z0FcFYFXvk65StPeMsNkPPx&#43;0R1Tgo4NKw2eBCyI03NhUm5YRX1MLsId30gF&#43;YzZr5VHxzVx5OiA==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>SeaMeet 音檔上傳 - Seasalt.ai</title>
+<meta name="description" content="使用 SeaMeet 音檔上傳功能，解鎖無縫轉錄體驗 # SeaMeet Copilot 可以自動轉錄已排定的會議，但您是否知道還可以上傳外部音檔進行轉錄？此功能非常適合轉錄平台外錄製的會議或其他需要轉錄的音訊記錄。
+借助 SeaMeet Copilot 強大的轉錄工具，您可以上傳並轉錄各種音檔格式，包括 MP3、WAV 和 M4A 等。
+ 如何在 SeaMeet 上傳音檔 #  進入檔案列表： 前往 檔案列表 頁面，點擊 上傳音檔 按鈕。     選擇正確的音檔格式： SeaMeet 支援多種音檔格式，包括：
+ .mp3 .wav .m4a .aac .flac .ogg .opus    調整上傳設定：
+在開始轉錄之前，您可以自訂以下設定以獲得最佳結果：
+ 音檔語言： 選擇正確的語言。 說話人數量： 指定錄音中的說話人數量。 會議標題： 添加描述性標題以便於識別。      設置會議時間戳（選擇性）：
+輸入錄音的日期和時間，或讓系統自動分配當前日期和時間。     開始轉錄流程 # 完成設定後：
+ 點擊 開始 按鈕，啟動轉錄流程。 SeaMeet Copilot 將自動處理音檔，生成詳細的轉錄內容和簡潔的會議摘要。  轉錄完成後，回到 檔案列表 頁面即可查看轉錄內容和摘要。">
+  <link rel="canonical" href="https://wiki.seasalt.ai/zh/seameet/audio-upload/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SeaMeet 音檔上傳">
+<meta property="og:description" content="使用 SeaMeet 音檔上傳功能，解鎖無縫轉錄體驗 # SeaMeet Copilot 可以自動轉錄已排定的會議，但您是否知道還可以上傳外部音檔進行轉錄？此功能非常適合轉錄平台外錄製的會議或其他需要轉錄的音訊記錄。
+借助 SeaMeet Copilot 強大的轉錄工具，您可以上傳並轉錄各種音檔格式，包括 MP3、WAV 和 M4A 等。
+ 如何在 SeaMeet 上傳音檔 #  進入檔案列表： 前往 檔案列表 頁面，點擊 上傳音檔 按鈕。     選擇正確的音檔格式： SeaMeet 支援多種音檔格式，包括：
+ .mp3 .wav .m4a .aac .flac .ogg .opus    調整上傳設定：
+在開始轉錄之前，您可以自訂以下設定以獲得最佳結果：
+ 音檔語言： 選擇正確的語言。 說話人數量： 指定錄音中的說話人數量。 會議標題： 添加描述性標題以便於識別。      設置會議時間戳（選擇性）：
+輸入錄音的日期和時間，或讓系統自動分配當前日期和時間。     開始轉錄流程 # 完成設定後：
+ 點擊 開始 按鈕，啟動轉錄流程。 SeaMeet Copilot 將自動處理音檔，生成詳細的轉錄內容和簡潔的會議摘要。  轉錄完成後，回到 檔案列表 頁面即可查看轉錄內容和摘要。">
+<meta property="og:url" content="https://wiki.seasalt.ai/zh/seameet/audio-upload/">
+<meta property="og:site_name" content="Seasalt.ai">
+<meta property="article:published_time" content="2024-11-21T08:48:57+00:00">
+  <meta property="article:modified_time" content="2024-11-26T10:22:53-08:00">
+  
+  <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
+      <meta property="og:image:alt" content="Seasalt.ai">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="SeaMeet 音檔上傳">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://wiki.seasalt.ai/seasalt-logo.png">
+    <meta name="twitter:image:alt" content="SeaMeet 音檔上傳">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://wiki.seasalt.ai/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://wiki.seasalt.ai/",
+      "sameAs": [
+      
+      "https:\/\/x.com\/SeasaltAI"
+      ,
+      "https:\/\/www.linkedin.com\/company\/seasalt-ai\/"
+      ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://wiki.seasalt.ai/#/schema/website/1",
+      "url": "https://wiki.seasalt.ai/",
+      "name": "Seasalt.ai",
+      "description": "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.",
+      "publisher": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://wiki.seasalt.ai/zh/seameet/audio-upload/",
+      "url": "https://wiki.seasalt.ai/zh/seameet/audio-upload/",
+      "name": "SeaMeet 音檔上傳",
+      "description": "",
+      "isPartOf": {
+        "@id": "https://wiki.seasalt.ai/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        },
+      "datePublished": "2024-11-21T08:48:57CET",
+      "dateModified": "2024-11-26T10:22:53CET",
+      "breadcrumb": {
+        "@id": "https://wiki.seasalt.ai/zh/seameet/audio-upload/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://wiki.seasalt.ai/zh/seameet/audio-upload/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://wiki.seasalt.ai/zh/seameet/audio-upload/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wiki.seasalt.ai/zh/seameet/audio-upload/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/",
+          "url": "https://wiki.seasalt.ai/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/",
+          "url": "https://wiki.seasalt.ai/zh/",
+          "name": "Zh"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/seameet/",
+          "url": "https://wiki.seasalt.ai/zh/seameet/",
+          "name": "Seameet"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@id": "https://wiki.seasalt.ai/zh/seameet/audio-upload/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/zh/seameet/audio-upload/#/schema/image/2",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "contentUrl": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "caption": "SeaMeet 音檔上傳"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiki.seasalt.ai/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wiki.seasalt.ai/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wiki.seasalt.ai/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://wiki.seasalt.ai/site.webmanifest">
+
+</head>
+  <body class="seameet single">
+    <div class="sticky-lg-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="https://wiki.seasalt.ai/zh/" aria-label="Seasalt.ai">
+      Seasalt.ai
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="https://wiki.seasalt.ai/zh/">Seasalt.ai</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/" aria-label="SeaChat">SeaChat</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/" aria-label="SeaMeet">SeaMeet</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seax/demo_videos_zh/videos/" aria-label="SeaX">SeaX</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESTful APIs
+              <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/01-seachat-api-intro/" aria-label="SeaChat API">SeaChat API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/02-seax-api-intro/" aria-label="SeaX API">SeaX API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/03-seameet-api-intro/" aria-label="SeaMeet API">SeaMeet API</a>
+              </li>
+              </ul>
+          </li>
+          
+          
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://seasalt.ai/" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><small class="ms-2 d-md-none">Home</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.youtube.com/@seasaltai" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><small class="ms-2 d-md-none">YouTube</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.linkedin.com/company/seasalt-ai/" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><small class="ms-2 d-md-none">LinkedIn</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan" aria-label="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><small class="ms-2 d-md-none">Contact</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        ZH
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="https://wiki.seasalt.ai/zh/seameet/audio-upload/">繁體中文</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/en/seameet/audio-upload/" hreflang="en" lang="en">English</a></li>
+        
+      </ul>
+    </div>
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </nav>
+</header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
+
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</div>
+<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+    <span class="navbar-text ms-0">Seameet</span>
+    <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-da5443aa5964b456be61a8f2d13c1b9a" aria-expanded="true">
+          SeaMeet 說明書
+        </button>
+        <div class="collapse show" id="section-da5443aa5964b456be61a8f2d13c1b9a">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/">快速上手 SeaMeet</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/subscription/">如何訂閱方案</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-38ff5eb390d3e8c598e88c4e21e6954e" aria-expanded="true">
+                    工作區管理
+                  </button>
+                  <div class="collapse show" id="section-38ff5eb390d3e8c598e88c4e21e6954e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/workspace-management/">工作區管理員</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/">設定SeaMeet工作區</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-860154cbbcfaad98b8e6f4fa493903c4" aria-expanded="true">
+                    基本設置
+                  </button>
+                  <div class="collapse show" id="section-860154cbbcfaad98b8e6f4fa493903c4">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/invite-seameet/">轉錄會議</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/language-setting/">切換會議語言</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/sharing/">自動分享會議記錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/">實體會議 - 如何辨識說話人</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/auto-join/">自動加入會議</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9ebff7fe6871501d5f97c2e90b46c79e" aria-expanded="true">
+                    SeaMeet 助理
+                  </button>
+                  <div class="collapse show" id="section-9ebff7fe6871501d5f97c2e90b46c79e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/view-meeting/">查看會議紀錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/meeting-analytics/">使用會議逐字稿和AI會議分析</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/recording/">播放會議錄音</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/end-a-meeting/">結束會議記錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/meeting-labels/">會議標籤</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seameet/audio-upload/">SeaMeet 音檔上傳</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-6af0193aa5c242c251f57585b8c3dece" aria-expanded="true">
+                    整合
+                  </button>
+                  <div class="collapse show" id="section-6af0193aa5c242c251f57585b8c3dece">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/browser-extension/">瀏覽器擴充功能</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/google-docs/">輸出會議到Google Docs</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/">方案與帳務</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/">註冊SeaMeet</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/">FAQ - SeaMeet 常見問題集</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/">提供反饋</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-43dbf2eb848b9e2c1da26e0aa74b2d41" aria-expanded="true">
+          SeaMeet 功能發布和修復
+        </button>
+        <div class="collapse show" id="section-43dbf2eb848b9e2c1da26e0aa74b2d41">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/product-updates/">SeaMeet 版本發布資訊</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+    <div class="wrap container-xxl" role="document">      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-da5443aa5964b456be61a8f2d13c1b9a" aria-expanded="true">
+          SeaMeet 說明書
+        </button>
+        <div class="collapse show" id="section-da5443aa5964b456be61a8f2d13c1b9a">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/">快速上手 SeaMeet</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/subscription/">如何訂閱方案</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-38ff5eb390d3e8c598e88c4e21e6954e" aria-expanded="true">
+                    工作區管理
+                  </button>
+                  <div class="collapse show" id="section-38ff5eb390d3e8c598e88c4e21e6954e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/workspace-management/">工作區管理員</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/">設定SeaMeet工作區</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-860154cbbcfaad98b8e6f4fa493903c4" aria-expanded="true">
+                    基本設置
+                  </button>
+                  <div class="collapse show" id="section-860154cbbcfaad98b8e6f4fa493903c4">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/invite-seameet/">轉錄會議</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/language-setting/">切換會議語言</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/sharing/">自動分享會議記錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/">實體會議 - 如何辨識說話人</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/auto-join/">自動加入會議</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9ebff7fe6871501d5f97c2e90b46c79e" aria-expanded="true">
+                    SeaMeet 助理
+                  </button>
+                  <div class="collapse show" id="section-9ebff7fe6871501d5f97c2e90b46c79e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/view-meeting/">查看會議紀錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/meeting-analytics/">使用會議逐字稿和AI會議分析</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/recording/">播放會議錄音</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/end-a-meeting/">結束會議記錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/meeting-labels/">會議標籤</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seameet/audio-upload/">SeaMeet 音檔上傳</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-6af0193aa5c242c251f57585b8c3dece" aria-expanded="true">
+                    整合
+                  </button>
+                  <div class="collapse show" id="section-6af0193aa5c242c251f57585b8c3dece">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/browser-extension/">瀏覽器擴充功能</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/manual/google-docs/">輸出會議到Google Docs</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/">方案與帳務</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/">註冊SeaMeet</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/">FAQ - SeaMeet 常見問題集</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/">提供反饋</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-43dbf2eb848b9e2c1da26e0aa74b2d41" aria-expanded="true">
+          SeaMeet 功能發布和修復
+        </button>
+        <div class="collapse show" id="section-43dbf2eb848b9e2c1da26e0aa74b2d41">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seameet/product-updates/">SeaMeet 版本發布資訊</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用-seameet-音檔上傳功能解鎖無縫轉錄體驗">使用 SeaMeet 音檔上傳功能，解鎖無縫轉錄體驗</a>
+      <ul>
+        <li><a href="#如何在-seameet-上傳音檔">如何在 SeaMeet 上傳音檔</a></li>
+        <li><a href="#開始轉錄流程">開始轉錄流程</a></li>
+        <li><a href="#為什麼選擇-seameet-進行音檔轉錄">為什麼選擇 SeaMeet 進行音檔轉錄？</a></li>
+      </ul>
+    </li>
+    <li><a href="#說話人識別"><strong>說話人識別</strong></a>
+      <ul>
+        <li><a href="#提升效率使用-seameet-copilot">提升效率，使用 SeaMeet Copilot</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>SeaMeet 音檔上傳</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用-seameet-音檔上傳功能解鎖無縫轉錄體驗">使用 SeaMeet 音檔上傳功能，解鎖無縫轉錄體驗</a>
+      <ul>
+        <li><a href="#如何在-seameet-上傳音檔">如何在 SeaMeet 上傳音檔</a></li>
+        <li><a href="#開始轉錄流程">開始轉錄流程</a></li>
+        <li><a href="#為什麼選擇-seameet-進行音檔轉錄">為什麼選擇 SeaMeet 進行音檔轉錄？</a></li>
+      </ul>
+    </li>
+    <li><a href="#說話人識別"><strong>說話人識別</strong></a>
+      <ul>
+        <li><a href="#提升效率使用-seameet-copilot">提升效率，使用 SeaMeet Copilot</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+			</nav>
+			<h2 id="使用-seameet-音檔上傳功能解鎖無縫轉錄體驗">使用 SeaMeet 音檔上傳功能，解鎖無縫轉錄體驗 <a href="#%e4%bd%bf%e7%94%a8-seameet-%e9%9f%b3%e6%aa%94%e4%b8%8a%e5%82%b3%e5%8a%9f%e8%83%bd%e8%a7%a3%e9%8e%96%e7%84%a1%e7%b8%ab%e8%bd%89%e9%8c%84%e9%ab%94%e9%a9%97" class="anchor" aria-hidden="true">#</a></h2>
+<p>SeaMeet Copilot 可以自動轉錄已排定的會議，但您是否知道還可以上傳外部音檔進行轉錄？此功能非常適合轉錄平台外錄製的會議或其他需要轉錄的音訊記錄。</p>
+<p>借助 SeaMeet Copilot 強大的轉錄工具，您可以上傳並轉錄各種音檔格式，包括 MP3、WAV 和 M4A 等。</p>
+<hr>
+<h3 id="如何在-seameet-上傳音檔">如何在 SeaMeet 上傳音檔 <a href="#%e5%a6%82%e4%bd%95%e5%9c%a8-seameet-%e4%b8%8a%e5%82%b3%e9%9f%b3%e6%aa%94" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>進入檔案列表：
+前往 <strong>檔案列表</strong> 頁面，點擊 <strong>上傳音檔</strong> 按鈕。</li>
+</ol>
+<center>
+<img src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/file-list-ui.png" alt="SeaMeet 檔案列表介面"/>
+</center>
+<ol start="2">
+<li>
+<p>選擇正確的音檔格式：
+SeaMeet 支援多種音檔格式，包括：</p>
+<ul>
+<li><strong>.mp3</strong></li>
+<li><strong>.wav</strong></li>
+<li><strong>.m4a</strong></li>
+<li><strong>.aac</strong></li>
+<li><strong>.flac</strong></li>
+<li><strong>.ogg</strong></li>
+<li><strong>.opus</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>調整上傳設定：</strong><br>
+在開始轉錄之前，您可以自訂以下設定以獲得最佳結果：</p>
+<ul>
+<li><strong>音檔語言：</strong> 選擇正確的語言。</li>
+<li><strong>說話人數量：</strong> 指定錄音中的說話人數量。</li>
+<li><strong>會議標題：</strong> 添加描述性標題以便於識別。</li>
+</ul>
+</li>
+</ol>
+<center>
+<img src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/transcription-setting.png" alt="SeaMeet 轉錄設定介面"/>
+</center>
+<ol start="4">
+<li><strong>設置會議時間戳（選擇性）：</strong><br>
+輸入錄音的日期和時間，或讓系統自動分配當前日期和時間。</li>
+</ol>
+<center>
+<img src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/time-setting.png" alt="SeaMeet 會議時間設定介面"/>
+</center>
+<hr>
+<h3 id="開始轉錄流程">開始轉錄流程 <a href="#%e9%96%8b%e5%a7%8b%e8%bd%89%e9%8c%84%e6%b5%81%e7%a8%8b" class="anchor" aria-hidden="true">#</a></h3>
+<p>完成設定後：</p>
+<ul>
+<li>點擊 <strong>開始</strong> 按鈕，啟動轉錄流程。</li>
+<li>SeaMeet Copilot 將自動處理音檔，生成詳細的轉錄內容和簡潔的會議摘要。</li>
+</ul>
+<p>轉錄完成後，回到 <strong>檔案列表</strong> 頁面即可查看轉錄內容和摘要。</p>
+<center>
+<img src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/loaded-meeting.png" alt="SeaMeet 上傳音檔錄製介面"/>
+</center>
+<hr>
+<h3 id="為什麼選擇-seameet-進行音檔轉錄">為什麼選擇 SeaMeet 進行音檔轉錄？ <a href="#%e7%82%ba%e4%bb%80%e9%ba%bc%e9%81%b8%e6%93%87-seameet-%e9%80%b2%e8%a1%8c%e9%9f%b3%e6%aa%94%e8%bd%89%e9%8c%84" class="anchor" aria-hidden="true">#</a></h3>
+<p>SeaMeet 將上傳的音檔視為常規會議記錄，並提供以下功能：</p>
+<ul>
+<li><strong>會議摘要：</strong> 微調轉錄內容和摘要。</li>
+</ul>
+<center>
+<img width="80%" src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/summary.png" alt="SeaMeet 會議摘要介面"/>
+</center>
+<ul>
+<li><strong>待辦事項與會議主題：</strong> 添加並跟蹤待辦事項及會議主題。</li>
+</ul>
+<center>
+<img width="80%" src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/discussed-topic.png" alt="SeaMeet 會議主題介面"/>
+</center>
+<ul>
+<li><strong>協作工具：</strong> 與團隊共享文件或與 Google Docs 集成，簡化工作流程。</li>
+</ul>
+<p>音檔上傳功能特別適合轉錄外部音訊記錄或未通過 SeaMeet 排定的會議，確保每次對話都被妥善記錄。</p>
+<hr>
+<h2 id="說話人識別"><strong>說話人識別</strong> <a href="#%e8%aa%aa%e8%a9%b1%e4%ba%ba%e8%ad%98%e5%88%a5" class="anchor" aria-hidden="true">#</a></h2>
+<p>說話人識別是一項幫助 SeaMeet 用戶進一步優化轉錄體驗的功能。</p>
+<p>當會議中有多位說話人時，在轉錄內容中區分說話人可能會變得困難。然而，為了文件紀錄的準確性以及提升會議效率，了解「誰說了什麼」是非常重要的。</p>
+<p>這一功能是通過 <strong>音訊分軌（audio diarization）</strong> 技術實現的。只需提供音檔中的說話人數量，SeaMeet 就可以準確地將音檔分軌到指定的說話人數量。</p>
+<p>然而，除非會議已經同步化，分軌過程僅能識別說話人的數量，而 SeaMeet 會使用通用名稱（例如「說話人 1」和「說話人 2」）來區分不同說話人。</p>
+<p>完成說話人識別後，用戶可以手動為說話人命名。只需點擊說話人名稱，然後選擇 <strong>更改說話人</strong> 選項，即可為說話人正確命名。</p>
+<center>
+<img width="80%" src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/change-speaker.png" alt="更改說話人介面"/>
+</center>
+<p>從聯絡人中選擇名稱。</p>
+<center>
+<img width="80%" src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/choose-speaker.png" alt="選擇說話人步驟"/>
+</center>
+<p>用戶可以更改整段對話的說話人名稱，或僅修改選定的行。</p>
+<center>
+<img width="80%" src="https://wiki.seasalt.ai/images/seameet-zh/seameet-audio-upload/change-name-confirmation.png" alt="確認更改名稱介面"/>
+</center>
+<p>啟用說話人識別功能後，用戶可以充分利用 Seasalt.ai 在音訊分軌技術上的專業知識，為音檔中的不同說話人進行區分，進一步提升轉錄結果的準確性。</p>
+<hr>
+<h3 id="提升效率使用-seameet-copilot">提升效率，使用 SeaMeet Copilot <a href="#%e6%8f%90%e5%8d%87%e6%95%88%e7%8e%87%e4%bd%bf%e7%94%a8-seameet-copilot" class="anchor" aria-hidden="true">#</a></h3>
+<p>SeaMeet 的音檔上傳功能將任何錄音轉化為可執行的洞察，增強協作和生產力。立即上傳您的音檔，體驗 SeaMeet 提供的無縫轉錄服務！</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="https://wiki.seasalt.ai/zh/seameet/meeting-labels/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; 會議標籤
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="https://wiki.seasalt.ai/zh/seameet/manual/browser-extension/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					瀏覽器擴充功能 &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <p style="text-align: center;">Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p>
+  
+<link rel="stylesheet" href="https://wiki.seasalt.ai/css/widget.css">
+<div id="sui-right-widgets">
+    <div id="sui-widget-btn"></div>
+</div>
+
+  
+    <script src="https://wiki.seasalt.ai/js/custom.js"></script>
+  
+    <script src="https://wiki.seasalt.ai/js/widget.js"></script>
+  
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+</footer>
+    <script src="https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js" integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp&#43;dznJkhQ2nKWFuqYPz9DUA==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js" integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V&#43;Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296&#43;Tx1MwY25qTpslERKCPKSQ==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js" integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin="anonymous" defer></script>
+  
+  </body>
+</html>
