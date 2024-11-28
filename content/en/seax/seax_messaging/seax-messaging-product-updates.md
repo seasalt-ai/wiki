@@ -2,7 +2,7 @@
 title: "New Features & Releases"
 description: "Explore the latest features and updates in SeaX. Stay informed on new functionalities, bug fixes, and enhancements to optimize your experience."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-31T08:48:57+00:00
+lastmod: 2024-11-27T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,18 @@ aliases:
 weight: 104
 toc: true
 ---
+
+### 11/14/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Synchronized status displays for live agent interventions in conversations
+- Updated billing breakdown
+- Removed Chinese-language bot from the landing page
+
+### 11/7/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Renamed "Memory" feature to "Extraction"
+- Fixed issue with WhatsApp Business Platform where country codes lacked "+" sign
+
 
 ### 10/31/2024
 ##### **<font color="#739963">New Features and Improvements</font>**

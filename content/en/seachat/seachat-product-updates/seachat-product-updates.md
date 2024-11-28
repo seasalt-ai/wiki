@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-11-20T08:48:57+00:00
+lastmod: 2024-11-27T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,13 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 11/27/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Expanded Language Support: We now support more languages in the webchat widget, including English, Spanish, French, Japanese, Korean, Russian, Portuguese, Polish, Simplified Chinese, and Traditional Chinese. Configurable messages in the widget are automatically translated based on the selected language. Users can still customize these messages if needed.
+- Enhanced Automated Actions with Custom GPT Tools: Two new custom GPT tools have been added - Send Email and Send SMS. These tools enable SeaChat to intelligently decide when to send emails or SMS messages based on your instructions.
+- Long-Term User Memory: SeaChat now offers long-term memory for AI agents, enabling them to retain key information about customers, such as preferences, past questions, and interests. When users return, even after a long time, AI agents can recall this information.
+- Improved Conversation Keyword Search: The conversation keyword search now includes conversation titles, allowing users to search by title for more comprehensive and accurate results.
 
 ### 11/21/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
