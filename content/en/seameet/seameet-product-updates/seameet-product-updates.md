@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-10-31T08:48:57+00:00
+lastmod: 2024-11-27T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,28 @@ url: /en/seameet/seameet-product-updates/
 weight: 101
 toc: true
 ---
+
+### 11/21/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated the SeaMeet landing page version
+- Improved notifications for successful and failed Google Meet invitations
+- Adjusted meeting status color indicators in the meeting list
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Resolved an issue where users who joined a meeting early could not pre-invite the bot via the extension
+- Fixed an issue where users who joined late, after the bot had exited, could not reinvite the bot
+
+### 11/14/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved the retry mechanism for bot rejoining meetings
+- Resolved issues with the extension's status checks
+- Enhanced the stability of bot meeting recording termination
+
+### 11/7/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed issues with data masking for users with canceled paid plans during error masking scenarios
+- Adjusted the extension's method for retrieving meeting IDs
+
 
 ### 10/31/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
