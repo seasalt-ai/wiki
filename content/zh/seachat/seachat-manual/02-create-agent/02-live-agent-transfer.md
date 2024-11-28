@@ -124,16 +124,49 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 </center>
 <br/>
 
-## 自動切換
+## 混合模式 (AI 助理 + 真人客服)
 
-您也可以為真人助理功能設置超時。有時，真人助理可能會同時處理很多對話，並且他們可能會忘記點擊 **完成** 按鈕將對話交還給 AI 助理。為了防止這種情況發生，您可以為真人助理功能設置自動超時。如果在客服人員離開後一定時間內沒有任何聊天活動，系統將自動完成該對話。
+除了僅由真人客服或僅由 AI 助理提供服務的模式，SeaChat 還提供一種混合模式，讓真人客服與 AI 助理能夠協同合作，共同提供客戶支援。
+
+混合模式 (AI 助理 + 真人客服) 結合了真人客服和 AI 助理的優勢，大大提升了提供客戶支援的靈活性。
+
+基於這種靈活性，以下是僅在混合模式下可用的功能選項：
+
+### 1. 不允許客戶主動請求真人客服
 
 <center>
-<a href="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" alt="">
+<a href="/images/seachat/zh/live-agent-transfer/do-not-request.png" target="_blank" alt="不允許客戶主動請求真人客服">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/do-not-request.png" alt="不允許客戶主動請求真人客服">
 </a>
 </center>
 <br/>
+
+若選擇此選項，**顯示摘要** 和 **自動切換至 AI 助理** 功能將隱藏或顯示為灰色，且用戶在對話期間無法請求真人客服。
+
+<center>
+<a href="/images/seachat/zh/live-agent-transfer/do-request.png" target="_blank" alt="顯示摘要和自動切換至 AI 助理功能">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/do-request.png" alt="顯示摘要和自動切換至 AI 助理功能">
+</a>
+</center>
+<br/>
+
+### 2. 顯示摘要
+若選擇此功能，對話中的所有人都可以查看對話的摘要。
+
+### 3. 自動切換至 AI 助理
+
+有時候，真人客服可能需要同時處理大量對話，可能會忘記點擊 **完成** 按鈕，將對話交回給 AI 助理。為了防止這種情況發生，可以設定真人客服功能的自動超時。若對話在一段時間內無活動，系統將自動完成對話。
+
+## :dart: 疑難排解
+
+### 移除真人客服功能
+若要停用真人客服功能，只需在 **基本設定** 的 **對話處理模式** 中取消勾選 ***不允許客戶主動請求真人客服***。這將停用真人客服功能，客戶在對話期間將無法請求真人客服，也無法看到 **真人客服** 按鈕。
+
+
+> :pushpin: 注意
+>
+> 若有真人客服可用，他們仍然可以在 **對話** 中監控並接管對話。取消勾選此選項僅會移除客戶請求真人客服的選項。
+
 
 ## 需要幫忙?
 需要幫忙？歡迎聯絡我們 [seachat@seaslt.ai](mailto:seachat@seaslt.ai)。
