@@ -23,7 +23,7 @@ First, let's start by using the **Add New Agent** button located next to your av
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/create-a-new-agent/create-new-agent-shortcut.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/create-new-agent-shortcut.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/create-new-agent-shortcut.png" alt="Create Agent Shortcut | SeaChat Agent">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Create a New Agent Shortcut</p>
 </div>
@@ -38,7 +38,7 @@ Before we can start with the agent configuration, we have to first choose the me
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/create-a-new-agent/choose-creation-method.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/choose-creation-method.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/choose-creation-method.png" alt="Create Methods| SeaChat Agent">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Choose Agent Creation Method</p>
 </div>
@@ -72,7 +72,7 @@ First, choose a use case for your agent, and then input the description that def
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/create-a-new-agent/start-from-scratch.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/start-from-scratch.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/start-from-scratch.png" alt="Create from Scratch | SeaChat Agent">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Create an AI Agent from Scratch</p>
 </div>
@@ -87,7 +87,7 @@ A use case can help you quickly set up your agent and start your conversation. C
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/create-a-new-agent/pick-a-use-case.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/pick-a-use-case.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/pick-a-use-case.png" alt="Create from Use Case | SeaChat Agent">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Pick a Use Case</p>
 </div>
@@ -100,7 +100,7 @@ Unlike starting from scratch, a use case comes with predefined instructions prep
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/create-a-new-agent/choose-a-use-case.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/choose-a-use-case.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/choose-a-use-case.png" alt="Creation Use Cases | SeaChat Agent">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Define Agent Description</p>
 </div>

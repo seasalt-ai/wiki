@@ -29,7 +29,7 @@ Once a document is uploaded to the knowledge base, the document is tokenized and
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/check-tokens.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/check-tokens.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/check-tokens.png" alt="Check Tokens | SeaChat File Size Rule">
 </a>
 
 **How to Check Tokens**

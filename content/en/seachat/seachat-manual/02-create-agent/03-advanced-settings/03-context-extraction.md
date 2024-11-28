@@ -92,7 +92,7 @@ For most agents, to set up Extraction we'll use the provided UI in the **Advance
 
 <center>
 <a href="/images/seachat/en/context-extraction/general-setup.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/general-setup.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/general-setup.png" alt="Navigate to Advanced Settings">
 </a>
 
 <br/>
@@ -174,7 +174,7 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the ex
 
 <center>
 <a href="/images/seachat/en/context-extraction/question-start.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/question-start.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/question-start.png" alt="Start Question Section">
 </a>
 
 <br/>
@@ -193,7 +193,7 @@ For the survey use cases (CSAT, Brand Perception, Market Research, etc.), the ex
 
 <center>
 <a href="/images/seachat/en/context-extraction/advanced-settings.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/advanced-settings.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/advanced-settings.png" alt="Advanced Settings | Context Extraction">
 </a>
 
 <br/>
@@ -211,7 +211,7 @@ The extraction for each conversation will update in real time and we can check t
 
 <center>
 <a href="/images/seachat/en/context-extraction/conversation-page.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/conversation-page.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/conversation-page.png" alt=""Conversaiton Page | Context Extraction>
 </a>
 
 <br/>
@@ -225,7 +225,7 @@ The extraction for each conversation will update in real time and we can check t
 
 <center>
 <a href="/images/seachat/en/context-extraction/extraction-btn.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/extraction-btn.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/extraction-btn.png" alt="Extraction Button | Context Extraction">
 </a>
 
 <br/>
@@ -239,7 +239,7 @@ The extraction for each conversation will update in real time and we can check t
 
 <center>
 <a href="/images/seachat/en/context-extraction/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/extracted-value.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/extracted-value.png" alt="Extraction Value | Context Extraction">
 </a>
 
 <br/>
@@ -262,7 +262,7 @@ Proceed by navigating to the **Advanced Settings** tab where you can define the 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/context-extraction/example-advanced-setting.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-advanced-setting.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-advanced-setting.png" alt="Extraction Definition | Context Extraction">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Define Extraction</p>
 </div>
@@ -282,7 +282,7 @@ The AI agent will monitor conversations in real time, updating extraction fields
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/context-extraction/example-conversation.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-conversation.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-conversation.png" alt="Example Conversation | Context Extraction">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Monitor Conversation Extraction</p>
@@ -293,7 +293,7 @@ The extracted values from conversations are accessible within the system. Simply
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/context-extraction/example-result.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-result.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/example-result.png" alt="Result Example | Context Extraction">
     </a>
 </div>
  <p style="margin-top: 20px; font-size: 15px">Value Extracted</p>

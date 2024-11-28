@@ -47,7 +47,7 @@ Open an account at [SeaChat](https://chat.seasalt.ai/?utm_source=wiki). No credi
 <br/>
 <center>
 <a href="/images/seachat/en/getting-started/free-human-agent-mode.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/getting-started/free-human-agent-mode.png" alt="An image illustrate the Conversation Handling Mode option. (Human Agent Only)">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/getting-started/free-human-agent-mode.png" alt="An image illustrate the Conversation Handling Mode option. (Human Agent Only)" alt="Switch to Human Agent Mode">
 </a>
 
 *Choose Human Agent Only Mode*
