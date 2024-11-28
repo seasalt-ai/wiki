@@ -28,6 +28,23 @@ Finally, we demonstrate how to get a carousel of cards with multiple dog picture
 
 To set up this feature, after logging into SeaChat, navigate to **Agent Configuration** \-\> **Integrations** \-\> **Custom GPT Tools**. 
 
+>
+> SeaChat currently supports three types of tools:
+> 
+> - **Search and Display Tools**: These tools allow SeaChat to perform an external search using your API and fetch additional information based on the conversation context. The search results will be displayed in webchat as plaintext or as a carousel of cards.
+> - **Send Email**: Automate email sending based on your instructions. Ensure you specify the purpose, recipients, and conditions. To send emails to users, collect their email addresses via a webchat form.
+> - **Send SMS**: Automate SMS sending based on your instructions. Define the purpose, recipients, and conditions. To send SMS to users, ensure access to their phone numbers through the channel or a webchat form.
+> 
+> <br/>
+> <center>
+> <a href="/images/seachat/en/gpt-tools/seachat-tool-options.png">
+> <img height="100%" width="100%" src="/images/seachat/en/gpt-tools/seachat-tool-options.png"  alt="SeaChat Supported Tool Type">
+> </a>
+> <br/>
+> </center>
+
+## Steps to Configure a Search and Display Tool:
+
 ### Step 1: Select Tool Type
 
 SeaChat currently supports one main type of tools:
@@ -166,10 +183,119 @@ After filling out the required fields, a testing query will be automatically gen
 
 Once you've confirmed that your Custom GPT Tool settings are working as expected, you can proceed to save the configuration by clicking the Save button to save your Custom GPT Tool settings permanently.
 
+## Steps to Configure Email-Sending or SMS-Sending Tools
+
+### Step 1: Add Required Fields
+
+You need to provide several key pieces of information:
+
+- **Enable the Tool**: Turn on the Enable switch. This will activate the tool, allowing SeaChat to start using it automatically in relevant conversations.
+- **Tool Name**: Enter a name for your tool. This should contain only letters (A-Z, a-z), numbers (0-9), underscores (_), or hyphens (-) without any spaces.
+- **Description**: Add a brief description to help GPT understand the conditions for triggering the email or SMS.
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image9.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image9.png"  alt="Request via Emails Example">
+</a>
+
+<br/>
+
+*Example A: This tool is set up to send an email when user request information via email*
+
+</center>
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/sms-setup.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/sms-setup.png"  alt="SMS Alerts Example">
+</a>
+
+<br/>
+
+*Example B: This tool is set up to send an SMS message when a user exhibits excessively rude behavior or uses inappropriate language.*
+
+</center>
+
+### Step 2: Configure Email/SMS Content and Recipients
+You need to define the following fields to set up the actual message content to be sent via email or SMS.
+
+- **Title**: For the Send Email tool, provide a title for the email.
+- **Content**: Write the content you want to send.
+- **Options**: Check the option to include the AI agent's response at the end of the email/SMS, if desired.
+- **Recipients**: Enter a comma-separated list of recipients. Use placeholders like `{{user_phone}}` for SMS or `{{user_email}}` for email if SeaChat collects these values from webchat forms.
+
+> 📝 Note:
+> 
+> For emails, the sender address is defaulted to `no-reply@seasalt.ai`.
+> For SMS, the sender number is configured in the Calls channel. Learn how to set up a phone number [here](https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/#toll-free-number).
+
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/email-settings.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/email-settings.png"  alt="Email setup">
+</a>
+
+<br/>
+
+*Example A: Email titled "Your Requested Info" with content containing a placeholder. The checkbox is selected to include the AI agent's response in the email.*
+
+</center>
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/flag-msg-setting.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/flag-msg-setting.png"  alt="Flagged Message Setting">
+</a>
+
+<br/>
+
+*Example B: SMS with the content "The user has been flagged for inappropriate conduct."*
+
+</center>
+
+### Step 3: Save and Test
+Once you've completed configuring your Custom GPT Tool email or SMS settings, click the Save button to save your changes. You can then test your tools by interacting with your AI agent.
+
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/chat-example.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/chat-example.png"  alt="Chat Example for Flagged Message">
+</a>
+
+<a href="/images/seachat/en/gpt-tools/seachat-req.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/seachat-req.png"  alt="SeaChat Request Email">
+</a>
+
+<br/>
+
+*Example A: When a user asks the AI agent for a menu, the email tool is triggered, sending an email with the AI agent’s response included after "Here’s what you requested:".*
+
+</center>
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/flag-msg.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/flag-msg.png"  alt="Flagged Message">
+</a>
+
+<br/>
+
+*Example B: SMS with the content "The user has been flagged for inappropriate conduct."*
+
+</center>
+
 ## Limits
 
 To ensure optimal performance, certain limits apply to Custom GPT Tool settings:
 
-* **Character Limits**: The combined character count of the tool name, description, all Fixed Value Parameters (keys and values), and all Dynamic Variable Parameters (keys and descriptions) must not exceed 1024 characters.  
+* **Character Limits**: The combined character count of the tool name, description, all Fixed Value Parameters (keys and values), and all Dynamic Variable Parameters (keys and descriptions) must not exceed 1024 characters.
 * **Tool Execution Limit**: SeaChat will activate at most one enabled GPT tool per incoming user message. This includes any integrations with calendars or live agent transfers, ensuring that only the most relevant tool is selected for each conversation.
-
