@@ -118,28 +118,49 @@ Once you have integrated the LINE channel, your customer will see the **Live Age
 </center>
 <br/>
 
-## Automatic Timeout
+## Hybrid Mode (AI Agent + Human Agent)
 
-You can also set up a timeout for the live agent feature. Sometimes, a human live agent might have to deal with a lot of the conversation at once, and they can forget to click on the **Complete** button to give the conversation back to the AI agent. To prevent this from happening, you can set up an automatic timeout for the live agent feature. This will automatically complete the conversation if there is no activity from the chat for a certain amount of time.
+
+Besides the human-only and AI-only modes, SeaChat also offers a hybrid mode where both human agents and AI agents can work together to provide customer support. 
+
+The hybrid (AI Agent + Human Agent) combines the strengths of both human agents and AI agents. This creates much more flexibility in providing customer support. 
+
+As the result of such flexibility, here are feature options that users can only find in the hybrid mode:
+
+### 1.  Do not let customers request a live agent proactively
 
 <center>
-<a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
+<a href="/images/seachat/en/live-agent-transfer/do-not-request.png" target="_blank" alt="Do not let customers request a live agent proactively">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/do-not-request.png" alt="Do not let customers request a live agent proactively">
 </a>
 </center>
 <br/>
+
+If selected, **Show Summary** and **Automatic Switch to AI Agent** features  should hide or grey out, and the users should not be able to request a live agent during the chat conversation.
+
+<center>
+<a href="/images/seachat/en/do-request.png" target="_blank" alt="Show Summary and Automatic Switch to AI Agent features">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/do-request.png" alt="Show Summary and Automatic Switch to AI Agent features">
+</a>
+</center>
+<br/>
+
+### 2. Show Summary
+If selected, everyone in the chat can see the summary of the conversation. 
+
+### 3. Automatic Switch to AI Agent
+
+Sometimes, a human live agent might have to deal with a lot of the conversation at once, and they can forget to click on the **Complete** button to give the conversation back to the AI agent. 
+
+To prevent this from happening, you can set up an automatic timeout for the live agent feature. This will automatically complete the conversation if there is no activity from the chat for a certain amount of time.
+
 
 ## :dart: Troubleshooting
 
 ### Remove Live Agent Feature
-If you wish to deactivate the live agent feature, simply uncheck the box that says ***Users can request a live agent during chat*** in the **Basic Settings** in your **Agent Information**. This will disable the live agent feature and your customers will no longer be able to request a live agent during the chat conversation, nor will they see the **Live Agent** button.
+If you wish to deactivate the live agent feature, simply uncheck the box that says ***Do not let customers request a live agent proactively*** in the **Basic Settings** in your **Agent Information**. 
 
-<center>
-<a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
-</a>
-</center>
-<br/>
+This will disable the live agent feature and your customers will no longer be able to request a live agent during the chat conversation, nor will they see the **Live Agent** button.
 
 > :pushpin: Note
 >
