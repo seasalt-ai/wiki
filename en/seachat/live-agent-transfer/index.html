@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/en/seachat/live-agent-transfer/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2020-10-06T08:48:45+00:00">
-  <meta property="article:modified_time" content="2024-12-02T09:41:48-08:00">
+  <meta property="article:modified_time" content="2024-12-04T15:59:51+01:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2020-10-06T08:48:45CET",
-      "dateModified": "2024-12-02T09:41:48CET",
+      "dateModified": "2024-12-04T15:59:51CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/en/seachat/live-agent-transfer/#/schema/breadcrumb/1"
       },
@@ -1252,7 +1252,13 @@
     </li>
     <li><a href="#how-to-request-live-agent-on-webchat">How to Request Live Agent on WebChat</a></li>
     <li><a href="#how-to-request-live-agent-on-line">How to Request Live Agent on LINE</a></li>
-    <li><a href="#automatic-timeout">Automatic Timeout</a></li>
+    <li><a href="#hybrid-mode-ai-agent--human-agent">Hybrid Mode (AI Agent + Human Agent)</a>
+      <ul>
+        <li><a href="#1--do-not-let-customers-request-a-live-agent-proactively">1.  Do not let customers request a live agent proactively</a></li>
+        <li><a href="#2-show-summary">2. Show Summary</a></li>
+        <li><a href="#3-automatic-switch-to-ai-agent">3. Automatic Switch to AI Agent</a></li>
+      </ul>
+    </li>
     <li><a href="#-troubleshooting">🎯 Troubleshooting</a>
       <ul>
         <li><a href="#remove-live-agent-feature">Remove Live Agent Feature</a></li>
@@ -1281,7 +1287,13 @@
     </li>
     <li><a href="#how-to-request-live-agent-on-webchat">How to Request Live Agent on WebChat</a></li>
     <li><a href="#how-to-request-live-agent-on-line">How to Request Live Agent on LINE</a></li>
-    <li><a href="#automatic-timeout">Automatic Timeout</a></li>
+    <li><a href="#hybrid-mode-ai-agent--human-agent">Hybrid Mode (AI Agent + Human Agent)</a>
+      <ul>
+        <li><a href="#1--do-not-let-customers-request-a-live-agent-proactively">1.  Do not let customers request a live agent proactively</a></li>
+        <li><a href="#2-show-summary">2. Show Summary</a></li>
+        <li><a href="#3-automatic-switch-to-ai-agent">3. Automatic Switch to AI Agent</a></li>
+      </ul>
+    </li>
     <li><a href="#-troubleshooting">🎯 Troubleshooting</a>
       <ul>
         <li><a href="#remove-live-agent-feature">Remove Live Agent Feature</a></li>
@@ -1366,23 +1378,33 @@
 </a>
 </center>
 <br/>
-<h2 id="automatic-timeout">Automatic Timeout <a href="#automatic-timeout" class="anchor" aria-hidden="true">#</a></h2>
-<p>You can also set up a timeout for the live agent feature. Sometimes, a human live agent might have to deal with a lot of the conversation at once, and they can forget to click on the <strong>Complete</strong> button to give the conversation back to the AI agent. To prevent this from happening, you can set up an automatic timeout for the live agent feature. This will automatically complete the conversation if there is no activity from the chat for a certain amount of time.</p>
+<h2 id="hybrid-mode-ai-agent--human-agent">Hybrid Mode (AI Agent + Human Agent) <a href="#hybrid-mode-ai-agent--human-agent" class="anchor" aria-hidden="true">#</a></h2>
+<p>Besides the human-only and AI-only modes, SeaChat also offers a hybrid mode where both human agents and AI agents can work together to provide customer support.</p>
+<p>The hybrid (AI Agent + Human Agent) combines the strengths of both human agents and AI agents. This creates much more flexibility in providing customer support.</p>
+<p>As the result of such flexibility, here are feature options that users can only find in the hybrid mode:</p>
+<h3 id="1--do-not-let-customers-request-a-live-agent-proactively">1.  Do not let customers request a live agent proactively <a href="#1--do-not-let-customers-request-a-live-agent-proactively" class="anchor" aria-hidden="true">#</a></h3>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
+<a href="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/do-not-request.png" target="_blank" alt="Do not let customers request a live agent proactively">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/do-not-request.png" alt="Do not let customers request a live agent proactively">
 </a>
 </center>
 <br/>
+<p>If selected, <strong>Show Summary</strong> and <strong>Automatic Switch to AI Agent</strong> features  should hide or grey out, and the users should not be able to request a live agent during the chat conversation.</p>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/do-request.png" target="_blank" alt="Show Summary and Automatic Switch to AI Agent features">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/do-request.png" alt="Show Summary and Automatic Switch to AI Agent features">
+</a>
+</center>
+<br/>
+<h3 id="2-show-summary">2. Show Summary <a href="#2-show-summary" class="anchor" aria-hidden="true">#</a></h3>
+<p>If selected, everyone in the chat can see the summary of the conversation.</p>
+<h3 id="3-automatic-switch-to-ai-agent">3. Automatic Switch to AI Agent <a href="#3-automatic-switch-to-ai-agent" class="anchor" aria-hidden="true">#</a></h3>
+<p>Sometimes, a human live agent might have to deal with a lot of the conversation at once, and they can forget to click on the <strong>Complete</strong> button to give the conversation back to the AI agent.</p>
+<p>To prevent this from happening, you can set up an automatic timeout for the live agent feature. This will automatically complete the conversation if there is no activity from the chat for a certain amount of time.</p>
 <h2 id="-troubleshooting">🎯 Troubleshooting <a href="#-troubleshooting" class="anchor" aria-hidden="true">#</a></h2>
 <h3 id="remove-live-agent-feature">Remove Live Agent Feature <a href="#remove-live-agent-feature" class="anchor" aria-hidden="true">#</a></h3>
-<p>If you wish to deactivate the live agent feature, simply uncheck the box that says <em><strong>Users can request a live agent during chat</strong></em> in the <strong>Basic Settings</strong> in your <strong>Agent Information</strong>. This will disable the live agent feature and your customers will no longer be able to request a live agent during the chat conversation, nor will they see the <strong>Live Agent</strong> button.</p>
-<center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
-</a>
-</center>
-<br/>
+<p>If you wish to deactivate the live agent feature, simply uncheck the box that says <em><strong>Do not let customers request a live agent proactively</strong></em> in the <strong>Basic Settings</strong> in your <strong>Agent Information</strong>.</p>
+<p>This will disable the live agent feature and your customers will no longer be able to request a live agent during the chat conversation, nor will they see the <strong>Live Agent</strong> button.</p>
 <blockquote>
 <p>📌 Note</p>
 <p>Live agent, if available, will still be able to monitor and take over conversations in <strong>Conversations</strong>. Unchecking the box only removes the option for customers to request a live agent.</p>
