@@ -36,7 +36,7 @@ SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/agent-information/use-case-examples.png" target="_blank">
-    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/use-case-examples.png" alt="image that display the use case options available in SeaChat">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/use-case-examples.png" alt="助理使用情境">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">選擇適合的使用情境</p>
@@ -48,7 +48,7 @@ SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/agent-information/description-preview.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/description-preview.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/description-preview.png" alt="AI 助理的簡要描述">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Agent Description</p>
@@ -71,7 +71,7 @@ SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/agent-information/response-language.png" target="_blank">
-    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/response-language.png" alt="image showcases the options of response language">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/response-language.png" alt="使用使用者的語言回應選項">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Agent's Response Language</p>
@@ -95,7 +95,7 @@ SeaChat 允許您配置您的 AI 助理的資訊，例如名稱、使用案例�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/agent-information/additional-options.png" target="_blank">
-    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/additional-options.png" alt="image that displays the additional options in Basic Settings">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-information/additional-options.png" alt="基本設定選項">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Additional Options in Basic Settings</p>

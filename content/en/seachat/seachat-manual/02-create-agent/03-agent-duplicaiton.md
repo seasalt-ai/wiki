@@ -27,7 +27,7 @@ To duplicate an agent, click on the Agent Duplicate button located next to the a
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/create-a-new-agent/agent-duplication-btn.png" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/agent-duplication-btn.png" alt="">
+      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/agent-duplication-btn.png" alt="Duplicate Button | SeaChat Agent Duplicate">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Duplicate Agent Button</p>
   </div>
@@ -42,7 +42,7 @@ This process might take some time depending on the complexity of the agent. Once
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/create-a-new-agent/duplication-confirmation.png" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/duplication-confirmation.png" alt="">
+      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/create-a-new-agent/duplication-confirmation.png" alt="Confirm Duplication | SeaChat Agent Duplicate">
     </a>
     <p style="margin-top: 20px; font-size: 15px">Duplication Confirmation</p>
   </div>
@@ -65,7 +65,7 @@ This is particularly useful when you want to develop an existing agent without a
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/create-a-new-agent/replace-button.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/create-a-new-agent/replace-button.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/create-a-new-agent/replace-button.png" alt="Agent Replacement | SeaChat Agent Duplicate">
 </a>
 
 **Agent Replacement**

@@ -54,7 +54,7 @@ Choose a title for your document and write the texts of the document in the text
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/title-text.png" alt="Example of the Document Text and Document Title">
 </a>
 
 *Document title and text*
@@ -67,7 +67,7 @@ If you have anything that is in the form of key-value pairs, you can add them he
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/atr-value-pair.png" alt="Example of the Name and Value fields">
 </a>
 
 *Enter **Name**(Attribute) and **Value***
@@ -89,7 +89,7 @@ You will see a success message once the files are uploaded successfully. You hav
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/manual-kb-in-existing.png" alt="Manual KB UI">
 </a>
 
 *Look for **Manual KB** in **Existing***
@@ -101,7 +101,7 @@ Click on the file you just uploaded to review the content. That's all. You can n
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge/manual-entry/review-upload.png" alt="Review uploaded data">
 </a>
 
 *Review the uploaded content*

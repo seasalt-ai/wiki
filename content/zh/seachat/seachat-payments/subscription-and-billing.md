@@ -17,7 +17,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/billing-and-subscription/billing-and-subscription.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/billing-and-subscription/billing-and-subscription.png" alt="SeaChat | 方案與帳務">
 </a>
 
 **方案與帳務***
@@ -39,7 +39,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/billing-and-subscription/billing-recipients.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat/zh/billing-and-subscription/billing-recipients.png" alt="">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat/zh/billing-and-subscription/billing-recipients.png" alt="SeaChat | 帳單收件人">
 </a>
 
 **修改組織名稱(統一編號)**
@@ -56,7 +56,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/billing-and-subscription/invoices.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/billing-and-subscription/invoices.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/billing-and-subscription/invoices.png" alt="SeaChat | 發票">
 </a>
 
 **下載發票**

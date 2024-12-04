@@ -39,7 +39,7 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/facebook-messenger-integration.png" alt="SeaChat | Messenger | Facebook Messenger集成">
 </a>
     <p style="margin-top: 20px; font-size: 15px">使用SeaChat的ChatGPT驅動的聊天機器人與Facebook Messenger集成</p>
 </div>
@@ -102,10 +102,10 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/create-new-messenger-app.png" alt="SeaChat | Messenger | 創建新的Messenger App">
     </a>
 <br/>
-    <p style="margin-top: 20px; font-size: 15px">創建新的MessengerApp</p>
+    <p style="margin-top: 20px; font-size: 15px">創建新的Messenger App</p>
 </div>
 </div>
 
@@ -117,14 +117,14 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center;">
     <div style="width: 100%; height:100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/en/channels/facebook-messenger/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-1.png" alt="">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-1.png" alt="SeaChat | Messenger | 創建一個 Other App">
         </a>
         <p style="margin-top: 20px; font-size: 15px">創建一個 <strong>Other</strong> app</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/en/channels/facebook-messenger/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-2.png" alt="">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-2.png" alt="SeaChat | Messenger | 選擇Business">
         </a>
         <p style="margin-top: 20px; font-size: 15px">選擇<strong>Business</strong></p>
     </div>
@@ -137,7 +137,7 @@ toc: true
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/en/channels/facebook-messenger/choose-app-type-3.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-3.png" alt="">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/choose-app-type-3.png" alt="SeaChat | Messenger | 創建App">
         </a>
         <p style="margin-top: 20px; font-size: 15px">創建App</p>
     </div>
@@ -150,7 +150,7 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/channels/facebook-messenger/add-messenger-product.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/add-messenger-product.png" alt="">
+        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/add-messenger-product.png" alt="SeaChat | Messenger | 將Messenger添加到您的App<">
     </a>
 <br/>
     <p style=" font-size: 15px">將Messenger添加到您的App</p>
@@ -171,7 +171,7 @@ toc: true
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
    <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-1.png" target="_blank"
 style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-1.png" alt="">
+    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-1.png" alt="SeaChat | Messenger | Verify token">
     </a>
 <br/>
     <p style=" font-size: 15px">Verify token</p>
@@ -185,7 +185,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
    <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-2.png" target="_blank"
 style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-2.png" alt="">
+    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-2.png" alt="SeaChat | Messenger | 導航至SeaChat的Messenger">
     </a>
 <br/>
     <p style=" font-size: 15px">導航至SeaChat的<strong>Messenger</strong></p>
@@ -198,7 +198,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-3.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-3.png" alt="SeaChat | Messenger | 將SeaChat信息配置到儀表板">
 </a>
     <p style="margin-top: 20px; font-size: 15px">將SeaChat信息配置到儀表板</p>
 </div>
@@ -211,7 +211,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-4.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-4.png" alt="SeaChat | Messenger | 貼上URL和金鑰">
 </a>
     <p style="margin-top: 20px; font-size: 15px">貼上URL和金鑰</p>
 </div>
@@ -224,7 +224,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-5.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-5.png" alt="SeaChat | Messenger | Webhook Fields配置">
 </a>
     <p style="margin-top: 20px; font-size: 15px"><strong>Webhook Fields</strong>配置</p>
 </div>
@@ -237,7 +237,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-6.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-6.png" alt="SeaChat | Messenger | 訂閱選擇的消息">
 </a>
     <p style="margin-top: 20px; font-size: 15px">訂閱選擇的消息</p>
 </div>
@@ -250,7 +250,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/how-to-config-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-7.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/how-to-config-7.png" alt="SeaChat | Messenger | Webhook配置">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Webhook配置</p>
 </div>
@@ -265,7 +265,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/access-token-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-1.png" alt="SeaChat | Messenger | 生成訪問金鑰">
 </a>
     <p style="margin-top: 20px; font-size: 15px">生成訪問金鑰</p>
 </div>
@@ -278,7 +278,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/access-token-2.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-2.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-2.png" alt="SeaChat | Messenger | 添加訂閱">
 </a>
     <p style="margin-top: 20px; font-size: 15px">點擊<strong>添加訂閱</strong></p>
 </div>
@@ -291,7 +291,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/access-token-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-3.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-3.png" alt="SeaChat | Messenger | 選擇messages">
 </a>
     <p style="margin-top: 20px; font-size: 15px">選擇<strong>messages</strong></p>
 </div>
@@ -304,7 +304,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/access-token-4.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-4.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-4.png" alt="SeaChat | Messenger | 金鑰生成">
 </a>
     <p style="margin-top: 20px; font_size: 15px">金鑰生成</p>
 </div>
@@ -317,7 +317,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/access-token-5.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-5.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-5.png" alt="SeaChat | Messenger | 金鑰詳情">
 </a>
     <p style="margin-top: 20px; font-size: 15px">金鑰詳情</p>
 </div>
@@ -330,7 +330,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/access-token-6.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-6.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-6.png" alt="SeaChat | Messenger | 將金鑰貼上到SeaChat">
 </a>
     <p style="margin-top: 20px; font-size: 15px">將金鑰貼上到SeaChat</p>
 </div>
@@ -343,9 +343,9 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a id="live-mode" href="/images/seachat/en/channels/facebook-messenger/access-token-7.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-7.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/access-token-7.png" alt="SeaChat | Messenger | "真人模式>
 </a>
-    <p style="margin-top: 20px; font-size: 15px">即時模式</p>
+    <p style="margin-top: 20px; font-size: 15px">真人模式</p>
 </div>
 </div>
 
@@ -358,7 +358,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/app-review-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/app-review-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/app-review-1.png" alt="SeaChat | Messenger | App審查">
 </a>
     <p style="margin-top: 20px; font-size: 15px">App審查</p>
 </div>
@@ -373,7 +373,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/facebook-pages.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/facebook-pages.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/facebook-pages.png" alt="SeaChat | Messenger | Facebook頁面">
 </a>
     <p style="margin-top: 20px; font-size: 15px">確保Facebook頁面在您的業務下顯示
 </p>
@@ -390,7 +390,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 40%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/live-agent-status.png" alt="SeaChat | Messenger | 真人助理狀態">
 </a>
     <p style="margin-top: 20px; font-size: 15px">真人助理狀態
 </p>
@@ -404,7 +404,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/live-agent-interaction.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/live-agent-interaction.png" alt="SeaChat | Messenger | 真人助理互動">
 </a>
     <p style="margin-top: 20px; font-size: 15px">真人助理互動
 </p>
@@ -418,7 +418,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/ai-agent-preference.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/ai-agent-preference.png" alt="SeaChat | Messenger | 真人助理偏好">
 </a>
     <p style="margin-top: 20px; font-size: 15px">真人助理偏好
 </p>
@@ -438,7 +438,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/remove-app-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/remove-app-1.png" alt="SeaChat | Messenger | 移除集成">
 </a>
     <p style="margin-top: 20px; font-size: 15px">移除集成</p>
 </div>
@@ -455,7 +455,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/messenger-voice-clip.png" alt="SeaChat | Messenger | 語音剪輯轉錄和SeaChat回應">
 </a>
     <p style="margin-top: 20px; font-size: 15px"><strong>Facebook Messenger語音剪輯轉錄和SeaChat回應</strong></p>
 </div>
@@ -472,7 +472,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/edit-page-subs-postback.png" alt="SeaChat | Messenger | Edit Page Subscription">
 </a>
     <p style="margin-top: 20px; font-size: 15px"><strong>Edit Page Subscription</strong></p>
 </div>
@@ -497,7 +497,7 @@ MetaApp需要訪問某個Facebook頁面，以便能夠接收從該頁面發送�
 ## :dart: 故障排除
 
 如果您沒有收到來自SeaChat助理的Messenger回應，您應該驗證以下容易被忽略的設置：
-- 您的MessengerApp是否已設置為[**即時模式**](#live-mode)？確保它不是在開發模式下運行。
+- 您的MessengerApp是否已設置為[**真人模式**](#live-mode)？確保它不是在開發模式下運行。
 - 您是否配置了[**webhook字段**](#perma-token-webhook)以允許**消息權限**？如果未正確授予此權限，SeaChat將無法接收來自Messenger的消息。
 
 

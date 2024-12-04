@@ -80,7 +80,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/zh/context-extraction/general-setup.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/general-setup.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/general-setup.png" alt="SeaChat | 上下文抽取 | 進階設置">
 </a>
 
 <br/>
@@ -154,7 +154,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/en/context-extraction/question-start.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/question-start.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/question-start.png" alt="SeaChat | 上下文抽取 | 設置描述">
 </a>
 
 <br/>
@@ -170,7 +170,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/en/context-extraction/advanced-settings.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/advanced-settings.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/context-extraction/advanced-settings.png" alt="SeaChat | 上下文抽取 | 進階設置標籤">
 </a>
 
 <br/>
@@ -186,7 +186,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/zh/context-extraction/conversation-page.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/conversation-page.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/conversation-page.png" alt="SeaChat | 上下文抽取 | 對話">
 </a>
 
 <br/>
@@ -198,7 +198,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/zh/context-extraction/extraction-btn.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extraction-btn.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extraction-btn.png" alt="SeaChat | 上下文抽取 | 按鈕">
 </a>
 
 <br/>
@@ -210,7 +210,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/zh/context-extraction/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extracted-value.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extracted-value.png" alt="SeaChat | 上下文抽取 | 最新提取值">
 </a>
 
 <br/>
@@ -232,7 +232,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 
 <center>
 <a href="/images/seachat/zh/context-extraction/example-advanced-setting.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/example-advanced-setting.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/example-advanced-setting.png" alt="SeaChat | 上下文抽取 | 進階設置範例">
 </a>
 <p style="margin-top: 20px; font-size: 15px">定義上下文抽取</p>
 </center>
@@ -249,7 +249,7 @@ AI 助理將實時監控對話，在檢測到相關信息時更新上下文抽�
 
 <center>
 <a href="/images/seachat/zh/context-extraction/example-conversation.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/example-conversation.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/example-conversation.png" alt="SeaChat | 上下文抽取 | 對話範例">
 </a>
 <p style="margin-top: 20px; font-size: 15px">監控對話上下文抽取</p>
 </center>
@@ -258,7 +258,7 @@ AI 助理將實時監控對話，在檢測到相關信息時更新上下文抽�
 
 <center>
 <a href="/images/seachat/zh/context-extraction/extracted-value.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extracted-value.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/context-extraction/extracted-value.png" alt="SeaChat | 上下文抽取 | 提取值範例">
 </a>
 <p style="margin-top: 20px; font-size: 15px">提取的值</p>
 </center>

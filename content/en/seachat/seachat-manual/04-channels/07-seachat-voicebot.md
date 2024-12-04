@@ -30,7 +30,7 @@ In my agent description, I made sure to include that this agent is for voice cal
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/agent-description.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/agent-description.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/agent-description.png" alt="SeaChat | VoiceBot | Agent Description">
 </a>
 
 *Add Agent Description*
@@ -41,7 +41,7 @@ Once we have created our voice agent, let's start setting up the voice agent to 
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/choose-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/choose-calls.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/choose-calls.png" alt="SeaChat | Messenger | Choose Callee Agent">
 </a>
 
 *Setting up **Calls** Channel*
@@ -54,7 +54,7 @@ In the **Calls** channel, we need to first purchase a toll-free phone number. Ch
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/buy-a-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/buy-a-number.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/buy-a-number.png" alt="SeaChat | Messenger | Buy a Number">
 </a>
 
 *Purchase a toll-free number*
@@ -65,7 +65,7 @@ Once purchased, you can see the toll-free number of your choice. You can always 
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/toll-free-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/toll-free-number.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/toll-free-number.png" alt="SeaChat | Messenger | Toll Free Number">
 </a>
 
 *Toll-free number details*
@@ -80,7 +80,7 @@ You are welcome to enable the live agent feature for your voice agent just like 
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/configure-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/configure-agent.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/configure-agent.png" alt="SeaChat | Messenger | Agent Configuration">
 </a>
 
 *Voice agent configuration*
@@ -101,7 +101,7 @@ Now that we have set up the voice agent, we can start testing our agent to see i
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/configuration-setup.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/configuration-setup.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/configuration-setup.png" alt="SeaChat | Messenger | Configuration Steps">
 </a>
 
 *Configuration set up*
@@ -114,7 +114,7 @@ There are two ways to test the voice agent. You can call the toll-free number th
 <br/>
 <center>
   <a href="/images/seachat/en/channels/voicebot/inbound-outbound-test.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/inbound-outbound-test.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/voicebot/inbound-outbound-test.png" alt="SeaChat | Messenger | Inbound/ Outbound Tests">
 </a>
 
 *Test you agent*

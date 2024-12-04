@@ -16,7 +16,7 @@ You can find all the information about billing and subscription in the billing s
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" alt="SeaMeet | Billing & Subscription">
 </a>
 
 **Billing and Subscription**
@@ -37,7 +37,7 @@ In the **Billing Recipients** section, you can see the details of the billing re
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seameet-en/billing-and-subscription/billing-recipients.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-recipients.png" alt="">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-recipients.png" alt="SeaMeet | Billing Recipients">
 </a>
 
 **Change Billing Recipient**

@@ -51,7 +51,7 @@ SeaChat 提供一系列符合您業務需求的定價方案。從我們靈活的
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/pricing-plans/pricing-model.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/pricing-plans/pricing-model.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/pricing-plans/pricing-model.png" alt="SeaChat | 模型定價">
 </a>
 
 **模型定價**
@@ -64,7 +64,7 @@ SeaChat 提供一系列符合您業務需求的定價方案。從我們靈活的
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/pricing-plans/pricing-support.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/pricing-plans/pricing-support.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/pricing-plans/pricing-support.png" alt="SeaChat | 啟動支援方案">
 </a>
 
 **啟動支援方案**

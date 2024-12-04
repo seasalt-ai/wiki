@@ -26,7 +26,7 @@ url: /zh/seachat/manual/create-agent/version-control
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/create-a-new-agent/agent-duplication-btn.png" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/agent-duplication-btn.png" alt="">
+      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/agent-duplication-btn.png" alt="SeaChat | 複製AI助理按鈕">
     </a>
     <p style="margin-top: 20px; font-size: 15px">複製AI助理按鈕</p>
   </div>
@@ -41,7 +41,7 @@ url: /zh/seachat/manual/create-agent/version-control
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/create-a-new-agent/duplication-confirmation.png" style="height: 200px; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/duplication-confirmation.png" alt="">
+      <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/duplication-confirmation.png" alt="SeaChat | AI助理複製確認">
     </a>
     <p style="margin-top: 20px; font-size: 15px">複製確認</p>
   </div>
@@ -65,7 +65,7 @@ url: /zh/seachat/manual/create-agent/version-control
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/create-a-new-agent/replace-button.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/create-a-new-agent/replace-button.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/create-a-new-agent/replace-button.png" alt="SeaChat | 取代AI助理按鈕">
 </a>
 
 **取代助理**
@@ -81,7 +81,7 @@ url: /zh/seachat/manual/create-agent/version-control
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/create-a-new-agent/replacement-workflow.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/create-a-new-agent/replacement-workflow.jpg" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/create-a-new-agent/replacement-workflow.jpg" alt="SeaChat | 取代工作流程">
 </a>
 
 **助理取代工作流程**

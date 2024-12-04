@@ -28,7 +28,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/line-自動回應-vs-seachat-智能助理.png" target="_blank">
-<img height="60%" width="100%" src="/images/seachat-channels/line/line-自動回應-vs-seachat-智能助理.png" alt="LINE自動回應 vs. SeaChat智能助理">
+<img height="60%" width="100%" src="/images/seachat-channels/line/line-自動回應-vs-seachat-智能助理.png" alt="SeaChat | Line | LINE自動回應 vs. SeaChat智能助理">
 </a>
 
 *LINE自動回應 vs. SeaChat智能助理*
@@ -42,7 +42,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將line回應設定選擇手動聊天加自動回應.png" target="_blank">
-<img height="60%" width="100%" src="/images/seachat-channels/line/將line回應設定選擇手動聊天加自動回應.png" alt="將LINE回應設定選擇手動聊天加自動回應">
+<img height="60%" width="100%" src="/images/seachat-channels/line/將line回應設定選擇手動聊天加自動回應.png" alt="SeaChat | Line | 將LINE回應設定選擇手動聊天加自動回應">
 </a>
 
 *將LINE回應設定選擇手動聊天加自動回應*
@@ -54,7 +54,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將LINE自動回應改為關鍵字回應.png" target="_blank">
-<img height="60%" width="100%" src="/images/seachat-channels/line/將LINE自動回應改為關鍵字回應.png" alt="將LINE的自動回應改為關鍵字回應">
+<img height="60%" width="100%" src="/images/seachat-channels/line/將LINE自動回應改為關鍵字回應.png" alt="SeaChat | Line | 將LINE的自動回應改為關鍵字回應">
 </a>
 
 *將LINE的自動回應改為關鍵字回應*
@@ -67,7 +67,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/新增關鍵字於關鍵字回應內.png" target="_blank">
-<img height="60%" width="100%" src="/images/seachat-channels/line/新增關鍵字於關鍵字回應內.png" alt="新增關鍵字於關鍵字回應內">
+<img height="60%" width="100%" src="/images/seachat-channels/line/新增關鍵字於關鍵字回應內.png" alt="SeaChat | Line | 新增關鍵字於關鍵字回應內">
 </a>
 
 *新增關鍵字於關鍵字回應內*
@@ -79,7 +79,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/seachat-知識庫.png" target="_blank">
-<img height="60%" width="100%" src="/images/seachat-channels/line/seachat-知識庫.png" alt="新增知識到SeaChat知識庫內">
+<img height="60%" width="100%" src="/images/seachat-channels/line/seachat-知識庫.png" alt="SeaChat | Line | 新增知識到SeaChat知識庫內">
 </a>
 
 *新增知識到SeaChat知識庫內*
@@ -91,7 +91,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" target="_blank">
-<img height="60%" width="100%" src="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" alt="將關鍵字應答輸入到SeaChat知識庫">
+<img height="60%" width="100%" src="/images/seachat-channels/line/將關鍵字應答輸入到SeaChat知識庫.png" alt="SeaChat | Line | 將關鍵字應答輸入到SeaChat知識庫">
 </a>
 
 *將關鍵字應答輸入到SeaChat知識庫*
@@ -103,7 +103,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" target="_blank">
-<img height="100%" width="50%" src="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" alt="LINE文字訊息您可以放心交給SeaChat">
+<img height="100%" width="50%" src="/images/seachat-channels/line/LINE文字訊息您可以放心交給SeaChat.png" alt="SeaChat | Line | LINE文字訊息您可以放心交給SeaChat">
 </a>
 
 *LINE文字訊息您可以放心交給SeaChat*
@@ -121,7 +121,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line//turn-off-live-chat.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-channels/line//turn-off-live-chat.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-channels/line//turn-off-live-chat.png" alt="SeaChat | Line | 關閉 LINE 的真人聊天功能">
 </a>
 
 **關閉 LINE 的真人聊天功能**
@@ -182,7 +182,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/line-reply-pricing.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-channels/line/line-reply-pricing.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-channels/line/line-reply-pricing.png" alt="SeaChat | Line | LINE 推廣方案細節">
 </a>
 
 **LINE 推廣方案細節**
@@ -223,7 +223,7 @@ SeaChat 為此問題提供了解決方案。利用 KB ID 功能來避免訊息�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat-channels/line/faq-1.png" target="_blank">
-<img height="50%" width="100%" src="/images/seachat-channels/line/faq-1.png" alt="LINE text messages you can rely on SeaChat">
+<img height="50%" width="100%" src="/images/seachat-channels/line/faq-1.png" alt="SeaChat | Line | 真人客服已完成對話訊息">
 </a>
 
 </center>
@@ -246,7 +246,7 @@ SeaChat 為此問題提供了解決方案。利用 KB ID 功能來避免訊息�
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" target="_blank">
-      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="image that displays the additional options in Chat Settings">
+      <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-information/webchat-settings-for-thrid-parties.png" alt="SeaChat | Line | 聊天小工具基本設定">
     </a>
   </div>
   <p style="margin-top: 20px; font-size: 15px">聊天小工具基本設定</p>

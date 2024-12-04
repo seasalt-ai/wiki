@@ -22,7 +22,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/seachat-conversation/conversation-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/seachat-conversation/conversation-dashboard.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/seachat-conversation/conversation-dashboard.png" alt="SeaChat | 助理對話頁面">
 </a>
 
 **助理對話**
@@ -37,7 +37,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/seachat-conversation/download-audio.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/seachat-conversation/download-audio.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/seachat-conversation/download-audio.png" alt="SeaChat | 下載音訊對話">
 </a>
 
 **下載音訊對話**
@@ -55,7 +55,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/seachat-conversation/download-conversation-history.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/seachat-conversation/download-conversation-history.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/seachat-conversation/download-conversation-history.png" alt="SeaChat | 下載對話歷史記錄">
 </a>
 
 **下載對話歷史記錄**

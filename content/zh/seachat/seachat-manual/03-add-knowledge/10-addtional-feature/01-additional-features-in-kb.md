@@ -105,7 +105,7 @@ url: /zh/seachat/manual/add-knowledge/additional-features-in-kb/
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/knowledge-advanced-features/knowledge-additional-features/sync-button.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/knowledge-additional-features/sync-button.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/knowledge-advanced-features/knowledge-additional-features/sync-button.png" alt="同步知識按鈕">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">同步知識</p>

@@ -21,7 +21,7 @@ The conversation dashboard is where you can view and manage all the conversation
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/seachat-conversation/conversation-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/seachat-conversation/conversation-dashboard.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/seachat-conversation/conversation-dashboard.png" alt="Conversation Dashboard | Agent Conversation">
 </a>
 
 **Agent Conversations View**
@@ -38,7 +38,7 @@ In each conversation row, there will be an icon indicating the conversation chan
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/seachat-conversation/download-audio.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/seachat-conversation/download-audio.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/seachat-conversation/download-audio.png" alt="Download Audio | Agent Conversation">
 </a>
 
 **Download Audio Conversations**
@@ -55,7 +55,7 @@ Click on **Download Conversations*  - `and Choose the year of the conversation h
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/seachat-conversation/download-conversation-history.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/seachat-conversation/download-conversation-history.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/seachat-conversation/download-conversation-history.png" alt="Download Conversation History | Agent Conversation">
 </a>
 
 **Download Conversation History**
