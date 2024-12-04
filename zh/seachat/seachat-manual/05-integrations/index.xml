@@ -36,7 +36,7 @@
 步驟4：點擊theme.liquid # 點擊左側面板上的「&amp;lt;/&amp;gt; theme.liquid」。
 步驟5：複製SeaChat程式代碼 # 您需要登入SeaChat才能查看此程式片段。您可至SeaChat免費註冊。在SeaChat儀表板的工作區內找到「AI助理配置」-&amp;gt;「頻道」，並在Shopify頻道下，來取得所需的程式片段。
 將從Seachat上的Shopify整合設置中獲得的SeaChat程式片段貼上到。您可以在開頭的標籤和結尾的標籤之間的任何位置貼上它。
-步驟6：儲存並預覽 # 點擊右上方的「Save」按鈕。接著點擊「Preview Store」來測試AI助理。當您準備好時，記得再次啟動商店！
+和  之間的任何位置。&#34; 步驟6：儲存並預覽 # 點擊右上方的「Save」按鈕。接著點擊「Preview Store」來測試AI助理。當您準備好時，記得再次啟動商店！
 非常重要: 如果你想要設定網頁助理的外觀和樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。在設定好外觀和樣式後，你的所有網頁將共享相同的設計。
 步驟7：（Optional）移除其他聊天機器人 # 請移除任何其他的聊天機器人服務，如Shopify Inbox，以避免混淆。Shopify的用戶們，請將您網站的自定頁面切換成禁用「Apps embeds」。最後，如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
 協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
@@ -96,6 +96,7 @@
 您可以調整邊距。我們建議將垂直(Vertial)和水平(horizontal)設置都設為20。
 步驟8：儲存並預覽 # 使用Wix上的「Preview」功能來測試AI助理。當您準備好時，記得重新啟動網站！
 非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
+&amp;lt;img width=&amp;ldquo;60%&amp;rdquo; style=&amp;ldquo;border-radius: 0.4rem&amp;rdquo; src=&amp;quot;/images/seachat-integrations/wix/wix-seachat-integration-step6.png&amp;quot; alt=&amp;ldquo;SeaChat | 在網站上預覽SeaChat助理。&amp;gt;
 步驟8：（Optional）移除其他聊天機器人 # 請移除任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
 協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
     </item>
