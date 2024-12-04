@@ -24,7 +24,7 @@ toc: true
 
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/create-a-new-agent/create-new-agent-shortcut.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/create-new-agent-shortcut.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/create-new-agent-shortcut.png" alt="SeaChat | 創建新助理快捷">
 </a>
     <p style="margin-top: 20px; font-size: 15px">創建新助理快捷方式</p>
 
@@ -44,7 +44,7 @@ toc: true
 
   <a href="/images/seachat/zh/create-a-new-agent/choose-creation-method.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/choose-creation-method.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/choose-creation-method.png" alt="SeaChat | 選擇助理創建方法">
 
 </a>
     <p style="margin-top: 20px; font-size: 15px">選擇助理創建方法</p>
@@ -85,7 +85,7 @@ toc: true
 
   <a href="/images/seachat/zh/create-a-new-agent/start-from-scratch.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/start-from-scratch.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/start-from-scratch.png" alt="SeaChat | 選擇從頭開始創建 AI 助理">
 
 </a>
     <p style="margin-top: 20px; font-size: 15px">從頭開始創建 AI 助理</p>
@@ -106,7 +106,7 @@ toc: true
 
   <a href="/images/seachat/zh/create-a-new-agent/pick-a-use-case.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/pick-a-use-case.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/pick-a-use-case.png" alt="SeaChat | 選擇使用案例">
 
 </a>
     <p style="margin-top: 20px; font-size: 15px">選擇使用案例</p>
@@ -126,7 +126,7 @@ toc: true
 
   <a href="/images/seachat/zh/create-a-new-agent/choose-a-use-case.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
 
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/choose-a-use-case.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/create-a-new-agent/choose-a-use-case.png" alt="SeaChat | 定義助理描述">
 
 </a>
     <p style="margin-top: 20px; font-size: 15px">定義助理描述</p>

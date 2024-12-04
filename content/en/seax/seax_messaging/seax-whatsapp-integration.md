@@ -24,7 +24,7 @@ Head to **Channels** under **Workspace** in the sidebar menu. Click on **WhatsAp
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/channel-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/channel-dashboard.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/channel-dashboard.png" alt="SeaX | WhatsApp | Channels Dashboard">
 </a>
 
 *Click on **WhatsApp Business App***
@@ -37,7 +37,7 @@ Follow the instructions to connect your device to the WhatsApp Business App usin
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/qr-code.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/qr-code.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/qr-code.png" alt="SeaX | WhatsApp | WhatsApp QR Code">
 </a>
 
 *Connect to WhatsApp using QR Code*
@@ -55,7 +55,7 @@ Once you have successfully connected your device, head back to **Channels** unde
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/connection-status.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/connection-status.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/connection-status.png" alt="SeaX | WhatsApp | Connection Status Notification">
 </a>
 
 *Connected Successfully*
@@ -77,7 +77,7 @@ You can connect them to SeaX Messaging by clicking on **Add Account** in the **W
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/multiple-whatsapp-accounts.png" alt="SeaX | WhatsApp | Multi. WhatsApp Accounts">
 </a>
 
 *Add Multiple WhatsApp Accounts*
@@ -89,7 +89,7 @@ Once all the accounts are connected, let's go to **Number** section by clicking 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" target="_blank">
-<img width="50%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" alt="">
+<img width="50%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-settings-shortcut.png" alt="SeaX | WhatsApp | Channels Phone Number Setting Shortcut">
 </a>
 
 *Number Settings*
@@ -100,7 +100,7 @@ Not only can you edit all your connected accounts here, but you can also have a 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/number-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-dashboard.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/number-dashboard.png" alt="SeaX | WhatsApp | Number Dashboard">
 </a>
 
 *Find Connect Numbers*
@@ -116,7 +116,7 @@ From SMS to WhatsApp, you can assign different agents to different WhatsApp acco
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/whatsapp-integration/reconnect-app.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seax/en/whatsapp-integration/reconnect-app.png" alt="SeaX | WhatsApp | Reconnect WhatsApp">
 </a>
 
 *Reconnect App*

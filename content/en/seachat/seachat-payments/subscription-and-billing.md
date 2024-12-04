@@ -17,7 +17,7 @@ You can find all the information about billing and subscription in the billing s
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/billing-and-subscription.png" alt="SeaChat | Billing & Subscription">
 </a>
 
 **Billing and Subscription**
@@ -38,7 +38,7 @@ In the **Billing Recipients** section, you can see the details of the billing re
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/billing-and-subscription/billing-recipients.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/billing-recipients.png" alt="">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/billing-recipients.png" alt="SeaChat | Bill Recipient">
 </a>
 
 **Change Billing Recipient**
@@ -56,7 +56,7 @@ In the **Billing History** section, you can see the details of your past billing
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/billing-and-subscription/invoices.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/invoices.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/billing-and-subscription/invoices.png" alt="SeaChat | Invoices">
 </a>
 
 **Download Invoice**

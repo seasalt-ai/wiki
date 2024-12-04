@@ -18,7 +18,7 @@ Workspace is the control center of all your agents and members. Let's first navi
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div height="10%" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/workspace-sidebar.png" target="_blank">
-    <img height="10%" width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/workspace-sidebar.png" alt="">
+    <img height="10%" width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/workspace-sidebar.png" alt="SeaChat | Workspace | Sidebar Navigation">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Workspace in Sidebar Menu</p>
@@ -29,7 +29,7 @@ Workspace is the control center of all your agents and members. Let's first navi
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/agents.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/agents.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/agents.png" alt="SeaChat | Workspace | Agents">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Agent Management</p>
@@ -42,7 +42,7 @@ This is where you can manage all your AI agents. Each row represents an agent an
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/members.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/members.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/members.png" alt="SeaChat | Workspace | Members">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Members Management</p>
@@ -59,7 +59,7 @@ There are different types of members. Depending on the type of membership, membe
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/add-member.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/add-member.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/add-member.png" alt="SeaChat | Workspace | Add Member">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Member Settings</p>
@@ -109,7 +109,7 @@ SeaChat provides notifications in different languages. You can choose the langua
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/workspace-api.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/workspace-api.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/workspace-api.png" alt="SeaChat | Workspace | API">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">SeaChat Workspace API</p>
@@ -149,7 +149,7 @@ The concept of workspace is meant to represent a team of AI agents and members. 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/access-workspace-dashboard.png" target="_blank">
-    <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/access-workspace-dashboard.png" alt="">
+    <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/access-workspace-dashboard.png" alt="SeaChat | Workspace | Dashboard">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Navigate to Workspace</p>
@@ -160,7 +160,7 @@ Once you are in the workspace dashboard, you can access all your workspaces. If 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/en/workspace/01-workspace-management/create-workspace.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/create-workspace.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/workspace/01-workspace-management/create-workspace.png" alt="SeaChat | Workspace | Create Workspace">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Creating a New Workspace</p>

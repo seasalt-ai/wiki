@@ -24,17 +24,17 @@ toc: true
 ## 步驟2：開啟Wix
 前往您的Wix網站的儀表板上。在右上角選單選擇「Design Site」。
 
-<img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step1.png" alt="Go to your Wix dashboard and click on Design Site from top right menu.">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step1.png" alt="SeaChat | 前往您的Wix儀表板，並從右上角選單中點擊 Design Site。">
 
 ## 步驟3：開啟網站工具
 接著，在側邊選單中選擇「Add Elements」。
 
-<img width="50%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step2.png" alt="Click on Add Elements on Wix">
+<img width="50%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step2.png" alt="SeaChat | 在Wix上點擊 Add Elements。">
 
 ## 步驟4：開啟程式注入
 在側邊選單中選擇「Embed Code」 -> 「Embed HTML」。
 
-<img width="50%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step3.png" alt="Select Embed Code and then Embed HTML.">
+<img width="50%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step3.png" alt="SeaChat | 選擇 Embed Code 然後 Embed HTML。">
 
 
 ## 步驟5：複製SeaChat程式代碼
@@ -42,24 +42,24 @@ toc: true
 
 從Seachat上的Wix整合設置中取得的SeaChat程式片段，並貼上到文本框中。記得按「Update」。
 
-<img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step4.png" alt="Paste the SeaChat code snippet in the HEADER text box. Remember to click SAVE.">
+<img width="90%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step4.png" alt="SeaChat | 將SeaChat程式片段貼到HEADER文本框中。記得點擊 SAVE。">
 
 ## 步驟6：調整嵌入元件大小
 
 調整嵌入元件的大小，以保證對話開啟後網頁上保留足夠空間給對話框。我調整大小為`W: 700, H:600`。調整大小過後，將元件拖曳到你喜歡的地方，一般來說會放在網頁右下角。
 
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step5.png" alt="Adjust chat widget size">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step5.png" alt="SeaChat | 調整聊天元件大小">
 
 
 ## 步驟7：固定元件位置
 
 我們建議固定SeaChat元件的位置，以便在訪客滾動頁面時元件不會到處移動。選擇SeaChat元件 > 右鍵點擊 > 選擇「Pin to Screen」。然後此組件將固定在角落並浮動。
 
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-pin-to-screen.png" alt="Adjust chat widget location">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-pin-to-screen.png" alt="SeaChat | 調整聊天元件位置">
 
 您可以調整邊距。我們建議將垂直(Vertial)和水平(horizontal)設置都設為20。
 
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-offset-margin.png" alt="Adjust chat widget location">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-offset-margin.png" alt="SeaChat | 調整聊天元件邊距">
 
 
  ## 步驟8：儲存並預覽
@@ -68,7 +68,7 @@ toc: true
 
 **非常重要**: 如果您想要配置小工具的樣式，請前往「頻道」->「網頁AI助理」->「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step6.png" alt="Preview SeaChat agent on website">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seachat-integrations/wix/wix-seachat-integration-step6.png" alt="SeaChat | 在網站上預覽SeaChat助理。>
 
 
 ## 步驟8：（Optional）移除其他聊天機器人

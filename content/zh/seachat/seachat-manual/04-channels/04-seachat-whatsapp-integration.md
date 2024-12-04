@@ -97,7 +97,7 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/channels/whatsapp/create-new-whatsapp-app.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/create-new-whatsapp-app.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/create-new-whatsapp-app.png" alt="SeaChat | WhatsApp | 創建新的 WhatsApp">
     </a>
     <p style="margin-top: 20px; font-size: 15px">創建新的 WhatsApp</p>
 </div>
@@ -110,14 +110,14 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center;">
     <div style="width: 100%; height:100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/choose-app-type-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/choose-app-type-1.png" alt="">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/choose-app-type-1.png" alt="SeaChat | WhatsApp | 創建Other App">
         </a>
         <p style="margin-top: 20px; font-size: 15px">創建 <strong>Other</strong> app</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/choose-app-type-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/choose-app-type-2.png" alt="">
+            <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/choose-app-type-2.png" alt="SeaChat | WhatsApp | 填寫 App Details">
         </a>
         <p style="margin-top: 20px; font-size: 15px">填寫 App Details</p>
     </div>
@@ -136,7 +136,7 @@ toc: true
 <div style="display: flex; flex-direction: column; align-items: center; width:100%">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/zh/channels/whatsapp/whatsApp-integration.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/whatsApp-integration.svg" alt="">
+        <img style="width: 100%; height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/whatsApp-integration.svg" alt="SeaChat | WhatsApp | 新增 WhatsApp 到您的 App">
     </a>
     <p style=" font-size: 15px">新增 WhatsApp 到您的 App</p>
 </div>
@@ -149,14 +149,14 @@ WhatsApp 應用需要與您的企業相關聯，因為它需要使用 [WhatsApp 
 <div style="display: flex; flex-direction: column; align-items: flex-start;">
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/connect-to-business-1.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/connect-to-business-1.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/connect-to-business-1.png" alt="SeaChat | WhatsApp | 選擇 Business Portfolio">
         </a>
         <p style="margin-top: 20px; font-size: 15px">選擇 Business Portfolio</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/connect-to-business-2.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/connect-to-business-2.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/connect-to-business-2.png" alt="SeaChat | WhatsApp | 點擊Start Using the API">
         </a>
         <p style="margin-top: 20px; font-size: 15px">點擊 <strong>Start Using the API</strong></p>
     </div>
@@ -174,14 +174,14 @@ WhatsApp 應用需要與您的企業相關聯，因為它需要使用 [WhatsApp 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-between">
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-1.png" target="_blank" style="height: 200px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-1.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-1.png" alt="SeaChat | WhatsApp | API 設置">
         </a>
         <p style="margin-top: 20px; font-size: 15px">API 設置</p>
     </div>
 <br/>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-2.svg" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-2.svg" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-2.svg" alt="SeaChat | WhatsApp | 配置 Webhooks">
         </a>
         <p style="font-size: 15px"><strong>配置 Webhooks</strong></p>
     </div>
@@ -193,7 +193,7 @@ WhatsApp 應用需要與您的企業相關聯，因為它需要使用 [WhatsApp 
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
    <a href="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-3.svg" target="_blank"
 style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-3.svg" alt="">
+    <img id="perma-token-webhook" width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-3.svg" alt="SeaChat | WhatsApp | 配置儀表板">
     </a>
     <p style=" font-size: 15px">配置儀表板</p>
 </div>
@@ -208,7 +208,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-4.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-4.svg" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/configure-whatsApp-application-4.svg" alt="SeaChat | WhatsApp | 複製 SeaChat 內容並貼上至 Webhook 配置">
 </a>
     <p style="margin-top: 20px; font-size: 15px">複製 SeaChat 內容並貼上至 Webhook 配置</p>
 </div>
@@ -223,7 +223,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 >
 > <div style="display: flex; flex-direction: column; align-items: center;">
 > <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
->   <a href="/images/seachat/zh/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank"><img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.svg" alt=""></a>
+>   <a href="/images/seachat/zh/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.svg" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank"><img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/dont-forget-to-use-set-Webhook-fields.svg" alt="SeaChat | WhatsApp | Webhook 欄位"></a>
 >     <p style="margin-top: 10px; font-size: 15px">Webhook 欄位</p>
 > </div>
 > </div>
@@ -240,7 +240,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
  <a href="/images/seachat/zh/channels/whatsapp/permanent-token-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/permanent-token-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/permanent-token-1.png" alt="SeaChat | WhatsApp | 臨時訪問 token">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Temporary Access Token</p>
 </div>
@@ -295,13 +295,13 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; width:100%  ; align-items: center;">
     <div id="assign-assets-step-1" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-1.svg" target="_blank" style=" width: 100%; height: 10%; display: flex; justify-content: center; align-items: center; overflow: hidden; padding: 0">
-            <img style="max-width: 100%; max-height: 50%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-1.svg" alt="">
+            <img style="max-width: 100%; max-height: 50%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-1.svg" alt="SeaChat | WhatsApp | 點擊Assign Asset">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 1: 點擊 <strong>Assign Asset</strong></p>
     </div>
     <div id="assign-assets-step-2" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-2.svg" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-2.svg" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-2.svg" alt="SeaChat | WhatsApp | 選擇Full control">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 2: 選擇 <strong>Full control</strong></p>
     </div>
@@ -309,13 +309,13 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div id="assign-assets-step-3" style="display: flex; flex-direction: column; width:100%; align-items: center;">
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-3.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-3.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-3.png" alt="SeaChat | WhatsApp | Generate token及設置Permission">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 3: <strong>Generate token</strong> 及設置 <strong>Permission</strong></p>
     </div>
     <div id="assign-assets-step-4" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-4.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-4.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-4.png" alt="SeaChat | WhatsApp | 複製 token">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 4: 複製 token</p>
     </div>
@@ -323,13 +323,13 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; width:100% ; align-items: center;">
     <div id="assign-assets-step-5" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-5.png" target="_blank" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-5.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-5.png" alt="SeaChat | WhatsApp | 開啟Access Token Debugger">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 5: 開啟 <strong>Access Token Debugger</strong></p>
     </div>
     <div id="assign-assets-step-6" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-6.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-6.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-6.png" alt="SeaChat | WhatsApp | 將 token 貼上至 SeaChat">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 6: 將 token 貼上至 SeaChat</p>
     </div>
@@ -337,13 +337,13 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; width:100% ; align-items: center;">
     <div id="assign-assets-step-7" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-7.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-7.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-7.png" alt="SeaChat | WhatsApp | 將App Mode設定成Live>
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 7: 將 <strong>App Mode</strong> 設定成 <strong>Live</strong></p>
     </div>
     <div id="assign-assets-step-8" style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/channels/whatsapp/assign-asset-8.png" target="_blank" style="height: 200px; width: 100%;height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-8.png" alt="">
+            <img style="max-width: 100%; max-height: 100%; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/assign-asset-8.png" alt="SeaChat | WhatsApp | 新增企業號碼">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Step 8: 新增企業號碼</p>
     </div>
@@ -357,7 +357,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/seachat/zh/channels/whatsapp/test-whatsapp-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/test-whatsapp-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/test-whatsapp-1.png" alt="SeaChat | WhatsApp | WhatsApp 對話">
 </a>
     <p style="margin-top: 20px; font-size: 15px">WhatsApp 對話</p>
 </div>
@@ -370,7 +370,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/seachat/zh/channels/whatsapp/test-whatsapp-2.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/test-whatsapp-2.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/test-whatsapp-2.png" alt="SeaChat | WhatsApp | SeaChat 對話">
 </a>
     <p style="margin-top: 20px; font-size: 15px">SeaChat 對話</p>
 </div>
@@ -387,7 +387,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/seachat/zh/channels/whatsapp/deploy-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-1.png" alt="SeaChat | WhatsApp | Account information">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Account information</p>
 </div>
@@ -400,7 +400,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/seachat/zh/channels/whatsapp/deploy-2.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-2.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-2.png" alt="SeaChat | WhatsApp | 編輯帳戶">
 </a>
     <p style="margin-top: 20px; font-size: 15px">編輯帳戶</p>
 </div>
@@ -413,7 +413,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
 <a href="/images/seachat/zh/channels/whatsapp/deploy-3.png" target="_blank">
-<img width="50%" height="auto" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-3.png" alt="">
+<img width="50%" height="auto" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/deploy-3.png" alt="SeaChat | WhatsApp | WhatsApp Business Account Info">
 </a>
     <p style="margin-top: 20px; font-size: 15px">WhatsApp Business Account Info</p>
 </div>
@@ -441,7 +441,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/channels/whatsapp/live-agent-status.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/live-agent-status.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/live-agent-status.png" alt="SeaChat | WhatsApp | 真人助理狀態">
 </a>
     <p style="margin-top: 20px; font-size: 15px">真人助理狀態
 </p>
@@ -455,7 +455,7 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/channels/whatsapp/live-agent-interaction.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/live-agent-interaction.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/live-agent-interaction.png" alt="SeaChat | WhatsApp | Live agent 互動">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Live agent 互動
 </p>
@@ -469,9 +469,9 @@ style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/channels/whatsapp/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/ai-agent-preference.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/ai-agent-preference.png" alt="SeaChat | WhatsApp | 真人助理偏好設定">
 </a>
-    <p style="margin-top: 20px; font-size: 15px">Live agent 偏好設定
+    <p style="margin-top: 20px; font-size: 15px">真人助理偏好設定
 </p>
 </div>
 </div>
@@ -511,7 +511,7 @@ WhatsApp 對於訊息回傳有一些限制。請在創建按鈕時注意以下�
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/channels/whatsapp/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/remove-app-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/whatsapp/remove-app-1.png" alt="SeaChat | WhatsApp | 移除整合">
 </a>
     <p style="margin-top: 20px; font-size: 15px">移除整合</p>
 </div>

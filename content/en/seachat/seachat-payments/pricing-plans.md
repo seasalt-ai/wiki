@@ -20,7 +20,7 @@ Here we will take a look into the different pricing plans available for SeaChat.
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/pricing-plans.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-plans.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-plans.png" alt="SeaChat | Pricing & Plans">
 </a>
 
 **Pricing Information**
@@ -60,7 +60,7 @@ Premium and Enterprise users can choose from a range of models for their AI agen
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/pricing-model.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-model.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-model.png" alt="SeaChat | Model Pricing">
 </a>
 
 **Model Pricing**
@@ -74,7 +74,7 @@ For customers with complex usage scenarios, we recommend subscribing to our **La
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/pricing-plans/pricing-support.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-support.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/pricing-plans/pricing-support.png" alt="SeaChat | Pricing Support">
 </a>
 
 **Support Plans**

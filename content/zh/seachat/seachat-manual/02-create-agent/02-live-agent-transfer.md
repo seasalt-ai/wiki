@@ -84,7 +84,7 @@ SeaChat 對話在其網頁頻道中支援 URL 和 Markdown 格式。無論是您
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/zh/live-agent-transfer/markdown-response-in-web-ui.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/markdown-response-in-web-ui.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/markdown-response-in-web-ui.png" alt="SeaChat | Markdown 支援">
 </a>
     <p style="margin-top: 20px; font-size: 15px">WebChat UI 中的 Markdown 支援</p>
 </div>
@@ -130,7 +130,7 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 
 <center>
 <a href="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" alt="SeaChat | 自動切換">
 </a>
 </center>
 <br/>

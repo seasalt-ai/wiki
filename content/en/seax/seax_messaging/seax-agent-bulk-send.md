@@ -29,7 +29,7 @@ To integrate SeaX with SeaChat, you'll need a phone number to send messages and 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/seax-number.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/seax-number.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/seax-number.png" alt="SeaX | SeaX Number Setup">
 </a>
 
 *SeaX Numbers*
@@ -58,7 +58,7 @@ All labels can be seen in the **Recipients** section under bulk messages, allowi
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/recipient-step.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/recipient-step.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/recipient-step.png" alt="SeaX | Recipient Setup">
 </a>
 
 *Labels of Recipients*
@@ -71,7 +71,7 @@ After selecting recipient labels, you'll be directed to the **Contacts** section
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/contact-step.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/contact-step.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/contact-step.png" alt="SeaX | Contact">
 </a>
 
 *Manage Contacts*
@@ -84,7 +84,7 @@ A campaign is the unit for sending bulk messages. Configure the campaign’s nam
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" alt="SeaX | Campaign Dashboard">
 </a>
 
 *Compose a Campaign*
@@ -101,7 +101,7 @@ After setting the campaign name and labels, choose the execution method. Select 
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/campaign-execution.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-execution.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-execution.png" alt="SeaX | Executing SeaX Campaign">
 </a>
 
 *Campaign Execution*
@@ -122,7 +122,7 @@ Set up the sending time for scheduled campaigns. You can choose to send the camp
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/schedule-setting.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/schedule-setting.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/schedule-setting.png" alt="SeaX | Schedule Setup">
 </a>
 
 *Scheduled Setting*
@@ -143,7 +143,7 @@ To add a new phone number, click **Quote for a New Number**, and Seasalt will pr
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/sender.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/sender.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/sender.png" alt="SeaX | Sender Setup">
 </a>
 
 *Senders Setting*
@@ -160,7 +160,7 @@ For SMS and call campaigns, update the inbound agent to handle incoming messages
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/inbound-agent-update.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/inbound-agent-update.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/inbound-agent-update.png" alt="SeaX | SeaX Number Setup">
 </a>
 
 *Inbound Agent Setting*
@@ -173,7 +173,7 @@ Click **Send Now** to activate the campaign and start sending messages through S
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seax/en/seax-agent-bulk-send/campaign-dashboard.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-dashboard.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-dashboard.png" alt="SeaX | Send out Campaign">
 </a>
 
 *Campaign Dashboard*

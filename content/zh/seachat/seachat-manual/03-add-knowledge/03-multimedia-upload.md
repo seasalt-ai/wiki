@@ -29,7 +29,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 在側邊欄中，選擇**AI助理配置**下的**知識庫**。選擇**轉錄音訊/影訊**，您就可以上傳音訊或影訊檔案到您的AI助理知識庫。
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step2.png" alt="知識庫面板">
 
 *知識庫面板*
 </center>
@@ -41,7 +41,7 @@ SeaChat 提供許多不同的方式讓您上傳文件到您助理。在本教學
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step3.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step3.png" alt="Screenshot illustrating the navigation through the dashboard of knowledge base for SeaChat's AI agents. It illustrates the user interface">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/03-multimedia/20240319-multimedia-tutorial-step3.png" alt="檔案上傳">
 </a>
 
 *檔案上傳*

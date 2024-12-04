@@ -22,7 +22,7 @@ toc: true
 <br/>
 <center>
   <a href="/images/seachat-integrations/google-calendar/zh/google-calendar-ui.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat-integrations/google-calendar/zh/google-calendar-ui.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat-integrations/google-calendar/zh/google-calendar-ui.png" alt="SeaChat | Google Calendar 整合介面">
 </a>
 
 *Google Calendar 整合介面*

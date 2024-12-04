@@ -58,13 +58,13 @@ If you use a webchat widget, visitors might not leave their phone number, name, 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 20px;">
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/en/post-launch-sop/web-widget.png" target="_blank" style="width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/post-launch-sop/web-widget.png" alt="">
+            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/post-launch-sop/web-widget.png" alt="SeaChat | Custom Form in Widget">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Custom Form in WebChat Widget</p>
     </div>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/en/post-launch-sop/web-widget-form.png" target="_blank" style="width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/post-launch-sop/web-widget-form.png" alt="">
+            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/post-launch-sop/web-widget-form.png" alt="SeaChat | Create Web Widget">
         </a>
         <p style="margin-top: 20px; font-size: 15px">Create WebChat Widget</p>
     </div>

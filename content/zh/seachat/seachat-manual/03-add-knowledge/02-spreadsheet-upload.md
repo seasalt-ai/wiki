@@ -30,7 +30,7 @@ SeaChat 提供多種方法來上傳文件到您的AI助理知識庫。在本教�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step2.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step2.png" alt="Image of the Knowledge Base dashboard through the Agent Configuration in the sidebar menu to show how to upload a CSV or JSON file to an agent by selecting Upload from Template File.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step2.png" alt="知識庫面板">
 </a>
 
 *知識庫面板*
@@ -81,7 +81,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4.jpg" alt="Interface of SeaChat showing the bulk upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded and a preview section for the spreadsheet data, reminding users to verify file format and content before submission.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4.jpg" alt="已上傳檔案預覽">
 </a>
 
 *已上傳檔案預覽*
@@ -99,7 +99,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 ###### 預覽範例:
 <br/>
 <center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4-table-example.jpg" alt="An example of table preview">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step4-table-example.jpg" alt="預覽範例">
 </center>
 
 ## 已添加到知識庫
@@ -110,7 +110,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step5.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step5.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step5.jpg" alt="在現有知識中查找文件">
 </a>
 
 *在 **現有知識** 中查找文件*
@@ -124,7 +124,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step6.jpg" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step6.jpg" alt="Visual guide highlighting the process to finalize file uploads for agent customization by clicking the 'Next' button, with a follow-up view of the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/02-spreadsheet/20240313-spreadsheet-tutorial-step6.jpg" alt="審核上傳的試算表">
 </a>
 
 *審核上傳的試算表*

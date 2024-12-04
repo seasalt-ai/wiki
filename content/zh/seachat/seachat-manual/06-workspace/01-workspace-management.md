@@ -17,7 +17,7 @@ url: /zh/seachat/workspace/workspace-management/
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div height="10%" style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/workspace-sidebar.png" target="_blank">
-    <img height="10%" width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/workspace-sidebar.png" alt="">
+    <img height="10%" width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/workspace-sidebar.png" alt="SeaChat | 側邊選單中的工作區">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">側邊選單中的工作區</p>
@@ -29,7 +29,7 @@ url: /zh/seachat/workspace/workspace-management/
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/agents.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/agents.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/agents.png" alt="SeaChat | 助理管理">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">助理管理</p>
@@ -42,7 +42,7 @@ url: /zh/seachat/workspace/workspace-management/
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/members.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/members.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/members.png" alt="SeaChat | 成員管理">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">成員管理</p>
@@ -59,7 +59,7 @@ url: /zh/seachat/workspace/workspace-management/
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/add-member.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/add-member.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/add-member.png" alt="SeaChat | 成員設置">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">成員設置</p>
@@ -87,7 +87,7 @@ url: /zh/seachat/workspace/workspace-management/
 
 [//]: # (    <a href="/images/seachat/zh/workspace/01-workspace-management/preference.png" target="_blank">)
 
-[//]: # (    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/preference.png" alt="">)
+[//]: # (    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/preference.png" alt="SeaChat | ">)
 
 [//]: # (    </a>)
 
@@ -109,7 +109,7 @@ SeaChat 提供不同語言的通知。您可以選擇接收通知的語言。雖
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/workspace-api.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/workspace-api.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/workspace-api.png" alt="SeaChat | API 金鑰">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">SeaChat API 金鑰</p>
@@ -148,7 +148,7 @@ SeaChat API 是一個進階的工具，允許您以編程方式訪問您的工�
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/access-workspace-dashboard.png" target="_blank">
-    <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/access-workspace-dashboard.png" alt="">
+    <img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/access-workspace-dashboard.png" alt="SeaChat | 工作區儀表板">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">前往工作區儀表板</p>
@@ -159,7 +159,7 @@ SeaChat API 是一個進階的工具，允許您以編程方式訪問您的工�
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center">
     <a href="/images/seachat/zh/workspace/01-workspace-management/create-workspace.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/create-workspace.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/workspace/01-workspace-management/create-workspace.png" alt="SeaChat | 建立新的工作區">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">建立新的工作區</p>

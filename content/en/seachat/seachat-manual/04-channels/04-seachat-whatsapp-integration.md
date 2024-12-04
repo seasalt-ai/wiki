@@ -473,7 +473,7 @@ If an agent is not online, they can turn on Email notification to receive real-t
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/whatsapp/ai-agent-preference.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/whatsapp/ai-agent-preference.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/whatsapp/ai-agent-preference.png" alt="SeaChat | Live Agent Preference">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Live agent preference
 </p>
@@ -494,7 +494,7 @@ For Step 1, please go to your [Meta Business app](https://developers.facebook.co
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/channels/whatsapp/remove-app-1.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/whatsapp/remove-app-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/whatsapp/remove-app-1.png" alt="SeaChat | Remove Integration">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Remove integration</p>
 </div>

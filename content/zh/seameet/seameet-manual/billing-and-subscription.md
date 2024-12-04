@@ -16,7 +16,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seameet-zh/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seameet-zh/billing-and-subscription/billing-and-subscription.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seameet-zh/billing-and-subscription/billing-and-subscription.png" alt="SeaMeet | 帳單與訂閱">
 </a>
 
 **帳單與訂閱**
@@ -37,7 +37,7 @@ toc: true
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seameet-zh/billing-and-subscription/billing-recipients.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem" src="/images/seameet-zh/billing-and-subscription/billing-recipients.png" alt="">
+<img width="60%" style="border-radius: 0.4rem" src="/images/seameet-zh/billing-and-subscription/billing-recipients.png" alt="SeaMeet | 更改帳單收件人">
 </a>
 
 **更改帳單收件人**

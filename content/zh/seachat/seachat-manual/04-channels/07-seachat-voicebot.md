@@ -27,7 +27,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/agent-description.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/agent-description.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/agent-description.png" alt="SeaChat | 新增AI助理">
 </a>
 
 *新增AI助理*
@@ -38,7 +38,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/choose-inbound-calls.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/choose-inbound-calls.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/choose-inbound-calls.png" alt="SeaChat | 設置電話頻道">
 </a>
 
 *設置 **電話** 頻道*
@@ -51,7 +51,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/buy-a-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/buy-a-number.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/buy-a-number.png" alt="SeaChat | 購買免費電話號碼">
 </a>
 
 *購買免費電話號碼*
@@ -62,7 +62,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/toll-free-number.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/toll-free-number.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/toll-free-number.png" alt="SeaChat | 免費電話號碼詳細信息">
 </a>
 
 *免費電話號碼詳細信息*
@@ -77,7 +77,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/configure-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/configure-agent.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/configure-agent.png" alt="SeaChat | 語音助理設定">
 </a>
 
 *語音助理設定*
@@ -97,7 +97,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/configuration-done.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/configuration-done.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/configuration-done.png" alt="SeaChat | 設定完成">
 </a>
 
 *設定完成*
@@ -110,7 +110,7 @@ SeaChat 不僅可以處理文字對話，還可以處理電話。SeaChat 允許�
 <br/>
 <center>
   <a href="/images/seachat/zh/channels/voicebot/test-agent.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/test-agent.png" alt="">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/voicebot/test-agent.png" alt="SeaChat | 測試您的助理">
 </a>
 
 *測試您的助理*

@@ -101,7 +101,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/before-submission.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/before-submission.png" alt="Interface of SeaChat showing the upload feature with a drag and drop zone and a section below for monitoring the status of each file being uploaded, reminding users to verify file format and content before submission.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/before-submission.png" alt="檢查已上傳文件">
 </a>
 
 *檢查已上傳文件*
@@ -113,7 +113,7 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/existing-files.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/existing-files.png" alt="Visual guide highlighting the 'Existing' section in the screen top-right showcasing the uploaded files in the 'Files' section.">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/existing-files.png" alt="上傳檔案">
 </a>
 
 *到「**現有知識**」中的「**上傳檔案**」*
@@ -125,14 +125,14 @@ SeaChat允許用戶批量上傳。您可以在拖放區域下方的部分查看�
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="display: flex; flex-direction: column; text-align: center;">
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/csv-uploaded.png" target="_blank">
-    <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/csv-uploaded.png" alt="Example of a successfully uploaded csv.">
+    <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/csv-uploaded.png" alt="CSV 檔案範例">
 </a>
     <em>CSV 檔案</em>
   </div>
 
   <div style="display: flex; flex-direction: column; text-align: center;">
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/json-uploaded.png" target="_blank">
-    <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/json-uploaded.png" alt="Example of a successfully uploaded json.">
+    <img width="80%" style="border-radius: 0.4rem" src="/images/seachat/zh/tutorial-add-knowledge/04-template-upload/json-uploaded.png" alt="JSON 檔案範例">
 </a>
     <em>JSON 檔案</em>
   </div>

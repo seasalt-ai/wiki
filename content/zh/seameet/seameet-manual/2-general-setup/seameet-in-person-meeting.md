@@ -24,7 +24,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-identify-speakers-step1" href="/images/seameet-zh/in-person-meetings/identify-speakers-dialog.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/identify-speakers-dialog.png" alt="SeaMeet dialog for identifying speakers"/>
+<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/identify-speakers-dialog.png" alt="SeaMeet | SeaMeet | 識別說話人的SeaMeet對話框"/>
 </a>
 </center>
 <br/>
@@ -32,7 +32,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-identify-speakers-step1-alt" href="/images/seameet-zh/in-person-meetings/specify-number-of-speakers.png" target="_blank">
-<img style="width: 70%" src="/images/seameet-zh/in-person-meetings/specify-number-of-speakers.png" alt="SeaMeet interface to specify number of speakers"/>
+<img style="width: 70%" src="/images/seameet-zh/in-person-meetings/specify-number-of-speakers.png" alt="SeaMeet | SeaMeet介面，用於指定說話人人數"/>
 </a>
 </center>
 <br/>
@@ -42,7 +42,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-identify-speakers-step2" href="/images/seameet-zh/in-person-meetings/speaker-identification-in-progress.png" target="_blank">
-<img style="width: 60%" src="/images/seameet-zh/in-person-meetings/speaker-identification-in-progress.png" alt="SeaMeet speaker identification in progress"/>
+<img style="width: 60%" src="/images/seameet-zh/in-person-meetings/speaker-identification-in-progress.png" alt="SeaMeet | SeaMeet說話人辨識處理中"/>
 </a>
 </center>
 <br/>
@@ -52,7 +52,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-identify-speakers-step3" href="/images/seameet-zh/in-person-meetings/identified-speakers-result.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/identified-speakers-result.png" alt="SeaMeet result of identified speakers"/>
+<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/identified-speakers-result.png" alt="SeaMeet | SeaMeet已辨識說話人的結果"/>
 </a>
 </center>
 <br/>
@@ -66,7 +66,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-change-speakers-step1" href="/images/seameet-zh/in-person-meetings/listen-to-speakers.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/listen-to-speakers.png" alt="SeaMeet interface for listening to individual speakers"/>
+<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/listen-to-speakers.png" alt="SeaMeet | SeaMeet介面，用於聆聽個別說話人"/>
 </a>
 </center>
 <br/>
@@ -76,7 +76,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-change-speakers-step2" href="/images/seameet-zh/in-person-meetings/choose-or-create-speaker.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/choose-or-create-speaker.png" alt="SeaMeet interface for choosing or creating a new speaker"/>
+<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/choose-or-create-speaker.png" alt="SeaMeet | SeaMeet介面，用於選擇或創建新的說話人"/>
 </a>
 </center>
 <br/>
@@ -86,7 +86,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-change-speakers-step3" href="/images/seameet-zh/in-person-meetings/replace-speaker-options.png" target="_blank">
-<img style="width: 50%" src="/images/seameet-zh/in-person-meetings/replace-speaker-options.png" alt="SeaMeet options for replacing speaker segments"/>
+<img style="width: 50%" src="/images/seameet-zh/in-person-meetings/replace-speaker-options.png" alt="SeaMeet | SeaMeet選項，用於替換說話人段落"/>
 </a>
 </center>
 <br/>
@@ -98,7 +98,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-change-speakers-step4" href="/images/seameet-zh/in-person-meetings/transcript-adjustment-complete.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/transcript-adjustment-complete.png" alt="SeaMeet interface showing completed transcript adjustment"/>
+<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/transcript-adjustment-complete.png" alt="SeaMeet | SeaMeet介面，顯示已完成的逐字稿調整"/>
 </a>
 </center>
 <br/>
@@ -113,7 +113,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-regenerate-summary-step1" href="/images/seameet-zh/in-person-meetings/regenerate-summary-option.png" target="_blank">
-<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/regenerate-summary-option.png" alt="SeaMeet option to regenerate meeting summary"/>
+<img style="width: 80%" src="/images/seameet-zh/in-person-meetings/regenerate-summary-option.png" alt="SeaMeet | SeaMeet選項，用於重新生成會議摘要"/>
 </a>
 </center>
 <br/>
@@ -123,7 +123,7 @@ toc: true
 <br/>
 <center>
 <a name="seameet-regenerate-summary-step2" href="/images/seameet-zh/in-person-meetings/summary-regeneration-in-progress.png" target="_blank">
-<img style="width: 60%" src="/images/seameet-zh/in-person-meetings/summary-regeneration-in-progress.png" alt="SeaMeet interface showing summary regeneration in progress"/>
+<img style="width: 60%" src="/images/seameet-zh/in-person-meetings/summary-regeneration-in-progress.png" alt="SeaMeet | SeaMeet介面，顯示摘要重生成處理中"/>
 </a>
 </center>
 <br/>

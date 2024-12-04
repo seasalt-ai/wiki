@@ -58,13 +58,13 @@ aliases:
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 20px;">
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/post-launch-sop/web-widget.png" target="_blank" style="width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/post-launch-sop/web-widget.png" alt="">
+            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/post-launch-sop/web-widget.png" alt="SeaChat | 網頁聊天小工具中的自定義表單">
         </a>
         <p style="margin-top: 20px; font-size: 15px">網頁聊天小工具中的自定義表單</p>
     </div>
     <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <a href="/images/seachat/zh/post-launch-sop/web-widget-form.png" target="_blank" style="width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden;">
-            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/post-launch-sop/web-widget-form.png" alt="">
+            <img style="width: auto; height: 200px; border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/post-launch-sop/web-widget-form.png" alt="SeaChat | 網頁聊天小工具中的自定義表單">
         </a>
         <p style="margin-top: 20px; font-size: 15px">創建網頁聊天小工具</p>
     </div>
