@@ -30,7 +30,7 @@ At the bottom of the screen, you can see the checkbox that says ***Users can req
 
 <br/>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-1.png" alt="Set up Step | SeaChat Live Agent Transfer">
 </a>
 <br/>
 
@@ -41,7 +41,7 @@ If a customer requests a live agent during the chat conversation, the human agen
 
 <br/>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-2.png" alt=""Conversation | SeaChat Live Agent Transfer>
 </a>
 <br/>
 <br/>
@@ -50,7 +50,7 @@ That's it. You have now set up a Live Agent Transfer function for your SeaChat A
 
 <center>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-3.png" alt="Complete Conversation | SeaChat Live Agent Transfer">
 </a>
 </center>
 <br/>
@@ -65,7 +65,7 @@ SeaChat conversations support url and Markdown formats in its web channel. Both 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/live-agent-transfer/markdown-support-in-response.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/markdown-support-in-response.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/markdown-support-in-response.png" alt=" Markdown Support | SeaChat Live Agent Transfer">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Markdown Support in Agent Response</p>
 </div>
@@ -78,7 +78,7 @@ The conversation will be displayed in the same format as it was inputted. This f
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
   <a href="/images/seachat/en/live-agent-transfer/markdown-response-in-web-ui.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/markdown-response-in-web-ui.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/markdown-response-in-web-ui.png" alt="Markdown Support in Response | SeaChat Live Agent Transfer">
 </a>
     <p style="margin-top: 20px; font-size: 15px">Markdown Support in WebChat UI</p>
 </div>
@@ -102,7 +102,7 @@ The chat conversation will let your customer know how many live agents are curre
 
 <br/>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-web-widget-1.png" alt="Request Live Agent | SeaChat Live Agent Transfer">
 </a>
 <br/>
 
@@ -113,7 +113,7 @@ Once you have integrated the LINE channel, your customer will see the **Live Age
 
 <center>
 <a href="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" target="_blank">
-<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="">
+<img width="60%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/20240325-live-agent-transfer-line-channel.png" alt="Live Agent on Line | SeaChat Live Agent Transfer">
 </a>
 </center>
 <br/>
@@ -124,7 +124,7 @@ You can also set up a timeout for the live agent feature. Sometimes, a human liv
 
 <center>
 <a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="Live Mode Timeout | SeaChat Live Agent Transfer">
 </a>
 </center>
 <br/>
@@ -136,7 +136,7 @@ If you wish to deactivate the live agent feature, simply uncheck the box that sa
 
 <center>
 <a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="Remove Live Agent | SeaChat Live Agent Transfer">
 </a>
 </center>
 <br/>

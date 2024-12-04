@@ -46,7 +46,7 @@ manually check. you need to do is enter your website URL in the browser and then
 <br/>
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-add-knowledge/import-sitemaps/enter-url.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge//import-sitemaps/enter-url.png" alt="">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-add-knowledge//import-sitemaps/enter-url.png" alt="Insert Sitemap URL ">
 </a>
 
 *Insert the URL of the sitemap*

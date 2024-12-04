@@ -40,7 +40,7 @@ Find **Knowledge Base** under **Agent Configuration** and click to open the uplo
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/choose-knowledge.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/choose-knowledge.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/choose-knowledge.png" alt="Navigate to Knowledge Base">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Choose the Knowledge to add URL Buttons to</p>
@@ -57,7 +57,7 @@ SeaChat Provides different ways to add additional information to the agent's res
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/choose-button.png" target="_blank">
-    <img width="70%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/choose-button.png" alt="image showcasing how to write an agent description">
+    <img width="70%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/choose-button.png" alt="Explaining the button feature">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Choose <strong>Button</strong></p>
@@ -68,7 +68,7 @@ The URL you provide here will be displayed as a button in the chat window. When 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/add-more-url.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/add-more-url.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/add-more-url.png" alt="Add URL button UI explanation">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Add URL Button by Pressing <strong>Plus</strong> Button</p>
@@ -87,7 +87,7 @@ Once there is information in the knowledge base, the agent will start using this
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/url-to-answer.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/url-to-answer.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/url-to-answer.png" alt="Showcase of the inputted url in agent answer">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">URLs added to Agent's Answer</p>
@@ -105,7 +105,7 @@ This is particularly useful when the content of a button becomes too lengthy. Fo
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/kb-id-problem.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id-problem.png" alt="">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id-problem.png" alt="Message Cutoff Explanation">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Message Cutoff due to Message Limitation</p>
@@ -121,7 +121,7 @@ Not only does this feature free users from the character limit of the button con
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" target="_blank">
-    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" alt="">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/kb-id.png" alt="KB_ID feature">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Complete Message Using KB ID</p>
@@ -143,7 +143,7 @@ By adding columns called **seachat_ref** in your spreadsheet, your agent will au
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-example.png" alt="Url Button for spreadsheets">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Spreadsheet Example</p>
@@ -170,7 +170,7 @@ All the information that you put inside `seachat_ref` will be extracted as butto
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/non-url-buttons.png" alt="Button in agent response">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Buttons in Agent Response</p>
@@ -184,7 +184,7 @@ That's it. Now you no longer have to worry about manually adding URL buttons to 
 <div id="additional-setting-ui" style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
     <a href="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" target="_blank">
-    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" alt="image showcasing how to write an agent description">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/knowledge-advanced-features/url-button/spreadsheet-url-buttons.png" alt="Multiple Buttons in agent response">
     </a>
 </div>
     <p style="margin-top: 20px; font-size: 15px">Multiple URL Buttons in Agent Response</p>
