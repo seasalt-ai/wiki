@@ -14,7 +14,9 @@ Custom GPT Tools in SeaChat allow users to enhance the agent's responses by inte
 Here’s a quick simple tutorial to call two APIs to display single picture. We demonstrate how to configure the API endpoint, and display cute dog pictures in the chat:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/TMBN0qOUDpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-https://www.youtube.com/watch?v=TMBN0qOUDpQ&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=18
+
+[//]: # (https://www.youtube.com/watch?v=TMBN0qOUDpQ&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=18)
+
 In the next tutorial, we call the weather API by configuring the API parameters, and dynamically converting location names to GPS coordinates to get accurate weather information:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/2C2IOabHHFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
