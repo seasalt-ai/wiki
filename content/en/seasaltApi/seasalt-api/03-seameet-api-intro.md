@@ -1,6 +1,6 @@
 ---
 title: "SeaMeet API"
-description: "Automate and manage video meetings with SeaMeet API  for seamless, scalable conferencing solutions."
+description: "Automate and manage video meetings with SeaMeet API for seamless, scalable conferencing solutions."
 date: 2024-07-12T08:48:57+00:00
 lastmod: 2024-07-12T08:48:57+00:00
 draft: false
