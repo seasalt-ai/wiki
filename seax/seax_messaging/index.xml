@@ -56,7 +56,7 @@ Set Up Workspace # To integrate SeaX with SeaChat, you&amp;rsquo;ll need a phone
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/</guid>
-      <description>11/14/2024 # New Features and Improvements #  Synchronized status displays for live agent interventions in conversations Updated billing breakdown Removed Chinese-language bot from the landing page  11/7/2024 # New Features and Improvements #  Renamed &amp;ldquo;Memory&amp;rdquo; feature to &amp;ldquo;Extraction&amp;rdquo; Fixed issue with WhatsApp Business Platform where country codes lacked &amp;ldquo;+&amp;rdquo; sign  10/31/2024 # New Features and Improvements #  Added support for binding WhatsApp Business Platform accounts and sending/receiving messages.</description>
+      <description>12/5/2024 # Bugfix #  Fixed an issue causing errors when generating new conversations  11/14/2024 # New Features and Improvements #  Synchronized status displays for live agent interventions in conversations Updated billing breakdown Removed Chinese-language bot from the landing page  11/7/2024 # New Features and Improvements #  Renamed &amp;ldquo;Memory&amp;rdquo; feature to &amp;ldquo;Extraction&amp;rdquo; Fixed issue with WhatsApp Business Platform where country codes lacked &amp;ldquo;+&amp;rdquo; sign  10/31/2024 # New Features and Improvements #  Added support for binding WhatsApp Business Platform accounts and sending/receiving messages.</description>
     </item>
     
   </channel>

@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>11/27/2024 # New Features and Improvements #  Expanded Language Support: We now support more languages in the webchat widget, including English, Spanish, French, Japanese, Korean, Russian, Portuguese, Polish, Simplified Chinese, and Traditional Chinese. Configurable messages in the widget are automatically translated based on the selected language. Users can still customize these messages if needed. Enhanced Automated Actions with Custom GPT Tools: Two new custom GPT tools have been added - Send Email and Send SMS.</description>
+      <description>12/11/2024 # New Features and Improvements #  Custom GPT Tool Limit: Users can now create more than five custom GPT tools. However, only up to five tools can be enabled at any given time. If users attempt to create a new tool after reaching this limit, the tool will be successfully created but automatically disabled. To enable it, user will need to delete or disable one of the currently enabled tools.</description>
     </item>
     
   </channel>
