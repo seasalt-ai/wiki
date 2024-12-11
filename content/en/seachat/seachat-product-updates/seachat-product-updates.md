@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-11-27T08:48:57+00:00
+lastmod: 2024-12-10T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,23 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+
+### 12/11/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Custom GPT Tool Limit: Users can now create more than five custom GPT tools. However, only up to five tools can be enabled at any given time. If users attempt to create a new tool after reaching this limit, the tool will be successfully created but automatically disabled. To enable it, user will need to delete or disable one of the currently enabled tools.
+- View and Manage Long-Term Memory: Users can now view user long-term memory by right-clicking on any conversation and selecting the 'User Memory' option. To make this option available, the 'User Memory' feature must first be enabled in Advanced Settings.
+- Agent Email Visibility Update: Live agents' emails will no longer be displayed in webchat. Instead, only the agent's name will be shown. Live agents can customize the name displayed to customer via their profile settings in SeaChat.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Conversation History Download: We have resolved an issue with generating conversation history download links. Users can now successfully download their conversation history.
+
+### 11/27/2024
+Users can now view user long-term memory by right-clicking on any conversation and selecting the 'User Memory' option. To make this option available, the 'User Memory' feature must first be enabled in Advanced Settings.
+Agent Email Visibility Update
+Live agents' emails will no longer be displayed in webchat. Instead, only the agent's name will be shown. Live agents can customize the name displayed to customer via their profile settings in SeaChat.
+Bug Fix: Conversation History Download
+We have resolved an issue with generating conversation history download links. Users can now successfully download their conversation history.
 
 ### 11/27/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
