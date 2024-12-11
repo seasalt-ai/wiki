@@ -26,12 +26,6 @@ toc: true
 ##### **<font color="#d66a60">Bugfix</font>**
 - Conversation History Download: We have resolved an issue with generating conversation history download links. Users can now successfully download their conversation history.
 
-### 11/27/2024
-Users can now view user long-term memory by right-clicking on any conversation and selecting the 'User Memory' option. To make this option available, the 'User Memory' feature must first be enabled in Advanced Settings.
-Agent Email Visibility Update
-Live agents' emails will no longer be displayed in webchat. Instead, only the agent's name will be shown. Live agents can customize the name displayed to customer via their profile settings in SeaChat.
-Bug Fix: Conversation History Download
-We have resolved an issue with generating conversation history download links. Users can now successfully download their conversation history.
 
 ### 11/27/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
