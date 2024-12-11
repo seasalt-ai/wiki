@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-11-27T08:48:57+00:00
+lastmod: 2024-12-10T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,21 @@ url: /en/seameet/seameet-product-updates/
 weight: 101
 toc: true
 ---
+
+### 12/5/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated the "Upload Audio" to additionally support .m4a, .opus, .ogg, and multi-track formats, as well as file names containing spaces.
+- Removed whitespace checks for "Upload Audio."
+- Fixed an issue caused by Google Meet updates affecting speaker name detection.
+- Updated the new account onboarding process, allowing users to choose whether to enable "Auto Join Meetings" and "Auto Share Meeting Notes."
+
+### 12/2/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added "Upload Audio", supporting formats like .mp3, .wav, .flac, and .aac.
+- Improved automatic support for meetings initiated by educational accounts.
+- Updated the FAQ section on the landing page.
+- When inviting the bot to a Google Meet with a meeting name via the extension, the meeting name will now be automatically captured as the meeting title.
+
 
 ### 11/21/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
