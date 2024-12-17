@@ -162,7 +162,7 @@ Here are the steps to modify the **Conversation History Turn Count**:
 
 ## Additional Notes
 
-- Default Context Limit: SeaChat retains up to 20 conversation turns by default. User Memory extends this limit indefinitely.
+- Default Context Limit: SeaChat retains up to 20 conversation history turns by default. User Memory extends this limit indefinitely.
 
 - Privacy Compliance: User memory is securely stored and can be erased at any time to ensure data privacy compliance.
 
@@ -172,5 +172,3 @@ Here are the steps to modify the **Conversation History Turn Count**:
 ## Conclusion
 
 User Memory transforms SeaChat into a smarter, more personalized AI assistant by retaining user context over extended periods. Whether for sales, customer support, or small talk, this feature ensures your AI agent remembers what matters most to your users.
-
-For further assistance, contact SeaChat support or explore our next tutorial on advanced memory segmentation.
