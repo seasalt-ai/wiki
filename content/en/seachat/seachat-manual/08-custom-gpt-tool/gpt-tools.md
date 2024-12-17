@@ -14,17 +14,19 @@ Custom GPT Tools in SeaChat allow users to enhance the agent's responses by inte
 
 Here’s a quick simple tutorial to call two APIs to display single picture. We demonstrate how to configure the API endpoint, and display cute dog pictures in the chat:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/TMBN0qOUDpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=TMBN0qOUDpQ&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (https://www.youtube.com/watch?v=TMBN0qOUDpQ&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=18)
+In the second tutorial, we call the weather API by configuring the API parameters, and dynamically converting location names to GPS coordinates to get accurate weather information:
 
-In the next tutorial, we call the weather API by configuring the API parameters, and dynamically converting location names to GPS coordinates to get accurate weather information:
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=2C2IOabHHFc&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/2C2IOabHHFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+In this third tutorial, we demonstrate how to get a carousel of cards with multiple dog pictures. We showed you how to utilize the **PATH** parameter to display multiple pictures of a specified dog breed in the chat:
 
-Finally, we demonstrate how to get a carousel of cards with multiple dog pictures. We showed you how to utilize the **PATH** parameter to display multiple pictures of a specified dog breed in the chat:
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Cj0tYlhEMfM&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Cj0tYlhEMfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+In this fourth tutorial, we demonstrate how to set up email alerts using Custom GPT Tools in SeaChat, detecting concerning content in chat conversations and automatically sending notifications.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=KhjHDbRTIJc&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## Getting Started

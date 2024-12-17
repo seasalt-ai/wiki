@@ -2,7 +2,7 @@
 title: "New Features & Releases"
 description: "Explore the latest features and updates in SeaX. Stay informed on new functionalities, bug fixes, and enhancements to optimize your experience."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-11-27T08:48:57+00:00
+lastmod: 2024-12-10T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -14,6 +14,11 @@ aliases:
 weight: 104
 toc: true
 ---
+
+
+### 12/5/2024
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed an issue causing errors when generating new conversations
 
 ### 11/14/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
