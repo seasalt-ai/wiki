@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/gpt-tools/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-11-13T00:22:19-07:00">
-  <meta property="article:modified_time" content="2024-12-17T22:11:49-08:00">
+  <meta property="article:modified_time" content="2024-12-17T22:13:30-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-11-13T00:22:19CET",
-      "dateModified": "2024-12-17T22:11:49CET",
+      "dateModified": "2024-12-17T22:13:30CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/gpt-tools/#/schema/breadcrumb/1"
       },
@@ -1255,13 +1255,21 @@
   <ul>
     <li><a href="#overview">Overview</a></li>
     <li><a href="#video-tutorials">Video Tutorials</a></li>
-    <li><a href="#getting-started">Getting Started</a>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#steps-to-configure-a-search-and-display-tool">Steps to Configure a Search and Display Tool:</a>
       <ul>
         <li><a href="#step-1-select-tool-type">Step 1: Select Tool Type</a></li>
         <li><a href="#step-2-add-required-fields">Step 2: Add Required Fields</a></li>
         <li><a href="#step-3-configure-result-display">Step 3: Configure Result Display</a></li>
         <li><a href="#step-4-test-your-api-configuration">Step 4: Test Your API Configuration</a></li>
         <li><a href="#step-5-save-and-done">Step 5: Save and Done</a></li>
+      </ul>
+    </li>
+    <li><a href="#steps-to-configure-email-sending-or-sms-sending-tools">Steps to Configure Email-Sending or SMS-Sending Tools</a>
+      <ul>
+        <li><a href="#step-1-add-required-fields">Step 1: Add Required Fields</a></li>
+        <li><a href="#step-2-configure-emailsms-content-and-recipients">Step 2: Configure Email/SMS Content and Recipients</a></li>
+        <li><a href="#step-3-save-and-test">Step 3: Save and Test</a></li>
       </ul>
     </li>
     <li><a href="#limits">Limits</a></li>
@@ -1282,13 +1290,21 @@
   <ul>
     <li><a href="#overview">Overview</a></li>
     <li><a href="#video-tutorials">Video Tutorials</a></li>
-    <li><a href="#getting-started">Getting Started</a>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#steps-to-configure-a-search-and-display-tool">Steps to Configure a Search and Display Tool:</a>
       <ul>
         <li><a href="#step-1-select-tool-type">Step 1: Select Tool Type</a></li>
         <li><a href="#step-2-add-required-fields">Step 2: Add Required Fields</a></li>
         <li><a href="#step-3-configure-result-display">Step 3: Configure Result Display</a></li>
         <li><a href="#step-4-test-your-api-configuration">Step 4: Test Your API Configuration</a></li>
         <li><a href="#step-5-save-and-done">Step 5: Save and Done</a></li>
+      </ul>
+    </li>
+    <li><a href="#steps-to-configure-email-sending-or-sms-sending-tools">Steps to Configure Email-Sending or SMS-Sending Tools</a>
+      <ul>
+        <li><a href="#step-1-add-required-fields">Step 1: Add Required Fields</a></li>
+        <li><a href="#step-2-configure-emailsms-content-and-recipients">Step 2: Configure Email/SMS Content and Recipients</a></li>
+        <li><a href="#step-3-save-and-test">Step 3: Save and Test</a></li>
       </ul>
     </li>
     <li><a href="#limits">Limits</a></li>
@@ -1314,6 +1330,22 @@
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=LNezPT4qzCs&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 <h2 id="getting-started">Getting Started <a href="#getting-started" class="anchor" aria-hidden="true">#</a></h2>
 <p>To set up this feature, after logging into SeaChat, navigate to <strong>Agent Configuration</strong> -&gt; <strong>Integrations</strong> -&gt; <strong>Custom GPT Tools</strong>.</p>
+<blockquote>
+<p>SeaChat currently supports three types of tools:</p>
+<ul>
+<li><strong>Search and Display Tools</strong>: These tools allow SeaChat to perform an external search using your API and fetch additional information based on the conversation context. The search results will be displayed in webchat as plaintext or as a carousel of cards.</li>
+<li><strong>Send Email</strong>: Automate email sending based on your instructions. Ensure you specify the purpose, recipients, and conditions. To send emails to users, collect their email addresses via a webchat form.</li>
+<li><strong>Send SMS</strong>: Automate SMS sending based on your instructions. Define the purpose, recipients, and conditions. To send SMS to users, ensure access to their phone numbers through the channel or a webchat form.</li>
+</ul>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/seachat-tool-options.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/seachat-tool-options.png"  alt="SeaChat Supported Tool Type">
+</a>
+<br/>
+</center>
+</blockquote>
+<h2 id="steps-to-configure-a-search-and-display-tool">Steps to Configure a Search and Display Tool: <a href="#steps-to-configure-a-search-and-display-tool" class="anchor" aria-hidden="true">#</a></h2>
 <h3 id="step-1-select-tool-type">Step 1: Select Tool Type <a href="#step-1-select-tool-type" class="anchor" aria-hidden="true">#</a></h3>
 <p>SeaChat currently supports one main type of tools:</p>
 <ul>
@@ -1396,6 +1428,80 @@
 </center>
 <h3 id="step-5-save-and-done">Step 5: Save and Done <a href="#step-5-save-and-done" class="anchor" aria-hidden="true">#</a></h3>
 <p>Once you&rsquo;ve confirmed that your Custom GPT Tool settings are working as expected, you can proceed to save the configuration by clicking the Save button to save your Custom GPT Tool settings permanently.</p>
+<h2 id="steps-to-configure-email-sending-or-sms-sending-tools">Steps to Configure Email-Sending or SMS-Sending Tools <a href="#steps-to-configure-email-sending-or-sms-sending-tools" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="step-1-add-required-fields">Step 1: Add Required Fields <a href="#step-1-add-required-fields" class="anchor" aria-hidden="true">#</a></h3>
+<p>You need to provide several key pieces of information:</p>
+<ul>
+<li><strong>Enable the Tool</strong>: Turn on the Enable switch. This will activate the tool, allowing SeaChat to start using it automatically in relevant conversations.</li>
+<li><strong>Tool Name</strong>: Enter a name for your tool. This should contain only letters (A-Z, a-z), numbers (0-9), underscores (_), or hyphens (-) without any spaces.</li>
+<li><strong>Description</strong>: Add a brief description to help GPT understand the conditions for triggering the email or SMS.</li>
+</ul>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image9.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image9.png"  alt="Request via Emails Example">
+</a>
+<br/>
+<p><em>Example A: This tool is set up to send an email when user request information via email</em></p>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/sms-setup.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/sms-setup.png"  alt="SMS Alerts Example">
+</a>
+<br/>
+<p><em>Example B: This tool is set up to send an SMS message when a user exhibits excessively rude behavior or uses inappropriate language.</em></p>
+</center>
+<h3 id="step-2-configure-emailsms-content-and-recipients">Step 2: Configure Email/SMS Content and Recipients <a href="#step-2-configure-emailsms-content-and-recipients" class="anchor" aria-hidden="true">#</a></h3>
+<p>You need to define the following fields to set up the actual message content to be sent via email or SMS.</p>
+<ul>
+<li><strong>Title</strong>: For the Send Email tool, provide a title for the email.</li>
+<li><strong>Content</strong>: Write the content you want to send.</li>
+<li><strong>Options</strong>: Check the option to include the AI agent&rsquo;s response at the end of the email/SMS, if desired.</li>
+<li><strong>Recipients</strong>: Enter a comma-separated list of recipients. Use placeholders like <code>{{user_phone}}</code> for SMS or <code>{{user_email}}</code> for email if SeaChat collects these values from webchat forms.</li>
+</ul>
+<blockquote>
+<p>📝 Note:</p>
+<p>For emails, the sender address is defaulted to <code>no-reply@seasalt.ai</code>.
+For SMS, the sender number is configured in the Calls channel. Learn how to set up a phone number <a href="https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/#toll-free-number">here</a>.</p>
+</blockquote>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/email-settings.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/email-settings.png"  alt="Email setup">
+</a>
+<br/>
+<p><em>Example A: Email titled &ldquo;Your Requested Info&rdquo; with content containing a placeholder. The checkbox is selected to include the AI agent&rsquo;s response in the email.</em></p>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/flag-msg-setting.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/flag-msg-setting.png"  alt="Flagged Message Setting">
+</a>
+<br/>
+<p><em>Example B: SMS with the content &ldquo;The user has been flagged for inappropriate conduct.&quot;</em></p>
+</center>
+<h3 id="step-3-save-and-test">Step 3: Save and Test <a href="#step-3-save-and-test" class="anchor" aria-hidden="true">#</a></h3>
+<p>Once you&rsquo;ve completed configuring your Custom GPT Tool email or SMS settings, click the Save button to save your changes. You can then test your tools by interacting with your AI agent.</p>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/chat-example.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/chat-example.png"  alt="Chat Example for Flagged Message">
+</a>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/seachat-req.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/seachat-req.png"  alt="SeaChat Request Email">
+</a>
+<br/>
+<p><em>Example A: When a user asks the AI agent for a menu, the email tool is triggered, sending an email with the AI agent’s response included after &ldquo;Here’s what you requested:&rdquo;.</em></p>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/flag-msg.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/flag-msg.png"  alt="Flagged Message">
+</a>
+<br/>
+<p><em>Example B: SMS with the content &ldquo;The user has been flagged for inappropriate conduct.&quot;</em></p>
+</center>
 <h2 id="limits">Limits <a href="#limits" class="anchor" aria-hidden="true">#</a></h2>
 <p>To ensure optimal performance, certain limits apply to Custom GPT Tool settings:</p>
 <ul>
