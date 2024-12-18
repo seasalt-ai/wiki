@@ -21,7 +21,7 @@ THe following guide explains how to enable and use User Memory in SeaChat for an
 
 ## Video Tutorial:
 
-<iframe width="100%" height="400" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=JsSXUt009ZU&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Getting Started
 
@@ -123,6 +123,17 @@ Supervisors can manage User Memory in the Conversations section:
 
 ### Resetting Memory
 
+<br/>
+
+<center>
+<a href="/images/seachat/en/user-memory/delete-memory.png">
+<img height="100%" width="100%" src="/images/seachat/en/user-memory/delete-memory.png"  alt="Delete User Memory Permanently">
+</a>
+
+</center>
+
+<br/>
+
 For testing or privacy purposes, you can reset User Memory:
 
 - Select the desired user conversation.
@@ -138,7 +149,7 @@ For testing or privacy purposes, you can reset User Memory:
 
 SeaChat retains up to 20 conversation turns by default. User Memory extends this limit indefinitely, allowing agents to remember user context over extended periods.
 
-However, this means if the users wishes to disable the User Memory feature that will prevent the AI agent from remembering any user context. Users should also set the **Conversation History Turn Count** to 0 to prevent the AI agent from remembering any conversation history.
+However, this means if the users wishes to disable the User Memory feature, it will only prevent the AI agent from remembering any user context. To completely remove the effect of context, users should also set the **Conversation History Turn Count** to 0 to prevent the AI agent from remembering any conversation history.
 
 Here are the steps to modify the **Conversation History Turn Count**:
 
