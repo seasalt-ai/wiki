@@ -8,7 +8,7 @@ weight: 80
 draft: false
 images: []
 toc: true
-url: /en/seachat/manual/gpt-tool/long-term-memory/
+url: /en/seachat/manual/create-agent/advanced-settings/long-term-memory/
 ---
 
 ## Overview
@@ -21,7 +21,7 @@ THe following guide explains how to enable and use Long-Term Memory in SeaChat f
 
 ## Video Tutorial:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=JsSXUt009ZU&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Getting Started
 
