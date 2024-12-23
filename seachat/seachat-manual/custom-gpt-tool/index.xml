@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom GPT Tools on </title>
+    <link>https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/</link>
+    <description>Recent content in Custom GPT Tools on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 06 Sep 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom GPT Tools</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</link>
+      <pubDate>Wed, 13 Nov 2024 00:22:19 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</guid>
+      <description>Overview # Custom GPT Tools in SeaChat allow users to enhance the agent&amp;rsquo;s responses by integrating custom actions directly into conversations. This feature enables users to define specific conditions under which the agent can execute these actions, providing tailored responses and intelligent assistance based on real-time information. For example, you might want the agent to perform a search or fetch data from your company’s API, enabling SeaChat to provide enriched answers that draw on external resources.</description>
+    </item>
+    
+  </channel>
+</rss>

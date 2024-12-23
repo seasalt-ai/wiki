@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Long-Term Memory</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/long-term-memory/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/long-term-memory/</guid>
+      <description>Overview # Long-Term Memory in SeaChat allows agents to retain persistent user context across conversations, enabling more human-like, personalized, and context-aware responses. This premium feature is essential for use cases like marketing, sales, and customer service, where remembering user preferences and past interactions is crucial.
+For example, a user might ask, &amp;ldquo;What do you know about me?&amp;rdquo; With Long-Term Memory enabled, the AI agent can recall and respond with detailed information from previous conversations, like hobbies, preferences, or travel plans.</description>
+    </item>
+    
+    <item>
       <title>Context Extraction</title>
       <link>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/context-extraction/</link>
       <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
