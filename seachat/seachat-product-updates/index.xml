@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>12/11/2024 # New Features and Improvements #  Custom GPT Tool Limit: Users can now create more than five custom GPT tools. However, only up to five tools can be enabled at any given time. If users attempt to create a new tool after reaching this limit, the tool will be successfully created but automatically disabled. To enable it, user will need to delete or disable one of the currently enabled tools.</description>
+      <description>12/26/2024 # New Features and Improvements #  Instagram Widget: Users can now add an Instagram widget to their website by simply entering the Instagram link and copying the automatically generated HTML code snippet in Channels to embed it seamlessly. Customizable Webchat Menu: Users can now choose to remove the &amp;ldquo;Get SeaChat&amp;rdquo; link from the menu dropdown in the webchat&amp;rsquo;s upper-right corner. This option is available in the Design Style section of the Agent Information tab.</description>
     </item>
     
   </channel>
