@@ -11,7 +11,7 @@ menu:
 aliases:
    - /en/seax/seax-widget/
    - /seax/seax-widget/
-weight: 102
+weight: 130
 toc: true
 ---
 

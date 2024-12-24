@@ -1,5 +1,5 @@
 ---
-title: "WhatsApp Business"
+title: "WhatsApp Business App"
 description: "Integrate WhatsApp with SeaX Messaging for enhanced customer engagement. Follow our step-by-step guide to set up and manage WhatsApp campaigns."
 date: 2024-05-02T08:48:57+00:00
 lastmod: 2024-05-08T08:48:57+00:00

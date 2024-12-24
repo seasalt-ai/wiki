@@ -11,7 +11,7 @@ menu:
 aliases:
    - /en/seax-product-updates/
    - /en/seax/seax-product-updates/
-weight: 104
+weight: 200
 toc: true
 ---
 
