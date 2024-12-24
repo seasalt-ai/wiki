@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-12-10T08:48:57+00:00
+lastmod: 2024-12-24T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,17 @@ weight: 101
 toc: true
 ---
 
+### 12/26/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Instagram Widget: Users can now add an Instagram widget to their website by simply entering the Instagram link and copying the automatically generated HTML code snippet in Channels to embed it seamlessly.
+- Customizable Webchat Menu: Users can now choose to remove the "Get SeaChat" link from the menu dropdown in the webchat's upper-right corner. This option is available in the Design Style section of the Agent Information tab.
+- Real-Time Auto-Labeling Updates: We’ve fixed an issue where the UI did not update in real time when labels were automatically applied or removed from conversations using the auto-labeling feature. Now, label changes are reflected immediately in the UI.
+
+### 12/19/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Auto-labeling: SeaChat can now automatically add or remove labels from conversations based on the content of the discussion. Users can define trigger conditions, provide detailed descriptions for accuracy, and select the labels to be managed. 
+- Label Automations: Users can configure actions that will automatically triggered by label changes within conversations. Users can define which labels should activate these actions and configure one or more automations to streamline workflows and improve efficiency. SeaChat will execute the predefined actions automatically whenever a label is applied or removed. 
+- Instagram integration: SeaChat now supports Instagram integration, allowing users to connect their Instagram accounts and manage messages directly within the platform.
 
 ### 12/11/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
