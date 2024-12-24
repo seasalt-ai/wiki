@@ -85,8 +85,6 @@
 /en/seameet/seameet-product-updates/ /en/seameet/seameet-product-updates/
 /en/seachat/seachat-resources/prompt-examples/ /seachat/seachat-resources/prompt-examples/
 /en/seachat/seachat-resources/seachat-api/ /seachat/seachat-resources/seachat-api/
-/en/seax/seax-widget/ /seax/seax_messaging/seax-widget/
-/seax/seax-widget/ /seax/seax_messaging/seax-widget/
 /seavoice/ /seavoice/stt/panel_tutorial_en/
 /en/seavoice/stt/decoder_en/ /seavoice/stt/decoder/
 /seax/seax_intro/01-introduction/ /seax/seax_enterprise/seax-features/
@@ -96,8 +94,8 @@
 /en/seax/seax_messaging/seax-agent-bulk-send/ /seax/seax_messaging/seax-agent-bulk-send/
 /en/seax/seax-agent-bulk-send/ /seax/seax_messaging/seax-agent-bulk-send/
 /seax/seax-agent-bulk-send/ /seax/seax_messaging/seax-agent-bulk-send/
-/en/seax-product-updates/ /seax/seax_messaging/seax-messaging-product-updates/
-/en/seax/seax-product-updates/ /seax/seax_messaging/seax-messaging-product-updates/
+/en/seax/seax-widget/ /seax/seax_messaging/seax-widget/
+/seax/seax-widget/ /seax/seax_messaging/seax-widget/
 /en/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/ /en/seachat/manual/add-knowledge/webpage-link/
 /en/seachat/file-size-rule/ /en/seachat/file-size-rule/
 /en/seachat/full-tutorials/01-mailerlite/ /seachat/full-tutorials/01-mailerlite/
@@ -105,6 +103,8 @@
 /en/seachat/seachat-manual/03-add-knowledge/10-additional-feature/ /seachat/seachat-manual/03-add-knowledge/10-addtional-feature/
 /en/seachat/seachat-manual/03-add-knowledge/10-additional-feature/01-additional-features-in-kb /en/seachat/manual/add-knowledge/additional-features-in-kb/
 /en/seameet/00-seameet-faq/ /seameet/seameet-manual/00-seameet-faq/
+/en/seax-product-updates/ /seax/seax_messaging/seax-messaging-product-updates/
+/en/seax/seax-product-updates/ /seax/seax_messaging/seax-messaging-product-updates/
 /en/seachat/seachat-intro/01-introduction/ /seachat/getting-started/01-seachat-intro/
 /seachat/seachat-intro/01-seachat-intro/ /seachat/getting-started/01-seachat-intro/
 /seachat/ /seachat/getting-started/01-seachat-intro/
