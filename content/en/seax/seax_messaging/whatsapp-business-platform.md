@@ -1,5 +1,5 @@
 ---
-title: "WhatsApp Business Platform on SeaX"
+title: "WhatsApp Business Platform"
 description: "SeaX users can connect their WhatsApp Business Platform to SeaX to integrate WhatsApp Cloud API."
 date: 2024-12-21T08:48:57+00:00
 lastmod: 2024-12-21T08:48:57+00:00
