@@ -16,27 +16,28 @@ Custom GPT Tools in SeaChat allow users to enhance the agent's responses by inte
 
 Here’s a quick simple tutorial to call two APIs to display single picture. We demonstrate how to configure the API endpoint, and display cute dog pictures in the chat:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=TMBN0qOUDpQ&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TMBN0qOUDpQ?si=LrXqfjo0jjO8DyF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In the 2nd tutorial, we call the weather API by configuring the API parameters, and dynamically converting location names to GPS coordinates to get accurate weather information:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=2C2IOabHHFc&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2C2IOabHHFc?si=954wmcmmhQeneWmN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In this 3rd tutorial, we demonstrate how to get a carousel of cards with multiple dog pictures. We showed you how to utilize the **PATH** parameter to display multiple pictures of a specified dog breed in the chat:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Cj0tYlhEMfM&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Cj0tYlhEMfM?si=YHvnd22-M6IyPdNB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In this 4th tutorial, we demonstrate how to set up email alerts using Custom GPT Tools in SeaChat, detecting concerning content in chat conversations and automatically sending email notifications.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=KhjHDbRTIJc&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/KhjHDbRTIJc?si=D2e5WzI4HBk-QRts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In this 5th tutorial, we demonstrate how to configure SMS notifications in SeaChat for monitoring user conversations. As an example, we demonstrated how to set up SMS alerts when detecting signs of depression in user interactions in this video.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Z7Zj6BWEXTc&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Z7Zj6BWEXTc?si=GHiKnsI_M4AwCyx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In this 6th tutorial, we demonstrate how to automatically send information to callers via SMS. 
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=LNezPT4qzCs&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/LNezPT4qzCs?si=wvvho3rr77RpDxj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Getting Started

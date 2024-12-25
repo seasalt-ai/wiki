@@ -21,7 +21,7 @@ THe following guide explains how to enable and use Long-Term Memory in SeaChat f
 
 ## Video Tutorial:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/JsSXUt009ZU?si=u1Y3kUOiaYUIpEx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Getting Started
 
