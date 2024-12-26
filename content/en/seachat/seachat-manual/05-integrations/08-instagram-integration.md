@@ -227,3 +227,22 @@ Congratulations! You’ve successfully set up an Instagram Messaging AI agent. �
 </div>
 
 <br/>
+
+### Step 9: Remove your Instagram Integration
+
+If you want to remove the Instagram integration, you need to do it in two places:
+
+- Properly remove the page access from your Meta app
+  - Go to your **Meta Business app** → **Instagram** → **API setup with Instagram login** → **Generate access tokens** → **trash can icon** → **Remove Account**
+- Click the **Remove** button inside SeaChat
+
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/channels/instagram/remove-on-seachat.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/instagram/remove-on-seachat.png" alt="Remove Instagram channel on SeaChat">
+    </a>
+</div>
+</div>
+
+<br/>
