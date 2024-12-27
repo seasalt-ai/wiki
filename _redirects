@@ -59,7 +59,6 @@
 /en/seachat/seachat-manual/integrations/ /seachat/seachat-manual/05-integrations/
 /seachat/seachat-manual/integrations/ /seachat/seachat-manual/05-integrations/
 /seachat/seachat-manual/test-and-improve/ /seachat/seachat-manual/07-test-and-improve-ai-agent/
-/en/seachat/seachat-integrations/seax-integration-in-seachat/ /seachat/integrations/seax-seachat/
 /zh/seachat/seachat-manual/workspace/ /seachat/seachat-manual/06-workspace/
 /seachat/seachat-manual/workspace/ /seachat/seachat-manual/06-workspace/
 /en/seax/seax_messaging/seax-whatsapp-integration/ /seax/seax_messaging/seax-whatsapp-integration/
@@ -69,6 +68,7 @@
 /en/seachat/workspace/01-workspace-management /en/seachat/workspace/workspace-management/
 /seachat/workspace/01-workspace-management /en/seachat/workspace/workspace-management/
 /en/seachat/seachat-manual/seachat-agent-conversation/ /en/seachat/manual/conversation/
+/en/seachat/seachat-integrations/seax-integration-in-seachat/ /seachat/integrations/seax-seachat/
 /en/seachat/seachat-manual/04-channels/07-seachat-voicebot/ /en/seachat/manual/channels/voicebot/
 /en/seachat/seachat-manual/02-create-agent/02-live-agent-transfer /en/seachat/live-agent-transfer/
 /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-context-extraction /en/seachat/manual/create-agent/advanced-settings/context-extraction/
