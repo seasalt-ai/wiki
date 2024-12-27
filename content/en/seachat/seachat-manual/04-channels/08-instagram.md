@@ -10,7 +10,7 @@ toc: true
 
 ## Prerequisites
 
-- **Instagram Professional Account**: You need either a Business or Creator account to set up Instagram Messaging. If your current account is not of this type, you can switch it to a Professional account in Instagram settings.
+- **Instagram Professional Account**: You need either a Business or Creator account to set up Instagram Messaging. If your current account is not of this type, you can [switch it to a Professional account](https://www.facebook.com/business/help/502981923235522) in Instagram settings.
 
 ## Instructions
 
@@ -208,11 +208,7 @@ Now you’ve finished all steps to set up Instagram integration in SeaChat!
 
 <br/>
 
-### Step 7: (Optional - Business Accounts) Complete App Review
-
-Instagram requires successful completion of the app review process to access live data. Submit your app review request for advanced permissions when you're ready.
-
-### Step 8: Set App to Live
+### Step 7: Set App to Live
 
 - Toggle the **App Status** to Live.
 
