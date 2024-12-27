@@ -14,11 +14,7 @@
       
       <guid>https://wiki.seasalt.ai/zh/seax/demo_videos_zh/videos/</guid>
       <description>直接轉接與間接轉接 - Warm and Cold Transfer #  智能知識庫 - AI Knowledge Base #  假日時段與離線語音設定 - Holidays and Offline Messages #  主管通話監聽與介入通話 - Supervisor Monitor and Barge-in #  Salesforce CRM系統自動化 &amp;ndash; Salesforce Automation # SeaX可以與Salesforce自動集成，提供&amp;quot;click-to-dial&amp;quot;等功能。同時，Salesforce自動化還包括以下幾個功能：
-  電話進線後自動創建Salesforce工單
-  電話錄音自動記錄在Salesforce工單
-  自動觸發客戶CSAT滿意度短信調查
-  CSAT滿意度調查列表
-   </description>
+ 電話進線後自動創建Salesforce工單 電話錄音自動記錄在Salesforce工單 自動觸發客戶CSAT滿意度短信調查 CSAT滿意度調查列表  </description>
     </item>
     
   </channel>
