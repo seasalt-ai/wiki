@@ -1,44 +1,39 @@
 ---
-title: "Auto-Labeling"
-description: "Learn how to set up and use the Auto-Labeling feature to automate and streamline conversation labeling processes."
+title: "Auto-labeling"
+description: "Learn how to set up and use the Auto-labeling feature to automate and streamline conversation labeling processes."
 lead: ""
 date: 2024-12-29T00:00:00-07:00
 lastmod: 2024-12-29T00:00:00-07:00
-weight: 90
+weight: 70
 draft: false
 images: []
 toc: true
-url: /en/seachat/manual/create-agent/advanced-settings/auto-labeling/
+url: /en/seachat/manual/labeling/auto-labeling/
 ---
-
-### Auto-Labeling 
 
 ---
 
 **Overview**  
 Auto-labeling is an integral part of the integrations in Seasalt.ai's suite of tools. This feature intelligently and automatically applies labels to conversations, streamlining processes for use cases such as customer service and healthcare. 
 
-In this tutorial, we will guide you through setting up and using the Auto-Labeling feature on SeaChat. You are welcome to check out our video tutorial to replicate the example use case below.
+We welcome you to check out our feature of [Label Automation](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/) for more advanced workflows as labe-automation builds upon the auto-labeling feature.
 
 **What Is Auto-Labeling?**  
 Auto-labeling is a system that automates the application of labels to conversations or other data points based on predefined rules and AI-driven analysis. Instead of manually tagging, users can set conditions under which labels are applied or removed dynamically.
 
 ---
 
-**Key Features**  
+## Key Features
 
-<br/>
 
 <center>
-<a href="/images/seachat/en/gpt-tools/image5.png">
-<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image5.png"  alt="Example of New Custom Tool">
+<a href="/images/seachat/en/labeling/auto-labeling/auto-labeling-feat-ui.png">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/auto-labeling-feat-ui.png"  alt="Overview of the Auto-labeling UI">
 </a>
 
-<br/>
-
-*Example: we have a GET endpoint that retrieves dog pictures.*
-
 </center>
+
+<br/>
 
 1. **Automated Label Application**  
    - Adds labels like ```Escalated``` or ```Low Priority``` based on conversation content.  
@@ -56,10 +51,20 @@ Auto-labeling is a system that automates the application of labels to conversati
 
 ---
 
-**How to Set Up Auto-Labeling**  
+## How to Set Up Auto-Labeling
 
-1. **Navigate to Integrations**  
+1. **Navigate to Integrations**
    - Open the ```Integrations``` section and select ```Auto Labeling.```  
+
+
+<center>
+<a href="/images/seachat/en/labeling/auto-labeling/navigation-ui.png">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/navigation-ui.png"  alt="Navigation to Auto-Labeling">
+</a>
+
+</center>
+
+<br/>
 
 2. **Create Rules**  
    - Define triggers for adding or removing labels.  
@@ -67,12 +72,43 @@ Auto-labeling is a system that automates the application of labels to conversati
      - ```Extreme pain``` triggers the ```Escalated``` label.  
      - ```Minor aches``` triggers the ```Low Priority``` label.  
 
+<br/>
+
+<center>
+<a href="/images/seachat/en/labeling/auto-labeling/define-rules.png">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/define-rules.png"  alt="Define Labeling Rules">
+</a>
+
+<br/>
+
+</center>
+
 3. **Test Your Rules**  
    - Simulate conversations to see if labels apply correctly.  
    - Example: Input "I feel so much pain, I need a doctor’s attention" to trigger ```Escalated.```  
 
+<center>
+<a href="/images/seachat/en/labeling/auto-labeling/test-rules.png">
+<img height="100%" width="80%" src="/images/seachat/en/labeling/auto-labeling/test-rules.png"  alt="Test Labeling Rules in Conversation">
+</a>
+
+
+</center>
+
+<br/>
+
 4. **Adjust and Save**  
    - Modify rules to refine accuracy and save the configuration.  
+
+
+<center>
+<a href="/images/seachat/en/labeling/auto-labeling/save-rules.png">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/save-rules.png"  alt="Define Labeling Rules">
+</a>
+
+</center>
+
+<br/>
 
 ---
 
@@ -84,10 +120,22 @@ Auto-labeling is a system that automates the application of labels to conversati
      - Yellow: Moderate pain or fever.  
      - Green: Minor aches or colds.  
 
+
+<center>
+<a href="/images/seachat/en/labeling/auto-labeling/advanced-rules.png">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/advanced-rules.png"  alt="Define Labeling Rules">
+</a>
+
+</center>
+
+<br/>
+
 2. **Label Automation**  
    - Link actions to specific labels:
-     - Trigger an email or SMS when ```Escalated``` is applied.  
-     - Automate follow-ups for ```Low Priority``` cases.  
+        - Trigger an email or SMS when ```Escalated``` is applied.  
+        - Automate follow-ups for ```Low Priority``` cases.
+   - Check out our tutorial on [Label Automation](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/)) for more details.
+
 
 ---
 
