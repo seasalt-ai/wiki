@@ -1,12 +1,12 @@
 ---
-title: "Custom GPT Tools"
+title: "Labeling"
 description: ""
 lead: ""
-date: 2024-09-06T08:48:45+00:00
-lastmod: 2024-09-06T08:48:45+00:00
-weight: 60
+date: 2024-12-29T00:00:00-07:00
+lastmod: 2024-12-29T00:00:00-07:00
+weight: 70
 draft: false
 images: []
-url: /seachat/seachat-manual/custom-gpt-tool/
+url: /seachat/seachat-manual/labeling/
 ---
   
