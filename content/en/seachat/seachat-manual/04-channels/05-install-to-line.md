@@ -22,8 +22,7 @@ toc: true
 
 Follow the video tutorial to install SeaChat on your LINE Official Account and start responding to customer messages!
 
-[//]: # (<iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-<iframe  width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0?si=nQ4RvSoTiOQLgRBj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## Utilize SeaChat and LINE's Auto-Response Messaging Functionality Together

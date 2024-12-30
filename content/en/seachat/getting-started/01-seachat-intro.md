@@ -23,7 +23,8 @@ We offer a versatile chat solution that lets you start for free with human agent
 This tutorial will guide you through creating your first AI-powered SeaChat agent. From agent creation and knowledge base setup to testing and fine-tuning, we'll cover everything you need to know to leverage our advanced AI features when you're ready to upgrade.
 
 <br/>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/HsrMcNV8KJQ?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="Build Your Own ChatGPT Bot with Live Agent Transfer in 10 min | SeaChat | AI Bot with Agent Transfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/HsrMcNV8KJQ?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="Build Your Own ChatGPT Bot with Live Agent Transfer in 10 min | SeaChat | AI Bot with Agent Transfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+
 With SeaChat, you can enable or disable AI support anytime without changing your existing setup on all channels. Enjoy the flexibility of on-demand AI support while starting completely free.
 
 ---

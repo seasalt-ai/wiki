@@ -16,8 +16,9 @@ toc: true
 ---
 ## :movie_camera: Integrate SeaChat Widget on Webpage
 
-[//]: # (<iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/elKxblkU1Hc?si=xyMCjyLuWPBipP1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+
 ## Customize Your Own Company Webpage Widget
 
 Webpage widget is a powerful tool that allows you to integrate SeaChat into your website. This feature enables you to provide real-time customer support and engage with your website visitors. The widget can be customized to match your brand identity and website design. You can also create forms to collect visitor information and feedback.

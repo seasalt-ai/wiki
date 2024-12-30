@@ -15,7 +15,7 @@ weight: 401
 以下是上述18分鐘教程的視頻，無需編程技能即可部署AI語音助理：
 
 <br/>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Hh04t_Qg8-I" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ---
 
