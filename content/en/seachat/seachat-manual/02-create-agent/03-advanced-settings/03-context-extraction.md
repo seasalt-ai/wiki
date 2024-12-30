@@ -55,7 +55,7 @@ url: /en/seachat/manual/create-agent/advanced-settings/context-extraction/
 # Overview
 
 
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=Msgg3U3lW4M&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Msgg3U3lW4M?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 Extraction allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome. 

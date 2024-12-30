@@ -16,8 +16,8 @@ toc: true
 ---
 ## :movie_camera: Integrate SeaChat Widget on Webpage
 
-[//]: # (<iframe width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ## Customize Your Own Company Webpage Widget
 

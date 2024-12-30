@@ -14,12 +14,12 @@ weight: 50
 toc: true
 ---
 
-## 將Seachat串接到你的LINE官方帳號
+## 將SeaChat串接到你的LINE官方帳號
 
 請按照影片教學，安裝SeaChat到你的LINE官方帳號，開始回覆客戶訊息！
 
-[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE&index=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/OZsxazjy5-c?si=B1jIavrQinTLT2uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/OZsxazjy5-c?list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+
 
 ## 同時使用SeaChat和LINE的自動回應訊息功能
 
