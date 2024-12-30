@@ -13,7 +13,7 @@ SeaX users can connect their WhatsApp Business Platform to SeaX to integrate Met
 
 This feature allows users to access their Meta Business Manager account and manage customer channels directly from SeaX.
 
-Power users that are operating on the Meta Business Manager can finall have a true experience of omnichannel communication that unifies all your customer interactions in one place.
+Power users that are operating on the Meta Business Manager can finally have a true experience of omnichannel communication that unifies all your customer interactions in one place.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
