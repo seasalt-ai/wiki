@@ -16,8 +16,8 @@ url: /zh/seameet/seameet-manual/01-seameet-intro/
 toc: true
 ---
 
-[//]: # (   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44?si=7nNW7zeWtuYldGga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # (   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
+   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 -------------------
 ## 邀請 SeaMeet 機器人記錄會議
 
@@ -29,24 +29,24 @@ toc: true
 3. 點擊「開始轉錄」，邀請機器人參與會議
 4. 允許機器人加入，並開始記錄會議
 
-[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5P5fOQVtyNc?si=8aDlVTixBGfqdQCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5P5fOQVtyNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5P5fOQVtyNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
 #### 方法二：在 SeaMeet 會議清單「開始新會議記錄」
 1. 按下「開始新會議記錄」按鈕
 2. 輸入 Google Meet 會議代碼並送出
 3. 會議會自動被新增到會議清單中
 
-[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bC2Xx9wDa2g?si=XcfvZXt9_e_Qxjoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/bC2Xx9wDa2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bC2Xx9wDa2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
 #### 方法三：在 Google 日曆寄送邀請
 1. 在Google行事曆邀請 SeaMeet 機器人 <信箱：meet@seasalt.ai> 至會議中
 2. SeaMeet機器人將準時加入Google Meet會議
 
 
-[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qq2Y2LiD44Q?si=xEmaWe_lm5ZagiHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Qq2Y2LiD44Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qq2Y2LiD44Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
 -------------------
 ## 查看會議記錄
@@ -54,8 +54,8 @@ toc: true
 當您邀請 SeaMeet Copilot 加入會議時，它會在您的工作區會議清單中創建一個會議。
 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
 
-[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly46YJX0IGL767cwCatlDU2JU&index=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw?si=aOcVKDDGSCELHLNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[//]: # (  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ck8IWs5lXLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 -------------------
 ## 查看會議工作區
 

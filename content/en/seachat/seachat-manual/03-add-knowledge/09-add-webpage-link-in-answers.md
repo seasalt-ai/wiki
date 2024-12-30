@@ -12,14 +12,6 @@ weight: 150
 toc: true
 ---
 
-[//]: # ()
-[//]: # (# :movie_camera: Video Tutorial)
-
-[//]: # ()
-[//]: # (<iframe width="100%" height="400" src="https://www.youtube.com/embed/?listType=playlist&list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE&index=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-
-[//]: # ()
-[//]: # (---)
 # Overview
 
 You can include relevant reference URLs in the AI assistant's responses, allowing users to access more detailed content to users. In the **Existing Knowledge** page, you can find relevant knowledge and add reference URLs the AI agent's responses. This feature enhances the user experience by providing additional information and resources to users when they are looking for some specific information. 

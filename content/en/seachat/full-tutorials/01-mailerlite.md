@@ -22,7 +22,7 @@ toc: true
 
 For a visual guide on how to integrate SeaChat with MailerLite, you can watch the tutorial video below:
 <br/>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=xTnJ9L1sVC4&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/xTnJ9L1sVC4?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ---

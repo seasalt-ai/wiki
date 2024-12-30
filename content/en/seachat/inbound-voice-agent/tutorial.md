@@ -14,7 +14,7 @@ weight: 401
 The following is a video tutorial of the above walkthrough to deploy an AI voice agent in 18 minutes with no coding skills required:
 
 <br/>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Hh04t_Qg8-I" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 ---
 

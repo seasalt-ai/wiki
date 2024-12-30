@@ -14,7 +14,7 @@ url: zh/seachat/getting-started/free-agent-mode/
 
 
 <br/>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=tYLpWa3LeCM&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0&index=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/tYLpWa3LeCM?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## 如何免費開始使用 SeaChat？
