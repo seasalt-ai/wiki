@@ -2,14 +2,14 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/zh/seax/demo_videos_zh/</loc>
-      <lastmod>2024-12-30T11:31:24-08:00</lastmod>
+      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seax/seax_messaging/</loc>
-      <lastmod>2024-12-30T11:31:24-08:00</lastmod>
+      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -25,13 +25,13 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/zh/seax/demo_videos_zh/videos/</loc>
-        <lastmod>2024-12-30T11:31:24-08:00</lastmod>
+        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/</loc>
-        <lastmod>2024-12-30T11:31:24-08:00</lastmod>
+        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
