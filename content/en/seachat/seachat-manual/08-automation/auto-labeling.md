@@ -140,7 +140,7 @@ Auto Labeling is a system that automates the application of labels to conversati
    - Link actions to specific labels:
         - Trigger an email or SMS when ```Escalated``` is applied.  
         - Automate follow-ups for ```Low Priority``` cases.
-   - Check out our tutorial on [Label Automation](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/)) for more details.
+   - Check out our tutorial on [Label Automation](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/) for more details.
 
 
 ---
