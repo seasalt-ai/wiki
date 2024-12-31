@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-product-updates/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-resources/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -36,7 +36,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-payments/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -53,14 +53,14 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/full-tutorials/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -77,7 +77,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/seachat-manual/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -94,7 +94,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seachat/getting-started/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -110,7 +110,7 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/en/seachat/product-updates/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -126,7 +126,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -142,7 +142,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-resources/seachat-api/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -158,7 +158,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-resources/seachat-faq/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -174,7 +174,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -190,7 +190,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/en/seachat/billing-subs/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -206,13 +206,13 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -228,7 +228,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -244,7 +244,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -260,7 +260,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/03-add-knowledge/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -276,7 +276,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -292,7 +292,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -307,14 +307,8 @@
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -330,7 +324,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/seachat-manual/06-workspace/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -345,8 +339,14 @@
                     />
       </url>
       <url>
+        <loc>https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/</loc>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
         <loc>https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -362,7 +362,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -378,7 +378,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seachat/getting-started/free-agent-mode/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link

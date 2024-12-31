@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/manual/subscription/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -36,7 +36,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -53,7 +53,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -70,7 +70,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -87,7 +87,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/4-integration/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -104,7 +104,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/billing-and-subscription/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -121,14 +121,14 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/04-seameet-register/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -145,7 +145,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/15-seameet-help/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -161,19 +161,19 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/workspace-management/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/invite-seameet/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -189,7 +189,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/language-setting/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -205,7 +205,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/sharing/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -221,7 +221,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -237,7 +237,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/auto-join/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -253,7 +253,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/manual/view-meeting/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -269,7 +269,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/meeting-analytics/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -285,7 +285,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/custom-summary/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -301,7 +301,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/recording/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -317,7 +317,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/end-a-meeting/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -333,7 +333,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/meeting-labels/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -349,7 +349,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/audio-upload/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -365,7 +365,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/manual/browser-extension/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -381,7 +381,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seameet/manual/google-docs/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link

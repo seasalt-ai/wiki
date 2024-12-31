@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/zh/seavoice/tts/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seavoice/stt/</loc>
-      <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -35,13 +35,13 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/zh/seavoice/tts/panel_tutorial_zh/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seavoice/stt/decoder/</loc>
-        <lastmod>2024-12-30T12:54:51-08:00</lastmod>
+        <lastmod>2024-12-30T18:59:24-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
