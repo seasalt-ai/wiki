@@ -9,6 +9,14 @@ toc: true
 url: /en/seachat/manual/channels/instagram/
 ---
 
+---
+
+## Video Tutorial
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/50oKG8p-LzI?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+
+---
+
 ## Prerequisites
 
 - **Instagram Professional Account**: You need either a Business or Creator account to set up Instagram Messaging. If your current account is not of this type, you can [switch it to a Professional account](https://www.facebook.com/business/help/502981923235522) in Instagram settings.
