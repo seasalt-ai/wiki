@@ -1,10 +1,10 @@
 ---
-title: "Auto-labeling"
-description: "Learn how to set up and use the Auto-labeling feature to automate and streamline conversation labeling processes."
+title: "Auto Labeling"
+description: "Learn how to set up and use the Auto Labeling feature to automate and streamline conversation labeling processes."
 lead: ""
 date: 2024-12-29T00:00:00-07:00
 lastmod: 2024-12-29T00:00:00-07:00
-weight: 70
+weight: 80
 draft: false
 images: []
 toc: true
@@ -13,13 +13,19 @@ url: /en/seachat/manual/labeling/auto-labeling/
 
 ---
 
+## Video Tutorial
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2lZcfofYQj4?si=CmmNJFAAwBtMEjqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+
+---
+
 **Overview**  
-Auto-labeling is an integral part of the integrations in Seasalt.ai's suite of tools. This feature intelligently and automatically applies labels to conversations, streamlining processes for use cases such as customer service and healthcare. 
+Auto Labeling is an integral part of the integrations in Seasalt.ai's suite of tools. This feature intelligently and automatically applies labels to conversations, streamlining processes for use cases such as customer service and healthcare. 
 
-We welcome you to check out our feature of [Label Automation](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/) for more advanced workflows as labe-automation builds upon the auto-labeling feature.
+We welcome you to check out our feature of [Label Automation](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/) for more advanced workflows as labe-automation builds upon the auto Labeling feature.
 
-**What Is Auto-Labeling?**  
-Auto-labeling is a system that automates the application of labels to conversations or other data points based on predefined rules and AI-driven analysis. Instead of manually tagging, users can set conditions under which labels are applied or removed dynamically.
+**What Is Auto Labeling?**  
+Auto Labeling is a system that automates the application of labels to conversations or other data points based on predefined rules and AI-driven analysis. Instead of manually tagging, users can set conditions under which labels are applied or removed dynamically.
 
 ---
 
@@ -28,7 +34,7 @@ Auto-labeling is a system that automates the application of labels to conversati
 
 <center>
 <a href="/images/seachat/en/labeling/auto-labeling/auto-labeling-feat-ui.png">
-<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/auto-labeling-feat-ui.png"  alt="Overview of the Auto-labeling UI">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/auto-labeling-feat-ui.png"  alt="Overview of the Auto Labeling UI">
 </a>
 
 </center>
@@ -51,7 +57,7 @@ Auto-labeling is a system that automates the application of labels to conversati
 
 ---
 
-## How to Set Up Auto-Labeling
+## How to Set Up Auto Labeling
 
 1. **Navigate to Integrations**
    - Open the ```Integrations``` section and select ```Auto Labeling.```  
@@ -59,7 +65,7 @@ Auto-labeling is a system that automates the application of labels to conversati
 
 <center>
 <a href="/images/seachat/en/labeling/auto-labeling/navigation-ui.png">
-<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/navigation-ui.png"  alt="Navigation to Auto-Labeling">
+<img height="100%" width="100%" src="/images/seachat/en/labeling/auto-labeling/navigation-ui.png"  alt="Navigation to Auto Labeling">
 </a>
 
 </center>
@@ -139,7 +145,7 @@ Auto-labeling is a system that automates the application of labels to conversati
 
 ---
 
-**Benefits of Auto-Labeling**  
+**Benefits of Auto Labeling**  
 
 - **Efficiency**: Reduces manual labeling efforts.  
 - **Scalability**: Handles high volumes of data.  
@@ -149,5 +155,5 @@ Auto-labeling is a system that automates the application of labels to conversati
 ---
 
 **Conclusion**  
-Auto-labeling transforms how businesses manage conversations and data. From dynamic triaging in healthcare to streamlining customer support, this tool simplifies and accelerates processes while ensuring accuracy. Future tutorials will delve into removing labels and leveraging label automation for more advanced workflows. Stay tuned!
+Auto Labeling transforms how businesses manage conversations and data. From dynamic triaging in healthcare to streamlining customer support, this tool simplifies and accelerates processes while ensuring accuracy. Future tutorials will delve into removing labels and leveraging label automation for more advanced workflows. Stay tuned!
 

@@ -4,19 +4,26 @@ description: "Learn how to set up and use Label Automation in SeaChat to trigger
 lead: ""
 date: 2024-12-29T00:00:00-07:00
 lastmod: 2024-12-29T00:00:00-07:00
-weight: 75
+weight: 90
 draft: false
 images: []
 toc: true
 url: /en/seachat/manual/labeling/label-automation/
 ---
+
+---
+
+## Video Tutorial
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2SYYU1lQqrc?si=Sh17aqCglEm-H7Az" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 **Overview**  
 
 Label Automation is a feature in SeaChat that allows users to define actions triggered when labels are applied or removed from conversations. 
 
-It builds upon the [Auto-Labeling](https://wiki.seasalt.ai/seachat/manual/labeling/lauto-labeling/) feature by introducing workflows to notify or escalate important events automatically.
+It builds upon the [Auto Labeling](https://wiki.seasalt.ai/seachat/manual/labeling/lauto-labeling/) feature by introducing workflows to notify or escalate important events automatically.
 
 This tutorial walks you through setting up Label Automation, providing practical examples to enhance your workflow.
 
@@ -45,7 +52,7 @@ This tutorial walks you through setting up Label Automation, providing practical
    - Avoid reliance on external tools like Zapier by using SeaChat's integrated features.  
 
 4. **Manual and Automatic Integration**  
-   - Labels can be applied either automatically using Auto-Labeling or manually during conversations.
+   - Labels can be applied either automatically using Auto Labeling or manually during conversations.
 
 ---
 
@@ -153,8 +160,8 @@ To see the full version of the use case example, please check out our video tuto
 
 <br/>
 
-3. **Automated Trigger with Auto-Labeling**  
-   - Combine with the Auto-Labeling feature to trigger **Code Red** based on predefined conversation rules.  
+3. **Automated Trigger with Auto Labeling**  
+   - Combine with the Auto Labeling feature to trigger **Code Red** based on predefined conversation rules.  
 
 <center>
 <a href="/images/seachat/en/labeling/label-automation/action-on-labeling.png">
@@ -179,10 +186,10 @@ To see the full version of the use case example, please check out our video tuto
 **Advanced Features**
 
 - **API Integration**: For advanced users, trigger custom workflows using API requests.  
-- **Combined Automation**: Integrate Label Automation with Auto-Labeling for a seamless workflow.  
+- **Combined Automation**: Integrate Label Automation with Auto Labeling for a seamless workflow.  
 
 ---
 
 **Conclusion**  
-Label Automation enhances SeaChat's capabilities by turning applied labels into actionable events. Whether you're managing a healthcare hotline or streamlining customer service, this feature provides the tools to automate and optimize your processes. Try combining Label Automation with Auto-Labeling to create powerful, efficient workflows tailored to your needs.
+Label Automation enhances SeaChat's capabilities by turning applied labels into actionable events. Whether you're managing a healthcare hotline or streamlining customer service, this feature provides the tools to automate and optimize your processes. Try combining Label Automation with Auto Labeling to create powerful, efficient workflows tailored to your needs.
 
