@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/</loc>
-      <lastmod>2024-12-30T18:59:24-08:00</lastmod>
+      <loc>https://wiki.seasalt.ai/en/seachat/tutorials/google-form/</loc>
+      <lastmod>2025-01-07T10:53:28-08:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>https://wiki.seasalt.ai/en/seachat/tutorials/mailerlite/</loc>
+      <lastmod>2025-01-07T10:53:28-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>

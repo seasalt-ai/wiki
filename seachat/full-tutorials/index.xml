@@ -8,11 +8,21 @@
     <language>en-US</language>
     <lastBuildDate>Fri, 08 Mar 2024 10:43:51 +0100</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/full-tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Book Appointments Instantly with Google Forms &amp; Voice Agent</title>
+      <link>https://wiki.seasalt.ai/en/seachat/tutorials/google-form/</link>
+      <pubDate>Tue, 31 Dec 2024 15:12:51 +0100</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/tutorials/google-form/</guid>
+      <description>At the end of this tutorial, you will be able to:
+ 📋 Collect information from your customers using a Google Form 📞 Immediately call inbound leads after they submit the form 📅 On the call, SeaChat voice agent will prequalify leads and book appointments into your calendar 📊 Track all calls made by the voice agent in a Google Sheet 🚀 Book 10x more appointments, serve customers 24/7 without needing to work more or hire more people   Calling right after form submission is crucial to lock down a meeting while the lead is still engaged and interested, increasing the chances of successful appointment scheduling.</description>
+    </item>
+    
+    <item>
       <title>Build Email Lists with MailerLite</title>
-      <link>https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/tutorials/mailerlite/</link>
       <pubDate>Wed, 24 Apr 2024 15:12:51 +0100</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/full-tutorials/01-mailerlite/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/tutorials/mailerlite/</guid>
       <description>MailerLite Integration: Use MailerLite to gather emails and automate mailing lists for promotions and updates. SeaChat allows seamless integration with MailerLite to enhance your AI Webchat Agent. Automatic Data Collection: Configure SeaChat Agents to prompt users for their email and other details during interactions, ensuring no lead is missed. Lead Retention and Engagement: Keep all users informed and engaged by automatically adding them to your mailing lists after interaction with your agents.</description>
     </item>
     
