@@ -17,6 +17,7 @@ toc: true
 ---
 
 At the end of this tutorial, you will be able to:
+* 👍 Be compliant with the latest TCPA/FCC one-to-one rule using this Google Form
 * 📋 Collect information from your customers using a **Google Form**
 * 📞 **Immediately call inbound leads** after they submit the form
 * 📅 On the call, SeaChat voice agent will **prequalify leads and book appointments into your calendar**
@@ -33,10 +34,7 @@ In this tutorial, we will walk you through every step you need to connect your G
 
 ## Step 1: Create an Agent and Set Up the Appointment Scheduling Use Case
 
-First, you need to create a SeaChat voice agent. This agent will be responsible for making calls, prequalifying leads, and booking appointments. For details on how to set up your voice agent, please refer to our [Create a New Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/) guide. For this Google Form integration, you will want to use the "Appointment Scheduling" use case, which we have a step by step guide on how to set up in this video.
-
-<br/>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+First, you need to create a SeaChat voice agent. This agent will be responsible for making calls, prequalifying leads, and booking appointments. For details on how to set up your voice agent, please refer to our [Create a New Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/) guide. For this Google Form integration, you will want to use the "Appointment Scheduling" use case, which we have a step by step guide on how to set up [in this video](https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0).
 
 
 ## Step 2: Buy a Phone Number
