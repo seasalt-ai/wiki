@@ -8,17 +8,17 @@ weight: 200
 draft: false
 images: []
 aliases:
-  - /en/seachat/full-tutorials/01-google-form/
-  - /seachat/full-tutorials/01-google-form/
-url: /en/seachat/tutorials/google-form/
+  - /en/seachat/full-tutorials/01-google-forms/
+  - /seachat/full-tutorials/01-google-forms/
+url: /en/seachat/tutorials/google-forms/
 toc: true
 ---
 
 ---
 
 At the end of this tutorial, you will be able to:
-* 👍 Be compliant with the latest TCPA/FCC one-to-one rule using this Google Form
-* 📋 Collect information from your customers using a **Google Form**
+* 👍 Be compliant with the latest TCPA/FCC one-to-one rule using Google Forms
+* 📋 Collect information from your customers using a **Google Forms**
 * 📞 **Immediately call inbound leads** after they submit the form
 * 📅 On the call, SeaChat voice agent will **prequalify leads and book appointments into your calendar**
 * 📊 Track all calls made by the voice agent in a **Google Sheet**
@@ -34,7 +34,7 @@ In this tutorial, we will walk you through every step you need to connect your G
 
 ## Step 1: Create an Agent and Set Up the Appointment Scheduling Use Case
 
-First, you need to create a SeaChat voice agent. This agent will be responsible for making calls, prequalifying leads, and booking appointments. For details on how to set up your voice agent, please refer to our [Create a New Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/) guide. For this Google Form integration, you will want to use the "Appointment Scheduling" use case, which we have a step by step guide on how to set up [in this video](https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0).
+First, you need to create a SeaChat voice agent. This agent will be responsible for making calls, prequalifying leads, and booking appointments. For details on how to set up your voice agent, please refer to our [Create a New Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/) guide. For this Google Forms integration, you will want to use the "Appointment Scheduling" use case, which we have a step by step guide on how to set up [in this video](https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0).
 
 
 ## Step 2: Buy a Phone Number
@@ -80,7 +80,7 @@ Collecting customer information using a different form? [Contact us](mailto:seac
 </center>
 
 
-## Step 5: Connect Google Form to your Voice Agent
+## Step 5: Connect a Google Form to your Voice Agent
 
 First, let's find your SeaChat Agent ID and get a unique access token. These are the two keys you need to connect your Google Form to your SeaChat Voice Agent.
 
