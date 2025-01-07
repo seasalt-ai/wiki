@@ -10,6 +10,7 @@ images: []
 aliases:
   - /en/seachat/full-tutorials/01-mailerlite/
   - /seachat/full-tutorials/01-mailerlite/
+url: /en/seachat/tutorials/mailerlite/
 toc: true
 ---
 
