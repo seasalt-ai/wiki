@@ -32,6 +32,11 @@ In this tutorial, we will walk you through every step you need to connect your G
 
 > **Note:** If you use other types of forms such as web forms, Jotform, or any other form, please contact us at [seachat@seasalt.ai](mailto:seachat@seasalt.ai). We will help you set up the same appointment booking integration.
 
+## Video Tutorial
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/tMywzLCnwNI?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px";></iframe>
+
+
 ## Step 1: Create an Agent and Set Up the Appointment Scheduling Use Case
 
 First, you need to create a SeaChat voice agent. This agent will be responsible for making calls, prequalifying leads, and booking appointments. For details on how to set up your voice agent, please refer to our [Create a New Agent](https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/) guide. For this Google Forms integration, you will want to use the "Appointment Scheduling" use case, which we have a step by step guide on how to set up [in this video](https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0).
@@ -86,20 +91,11 @@ First, let's find your SeaChat Agent ID and get a unique access token. These are
 
 ### Find your SeaChat Agent ID
 
-Sign in to your SeaChat account and click on the "Agent Information" tab. The last part of your agent URL is your SeaChat Agent ID, e.g. `https://chat.seasalt.ai/chat/1234567890` (1234567890 is your Agent ID).
-
-<br/>
-<center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-google-form/find-seachat-bot-id.png" target="_blank">
-<img width="100%" style="border-radius: 0.3rem; border: thin solid black; style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-google-form/find-seachat-bot-id.png" alt="Screenshot illustrating how to find the SeaChat agent ID">
-</a>
-
-*Find your SeaChat Agent ID*
-</center>
+Sign in to your SeaChat account and click on the "Agent Information" tab. You can find the SeaChat Agent ID in the URL, e.g. `https://chat.seasalt.ai/gpt/workspace/{WORKSPACE-ID}/bot/{AGENT-ID}/detail/botInfo` (the string between `bot/` and `/detail` is your Agent ID).
 
 ### Get a unique access token
 
-Go to the "API Key" section right below "Agent URL" section. Click on "API Key" hyperlink. This will open the API key management page. 
+Go to the "API Key" section at the bottom of the "Agent Information" section. Click on "API Key" hyperlink. This will open the API key management page. 
 
 First, turn on the toggle of "Enable API Access". Then, copy the Access Token. Note that the Access Token is a very long string and you need to copy it all. 
 
@@ -152,8 +148,22 @@ For example, if your agent ID is `1234567890` and your access token is `abcdefgh
 
 Finally, click on "Save" to save the changes. The save button is the flappy disk icon at the top menu.
 
+### Add a Trigger to the Google Form
 
-## Step 6: Test the Phone Call by Submitting a Submission
+Go to the "Triggers" section at the left-hand side menu. Click on "Add Trigger" button (in bottom right corner). 
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/tutorial-google-form/add-a-trigger.png" target="_blank">
+<img width="100%" style="border-radius: 0.3rem; border: thin solid black; style="border-radius: 0.4rem" src="/images/seachat/en/tutorial-google-form/add-a-trigger.png" alt="Screenshot illustrating how to replace the agent ID and access token">
+</a>
+
+*Add a trigger for the Google Form Apps Script*
+</center>
+
+After clicking on "Save", Google Forms will ask you to authorize the script to access your Google Form. Follow the steps to authorize the script. If you encounter any anthorization issues, please just go back to the script editor and click on "Save" again to restart authorization.
+
+## Step 6: Test the Phone Call by a Submission
 
 Submit a test entry through your Google Form to ensure that the voice agent is working correctly. You should receive a call from the SeaChat agent shortly after submitting the form. 
 
@@ -226,18 +236,10 @@ function jsonEscape(str)  {
     return str.replace(/\n/g, "\\\\n").replace(/\r/g, "\\\\r").replace(/\t/g, "\\\\t");
 }
 
-function formatConversation(conversation) {
-  let prettyConversation = conversation
-    .map(entry => `${entry.speaker}: ${entry.text}`)
-    .join("\n");
-
-  return prettyConversation;
-}
-
 function doPost(e) {
   try {
     // Open the target Google Sheet by its ID
-    const spreadsheet = SpreadsheetApp.openById("{YOUR_SHEET_ID}");
+    const spreadsheet = SpreadsheetApp.openById("1clTaM5mSR5rsrNKL_5PrL3im5mTFYS_LSvqeVaFjDPQ");
 
     // Get or create the sheet named "test"
     let parsedData = JSON.parse(JSON.parse(jsonEscape(e.postData.contents)));
@@ -252,13 +254,11 @@ function doPost(e) {
     // Append the relevant data to the sheet
     sheet.appendRow([
       new Date(), // Timestamp of the script execution
-      parsedData["conversation_config"]["twilio_integration"]["twilio_phone_number"], // From
-      parsedData["user"]["phone"], // To
+      parsedData["agent_number"], // From
+      parsedData["customer_number"], // To
       parsedData["call_status"], // Call status
       parsedData["summary"], // Call summary
-      JSON.stringify(parsedData["labels"]), // Labels
-      JSON.stringify(parsedData["extraction"]), // Extractions
-      formatConversation(parsedData["messages"]) // Transcripts
+      JSON.stringify(parsedData["labels"]) // Labels
     ]);
     console.log("Data written successfully!");
 
@@ -335,8 +335,14 @@ Finally, replace the entire `payload` section with the following code snippet an
 
 ## Step 8: (Optional) Check the Call Logs
 
-Make a call again and check the "Call Logs" tab in your Google Sheet after the call is finished. You should see the call logs there. 
+Make a call again and check the "Call Logs" tab in your Google Sheet after the call is finished. You should see the call logs there. By default, each new row in the "Call Logs" tab is a new call log containing the following information:
 
+- Timestamp of the call
+- Caller number, or AI agent phone number
+- Customer number, or the phone number the customer submitted in the Google Form
+- Call status, e.g. "Completed", "Voicemail", "No Answer", etc.
+- Call summary
+- Labels generated from the conversation
 
 
 ## Congratulations
