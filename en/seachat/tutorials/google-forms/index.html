@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/en/seachat/tutorials/google-forms/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-12-31T15:12:51+01:00">
-  <meta property="article:modified_time" content="2025-01-07T18:50:58-08:00">
+  <meta property="article:modified_time" content="2025-01-08T09:35:35-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-12-31T15:12:51CET",
-      "dateModified": "2025-01-07T18:50:58CET",
+      "dateModified": "2025-01-08T09:35:35CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/en/seachat/tutorials/google-forms/#/schema/breadcrumb/1"
       },
@@ -1327,6 +1327,7 @@
   
   <nav id="TableOfContents">
   <ul>
+    <li><a href="#video-tutorial">Video Tutorial</a></li>
     <li><a href="#step-1-create-an-agent-and-set-up-the-appointment-scheduling-use-case">Step 1: Create an Agent and Set Up the Appointment Scheduling Use Case</a></li>
     <li><a href="#step-2-buy-a-phone-number">Step 2: Buy a Phone Number</a></li>
     <li><a href="#step-3-connect-google-calendar">Step 3: Connect Google Calendar</a></li>
@@ -1336,9 +1337,10 @@
         <li><a href="#find-your-seachat-agent-id">Find your SeaChat Agent ID</a></li>
         <li><a href="#get-a-unique-access-token">Get a unique access token</a></li>
         <li><a href="#add-your-agent-to-your-google-form-script">Add your Agent to your Google Form script</a></li>
+        <li><a href="#add-a-trigger-to-the-google-form">Add a Trigger to the Google Form</a></li>
       </ul>
     </li>
-    <li><a href="#step-6-test-the-phone-call-by-submitting-a-submission">Step 6: Test the Phone Call by Submitting a Submission</a>
+    <li><a href="#step-6-test-the-phone-call-by-a-submission">Step 6: Test the Phone Call by a Submission</a>
       <ul>
         <li><a href="#troubleshooting">Troubleshooting</a></li>
       </ul>
@@ -1368,6 +1370,7 @@
   
   <nav id="TableOfContents">
   <ul>
+    <li><a href="#video-tutorial">Video Tutorial</a></li>
     <li><a href="#step-1-create-an-agent-and-set-up-the-appointment-scheduling-use-case">Step 1: Create an Agent and Set Up the Appointment Scheduling Use Case</a></li>
     <li><a href="#step-2-buy-a-phone-number">Step 2: Buy a Phone Number</a></li>
     <li><a href="#step-3-connect-google-calendar">Step 3: Connect Google Calendar</a></li>
@@ -1377,9 +1380,10 @@
         <li><a href="#find-your-seachat-agent-id">Find your SeaChat Agent ID</a></li>
         <li><a href="#get-a-unique-access-token">Get a unique access token</a></li>
         <li><a href="#add-your-agent-to-your-google-form-script">Add your Agent to your Google Form script</a></li>
+        <li><a href="#add-a-trigger-to-the-google-form">Add a Trigger to the Google Form</a></li>
       </ul>
     </li>
-    <li><a href="#step-6-test-the-phone-call-by-submitting-a-submission">Step 6: Test the Phone Call by Submitting a Submission</a>
+    <li><a href="#step-6-test-the-phone-call-by-a-submission">Step 6: Test the Phone Call by a Submission</a>
       <ul>
         <li><a href="#troubleshooting">Troubleshooting</a></li>
       </ul>
@@ -1415,6 +1419,8 @@
 <blockquote>
 <p><strong>Note:</strong> If you use other types of forms such as web forms, Jotform, or any other form, please contact us at <a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>. We will help you set up the same appointment booking integration.</p>
 </blockquote>
+<h2 id="video-tutorial">Video Tutorial <a href="#video-tutorial" class="anchor" aria-hidden="true">#</a></h2>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/tMywzLCnwNI?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px";></iframe>
 <h2 id="step-1-create-an-agent-and-set-up-the-appointment-scheduling-use-case">Step 1: Create an Agent and Set Up the Appointment Scheduling Use Case <a href="#step-1-create-an-agent-and-set-up-the-appointment-scheduling-use-case" class="anchor" aria-hidden="true">#</a></h2>
 <p>First, you need to create a SeaChat voice agent. This agent will be responsible for making calls, prequalifying leads, and booking appointments. For details on how to set up your voice agent, please refer to our <a href="https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/">Create a New Agent</a> guide. For this Google Forms integration, you will want to use the &ldquo;Appointment Scheduling&rdquo; use case, which we have a step by step guide on how to set up <a href="https://www.youtube.com/embed/Hh04t_Qg8-I?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0">in this video</a>.</p>
 <h2 id="step-2-buy-a-phone-number">Step 2: Buy a Phone Number <a href="#step-2-buy-a-phone-number" class="anchor" aria-hidden="true">#</a></h2>
@@ -1447,16 +1453,9 @@
 <h2 id="step-5-connect-a-google-form-to-your-voice-agent">Step 5: Connect a Google Form to your Voice Agent <a href="#step-5-connect-a-google-form-to-your-voice-agent" class="anchor" aria-hidden="true">#</a></h2>
 <p>First, let&rsquo;s find your SeaChat Agent ID and get a unique access token. These are the two keys you need to connect your Google Form to your SeaChat Voice Agent.</p>
 <h3 id="find-your-seachat-agent-id">Find your SeaChat Agent ID <a href="#find-your-seachat-agent-id" class="anchor" aria-hidden="true">#</a></h3>
-<p>Sign in to your SeaChat account and click on the &ldquo;Agent Information&rdquo; tab. The last part of your agent URL is your SeaChat Agent ID, e.g. <code>https://chat.seasalt.ai/chat/1234567890</code> (1234567890 is your Agent ID).</p>
-<br/>
-<center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/en/tutorial-google-form/find-seachat-bot-id.png" target="_blank">
-<img width="100%" style="border-radius: 0.3rem; border: thin solid black; style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seachat/en/tutorial-google-form/find-seachat-bot-id.png" alt="Screenshot illustrating how to find the SeaChat agent ID">
-</a>
-<p><em>Find your SeaChat Agent ID</em></p>
-</center>
+<p>Sign in to your SeaChat account and click on the &ldquo;Agent Information&rdquo; tab. You can find the SeaChat Agent ID in the URL, e.g. <code>https://chat.seasalt.ai/gpt/workspace/{WORKSPACE-ID}/bot/{AGENT-ID}/detail/botInfo</code> (the string between <code>bot/</code> and <code>/detail</code> is your Agent ID).</p>
 <h3 id="get-a-unique-access-token">Get a unique access token <a href="#get-a-unique-access-token" class="anchor" aria-hidden="true">#</a></h3>
-<p>Go to the &ldquo;API Key&rdquo; section right below &ldquo;Agent URL&rdquo; section. Click on &ldquo;API Key&rdquo; hyperlink. This will open the API key management page.</p>
+<p>Go to the &ldquo;API Key&rdquo; section at the bottom of the &ldquo;Agent Information&rdquo; section. Click on &ldquo;API Key&rdquo; hyperlink. This will open the API key management page.</p>
 <p>First, turn on the toggle of &ldquo;Enable API Access&rdquo;. Then, copy the Access Token. Note that the Access Token is a very long string and you need to copy it all.</p>
 <br/>
 <center>
@@ -1491,7 +1490,17 @@
 <p><em>Replace the agent ID and access token</em></p>
 </center>
 <p>Finally, click on &ldquo;Save&rdquo; to save the changes. The save button is the flappy disk icon at the top menu.</p>
-<h2 id="step-6-test-the-phone-call-by-submitting-a-submission">Step 6: Test the Phone Call by Submitting a Submission <a href="#step-6-test-the-phone-call-by-submitting-a-submission" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="add-a-trigger-to-the-google-form">Add a Trigger to the Google Form <a href="#add-a-trigger-to-the-google-form" class="anchor" aria-hidden="true">#</a></h3>
+<p>Go to the &ldquo;Triggers&rdquo; section at the left-hand side menu. Click on &ldquo;Add Trigger&rdquo; button (in bottom right corner).</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/en/tutorial-google-form/add-a-trigger.png" target="_blank">
+<img width="100%" style="border-radius: 0.3rem; border: thin solid black; style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seachat/en/tutorial-google-form/add-a-trigger.png" alt="Screenshot illustrating how to replace the agent ID and access token">
+</a>
+<p><em>Add a trigger for the Google Form Apps Script</em></p>
+</center>
+<p>After clicking on &ldquo;Save&rdquo;, Google Forms will ask you to authorize the script to access your Google Form. Follow the steps to authorize the script. If you encounter any anthorization issues, please just go back to the script editor and click on &ldquo;Save&rdquo; again to restart authorization.</p>
+<h2 id="step-6-test-the-phone-call-by-a-submission">Step 6: Test the Phone Call by a Submission <a href="#step-6-test-the-phone-call-by-a-submission" class="anchor" aria-hidden="true">#</a></h2>
 <p>Submit a test entry through your Google Form to ensure that the voice agent is working correctly. You should receive a call from the SeaChat agent shortly after submitting the form.</p>
 <p>The SeaChat agent should call the number provided, prequalify the lead, and book an appointment if applicable. You are welcome to test a lot and improve the agent performance. There are plenty of resources on this wiki website to help you improve the agent performance.</p>
 <blockquote>
@@ -1543,18 +1552,10 @@ You can your Google Sheet ID from the URL of your Google Sheet, e.g. <code>https
     return str.replace(/\n/g, &quot;\\\\n&quot;).replace(/\r/g, &quot;\\\\r&quot;).replace(/\t/g, &quot;\\\\t&quot;);
 }
 
-function formatConversation(conversation) {
-  let prettyConversation = conversation
-    .map(entry =&gt; `${entry.speaker}: ${entry.text}`)
-    .join(&quot;\n&quot;);
-
-  return prettyConversation;
-}
-
 function doPost(e) {
   try {
     // Open the target Google Sheet by its ID
-    const spreadsheet = SpreadsheetApp.openById(&quot;{YOUR_SHEET_ID}&quot;);
+    const spreadsheet = SpreadsheetApp.openById(&quot;1clTaM5mSR5rsrNKL_5PrL3im5mTFYS_LSvqeVaFjDPQ&quot;);
 
     // Get or create the sheet named &quot;test&quot;
     let parsedData = JSON.parse(JSON.parse(jsonEscape(e.postData.contents)));
@@ -1569,13 +1570,11 @@ function doPost(e) {
     // Append the relevant data to the sheet
     sheet.appendRow([
       new Date(), // Timestamp of the script execution
-      parsedData[&quot;conversation_config&quot;][&quot;twilio_integration&quot;][&quot;twilio_phone_number&quot;], // From
-      parsedData[&quot;user&quot;][&quot;phone&quot;], // To
+      parsedData[&quot;agent_number&quot;], // From
+      parsedData[&quot;customer_number&quot;], // To
       parsedData[&quot;call_status&quot;], // Call status
       parsedData[&quot;summary&quot;], // Call summary
-      JSON.stringify(parsedData[&quot;labels&quot;]), // Labels
-      JSON.stringify(parsedData[&quot;extraction&quot;]), // Extractions
-      formatConversation(parsedData[&quot;messages&quot;]) // Transcripts
+      JSON.stringify(parsedData[&quot;labels&quot;]) // Labels
     ]);
     console.log(&quot;Data written successfully!&quot;);
 
@@ -1631,7 +1630,15 @@ function doPost(e) {
 </code></pre>
 <p><code>&quot;callback_url&quot;: &quot;{YOUR_CALLBACK_URL}&quot;</code> will look like something like this: <code>&quot;callback_url&quot;: &quot;https://script.google.com/macros/s/abcdefggregqfkelwfww/exec&quot;</code></p>
 <h2 id="step-8-optional-check-the-call-logs">Step 8: (Optional) Check the Call Logs <a href="#step-8-optional-check-the-call-logs" class="anchor" aria-hidden="true">#</a></h2>
-<p>Make a call again and check the &ldquo;Call Logs&rdquo; tab in your Google Sheet after the call is finished. You should see the call logs there.</p>
+<p>Make a call again and check the &ldquo;Call Logs&rdquo; tab in your Google Sheet after the call is finished. You should see the call logs there. By default, each new row in the &ldquo;Call Logs&rdquo; tab is a new call log containing the following information:</p>
+<ul>
+<li>Timestamp of the call</li>
+<li>Caller number, or AI agent phone number</li>
+<li>Customer number, or the phone number the customer submitted in the Google Form</li>
+<li>Call status, e.g. &ldquo;Completed&rdquo;, &ldquo;Voicemail&rdquo;, &ldquo;No Answer&rdquo;, etc.</li>
+<li>Call summary</li>
+<li>Labels generated from the conversation</li>
+</ul>
 <h2 id="congratulations">Congratulations <a href="#congratulations" class="anchor" aria-hidden="true">#</a></h2>
 <p>Congratulations! You have now set up a Google Form that automatically calls your customers and books appointments into your calendar, as soon as the customer submits the form. For high achievers, you have also set up a Google Sheet to log all call activities.</p>
 <p>You can now book 10x more appointments, serve customers 24/7 without needing to work more or hire more people.</p>
