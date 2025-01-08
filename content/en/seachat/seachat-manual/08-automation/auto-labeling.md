@@ -15,7 +15,7 @@ url: /en/seachat/manual/labeling/auto-labeling/
 
 ## Video Tutorial
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/2lZcfofYQj4?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen style="border-radius: 30px;></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/2lZcfofYQj4?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen style="border-radius: 30px;"></iframe>
 
 ---
 
