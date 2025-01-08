@@ -23,7 +23,7 @@ url: /en/seachat/manual/labeling/label-automation/
 
 Label Automation is a feature in SeaChat that allows users to define actions triggered when labels are applied or removed from conversations. 
 
-It builds upon the [Auto Labeling](https://wiki.seasalt.ai/seachat/manual/labeling/lauto-labeling/) feature by introducing workflows to notify or escalate important events automatically.
+It builds upon the [Auto Labeling](https://wiki.seasalt.ai/seachat/manual/labeling/auto-labeling/) feature by introducing workflows to notify or escalate important events automatically.
 
 This tutorial walks you through setting up Label Automation, providing practical examples to enhance your workflow.
 

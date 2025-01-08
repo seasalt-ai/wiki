@@ -41,7 +41,7 @@ SeaChat 的 客制GPT工具 允許用戶通過將自定義操作直接整合到�
 
 ## 快速入門
 
-要啟用此功能，登錄 SeaChat 後，導航至 **Agent Configuration** \-\> **Integrations** \-\> **客制GPT工具**。
+要啟用此功能，登錄 SeaChat 後，導航至 **AI助理配置** \-\> **整合** \-\> **客制GPT工具**。
 
 >
 > SeaChat 目前支持三種類型的工具：

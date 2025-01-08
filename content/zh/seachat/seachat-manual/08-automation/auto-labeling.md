@@ -22,7 +22,7 @@ url: /zh/seachat/manual/labeling/auto-labeling/
 **簡介**  
 自動標記是 Seasalt.ai 工具套件整合中的重要組成部分。此功能能夠智能且自動地將標籤應用於對話，簡化了如客戶服務和醫療保健等使用場景的流程。
 
-我們歡迎您查看我們的 [標籤自動化](https://wiki.seasalt.ai/seachat/manual/labeling/label-automation/) 功能，以實現基於自動標記的更高級工作流程。
+我們歡迎您查看我們的 [標籤自動化](https://wiki.seasalt.ai/zh/seachat/manual/labeling/label-automation/) 功能，以實現基於自動標記的更高級工作流程。
 
 **什麼是自動標記**  
 自動標記是一個系統，能根據預定義規則和 AI 驅動的分析自動將標籤應用於對話或其他數據點。用戶無需手動標記，可設置條件在符合規則時動態添加或移除標籤。

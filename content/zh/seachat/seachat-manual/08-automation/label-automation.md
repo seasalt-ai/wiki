@@ -23,7 +23,7 @@ url: /zh/seachat/manual/labeling/label-automation/
 
 標籤自動化 是 SeaChat 中的一項功能，允許用戶定義當標籤被應用或移除時觸發的操作。
 
-此功能基於 [自動標記(https://wiki.seasalt.ai/seachat/manual/labeling/lauto-labeling/) 功能進一步拓展，通過引入工作流程來自動通知或升級重要事件。
+此功能基於 [自動標記](https://wiki.seasalt.ai/seachat/manual/labeling/auto-labeling/) 功能進一步拓展，通過引入工作流程來自動通知或升級重要事件。
 
 本教程將帶您完成標籤自動化的設置，並提供增強工作流程的實用範例。
 
