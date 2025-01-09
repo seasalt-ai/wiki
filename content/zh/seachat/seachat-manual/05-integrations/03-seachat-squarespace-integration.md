@@ -11,7 +11,7 @@ menu:
 aliases:
    - /zh/seachat/seachat-integrations/squarespace/
 url: /zh/manual/integrations/squarespace/
-weight: 20
+weight: 48
 toc: true
 ---
 

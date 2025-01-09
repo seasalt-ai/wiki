@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp Business App"
-description: "Integrate WhatsApp with SeaX Messaging for enhanced customer engagement. Follow our step-by-step guide to set up and manage WhatsApp campaigns."
+description: "Integrate WhatsApp with SeaX for enhanced customer engagement. Follow our step-by-step guide to set up and manage WhatsApp campaigns."
 date: 2024-05-02T08:48:57+00:00
 lastmod: 2024-05-08T08:48:57+00:00
 draft: false
@@ -10,14 +10,14 @@ menu:
     parent: "seachat-manual"
 aliases:
   - /en/seax/seax_messaging/seax-whatsapp-integration/
-weight: 60
+weight: 3
 toc: true
 ---
 
-SeaX Messaging supports WhatsApp integration, allowing you to connect with your customers on WhatsApp. This guide will walk you through the steps to integrate WhatsApp with SeaX Messaging. Start leveraging the power of SeaX Messaging to engage with your customers on WhatsApp today!
+SeaX supports WhatsApp integration, allowing you to connect with your customers on WhatsApp. This guide will walk you through the steps to integrate WhatsApp with SeaX. Start leveraging the power of SeaX to engage with your customers on WhatsApp today!
 
 ---
-## Connect WhatsApp with SeaX Messaging
+## Connect WhatsApp with SeaX
 
 Head to **Channels** under **Workspace** in the sidebar menu. Click on **WhatsApp Business App** to start the integration process.
 
@@ -48,7 +48,7 @@ Follow the instructions to connect your device to the WhatsApp Business App usin
 
 Follow the Link and QR code instructions on your App to connect your device to WhatsApp. Check [here](https://faq.whatsapp.com/1317564962315842/?cms_platform=web) for more information.
 
-### Step 3: Connect WhatsApp to SeaX Messaging
+### Step 3: Connect WhatsApp to SeaX
 
 Once you have successfully connected your device, head back to **Channels** under **Workspace** in the sidebar menu. Now your account should be connected to WhatsApp, as stated in the image below.
 
@@ -63,15 +63,15 @@ Once you have successfully connected your device, head back to **Channels** unde
 
 ## Test it Out!
 
-Simply go to **Conversations** in the sidebar menu and start chatting with your customers on WhatsApp. You can now leverage the power of SeaX Messaging to engage with your customers on WhatsApp utilizing tools such as campaigns and bulk messages.
+Simply go to **Conversations** in the sidebar menu and start chatting with your customers on WhatsApp. You can now leverage the power of SeaX to engage with your customers on WhatsApp utilizing tools such as campaigns and bulk messages.
 
 ## Multiple WhatsApp Accounts
 
 For business that have multiple Whatsapp business accounts, you will find this feature to be particularly useful as it allows you to collect all your accounts in one place. 
 
-Traditionally, WhatsApp Business App only allows you to log into 4 devices that means only up to 4 people can chat in WhatsApp Business App. However, with SeaX Messaging, you can connect as many WhatsApp business accounts to SeaX Messaging as you want. 
+Traditionally, WhatsApp Business App only allows you to log into 4 devices that means only up to 4 people can chat in WhatsApp Business App. However, with SeaX, you can connect as many WhatsApp business accounts to SeaX as you want. 
 
-You can connect them to SeaX Messaging by clicking on **Add Account** in the **WhatsApp** section of **Channels**. Follow the same steps above to connect your additional WhatsApp accounts to SeaX Messaging.
+You can connect them to SeaX by clicking on **Add Account** in the **WhatsApp** section of **Channels**. Follow the same steps above to connect your additional WhatsApp accounts to SeaX.
 
 
 <br/>
@@ -106,7 +106,7 @@ Not only can you edit all your connected accounts here, but you can also have a 
 *Find Connect Numbers*
 </center>
 
-From SMS to WhatsApp, you can assign different agents to different WhatsApp accounts or numbers, and all these will be managed in just one single user interface of SeaX Messaging. No longer do you need to switch between different devices or accounts to manage your business channels, and neither do you need to worry about the capacity of connecting devices in WhatsApp Business App.
+From SMS to WhatsApp, you can assign different agents to different WhatsApp accounts or numbers, and all these will be managed in just one single user interface of SeaX. No longer do you need to switch between different devices or accounts to manage your business channels, and neither do you need to worry about the capacity of connecting devices in WhatsApp Business App.
 
 
 ## :dart: Troubleshooting
