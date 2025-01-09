@@ -12,7 +12,7 @@ aliases:
   - /en/seachat/seachat-integrations/wordpress/
   - /seachat/seachat-manual/05-integrations/06-seachat-wordpress-integration/
 url: /en/seachat/integrations/wordpress/  
-weight: 40
+weight: 76
 toc: true
 ---
 

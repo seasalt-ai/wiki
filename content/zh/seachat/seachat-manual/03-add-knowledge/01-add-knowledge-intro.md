@@ -4,7 +4,7 @@ description: "Seasalt.ai Seachat 提供了一份詳細的教學指南，深入�
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100
-weight: 30
+weight: 21
 draft: false
 images: []
 aliases:

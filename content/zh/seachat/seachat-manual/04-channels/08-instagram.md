@@ -3,7 +3,7 @@ title: "Instagram"
 description: "按照以下步驟將 Instagram 與您的應用程式整合，並建立AI agent的訊息。"
 date: 2024-12-24T08:00:00+00:00
 lastmod: 2024-12-24T08:00:00+00:00
-weight: 80
+weight: 44
 draft: false
 toc: true
 url: /zh/seachat/manual/channels/instagram/

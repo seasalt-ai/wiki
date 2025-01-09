@@ -4,7 +4,7 @@ description: "在10分鐘內設置您專屬的SeaChat AI助理！這份快速入
 lead: ""
 date: 2024-04-25 10:43:51.069 +0100
 lastmod: 2024-04-25 10:43:51.069 +0100
-weight: 202
+weight: 11
 draft: false
 images: []
 aliases:

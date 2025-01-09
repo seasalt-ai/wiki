@@ -11,7 +11,7 @@ menu:
 aliases:
   - /en/seachat/seachat-integrations/seax-integration-in-seachat/
 url: /seachat/integrations/seax-seachat/  
-weight: 70
+weight: 77
 toc: true
 ---
 

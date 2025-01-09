@@ -4,7 +4,7 @@ description: "學習如何使用提示指令範例來有效訓練 SeaChat 助理
 lead: ""
 date: 2024-26-07T08:48:45+00:00
 lastmod: 2024-26-07T08:48:45+00:00
-weight: 101
+weight: 66
 draft: false
 images: []
 aliases: 

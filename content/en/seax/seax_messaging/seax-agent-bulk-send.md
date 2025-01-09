@@ -12,7 +12,7 @@ aliases:
    - /en/seax/seax_messaging/seax-agent-bulk-send/
    - /en/seax/seax-agent-bulk-send/
    - /seax/seax-agent-bulk-send/
-weight: 103
+weight: 2
 toc: true
 ---
 

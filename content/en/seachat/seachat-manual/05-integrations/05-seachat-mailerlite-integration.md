@@ -12,7 +12,7 @@ aliases:
   - /en/seachat/seachat-integrations/mailerlite/
   - /seachat/seachat-manual/05-integrations/05-seachat-mailerlite-integration/
 url: /en/seachat/integrations/mailerlite/  
-weight: 50
+weight: 75
 toc: true
 ---
 

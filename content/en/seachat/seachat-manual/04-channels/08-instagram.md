@@ -3,7 +3,7 @@ title: "Instagram"
 description: "Follow these steps to integrate Instagram with your app and build a messaging AI agent."
 date: 2024-12-24T08:00:00+00:00
 lastmod: 2024-12-24T08:00:00+00:00
-weight: 60
+weight: 54
 draft: false
 toc: true
 url: /en/seachat/manual/channels/instagram/

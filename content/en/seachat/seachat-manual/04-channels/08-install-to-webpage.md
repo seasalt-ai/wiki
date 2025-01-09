@@ -11,7 +11,7 @@ menu:
 aliases:
   - /en/seachat/seachat-manual/04-channels/08-install-to-webpage/
 url: /en/seachat/manual/channels/webpage/  
-weight: 50
+weight: 55
 toc: true
 ---
 ## :movie_camera: Integrate SeaChat Widget on Webpage

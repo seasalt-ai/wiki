@@ -4,7 +4,7 @@ description: "Explore SeaChat's AI agent information section to set up your AI a
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-19T08:48:45+00:00
-weight: 30
+weight: 11
 draft: false
 images: []
 toc: true

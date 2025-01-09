@@ -4,7 +4,7 @@ description: "After launching SeaChat, follow this SOP guide to optimize daily o
 date: 2024-09-02T00:22:19-07:00
 lastmod: 2024-09-02T00:22:19-07:00
 draft: false
-weight: 2
+weight: 112
 aliases: 
     - /en/seachat/seacaht-manual/07-test-and-improve-ai-agent/post-launch-sop
 ---

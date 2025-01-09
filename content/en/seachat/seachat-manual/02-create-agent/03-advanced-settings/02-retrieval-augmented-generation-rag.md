@@ -4,7 +4,7 @@ description: "Enhance SeaChat AI with Retrieval Augmented Generation (RAG). Desi
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-26T08:48:45+00:00
-weight: 50
+weight: 18
 draft: false
 images: []
 toc: true

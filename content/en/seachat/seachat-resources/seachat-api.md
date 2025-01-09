@@ -4,7 +4,7 @@ description: "Integrate and automate AI agent workflows with SeaChat's RESTful A
 lead: ""
 date: 2024-08-10T08:48:45+00:00
 lastmod: 2024-08-10T08:48:45+00:00
-weight: 102
+weight: 502
 draft: false
 images: []
 aliases:

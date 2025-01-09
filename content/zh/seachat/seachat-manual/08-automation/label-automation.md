@@ -4,7 +4,7 @@ description: "學習如何在 SeaChat 中設置和使用 標籤自動化，以�
 lead: ""
 date: 2025-01-06T08:48:45+00:00
 lastmod: 2024-01-06T08:48:45+00:00
-weight: 90
+weight: 55
 draft: false
 images: []
 toc: true

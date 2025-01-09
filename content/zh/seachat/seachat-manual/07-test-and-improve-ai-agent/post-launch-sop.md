@@ -4,7 +4,7 @@ description: "連上 SeaChat 後，請遵循此標準作業程序 (SOP) 指南�
 date: 2024-09-02T00:22:19-07:00
 lastmod: 2024-09-02T00:22:19-07:00
 draft: false
-weight: 1
+weight: 52
 aliases:
   - /zh/seachat/seacaht-manual/07-test-and-improve-ai-agent/post-launch-sop
 ---

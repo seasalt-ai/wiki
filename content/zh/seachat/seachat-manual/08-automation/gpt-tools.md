@@ -4,7 +4,7 @@ description: ""
 date: 2025-01-06T08:48:45+00:00
 lastmod: 2024-01-06T08:48:45+00:00
 draft: false
-weight: 70
+weight: 54
 url: /zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools
 ---
 

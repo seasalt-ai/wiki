@@ -11,7 +11,7 @@ menu:
 aliases:
   - /zh/seachat/seachat-integrations/shopify/
 url: /zh/seachat/integrations/shopify/
-weight: 10
+weight: 47
 toc: true
 ---
 

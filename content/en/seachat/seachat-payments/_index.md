@@ -7,7 +7,7 @@ draft: false
 images: []
 aliases:
    - /en/seachat/seachat-payments/
-weight: 101
+weight: 650
 toc: true
 ---
 

@@ -13,7 +13,7 @@ aliases:
   - /seachat/seachat-manual/05-install-to-line-and-web/
   - /seachat/seachat-manual/04-channels/05-install-to-line/
 url: /en/seachat/manual/channels/install-to-line/  
-weight: 50
+weight: 51
 toc: true
 ---
 

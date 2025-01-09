@@ -4,7 +4,7 @@ description: "Explore SeaChat integrations with Google Calendar, Shopify, Square
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
-weight: 50
+weight: 70
 draft: false
 images: []
 aliases: 
