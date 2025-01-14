@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>12/26/2024 # New Features and Improvements #  Instagram Widget: Users can now add an Instagram widget to their website by simply entering the Instagram link and copying the automatically generated HTML code snippet in Channels to embed it seamlessly. Customizable Webchat Menu: Users can now choose to remove the &amp;ldquo;Get SeaChat&amp;rdquo; link from the menu dropdown in the webchat&amp;rsquo;s upper-right corner. This option is available in the Design Style section of the Agent Information tab.</description>
+      <description>1/9/2025 # New Features and Improvements #  Transcribe Voice Messages from WhatsApp and LINE: SeaChat AI Agent now supports transcription of audio messages sent via WhatsApp and LINE. When your customers send a voice message, SeaChat will transcribe it, enabling your AI Agent to understand and respond accurately to their inquiries. New Custom GPT Tool: Zendesk Ticket Search: We’ve added a new Zendesk Ticket Search tool to the Custom GPT Tool library.</description>
     </item>
     
   </channel>
