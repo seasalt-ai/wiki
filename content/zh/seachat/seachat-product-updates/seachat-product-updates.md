@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: "掌握 SeaChat 最新版本發布資訊，了解新增功能、效能優化及錯誤修復，確保您隨時使用最穩定、最先進的 AI 助理功能。"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-12-24T08:48:57+00:00
+lastmod: 2025-01-09T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,12 @@ url: /zh/seachat/product-updates/
 weight: 104
 toc: true
 ---
+
+### 1/9/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 轉錄 WhatsApp 和 LINE 的語音訊息：SeaChat AI 助理現在支援轉錄通過 WhatsApp 和 LINE 發送的語音訊息。當您的客戶發送語音訊息時，SeaChat 會將其轉錄，讓您的 AI 助理能夠準確理解並回應他們的查詢。
+- 新自訂 GPT 工具：Zendesk 工單搜尋：我們在自訂 GPT 工具庫中新增了一個 Zendesk 工單搜尋工具。您可以提供您的 Zendesk 帳戶資訊，以使 SeaChat 獲取工單詳情和評論，從而讓 SeaChat 根據相關工單回答用戶查詢。
+- 輸入框檢測輸入語言：SeaChat 現在支援在助理的輸入框和客戶的網頁聊天輸入框中自動檢測語言。無論是從右到左 (RTL) 還是從左到右 (LTR) 的語言，輸入都會自動處理。
 
 ### 12/26/2024
 ##### **<font color="#739963">新功能與改進</font>**

@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-12-24T08:48:57+00:00
+lastmod: 2025-01-09-24T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,12 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 1/9/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Transcribe Voice Messages from WhatsApp and LINE: SeaChat AI Agent now supports transcription of audio messages sent via WhatsApp and LINE. When your customers send a voice message, SeaChat will transcribe it, enabling your AI Agent to understand and respond accurately to their inquiries.
+- New Custom GPT Tool: Zendesk Ticket Search: We’ve added a new Zendesk Ticket Search tool to the Custom GPT Tool library. You can provide your Zendesk account information to enable SeaChat to fetch ticket details and comments, allowing SeaChat to answer user queries based on relevant tickets.
+- Input Box Detect Input Language: SeaChat now supports automatic language detection in the agent's typing input box and the webchat input box for customers. Whether it's a Right-to-Left (RTL) or Left-to-Right (LTR) language, the input is handled automatically.
 
 ### 12/26/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
