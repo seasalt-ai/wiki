@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>1/9/2025 # New Features and Improvements #  Transcribe Voice Messages from WhatsApp and LINE: SeaChat AI Agent now supports transcription of audio messages sent via WhatsApp and LINE. When your customers send a voice message, SeaChat will transcribe it, enabling your AI Agent to understand and respond accurately to their inquiries. New Custom GPT Tool: Zendesk Ticket Search: We’ve added a new Zendesk Ticket Search tool to the Custom GPT Tool library.</description>
+      <description>1/16/2025 # New Features and Improvements #  Channel-Specific Language Support: SeaChat now supports defining the language for voice messages on a per-channel basis. This enables the platform to transcribe voice messages into text and reply in the same language. This setting allows users to tailor communication to meet the needs of different language-speaking audiences across various platforms, including LINE, WhatsApp, Messenger, and Instagram. The setting also applies to system messages, such as the one sent to users when they click 🧹 &amp;ldquo;New Topic.</description>
     </item>
     
   </channel>
