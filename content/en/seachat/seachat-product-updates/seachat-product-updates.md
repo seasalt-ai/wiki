@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-01-09-24T08:48:57+00:00
+lastmod: 2025-01-15-24T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,11 @@ url: /en/seachat/product-updates/
 weight: 101
 toc: true
 ---
+
+### 1/16/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Channel-Specific Language Support: SeaChat now supports defining the language for voice messages on a per-channel basis. This enables the platform to transcribe voice messages into text and reply in the same language. This setting allows users to tailor communication to meet the needs of different language-speaking audiences across various platforms, including LINE, WhatsApp, Messenger, and Instagram. The setting also applies to system messages, such as the one sent to users when they click 🧹 "New Topic."
+- Voice Call Widget Added: A voice call widget has been added to the chat widget. Users can either embed HTML code or a URL to a form to receive customers’ calls. When customers click the call icon, an iframe containing your embedded HTML will pop up, or they will be redirected to your specified form if a URL is provided.
 
 ### 1/9/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
