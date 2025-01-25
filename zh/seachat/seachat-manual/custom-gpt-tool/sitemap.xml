@@ -2,52 +2,22 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</loc>
-      <lastmod>2025-01-15T18:36:12-08:00</lastmod>
+      <lastmod>2025-01-24T16:21:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="en"
-                  href="https://wiki.seasalt.ai/seachat/seachat-manual/custom-gpt-tool/gpt-tools/"
-                  />
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools/"
-                  />
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/labeling/auto-labeling/</loc>
-      <lastmod>2025-01-15T18:36:12-08:00</lastmod>
+      <lastmod>2025-01-24T16:21:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="en"
-                  href="https://wiki.seasalt.ai/en/seachat/manual/labeling/auto-labeling/"
-                  />
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/manual/labeling/auto-labeling/"
-                  />
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/labeling/label-automation/</loc>
-      <lastmod>2025-01-15T18:36:12-08:00</lastmod>
+      <lastmod>2025-01-24T16:21:24-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="en"
-                  href="https://wiki.seasalt.ai/en/seachat/manual/labeling/label-automation/"
-                  />
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seachat/manual/labeling/label-automation/"
-                  />
     </url>
     </urlset>
