@@ -25,4 +25,13 @@ Some channels, such as Messenger, WhatsApp, and Line, allow users to send audio 
 
 In the following example, a user chats with the Seasalt.ai bot on WhatsApp and uses the "Voice Note" feature to send an audio message to the agent. By transcribing the audio first with speech-to-text, SeaChat is able to understand and respond to the audio message.
 
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat/en/incoming-queries/SeaChat_Responds_to_Voice_Message_WhatsApp.jpg" alt="Using speech-to-text SeaChat is able to understand and respond to a user-uploaded audio message in WhatsApp.">
+<br/>
+<center>
+<a href="/images/seachat/en/incoming-queries/SeaChat_Responds_to_Voice_Message_WhatsApp.jpg" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/incoming-queries/SeaChat_Responds_to_Voice_Message_WhatsApp.jpg" alt="Using speech-to-text SeaChat is able to understand and respond to a user-uploaded audio message in WhatsApp.">
+</a>
+
+*Sending an Audio Message to SeaChat*
+</center>
+
+<br/>

@@ -28,4 +28,13 @@ When a user uploads an image, SeaChat analyzes it to generate a detailed textual
 
 In the following example, a user chats with the Seasalt.ai bot via WebChat and uploads a screenshot of a webinar invite in their message to the agent. By analyzing the contents of the image, SeaChat is able to understand and respond to the user's message effectively (without the user having to re-type all the contents of the image).
 
-<img width="60%" style="border-radius: 0.4rem" src="/images/seachat/en/incoming-queries/SeaChat_Responds_to_Image_Message_Webchat.png" alt="SeaChat is able to understand and respond to a user-uploaded image message in WebChat.">
+<br/>
+<center>
+<a href="/images/seachat/en/incoming-queries/SeaChat_Responds_to_Image_Message_Webchat.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/incoming-queries/SeaChat_Responds_to_Image_Message_Webchat.png" alt="SeaChat is able to understand and respond to a user-uploaded image message in WebChat.">
+</a>
+
+*Sending an Image Message to SeaChat*
+</center>
+
+<br/>
