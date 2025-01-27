@@ -41,17 +41,6 @@ Step 2: Open Squarespace # Go to your Squarespace dashboard for the website of i
     </item>
     
     <item>
-      <title>Wordpress</title>
-      <link>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</link>
-      <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</guid>
-      <description>This page details the process for embedding the SeaChat AI agent into your Wordpress website.
-Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website! Then you can build your AI agent and bring it to your Wix websites.
-Step 2: Open Wordpress and &amp;ldquo;Appearance&amp;rdquo; # Go to your Wordpress dashboard for the website of interest. Click on Appearance on the left-hand side menu.</description>
-    </item>
-    
-    <item>
       <title>Wix</title>
       <link>https://wiki.seasalt.ai/en/seachat/integrations/wix/</link>
       <pubDate>Wed, 03 Apr 2024 08:48:57 +0000</pubDate>
@@ -71,6 +60,17 @@ Step 2: Open Wix and &amp;ldquo;Design Site&amp;rdquo; # Go to your Wix dashboar
       <description>This page details the process for setting up MailerLite integration with SeaChat. After setting up this integration, you can use SeaChat forms to collect customer emails and information, and add them to your email lists on MailerLite automatically.
 For a visual guide on how to integrate SeaChat with MailerLite, you can watch the tutorial video below: 
   Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website!</description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</link>
+      <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/wordpress/</guid>
+      <description>This page details the process for embedding the SeaChat AI agent into your Wordpress website.
+Step 1: Create a SeaChat account # If you do not have a SeaChat account, you can sign up for free at SeaChat website! Then you can build your AI agent and bring it to your Wix websites.
+Step 2: Open Wordpress and &amp;ldquo;Appearance&amp;rdquo; # Go to your Wordpress dashboard for the website of interest. Click on Appearance on the left-hand side menu.</description>
     </item>
     
     <item>

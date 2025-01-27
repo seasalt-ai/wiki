@@ -28,25 +28,6 @@
     </item>
     
     <item>
-      <title>Webpage</title>
-      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/</link>
-      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/</guid>
-      <description>🎥 Integrate SeaChat Widget on Webpage #  Customize Your Own Company Webpage Widget # Webpage widget is a powerful tool that allows you to integrate SeaChat into your website. This feature enables you to provide real-time customer support and engage with your website visitors. The widget can be customized to match your brand identity and website design. You can also create forms to collect visitor information and feedback.
-SeaChat Widget Configuration # SeaChat widgets come with a range of customization options to help you create a seamless customer experience.</description>
-    </item>
-    
-    <item>
-      <title>Instagram</title>
-      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/instagram/</link>
-      <pubDate>Tue, 24 Dec 2024 08:00:00 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/instagram/</guid>
-      <description>Video Tutorial #   Prerequisites #  Instagram Professional Account: You need either a Business or Creator account to set up Instagram Messaging. If your current account is not of this type, you can switch it to a Professional account in Instagram settings.  Instructions # Step 1: Create an Instagram App #  Visit the Meta Developer Site and click on My Apps in the top-right corner. From the dropdown menu, select Create App to begin.</description>
-    </item>
-    
-    <item>
       <title>Facebook Messenger</title>
       <link>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/</link>
       <pubDate>Mon, 08 Apr 2024 08:48:57 +0000</pubDate>
@@ -63,6 +44,25 @@ SeaChat Widget Configuration # SeaChat widgets come with a range of customizatio
       
       <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/</guid>
       <description>Not only can SeaChat handle text-based conversations, but it can also handle phone calls. The SeaChat allows you to create a voice-based conversational agent to pick up all the inbound calls or to call out to customers. This voice agent can handle inbound calls, answer customer queries, and provide customer support. The SeaChat voice agent can also transfer calls to live agents when needed, providing a seamless experience for your customers.</description>
+    </item>
+    
+    <item>
+      <title>Instagram</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/instagram/</link>
+      <pubDate>Tue, 24 Dec 2024 08:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/instagram/</guid>
+      <description>Video Tutorial #   Prerequisites #  Instagram Professional Account: You need either a Business or Creator account to set up Instagram Messaging. If your current account is not of this type, you can switch it to a Professional account in Instagram settings.  Instructions # Step 1: Create an Instagram App #  Visit the Meta Developer Site and click on My Apps in the top-right corner. From the dropdown menu, select Create App to begin.</description>
+    </item>
+    
+    <item>
+      <title>Webpage</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/</guid>
+      <description>🎥 Integrate SeaChat Widget on Webpage #  Customize Your Own Company Webpage Widget # Webpage widget is a powerful tool that allows you to integrate SeaChat into your website. This feature enables you to provide real-time customer support and engage with your website visitors. The widget can be customized to match your brand identity and website design. You can also create forms to collect visitor information and feedback.
+SeaChat Widget Configuration # SeaChat widgets come with a range of customization options to help you create a seamless customer experience.</description>
     </item>
     
   </channel>

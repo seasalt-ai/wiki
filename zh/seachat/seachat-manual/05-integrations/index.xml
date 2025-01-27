@@ -62,23 +62,6 @@
     </item>
     
     <item>
-      <title>Wordpress</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</link>
-      <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</guid>
-      <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到 Wordpress 網站的過程。
-步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的 Wordpress 網站上。
-步驟2：開啟Wordpress # 前往您的 Wordpress 網站的儀表板。在右方選單選擇「外觀」。
-步驟3：複製SeaChat程式代碼 # 您需要登入SeaChat才能查看此程式片段。您可至SeaChat免費註冊。在SeaChat儀表板的工作區內導航至「AI助理配置」-&amp;gt;「頻道」，並在Wordpress頻道下，來取得所需的程式片段。
-從Seachat上的Wordpress 第三方整合設置中複製SeaChat程式片段。
-步驟4：打開「佈景主題檔案編輯器」並貼上SeaChat程式碼 # 打開左方功能選單的「佈景主題檔案編輯器」 -&amp;gt; 右方選單的「Theme Footer」。在程式碼中貼上SeaChat程式碼（在&amp;lt;body&amp;gt;和&amp;lt;/body&amp;gt;之間。最後，點擊「更新檔案」。
-步驟5：預覽 # 步驟8：儲存並預覽 # 現在訪問你的網站，即可看到SeaChat網頁聊天機器人在右下角。
-非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
-協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
-    </item>
-    
-    <item>
       <title>Wix</title>
       <link>https://wiki.seasalt.ai/zh/seachat/integrations/wix/</link>
       <pubDate>Wed, 03 Apr 2024 08:48:57 +0000</pubDate>
@@ -98,6 +81,23 @@
 非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 &amp;lt;img width=&amp;ldquo;60%&amp;rdquo; style=&amp;ldquo;border-radius: 0.4rem&amp;rdquo; src=&amp;quot;/images/seachat-integrations/wix/wix-seachat-integration-step6.png&amp;quot; alt=&amp;ldquo;SeaChat | 在網站上預覽SeaChat助理。&amp;gt;
 步驟8：（Optional）移除其他聊天機器人 # 請移除任何其他的聊天機器人服務，以避免混淆。如果您之前的聊天機器人服務是通過程式嵌入整合的，請小心移除。
+協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</link>
+      <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</guid>
+      <description>此頁教學將詳細說明嵌入整合SeaChat AI助理到 Wordpress 網站的過程。
+步驟1：創建一個SeaChat帳戶 # 如果您還沒有SeaChat帳戶， 您可以在 SeaChat網站免費註冊！ 然後您可以將構建好的AI助理，移至您的 Wordpress 網站上。
+步驟2：開啟Wordpress # 前往您的 Wordpress 網站的儀表板。在右方選單選擇「外觀」。
+步驟3：複製SeaChat程式代碼 # 您需要登入SeaChat才能查看此程式片段。您可至SeaChat免費註冊。在SeaChat儀表板的工作區內導航至「AI助理配置」-&amp;gt;「頻道」，並在Wordpress頻道下，來取得所需的程式片段。
+從Seachat上的Wordpress 第三方整合設置中複製SeaChat程式片段。
+步驟4：打開「佈景主題檔案編輯器」並貼上SeaChat程式碼 # 打開左方功能選單的「佈景主題檔案編輯器」 -&amp;gt; 右方選單的「Theme Footer」。在程式碼中貼上SeaChat程式碼（在&amp;lt;body&amp;gt;和&amp;lt;/body&amp;gt;之間。最後，點擊「更新檔案」。
+步驟5：預覽 # 步驟8：儲存並預覽 # 現在訪問你的網站，即可看到SeaChat網頁聊天機器人在右下角。
+非常重要: 如果您想要配置小工具的樣式，請前往「頻道」-&amp;gt;「網頁AI助理」-&amp;gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。
 協助支援 # 需要協助？歡迎聯絡我們 seachat@seasalt.ai.</description>
     </item>
     

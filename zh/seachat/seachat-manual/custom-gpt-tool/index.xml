@@ -8,24 +8,6 @@
     <language>en-US</language>
     <lastBuildDate>Mon, 06 Jan 2025 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>客制GPT工具</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</link>
-      <pubDate>Mon, 06 Jan 2025 08:48:45 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</guid>
-      <description>簡介 # SeaChat 的 客制GPT工具 允許用戶通過將自定義操作直接整合到對話中來增強代理的回應能力。此功能使用戶能夠定義具體條件，以便代理在滿足條件時執行這些操作，提供量身定制的回應和基於實時資訊的智能支援。例如，您可以讓代理執行搜索或從您公司的 API 獲取數據，讓 SeaChat 能夠利用外部資源提供更豐富的答案。
-影片教學 # 以下是簡單教程，展示如何調用兩個 APIs 以顯示單張圖片。我們演示了如何配置 API 端點，並在聊天中顯示可愛的狗狗圖片：
- 第二個教程中，我們通過配置 API 參數調用天氣 API，並動態將地點名稱轉換為 GPS 座標以獲取準確的天氣資訊：
- 第三個教程中，我們演示了如何在聊天中獲取包含多張狗狗圖片的卡片輪播。我們展示了如何利用 PATH 參數來顯示特定狗品種的多張圖片：
- 第四個教程中，我們展示了如何使用 SeaChat 的 客制GPT工具 設置電子郵件警報，檢測聊天中的敏感內容並自動發送電子郵件通知。
- 第五個教程中，我們展示了如何在 SeaChat 中設置簡訊 通知來監控用戶對話。例如，我們演示了如何在檢測到用戶對話中有抑鬱跡象時設置簡訊 警報。
- 第六個教程中，我們展示了如何自動通過簡訊 向呼叫者發送資訊。
- 快速入門 # 要啟用此功能，登錄 SeaChat 後，導航至 AI助理配置 -&amp;gt; 整合 -&amp;gt; 客制GPT工具。
- SeaChat 目前支持三種類型的工具：
- 搜尋和顯示：允許 SeaChat 使用您的 API 執行外部搜索，並基於對話上下文獲取附加資訊。搜索結果將以純文本或卡片輪播形式顯示在 webchat 中。 電子郵件：根據您的指示自動發送電子郵件。請確保指定目的、收件人和條件。要向用戶發送電子郵件，請通過 webchat 表單收集他們的電子郵件地址。 發送簡訊：根據您的指示自動發送簡訊。定義目的、收件人和條件。要向用戶發送簡訊，請確保通過渠道或 webchat 表單獲取他們的電話號碼。        配置 搜尋和顯示的步驟： # 步驟 1：選擇工具類型 # SeaChat 目前支持一種類型的工具：</description>
-    </item>
-    
-    <item>
       <title>自動標記</title>
       <link>https://wiki.seasalt.ai/zh/seachat/manual/labeling/auto-labeling/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 -0700</pubDate>
@@ -41,6 +23,24 @@
  用戶可以定義標籤觸發條件，例如特定的關鍵字或短語。 支援自動添加和移除標籤的功能。    自定義使用場景
  例如，醫療熱線中 Escalated 可用於表示嚴重疼痛，而 Low Priority可用於輕微疼痛。    可視化反饋
  標籤會顯示在對話歷史中，提供其分類的即時見解。     如何設置 自動標記 #  前往整合  打開 整合區域，選擇 自動標記        創建規則  定義添加或移除標籤的觸發條件。 例如，對於醫療熱線：  Extreme pain 觸發 Escalated 標籤。 Minor aches 觸發 Low Priority 標籤。          測試規則  模擬對話以檢查標籤是否正確應用。 例如，輸入 &amp;ldquo;I feel so much pain, I need a doctor’s attention&amp;rdquo; 以觸發 Escalated。        調整和保存  修改規則以提升準確性，並保存配置。         高級使用場景</description>
+    </item>
+    
+    <item>
+      <title>客制GPT工具</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</link>
+      <pubDate>Mon, 06 Jan 2025 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools/</guid>
+      <description>簡介 # SeaChat 的 客制GPT工具 允許用戶通過將自定義操作直接整合到對話中來增強代理的回應能力。此功能使用戶能夠定義具體條件，以便代理在滿足條件時執行這些操作，提供量身定制的回應和基於實時資訊的智能支援。例如，您可以讓代理執行搜索或從您公司的 API 獲取數據，讓 SeaChat 能夠利用外部資源提供更豐富的答案。
+影片教學 # 以下是簡單教程，展示如何調用兩個 APIs 以顯示單張圖片。我們演示了如何配置 API 端點，並在聊天中顯示可愛的狗狗圖片：
+ 第二個教程中，我們通過配置 API 參數調用天氣 API，並動態將地點名稱轉換為 GPS 座標以獲取準確的天氣資訊：
+ 第三個教程中，我們演示了如何在聊天中獲取包含多張狗狗圖片的卡片輪播。我們展示了如何利用 PATH 參數來顯示特定狗品種的多張圖片：
+ 第四個教程中，我們展示了如何使用 SeaChat 的 客制GPT工具 設置電子郵件警報，檢測聊天中的敏感內容並自動發送電子郵件通知。
+ 第五個教程中，我們展示了如何在 SeaChat 中設置簡訊 通知來監控用戶對話。例如，我們演示了如何在檢測到用戶對話中有抑鬱跡象時設置簡訊 警報。
+ 第六個教程中，我們展示了如何自動通過簡訊 向呼叫者發送資訊。
+ 快速入門 # 要啟用此功能，登錄 SeaChat 後，導航至 AI助理配置 -&amp;gt; 整合 -&amp;gt; 客制GPT工具。
+ SeaChat 目前支持三種類型的工具：
+ 搜尋和顯示：允許 SeaChat 使用您的 API 執行外部搜索，並基於對話上下文獲取附加資訊。搜索結果將以純文本或卡片輪播形式顯示在 webchat 中。 電子郵件：根據您的指示自動發送電子郵件。請確保指定目的、收件人和條件。要向用戶發送電子郵件，請通過 webchat 表單收集他們的電子郵件地址。 發送簡訊：根據您的指示自動發送簡訊。定義目的、收件人和條件。要向用戶發送簡訊，請確保通過渠道或 webchat 表單獲取他們的電話號碼。        配置 搜尋和顯示的步驟： # 步驟 1：選擇工具類型 # SeaChat 目前支持一種類型的工具：</description>
     </item>
     
     <item>

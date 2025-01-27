@@ -29,6 +29,17 @@ For example, a user might ask, &amp;ldquo;What do you know about me?&amp;rdquo; 
     </item>
     
     <item>
+      <title>Time Awareness and Context</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/</link>
+      <pubDate>Tue, 01 Oct 2024 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/</guid>
+      <description>Overview # In addition to the Retrieval Augmented Generation (RAG) feature and Context Extraction, SeaChat AI offers various options in advanced settings that allow users to further control their agent’s behavior.
+While these features are less sophisticated than RAG and Context Extraction, they can still be valuable in certain situations. This article provides a general walkthrough of these features.
+ Time Awareness #      The time awareness feature enables the AI agent to understand the current time in a specified timezone.</description>
+    </item>
+    
+    <item>
       <title>Context Extraction</title>
       <link>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/context-extraction/</link>
       <pubDate>Fri, 26 Apr 2024 08:48:45 +0000</pubDate>
@@ -39,17 +50,6 @@ Enterprise  Premium  plans
  Overview #  Extraction allows users to intuitively define the most important aspect of the conversation to keep dialogue relevant and to aid in objectively determining the conversation outcome.
 The use cases of Extraction include:
  Build a user persona, so next time the same user comes back, the AI agent still remembers key points from last conversation.</description>
-    </item>
-    
-    <item>
-      <title>Time Awareness and Context</title>
-      <link>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/</link>
-      <pubDate>Tue, 01 Oct 2024 08:48:45 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/</guid>
-      <description>Overview # In addition to the Retrieval Augmented Generation (RAG) feature and Context Extraction, SeaChat AI offers various options in advanced settings that allow users to further control their agent’s behavior.
-While these features are less sophisticated than RAG and Context Extraction, they can still be valuable in certain situations. This article provides a general walkthrough of these features.
- Time Awareness #      The time awareness feature enables the AI agent to understand the current time in a specified timezone.</description>
     </item>
     
   </channel>

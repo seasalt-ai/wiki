@@ -39,6 +39,16 @@ To duplicate an agent, click on the Agent Duplicate button located next to the a
     </item>
     
     <item>
+      <title>Live Agent</title>
+      <link>https://wiki.seasalt.ai/en/seachat/live-agent-transfer/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/live-agent-transfer/</guid>
+      <description>A live agent is a human agent who can take over the conversation from the AI agent when needed. Not only can live agents take over the conversation, but they can also provide the virtual agent with new knowledge, and help train the virtual agent by testing and fine-tuning the response of the AI agent.
+Depending on your SeaChat channel, it might take different configurations to enable the live agent feature.</description>
+    </item>
+    
+    <item>
       <title>Conversations</title>
       <link>https://wiki.seasalt.ai/en/seachat/manual/conversation/</link>
       <pubDate>Tue, 30 Jul 2024 08:48:57 +0000</pubDate>
@@ -47,16 +57,6 @@ To duplicate an agent, click on the Agent Duplicate button located next to the a
       <description>Conversation Dashboard # The conversation dashboard is where you can view and manage all the conversations that your agents are handling. You can view the details of each conversation, check the conversation history, and manually answer users&#39; questions.
    Agent Conversations View
  Users can switch between all conversations and live agent conversations. In live agent conversations, users can view conversations that have been handled by live agents.</description>
-    </item>
-    
-    <item>
-      <title>Live Agent</title>
-      <link>https://wiki.seasalt.ai/en/seachat/live-agent-transfer/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/en/seachat/live-agent-transfer/</guid>
-      <description>A live agent is a human agent who can take over the conversation from the AI agent when needed. Not only can live agents take over the conversation, but they can also provide the virtual agent with new knowledge, and help train the virtual agent by testing and fine-tuning the response of the AI agent.
-Depending on your SeaChat channel, it might take different configurations to enable the live agent feature.</description>
     </item>
     
   </channel>

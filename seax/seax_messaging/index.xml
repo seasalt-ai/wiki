@@ -19,13 +19,24 @@ Send
     </item>
     
     <item>
+      <title>SeaX Bulk Send/Call with SeaChat</title>
+      <link>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</link>
+      <pubDate>Mon, 22 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</guid>
+      <description>SeaX Bulk Send/Call with SeaChat # SeaX bulk messaging offers a powerful way to manage communications across multiple business channels from a single platform. With SeaX, you can not only send messages to different customers but also automate these conversations by integrating with SeaChat.
+This guide will walk you through the process of sending bulk messages and calls using SeaX and SeaChat, helping you streamline your business communication.
+Set Up Workspace # To integrate SeaX with SeaChat, you&amp;rsquo;ll need a phone number to send messages and an AI agent to handle the conversations.</description>
+    </item>
+    
+    <item>
       <title>WhatsApp Business App</title>
       <link>https://wiki.seasalt.ai/seax/seax_messaging/seax-whatsapp-integration/</link>
       <pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-whatsapp-integration/</guid>
-      <description>SeaX Messaging supports WhatsApp integration, allowing you to connect with your customers on WhatsApp. This guide will walk you through the steps to integrate WhatsApp with SeaX Messaging. Start leveraging the power of SeaX Messaging to engage with your customers on WhatsApp today!
- Connect WhatsApp with SeaX Messaging # Head to Channels under Workspace in the sidebar menu. Click on WhatsApp Business App to start the integration process.
+      <description>SeaX supports WhatsApp integration, allowing you to connect with your customers on WhatsApp. This guide will walk you through the steps to integrate WhatsApp with SeaX. Start leveraging the power of SeaX to engage with your customers on WhatsApp today!
+ Connect WhatsApp with SeaX # Head to Channels under Workspace in the sidebar menu. Click on WhatsApp Business App to start the integration process.
    Click on WhatsApp Business App</description>
     </item>
     
@@ -42,23 +53,12 @@ Power users that are operating on the Meta Business Manager can finally have a t
     </item>
     
     <item>
-      <title>SeaX Bulk Send/Call with SeaChat</title>
-      <link>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</link>
-      <pubDate>Mon, 22 Jul 2024 08:48:57 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</guid>
-      <description>SeaX Bulk Send/Call with SeaChat # SeaX bulk messaging offers a powerful way to manage communications across multiple business channels from a single platform. With SeaX, you can not only send messages to different customers but also automate these conversations by integrating with SeaChat.
-This guide will walk you through the process of sending bulk messages and calls using SeaX and SeaChat, helping you streamline your business communication.
-Set Up Workspace # To integrate SeaX with SeaChat, you&amp;rsquo;ll need a phone number to send messages and an AI agent to handle the conversations.</description>
-    </item>
-    
-    <item>
       <title>SeaX Widget</title>
       <link>https://wiki.seasalt.ai/seax/seax_messaging/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seax/seax_messaging/seax-widget/</guid>
-      <description>Overview # In this article, we will introduce the SeaX Widget, a feature of the SeaX Messaging platform that allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX Messaging account. You will learn how you can set up the SeaX Widget and integrate it into your website or app.
+      <description>Overview # In this article, we will introduce the SeaX Widget, a feature of the SeaX platform that allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX account. You will learn how you can set up the SeaX Widget and integrate it into your website or app.
  Why SeaX Widget? # Providing a seamless experience for your customers is crucial for any business.</description>
     </item>
     
