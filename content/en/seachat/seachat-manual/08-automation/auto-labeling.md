@@ -8,7 +8,7 @@ weight: 80
 draft: false
 images: []
 toc: true
-url: /en/seachat/manual/labeling/auto-labeling/
+url: /en/seachat/manual/automation/auto-labeling
 ---
 
 ---
