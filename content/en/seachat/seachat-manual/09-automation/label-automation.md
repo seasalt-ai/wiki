@@ -4,7 +4,7 @@ description: "Learn how to set up and use Label Automation in SeaChat to trigger
 lead: ""
 date: 2024-12-29T00:00:00-07:00
 lastmod: 2024-12-29T00:00:00-07:00
-weight: 90
+weight: 133
 draft: false
 images: []
 toc: true

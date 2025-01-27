@@ -4,7 +4,7 @@ description: "上傳試算表檔案和表格到您的SeaChat AI機器人。詳�
 lead: ""
 date: 2024-03-11 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100
-weight: 31
+weight: 22
 draft: false
 images: []
 aliases:
