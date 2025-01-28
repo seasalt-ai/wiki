@@ -19,7 +19,7 @@ toc: true
 This page details the process for embedding the SeaChat AI agent into your Wordpress website.
 
 ## Step 1: Create a SeaChat account
-If you do not have a SeaChat account, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! Then you can build your AI agent and bring it to your Wix websites.
+If you do not have a SeaChat account, you can sign up for free at [SeaChat website](https://chat.seasalt.ai/)! Then you can build your AI agent and bring it to your Wordpress websites.
 
 
 ## Step 2: Open Wordpress and "Appearance"
