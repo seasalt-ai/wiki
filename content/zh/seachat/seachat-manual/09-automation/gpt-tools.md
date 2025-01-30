@@ -4,13 +4,9 @@ description: ""
 date: 2025-01-06T08:48:45+00:00
 lastmod: 2024-01-06T08:48:45+00:00
 draft: false
-<<<<<<< HEAD:content/zh/seachat/seachat-manual/09-automation/gpt-tools.md
 weight: 70
 url: /zh/seachat/seachat-manual/automation/custom-gpt-tool
-=======
-weight: 54
-url: /zh/seachat/seachat-manual/custom-gpt-tool/gpt-tools
->>>>>>> main:content/zh/seachat/seachat-manual/08-automation/gpt-tools.md
+
 ---
 
 ## 簡介
