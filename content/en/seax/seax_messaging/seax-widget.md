@@ -77,7 +77,9 @@ In Popout, you can customize the appearance of the chat interface that your cust
 </div>
 </div>
 
-Scroll further on the same page to set up your chat. Make sure to provide a opening message to greet your customers when they start a chat with you via SeaX.
+
+Scroll further on the same page to set up your chat. Make sure to provide an opening message to greet your customers when they start a chat with you via SeaX.
+
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
