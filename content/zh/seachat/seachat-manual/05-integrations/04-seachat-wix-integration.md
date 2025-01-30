@@ -11,7 +11,7 @@ menu:
 aliases:
    - /zh/seachat/seachat-integrations/wix/
 url: /zh/seachat/integrations/wix/
-weight: 30
+weight: 49
 toc: true
 ---
 

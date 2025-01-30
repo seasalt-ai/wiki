@@ -11,8 +11,8 @@ menu:
 aliases:
    - /zh/seameet-product-updates/
    - /zh/seameet/seameet-product-updates/
-url: /zh/seameet/product-updates/   
-weight: 101
+url: /zh/seameet/product-updates/
+weight: 400
 toc: true
 ---
 

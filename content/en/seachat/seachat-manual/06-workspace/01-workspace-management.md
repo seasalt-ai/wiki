@@ -4,7 +4,7 @@ description: "Manage SeaChat workspace, agents, and members. Optimize your works
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2024-06-27T08:48:45+00:00
-weight: 61
+weight: 91
 draft: false
 images: []
 aliases:

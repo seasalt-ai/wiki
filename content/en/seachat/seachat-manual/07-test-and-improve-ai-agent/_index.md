@@ -4,7 +4,7 @@ description: "Learn to test and enhance your AI agent on SeaChat with video tuto
 lead: ""
 date: 2024-09-06T08:48:45+00:00
 lastmod: 2024-09-06T08:48:45+00:00
-weight: 60
+weight: 110
 draft: false
 images: []
 aliases:

@@ -8,7 +8,7 @@ images: []
 aliases:
   - /zh/seachat/seachaat-manual/02-create-agent/01-create-new-agent/
 url: /zh/seachat/manual/create-new-agent/  
-weight: 10
+weight: 13
 toc: true
 ---
 

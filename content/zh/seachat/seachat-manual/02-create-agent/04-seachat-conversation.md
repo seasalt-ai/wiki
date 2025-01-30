@@ -11,7 +11,7 @@ menu:
 aliases:
   - /zh/seachat/seachat-manual/seachat-agent-conversation/
 url:  /zh/seachat/manual/conversation/
-weight: 100
+weight: 17
 toc: true
 ---
 

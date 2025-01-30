@@ -4,7 +4,7 @@ description: "學習如何在 SeaChat 中管理工作區，包含 AI 助理與�
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2024-06-27T08:48:45+00:00
-weight: 91
+weight: 60
 draft: false
 images: []
 aliases:

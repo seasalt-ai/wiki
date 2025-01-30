@@ -4,7 +4,7 @@ description: "SeaChat 上下文抽取可以用來資格審查和追蹤客戶資�
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-21T08:48:45+00:00
-weight: 80
+weight: 19
 draft: false
 images: []
 toc: true
