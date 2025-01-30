@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on </title>
+    <link>https://wiki.seasalt.ai/seachat/seachat-manual/automation/</link>
+    <description>Recent content in Automation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 06 Sep 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom GPT Tools</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/</link>
+      <pubDate>Wed, 13 Nov 2024 00:22:19 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/</guid>
+      <description>Overview # Custom GPT Tools in SeaChat allow users to enhance the agent&amp;rsquo;s responses by integrating custom actions directly into conversations. This feature enables users to define specific conditions under which the agent can execute these actions, providing tailored responses and intelligent assistance based on real-time information. For example, you might want the agent to perform a search or fetch data from your company’s API, enabling SeaChat to provide enriched answers that draw on external resources.</description>
+    </item>
+    
+    <item>
+      <title>Auto Labeling</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/automation/auto-labeling/</link>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/automation/auto-labeling/</guid>
+      <description>Video Tutorial #   Overview
+Auto Labeling is an integral part of the integrations in Seasalt.ai&amp;rsquo;s suite of tools. This feature intelligently and automatically applies labels to conversations, streamlining processes for use cases such as customer service and healthcare.
+We welcome you to check out our feature of Label Automation for more advanced workflows as labe-automation builds upon the auto Labeling feature.
+What Is Auto Labeling?
+Auto Labeling is a system that automates the application of labels to conversations or other data points based on predefined rules and AI-driven analysis.</description>
+    </item>
+    
+    <item>
+      <title>Label Automation</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/automation/label-automation/</link>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/automation/label-automation/</guid>
+      <description>Video Tutorial #   Overview
+Label Automation is a feature in SeaChat that allows users to define actions triggered when labels are applied or removed from conversations.
+It builds upon the Auto Labeling feature by introducing workflows to notify or escalate important events automatically.
+This tutorial walks you through setting up Label Automation, providing practical examples to enhance your workflow.
+ Key Features #       Trigger Actions Automatically</description>
+    </item>
+    
+  </channel>
+</rss>
