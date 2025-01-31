@@ -100,7 +100,7 @@ toc: true
 </div>
 
 ### 自訂表單
-Custom form 是一項強大的功能，允許您在客戶通過 SeaX 與您開始聊天之前收集他們的資訊。您可以創建具有不同字段（如文字、電子郵件和電話號碼）的表單。SeaX 將記錄這些表單回應以及完整的對話歷史。在儀表板中點擊 **新增表單** 來創建自訂表單。
+自訂表單是一項強大的功能，允許您在客戶通過 SeaX 與您開始聊天之前收集他們的資訊。您可以創建具有不同字段（如文字、電子郵件和電話號碼）的表單。SeaX 將記錄這些表單回應以及完整的對話歷史。在儀表板中點擊 **新增表單** 來創建自訂表單。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
