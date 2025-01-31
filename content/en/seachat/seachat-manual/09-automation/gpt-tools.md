@@ -4,10 +4,8 @@ description: ""
 date: 2024-11-13T00:22:19-07:00
 lastmod: 2024-11-13T00:22:19-07:00
 draft: false
-
 weight: 70
 url: /seachat/seachat-manual/automation/custom-gpt-tools
-
 ---
 
 ## Overview

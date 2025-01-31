@@ -28,7 +28,7 @@ toc: true
 
 ### 2024/11/07
 ##### **<font color="#739963">新功能與改進</font>**
-- 將“Memory”功能重命名為“Extraction”
+- 將“記憶”功能重命名為“上下文抽取”
 - 修復了 WhatsApp Business Platform 的國碼缺少 “+” 符號的問題
 
 ### 2024/10/31
