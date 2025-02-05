@@ -43,7 +43,7 @@ url: zh/seachat/getting-started/free-agent-mode/
 
 ### 第二步
 
-將您的新 SeaChat 客服系統安裝到 [網站]((https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/))、[Facebook Messenger](https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/), [WhatsApp](https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/), 或 [LINE](https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/)。
+將您的新 SeaChat 客服系統安裝到 [網站](https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/)、[Facebook Messenger](https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/), [WhatsApp](https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/), 或 [LINE](https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/)。
 
 ### 第三步
 
@@ -62,4 +62,4 @@ url: zh/seachat/getting-started/free-agent-mode/
 - 接聽客戶電話
 - 將重心放在更重要的業務上，而非處理重複性請求
 
-- 使用 SeaChat，您可以隨時啟用或停用 AI 支持，而無需更改現有的多渠道設置。享受按需 AI 支持的靈活性！
+- 使用 SeaChat，您可以隨時啟用或停用 AI 支持，而無需更改現有的多渠道設置。享受按需 AI 支持的靈活性
