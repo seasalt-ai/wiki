@@ -4,7 +4,7 @@ description: "Learn how SeaChat understands and responds to user uploaded audio 
 lead: ""
 date: 2025-01-22T08:48:45+00:00
 lastmod: 2025-01-22T08:48:45+00:00
-weight: 30
+weight: 10001
 draft: false
 images: []
 toc: true

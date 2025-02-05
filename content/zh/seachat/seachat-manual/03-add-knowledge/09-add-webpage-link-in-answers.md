@@ -8,7 +8,7 @@ images: []
 aliases:
   - /zh/seachat/seachat-manual/03-add-knowledge/09-add-webpage-link-in-answers/
 url: /zh/seachat/manual/add-knowledge/webpage-link/
-weight: 30
+weight: 207
 toc: true
 ---
 

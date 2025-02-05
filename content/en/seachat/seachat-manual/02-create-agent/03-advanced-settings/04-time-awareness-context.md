@@ -4,7 +4,7 @@ description: "Learn how SeaChat AI's Time Awareness and Context features enhance
 lead: ""
 date: 2024-10-01T08:48:45+00:00
 lastmod: 2024-10-01T08:48:45+00:00
-weight: 20
+weight: 107
 draft: false
 images: []
 toc: true

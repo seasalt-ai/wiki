@@ -4,7 +4,7 @@ description: "有關 SeaChat 的常見問題，這是一個 AI 聊天和語音�
 lead: ""
 date: 2024-08-10T08:48:45+00:00
 lastmod: 2024-08-10T08:48:45+00:00
-weight: 68
+weight: 1002
 draft: false
 images: []
 aliases:

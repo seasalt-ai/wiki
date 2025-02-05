@@ -4,7 +4,7 @@ description: "Truly free plan for web chat widget with unlimited chat and histor
 lead: ""
 date: 2024-03-08 10:43:51.069 +0100
 lastmod: 2024-11-13 10:43:51.069 +0100
-weight: 7
+weight: 3
 draft: false
 images: []
 toc: true

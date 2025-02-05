@@ -4,7 +4,7 @@ description: "Manually input data into your SeaChat AI agent's knowledge base us
 lead: ""
 date: 2024-04-15 10:43:51.069 +0100
 lastmod: 2024-04-15 10:43:51.069 +0100
-weight: 37
+weight: 409
 draft: false
 images: []
 aliases:

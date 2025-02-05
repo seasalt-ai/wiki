@@ -4,7 +4,7 @@ description: "Build your SeaChat agent's knowledge base by uploading diverse doc
 lead: ""
 date: 2024-04-11 10:43:51.069 +0100
 lastmod: 2024-04-11 10:43:51.069 +0100
-weight: 33
+weight: 406
 draft: false
 images: []
 aliases:

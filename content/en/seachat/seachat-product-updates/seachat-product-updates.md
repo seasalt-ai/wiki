@@ -12,7 +12,7 @@ aliases:
    - /en/seachat-product-updates/
    - /en/seachat/seachat-product-updates/
 url: /en/seachat/product-updates/   
-weight: 504
+weight: 1600
 toc: true
 ---
 

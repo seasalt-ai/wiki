@@ -4,7 +4,7 @@ description: "探索如何直接手動輸入數據到您的SeaChat AI助理知�
 lead: ""
 date: 2024-04-18 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100
-weight: 29
+weight: 206
 draft: false
 images: []
 aliases:

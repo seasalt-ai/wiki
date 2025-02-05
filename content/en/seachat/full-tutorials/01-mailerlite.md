@@ -4,7 +4,7 @@ description: "Integrate MailerLite with SeaChat Forms for email list building an
 lead: ""
 date: 2024-04-24 15:12:51.069 +0100
 lastmod: 2024-04-24 15:12:51.069 +0100
-weight: 202
+weight: 1200
 draft: false
 images: []
 aliases:

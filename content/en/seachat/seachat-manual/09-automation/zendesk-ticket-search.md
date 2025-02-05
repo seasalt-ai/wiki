@@ -4,7 +4,7 @@ description: ""
 date: 2025-02-04-T00:22:19-07:00
 date: 2025-02-04-T00:22:19-07:00
 draft: false
-weight: 132
+weight: 903
 url: /seachat/seachat-manual/automation/zendesk-ticket-search
 ---
 

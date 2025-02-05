@@ -4,7 +4,7 @@ description: "SeaChat Additional Features in Knowledge Base"
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-06-17 10:43:51.069 +0100
-weight: 39
+weight: 412
 draft: false
 images: []
 aliases:

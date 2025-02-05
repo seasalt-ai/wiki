@@ -13,7 +13,7 @@ aliases:
   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
   - /seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
 url: /en/seachat/manual/channels/facebook-messenger/
-weight: 52
+weight: 502
 toc: true
 ---
 

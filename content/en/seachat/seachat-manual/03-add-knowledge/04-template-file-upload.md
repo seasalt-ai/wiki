@@ -4,7 +4,7 @@ description: "Easily upload and manage your SeaChat agent's knowledge base with 
 lead: ""
 date: 2024-04-11 10:43:51.069 +0100
 lastmod: 2024-04-11 10:43:51.069 +0100
-weight: 33
+weight: 404
 draft: false
 images: []
 aliases:

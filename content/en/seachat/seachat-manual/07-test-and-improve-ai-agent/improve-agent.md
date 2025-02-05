@@ -10,7 +10,7 @@ menu:
     parent: "seachat-manual"
 aliases:
   - /en/seachat/seachat-manual/06-improve-agent/
-weight: 111
+weight: 800
 ---
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/kKN9t4F3j_8?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>

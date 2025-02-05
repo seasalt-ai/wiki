@@ -11,7 +11,7 @@ menu:
 aliases:
   - /zh/seachat/seachat-manual/04-channels/08-install-to-webpage/
 url: /zh/seachat/manual/channels/webpage/
-weight: 45
+weight: 305
 toc: true
 ---
 

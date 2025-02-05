@@ -4,7 +4,7 @@ description: "了解如何在 SeaChat 中高效地複製和取代 AI 助理，�
 lead: "探索 SeaChat 強大的助理人複製與取代功能，設計用於創建和管理不同版本的 AI 助理人。非常適合原型設計、測試以及從開發到生產的平滑過渡。"
 date: 2024-07-10T08:48:45+00:00
 lastmod: 2024-07-10T08:48:45+00:00
-weight: 16
+weight: 103
 draft: false
 images: []
 toc: true

@@ -3,7 +3,7 @@ title: "匯入站點地圖"
 description: "探索如何利用SeaChat將站點地圖直接匯入到您AI助理的知識庫中。本教學詳細介紹了將站點地圖內容完整匯入助理的全部步驟，以及如何提取XML文件中的所有網址。"
 date: 2024-04-18 10:43:51.069 +0100
 lastmod: 2024-04-19 10:43:51.069 +0100
-weight: 28
+weight: 206
 draft: false
 images: []
 aliases:
