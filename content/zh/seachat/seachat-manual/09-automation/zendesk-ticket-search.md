@@ -61,7 +61,7 @@ SeaChat Zendesk 工單搜尋工具用途廣泛，可應用於多種客服與業�
 
 ### **步驟 1：選擇工具類型**
 
-按一下 **「新增的自訂 GPT 工具」**，然後選擇 **Zendesk Ticket Search** 作為工具類型。
+按一下 **「新增的自訂 GPT 工具」**，然後選擇 **Zendesk 工單搜尋** 作為工具類型。
 
 <center>
 <a href="/images/seachat/en/zendesk-ticket-search/image1.png">
@@ -147,4 +147,4 @@ _使用產品名稱關鍵詞「452-ABC」進行測試，並成功檢索到與該
 
 ### **步驟5：儲存設定**
 
-點擊「儲存」，您的 Zendesk Ticket Search 工具就可以使用了。您的 SeaChat AI 代理現在可以檢索 Zendesk工單資料以增強客戶支援。
+點擊「儲存」，您的 Zendesk 工單搜尋 工具就可以使用了。您的 SeaChat AI 代理現在可以檢索 Zendesk工單資料以增強客戶支援。
