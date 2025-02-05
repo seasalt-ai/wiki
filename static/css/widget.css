@@ -1,122 +1,175 @@
 #sui-right-widgets {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
 .widget-btn {
-    position: fixed;
-    display: block;
-    width: 56px;
-    height: 56px;
-    right: 16px;
-    z-index: 980;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 1px 2px 8px 0px #000;
-    cursor: pointer;
-}
-#sui-facebook-btn {
-    bottom: calc(86px + 68px);
-    background: 50%/24px no-repeat url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-facebook.svg);
-    background-size: cover;
-}
-#sui-line-btn {
-    bottom: 86px;
-    background: 50%/24px no-repeat url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-line.svg);
-    background-size: cover;
+  position: fixed;
+  display: block;
+  width: 56px;
+  height: 56px;
+  right: 16px;
+  z-index: 980;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 2px 8px 0px #000;
+  cursor: pointer;
 }
 #sui-whatsapp-btn {
-    bottom: calc(86px + 68px + 68px);
-    background: 50%/24px no-repeat url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-whatsapp.svg);
-    background-size: cover;
+  bottom: calc(86px + 68px + 68px + 68px + 68px);
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-whatsapp.svg);
+  background-size: cover;
+}
+#sui-facebook-btn {
+  bottom: calc(86px + 68px + 68px + 68px);
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-facebook.svg);
+  background-size: cover;
+}
+#sui-instagram-btn {
+  bottom: calc(86px + 68px + 68px);
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-instagram.svg);
+  background-size: cover;
+}
+#sui-line-btn {
+  bottom: calc(86px + 68px);
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-line.svg);
+  background-size: cover;
+}
+#sui-voice-btn {
+  bottom: 86px;
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-voice.svg);
+  background-size: cover;
 }
 #sui-widget-btn {
-    position: fixed;
-    display: none;
-    width: 56px;
-    height: 56px;
-    right: 16px;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 1px 2px 8px 0px #000;
-    background: 50%/24px no-repeat url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-widget.svg);
-    background-size: cover;
-    z-index: 980;
+  position: fixed;
+  display: none;
+  width: 56px;
+  height: 56px;
+  right: 16px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 2px 8px 0px #000;
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-widget.svg);
+  background-size: cover;
+  z-index: 980;
 }
 #sui-widget-btn.is-closed {
-    background: 50%/24px no-repeat url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg) #fff;
-    background-size: cover;
+  background: 50%/24px no-repeat
+    url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg) #fff;
+  background-size: cover;
 }
 #sui-webchat-btn {
-    position: fixed;
-    display: block;
-    width: 56px;
-    height: 56px;
-    bottom: 16px;
-    right: 16px;
-    padding: 0;
-    font-size: 0;
-    color: transparent;
-    background: 50%/24px no-repeat url(https://ngchat-api-dev.s3.us-west-2.amazonaws.com/icon-chat.gif) #19b9c3;
-    background-size: cover;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 1px 2px 8px 0px #000;
-    z-index: 980;
-    cursor: pointer;
+  position: fixed;
+  display: block;
+  width: 56px;
+  height: 56px;
+  bottom: 16px;
+  right: 16px;
+  padding: 0;
+  font-size: 0;
+  color: transparent;
+  background: 50%/24px no-repeat
+    url(https://ngchat-api-dev.s3.us-west-2.amazonaws.com/icon-chat.gif) #19b9c3;
+  background-size: cover;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 2px 8px 0px #000;
+  z-index: 980;
+  cursor: pointer;
 }
 #sui-webchat {
-    position: fixed;
-    display: none;
-    width: 30%;
-    min-width: 375px;
-    height: 500px;
-    bottom: 56px;
-    right: 80px;
-    margin-top: 24px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
-    z-index: 980;
+  position: fixed;
+  display: none;
+  width: 30%;
+  min-width: 375px;
+  height: 500px;
+  bottom: 56px;
+  right: 80px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+  z-index: 980;
+}
+
+#sui-call-form {
+  position: fixed;
+  display: none;
+  width: 30%;
+  min-width: 375px;
+  height: 600px;
+  bottom: 86px;
+  right: 80px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+  z-index: 9980;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 /* mobile */
 @media only screen and (max-width: 767px) {
-    .widget-btn {
-        display: none;
-   }
-    .widget-btn.show {
-        display: block;
-   }
-    .widget-btn.show.show-iframe {
-        display: none;
-   }
-    #sui-facebook-btn {
-        bottom: calc(calc(20px + 56px + 80px) + 68px);
-   }
-    #sui-line-btn {
-        bottom: calc(20px + 56px + 80px);
-   }
-    #sui-whatsapp-btn {
-        bottom: calc(calc(20px + 56px + 80px) + 68px + 68px);
-   }
-    #sui-widget-btn {
-        display: block;
-        bottom: 20px;
-   }
-    #sui-webchat-btn {
-        display: none;
-        bottom: calc(20px + 56px + 12px);
-   }
-    #sui-webchat-btn.show {
-        display: block;
-   }
-    #sui-webchat-btn.show-iframe {
-        display: block;
-        bottom: 20px;
-        z-index: 981;
-   }
-    #sui-webchat {
-        right: 50%;
-        transform: translate(50%, -4%);
-   }
+  .widget-btn {
+    display: none;
+  }
+  .widget-btn.show {
+    display: block;
+  }
+  .widget-btn.show.show-iframe {
+    display: none;
+  }
+  #sui-whatsapp-btn {
+    bottom: calc(calc(20px + 56px + 80px) + 68px + 68px + 68px + 68px);
+  }
+  #sui-facebook-btn {
+    bottom: calc(calc(20px + 56px + 80px) + 68px + 68px + 68px);
+  }
+  #sui-instagram-btn {
+    bottom: calc(calc(20px + 56px + 80px) + 68px + 68px);
+  }
+  #sui-line-btn {
+    bottom: calc(calc(20px + 56px + 80px) + 68px);
+  }
+  #sui-voice-btn {
+    bottom: calc(20px + 56px + 80px);
+  }
+  #sui-widget-btn {
+    display: block;
+    bottom: 20px;
+  }
+  #sui-webchat-btn {
+    display: none;
+    bottom: calc(20px + 56px + 12px);
+  }
+  #sui-webchat-btn.show {
+    display: block;
+  }
+  #sui-webchat-btn.show-iframe {
+    display: block;
+    bottom: 20px;
+    z-index: 981;
+  }
+  #sui-webchat-btn.show-iframe.show-call-form {
+    display: none;
+  }
+  #sui-webchat {
+    right: 50%;
+    transform: translate(50%, -4%);
+  }
+  #sui-call-form {
+    right: 50%;
+  }
+  #sui-call-form.show-call-form {
+    right: 50%;
+    bottom: 56px;
+  }
 }
