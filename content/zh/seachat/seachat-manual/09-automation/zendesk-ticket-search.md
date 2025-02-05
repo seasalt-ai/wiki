@@ -4,7 +4,7 @@ description: ""
 date: 2025-02-04-T00:22:19-07:00
 date: 2025-02-04-T00:22:19-07:00
 draft: false
-weight: 70
+weight: 54
 url: zh/seachat/seachat-manual/automation/zendesk-ticket-search
 ---
 
@@ -22,11 +22,11 @@ SeaChat Zendesk 工單搜尋工具利用 Zendesk API 的強大功能，透過以
 
 &nbsp;&nbsp;&nbsp;&nbsp; **2. 透過 Zendesk 搜尋 API 查詢工單:**
 
-SeaChat 透過 Zendesk 搜尋 API（/api/v2/search.json?query=xxx）發送請求，並獲取符合搜尋條件的工單列表。值得注意的是，Zendesk 搜尋 API 的初始回應僅包含每張工單對話串的第一則留言（通常是工單的描述），作為工單內容的預覽。
+SeaChat 透過 Zendesk 搜尋 API `/api/v2/search.json?query=xxx` 發送請求，並獲取符合搜尋條件的工單列表。值得注意的是，Zendesk 搜尋 API 的初始回應僅包含每張工單對話串的第一則留言（通常是工單的描述），作為工單內容的預覽。
 
-&nbsp;&nbsp;&nbsp;&nbsp; **3. Retrieving Full Ticket Threads:**
+&nbsp;&nbsp;&nbsp;&nbsp; **3. 檢索完整的工單互動:**
 
-為了獲取更完整的資訊，SeaChat 會針對搜尋結果中的每張工單，進一步調用 Zendesk 工單留言 API（/api/v2/tickets/{id}/comments）。
+為了獲取更完整的資訊，SeaChat 會針對搜尋結果中的每張工單，進一步調用 Zendesk 工單留言 API `/api/v2/tickets/{id}/comments`。
 此步驟可擷取該工單的所有留言，包括後續回覆，客服代理的回答，內部備註。
 
 &nbsp;&nbsp;&nbsp;&nbsp; **4. 生成答案:**

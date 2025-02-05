@@ -4,7 +4,7 @@ description: ""
 date: 2025-02-04-T00:22:19-07:00
 date: 2025-02-04-T00:22:19-07:00
 draft: false
-weight: 70
+weight: 132
 url: /seachat/seachat-manual/automation/zendesk-ticket-search
 ---
 
@@ -22,11 +22,11 @@ When a user submits a query, SeaChat automatically parses the input to extract o
 
 &nbsp;&nbsp;&nbsp;&nbsp; **2. Ticket Search via Zendesk Search API:**
 
-SeaChat submits the extracted keyword(s) to the Zendesk Search API (/api/v2/search.json?query=xxx). This API returns a list of relevant tickets based on the search criteria. Notably, the initial API response includes only the first comment (often the ticket’s description) for each ticket thread, which serves as a preview of the ticket content.
+SeaChat submits the extracted keyword(s) to the Zendesk Search API `/api/v2/search.json?query=xxx`. This API returns a list of relevant tickets based on the search criteria. Notably, the initial API response includes only the first comment (often the ticket’s description) for each ticket thread, which serves as a preview of the ticket content.
 
 &nbsp;&nbsp;&nbsp;&nbsp; **3. Retrieving Full Ticket Threads:**
 
-For each ticket returned in the search results, SeaChat then makes additional requests to the Zendesk Ticket Comments API (/api/v2/tickets/{id}/comments). This step ensures that all comments—including follow-ups, agent responses, and internal notes—are retrieved, providing a complete picture of the ticket’s history.
+For each ticket returned in the search results, SeaChat then makes additional requests to the Zendesk Ticket Comments API `/api/v2/tickets/{id}/comments`. This step ensures that all comments—including follow-ups, agent responses, and internal notes—are retrieved, providing a complete picture of the ticket’s history.
 
 &nbsp;&nbsp;&nbsp;&nbsp; **4. Answer Synthesis:**
 Finally, using advanced natural language processing, SeaChat analyzes the full ticket conversations to determine the most relevant answer to the user's query. This process aggregates insights from multiple tickets if needed, allowing SeaChat to deliver a direct and actionable response without requiring manual navigation through the Zendesk UI.
