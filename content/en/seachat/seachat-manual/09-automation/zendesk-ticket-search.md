@@ -4,14 +4,9 @@ description: ""
 date: 2025-02-04-T00:22:19-07:00
 date: 2025-02-04-T00:22:19-07:00
 draft: false
-
 weight: 70
 url: /seachat/seachat-manual/automation/zendesk-ticket-search
 ---
-
-SeaChat now offers a new custom GPT tool designed specifically for Zendesk ticket search. By connecting your Zendesk account, you enable SeaChat to respond to user queries based on relevant ticket information, improving support efficiency.
-
-## SeaChat Zendesk Ticket Search Tool
 
 The SeaChat Zendesk Ticket Search Tool is an innovative feature from Seasalt.ai that streamlines support workflows by transforming complex Zendesk ticket data into direct, context-aware answers for user queries. Instead of forcing users to sift through numerous search results and manually open individual tickets, SeaChat extracts key insights from entire ticket conversations and returns precise answers—all in a single interaction.
 

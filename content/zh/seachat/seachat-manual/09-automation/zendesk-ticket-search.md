@@ -4,14 +4,9 @@ description: ""
 date: 2025-02-04-T00:22:19-07:00
 date: 2025-02-04-T00:22:19-07:00
 draft: false
-
 weight: 70
 url: zh/seachat/seachat-manual/automation/zendesk-ticket-search
 ---
-
-SeaChat 現在提供了一款專為 Zendesk 工單搜尋設計的自訂 GPT 工具。透過連接您的 Zendesk 帳戶，SeaChat 能夠根據相關的工單資訊回應使用者查詢，提高支援效率。
-
-## SeaChat Zendesk 工單搜尋工具
 
 SeaChat Zendesk 工單搜尋工具是 Seasalt.ai 提供的一項創新功能，透過將 複雜的 Zendesk 工單數據 轉換為 直接且具上下文關聯性的回應，優化客戶支援流程。為避免使用者在大量搜尋結果中篩選並手動開啟每張工單，SeaChat 會從完整的工單對話中擷取關鍵資訊，並在單次互動內提供精確的答案。
 
@@ -89,7 +84,7 @@ SeaChat Zendesk 工單搜尋工具用途廣泛，可應用於多種客服與業�
 </a>
 <br/>
 
-_Example: 我們設定了 Zendesk 工單搜尋工具來檢索工單、產品名稱和價格。_
+_Example: 設定Zendesk工單搜尋工具來檢索工單、產品名稱和價格。_
 
 </center>
 
@@ -120,11 +115,11 @@ _Example: 輸入 Zendesk 帳戶憑證來驗證 SeaChat 的 API 存取權。_
 
 ### **步驟 3：定義搜尋參數**
 
-您可以自訂搜尋參數來控制 Zendesk 工單的擷取和顯示方式。
+您可以自定義搜尋參數來控制 Zendesk 工單的擷取和顯示方式。
 
-- **per_page：** 它決定在單一請求中檢索的工單數量。建議將此值設為 1 到 20 之間，預設值為 5。對於每個檢索到的工單，SeaChat 將調用 Zendesk API 使用以下端點獲取其詳細資訊和評論：`GET https://{subdomain}.zendesk.com/api/v2/tickets/{ticket_no}/comments`。由於 SeaChat 會檢索每個工單的所有評論，因此增加每個請求的工單數量可能會減慢回應時間。
+- **per_page：** 決定在單一請求中檢索的工單數量。建議將此值設為 1 到 20 之間，預設值為 5。對於每個檢索到的工單，SeaChat 將調用 Zendesk API 使用以下端點獲取其詳細資訊和評論：`GET https://{subdomain}.zendesk.com/api/v2/tickets/{ticket_no}/comments`。由於 SeaChat 會檢索每個工單的所有評論，因此增加每個請求的工單數量可能會減慢回應時間。
 - **sort_by**：定義檢索到的工單的排序標準。您可以選擇按工單的上次更新時間 (updated_at)、建立時間 (created_at)、優先權 (priority)、狀態 (status) 或類型 (ticket_type) 進行排序。預設情況下，排序基於相關性。
-- **sort_order**：它指定工單是否應按升序（asc）或降序（desc）排序。預設是降序。
+- **sort_order**：指定工單是否應按升序（asc）或降序（desc）排序。預設是降序。
 
 <center>
 <a href="/images/seachat/en/zendesk-ticket-search/image4.png">
