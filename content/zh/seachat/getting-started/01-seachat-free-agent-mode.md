@@ -62,4 +62,4 @@ url: zh/seachat/getting-started/free-agent-mode/
 - 接聽客戶電話
 - 將重心放在更重要的業務上，而非處理重複性請求
 
-- 使用 SeaChat，您可以隨時啟用或停用 AI 支持，而無需更改現有的多渠道設置。享受按需 AI 支持的靈活性
+- 使用 SeaChat，您可以隨時啟用或停用 AI 支持，而無需更改現有的多渠道設置。享受按需 AI 支持的靈活性！
