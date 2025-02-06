@@ -8,21 +8,21 @@
     <language>en-US</language>
     <lastBuildDate>Wed, 22 Jan 2025 08:48:57 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-manual/08-incoming-queries/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>User Sends an Audio Message</title>
-      <link>https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-audio-message/</link>
-      <pubDate>Wed, 22 Jan 2025 08:48:45 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-audio-message/</guid>
-      <description>Overview # Up to this point, you&amp;rsquo;ve likely only seen SeaChat respond to text-based user chat messages. However, SeaChat has the capability to handle multimedia messages, such as audio and image, as well! This makes interactions more flexible and convenient for users, enabling them to share content in various formats for richer communication.  Audio Understanding # Some channels, such as Messenger, WhatsApp, and Line, allow users to send audio messages.</description>
-    </item>
-    
-    <item>
       <title>User Sends an Image Message</title>
       <link>https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-image-message/</link>
       <pubDate>Wed, 22 Jan 2025 08:48:45 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-image-message/</guid>
       <description>Overview # Up to this point, you&amp;rsquo;ve likely only seen SeaChat respond to text-based user chat messages. However, SeaChat has the capability to handle multimedia messages, such as audio and image, as well! This makes interactions more flexible and convenient for users, enabling them to share content in various formats for richer communication.  Image Understanding # When a user uploads an image, SeaChat analyzes it to generate a detailed textual description.</description>
+    </item>
+    
+    <item>
+      <title>User Sends an Audio Message</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-audio-message/</link>
+      <pubDate>Wed, 22 Jan 2025 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-audio-message/</guid>
+      <description>Overview # Up to this point, you&amp;rsquo;ve likely only seen SeaChat respond to text-based user chat messages. However, SeaChat has the capability to handle multimedia messages, such as audio and image, as well! This makes interactions more flexible and convenient for users, enabling them to share content in various formats for richer communication.  Audio Understanding # Some channels, such as Messenger, WhatsApp, and Line, allow users to send audio messages.</description>
     </item>
     
   </channel>

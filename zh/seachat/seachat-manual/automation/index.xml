@@ -8,6 +8,24 @@
     <language>en-US</language>
     <lastBuildDate>Mon, 06 Jan 2025 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>客制GPT工具</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/custom-gpt-tool/</link>
+      <pubDate>Mon, 06 Jan 2025 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/custom-gpt-tool/</guid>
+      <description>簡介 # SeaChat 的 客制GPT工具 允許用戶通過將自定義操作直接整合到對話中來增強代理的回應能力。此功能使用戶能夠定義具體條件，以便代理在滿足條件時執行這些操作，提供量身定制的回應和基於實時資訊的智能支援。例如，您可以讓代理執行搜索或從您公司的 API 獲取數據，讓 SeaChat 能夠利用外部資源提供更豐富的答案。
+影片教學 # 以下是簡單教程，展示如何調用兩個 APIs 以顯示單張圖片。我們演示了如何配置 API 端點，並在聊天中顯示可愛的狗狗圖片：
+ 第二個教程中，我們通過配置 API 參數調用天氣 API，並動態將地點名稱轉換為 GPS 座標以獲取準確的天氣資訊：
+ 第三個教程中，我們演示了如何在聊天中獲取包含多張狗狗圖片的卡片輪播。我們展示了如何利用 PATH 參數來顯示特定狗品種的多張圖片：
+ 第四個教程中，我們展示了如何使用 SeaChat 的 客制GPT工具 設置電子郵件警報，檢測聊天中的敏感內容並自動發送電子郵件通知。
+ 第五個教程中，我們展示了如何在 SeaChat 中設置簡訊 通知來監控用戶對話。例如，我們演示了如何在檢測到用戶對話中有抑鬱跡象時設置簡訊 警報。
+ 第六個教程中，我們展示了如何自動通過簡訊 向呼叫者發送資訊。
+ 快速入門 # 要啟用此功能，登錄 SeaChat 後，導航至 AI助理配置 -&amp;gt; 整合 -&amp;gt; 客制GPT工具。
+ SeaChat 目前支持三種類型的工具：
+ 搜尋和顯示：允許 SeaChat 使用您的 API 執行外部搜索，並基於對話上下文獲取附加資訊。搜索結果將以純文本或卡片輪播形式顯示在 webchat 中。 電子郵件：根據您的指示自動發送電子郵件。請確保指定目的、收件人和條件。要向用戶發送電子郵件，請通過 webchat 表單收集他們的電子郵件地址。 發送簡訊：根據您的指示自動發送簡訊。定義目的、收件人和條件。要向用戶發送簡訊，請確保通過渠道或 webchat 表單獲取他們的電話號碼。        配置 搜尋和顯示的步驟： # 步驟 1：選擇工具類型 # SeaChat 目前支持一種類型的工具：</description>
+    </item>
+    
+    <item>
       <title>自動標記</title>
       <link>https://wiki.seasalt.ai/zh/seachat/manual/automation/auto-labeling/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 -0700</pubDate>
@@ -43,21 +61,23 @@
     </item>
     
     <item>
-      <title>客制GPT工具</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/custom-gpt-tool/</link>
-      <pubDate>Mon, 06 Jan 2025 08:48:45 +0000</pubDate>
+      <title>Zendesk 工單搜尋工具</title>
+      <link>https://wiki.seasalt.ai/zh/zh/seachat/seachat-manual/automation/zendesk-ticket-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/custom-gpt-tool/</guid>
-      <description>簡介 # SeaChat 的 客制GPT工具 允許用戶通過將自定義操作直接整合到對話中來增強代理的回應能力。此功能使用戶能夠定義具體條件，以便代理在滿足條件時執行這些操作，提供量身定制的回應和基於實時資訊的智能支援。例如，您可以讓代理執行搜索或從您公司的 API 獲取數據，讓 SeaChat 能夠利用外部資源提供更豐富的答案。
-影片教學 # 以下是簡單教程，展示如何調用兩個 APIs 以顯示單張圖片。我們演示了如何配置 API 端點，並在聊天中顯示可愛的狗狗圖片：
- 第二個教程中，我們通過配置 API 參數調用天氣 API，並動態將地點名稱轉換為 GPS 座標以獲取準確的天氣資訊：
- 第三個教程中，我們演示了如何在聊天中獲取包含多張狗狗圖片的卡片輪播。我們展示了如何利用 PATH 參數來顯示特定狗品種的多張圖片：
- 第四個教程中，我們展示了如何使用 SeaChat 的 客制GPT工具 設置電子郵件警報，檢測聊天中的敏感內容並自動發送電子郵件通知。
- 第五個教程中，我們展示了如何在 SeaChat 中設置簡訊 通知來監控用戶對話。例如，我們演示了如何在檢測到用戶對話中有抑鬱跡象時設置簡訊 警報。
- 第六個教程中，我們展示了如何自動通過簡訊 向呼叫者發送資訊。
- 快速入門 # 要啟用此功能，登錄 SeaChat 後，導航至 AI助理配置 -&amp;gt; 整合 -&amp;gt; 客制GPT工具。
- SeaChat 目前支持三種類型的工具：
- 搜尋和顯示：允許 SeaChat 使用您的 API 執行外部搜索，並基於對話上下文獲取附加資訊。搜索結果將以純文本或卡片輪播形式顯示在 webchat 中。 電子郵件：根據您的指示自動發送電子郵件。請確保指定目的、收件人和條件。要向用戶發送電子郵件，請通過 webchat 表單收集他們的電子郵件地址。 發送簡訊：根據您的指示自動發送簡訊。定義目的、收件人和條件。要向用戶發送簡訊，請確保通過渠道或 webchat 表單獲取他們的電話號碼。        配置 搜尋和顯示的步驟： # 步驟 1：選擇工具類型 # SeaChat 目前支持一種類型的工具：</description>
+      <guid>https://wiki.seasalt.ai/zh/zh/seachat/seachat-manual/automation/zendesk-ticket-search/</guid>
+      <description>SeaChat Zendesk 工單搜尋工具是 Seasalt.ai 提供的一項創新功能，透過將 複雜的 Zendesk 工單數據 轉換為 直接且具上下文關聯性的回應，優化客戶支援流程。為避免使用者在大量搜尋結果中篩選並手動開啟每張工單，SeaChat 會從完整的工單對話中擷取關鍵資訊，並在單次互動內提供精確的答案。
+ 運作方式 # SeaChat Zendesk 工單搜尋工具利用 Zendesk API 的強大功能，透過以下步驟來處理使用者查詢並提供最佳答案
+ 1. 關鍵字提取:
+當使用者提交查詢時，SeaChat 會自動解析輸入內容，並提取一個或多個關鍵字。這些關鍵字將用於向 Zendesk 搜尋 API 發送查詢請求。
+ 2. 透過 Zendesk 搜尋 API 查詢工單:
+SeaChat 透過 Zendesk 搜尋 API /api/v2/search.json?query=xxx 發送請求，並獲取符合搜尋條件的工單列表。值得注意的是，Zendesk 搜尋 API 的初始回應僅包含每張工單對話串的第一則留言（通常是工單的描述），作為工單內容的預覽。
+ 3. 檢索完整的工單互動:
+為了獲取更完整的資訊，SeaChat 會針對搜尋結果中的每張工單，進一步調用 Zendesk 工單留言 API /api/v2/tickets/{id}/comments。 此步驟可擷取該工單的所有留言，包括後續回覆，客服代理的回答，內部備註。
+ 4. 生成答案:
+SeaChat 透過自然語言處理（NLP）分析完整的工單對話內容，以找出最相關的資訊，並為使用者提供直接且可行的答案。若有多張工單的內容與查詢相關，SeaChat 會整合多個工單的資訊來提供最佳回應。
+ 使用案例 # SeaChat Zendesk 工單搜尋工具用途廣泛，可應用於多種客服與業務場景，提升工作效率並改善客戶體驗。以下是幾個最佳使用案例：
+ &amp;ndash; 加速客服回應: 客服人員可以透過利用歷史工單資料快速擷取客戶問題的完整答案，從而減少手動搜尋工單所花費的時間。</description>
     </item>
     
   </channel>
