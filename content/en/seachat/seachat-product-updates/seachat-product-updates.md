@@ -16,6 +16,13 @@ weight: 504
 toc: true
 ---
 
+### 2/6/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Items Per Page Selector in Pagination for Bulk Actions: A dropdown has been added to pagination, allowing you to choose how many items to display per page.
+- Knowledge Base Sort By Title: You can now search KB articles by title. Additionally, click the sort icon to organize articles in ascending order.
+- Quick Customer Calling: A new **Call Customer** button is available in the upper right corner of the conversation detail window. If a customer called in via the voice channel, you can now quickly call them back.
+- Updated Conversation History File Name Formats: Downloaded conversation history files now follow a structured format:`Conversation Title – Conversation Start Datetime – Channel.csv`.
+
 ### 1/16/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Channel-Specific Language Support: SeaChat now supports defining the language for voice messages on a per-channel basis. This enables the platform to transcribe voice messages into text and reply in the same language. This setting allows users to tailor communication to meet the needs of different language-speaking audiences across various platforms, including LINE, WhatsApp, Messenger, and Instagram. The setting also applies to system messages, such as the one sent to users when they click 🧹 "New Topic."
