@@ -4,7 +4,7 @@ description: "Set up live agent transfers in SeaChat for customer support. Manag
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2024-05-21T08:48:45+00:00
-weight: 15
+weight: 103
 draft: false
 images: []
 toc: true

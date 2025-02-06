@@ -4,7 +4,7 @@ description: "Efficiently duplicate and manage AI agents in SeaChat. Create, tes
 lead: "Explore SeaChat's powerful agent duplication and replacement features, designed for creating and managing different versions of your AI agents. Perfect for prototyping, testing, and smoothly transitioning from development to production."
 date: 2024-07-10T08:48:45+00:00
 lastmod: 2024-07-10T08:48:45+00:00
-weight: 12
+weight: 102
 draft: false
 images: []
 toc: true

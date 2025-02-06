@@ -4,7 +4,7 @@ description: "Learn how to enable and configure Long-Term Memory in SeaChat for 
 lead: ""
 date: 2024-12-16T00:00:00-07:00
 lastmod: 2024-12-16T00:00:00-07:00
-weight: 19
+weight: 106
 draft: false
 images: []
 toc: true

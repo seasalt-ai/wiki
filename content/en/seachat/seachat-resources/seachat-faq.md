@@ -4,7 +4,7 @@ description: "Frequently asked questions about SeaChat. Find answers to common q
 lead: ""
 date: 2024-08-10T08:48:45+00:00
 lastmod: 2024-08-10T08:48:45+00:00
-weight: 503
+weight: 1502
 draft: false
 images: []
 aliases:

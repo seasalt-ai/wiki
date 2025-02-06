@@ -4,7 +4,7 @@ description: "Learn to optimize your SeaChat agent's performance with advanced f
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-03-04 10:43:51.069 +0100
-weight: 30
+weight: 401
 draft: false
 images: []
 aliases:

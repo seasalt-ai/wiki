@@ -11,7 +11,7 @@ menu:
 aliases:
    - /zh/seachat/seachat-integrations/wordpress/
 url: /zh/seachat/integrations/wordpress/
-weight: 50
+weight: 404
 toc: true
 ---
 

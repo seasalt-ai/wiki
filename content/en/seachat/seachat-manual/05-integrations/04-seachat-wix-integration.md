@@ -12,7 +12,7 @@ aliases:
   - /en/seachat/seachat-integrations/wix/
   - /seachat/seachat-manual/05-integrations/04-seachat-wix-integration/
 url: /en/seachat/integrations/wix/ 
-weight: 74
+weight: 603
 toc: true
 ---
 

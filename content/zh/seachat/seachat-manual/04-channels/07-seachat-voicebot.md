@@ -11,7 +11,7 @@ menu:
 aliases:
   - /zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/
 url: /zh/seachat/manual/channels/voicebot/
-weight: 43
+weight: 303
 toc: true
 ---
 

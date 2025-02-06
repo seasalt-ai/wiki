@@ -10,7 +10,7 @@ menu:
 aliases:
   - /zh/seachat/seachat-manual/04-channels/05-install-to-line/
 url: /zh/seachat/manual/channels/install-to-line/
-weight: 41
+weight: 301
 toc: true
 ---
 

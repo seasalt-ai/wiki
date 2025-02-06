@@ -10,7 +10,7 @@ menu:
       parent: "seachat-manual"
 aliases:
   - /zh/seachat/seachat-manual/06-improve-agent/
-weight: 51
+weight: 501
 toc: true
 ---
 

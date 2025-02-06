@@ -4,7 +4,7 @@ description: "Easily expand your SeaChat agent's knowledge base by importing URL
 lead: ""
 date: 2024-04-15 10:43:51.069 +0100
 lastmod: 2024-04-15 10:43:51.069 +0100
-weight: 35
+weight: 407
 draft: false
 images: []
 aliases:

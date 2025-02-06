@@ -10,7 +10,7 @@ menu:
       parent: "seachat-manual"
 aliases:
    - /zh/seachat/seachat-manual/07-appearance-setting/
-weight: 56
+weight: 500
 toc: true
 ---
 

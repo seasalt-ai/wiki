@@ -4,7 +4,7 @@ description: "Enhance AI responses with buttons and images. Learn to edit entrie
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-06-17 10:43:51.069 +0100
-weight: 40
+weight: 413
 draft: false
 images: []
 aliases:
