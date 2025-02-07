@@ -4,7 +4,7 @@ description: "探索 SeaChat 的進階設置，包括助理記憶和檢索增強
 lead: ""
 date: 2024-05-29T08:48:45+00:00
 lastmod: 2024-05-29T08:48:45+00:00
-weight: 18
+weight: 106
 draft: false
 images: []
 toc: true

@@ -7,7 +7,7 @@ draft: false
 images: []
 aliases:
    - /en/seachat/pricing-and-plans/
-weight: 200
+weight: 1100
 toc: true
 ---
 

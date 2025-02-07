@@ -4,7 +4,7 @@ description: "Integrate spreadsheets into SeaChat AI agent's knowledge base. Upl
 lead: ""
 date: 2024-03-04 10:43:51.069 +0100
 lastmod: 2024-05-07 10:43:51.069 +0100
-weight: 31
+weight: 402
 draft: false
 images: []
 aliases:

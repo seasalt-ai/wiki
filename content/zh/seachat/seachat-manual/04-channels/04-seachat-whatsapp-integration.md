@@ -11,7 +11,7 @@ menu:
 aliases:
    - /zh/seachat/seachat-integrations/whatsapp/
 url: /zh/seachat/integrations/whatsapp/   
-weight: 40
+weight: 300
 toc: true
 ---
 

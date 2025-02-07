@@ -4,7 +4,7 @@ description: "AI助理資訊是SeaChat助理的核心，包括名稱、描述和
 lead: ""
 date: 2024-04-26T08:48:45+00:00
 lastmod: 2024-05-29T08:48:45+00:00
-weight: 14
+weight: 101
 draft: false
 images: []
 toc: true
