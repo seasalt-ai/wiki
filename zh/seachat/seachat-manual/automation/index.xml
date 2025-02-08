@@ -62,12 +62,12 @@
     
     <item>
       <title>Zendesk 工單搜尋工具</title>
-      <link>https://wiki.seasalt.ai/zh/zh/seachat/seachat-manual/automation/zendesk-ticket-search/</link>
+      <link>https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/zendesk-ticket-search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/zh/zh/seachat/seachat-manual/automation/zendesk-ticket-search/</guid>
+      <guid>https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/zendesk-ticket-search/</guid>
       <description>SeaChat Zendesk 工單搜尋工具是 Seasalt.ai 提供的一項創新功能，透過將 複雜的 Zendesk 工單數據 轉換為 直接且具上下文關聯性的回應，優化客戶支援流程。為避免使用者在大量搜尋結果中篩選並手動開啟每張工單，SeaChat 會從完整的工單對話中擷取關鍵資訊，並在單次互動內提供精確的答案。
- 運作方式 # SeaChat Zendesk 工單搜尋工具利用 Zendesk API 的強大功能，透過以下步驟來處理使用者查詢並提供最佳答案
+  運作方式 # SeaChat Zendesk 工單搜尋工具利用 Zendesk API 的強大功能，透過以下步驟來處理使用者查詢並提供最佳答案
  1. 關鍵字提取:
 當使用者提交查詢時，SeaChat 會自動解析輸入內容，並提取一個或多個關鍵字。這些關鍵字將用於向 Zendesk 搜尋 API 發送查詢請求。
  2. 透過 Zendesk 搜尋 API 查詢工單:

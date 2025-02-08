@@ -45,16 +45,16 @@
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <title>Zendesk Ticket Search Tool - Seasalt.ai</title>
 <meta name="description" content="The SeaChat Zendesk Ticket Search Tool is an innovative feature from Seasalt.ai that streamlines support workflows by transforming complex Zendesk ticket data into direct, context-aware answers for user queries. Instead of forcing users to sift through numerous search results and manually open individual tickets, SeaChat extracts key insights from entire ticket conversations and returns precise answers—all in a single interaction.
- How It Works # The tool leverages Zendesk’s robust API capabilities through the following steps:">
+  How It Works # The tool leverages Zendesk’s robust API capabilities through the following steps:">
   <link rel="canonical" href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/zendesk-ticket-search/">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Zendesk Ticket Search Tool">
 <meta property="og:description" content="The SeaChat Zendesk Ticket Search Tool is an innovative feature from Seasalt.ai that streamlines support workflows by transforming complex Zendesk ticket data into direct, context-aware answers for user queries. Instead of forcing users to sift through numerous search results and manually open individual tickets, SeaChat extracts key insights from entire ticket conversations and returns precise answers—all in a single interaction.
- How It Works # The tool leverages Zendesk’s robust API capabilities through the following steps:">
+  How It Works # The tool leverages Zendesk’s robust API capabilities through the following steps:">
 <meta property="og:url" content="https://wiki.seasalt.ai/seachat/seachat-manual/automation/zendesk-ticket-search/">
 <meta property="og:site_name" content="Seasalt.ai">
-<meta property="article:modified_time" content="2025-02-07T16:49:48-08:00">
+<meta property="article:modified_time" content="2025-02-07T17:51:33-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -117,7 +117,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "0001-01-01T00:00:00CET",
-      "dateModified": "2025-02-07T16:49:48CET",
+      "dateModified": "2025-02-07T17:51:33CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/automation/zendesk-ticket-search/#/schema/breadcrumb/1"
       },
@@ -298,7 +298,7 @@
         <li><hr class="dropdown-divider"></li>
 
       
-          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/zh/zh/seachat/seachat-manual/automation/zendesk-ticket-search/" hreflang="zh" lang="zh">繁體中文</a></li>
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/zendesk-ticket-search/" hreflang="zh" lang="zh">繁體中文</a></li>
         
       </ul>
     </div>
@@ -1430,26 +1430,27 @@
 			</nav>
 			<p>The SeaChat Zendesk Ticket Search Tool is an innovative feature from Seasalt.ai that streamlines support workflows by transforming complex Zendesk ticket data into direct, context-aware answers for user queries. Instead of forcing users to sift through numerous search results and manually open individual tickets, SeaChat extracts key insights from entire ticket conversations and returns precise answers—all in a single interaction.</p>
 <hr>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/PJYiC-jKDnU?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px";></iframe>
 <h2 id="how-it-works">How It Works <a href="#how-it-works" class="anchor" aria-hidden="true">#</a></h2>
 <p>The tool leverages Zendesk’s robust API capabilities through the following steps:</p>
-<p>     <strong>1. Keyword Extraction:</strong></p>
+<p><strong>1. Keyword Extraction:</strong></p>
 <p>When a user submits a query, SeaChat automatically parses the input to extract one or more keywords. These keywords are then used to form a search query to the Zendesk Search API.</p>
-<p>     <strong>2. Ticket Search via Zendesk Search API:</strong></p>
+<p><strong>2. Ticket Search via Zendesk Search API:</strong></p>
 <p>SeaChat submits the extracted keyword(s) to the Zendesk Search API <code>/api/v2/search.json?query=xxx</code>. This API returns a list of relevant tickets based on the search criteria. Notably, the initial API response includes only the first comment (often the ticket’s description) for each ticket thread, which serves as a preview of the ticket content.</p>
-<p>     <strong>3. Retrieving Full Ticket Threads:</strong></p>
+<p><strong>3. Retrieving Full Ticket Threads:</strong></p>
 <p>For each ticket returned in the search results, SeaChat then makes additional requests to the Zendesk Ticket Comments API <code>/api/v2/tickets/{id}/comments</code>. This step ensures that all comments—including follow-ups, agent responses, and internal notes—are retrieved, providing a complete picture of the ticket’s history.</p>
-<p>     <strong>4. Answer Synthesis:</strong>
+<p><strong>4. Answer Synthesis:</strong>
 Finally, using advanced natural language processing, SeaChat analyzes the full ticket conversations to determine the most relevant answer to the user&rsquo;s query. This process aggregates insights from multiple tickets if needed, allowing SeaChat to deliver a direct and actionable response without requiring manual navigation through the Zendesk UI.</p>
 <hr>
 <h2 id="use-cases">Use Cases <a href="#use-cases" class="anchor" aria-hidden="true">#</a></h2>
 <p>The SeaChat Zendesk Ticket Search Tool is versatile and can be applied in various support and operational scenarios:</p>
-<p>     &ndash; <strong>Streamlined Support Response:</strong>
+<p>&ndash; <strong>Streamlined Support Response:</strong>
 Agents can quickly retrieve complete answers to customer questions by tapping into historical ticket data, reducing the time spent manually searching through tickets.</p>
-<p>     &ndash; <strong>Automated Knowledge Base Augmentation:</strong>
+<p>&ndash; <strong>Automated Knowledge Base Augmentation:</strong>
 By consolidating frequent queries and their corresponding resolutions, the tool can help automatically update FAQs and knowledge base articles, ensuring that self-service options are always current and accurate.</p>
-<p>     &ndash; <strong>Root Cause Analysis:</strong>
+<p>&ndash; <strong>Root Cause Analysis:</strong>
 Support managers can utilize the tool to analyze patterns in ticket conversations—such as recurring issues or common troubleshooting steps—to improve product reliability and customer satisfaction.</p>
-<p>     &ndash; <strong>Efficient Data Integration:</strong>
+<p>&ndash; <strong>Efficient Data Integration:</strong>
 When integrating Zendesk with other systems (e.g., CRM platforms or analytics dashboards), the tool’s ability to extract comprehensive ticket information enables more effective cross-platform data analysis and reporting.</p>
 <hr>
 <p>By combining the powerful search capabilities of Zendesk’s Search API with the detailed insights provided by the Ticket Comments API, SeaChat offers a seamless and efficient alternative to the traditional Zendesk search UI. This innovative approach not only accelerates the resolution process but also improves the overall quality of support responses.</p>
