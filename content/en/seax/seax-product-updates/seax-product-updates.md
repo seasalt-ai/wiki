@@ -16,32 +16,32 @@ weight: 1
 toc: true
 ---
 
-### 02/06/2025
+### 2/6/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added contact search functionality to the dial pad.  
 - Fixed the timing of success and failure notifications for contact uploads.  
 
-### 01/22/2025
+### 1/22/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added options to select "Input Device" and "Output Device" in the dial pad.  
 - Adjusted the display of "Unverified Numbers" in the WhatsApp Business Platform number list.  
 - Updated phone call display icons.  
 
 
-### 01/16/2025
+### 1/16/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Introduced call logs list displaying call outcomes for inbound and outbound calls.  
 - Updated campaign and channel icons for the WhatsApp Business Platform.  
 
 
-### 01/09/2025
+### 1/9/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Fixed an issue requiring double API calls for Webhook campaigns to trigger.  
 - Corrected data reporting errors in campaign cards.  
 - Removed the mandatory name field requirement for contact entries.  
 
 
-### 01/02/2025
+### 1/2/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added functionality to answer inbound calls and make outbound calls via the dial pad.  
 - Fixed inaccuracies in the recipient count displayed on activity cards.  
