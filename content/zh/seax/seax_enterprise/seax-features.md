@@ -1,5 +1,5 @@
 ---
-title: "SeaX 企業全通路聯絡中心功能"
+title: "SeaX 企業全渠道聯絡中心功能"
 description: "SeaX Collaborative Contact Center 提供強大且可自訂的功能，為您的客服人員與主管提供精確所需的工具。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
@@ -18,9 +18,9 @@ toc: true
 
 ## 基本功能
 -------------------
-SeaX 全通路聯絡中心將您的聯絡中心工具集中於一處，提供直觀的介面，使客服人員能夠輕鬆操作，並透過自動化重複性任務，讓客服專注於更重要的對話。
+SeaX 全渠道聯絡中心將您的聯絡中心工具集中於一處，提供直觀的介面，使客服人員能夠輕鬆操作，並透過自動化重複性任務，讓客服專注於更重要的對話。
 
-### 全通路訊息整合
+### 全渠道訊息整合
 
 SeaX 功能讓客服人員能夠在同一介面處理來自各種業務平台的客戶請求。
 
@@ -42,7 +42,7 @@ Google Maps 整合提供額外功能，例如自動從 Google Maps 清單中擷�
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-### 詢問與盲轉接 
+### 直接轉接與間接轉接
 
 SeaX 內建功能可讓客服人員將來電或訊息轉接至內部其他客服人員。
 
@@ -69,7 +69,7 @@ SeaX 會記錄客戶的語音留言，並分配給客服人員，確保客服快
 ## 進階功能
 -------------------
 
-SeaX 全通路聯絡中心也提供多種進階功能，進一步強化您的聯絡中心。
+SeaX 全渠道聯絡中心也提供多種進階功能，進一步強化您的聯絡中心。
 
 ### SeaX 虛擬客服
 
