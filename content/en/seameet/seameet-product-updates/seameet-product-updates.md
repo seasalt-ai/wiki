@@ -16,6 +16,46 @@ weight: 400
 toc: true
 ---
 
+### 02/06/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved audio file upload experience, including progress bar display, restriction on submission before file upload, and guidance for incorrect file formats.  
+- Corrected the FAQ section explanation regarding "In-Person Meetings" on the landing page.  
+
+
+### 01/22/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated Google Docs meeting titles to include dates for distinguishing recurring meetings.  
+- Modified the user flow after clicking the extension. 
+
+
+### 01/16/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Enhanced audio upload experience with improved failure notifications, file analysis loading previews, and clearer error messages.  
+- Fixed an issue where refreshing under a filtered view would not clear the filters.  
+- Resolved a bug where switching workspaces did not exit the original meeting page.
+
+
+### 01/09/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved the interface of the meeting list filter feature.  
+
+
+### 01/02/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Enhanced stability of audio file uploads.  
+- Added a "Retry" option for failed audio uploads.  
+- Improved user experience for audio uploads by displaying queue status.  
+- Supported meetings that require login, such as those initiated by educational accounts.  
+- Fixed auto-join failures for HubSpot scheduled meetings.  
+- Resolved an issue where the copilot wouldn't leave after 15 minutes of meeting inactivity.  
+- Fixed the extension's infinite loading issue preventing meeting joins.  
+
+
+### 12/19/2024
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed issues related to multi-track audio file uploads.
+
+
 ### 12/5/2024
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Updated the "Upload Audio" to additionally support .m4a, .opus, .ogg, and multi-track formats, as well as file names containing spaces.
