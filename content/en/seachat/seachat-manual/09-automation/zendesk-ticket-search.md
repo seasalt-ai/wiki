@@ -12,23 +12,25 @@ The SeaChat Zendesk Ticket Search Tool is an innovative feature from Seasalt.ai 
 
 ---
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/PJYiC-jKDnU?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px";></iframe>
+
 ## How It Works
 
 The tool leverages Zendesk’s robust API capabilities through the following steps:
 
-&nbsp;&nbsp;&nbsp;&nbsp; **1. Keyword Extraction:**
+**1. Keyword Extraction:**
 
 When a user submits a query, SeaChat automatically parses the input to extract one or more keywords. These keywords are then used to form a search query to the Zendesk Search API.
 
-&nbsp;&nbsp;&nbsp;&nbsp; **2. Ticket Search via Zendesk Search API:**
+**2. Ticket Search via Zendesk Search API:**
 
 SeaChat submits the extracted keyword(s) to the Zendesk Search API `/api/v2/search.json?query=xxx`. This API returns a list of relevant tickets based on the search criteria. Notably, the initial API response includes only the first comment (often the ticket’s description) for each ticket thread, which serves as a preview of the ticket content.
 
-&nbsp;&nbsp;&nbsp;&nbsp; **3. Retrieving Full Ticket Threads:**
+**3. Retrieving Full Ticket Threads:**
 
 For each ticket returned in the search results, SeaChat then makes additional requests to the Zendesk Ticket Comments API `/api/v2/tickets/{id}/comments`. This step ensures that all comments—including follow-ups, agent responses, and internal notes—are retrieved, providing a complete picture of the ticket’s history.
 
-&nbsp;&nbsp;&nbsp;&nbsp; **4. Answer Synthesis:**
+**4. Answer Synthesis:**
 Finally, using advanced natural language processing, SeaChat analyzes the full ticket conversations to determine the most relevant answer to the user's query. This process aggregates insights from multiple tickets if needed, allowing SeaChat to deliver a direct and actionable response without requiring manual navigation through the Zendesk UI.
 
 ---
@@ -37,16 +39,16 @@ Finally, using advanced natural language processing, SeaChat analyzes the full t
 
 The SeaChat Zendesk Ticket Search Tool is versatile and can be applied in various support and operational scenarios:
 
-&nbsp;&nbsp;&nbsp;&nbsp; -- **Streamlined Support Response:**
+-- **Streamlined Support Response:**
 Agents can quickly retrieve complete answers to customer questions by tapping into historical ticket data, reducing the time spent manually searching through tickets.
 
-&nbsp;&nbsp;&nbsp;&nbsp; -- **Automated Knowledge Base Augmentation:**
+-- **Automated Knowledge Base Augmentation:**
 By consolidating frequent queries and their corresponding resolutions, the tool can help automatically update FAQs and knowledge base articles, ensuring that self-service options are always current and accurate.
 
-&nbsp;&nbsp;&nbsp;&nbsp; -- **Root Cause Analysis:**
+-- **Root Cause Analysis:**
 Support managers can utilize the tool to analyze patterns in ticket conversations—such as recurring issues or common troubleshooting steps—to improve product reliability and customer satisfaction.
 
-&nbsp;&nbsp;&nbsp;&nbsp; -- **Efficient Data Integration:**
+-- **Efficient Data Integration:**
 When integrating Zendesk with other systems (e.g., CRM platforms or analytics dashboards), the tool’s ability to extract comprehensive ticket information enables more effective cross-platform data analysis and reporting.
 
 ---
