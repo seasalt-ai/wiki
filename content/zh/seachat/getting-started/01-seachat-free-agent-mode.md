@@ -43,7 +43,7 @@ url: zh/seachat/getting-started/free-agent-mode/
 
 ### 第二步
 
-將您的新 SeaChat 客服系統安裝到 [網站]((https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/))、[Facebook Messenger](https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/), [WhatsApp](https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/), 或 [LINE](https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/)。
+將您的新 SeaChat 客服系統安裝到 [網站](https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/)、[Facebook Messenger](https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/), [WhatsApp](https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/), 或 [LINE](https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/)。
 
 ### 第三步
 
