@@ -1,180 +1,110 @@
 ---
-title: "SeaX Enterprise Omni-channel Contact Center Features"
-description: "The SeaX Collaborative Contact Center boasts robust and customizable features that give your agents and supervisors the exact functionality that they need."
+title: "SeaX 企業全通路聯絡中心功能"
+description: "SeaX Collaborative Contact Center 提供強大且可自訂的功能，為您的客服人員與主管提供精確所需的工具。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
 images: []
 menu:
-  seax:
-    parent: "seax_enterprise"
+seax:
+parent: "seax_enterprise"
 aliases:
-   - /seax/seax_intro/01-introduction/
-   - /seax/demo_videos/videos/
-   - /seax/
+    - /seax/seax_intro/01-introduction/
+    - /seax/demo_videos/videos/
+    - /seax/
 weight: 102
 toc: true
 ---
 
-## Basic Features
+## 基本功能
 -------------------
-The SeaX Collaborative Contact Center puts all of your call center's tools right at your agents' fingertips in one easy interface, while automating repetitive tasks to allow your agents to focus on the ones that really need their attention.
+SeaX 全通路聯絡中心將您的聯絡中心工具集中於一處，提供直觀的介面，使客服人員能夠輕鬆操作，並透過自動化重複性任務，讓客服專注於更重要的對話。
 
-### Omni-channel Messaging
+### 全通路訊息整合
 
-Agents on SeaX can handle incoming requests from all of your business's platforms at once in the same interface.
+SeaX 功能讓客服人員能夠在同一介面處理來自各種業務平台的客戶請求。
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/usb-RK7sHlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/usb-RK7sHlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/usb-RK7sHlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+SeaX 可整合來自多個平台的訊息，包括 Facebook、SMS、Google Maps、WhatsApp 和 Line。
 
-SeaX can handle messages from numerous platforms, including Facebook, SMS, Google Maps, WhatsApp, and Line.
+#### Google 業務資訊
 
-#### Google Business Messages
+Google Maps 整合提供額外功能，例如自動從 Google Maps 清單中擷取業務資訊。
 
-Google Maps integration allows access to many more features, including the ability to automatically gather information about your business's amenities from its Google Maps listing.
+更多 Google Maps 功能概述，請觀看以下影片：
 
-For an overview of additional Google Maps features, please see this video below:
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/xe2Y9kmRR3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/xe2Y9kmRR3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/xe2Y9kmRR3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+#### WhatsApp 訊息
 
-#### WhatsApp Messaging
+以下展示 WhatsApp 整合功能：
 
-Finally, here we show the WhatsApp integration:
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+### 詢問與盲轉接 
 
-### Warm and Cold Transfer
+SeaX 內建功能可讓客服人員將來電或訊息轉接至內部其他客服人員。
 
-SeaX has built-in features that allow agents to transfer calls and message internally to other agents.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/TzToP_Ka4zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+### 主管監控與插話
 
-### Supervisor Monitor and Barge-in
+SeaX 讓管理員可監控或參與通話，以進行培訓或監督。
 
-Administrators on SeaX can also monitor and join in on calls for training and supervising purposes.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/1NwEIi_8xIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/1NwEIi_8xIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/1NwEIi_8xIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+### 營業時間與離線訊息
 
-### Holidays and Offline Messages
+SeaX 允許根據聯絡中心需求自訂營業時間，並為不同電話號碼設置自動離線訊息。
 
-SeaX is customizable to the needs of your contact center, including setting operation hours and automatic offline messages for each of your contact center phone numbers.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/cwKanUGEHOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/cwKanUGEHOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/cwKanUGEHOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+### 語音信箱
 
-### Voicemail
+SeaX 會記錄客戶的語音留言，並分配給客服人員，確保客服快速回撥。管理員也可在收到新語音留言時收到通知。
 
-SeaX records customer voicemails and assigns them to agents, ensuring quick callbacks from agents. Administrators can also recieve notification when new voicemails come in.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/zJ9U_YnfhHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/zJ9U_YnfhHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/zJ9U_YnfhHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
-
-## Advanced Features
+## 進階功能
 -------------------
 
-The SeaX Collaborative Contact Center also has a number of advanced features that you can add to power up your contact center.
+SeaX 全通路聯絡中心也提供多種進階功能，進一步強化您的聯絡中心。
 
-### SeaX Virtual Agent
+### SeaX 虛擬客服
 
-The SeaX Virtual Agent is a chat and voice agent that can handle a wide range of basic questions about your business, addressing topics such as:
+SeaX 虛擬客服是一款可處理語音與文字訊息的 AI 助理，能回答關於業務的基本問題，例如：
 
-* location
-* hours
-* contact information
-* amenities
-* menu
+* 位置
+* 營業時間
+* 聯絡資訊
+* 設施
+* 菜單
 
-For more complex questions that the agent cannot answer, the SeaX interface allows customers to request a **live agent**, or a human customer service representative available within the SeaX Collaborative Contact Center.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/j75YPzA0GlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/j75YPzA0GlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/j75YPzA0GlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen style="border-radius: 30px;"></iframe>
+### AI 知識庫
 
-### AI Knowledge Base
+AI 知識庫自動搜尋您的業務知識庫，在客服與客戶對話時即時提供資訊。
 
-The AI Knowledge Base automatically searches your knowledge base about your business to give your agents the information they need in real time while talking to your customers.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/C_e_gaZHSFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/C_e_gaZHSFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/C_e_gaZHSFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
-
-For more information about our AI Knowledge Base, please see our [blog post](https://seasalt.ai/blog/22-seax-knowledge-base/) and our [webinar](https://youtu.be/FOqQ01fpKQ4) on the subject.
-
-### AI-Powered Agent Coach
-
-The SeaX Agent Coach provides agents with conversation objectives to meet while on their calls and checks them off in real time to help them keep track.
-
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/CzfCf8Pcp5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/CzfCf8Pcp5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
-
-### Case Management Demo
-
-The SeaX Case Management system allows you to store all your customer information and track open cases directly in the SeaX interface.
-
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/yf1REVZtRa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/yf1REVZtRa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
-
-For more information about our Case Management System, please see our [blog post](https://seasalt.ai/blog/23-seax-case-management/) and our [webinar](https://youtu.be/VhD_2TV2BOM) on the subject.
-
-### Auto Dialer
-
-SeaX has two avaiable auto dialers: the Message Drop Dialer and the Progressive Dialer.
-
-#### Message Drop Dialer
-
-The Message Drop Dialer allows you to quickly deliver messages to your customers over the phone by automatically dialing and playing a message when the call is picked up.
-
-[//]: # (<iframe width="100%" height="400" src="https://www.youtube.com/embed/8PCSHNnbqno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/8PCSHNnbqno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
-
-#### Progressive Dialer
-
-The Progressive Dialer helps your agents make outbound calls by automatically dialing and leaving voicemails, only passing the call through to the agent when a person picks up the phone.
-
-[//]: # (<iframe width="100%" height="400" src="https://www.youtube.com/embed/2ETvOvOIRAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/2ETvOvOIRAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen style="border-radius: 30px;"></iframe>
-
-### SeaMeet Copilot
-
-View statistics and analytics on your calls and meetings through the SeaMeet Dashboard. Contact centers can also review agent performance with customizable AI-powered performance metrics.
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/QdA7l8F6LBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-
-## Integrations
+## 整合功能
 -------------------
 
-### HubSpot Integration
+### HubSpot 整合
 
-Here we see the HubSpot CRM integrated into SeaX, including automatic call information syncing back to HubSpot:
+SeaX 支援與 HubSpot CRM 整合，包括自動同步通話資訊。
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/vdieQdXH5IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/vdieQdXH5IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/vdieQdXH5IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Here we see automated inbound and outbound appointment scheduling in SeaX, integrated with the HubSpot CRM:
+### Salesforce 整合
 
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Bth5rMlFf8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/Bth5rMlFf8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+SeaX 具備 Salesforce 點擊撥號整合，並支援：
 
-### Discord Integration
+* 自動創建 Salesforce 案件
+* 通話錄音與記錄
+* 自動 CSAT 客戶滿意度調查
+* CSAT 分析報告
 
-Here we provide automated customer support and case tracking in Discord, using SeaX and the HubSpot CRM:
-
-
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/iUK4YkGYI6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/iUK4YkGYI6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
-
-### Salesforce Integration
-
-Besides the usual "click-to-dial" Salesforce integration, SeaX can do the following extra automation:
-
-* Auto create Salesforce cases
-* Call recording and call logs
-* Auto CSAT survey
-* CSAT survey report
-
-
-[//]: # (   <iframe width="100%" height="400" src="https://www.youtube.com/embed/T_L5YykYkBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
-   <iframe width="100%" height="400" src="https://www.youtube.com/embed/T_L5YykYkBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/T_L5YykYkBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
