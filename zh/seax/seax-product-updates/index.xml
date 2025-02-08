@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaX 功能發布和修復 on </title>
+    <link>https://wiki.seasalt.ai/zh/seax/seax-product-updates/</link>
+    <description>Recent content in SeaX 功能發布和修復 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax-product-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaX 版本發布資訊</title>
+      <link>https://wiki.seasalt.ai/zh/seax/product-updates/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/product-updates/</guid>
+      <description>2/6/2025 # 新功能與改進 #  撥號盤可搜尋聯絡人 修正聯絡人上傳成功與失敗的通知顯示時機  1/22/2025 # 新功能與改進 #  新增撥號盤選擇「收音裝置」與「播放裝置」的選項 調整 WhatsApp 商務平台號碼清單「未驗證號碼」的呈現方式 調整電話的顯示圖示  1/16/2025 # 新功能與改進 #  新增通話記錄清單，顯示進線、外撥等通話結果 更換 WhatsApp 商務平台的活動圖示與各頻道圖示  1/9/2025 # 新功能與改進 #  修正 Webhook api 活動必須呼叫兩次才會執行的問題 修正活動卡片寄送數據統計錯誤的部分 移除聯絡人需要姓名欄位的限制  1/2/2025 # 新功能與改進 #  新增撥號盤接聽進線電話，以及向外撥打電話的功能 修正發送活動時，卡片顯示寄送人數不正確的問題 修正發送活動的卡片文案 修正發送活動的回覆率計算方式 修正 WhatsApp 商務平台訊息範本步驟跳轉問題  </description>
+    </item>
+    
+  </channel>
+</rss>

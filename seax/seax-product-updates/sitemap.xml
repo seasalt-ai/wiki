@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>https://wiki.seasalt.ai/en/seax/product-updates/</loc>
+      <lastmod>2025-02-07T16:49:48-08:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="zh"
+                  href="https://wiki.seasalt.ai/zh/seax/product-updates/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://wiki.seasalt.ai/en/seax/product-updates/"
+                  />
+    </url>
+    </urlset>

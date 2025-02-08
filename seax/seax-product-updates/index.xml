@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaX Release Notes on </title>
+    <link>https://wiki.seasalt.ai/seax/seax-product-updates/</link>
+    <description>Recent content in SeaX Release Notes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seax/seax-product-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaX Release History</title>
+      <link>https://wiki.seasalt.ai/en/seax/product-updates/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
+      <description>2/6/2025 # New Features and Improvements #  Added contact search functionality to the dial pad. Fixed the timing of success and failure notifications for contact uploads.  1/22/2025 # New Features and Improvements #  Added options to select &amp;ldquo;Input Device&amp;rdquo; and &amp;ldquo;Output Device&amp;rdquo; in the dial pad. Adjusted the display of &amp;ldquo;Unverified Numbers&amp;rdquo; in the WhatsApp Business Platform number list. Updated phone call display icons.  1/16/2025 # New Features and Improvements #  Introduced call logs list displaying call outcomes for inbound and outbound calls.</description>
+    </item>
+    
+  </channel>
+</rss>
