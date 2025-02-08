@@ -5,12 +5,14 @@ date: 2025-02-04-T00:22:19-07:00
 date: 2025-02-04-T00:22:19-07:00
 draft: false
 weight: 603
-url: zh/seachat/seachat-manual/automation/zendesk-ticket-search
+url: /zh/seachat/seachat-manual/automation/zendesk-ticket-search
 ---
 
 SeaChat Zendesk 工單搜尋工具是 Seasalt.ai 提供的一項創新功能，透過將 複雜的 Zendesk 工單數據 轉換為 直接且具上下文關聯性的回應，優化客戶支援流程。為避免使用者在大量搜尋結果中篩選並手動開啟每張工單，SeaChat 會從完整的工單對話中擷取關鍵資訊，並在單次互動內提供精確的答案。
 
 ---
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/PJYiC-jKDnU?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px";></iframe>
 
 ## 運作方式
 
