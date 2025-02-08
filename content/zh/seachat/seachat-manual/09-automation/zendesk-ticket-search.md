@@ -12,6 +12,8 @@ SeaChat Zendesk 工單搜尋工具是 Seasalt.ai 提供的一項創新功能，�
 
 ---
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/PJYiC-jKDnU?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px";></iframe>
+
 ## 運作方式
 
 SeaChat Zendesk 工單搜尋工具利用 Zendesk API 的強大功能，透過以下步驟來處理使用者查詢並提供最佳答案
