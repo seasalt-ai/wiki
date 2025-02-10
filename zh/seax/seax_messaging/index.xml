@@ -8,6 +8,24 @@
     <language>en-US</language>
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax_messaging/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>群發簡訊</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/bulk-messaging-features/</link>
+      <pubDate>Mon, 22 Jan 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/bulk-messaging-features/</guid>
+      <description>簡介 #  群發簡訊平台將 SMS 和 MMS 行銷所需的所有工具集中在一個方便的平台上。在此平台上，您可以：
+發送
+ 發送群發 SMS 和 MMS 訊息 即時發送或安排最多提前 7 天的訊息 自動篩選“不聯絡”客戶 查看群發訊息波的送達報告 從多個電話號碼發送訊息  接收
+ 捕獲客戶的自動選擇加入和退出回應 接收客戶對群發訊息的回覆 回覆並與客戶繼續對話  聯絡人管理
+ 匯入和匯出聯絡人名單 為每位聯絡人分配多個標籤 按標籤對聯絡人分組  如需有關群發簡訊平台的概覽，請觀看以下影片：
+ 👥 聯絡人與客戶分組 # SeaX 提供多項功能來有效管理和與客戶基礎互動。聯絡人功能允許用戶手動上傳客戶電話號碼或從 CSV 文件匯入，節省時間並減少錯誤。平台還提供標籤功能，根據人口統計或購買記錄等標準分組聯絡人，實現目標訊息傳遞。此外，用戶還可以匯出聯絡人進行備份或進一步分析。
+ 📲 群發簡訊與排程發送 # SeaX 提供強大的群發訊息功能。用戶可以輕鬆管理和組織客戶資訊，從 CSV 文件匯入聯絡人，並選擇特定的客戶群組或全部聯絡人進行行銷活動。平台允許用戶選擇發送號碼，撰寫包含客戶資訊字段和附件的個性化訊息，並審核/排程訊息發送。此外，用戶可以監控活動進度，匯出活動報告，並管理客戶回應和對話。
+ 💬 對話與雙向簡訊 # SeaX 平台提供強大的對話功能，簡化了客戶回應管理和即時對話互動。通過整齊組織的對話線程，您可以輕鬆跟踪個別交流並及時回覆。該平台還允許您應用標籤進行分類，根據不同標準篩選對話，並輕鬆啟動個性化對話。利用 SeaX 簡化您的客戶互動，建立強大的客戶關係。
+ 🤖 關鍵字與自動回覆 # SeaX 的關鍵字和自動回覆功能讓用戶能根據客戶使用的特定關鍵字創建自定義回覆。此自動化功能有助於提供及時且相關的資訊，同時提升溝通策略。用戶可以為沒有特定關鍵字的訊息和選擇退出的用戶設置預設回覆，確保合規和尊重的溝通。該功能還支持創建自定義關鍵字、自動回覆和自動標籤，有效地組織和分段聯絡人。
+ 🏢 助理/特許經營模式 # 對於擁有多個業務或地點的客戶，SeaX 提供工作區。工作區是 SeaX 平台內的獨立實例，允許數據分離和多業務或地點的管理。用戶可以將電話號碼分配給特定的業務地點，簡化通信，提升客戶體驗，並支持詳細分析。該平台還提供用戶權限功能，允許高效的訪問管理和組織內的協作。</description>
+    </item>
+    
+    <item>
       <title>WhatsApp Business</title>
       <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/</link>
       <pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate>
@@ -20,6 +38,61 @@
    使用 QR 碼連結到 WhatsApp
  步驟 2: 按照 WhatsApp App 上的說明進行操作 # 按照應用上的鏈接和 QR 碼說明將您的設備連結到 WhatsApp。更多信息請查看這裡。
 步驟 3: 將 WhatsApp 連結到 SeaX # 成功連結您的設備後，返回側邊欄選單中的 工作區 下的 頻道。如下面的圖像所示，現在您的賬戶應該已連結到 WhatsApp。</description>
+    </item>
+    
+    <item>
+      <title>WhatsApp 商業平台</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/whatsapp-business-platform/</link>
+      <pubDate>Sat, 21 Dec 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/whatsapp-business-platform/</guid>
+      <description>SeaX 使用者可以將 WhatsApp 商業平台 連接至 SeaX，以整合 Meta Cloud API。
+此功能允許使用者存取其 Meta Business Manager 帳戶，並直接從 SeaX 管理客戶通訊管道。
+在 Meta Business Manager 上運營的高級使用者終於可以體驗真正的全通路溝通，將所有客戶互動統一在一個平台上。
+   如何將 WhatsApp 商業平台 連接到 SeaX # 前往 Workspace 下的 Channel，然後點擊 WhatsApp 商業平台 標籤。
+   點擊 Add Account 以將您的 Meta Business Manager 帳戶連接到 SeaX。
+   新增 Meta Business Manager 帳戶 # 按照系統自動生成的步驟，將您的 Meta Business Manager 帳戶連接至 SeaX。
+ 登入您的 Facebook 帳戶。     連接您的帳戶至 Seasalt AI LLC。     填寫企業資訊：請確保正確填寫企業資訊，並確保 Business Portfolio 中包含您要連接的可用號碼。     創建 WhatsApp Business Profile。     WhatsApp 訊息傳送規則 #   客戶發起對話</description>
+    </item>
+    
+    <item>
+      <title>SeaX 與 SeaChat 的群發簡訊/電話</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-agent-bulk-send/</link>
+      <pubDate>Mon, 22 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-agent-bulk-send/</guid>
+      <description>SeaX 與 SeaChat 的群發簡訊/電話 # SeaX 的群發簡訊功能提供了一個強大的工具，可以從單一平台管理多個業務渠道的通訊。不僅可以向不同客戶發送訊息，還可以通過與 SeaChat 的整合，自動化這些對話。
+本指南將引導您如何使用 SeaX 和 SeaChat 發送群發訊息和電話，幫助您簡化業務通訊。
+設置工作區 # 要將 SeaX 與 SeaChat 整合，您需要一個電話號碼來發送訊息，以及一個 AI 助理來處理對話。您可以在 SeaX 的 工作區 下的 號碼 部分找到電話號碼，並在 SeaChat 的 工作區 下的 AI助理 部分找到 AI 助理。
+   SeaX 號碼
+  🚨 注意 🚨
+確保您在 SeaChat 和 SeaX 上操作相同的工作區，才能正確整合。AI 助理和電話號碼必須在同一個工作區內。
+ 在 SeaChat 上創建 AI 助理 # 首先，在 SeaChat 上部署一個功能性 AI 助理，並設置 SeaX 的整合。由於 SeaX 主要是一個消息傳遞平台，因此您需要前往 SeaChat 配置 AI 助理。</description>
+    </item>
+    
+    <item>
+      <title>SeaX 小工具</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-widget/</link>
+      <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-widget/</guid>
+      <description>簡介 # 在本文中，我們將介紹 SeaX 小工具，這是 SeaX 平台的一項功能，允許您整合一個網路聊天小工具，您的客戶只需點擊即可直接向您的 SeaX 帳戶發送訊息。您將學習如何設置 SeaX Widget 並將其整合到您的網站或應用程式中。
+ 為什麼選擇 SeaX 小工具？ # 為客戶提供流暢的體驗對於任何業務至關重要。SeaX 小工具 可以整合到您的網站或應用程式中，讓客戶能直接向您的 SeaX 帳戶發送訊息。通過在您的網站或應用程式中整合 SeaX Widget，您的客戶只需點擊一下即可獲得所需的幫助。作為業務擁有者，您可以在 SeaX 中統一管理所有客戶互動，這使您更容易管理和回應客戶。
+找到 網路聊天小工具 儀表板 # 首先，讓我們在 SeaX 中找到 網路聊天小工具 儀表板。在側邊欄選單中，點擊 網路聊天小工具 以進入 網路聊天小工具 儀表板。
+ 網路聊天小工具 儀表板
+  設置您的 SeaX 小工具 # 在 網路聊天小工具 儀表板中，您可以自訂 SeaX 小工具 的外觀。您可以更改小工具按鈕的顏色、大小和圖像，以匹配您的網站或應用程式的設計。您還可以設置客戶使用小工具時看到的歡迎訊息。讓我們逐步了解這些設置。
+ 💡 提醒：
+每次進行更改時，記得點擊 儲存 按鈕以應用變更。
+ 懸浮圖示 # 懸浮圖示 設置允許您自訂小工具按鈕的外觀。這是您的客戶在網站或應用程式上看到的內容。通過將 URL 貼上到 小工具標誌 中，您可以更改小工具的圖示，使其符合品牌設計。記得撰寫一條友好的 小工具彈出訊息，作為歡迎訊息。當氣泡按鈕顯示時，您的客戶會看到此訊息。</description>
+    </item>
+    
+    <item>
+      <title>新功能與版本更新</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-messaging-product-updates/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-messaging-product-updates/</guid>
+      <description>2024/12/05 # 錯誤修復 #  修復了生成新對話時出現錯誤的問題  2024/11/14 # 新功能與改進 #  在對話中同步顯示人工介入的狀態 更新了帳單明細 移除了登錄頁面的中文語言機器人  2024/11/07 # 新功能與改進 #  將“記憶”功能重命名為“上下文抽取” 修復了 WhatsApp Business Platform 的國碼缺少 “+” 符號的問題  2024/10/31 # 新功能與改進 #  增加了支持綁定 WhatsApp Business Platform 帳戶以及發送/接收訊息的功能 更新了個別號碼上 AI 助理的啟用和停用狀態 改進了 AI 助手回覆查詢的能力  2024/10/24 # 新功能與改進 #  增加了批量刪除多個標籤的功能 優化了編輯號碼時的選項邏輯行為  錯誤修復 #  修復了自動標籤的問題  2024/10/03 # 新功能與性能優化 #  增加了 WhatsApp 訊息的動態加載功能，避免因加載過多訊息而導致錯誤  錯誤修復 #  新增了一項功能，允許從 SeaX 客服取消活動 修復了“未發送訊息”導致對話顯示為空白的問題 修復了 SMS 活動結束時間早於開始時間的問題  2024/09/26 # 新功能與性能優化 #  增加了 WhatsApp 和 Omni-Channel 的定價計劃 更新了登錄頁面的計劃描述 實現了防止重複活動預訂的機制  2024/09/12 # 新功能與性能優化 #  增加了“Business Caller ID” 綁定功能，允許將購買的號碼綁定到驗證過的“Business Caller IDs”以進行外撥 引入了 WhatsApp 訊息的動態加載功能，提高了加載效率和用戶體驗 新增了購買號碼的歷史記錄 刪除的聯絡人其對話將被保留，且在重新添加聯絡人時重新鏈接  錯誤修復 #  修復了 AI 助理無法處理來電的問題  2024/09/05 # 新功能與性能優化 #  更新了 SeaX 的產品登錄頁面和 URL 引入了用戶註冊和登錄流程 新用戶可自行創建工作區 增加了將號碼轉發至其他指定號碼的功能  2024/08/22 # 新功能與性能優化 #  增加了購買電話號碼的功能 為 Excel 上傳新增錯誤檢查和提示 新增了 Excel 上傳的新用例，允許批量向聯絡人發送訊息 引入了 WhatsApp 訊息的後台加載功能，加快了訊息加載速度  錯誤修復 #  修復了未讀訊息數顯示問題  2024/07/17 # 錯誤修復 #  修復了對話中“未讀”和“已回覆”訊息的篩選問題  2024/06/27 # 錯誤修復 #  修復了加拿大號碼的格式問題 解決了未讀訊息數不正確的問題 修正了群發活動中發送時間顯示問題 確保最後的未讀訊息正確顯示 修復了對話線程在加載期間跳回特定對話的問題  2024/06/20 # 錯誤修復 #  增加了設置群發活動時的“加載中”狀態效果，防止多次點擊創建 禁用 Twilio AMD 檢測以加速 AI 客服互動 修復了無法更換工作區圖標的問題 修正了聯絡人上傳中的錯誤  2024/06/13 # 新功能 #  增加了“成員”排序功能 - 按帳戶電子郵件、用戶名、權限等排序  2024/06/06 # 新功能 #  幫助中心 - 用戶可隨時與支持機器人對話以獲得幫助 聯繫支持 - 用戶可通過 Hubspot 預約支持會話 WhatsApp 修復 - 用戶可在聯絡人頁面編輯電話號碼  2024/05/02 # 新功能 #  增加 WhatsApp 渠道：綁定 WhatsApp 號碼並通過 SeaX 發送 WhatsApp 訊息  2024/03/28 # 增強 #  改進了 SeaX 活動圖標：顯示活動是立即發送還是計劃發送  錯誤修復 #  修復了部件體驗中的錯誤，包括添加測試部件按鈕、在表單中啟用國碼搜索、為表單新增滾動條以及實現 URL 檢查  2024/03/14 # 新功能 #  增加了計劃描述的翻譯功能  錯誤修復 #  修正了“編輯聯絡人的新增標籤”按鈕消失的問題 修復了當沒有活動時活動頁面卡住的問題  2024/03/07 # 新功能 #  網頁聊天部件：在彈出訊息中增加助理圖標  錯誤修復 #  修復了 404 錯誤訊息彈出問題 調整了部件顏色設置，用戶回覆訊息和復選框將與主色對齊  2024/02/01 # 新功能 #  對單一聯絡人安排計劃發送訊息     2024/01/25 # 新功能 #  增加支持查看計劃活動的功能  </description>
     </item>
     
   </channel>

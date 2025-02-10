@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaX Enterprise on </title>
+    <link>https://wiki.seasalt.ai/zh/seax/seax_enterprise/</link>
+    <description>Recent content in SeaX Enterprise on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax_enterprise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaX 企業全渠道聯絡中心功能</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax_enterprise/seax-features/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax_enterprise/seax-features/</guid>
+      <description>基本功能 #  SeaX 全渠道聯絡中心將您的聯絡中心工具集中於一處，提供直觀的介面，使客服人員能夠輕鬆操作，並透過自動化重複性任務，讓客服專注於更重要的對話。
+全渠道訊息整合 # SeaX 功能讓客服人員能夠在同一介面處理來自各種業務平台的客戶請求。
+ SeaX 可整合來自多個平台的訊息，包括 Facebook、SMS、Google Maps、WhatsApp 和 Line。
+Google 業務資訊 # Google Maps 整合提供額外功能，例如自動從 Google Maps 清單中擷取業務資訊。
+更多 Google Maps 功能概述，請觀看以下影片：
+ WhatsApp 訊息 # 以下展示 WhatsApp 整合功能：
+ 直接轉接與間接轉接 # SeaX 內建功能可讓客服人員將來電或訊息轉接至內部其他客服人員。
+ 主管監控與插話 # SeaX 讓管理員可監控或參與通話，以進行培訓或監督。
+ 營業時間與離線訊息 # SeaX 允許根據聯絡中心需求自訂營業時間，並為不同電話號碼設置自動離線訊息。
+ 語音信箱 # SeaX 會記錄客戶的語音留言，並分配給客服人員，確保客服快速回撥。管理員也可在收到新語音留言時收到通知。
+ 進階功能 #  SeaX 全渠道聯絡中心也提供多種進階功能，進一步強化您的聯絡中心。
+SeaX 虛擬客服 # SeaX 虛擬客服是一款可處理語音與文字訊息的 AI 助理，能回答關於業務的基本問題，例如：
+ 位置 營業時間 聯絡資訊 設施 菜單   AI 知識庫 # AI 知識庫自動搜尋您的業務知識庫，在客服與客戶對話時即時提供資訊。</description>
+    </item>
+    
+  </channel>
+</rss>
