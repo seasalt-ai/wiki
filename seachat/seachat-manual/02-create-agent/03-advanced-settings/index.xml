@@ -52,5 +52,16 @@ The use cases of Extraction include:
  Build a user persona, so next time the same user comes back, the AI agent still remembers key points from last conversation.</description>
     </item>
     
+    <item>
+      <title>Enabling References in Chat</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/kb-references/</link>
+      <pubDate>Tue, 11 Feb 2025 08:48:45 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/kb-references/</guid>
+      <description>Overview # The Knowledge Base References feature in SeaChat by Seasalt.ai provides a convenient way to link back to documents used to generate chat responses. When enabled, each chat response will include a References section that lists the source documents, allowing users to see exactly what information contributed to the response.
+How to Enable Knowledge Base References # To enable this feature, follow these steps:
+ Go to the Agent Information -&amp;gt; Advanced Settings tab Toggle Knowledge Base References  Find the Knowledge Base References setting and switch it on to activate the feature.</description>
+    </item>
+    
   </channel>
 </rss>

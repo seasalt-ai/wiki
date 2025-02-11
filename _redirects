@@ -53,6 +53,8 @@
 /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/ /seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/
 /en/seachat/seachat-manual/02-create-agent/03-advanced-settings/03-agent-context-extraction /en/seachat/manual/create-agent/advanced-settings/context-extraction/
 /en/seachat/manual/create-agent/advanced-settings/agent-memory/ /en/seachat/manual/create-agent/advanced-settings/context-extraction/
+/en/seachat/seachat-manual/02-create-agent/03-advanced-settings/05-kb-references /en/seachat/manual/create-agent/advanced-settings/kb-references/
+/en/seachat/manual/create-agent/advanced-settings/kb-references/ /en/seachat/manual/create-agent/advanced-settings/kb-references/
 /seachat/seachat-manual/test-and-improve/ /seachat/seachat-manual/07-test-and-improve-ai-agent/
 /en/seameet/00-seameet-faq/ /seameet/seameet-manual/00-seameet-faq/
 /en/seax-product-updates/ /seax/seax_messaging/seax-messaging-product-updates/
