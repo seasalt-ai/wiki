@@ -10,7 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/seax-integration-in-seachat/
-url: /seachat/integrations/seax-seachat/  
+url: /seachat/integrations/seax-seachat/
 weight: 606
 toc: true
 ---
@@ -25,11 +25,11 @@ With SeaX integrated into SeaChat, you can not only manually manage customer con
 
 ## SeaX Bulk Call/Send
 
-SeaX provides a channel for your AI agents to communicate with customers. Once SeaX is integrated with SeaChat, you can start sending bulk messages to your customers via SeaX. 
+SeaX provides a channel for your AI agents to communicate with customers. Once SeaX is integrated with SeaChat, you can start sending bulk messages to your customers via SeaX.
 
 SeaChat and SeaX work seamlessly with each other to perform the bulk messaging. SeaX will start calling each customer on the given list about 1 second per call. Once the call is answered, the AI agent will take over the conversation, and all you have to do now is go to the **Conversations** dashboard to view the conversation.
 
-SeaChat does not know the list of the customers you are calling, and neither is it capable of making calls. SeaChat only handles the conversation once conversation is initiated. On the other hand, SeaX is responsible for initiating the calls and sending the messages. 
+SeaChat does not know the list of the customers you are calling, and neither is it capable of making calls. SeaChat only handles the conversation once conversation is initiated. On the other hand, SeaX is responsible for initiating the calls and sending the messages.
 
 You can create **Campaigns** to send SMS messages or voice drops to your customers. These campaigns will be delivered through SeaX, and then handled by your personalized AI agent on SeaChat.
 
