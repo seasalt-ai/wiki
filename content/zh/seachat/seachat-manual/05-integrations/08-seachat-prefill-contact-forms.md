@@ -18,8 +18,8 @@ toc: true
 SeaChat 支援透過偵測網路聊天 URL 中的查詢字串來預先填入網路聊天表單中使用者資訊。這允許您的網站和聊天小部件之間的無縫集成，您的客戶不需要手動輸入他們的詳細資訊。
 
 <center>
-<a href="/images/seachat-integrations/widget/demo.gif">
-<img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo.gif" alt="Demo GIF of prefilling">
+<a href="/images/seachat-integrations/widget/demo1.gif">
+<img height="800px" style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo1.gif" alt="Demo GIF of prefilling">
 </a>
 </center>
 
@@ -120,7 +120,7 @@ https://chat.seasalt.ai/chat/uuid
 您應該如下修改您的網頁聊天 URL：
 
 ```
-https://chat-dev.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_PHONE=123456
+https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_PHONE=123456
 ```
 
 當網路聊天載入修改後的 URL 時，表單將自動填入所提供的使用者詳細資料：
@@ -130,8 +130,8 @@ https://chat-dev.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_
 - **電話:** 123456
 
 <center>
-<a href="/images/seachat-integrations/widget/demo.gif">
-<img width="100%" style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo.gif" alt="Demo GIF of prefilling">
+<a href="/images/seachat-integrations/widget/demo2.gif">
+<img height="800px"style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo2.gif" alt="Demo GIF of prefilling">
 </a>
 </center>
 
@@ -162,7 +162,7 @@ SeaChat 也支援在網路聊天表單中預先填寫自訂欄位。
 如果您想在網頁聊天表單中預先填寫 **帳戶 ID**（使用`VAR_0001`標識）字段，則更新後的網路聊天 URL 將如下所示：
 
 ```
-https://chat-dev.seasalt.ai/chat/uuid?_NAME=JohnDoe&VAR_0001=98765
+https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&VAR_0001=98765
 ```
 
 當網路聊天載入時，表單將自動填寫：
