@@ -170,8 +170,7 @@ https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_PHON
 - **姓名:** John Doe
 - **郵箱:** [johndoe@example.com](mailto:johndoe@example.com)
 - **電話:** 123456
-
-- 帳戶ID：9876
+- **帳戶ID:**9876
 
 <center>
 <a href="/images/seachat-integrations/widget/demo2.gif">

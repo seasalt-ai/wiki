@@ -170,7 +170,7 @@ When the webchat loads, the form will be auto-filled with:
 - **Name:** John Doe
 - **Email:** [johndoe@example.com](mailto:johndoe@example.com)
 - **Phone:** 123456
-- Account ID: 9876
+- **Account ID:** 9876
 
 <center>
 <a href="/images/seachat-integrations/widget/demo2.gif">
