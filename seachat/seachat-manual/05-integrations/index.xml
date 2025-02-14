@@ -84,5 +84,15 @@ For more information, check out our SeaX Documentation.
 With SeaX integrated into SeaChat, you can not only manually manage customer conversations but also automate responses with your SeaChat AI agent. SeaX consolidates all your business channels, such as WhatsApp, phone calls, and SMS, allowing these channels to be directed to SeaChat for AI-driven responses.</description>
     </item>
     
+    <item>
+      <title>Programmatically Pre-Fill Contact Forms in WebChat</title>
+      <link>https://wiki.seasalt.ai/seachat/integrations/seachat-prefill-contact-forms/</link>
+      <pubDate>Tue, 16 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/integrations/seachat-prefill-contact-forms/</guid>
+      <description>SeaChat supports pre-filling user information in the webchat form by detecting query strings in the webchat URL. This allows seamless integration between your website and the chat widget, so your customers don’t need to enter their details manually.
+    Why is this important? This is mostly used in scenarios where your end users have already logged into your system, then you can use their login info to auto fill in the contact form.</description>
+    </item>
+    
   </channel>
 </rss>

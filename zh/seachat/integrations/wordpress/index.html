@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-05-20T08:48:57+00:00">
-  <meta property="article:modified_time" content="2025-02-11T13:59:12-08:00">
+  <meta property="article:modified_time" content="2025-02-13T16:08:10-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-05-20T08:48:57CET",
-      "dateModified": "2025-02-11T13:59:12CET",
+      "dateModified": "2025-02-13T16:08:10CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/#/schema/breadcrumb/1"
       },
@@ -602,6 +602,11 @@
                           <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/">Wordpress</a></li>
                         
                       
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seachat-prefill-contact-forms/">以程式設計方式在 WebChat 中預先填寫聯絡表格</a></li>
+                        
+                      
                     </ul>
                   </div>
                 </li>
@@ -1074,6 +1079,11 @@
                           <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/">Wordpress</a></li>
                         
                       
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seachat-prefill-contact-forms/">以程式設計方式在 WebChat 中預先填寫聯絡表格</a></li>
+                        
+                      
                     </ul>
                   </div>
                 </li>
@@ -1287,9 +1297,10 @@
     <li><a href="#步驟3複製seachat程式代碼">步驟3：複製SeaChat程式代碼</a></li>
     <li><a href="#步驟4打開佈景主題檔案編輯器並貼上seachat程式碼">步驟4：打開「佈景主題檔案編輯器」並貼上SeaChat程式碼</a></li>
     <li><a href="#步驟5預覽">步驟5：預覽</a></li>
-    <li><a href="#步驟8儲存並預覽">步驟8：儲存並預覽</a>
+    <li><a href="#步驟8儲存並預覽">步驟8：儲存並預覽</a></li>
+    <li><a href="#排障提醒seachat-小工具未在網頁載入">排障提醒：SeaChat 小工具未在網頁載入？</a>
       <ul>
-        <li><a href="#協助支援">協助支援</a></li>
+        <li></li>
       </ul>
     </li>
   </ul>
@@ -1312,9 +1323,10 @@
     <li><a href="#步驟3複製seachat程式代碼">步驟3：複製SeaChat程式代碼</a></li>
     <li><a href="#步驟4打開佈景主題檔案編輯器並貼上seachat程式碼">步驟4：打開「佈景主題檔案編輯器」並貼上SeaChat程式碼</a></li>
     <li><a href="#步驟5預覽">步驟5：預覽</a></li>
-    <li><a href="#步驟8儲存並預覽">步驟8：儲存並預覽</a>
+    <li><a href="#步驟8儲存並預覽">步驟8：儲存並預覽</a></li>
+    <li><a href="#排障提醒seachat-小工具未在網頁載入">排障提醒：SeaChat 小工具未在網頁載入？</a>
       <ul>
-        <li><a href="#協助支援">協助支援</a></li>
+        <li></li>
       </ul>
     </li>
   </ul>
@@ -1338,8 +1350,30 @@
 <h2 id="步驟8儲存並預覽">步驟8：儲存並預覽 <a href="#%e6%ad%a5%e9%a9%9f8%e5%84%b2%e5%ad%98%e4%b8%a6%e9%a0%90%e8%a6%bd" class="anchor" aria-hidden="true">#</a></h2>
 <p>現在訪問你的網站，即可看到SeaChat網頁聊天機器人在右下角。</p>
 <p><strong>非常重要</strong>: 如果您想要配置小工具的樣式，請前往「頻道」-&gt;「網頁AI助理」-&gt;「基本設置」。您的AI助理將在您的網頁聊天掛件頻道中共享相同的樣式。</p>
-<h3 id="協助支援">協助支援 <a href="#%e5%8d%94%e5%8a%a9%e6%94%af%e6%8f%b4" class="anchor" aria-hidden="true">#</a></h3>
-<p>需要協助？歡迎聯絡我們 <a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>.</p>
+<h2 id="排障提醒seachat-小工具未在網頁載入">排障提醒：SeaChat 小工具未在網頁載入？ <a href="#%e6%8e%92%e9%9a%9c%e6%8f%90%e9%86%92seachat-%e5%b0%8f%e5%b7%a5%e5%85%b7%e6%9c%aa%e5%9c%a8%e7%b6%b2%e9%a0%81%e8%bc%89%e5%85%a5" class="anchor" aria-hidden="true">#</a></h2>
+<p>如果您使用的 WordPress 最佳化外掛會消除 render-blocking CSS，請注意，這可能會導致 SeaChat 網頁聊天小工具無法正常載入您的網站。</p>
+<h4 id="-原因"><strong>🔍 原因</strong> <a href="#-%e5%8e%9f%e5%9b%a0" class="anchor" aria-hidden="true">#</a></h4>
+<p>某些最佳化外掛可能會延遲或移除關鍵 CSS，這可能影響 SeaChat 小工具的呈現方式，導致以下問題：</p>
+<ul>
+<li>小工具無法顯示在您的網站上。</li>
+<li>聊天小工具出現異常的 UI 問題。</li>
+</ul>
+<h4 id="-修復方法"><strong>🛠️ 修復方法</strong> <a href="#-%e4%bf%ae%e5%be%a9%e6%96%b9%e6%b3%95" class="anchor" aria-hidden="true">#</a></h4>
+<p>如果您啟用了效能最佳化外掛，請按照以下步驟操作：</p>
+<ol>
+<li>檢查您的外掛設定是否包含 「消除 Render-Blocking CSS」 或 「最佳化 CSS 傳遞」 選項。</li>
+<li>停用此特定最佳化設定，以防影響聊天小工具的正常運作。</li>
+<li>清除快取並重新載入您的網站，以確保聊天小工具能夠正確運作。</li>
+</ol>
+<h4 id="外掛示例-wp-rocket"><strong>外掛示例: WP Rocket</strong> <a href="#%e5%a4%96%e6%8e%9b%e7%a4%ba%e4%be%8b-wp-rocket" class="anchor" aria-hidden="true">#</a></h4>
+<p>我們以 <strong>WP Rocket</strong> 這款廣泛使用的網站效能最佳化外掛為例。在 <strong>「檔案最佳化」</strong>（File Optimization）標籤下，請勿勾選 <strong>「最佳化 CSS 傳遞」</strong>（Optimize CSS Delivery）選項，以確保 SeaChat 網頁聊天小工具能順利載入。</p>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/zendesk-ticket-search/image2.png">
+<img width="100%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seachat-integrations/wordpress/wordpress-seachat-wp_rocket.png" alt="WP Rocket Settings">
+</a>
+</center>
+<br/>
+<p>如果您需要進一步協助，歡迎隨時聯絡 <a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>.！🚀</p>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
@@ -1352,10 +1386,10 @@
 				</div>
 			</div>
 		</a>
-	<a class="ms-auto" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/">
+	<a class="ms-auto" href="https://wiki.seasalt.ai/zh/seachat/integrations/seachat-prefill-contact-forms/">
 			<div class="card my-1">
 				<div class="card-body py-2">
-					設定SeaChat語言和外觀 &rarr;
+					以程式設計方式在 WebChat 中預先填寫聯絡表格 &rarr;
 				</div>
 			</div>
 		</a>
