@@ -130,8 +130,8 @@ https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_PHON
 - **電話:** 123456
 
 <center>
-<a href="/images/seachat-integrations/widget/demo2.gif">
-<img height="800px"style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo2.gif" alt="Demo GIF of prefilling">
+<a href="/images/seachat-integrations/widget/demo1.gif">
+<img height="800px"style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo1.gif" alt="Demo GIF of prefilling">
 </a>
 </center>
 
@@ -162,13 +162,24 @@ SeaChat 也支援在網路聊天表單中預先填寫自訂欄位。
 如果您想在網頁聊天表單中預先填寫 **帳戶 ID**（使用`VAR_0001`標識）字段，則更新後的網路聊天 URL 將如下所示：
 
 ```
-https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&VAR_0001=98765
+https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_PHONE=123456&VAR_0001=9876
 ```
 
 當網路聊天載入時，表單將自動填寫：
 
-- 姓名：John Doe
-- 帳戶ID：98765
+- **姓名:** John Doe
+- **郵箱:** [johndoe@example.com](mailto:johndoe@example.com)
+- **電話:** 123456
+
+- 帳戶ID：9876
+
+<center>
+<a href="/images/seachat-integrations/widget/demo2.gif">
+<img height="800px"style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo2.gif" alt="Demo GIF of prefilling">
+</a>
+</center>
+
+<br/>
 
 ## **概括**
 

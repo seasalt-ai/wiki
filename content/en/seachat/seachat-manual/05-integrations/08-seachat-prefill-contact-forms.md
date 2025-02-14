@@ -130,8 +130,8 @@ When the webchat loads with the modified URL, the form will be automatically pop
 - **Email:** [johndoe@example.com](mailto:johndoe@example.com)
 - **Phone:** 123456
 <center>
-<a href="/images/seachat-integrations/widget/demo2.gif">
-<img height="800px" style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo2.gif" alt="Demo GIF of prefilling">
+<a href="/images/seachat-integrations/widget/demo1.gif">
+<img height="800px" style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo1.gif" alt="Demo GIF of prefilling">
 </a>
 </center>
 
@@ -162,13 +162,23 @@ SeaChat also supports pre-filling custom fields in the webchat form.
 If you want to pre-fill an **Account ID** (identified using `VAR_0001`) field in your webchat form, your updated webchat URL will look like this:
 
 ```
-https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&VAR_0001=98765
+https://chat.seasalt.ai/chat/uuid?_NAME=JohnDoe&_EMAIL=johndoe@example.com&_PHONE=123456&VAR_0001=9876
 ```
 
 When the webchat loads, the form will be auto-filled with:
 
-- Name: John Doe
-- Account ID: 98765
+- **Name:** John Doe
+- **Email:** [johndoe@example.com](mailto:johndoe@example.com)
+- **Phone:** 123456
+- Account ID: 9876
+
+<center>
+<a href="/images/seachat-integrations/widget/demo2.gif">
+<img height="800px"style="border-radius: 0.4rem" src="/images/seachat-integrations/widget/demo2.gif" alt="Demo GIF of prefilling">
+</a>
+</center>
+
+<br/>
 
 ## **Summary**
 
