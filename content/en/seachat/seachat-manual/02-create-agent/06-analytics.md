@@ -119,7 +119,26 @@ The channel breakdown table displays the following data for each channel:
 - Inbound Messages Received – The total number of messages sent by users across each channel during the selected date range.
 
 #### Setting Up Sub-Channel Tracking
-!! TODO
+The SeaChat WebChat widget allows you to install a chat window directly in your own website.
+Some clients add the webchat widget to multiple sites and want to be able to track the amount of traffic from the widget on each site separately.
+By default, the channel breakdown will lump all the webchat traffic together into a single channel type called `WEBCHAT`.
+However, with a simple customization to the WebChat widget code, you can provide a specific "subchannel" name to each instance of the widget and track the traffic separately.
+
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" alt="SeaChat Analytics WebChat Subchannel Setup">
+</a>
+
+**WebChat Subchannel Setup**
+</center>
+
+Navigate to `Channels` -> `WebChat` -> `Install Widget` to find the WebChat widget code.
+Within this code block, there are four instances of your chatbot's webchat URL - it looks like this: `https://chat.seasalt.ai/chat/{chat_config_id}`.
+To distinguish different subchannels, simply append to following to the end of the URL: `?channel={subchannel_name}`. 
+For example, say you want to add the WebChat widget to your homepage as well as your wiki site.
+You could update the URL `https://chat.seasalt.ai/chat/aaaabbbbccccdddd` to `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=homepage` and add the widget code to your homepage.
+Then you could update the URL again to `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=wiki` and add the code to your wiki site.
+In the channel breakdown, you would see traffic from two separate channels: `WEBCHAT - homepage` and `WEBCHAT - wiki`.
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/04-seachat-analytics-messages-by-day-of-week.png" target="_blank">
