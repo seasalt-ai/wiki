@@ -42,7 +42,7 @@ SeaChat 數據分析功能提供有關用戶與AI智能助理互動的寶貴見�
 
 預設情況下，儀表板資料每小時更新一次。如果您想按需刷新數據，請按一下`刷新數據`按鈕。
 
-### Basic Metrics
+### 分析指標
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/01-seachat-analytics-settings-metrics.png" target="_blank">
@@ -93,7 +93,7 @@ SeaChat 數據分析中的指標部分提供了AI智能助理在選定時間範�
 
 </center>
 
-SeaChat Analytics 中的「對話概述」部分提供了選定年份的AI智能助理互動的高級摘要。用戶可以從下拉式選單中選擇特定年份，以查看該期間AI智能助理參與度的關鍵統計數據。
+SeaChat 數據分析中的「對話概述」部分提供了選定年份的AI智能助理互動的高級摘要。用戶可以從下拉式選單中選擇特定年份，以查看該期間AI智能助理參與度的關鍵統計數據。
 
 - 對話總數 – 顯示所選年份的AI智能助理對話總數。
   每個對話的平均訊息數 – 顯示每個對話交換的平均訊息數，幫助評估使用者參與度。
@@ -120,34 +120,34 @@ SeaChat Analytics 中的「對話概述」部分提供了選定年份的AI智能
 
 通道細分錶顯示每個通道的以下資料：
 
-- 頻道 – 使用者與AI智能助理互動的不同通訊管道（例如，Webchat、LINE、WhatsApp、Voice、Messenger 等）。 SeaChat 提供的所有頻道一旦有流量就會自動出現在表格中。
+- 頻道 – 使用者與AI智能助理互動的不同通訊管道（例如，網路聊天、LINE、WhatsApp、Voice、Messenger 等）。 SeaChat 提供的所有頻道一旦有流量就會自動出現在表格中。
 - 獨立訪客 – 在選定時間範圍內透過每個特定管道與AI智能助理互動的獨立使用者數量。
 - 收到的入站訊息 – 在選定日期範圍內使用者透過每個管道傳送的訊息總數。
 
 #### 設定子頻道追蹤
 
-SeaChat WebChat 小工具可讓您直接在自己的網站中安裝聊天視窗。
+SeaChat 網路聊天 小工具可讓您直接在自己的網站中安裝聊天視窗。
 一些客戶將網路聊天小部件添加到多個站點，並希望能夠單獨追蹤每個站點上小部件的流量​​。
-預設情況下，頻道細分會將所有網路聊天流量集中到一個名為`WEBCHAT`的頻道類型。
-但是，透過對 WebChat 小部件程式碼進行簡單的自訂，您可以為小部件的每個實例提供特定的`子通道`名稱並單獨追蹤流量。
-使用子頻道資訊自訂網路聊天小工具後，所有後續流量將在表格中顯示為`WEBCHAT - {subchannel}`。
+預設情況下，頻道細分會將所有網路聊天流量集中到一個名為`網路聊天`的頻道類型。
+但是，透過對 網路聊天 小部件程式碼進行簡單的自訂，您可以為小部件的每個實例提供特定的`子通道`名稱並單獨追蹤流量。
+使用子頻道資訊自訂網路聊天小工具後，所有後續流量將在表格中顯示為`網路聊天 - {subchannel}`。
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" alt="SeaChat Analytics WebChat Subchannel Setup">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" alt="SeaChat Analytics 網路聊天 Subchannel Setup">
 </a>
 
-**WebChat 子通道設定**
+**網路聊天 子通道設定**
 
 </center>
 
-導航至 `頻道` -> `WebChat` -> `安裝小部件` 以尋找 WebChat 小工具程式碼。
+導航至 `頻道` -> `網路聊天` -> `安裝小部件` 以尋找 網路聊天 小工具程式碼。
 在此程式碼區塊中，有四個AI智能助理的網路聊天 URL 實例 - 如下所示：`https://chat.seasalt.ai/chat/{chat_config_id}`。
 要區分不同的子頻道，只需將以下內容附加到 URL 末尾：`?channel={subchannel_name}`。
-例如，假設您想要將 WebChat 小工具新增到您的主頁以及 wiki 網站。
+例如，假設您想要將 網路聊天 小工具新增到您的主頁以及 wiki 網站。
 您可以將 URL `https://chat.seasalt.ai/chat/aaaabbbbccccdddd` 更新為 `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=homepage` 並將小工具程式碼新增至您的主頁。
 然後您可以再次將 URL 更新為`https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=wiki`並將程式碼新增至您的 wiki 網站。
-在頻道細分中，您將看到來自兩個獨立管道的流量：`WEBCHAT - homepage` 和 `WEBCHAT - wiki`。
+在頻道細分中，您將看到來自兩個獨立管道的流量：`網路聊天 - homepage` 和 `網路聊天 - wiki`。
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/04-seachat-analytics-messages-by-day-of-week.png" target="_blank">
