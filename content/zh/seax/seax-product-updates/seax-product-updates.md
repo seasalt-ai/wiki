@@ -15,6 +15,11 @@ url: /zh/seax/product-updates/
 weight: 400
 toc: true
 ---
+### 2/13/2025
+##### **<font color="#739963">新功能與改進</font>**
+ - 支援 SeaChat 整合 WhatsApp 商務平台，並同步 WhatsApp 商務平台訊息至 SeaChat
+ - 支援於號碼頁為 WhatsApp 號碼指定應答的 AI 客服，並可於 SeaX 接管或重啟對話
+ - 新增 WhatsApp 活動寄送失敗時，活動卡片應呈現的狀態
 
 ### 2/6/2025
 ##### **<font color="#739963">新功能與改進</font>**
