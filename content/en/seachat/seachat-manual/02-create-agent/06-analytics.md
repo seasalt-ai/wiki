@@ -114,7 +114,7 @@ The Conversations Breakdown by Day, Time & Channel section allows users to analy
 
 The channel breakdown table displays the following data for each channel:
 
-- Channel – The different communication channels through which users are interacting with the chatbot (e.g., Webchat, LINE, WhatsApp, Voice, Messenger, etc.).
+- Channel – The different communication channels through which users are interacting with the chatbot (e.g., Webchat, LINE, WhatsApp, Voice, Messenger, etc.). All channels offered by SeaChat will automatically appear in the table once they have traffic.
 - Unique Visitors – The number of distinct users who engaged with the chatbot via each specific channel within the selected time frame.
 - Inbound Messages Received – The total number of messages sent by users across each channel during the selected date range.
 
@@ -123,6 +123,7 @@ The SeaChat WebChat widget allows you to install a chat window directly in your 
 Some clients add the webchat widget to multiple sites and want to be able to track the amount of traffic from the widget on each site separately.
 By default, the channel breakdown will lump all the webchat traffic together into a single channel type called `WEBCHAT`.
 However, with a simple customization to the WebChat widget code, you can provide a specific "subchannel" name to each instance of the widget and track the traffic separately.
+Once you customize the webchat widget with subchannel information, all subsequent traffic will appear as `WEBCHAT - {subchannel}` in the table.
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" target="_blank">
