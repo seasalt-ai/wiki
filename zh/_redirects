@@ -46,6 +46,7 @@
 /seax/seax-agent-bulk-send/ /zh/seax/seax_messaging/seax-agent-bulk-send/
 /zh/seachat/seachat-manual/02-create-agent/03-agent-duplication-replacement /zh/seachat/manual/create-agent/version-control/
 /zh/seachat/seachat-manual/seachat-agent-conversation/ /zh/seachat/manual/conversation/
+/zh/seachat/seachat-manual/analytics/ /zh/seachat/manual/analytics/
 /zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/02-retrieval-augmented-generation-rag /zh/seachat/manual/create-agent/advanced-settings/rag/
 /zh/seachat/seachat-manual/02-create-agent/03-agent-context-extraction /zh/seachat/manual/create-agent/advanced-settings/context-extraction/
 /zh/seachat/manual/create-agent/advanced-settings/agent-memory/ /zh/seachat/manual/create-agent/advanced-settings/context-extraction/

@@ -59,5 +59,15 @@ Depending on your SeaChat channel, it might take different configurations to ena
  Users can switch between all conversations and live agent conversations. In live agent conversations, users can view conversations that have been handled by live agents.</description>
     </item>
     
+    <item>
+      <title>Analytics</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/analytics/</link>
+      <pubDate>Fri, 14 Feb 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/analytics/</guid>
+      <description>SeaChat Analytics # Overview # The SeaChat Analytics feature provides valuable insights into user interactions with your AI chatbot. This dashboard enables you to track key performance metrics over time, helping measure engagement, optimize chatbot performance, and make data-driven decisions. Navigate to the Analytics tab below Agent Configuration to view the analytics page for a specific bot.
+📊 Track Chatbot Performance Monitor the number of conversations, unique visitors, and message activity to understand how users are engaging with your chatbot.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -124,5 +124,26 @@ AI助理取代 #  📍取代AI助理時，什麼資料被取代了？
    Sender type Channel type Sender name Time in GMT Message Data     發送者類型 (Sender type)：發送者的類型。您可以識別發送者是AI助理、系統通知、用戶等。 頻道類型 (Channel type)：對話的通訊通道。您可以識別對話是來自 WebChat、WhatsApp、電話等。以下為頻道類型的列表：  系統（這指的是系統訊息） WebChat SeaAuth（這通常用於驗證目的） Line WhatsApp Messenger Instagram 語音（這指的是電話通話） 第三方客戶端 AgentPhone（這指的是來自 SeaChat 語音助理的電話通話，通常用於驗證 token） SeaX_Call（這指的是透過 SeaX 進行的電話通話） SeaX_SMS（這指的是透過 SeaX 發送的 SMS）   發送者名稱 (Sender name)：發送者的名稱。如果發送者是真人用戶，您會在此欄位找到發送者的 ID 或電子郵件。否則，將會顯示系統的識別碼。 GMT 時間 (Time in GMT)：訊息的 GMT 格式時間戳。 訊息 (Message)：對話的訊息內容。大部分情況下，這個欄位包含純文字訊息。然而，它也可以包含特定的指令類型，例如：  /live_agent: 使用者要求將對話轉接至 live agent。 /submit_form: 使用者提交表單。如果涉及實體，指令會顯示為 /submit_form{&amp;quot;entity_name&amp;quot;:&amp;quot;entity_value&amp;quot;}。 /clear_history: 使用者要求 bot 忘記對話記錄並重新開始。 /ai_agent: 使用者要求將對話轉接至 AI agent。   資料 (Data)：以JSON格式呈現的對話資料內容。如果對話中沒有資料內容，這個欄位將會是空的。當資料存在時，它可能包含但不限於以下類型：  在訊息中傳送的圖片 URL。 語音通話的錄音檔案 URL。 使用者在聊天過程中填寫的表單。    </description>
     </item>
     
+    <item>
+      <title>數據分析</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/analytics/</link>
+      <pubDate>Fri, 14 Feb 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/analytics/</guid>
+      <description>SeaChat 數據分析 # 總結 # SeaChat 數據分析功能提供有關用戶與AI智能助理互動的寶貴見解。這款儀表板可讓您追蹤一段時間內的關鍵績效指標，幫助衡量參與度、優化AI智能助理效能並做出數據驅動的決策。導航至 助理配置下方的 分析選項卡，查看特定AI智能助理的分析頁面。
+📊 追蹤AI智能助理的表現 監控對話數量、唯一訪客和訊息活動，以了解用戶如何與您的AI智能助理互動。
+📈 衡量成長和趨勢 比較不同時間範圍（過去 7 天、過去 30 天等）的數據，以確定AI智能助理使用和使用者行為的趨勢。
+🤖 優化AI智能助理回應 分析AI智能助理訊息統計數據，了解聊AI智能助理處理對話的效率，並優化回應以提高用戶滿意度。
+👥 提高客戶參與度 透過追蹤真人客服請求和用戶交互，企業可以發現增強客戶支援和自動化策略的機會。
+🔄 數據驅動決策 使用即時分析來完善AI智能助理工作流程，提高回應準確性，並根據實際使用模式優化使用者體驗
+設定 # 在頁面頂部，您可以配置一些設定。首先，選擇您希望顯示資料的時區。例如，如果使用者開啟網路聊天並閱讀歡迎訊息，但沒有發送訊息，則仍會建立對話並顯示在對話統計資料中。如果您選取該設定框，像這樣沒有使用者訊息的對話將從統計資料中 排除。
+預設情況下，儀表板資料每小時更新一次。如果您想按需刷新數據，請按一下刷新數據按鈕。
+分析指標 #   SeaChat 數據分析指標
+ SeaChat 數據分析中的指標部分提供了AI智能助理在選定時間範圍內的表現的詳細細分。您可以透過選擇來自訂日期範圍：
+ 最後一天 過去 7 天 過去 30 天 過去 90 天 過去 180 天  選擇時間範圍後，SeaChat 會將AI智能助理在該時間內的表現與先前相同的時間長度進行比較。例如：
+ 如果您選擇過去 7 天，顯示的指標會將過去 7 天與之前 7 天的時間段進行比較。
+  如果您選擇過去 30 天，它將比較過去 30 天和之前的 30 天。</description>
+    </item>
+    
   </channel>
 </rss>
