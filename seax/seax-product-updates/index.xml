@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
-      <description>2/6/2025 # New Features and Improvements #  Added contact search functionality to the dial pad. Fixed the timing of success and failure notifications for contact uploads.  1/22/2025 # New Features and Improvements #  Added options to select &amp;ldquo;Input Device&amp;rdquo; and &amp;ldquo;Output Device&amp;rdquo; in the dial pad. Adjusted the display of &amp;ldquo;Unverified Numbers&amp;rdquo; in the WhatsApp Business Platform number list. Updated phone call display icons.  1/16/2025 # New Features and Improvements #  Introduced call logs list displaying call outcomes for inbound and outbound calls.</description>
+      <description>2/13/2025 # New Features and Improvements #  Integrated SeaChat with WhatsApp Business Platform, enabling synchronization of WhatsApp Business messages to SeaChat. Added AI agent assignment for WhatsApp at the numbers page, with the ability to take over or reactivate conversations from SeaX. Added campaign failed status for WhatsApp campaign cards when campaign delivery fails.  2/6/2025 # New Features and Improvements #  Added contact search functionality to the dial pad.</description>
     </item>
     
   </channel>

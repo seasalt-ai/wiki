@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>2/6/2025 # New Features and Improvements #  Improved audio file upload experience, including progress bar display, restriction on submission before file upload, and guidance for incorrect file formats. Corrected the FAQ section explanation regarding &amp;ldquo;In-Person Meetings&amp;rdquo; on the landing page.  1/22/2025 # New Features and Improvements #  Updated Google Docs meeting titles to include dates for distinguishing recurring meetings. Modified the user flow after clicking the extension.  1/16/2025 # New Features and Improvements #  Enhanced audio upload experience with improved failure notifications, file analysis loading previews, and clearer error messages.</description>
+      <description>2/13/2025 # New Features and Improvements #  Added a &amp;ldquo;Try It Out&amp;rdquo; section on the product landing page. Adjusted timestamps on the meeting list to display in minutes for meetings ending within an hour or starting soon. Fixed an issue where logging in with an unregistered Google account on the extension would get stuck on the loading screen. Fixed the calculation method for speaker ID queue.  2/6/2025 # New Features and Improvements #  Improved audio file upload experience, including progress bar display, restriction on submission before file upload, and guidance for incorrect file formats.</description>
     </item>
     
   </channel>
