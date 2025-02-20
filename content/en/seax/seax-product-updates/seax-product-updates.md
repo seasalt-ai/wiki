@@ -16,6 +16,12 @@ weight: 1
 toc: true
 ---
 
+### 2/13/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Integrated SeaChat with WhatsApp Business Platform, enabling synchronization of WhatsApp Business messages to SeaChat.  
+- Added AI agent assignment for WhatsApp at the numbers page, with the ability to take over or reactivate conversations from SeaX.  
+- Added campaign failed status for WhatsApp campaign cards when campaign delivery fails.  
+
 ### 2/6/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added contact search functionality to the dial pad.  

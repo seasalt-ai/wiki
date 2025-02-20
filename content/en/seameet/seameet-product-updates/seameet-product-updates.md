@@ -16,6 +16,13 @@ weight: 400
 toc: true
 ---
 
+### 2/13/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added a "Try It Out" section on the product landing page.  
+- Adjusted timestamps on the meeting list to display in minutes for meetings ending within an hour or starting soon.  
+- Fixed an issue where logging in with an unregistered Google account on the extension would get stuck on the loading screen.  
+- Fixed the calculation method for speaker ID queue.  
+
 ### 2/6/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Improved audio file upload experience, including progress bar display, restriction on submission before file upload, and guidance for incorrect file formats.  

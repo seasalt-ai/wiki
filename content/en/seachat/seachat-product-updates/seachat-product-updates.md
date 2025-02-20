@@ -16,6 +16,15 @@ weight: 1600
 toc: true
 ---
 
+### 2/19/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Evaluation Testing: Users can now assess AI agent responses by providing test sets, each containing a user query, a gold response, and optional conversation history. The AI agent’s response is compared against the gold response, with results displaying overall correctness and individual sample accuracy. Users can refine their AI agent and run evaluations to continuously improve performance.
+- Conversation Label Editing: Users can now create, edit, and delete chat labels directly from the Labels page.
+- Knowledge Base (KB) Export: Users can now export all KB entries by going to Knowledge Based → Existing → View All and choose Export to CSV or JSON via the corresponding option. Files can be updated and re-uploaded through "Upload from Template File".
+
+
 ### 2/13/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
