@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax_messaging"
+    parent: "seax-messaging"
 weight: 1
 toc: true
 ---

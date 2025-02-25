@@ -19,7 +19,7 @@ toc: true
 
 In this tutorial, we will guide you through setting up Seasalt's bulk-messaging platform, SeaX, in SeaChat. SeaX is a powerful omni-channel platform that enables you to manage all your business channels from a single interface.
 
-For more information, check out our [SeaX Documentation](https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/).
+For more information, check out our [SeaX Documentation](https://wiki.seasalt.ai/seax/seax-messaging/bulk-messaging-features/).
 
 With SeaX integrated into SeaChat, you can not only manually manage customer conversations but also automate responses with your SeaChat AI agent. SeaX consolidates all your business channels, such as WhatsApp, phone calls, and SMS, allowing these channels to be directed to SeaChat for AI-driven responses.
 
@@ -105,7 +105,7 @@ Once you have completed the testing, you can begin sending bulk messages to your
 
 When the system displays the above warning, it means you need to provide a phone number to the AI agent so that the agent can use it as the channel to manage incoming calls and SMS messages. If someone calls this number or sends an SMS, the AI agent will handle the conversation.
 
-To provide this number, you need to configure SeaX and send an outbound call or SMS to the SeaChat agent first. Please follow the [SeaX Documentation](https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/) for instructions on how to send an SMS or make a call to the agent.
+To provide this number, you need to configure SeaX and send an outbound call or SMS to the SeaChat agent first. Please follow the [SeaX Documentation](https://wiki.seasalt.ai/seax/seax-messaging/bulk-messaging-features/) for instructions on how to send an SMS or make a call to the agent.
 
 Specifically:
 
