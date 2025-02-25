@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on </title>
+    <link>https://wiki.seasalt.ai/zh/seax/seax-resources/</link>
+    <description>Recent content in Resources on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 16 Oct 2024 08:48:23 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax-resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaX 常見問題 (FAQ)</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/</link>
+      <pubDate>Wed, 16 Oct 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/</guid>
+      <description>1. 什麼是 Twilio 30007 錯誤？它如何影響大量簡訊發送？ # Twilio 30007 錯誤發生在您的訊息被電信運營商過濾時。這可能會影響大量簡訊發送計畫。要了解如何避免此問題，請參閱這篇部落格文章。
+2. SMS中是如何給聯繫人打上&amp;quot;DNC&amp;quot;標籤的？ # 當一個聯繫人回復SMS包含以下字眼時，就會自動被打上“DNC”標籤：
+stop, cancel, end, quit, stopall, unsubscribe, remove me, stop sending me messages, wrong person, wrong number.
+3. WhatsApp中是如何給聯繫人打上&amp;quot;DNC&amp;quot;標籤的？ # 和SMS一样，當一個聯繫人回復SMS包含以下字眼時，就會自動被打上“DNC”標籤：
+WhatsApp還額外有一個&amp;quot;Stop Promotions&amp;quot;按鈕（屬於Quick Reply按鈕），當聯繫人點擊這個 按鈕時，也會被自動打上DNC標籤：
+    WhatsApp Campaign的發送人可以在WhatsApp模板中設置這類按鈕，在Meta中叫做 “Marketing opt-out”:
+   </description>
+    </item>
+    
+  </channel>
+</rss>

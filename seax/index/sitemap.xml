@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seax/seax-product-updates/</loc>
-      <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+      <lastmod>2025-02-25T11:45:04-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -18,58 +18,58 @@
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seax/seax_resources/</loc>
-      <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+      <loc>https://wiki.seasalt.ai/seax/seax-resources/</loc>
+      <lastmod>2025-02-25T11:45:04-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seax/seax_resources/"
+                  href="https://wiki.seasalt.ai/zh/seax/seax-resources/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seax/seax_resources/"
+                  href="https://wiki.seasalt.ai/seax/seax-resources/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seax/seax_enterprise/</loc>
-      <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+      <loc>https://wiki.seasalt.ai/seax/seax-enterprise/</loc>
+      <lastmod>2025-02-25T11:45:04-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seax/seax_enterprise/"
+                  href="https://wiki.seasalt.ai/zh/seax/seax-enterprise/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seax/seax_enterprise/"
+                  href="https://wiki.seasalt.ai/seax/seax-enterprise/"
                   />
     </url>
     
     <url>
-      <loc>https://wiki.seasalt.ai/seax/seax_messaging/</loc>
-      <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+      <loc>https://wiki.seasalt.ai/seax/seax-messaging/</loc>
+      <lastmod>2025-02-25T11:45:04-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
                   rel="alternate"
                   hreflang="zh"
-                  href="https://wiki.seasalt.ai/zh/seax/seax_messaging/"
+                  href="https://wiki.seasalt.ai/zh/seax/seax-messaging/"
                   />
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
-                  href="https://wiki.seasalt.ai/seax/seax_messaging/"
+                  href="https://wiki.seasalt.ai/seax/seax-messaging/"
                   />
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/en/seax/product-updates/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -84,131 +84,131 @@
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_resources/sms-faq/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-resources/seax-faq/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_resources/sms-faq/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_resources/sms-faq/"
+                    href="https://wiki.seasalt.ai/seax/seax-resources/seax-faq/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_enterprise/seax-features/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-enterprise/seax-features/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_enterprise/seax-features/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-enterprise/seax-features/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_enterprise/seax-features/"
+                    href="https://wiki.seasalt.ai/seax/seax-enterprise/seax-features/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-messaging/bulk-messaging-features/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_messaging/bulk-messaging-features/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-messaging/bulk-messaging-features/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_messaging/bulk-messaging-features/"
+                    href="https://wiki.seasalt.ai/seax/seax-messaging/bulk-messaging-features/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-messaging/seax-agent-bulk-send/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-agent-bulk-send/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-messaging/seax-agent-bulk-send/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_messaging/seax-agent-bulk-send/"
+                    href="https://wiki.seasalt.ai/seax/seax-messaging/seax-agent-bulk-send/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-whatsapp-integration/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-messaging/seax-whatsapp-integration/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-whatsapp-integration/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-messaging/seax-whatsapp-integration/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_messaging/seax-whatsapp-integration/"
+                    href="https://wiki.seasalt.ai/seax/seax-messaging/seax-whatsapp-integration/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_messaging/whatsapp-business-platform/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-messaging/whatsapp-business-platform/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_messaging/whatsapp-business-platform/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-messaging/whatsapp-business-platform/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_messaging/whatsapp-business-platform/"
+                    href="https://wiki.seasalt.ai/seax/seax-messaging/whatsapp-business-platform/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-widget/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-messaging/seax-widget/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-widget/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-messaging/seax-widget/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_messaging/seax-widget/"
+                    href="https://wiki.seasalt.ai/seax/seax-messaging/seax-widget/"
                     />
       </url>
       <url>
-        <loc>https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/</loc>
-        <lastmod>2025-02-24T21:46:11-08:00</lastmod>
+        <loc>https://wiki.seasalt.ai/seax/seax-messaging/seax-messaging-product-updates/</loc>
+        <lastmod>2025-02-25T11:45:04-08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                     rel="alternate"
                     hreflang="zh"
-                    href="https://wiki.seasalt.ai/zh/seax/seax_messaging/seax-messaging-product-updates/"
+                    href="https://wiki.seasalt.ai/zh/seax/seax-messaging/seax-messaging-product-updates/"
                     />
         <xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://wiki.seasalt.ai/seax/seax_messaging/seax-messaging-product-updates/"
+                    href="https://wiki.seasalt.ai/seax/seax-messaging/seax-messaging-product-updates/"
                     />
       </url>
       </urlset>
