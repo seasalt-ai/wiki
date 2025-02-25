@@ -9,7 +9,7 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-  - /en/seax/seax_messaging/seax-whatsapp-integration/
+  - /en/seax/seax-messaging/seax-whatsapp-integration/
 weight: 3
 toc: true
 ---
