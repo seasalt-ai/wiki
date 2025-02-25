@@ -2,8 +2,8 @@
 title: "Prompt Examples"
 description: "Explore prompt examples to train SeaChat AI agents, optimizing responses with our practical examples."
 lead: ""
-date: 2024-26-07T08:48:45+00:00
-lastmod: 2024-26-07T08:48:45+00:00
+date: 2024-07-26T08:48:45+00:00
+lastmod: 2024-07-26T08:48:45+00:00
 weight: 1500
 draft: false
 images: []
