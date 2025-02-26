@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2025-02-25T00:22:19-07:00">
-  <meta property="article:modified_time" content="2025-02-26T09:55:07-08:00">
+  <meta property="article:modified_time" content="2025-02-26T15:57:14-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2025-02-25T00:22:19CET",
-      "dateModified": "2025-02-26T09:55:07CET",
+      "dateModified": "2025-02-26T15:57:14CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#/schema/breadcrumb/1"
       },
@@ -1341,6 +1341,21 @@
       </ul>
     </li>
     <li><a href="#3定價"><strong>3.定價</strong></a></li>
+    <li><a href="#4匯入和匯出評估測試集"><strong>4.匯入和匯出評估測試集</strong></a>
+      <ul>
+        <li><a href="#使用案例"><strong>使用案例</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#如何匯出評估測試集"><strong>如何匯出評估測試集</strong></a>
+      <ul>
+        <li><a href="#匯出的-json-檔案範例"><strong>匯出的 JSON 檔案範例：</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#如何從檔案匯入"><strong>如何從檔案匯入</strong></a>
+      <ul>
+        <li><a href="#用於匯入的範例-json-檔案"><strong>用於匯入的範例 JSON 檔案：</strong></a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -1376,6 +1391,21 @@
       </ul>
     </li>
     <li><a href="#3定價"><strong>3.定價</strong></a></li>
+    <li><a href="#4匯入和匯出評估測試集"><strong>4.匯入和匯出評估測試集</strong></a>
+      <ul>
+        <li><a href="#使用案例"><strong>使用案例</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#如何匯出評估測試集"><strong>如何匯出評估測試集</strong></a>
+      <ul>
+        <li><a href="#匯出的-json-檔案範例"><strong>匯出的 JSON 檔案範例：</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#如何從檔案匯入"><strong>如何從檔案匯入</strong></a>
+      <ul>
+        <li><a href="#用於匯入的範例-json-檔案"><strong>用於匯入的範例 JSON 檔案：</strong></a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -1557,6 +1587,125 @@
 </center>
 <h2 id="3定價"><strong>3.定價</strong> <a href="#3%e5%ae%9a%e5%83%b9" class="anchor" aria-hidden="true">#</a></h2>
 <p>測試運行會消耗AI智能助理回應條數，並將相應地計費。測試集中的每個測試案例價格為 <strong>$0.01美金</strong>。</p>
+<h2 id="4匯入和匯出評估測試集"><strong>4.匯入和匯出評估測試集</strong> <a href="#4%e5%8c%af%e5%85%a5%e5%92%8c%e5%8c%af%e5%87%ba%e8%a9%95%e4%bc%b0%e6%b8%ac%e8%a9%a6%e9%9b%86" class="anchor" aria-hidden="true">#</a></h2>
+<p>有效管理評估測試集對於優化 AI 模型效能至關重要。該系統允許使用者<strong>匯出</strong>測試集以進行備份、編輯或共享，並<strong>匯入</strong>它們以進行批量更新。請依照下列說明<strong>匯出</strong>或<strong>匯入</strong>測試集。</p>
+<h3 id="使用案例"><strong>使用案例</strong> <a href="#%e4%bd%bf%e7%94%a8%e6%a1%88%e4%be%8b" class="anchor" aria-hidden="true">#</a></h3>
+<p>匯入和匯出評估測試集在多種場景中都有好處，例如：</p>
+<ol>
+<li><strong>資料備份和復原</strong> - 定期匯出測試集以建立備份，確保不會遺失關鍵測試資料。
+<ul>
+<li>如果評估測試集被意外刪除或修改，使用者可以透過匯入先前儲存的 JSON 檔案輕鬆恢復。</li>
+</ul>
+</li>
+<li><strong>協作和共享</strong> - 從事 AI 模型評估的團隊可以透過將測試集匯出到 JSON 檔案並在不同環境中共享來共享測試集。
+<ul>
+<li>當不同的團隊需要使用相同的測試案例驗證或基準測試 AI 模型時，這特別有用。</li>
+</ul>
+</li>
+<li><strong>批次管理和編輯</strong> - 使用者可以<strong>匯出</strong>測試集，批次編輯JSON文件，然後<strong>匯入</strong>回系統，而不用手動逐一新增測試樣本。
+<ul>
+<li>這加快了測試集的更新和修改，確保一致性並減少手動工作。</li>
+</ul>
+</li>
+<li><strong>跨環境遷移測試集</strong> - 使用者可以透過從一個環境匯出測試集並將其匯入到另一個環境中，在<strong>暫存、開發和生產環境</strong>之間移動測試集。
+<ul>
+<li>這確保了人工智慧模型在不同環境中得到一致的測試。</li>
+</ul>
+</li>
+<li><strong>AI 模型基準測試</strong> - 使用者可以建立標準化測試集，以對 AI 模型隨時間的改進進行基準測試。
+<ul>
+<li>匯出和匯入測試集允許重複使用相同的評估集來有效追蹤進度。</li>
+</ul>
+</li>
+</ol>
+<h2 id="如何匯出評估測試集"><strong>如何匯出評估測試集</strong> <a href="#%e5%a6%82%e4%bd%95%e5%8c%af%e5%87%ba%e8%a9%95%e4%bc%b0%e6%b8%ac%e8%a9%a6%e9%9b%86" class="anchor" aria-hidden="true">#</a></h2>
+<ol>
+<li>導覽至 <strong>評估</strong> 標籤。</li>
+<li>點選要匯出的評估測試集旁邊的<strong>三點選單</strong> (⋮)。</li>
+<li>從下拉式選單中選擇 <strong>匯出此集</strong>。</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-import-menu.png">
+<img height="100%" width="40%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-import-menu.png"  alt="Option menu">
+</a>
+</center>
+<ol start="4">
+<li>將出現一個通知窗口，其中包含 JSON 檔案的連結。</li>
+<li>按一下連結 — 它將在新分頁中開啟 JSON 檔案。</li>
+<li>右鍵單擊新選項卡並選擇 <strong>另存為</strong> 以下載 JSON 檔案。</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-success.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-success.png"  alt="Export success message">
+</a>
+</center>
+<h3 id="匯出的-json-檔案範例"><strong>匯出的 JSON 檔案範例：</strong> <a href="#%e5%8c%af%e5%87%ba%e7%9a%84-json-%e6%aa%94%e6%a1%88%e7%af%84%e4%be%8b" class="anchor" aria-hidden="true">#</a></h3>
+<pre><code class="language-{">  &quot;id&quot;: &quot;baded98d44024b63964a866c5c1670d3&quot;,
+  &quot;name&quot;: &quot;customerQ&amp;A&quot;,
+  &quot;set_success_threshold&quot;: 0.8,
+  &quot;sample_success_threshold&quot;: 0.8,
+  &quot;samples&quot;: [
+    {
+      &quot;id&quot;: &quot;8be53adf616a451d8282a6455f3f346d&quot;,
+      &quot;user_test_query&quot;: &quot;What products do you offer?&quot;,
+      &quot;agent_gold_response&quot;: &quot;We offer SeaX Messaging, SeaMeet, SeaChat, SeaVoice (including Discord bot), and SeaX Enterprise contact center solution.&quot;,
+      &quot;conversation_history&quot;: { &quot;messages&quot;: [] }
+    },
+    {
+      &quot;id&quot;: &quot;a6455f3f346d8be53adf616a451d8282&quot;,
+      &quot;user_test_query&quot;: &quot;I need to use it with LINE, do you support it?&quot;,
+      &quot;agent_gold_response&quot;: &quot;Yes, SeaChat can be integrated with LINE to respond to customer messages effectively.&quot;,
+      &quot;conversation_history&quot;: {
+        &quot;messages&quot;: [
+          { &quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Tell me all about SeaChat&quot; },
+          {
+            &quot;role&quot;: &quot;assistant&quot;,
+            &quot;content&quot;: &quot;SeaChat is an AI-powered intelligent chatbot that automates responses to customer queries and transitions to human support when needed.&quot;
+          }
+        ]
+      }
+    }
+  ]
+}
+</code></pre>
+<h2 id="如何從檔案匯入"><strong>如何從檔案匯入</strong> <a href="#%e5%a6%82%e4%bd%95%e5%be%9e%e6%aa%94%e6%a1%88%e5%8c%af%e5%85%a5" class="anchor" aria-hidden="true">#</a></h2>
+<ol>
+<li>導覽至 <strong>評估</strong> 標籤。</li>
+<li>點選<strong>三點選單</strong> (⋮) 並選擇 <strong>「從檔案匯入」</strong>。</li>
+<li>點選選擇 JSON 檔案或將其拖曳到上傳視窗中。</li>
+<li>上傳後，按一下 <strong>「完成」</strong> 完成該過程。</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/import-success.png">
+<img height="100%" width="50%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/import-success.png"  alt="Export success message">
+</a>
+</center>
+<h3 id="用於匯入的範例-json-檔案"><strong>用於匯入的範例 JSON 檔案：</strong> <a href="#%e7%94%a8%e6%96%bc%e5%8c%af%e5%85%a5%e7%9a%84%e7%af%84%e4%be%8b-json-%e6%aa%94%e6%a1%88" class="anchor" aria-hidden="true">#</a></h3>
+<pre><code class="language-{">  &quot;name&quot;: &quot;customerQ&amp;A&quot;,
+  &quot;set_success_threshold&quot;: 0.8,
+  &quot;sample_success_threshold&quot;: 0.8,
+  &quot;samples&quot;: [
+    {
+      &quot;user_test_query&quot;: &quot;What products do you offer?&quot;,
+      &quot;agent_gold_response&quot;: &quot;We offer SeaX Messaging, SeaMeet, SeaChat, SeaVoice (including Discord bot), and SeaX Enterprise contact center solution.&quot;,
+      &quot;conversation_history&quot;: { &quot;messages&quot;: [] }
+    },
+    {
+      &quot;user_test_query&quot;: &quot;I need to use it with LINE, do you support it?&quot;,
+      &quot;agent_gold_response&quot;: &quot;Yes, SeaChat can be integrated with LINE to respond to customer messages effectively.&quot;,
+      &quot;conversation_history&quot;: {
+        &quot;messages&quot;: [
+          { &quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Tell me all about SeaChat&quot; },
+          {
+            &quot;role&quot;: &quot;assistant&quot;,
+            &quot;content&quot;: &quot;SeaChat is an AI-powered intelligent chatbot that automates responses to customer queries and transitions to human support when needed.&quot;
+          }
+        ]
+      }
+    }
+  ]
+}
+</code></pre>
 <p>如果您需要進一步協助，請隨時聯絡<a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>！ 🚀</p>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">

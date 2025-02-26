@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2025-02-25T00:22:19-07:00">
-  <meta property="article:modified_time" content="2025-02-26T09:55:07-08:00">
+  <meta property="article:modified_time" content="2025-02-26T15:57:14-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2025-02-25T00:22:19CET",
-      "dateModified": "2025-02-26T09:55:07CET",
+      "dateModified": "2025-02-26T15:57:14CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#/schema/breadcrumb/1"
       },
@@ -1441,6 +1441,21 @@
       </ul>
     </li>
     <li><a href="#3-pricing"><strong>3. Pricing</strong></a></li>
+    <li><a href="#4-importing-and-exporting-evaluation-test-sets"><strong>4. Importing and Exporting Evaluation Test Sets</strong></a>
+      <ul>
+        <li><a href="#use-case"><strong>Use Case</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-export-an-evaluation-test-set"><strong>How to Export an Evaluation Test Set</strong></a>
+      <ul>
+        <li><a href="#example-of-an-exported-json-file"><strong>Example of an Exported JSON File:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-import-from-a-file"><strong>How to Import from a File</strong></a>
+      <ul>
+        <li><a href="#example-json-file-for-import"><strong>Example JSON File for Import:</strong></a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -1476,6 +1491,21 @@
       </ul>
     </li>
     <li><a href="#3-pricing"><strong>3. Pricing</strong></a></li>
+    <li><a href="#4-importing-and-exporting-evaluation-test-sets"><strong>4. Importing and Exporting Evaluation Test Sets</strong></a>
+      <ul>
+        <li><a href="#use-case"><strong>Use Case</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-export-an-evaluation-test-set"><strong>How to Export an Evaluation Test Set</strong></a>
+      <ul>
+        <li><a href="#example-of-an-exported-json-file"><strong>Example of an Exported JSON File:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-import-from-a-file"><strong>How to Import from a File</strong></a>
+      <ul>
+        <li><a href="#example-json-file-for-import"><strong>Example JSON File for Import:</strong></a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -1543,14 +1573,14 @@
 </ol>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/2add-a-new-set.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/2add-a-new-set.png"  alt="Add a new set">
 </a>
 <p><em>Click + Add new set to add a new set</em></p>
 </center>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/3new-set-input.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/3new-set-input.png"  alt="Add new test configurations">
 </a>
 <p><em>Configure a set name and thresholds to be considered correct</em></p>
@@ -1569,7 +1599,7 @@
 </ol>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/4add-sample.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/4add-sample.png"  alt="Add a new test sample">
 </a>
 <p><em>Example: Add a user test query and an agent gold response to customerQ&amp;A test set</em></p>
@@ -1580,13 +1610,13 @@
 <li>Navigate to the <strong>Test Runs</strong> tab to review the results.</li>
 </ol>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/5run-set.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/5run-set.png"  alt="Click Run button to run">
 </a>
 </center>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/6confirm-run.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/6confirm-run.png"  alt="Click Run button to run">
 </a>
 </center>
@@ -1595,7 +1625,7 @@
 <li>Review all test runs in the <strong>Test Runs</strong> tab</li>
 </ol>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/7test-run-page.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/7test-run-page.png"  alt="Navigate to Test Runs tab to view results">
 </a>
 </center>
@@ -1613,7 +1643,7 @@
 </ol>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/8test-run-result.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/8test-run-result.png"  alt="Click one item to view the results in detail">
 </a>
 <p><em>Example: The first query has a correctness score of 19.55% and the second one has a score of 65.47%, resulting in an overall correctness of 43.51%.</em></p>
@@ -1635,28 +1665,152 @@
 </ol>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/11needs-review-page.png">
 <img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/11needs-review-page.png"  alt="Click Add to Test Set button to add to a test set">
 </a>
 <p><em>Example: In the Needs Review page, click the + Add to Test Set button to add the agent response to a test set.</em></p>
 </center>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
-<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/12add needs review message to a test set.png"  alt="Modify sample to be added to the test set">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/12needs-review.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/12needs-review.png"  alt="Modify sample to be added to the test set">
 </a>
 <p><em>Example: Add user message and modify the agent gold response, then add this sample to the customerQ&amp;A test set.</em></p>
 </center>
 </center>
 <br/>
 <center>
-<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
-<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/13new sample in test set.png"  alt="View the newly added test sample">
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/13new-sample-test-set.png.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/13new-sample-test-set.png"  alt="View the newly added test sample">
 </a>
 <p><em>Example: Navigate to the Evaluation page, the NLP related query has been added to the customerQ&amp;A test set.</em></p>
 </center>
 <h2 id="3-pricing"><strong>3. Pricing</strong> <a href="#3-pricing" class="anchor" aria-hidden="true">#</a></h2>
 <p>Test runs consume agent responses and will be billed accordingly. Each test case in a test set costs <strong>$0.01</strong>.</p>
+<h2 id="4-importing-and-exporting-evaluation-test-sets"><strong>4. Importing and Exporting Evaluation Test Sets</strong> <a href="#4-importing-and-exporting-evaluation-test-sets" class="anchor" aria-hidden="true">#</a></h2>
+<p>Managing evaluation test sets efficiently is essential for optimizing AI model performance. The system allows users to <strong>export</strong> test sets for backup, editing, or sharing, and <strong>import</strong> them for bulk updates. Follow the instructions below to <strong>export</strong> or <strong>import</strong> a test set.</p>
+<h3 id="use-case"><strong>Use Case</strong> <a href="#use-case" class="anchor" aria-hidden="true">#</a></h3>
+<p>Importing and exporting evaluation test sets can be beneficial in multiple scenarios, such as:</p>
+<ol>
+<li><strong>Data Backup and Recovery</strong>
+<ul>
+<li>Export test sets regularly to create backups, ensuring that no critical test data is lost.</li>
+<li>If an evaluation test set is accidentally deleted or modified, users can easily restore it by importing a previously saved JSON file.</li>
+</ul>
+</li>
+<li><strong>Collaboration and Sharing</strong>
+<ul>
+<li>Teams working on AI model evaluation can share test sets by exporting them to a JSON file and sharing them across different environments.</li>
+<li>This is particularly useful when different teams need to validate or benchmark AI models with the same test cases.</li>
+</ul>
+</li>
+<li><strong>Bulk Management and Editing</strong>
+<ul>
+<li>Instead of manually adding test samples one by one, users can <strong>export</strong> a test set, edit the JSON file in bulk, and <strong>import</strong> it back into the system.</li>
+<li>This speeds up test set updates and modifications, ensuring consistency and reducing manual work.</li>
+</ul>
+</li>
+<li><strong>Migrating Test Sets Across Environments</strong>
+<ul>
+<li>Users can move test sets between <strong>staging, development, and production environments</strong> by exporting them from one environment and importing them into another.</li>
+<li>This ensures that AI models are tested consistently across different environments.</li>
+</ul>
+</li>
+<li><strong>AI Model Benchmarking</strong>
+<ul>
+<li>Users can create standardized test sets for benchmarking AI model improvements over time.</li>
+<li>Exporting and importing test sets allows for reusing the same evaluation set to track progress effectively.</li>
+</ul>
+</li>
+</ol>
+<h2 id="how-to-export-an-evaluation-test-set"><strong>How to Export an Evaluation Test Set</strong> <a href="#how-to-export-an-evaluation-test-set" class="anchor" aria-hidden="true">#</a></h2>
+<ol>
+<li>Navigate to the <strong>Evaluation</strong> tab.</li>
+<li>Click the <strong>three-dot menu</strong> (⋮) next to the evaluation test set you want to export.</li>
+<li>Select <strong>&ldquo;Export this set&rdquo;</strong> from the dropdown menu.</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-import-menu.png">
+<img height="100%" width="40%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-import-menu.png"  alt="Option menu">
+</a>
+</center>
+<ol start="4">
+<li>A notification window will appear with a link to the JSON file.</li>
+<li>Click the link—it will open the JSON file in a new tab.</li>
+<li>Right-click on the new tab and select <strong>&ldquo;Save As&rdquo;</strong> to download the JSON file.</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-success.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/export-success.png"  alt="Export success message">
+</a>
+</center>
+<h3 id="example-of-an-exported-json-file"><strong>Example of an Exported JSON File:</strong> <a href="#example-of-an-exported-json-file" class="anchor" aria-hidden="true">#</a></h3>
+<pre><code class="language-{">  &quot;id&quot;: &quot;baded98d44024b63964a866c5c1670d3&quot;,
+  &quot;name&quot;: &quot;customerQ&amp;A&quot;,
+  &quot;set_success_threshold&quot;: 0.8,
+  &quot;sample_success_threshold&quot;: 0.8,
+  &quot;samples&quot;: [
+    {
+      &quot;id&quot;: &quot;8be53adf616a451d8282a6455f3f346d&quot;,
+      &quot;user_test_query&quot;: &quot;What products do you offer?&quot;,
+      &quot;agent_gold_response&quot;: &quot;We offer SeaX Messaging, SeaMeet, SeaChat, SeaVoice (including Discord bot), and SeaX Enterprise contact center solution.&quot;,
+      &quot;conversation_history&quot;: { &quot;messages&quot;: [] }
+    },
+    {
+      &quot;id&quot;: &quot;a6455f3f346d8be53adf616a451d8282&quot;,
+      &quot;user_test_query&quot;: &quot;I need to use it with LINE, do you support it?&quot;,
+      &quot;agent_gold_response&quot;: &quot;Yes, SeaChat can be integrated with LINE to respond to customer messages effectively.&quot;,
+      &quot;conversation_history&quot;: {
+        &quot;messages&quot;: [
+          { &quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Tell me all about SeaChat&quot; },
+          {
+            &quot;role&quot;: &quot;assistant&quot;,
+            &quot;content&quot;: &quot;SeaChat is an AI-powered intelligent chatbot that automates responses to customer queries and transitions to human support when needed.&quot;
+          }
+        ]
+      }
+    }
+  ]
+}
+</code></pre>
+<h2 id="how-to-import-from-a-file"><strong>How to Import from a File</strong> <a href="#how-to-import-from-a-file" class="anchor" aria-hidden="true">#</a></h2>
+<ol>
+<li>Navigate to the <strong>Evaluation</strong> tab.</li>
+<li>Click the <strong>three-dot menu</strong> (⋮) and select <strong>&ldquo;Import from file&rdquo;</strong>.</li>
+<li>Click to select a JSON file or drag and drop it into the upload window.</li>
+<li>Once uploaded, click <strong>&ldquo;Done&rdquo;</strong> to finalize the process.</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/import-success.png">
+<img height="100%" width="50%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/import-success.png"  alt="Export success message">
+</a>
+</center>
+<h3 id="example-json-file-for-import"><strong>Example JSON File for Import:</strong> <a href="#example-json-file-for-import" class="anchor" aria-hidden="true">#</a></h3>
+<pre><code class="language-{">  &quot;name&quot;: &quot;customerQ&amp;A&quot;,
+  &quot;set_success_threshold&quot;: 0.8,
+  &quot;sample_success_threshold&quot;: 0.8,
+  &quot;samples&quot;: [
+    {
+      &quot;user_test_query&quot;: &quot;What products do you offer?&quot;,
+      &quot;agent_gold_response&quot;: &quot;We offer SeaX Messaging, SeaMeet, SeaChat, SeaVoice (including Discord bot), and SeaX Enterprise contact center solution.&quot;,
+      &quot;conversation_history&quot;: { &quot;messages&quot;: [] }
+    },
+    {
+      &quot;user_test_query&quot;: &quot;I need to use it with LINE, do you support it?&quot;,
+      &quot;agent_gold_response&quot;: &quot;Yes, SeaChat can be integrated with LINE to respond to customer messages effectively.&quot;,
+      &quot;conversation_history&quot;: {
+        &quot;messages&quot;: [
+          { &quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Tell me all about SeaChat&quot; },
+          {
+            &quot;role&quot;: &quot;assistant&quot;,
+            &quot;content&quot;: &quot;SeaChat is an AI-powered intelligent chatbot that automates responses to customer queries and transitions to human support when needed.&quot;
+          }
+        ]
+      }
+    }
+  ]
+}
+</code></pre>
 <p>If you need further assistance, feel free to reach out to <a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>! 🚀</p>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
