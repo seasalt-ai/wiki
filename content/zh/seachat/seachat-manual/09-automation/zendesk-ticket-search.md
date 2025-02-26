@@ -1,8 +1,7 @@
 ---
 title: "Zendesk 工單搜尋工具"
 description: ""
-date: 2025-02-04-T00:22:19-07:00
-date: 2025-02-04-T00:22:19-07:00
+date: 2025-02-04T00:22:19-07:00
 draft: false
 weight: 603
 url: /zh/seachat/seachat-manual/automation/zendesk-ticket-search

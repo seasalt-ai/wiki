@@ -1,7 +1,7 @@
 ---
 title: "SeaX FAQ"
 description: "Bulk Messagign FAQ for SMS & WhatsApp"
-date: 20234-10-16T08:48:57+00:00
+date: 2024-10-16T08:48:57+00:00
 lastmod: 2024-10-16T08:48:57+00:00
 draft: false
 images: []
