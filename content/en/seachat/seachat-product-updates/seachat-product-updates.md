@@ -16,6 +16,14 @@ weight: 1600
 toc: true
 ---
 
+### 2/26/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Evaluation Test Set Import & Export: Users can now export evaluation test sets to a JSON file, allowing for easier backup and editing. Additionally, users can import test set data by uploading a JSON file, enabling bulk management of test sets more efficiently. See [tutorial](/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#4-importing-and-exporting-evaluation-test-sets)
+- Email Notifications for Assigned Conversations: When a conversation is assigned to a human agent, the system will now automatically send an email notification to that agent to promptly inform the agent.
+- Configurable Auto-Hangup for Voice Calls: Users can now configure whether they want to enable automatic hangups for voice calls when a caller says phrases like "goodbye" or expresses an intent to leave.
+
 ### 2/19/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
@@ -23,7 +31,6 @@ toc: true
 - Evaluation Testing: Users can now assess AI agent responses by providing test sets, each containing a user query, a gold response, and optional conversation history. The AI agent’s response is compared against the gold response, with results displaying overall correctness and individual sample accuracy. Users can refine their AI agent and run evaluations to continuously improve performance.
 - Conversation Label Editing: Users can now create, edit, and delete chat labels directly from the Labels page.
 - Knowledge Base (KB) Export: Users can now export all KB entries by going to Knowledge Based → Existing → View All and choose Export to CSV or JSON via the corresponding option. Files can be updated and re-uploaded through "Upload from Template File".
-
 
 ### 2/13/2025
 
