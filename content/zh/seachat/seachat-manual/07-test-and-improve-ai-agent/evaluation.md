@@ -227,4 +227,122 @@ _範例：導覽至評估頁面，這條問題已新增至測試集中_。
 
 測試運行會消耗AI智能助理回應條數，並將相應地計費。測試集中的每個測試案例價格為 **$0.01美金**。
 
+## **4\.匯入和匯出評估測試集**
+
+有效管理評估測試集對於優化 AI 模型效能至關重要。該系統允許使用者**匯出**測試集以進行備份、編輯或共享，並**匯入**它們以進行批量更新。請依照下列說明**匯出**或**匯入**測試集。
+
+### **使用案例**
+
+匯入和匯出評估測試集在多種場景中都有好處，例如：
+
+1. **資料備份和復原** - 定期匯出測試集以建立備份，確保不會遺失關鍵測試資料。
+   - 如果評估測試集被意外刪除或修改，使用者可以透過匯入先前儲存的 JSON 檔案輕鬆恢復。
+2. **協作和共享** - 從事 AI 模型評估的團隊可以透過將測試集匯出到 JSON 檔案並在不同環境中共享來共享測試集。
+   - 當不同的團隊需要使用相同的測試案例驗證或基準測試 AI 模型時，這特別有用。
+3. **批次管理和編輯** - 使用者可以**匯出**測試集，批次編輯JSON文件，然後**匯入**回系統，而不用手動逐一新增測試樣本。
+   - 這加快了測試集的更新和修改，確保一致性並減少手動工作。
+4. **跨環境遷移測試集** - 使用者可以透過從一個環境匯出測試集並將其匯入到另一個環境中，在**暫存、開發和生產環境**之間移動測試集。
+   - 這確保了人工智慧模型在不同環境中得到一致的測試。
+5. **AI 模型基準測試** - 使用者可以建立標準化測試集，以對 AI 模型隨時間的改進進行基準測試。
+   - 匯出和匯入測試集允許重複使用相同的評估集來有效追蹤進度。
+
+## **如何匯出評估測試集**
+
+1. 導覽至 **評估** 標籤。
+2. 點選要匯出的評估測試集旁邊的**三點選單** (⋮)。
+3. 從下拉式選單中選擇 **匯出此集**。
+
+<center>
+<a href="/images/seachat/en/evaluation/export-import-menu.png">
+<img height="100%" width="40%" src="/images/seachat/en/evaluation/export-import-menu.png"  alt="Option menu">
+</a>
+
+</center>
+
+4. 將出現一個通知窗口，其中包含 JSON 檔案的連結。
+5. 按一下連結 — 它將在新分頁中開啟 JSON 檔案。
+6. 右鍵單擊新選項卡並選擇 **另存為** 以下載 JSON 檔案。
+
+<center>
+<a href="/images/seachat/en/evaluation/export-success.png">
+<img height="100%" width="100%" src="/images/seachat/en/evaluation/export-success.png"  alt="Export success message">
+</a>
+
+</center>
+
+### **匯出的 JSON 檔案範例：**
+
+```{
+  "id": "baded98d44024b63964a866c5c1670d3",
+  "name": "customerQ&A",
+  "set_success_threshold": 0.8,
+  "sample_success_threshold": 0.8,
+  "samples": [
+    {
+      "id": "8be53adf616a451d8282a6455f3f346d",
+      "user_test_query": "What products do you offer?",
+      "agent_gold_response": "We offer SeaX Messaging, SeaMeet, SeaChat, SeaVoice (including Discord bot), and SeaX Enterprise contact center solution.",
+      "conversation_history": { "messages": [] }
+    },
+    {
+      "id": "a6455f3f346d8be53adf616a451d8282",
+      "user_test_query": "I need to use it with LINE, do you support it?",
+      "agent_gold_response": "Yes, SeaChat can be integrated with LINE to respond to customer messages effectively.",
+      "conversation_history": {
+        "messages": [
+          { "role": "user", "content": "Tell me all about SeaChat" },
+          {
+            "role": "assistant",
+            "content": "SeaChat is an AI-powered intelligent chatbot that automates responses to customer queries and transitions to human support when needed."
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+## **如何從檔案匯入**
+
+1. 導覽至 **評估** 標籤。
+2. 點選**三點選單** (⋮) 並選擇 **「從檔案匯入」**。
+3. 點選選擇 JSON 檔案或將其拖曳到上傳視窗中。
+4. 上傳後，按一下 **「完成」** 完成該過程。
+
+<center>
+<a href="/images/seachat/en/evaluation/import-success.png">
+<img height="100%" width="50%" src="/images/seachat/en/evaluation/import-success.png"  alt="Export success message">
+</a>
+
+</center>
+
+### **用於匯入的範例 JSON 檔案：**
+
+```{
+  "name": "customerQ&A",
+  "set_success_threshold": 0.8,
+  "sample_success_threshold": 0.8,
+  "samples": [
+    {
+      "user_test_query": "What products do you offer?",
+      "agent_gold_response": "We offer SeaX Messaging, SeaMeet, SeaChat, SeaVoice (including Discord bot), and SeaX Enterprise contact center solution.",
+      "conversation_history": { "messages": [] }
+    },
+    {
+      "user_test_query": "I need to use it with LINE, do you support it?",
+      "agent_gold_response": "Yes, SeaChat can be integrated with LINE to respond to customer messages effectively.",
+      "conversation_history": {
+        "messages": [
+          { "role": "user", "content": "Tell me all about SeaChat" },
+          {
+            "role": "assistant",
+            "content": "SeaChat is an AI-powered intelligent chatbot that automates responses to customer queries and transitions to human support when needed."
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
 如果您需要進一步協助，請隨時聯絡[seachat@seasalt.ai](mailto:seachat@seasalt.ai)！ 🚀
