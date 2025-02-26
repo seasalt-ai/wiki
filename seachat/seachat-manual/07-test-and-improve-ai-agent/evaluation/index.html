@@ -1,0 +1,1714 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://wiki.seasalt.ai/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind-ui.js"></script>
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10880948239');
+  </script>
+  
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJGXPTGC');</script>
+  
+  <link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-10405841-7', 'auto');
+    ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="https://wiki.seasalt.ai/main.1f20f6cb2e8bbdf04ce9bc2ce800350d4ac3934fc81a4daec2cb5bc08c8dd19e0d575c7558a57fce90ba5743ee38d0e74ce919c3b46a976c21dfd2f6d8440dc1.css" integrity="sha512-HyD2yy6LvfBM6bws6AA1DUrDk0/IGk2uwstbwIyN0Z4NV1x1WKV/zpC6V0PuONDnTOkZw7Rql2wh39L22EQNwQ==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>Evaluation: Enhancing AI Agent Response Accuracy with Test Sets - Seasalt.ai</title>
+<meta name="description" content="Enhancing AI Agent Response Accuracy with Test Sets">
+<link rel="canonical" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Evaluation: Enhancing AI Agent Response Accuracy with Test Sets">
+<meta property="og:description" content="Enhancing AI Agent Response Accuracy with Test Sets">
+<meta property="og:url" content="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">
+<meta property="og:site_name" content="Seasalt.ai">
+<meta property="article:published_time" content="2025-02-25T00:22:19-07:00">
+  <meta property="article:modified_time" content="2025-02-26T09:55:07-08:00">
+  
+  <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
+      <meta property="og:image:alt" content="Seasalt.ai">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Evaluation: Enhancing AI Agent Response Accuracy with Test Sets">
+<meta name="twitter:description" content="Enhancing AI Agent Response Accuracy with Test Sets">
+<meta name="twitter:image" content="https://wiki.seasalt.ai/seasalt-logo.png">
+    <meta name="twitter:image:alt" content="Evaluation: Enhancing AI Agent Response Accuracy with Test Sets">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://wiki.seasalt.ai/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://wiki.seasalt.ai/",
+      "sameAs": [
+      
+      "https:\/\/x.com\/SeasaltAI"
+      ,
+      "https:\/\/www.linkedin.com\/company\/seasalt-ai\/"
+      ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://wiki.seasalt.ai/#/schema/website/1",
+      "url": "https://wiki.seasalt.ai/",
+      "name": "Seasalt.ai",
+      "description": "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.",
+      "publisher": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/",
+      "url": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/",
+      "name": "Evaluation: Enhancing AI Agent Response Accuracy with Test Sets",
+      "description": "Enhancing AI Agent Response Accuracy with Test Sets",
+      "isPartOf": {
+        "@id": "https://wiki.seasalt.ai/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        },
+      "datePublished": "2025-02-25T00:22:19CET",
+      "dateModified": "2025-02-26T09:55:07CET",
+      "breadcrumb": {
+        "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/",
+          "url": "https://wiki.seasalt.ai/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seachat/",
+          "url": "https://wiki.seasalt.ai/seachat/",
+          "name": "Seachat"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/",
+          "url": "https://wiki.seasalt.ai/seachat/seachat-manual/",
+          "name": "Seachat Manual"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/",
+          "url": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/",
+          "name": "07 Test and Improve Ai Agent"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  5 ,
+        "item": {
+          "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/#/schema/image/2",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "contentUrl": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "caption": "Evaluation: Enhancing AI Agent Response Accuracy with Test Sets"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiki.seasalt.ai/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wiki.seasalt.ai/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wiki.seasalt.ai/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://wiki.seasalt.ai/site.webmanifest">
+
+</head>
+  <body class="seachat single">
+    <div class="sticky-lg-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="https://wiki.seasalt.ai/" aria-label="Seasalt.ai">
+      Seasalt.ai
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="https://wiki.seasalt.ai/">Seasalt.ai</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/" aria-label="SeaChat">SeaChat</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/" aria-label="SeaMeet">SeaMeet</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/seax/seax-messaging/bulk-messaging-features/" aria-label="SeaX">SeaX</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESTful APIs
+              <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/01-seachat-api-intro/" aria-label="SeaChat API">SeaChat API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/02-seax-api-intro/" aria-label="SeaX API">SeaX API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/seasaltapi/seasalt-api/03-seameet-api-intro/" aria-label="SeaMeet API">SeaMeet API</a>
+              </li>
+              </ul>
+          </li>
+          
+          
+          
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://seasalt.ai/" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><small class="ms-2 d-md-none">Home</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.youtube.com/@seasaltai" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><small class="ms-2 d-md-none">YouTube</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.linkedin.com/company/seasalt-ai/" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><small class="ms-2 d-md-none">LinkedIn</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" aria-label="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><small class="ms-2 d-md-none">Contact</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        EN
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">English</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/" hreflang="zh" lang="zh">繁體中文</a></li>
+        
+      </ul>
+    </div>
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </nav>
+</header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
+
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</div>
+<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+    <span class="navbar-text ms-0">Seachat</span>
+    <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bf647454e36069fd16f1a7a35cf6a865" aria-expanded="true">
+          Getting Started
+        </button>
+        <div class="collapse show" id="section-bf647454e36069fd16f1a7a35cf6a865">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/">Introduction to SeaChat</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/">Build Your First Agent</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/free-agent-mode/">Truly Free Plan as in Free 🍺 &amp; 🎙️</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1afe5594b7932218164d1a3306a10ca4" aria-expanded="true">
+          SeaChat User Manual
+        </button>
+        <div class="collapse show" id="section-1afe5594b7932218164d1a3306a10ca4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-30fedd80b024632ad65791bc9c5fea27" aria-expanded="true">
+                    Agent Management
+                  </button>
+                  <div class="collapse show" id="section-30fedd80b024632ad65791bc9c5fea27">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/">Create New Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/agent-information/">Agent Information</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/version-control/">Agent Version Control</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/live-agent-transfer/">Live Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/conversation/">Conversations</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/analytics/">Analytics</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9ffc3ccc968a96d902af963c6d7b4e97" aria-expanded="true">
+                              Advanced Settings
+                            </button>
+                            <div class="collapse show" id="section-9ffc3ccc968a96d902af963c6d7b4e97">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/">Retrieval Augmented Generation (RAG)</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/long-term-memory/">Long-Term Memory</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/">Time Awareness and Context</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/context-extraction/">Context Extraction</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/kb-references/">Enabling References in Chat</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ad52a9104895534d7363f9b0ccd71e11" aria-expanded="true">
+                    Add knowledge
+                  </button>
+                  <div class="collapse show" id="section-ad52a9104895534d7363f9b0ccd71e11">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/">How to Add Knowledge</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/csv-upload/">Spreadsheet and Table</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/">Audio/Video File</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/template-upload/">Template Upload</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/document-upload/">Upload Documents</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-urls/">Import URLs</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-sitemaps/">Import Sitemaps</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/manual-entry/">Manual Entry</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/">Adding URL buttons to KB responses</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/file-size-rule/">File Size Rule</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3370dcd92b099b6292576580a2cdca1e" aria-expanded="true">
+                              Additional Features
+                            </button>
+                            <div class="collapse show" id="section-3370dcd92b099b6292576580a2cdca1e">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/additional-features-in-kb/">Additional Features in Knowledge</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-14cb425d8170ed04f3d8016d5a0ccf20" aria-expanded="true">
+                    Channels
+                  </button>
+                  <div class="collapse show" id="section-14cb425d8170ed04f3d8016d5a0ccf20">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/whatsapp/">WhatsApp</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/">LINE Official Account</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/">Facebook Messenger</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/">Calls</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/instagram/">Instagram</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/">Webpage</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e01aecb528730f3bfe10f9d57f1317bf" aria-expanded="true">
+                    Integrations
+                  </button>
+                  <div class="collapse show" id="section-e01aecb528730f3bfe10f9d57f1317bf">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/google-calendar/">Google Calendar</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/shopify/">Shopify</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/manual/integrations/squarespace/">Squarespace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/wix/">Wix</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/mailerlite/">MailerLite</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/wordpress/">Wordpress</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/integrations/seax-seachat/">SeaX Integration</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/integrations/seachat-prefill-contact-forms/">Programmatically Pre-Fill Contact Forms in WebChat</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-03a21915504df93cf5dba0636080f62e" aria-expanded="true">
+                    Workspace
+                  </button>
+                  <div class="collapse show" id="section-03a21915504df93cf5dba0636080f62e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/workspace/workspace-management/">Workspace Management</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-d37c49811ea9c7b49ad21037d619fd8a" aria-expanded="true">
+                    Test and Improve AI Agent
+                  </button>
+                  <div class="collapse show" id="section-d37c49811ea9c7b49ad21037d619fd8a">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/">Test and Improve AI Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">SOP for After Launch Operations</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">Evaluation: Enhancing AI Agent Response Accuracy with Test Sets</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-caea8340e2d186a540518d08602aa065" aria-expanded="true">
+                    Automation
+                  </button>
+                  <div class="collapse show" id="section-caea8340e2d186a540518d08602aa065">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/">Custom GPT Tools</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/automation/auto-labeling/">Auto Labeling</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/automation/label-automation/">Label Automation</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/zendesk-ticket-search/">Zendesk Ticket Search Tool</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-afe8f0d7787989ff2c45a239de6e363b" aria-expanded="true">
+                    Incoming Queries
+                  </button>
+                  <div class="collapse show" id="section-afe8f0d7787989ff2c45a239de6e363b">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-image-message/">User Sends an Image Message</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-audio-message/">User Sends an Audio Message</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-daef64964ee3b9b904f5d467586e217f" aria-expanded="true">
+          Payments
+        </button>
+        <div class="collapse show" id="section-daef64964ee3b9b904f5d467586e217f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/">Pricing</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/billing-subs/">Billing and Subscription</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e3d7fb951904a5c4849bc63e9b31109c" aria-expanded="true">
+          Full Tutorials
+        </button>
+        <div class="collapse show" id="section-e3d7fb951904a5c4849bc63e9b31109c">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/tutorials/mailerlite/">Build Email Lists with MailerLite</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/tutorials/google-forms/">Book Appointments Instantly with Google Forms &amp; Voice Agent</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0007e3962c7851c287134303c49f522e" aria-expanded="true">
+          Inbound Voice Agent
+        </button>
+        <div class="collapse show" id="section-0007e3962c7851c287134303c49f522e">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/">Forward Inbound Calls to Voice Agents - Video Tutorial</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e933eb6017b23da44350dc5345c3e439" aria-expanded="true">
+                    Call Forwarding Setup
+                  </button>
+                  <div class="collapse show" id="section-e933eb6017b23da44350dc5345c3e439">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">Android / iPhone</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">Businesses - US, VoIP, Taiwan, Singapore</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ddcf50c29294d4414f3f7c1bbc892cb5" aria-expanded="true">
+          Resources
+        </button>
+        <div class="collapse show" id="section-ddcf50c29294d4414f3f7c1bbc892cb5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/">Prompt Examples</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-api/">SeaChat API</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-faq/">SeaChat FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4310045e312bcab3bff238716f455875" aria-expanded="true">
+          New Features &amp; Releases
+        </button>
+        <div class="collapse show" id="section-4310045e312bcab3bff238716f455875">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/product-updates/">SeaChat Release History</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+    <div class="wrap container-xxl" role="document">      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bf647454e36069fd16f1a7a35cf6a865" aria-expanded="true">
+          Getting Started
+        </button>
+        <div class="collapse show" id="section-bf647454e36069fd16f1a7a35cf6a865">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/01-seachat-intro/">Introduction to SeaChat</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/02-quick-start/">Build Your First Agent</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/getting-started/free-agent-mode/">Truly Free Plan as in Free 🍺 &amp; 🎙️</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1afe5594b7932218164d1a3306a10ca4" aria-expanded="true">
+          SeaChat User Manual
+        </button>
+        <div class="collapse show" id="section-1afe5594b7932218164d1a3306a10ca4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-30fedd80b024632ad65791bc9c5fea27" aria-expanded="true">
+                    Agent Management
+                  </button>
+                  <div class="collapse show" id="section-30fedd80b024632ad65791bc9c5fea27">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-new-agent/">Create New Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/agent-information/">Agent Information</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/version-control/">Agent Version Control</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/live-agent-transfer/">Live Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/conversation/">Conversations</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/analytics/">Analytics</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9ffc3ccc968a96d902af963c6d7b4e97" aria-expanded="true">
+                              Advanced Settings
+                            </button>
+                            <div class="collapse show" id="section-9ffc3ccc968a96d902af963c6d7b4e97">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/">Retrieval Augmented Generation (RAG)</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/long-term-memory/">Long-Term Memory</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/">Time Awareness and Context</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/context-extraction/">Context Extraction</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/kb-references/">Enabling References in Chat</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ad52a9104895534d7363f9b0ccd71e11" aria-expanded="true">
+                    Add knowledge
+                  </button>
+                  <div class="collapse show" id="section-ad52a9104895534d7363f9b0ccd71e11">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/intro/">How to Add Knowledge</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/csv-upload/">Spreadsheet and Table</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/multimedia-upload/">Audio/Video File</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/template-upload/">Template Upload</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/document-upload/">Upload Documents</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-urls/">Import URLs</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/import-sitemaps/">Import Sitemaps</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/manual-entry/">Manual Entry</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/">Adding URL buttons to KB responses</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/file-size-rule/">File Size Rule</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3370dcd92b099b6292576580a2cdca1e" aria-expanded="true">
+                              Additional Features
+                            </button>
+                            <div class="collapse show" id="section-3370dcd92b099b6292576580a2cdca1e">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/additional-features-in-kb/">Additional Features in Knowledge</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-14cb425d8170ed04f3d8016d5a0ccf20" aria-expanded="true">
+                    Channels
+                  </button>
+                  <div class="collapse show" id="section-14cb425d8170ed04f3d8016d5a0ccf20">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/whatsapp/">WhatsApp</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/install-to-line/">LINE Official Account</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/">Facebook Messenger</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/voicebot/">Calls</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/instagram/">Instagram</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/channels/webpage/">Webpage</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e01aecb528730f3bfe10f9d57f1317bf" aria-expanded="true">
+                    Integrations
+                  </button>
+                  <div class="collapse show" id="section-e01aecb528730f3bfe10f9d57f1317bf">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/google-calendar/">Google Calendar</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/shopify/">Shopify</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/manual/integrations/squarespace/">Squarespace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/wix/">Wix</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/mailerlite/">MailerLite</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/integrations/wordpress/">Wordpress</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/integrations/seax-seachat/">SeaX Integration</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/integrations/seachat-prefill-contact-forms/">Programmatically Pre-Fill Contact Forms in WebChat</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-03a21915504df93cf5dba0636080f62e" aria-expanded="true">
+                    Workspace
+                  </button>
+                  <div class="collapse show" id="section-03a21915504df93cf5dba0636080f62e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/workspace/workspace-management/">Workspace Management</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-d37c49811ea9c7b49ad21037d619fd8a" aria-expanded="true">
+                    Test and Improve AI Agent
+                  </button>
+                  <div class="collapse show" id="section-d37c49811ea9c7b49ad21037d619fd8a">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/">Test and Improve AI Agent</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">SOP for After Launch Operations</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">Evaluation: Enhancing AI Agent Response Accuracy with Test Sets</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-caea8340e2d186a540518d08602aa065" aria-expanded="true">
+                    Automation
+                  </button>
+                  <div class="collapse show" id="section-caea8340e2d186a540518d08602aa065">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/">Custom GPT Tools</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/automation/auto-labeling/">Auto Labeling</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/automation/label-automation/">Label Automation</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/zendesk-ticket-search/">Zendesk Ticket Search Tool</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-afe8f0d7787989ff2c45a239de6e363b" aria-expanded="true">
+                    Incoming Queries
+                  </button>
+                  <div class="collapse show" id="section-afe8f0d7787989ff2c45a239de6e363b">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-image-message/">User Sends an Image Message</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/manual/incoming-queries/user-sends-an-audio-message/">User Sends an Audio Message</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-daef64964ee3b9b904f5d467586e217f" aria-expanded="true">
+          Payments
+        </button>
+        <div class="collapse show" id="section-daef64964ee3b9b904f5d467586e217f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-payments/pricing-plans/">Pricing</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/billing-subs/">Billing and Subscription</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e3d7fb951904a5c4849bc63e9b31109c" aria-expanded="true">
+          Full Tutorials
+        </button>
+        <div class="collapse show" id="section-e3d7fb951904a5c4849bc63e9b31109c">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/tutorials/mailerlite/">Build Email Lists with MailerLite</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/tutorials/google-forms/">Book Appointments Instantly with Google Forms &amp; Voice Agent</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0007e3962c7851c287134303c49f522e" aria-expanded="true">
+          Inbound Voice Agent
+        </button>
+        <div class="collapse show" id="section-0007e3962c7851c287134303c49f522e">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/">Forward Inbound Calls to Voice Agents - Video Tutorial</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e933eb6017b23da44350dc5345c3e439" aria-expanded="true">
+                    Call Forwarding Setup
+                  </button>
+                  <div class="collapse show" id="section-e933eb6017b23da44350dc5345c3e439">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">Android / iPhone</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/inbound-voice-agent/call-forwarding-setup/business/">Businesses - US, VoIP, Taiwan, Singapore</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ddcf50c29294d4414f3f7c1bbc892cb5" aria-expanded="true">
+          Resources
+        </button>
+        <div class="collapse show" id="section-ddcf50c29294d4414f3f7c1bbc892cb5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/">Prompt Examples</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-api/">SeaChat API</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/seachat/seachat-resources/seachat-faq/">SeaChat FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4310045e312bcab3bff238716f455875" aria-expanded="true">
+          New Features &amp; Releases
+        </button>
+        <div class="collapse show" id="section-4310045e312bcab3bff238716f455875">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/en/seachat/product-updates/">SeaChat Release History</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+   <h3>On this page</h3> 
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-overview"><strong>1. Overview</strong></a></li>
+    <li><a href="#2-use-case"><strong>2. Use Case</strong></a>
+      <ul>
+        <li><a href="#-use-case-1-quality-assurance-for-ai-agent-responses"><strong>📌 Use Case 1: Quality Assurance for AI Agent Responses</strong></a></li>
+        <li><a href="#-use-case-2-ai-agent-performance-monitoring"><strong>📌 Use Case 2: AI Agent Performance Monitoring</strong></a></li>
+        <li><a href="#-use-case-3-improving-ai-agent-for-multilingual-support"><strong>📌 Use Case 3: Improving AI Agent for Multilingual Support</strong></a></li>
+        <li><a href="#-use-case-4-training-ai-agent-for-industry-specific-knowledge"><strong>📌 Use Case 4: Training AI Agent for Industry-Specific Knowledge</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-how-to-set-up"><strong>3. How to Set Up</strong></a>
+      <ul>
+        <li><a href="#step-1-navigate-to-the-evaluation-tab"><strong>Step 1: Navigate to the Evaluation Tab</strong></a></li>
+        <li><a href="#step-2-create-a-new-test-set"><strong>Step 2: Create a New Test Set</strong></a></li>
+        <li><a href="#step-3-add-test-samples"><strong>Step 3: Add Test Samples</strong></a></li>
+        <li><a href="#step-4-run-the-test-set"><strong>Step 4: Run the Test Set</strong></a></li>
+        <li><a href="#step-5-review-test-run-results"><strong>Step 5: Review Test Run Results</strong></a></li>
+        <li><a href="#step-6-adding-test-samples-from-real-conversations"><strong>Step 6: Adding Test Samples from Real Conversations</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-pricing"><strong>3. Pricing</strong></a></li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+		
+			<h1>Evaluation: Enhancing AI Agent Response Accuracy with Test Sets</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="page-links">
+   <h3>On this page</h3> 
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-overview"><strong>1. Overview</strong></a></li>
+    <li><a href="#2-use-case"><strong>2. Use Case</strong></a>
+      <ul>
+        <li><a href="#-use-case-1-quality-assurance-for-ai-agent-responses"><strong>📌 Use Case 1: Quality Assurance for AI Agent Responses</strong></a></li>
+        <li><a href="#-use-case-2-ai-agent-performance-monitoring"><strong>📌 Use Case 2: AI Agent Performance Monitoring</strong></a></li>
+        <li><a href="#-use-case-3-improving-ai-agent-for-multilingual-support"><strong>📌 Use Case 3: Improving AI Agent for Multilingual Support</strong></a></li>
+        <li><a href="#-use-case-4-training-ai-agent-for-industry-specific-knowledge"><strong>📌 Use Case 4: Training AI Agent for Industry-Specific Knowledge</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-how-to-set-up"><strong>3. How to Set Up</strong></a>
+      <ul>
+        <li><a href="#step-1-navigate-to-the-evaluation-tab"><strong>Step 1: Navigate to the Evaluation Tab</strong></a></li>
+        <li><a href="#step-2-create-a-new-test-set"><strong>Step 2: Create a New Test Set</strong></a></li>
+        <li><a href="#step-3-add-test-samples"><strong>Step 3: Add Test Samples</strong></a></li>
+        <li><a href="#step-4-run-the-test-set"><strong>Step 4: Run the Test Set</strong></a></li>
+        <li><a href="#step-5-review-test-run-results"><strong>Step 5: Review Test Run Results</strong></a></li>
+        <li><a href="#step-6-adding-test-samples-from-real-conversations"><strong>Step 6: Adding Test Samples from Real Conversations</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-pricing"><strong>3. Pricing</strong></a></li>
+  </ul>
+</nav>
+</div>
+
+			</nav>
+			<h2 id="1-overview"><strong>1. Overview</strong> <a href="#1-overview" class="anchor" aria-hidden="true">#</a></h2>
+<p>The <strong>Evaluation</strong> feature in SeaChat allows users to systematically test their AI agent&rsquo;s performance by comparing actual responses to predefined gold responses. It uses large language model to evaluate test sets and assigns correctness scores to determine response quality. It helps businesses <strong>monitor, test, and improve</strong> their AI agent’s performance.</p>
+<ul>
+<li>It ensures high-quality responses by comparing real-time agent answers with gold standards.</li>
+<li>Users can refine their AI models by testing responses regularly and adjusting knowledge base content.</li>
+<li>Seamless integration with real customer conversations allows users to improve AI dynamically.</li>
+</ul>
+<h2 id="2-use-case"><strong>2. Use Case</strong> <a href="#2-use-case" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="-use-case-1-quality-assurance-for-ai-agent-responses"><strong>📌 Use Case 1: Quality Assurance for AI Agent Responses</strong> <a href="#-use-case-1-quality-assurance-for-ai-agent-responses" class="anchor" aria-hidden="true">#</a></h3>
+<p>A customer support team at an <strong>e-commerce company</strong> wants to ensure that their AI agent gives <strong>accurate return policy information</strong>.</p>
+<ul>
+<li>They create a <strong>Test Set</strong> with <strong>common return-related questions</strong>.</li>
+<li>They input <strong>gold responses based on company policy</strong>.</li>
+<li>After a test run, they find that <strong>30% of responses are incorrect</strong>.</li>
+<li>They update the <strong>knowledge base</strong> and re-run the test, improving the AI’s accuracy.</li>
+</ul>
+<p>✅ <strong>Outcome:</strong> The AI agent now provides <strong>correct return policy answers</strong>, reducing <strong>customer escalations</strong>.</p>
+<hr>
+<h3 id="-use-case-2-ai-agent-performance-monitoring"><strong>📌 Use Case 2: AI Agent Performance Monitoring</strong> <a href="#-use-case-2-ai-agent-performance-monitoring" class="anchor" aria-hidden="true">#</a></h3>
+<p>A SaaS company using SeaChat wants to track AI performance across <strong>product troubleshooting queries</strong>.</p>
+<ul>
+<li>Every month, they run <strong>a test set with 100+ common customer issues</strong>.</li>
+<li>They compare correctness scores over time to <strong>track improvements</strong>.</li>
+<li>When scores drop, they analyze <strong>incorrect responses and knowledge base gaps</strong>.</li>
+</ul>
+<p>✅ <strong>Outcome:</strong> Proactive monitoring prevents <strong>customer frustration</strong> and <strong>increases support efficiency</strong>.</p>
+<hr>
+<h3 id="-use-case-3-improving-ai-agent-for-multilingual-support"><strong>📌 Use Case 3: Improving AI Agent for Multilingual Support</strong> <a href="#-use-case-3-improving-ai-agent-for-multilingual-support" class="anchor" aria-hidden="true">#</a></h3>
+<p>A <strong>global airline</strong> wants to test how well its AI agent handles <strong>customer queries in different languages</strong>.</p>
+<ul>
+<li>They create test sets for <strong>English, Spanish, and French</strong> queries.</li>
+<li>They use <strong>gold responses verified by human translators</strong>.</li>
+<li>Test runs reveal that the AI struggles with <strong>French flight rescheduling queries</strong>.</li>
+<li>They improve <strong>French language knowledge base</strong> and re-test.</li>
+</ul>
+<p>✅ <strong>Outcome:</strong> The AI agent provides <strong>accurate, multilingual support</strong>, reducing <strong>miscommunication</strong>.</p>
+<hr>
+<h3 id="-use-case-4-training-ai-agent-for-industry-specific-knowledge"><strong>📌 Use Case 4: Training AI Agent for Industry-Specific Knowledge</strong> <a href="#-use-case-4-training-ai-agent-for-industry-specific-knowledge" class="anchor" aria-hidden="true">#</a></h3>
+<p>A <strong>healthcare provider</strong> uses SeaChat to <strong>automate patient FAQs</strong>.</p>
+<ul>
+<li>They create a <strong>test set with medical insurance questions</strong>.</li>
+<li>They add <strong>gold responses written by medical professionals</strong>.</li>
+<li>Test results show <strong>inconsistent answers about coverage limits</strong>.</li>
+<li>They refine <strong>AI agent description and knowledge base and re-run tests</strong> to ensure correctness.</li>
+</ul>
+<p>✅ <strong>Outcome:</strong> The AI agent now provides <strong>trusted medical guidance</strong>, ensuring <strong>compliance and accuracy</strong>.</p>
+<h2 id="3-how-to-set-up"><strong>3. How to Set Up</strong> <a href="#3-how-to-set-up" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="step-1-navigate-to-the-evaluation-tab"><strong>Step 1: Navigate to the Evaluation Tab</strong> <a href="#step-1-navigate-to-the-evaluation-tab" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>Log in to <strong>SeaChat</strong>.</li>
+<li>Click on the <strong>Evaluation</strong> tab in the left sidebar.</li>
+</ol>
+<h3 id="step-2-create-a-new-test-set"><strong>Step 2: Create a New Test Set</strong> <a href="#step-2-create-a-new-test-set" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>Click the <strong>three-dot menu</strong> (⋮) in the Evaluation tab.</li>
+<li>Select <strong>&ldquo;Add New Test Set&rdquo;</strong>.</li>
+<li>Enter a <strong>Test Set Name</strong>.</li>
+<li>Set the <strong>Individual Test Sample Success Threshold</strong> and <strong>Test Set Success Threshold</strong> (values between <strong>0 and 1</strong>). These thresholds determine whether a response is correct.</li>
+<li>Click <strong>Confirm</strong> to create the test set.</li>
+</ol>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/2add-a-new-set.png"  alt="Add a new set">
+</a>
+<p><em>Click + Add new set to add a new set</em></p>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/3new-set-input.png"  alt="Add new test configurations">
+</a>
+<p><em>Configure a set name and thresholds to be considered correct</em></p>
+</center>
+<h3 id="step-3-add-test-samples"><strong>Step 3: Add Test Samples</strong> <a href="#step-3-add-test-samples" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>Click the <strong>&ldquo;Add New Sample&rdquo;</strong> button inside your test set.</li>
+<li><strong>Configure the test sample:</strong>
+<ul>
+<li><strong>Conversation History:</strong> Add relevant context with past <strong>user/agent messages</strong>.</li>
+<li><strong>User Test Query:</strong> The exact user message that will be tested.</li>
+<li><strong>Agent Gold Response:</strong> The ideal AI-generated response for comparison.</li>
+</ul>
+</li>
+<li>Click <strong>Save</strong> to add the test sample.</li>
+</ol>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/4add-sample.png"  alt="Add a new test sample">
+</a>
+<p><em>Example: Add a user test query and an agent gold response to customerQ&amp;A test set</em></p>
+</center>
+<h3 id="step-4-run-the-test-set"><strong>Step 4: Run the Test Set</strong> <a href="#step-4-run-the-test-set" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>Click the <strong>Run</strong> icon next to the test set and click confirm button in the popup</li>
+<li>Navigate to the <strong>Test Runs</strong> tab to review the results.</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/5run-set.png"  alt="Click Run button to run">
+</a>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/6confirm-run.png"  alt="Click Run button to run">
+</a>
+</center>
+<h3 id="step-5-review-test-run-results"><strong>Step 5: Review Test Run Results</strong> <a href="#step-5-review-test-run-results" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>Review all test runs in the <strong>Test Runs</strong> tab</li>
+</ol>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/7test-run-page.png"  alt="Navigate to Test Runs tab to view results">
+</a>
+</center>
+<br/>
+<ol start="2">
+<li>Click on a completed test run to view:
+<ul>
+<li><strong>Overall Correctness Score</strong> for the test set.</li>
+<li><strong>Correctness Scores for each test sample</strong>.</li>
+<li><strong>Actual AI agent responses vs. Gold responses</strong>.</li>
+<li><strong>Knowledge Base articles</strong> the AI agent referenced.</li>
+</ul>
+</li>
+<li>If needed, <strong>edit knowledge base articles</strong> to improve AI responses.</li>
+</ol>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/8test-run-result.png"  alt="Click one item to view the results in detail">
+</a>
+<p><em>Example: The first query has a correctness score of 19.55% and the second one has a score of 65.47%, resulting in an overall correctness of 43.51%.</em></p>
+</center>
+<h3 id="step-6-adding-test-samples-from-real-conversations"><strong>Step 6: Adding Test Samples from Real Conversations</strong> <a href="#step-6-adding-test-samples-from-real-conversations" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li>During live conversations, if the AI agent provides an to-be-improved or exceptional response, click the <strong>Thumb Down/UP</strong> button.</li>
+<li>The response will appear under the <strong>&ldquo;Needs Review&rdquo;</strong> tab.</li>
+<li>Click the response, then select <strong>&quot;+ Add to Test Set&quot;</strong>.</li>
+<li>Choose a <strong>Test Set Name</strong> and configure:
+<ul>
+<li><strong>Conversation History</strong></li>
+<li><strong>User Test Query</strong></li>
+<li><strong>Agent Gold Response</strong></li>
+</ul>
+</li>
+<li>Click <strong>Save</strong>. The test sample is now added to the test set for future evaluations.</li>
+<li>Repeat <strong>Step 4 and Step 5</strong> to re-run tests and refine AI responses.</li>
+</ol>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/11needs-review-page.png"  alt="Click Add to Test Set button to add to a test set">
+</a>
+<p><em>Example: In the Needs Review page, click the + Add to Test Set button to add the agent response to a test set.</em></p>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/12add needs review message to a test set.png"  alt="Modify sample to be added to the test set">
+</a>
+<p><em>Example: Add user message and modify the agent gold response, then add this sample to the customerQ&amp;A test set.</em></p>
+</center>
+</center>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/evaluation/add-members.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/evaluation/13new sample in test set.png"  alt="View the newly added test sample">
+</a>
+<p><em>Example: Navigate to the Evaluation page, the NLP related query has been added to the customerQ&amp;A test set.</em></p>
+</center>
+<h2 id="3-pricing"><strong>3. Pricing</strong> <a href="#3-pricing" class="anchor" aria-hidden="true">#</a></h2>
+<p>Test runs consume agent responses and will be billed accordingly. Each test case in a test set costs <strong>$0.01</strong>.</p>
+<p>If you need further assistance, feel free to reach out to <a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>! 🚀</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; SOP for After Launch Operations
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					Custom GPT Tools &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <p style="text-align: center;">Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p>
+  
+<link rel="stylesheet" href="https://wiki.seasalt.ai/css/widget.css">
+<div id="sui-right-widgets">
+    <div id="sui-widget-btn"></div>
+</div>
+
+  
+    <script src="https://wiki.seasalt.ai/js/custom.js"></script>
+  
+    <script src="https://wiki.seasalt.ai/js/widget.js"></script>
+  
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+</footer>
+    <script src="https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js" integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp&#43;dznJkhQ2nKWFuqYPz9DUA==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js" integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V&#43;Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296&#43;Tx1MwY25qTpslERKCPKSQ==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js" integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin="anonymous" defer></script>
+  
+  </body>
+</html>

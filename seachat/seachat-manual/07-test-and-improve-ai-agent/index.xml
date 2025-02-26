@@ -27,5 +27,15 @@ Setup # 1. Add More Members to your Workspace #    Workspace → Members
  If you haven’t done so already, you can go to Workspace → Members to add your team there.</description>
     </item>
     
+    <item>
+      <title>Evaluation: Enhancing AI Agent Response Accuracy with Test Sets</title>
+      <link>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/</link>
+      <pubDate>Tue, 25 Feb 2025 00:22:19 -0700</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/</guid>
+      <description>1. Overview # The Evaluation feature in SeaChat allows users to systematically test their AI agent&amp;rsquo;s performance by comparing actual responses to predefined gold responses. It uses large language model to evaluate test sets and assigns correctness scores to determine response quality. It helps businesses monitor, test, and improve their AI agent’s performance.
+ It ensures high-quality responses by comparing real-time agent answers with gold standards. Users can refine their AI models by testing responses regularly and adjusting knowledge base content.</description>
+    </item>
+    
   </channel>
 </rss>

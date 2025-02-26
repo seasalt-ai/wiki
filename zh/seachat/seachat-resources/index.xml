@@ -5,11 +5,12 @@
     <link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/</link>
     <description>Recent content in 資源 on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Fri, 26 Jul 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>提示指令範例</title>
       <link>https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Jul 2024 08:48:45 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/</guid>
       <description>簡介 # 本教學的目的是提供如何有效且高效地訓練您的 SeaChat 助理的範例。提示指令範例僅僅是範例，並不應被視為訓練助理的唯一方法。這裡提供的範例旨在作為用戶達成某些效果的參考。然而，如果用戶有更具體的需求，他們應該根據需要微調提示指令，以達到期望的結果。

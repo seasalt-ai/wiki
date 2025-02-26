@@ -5,11 +5,12 @@
     <link>https://wiki.seasalt.ai/seachat/seachat-resources/</link>
     <description>Recent content in Resources on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://wiki.seasalt.ai/seachat/seachat-resources/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Fri, 26 Jul 2024 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seachat/seachat-resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prompt Examples</title>
       <link>https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Jul 2024 08:48:45 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seachat/seachat-resources/prompt-examples/</guid>
       <description>Overview # The purpose of this tutorial is to provide examples of how to train your SeaChat agent effectively and efficiently. Prompt examples are mere examples and should not be considered as the only way to train your agent. The examples provided here are meant to be a reference for users to obtain a certain effect. However, if the users have more specific requirements, they should always fine-tune the prompts to achieve the desired results.</description>
