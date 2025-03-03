@@ -8,9 +8,7 @@ images: []
 menu:
   seameet:
     parent: "seameet-manual"
-aliases:
-  - /zh/seameet/17-seameet-summary-template/
-url: /zh/seameet/summary-template/
+url: /zh/seameet/customize-meeting-summary-template/
 weight: 25
 toc: true
 ---
@@ -77,6 +75,29 @@ toc: true
 </a>
 
 </center>
+
+2. SeaMeet 目前預設支援如下摘要模板，包含多數企業日常所進行的各類會議，以及部份產業常見的會議需求。用戶可以自行選擇所需的摘要模板，或自行創建新模板。
+
+**內建摘要模板清單**
+
+- \[預設\] SeaMeet 會議摘要標準模板
+- \[自定義\] 課堂筆記
+- \[自定義\] Podcast 錄製
+- \[自定義\] 公司全員大會
+- \[自定義\] 客戶會議
+- \[自定義\] 每週部門會議
+- \[自定義\] 求職面試記錄
+- \[自定義\] 業務銷售會議
+- \[自定義\] 每日站立會議
+- \[自定義\] 教務會議紀錄
+- \[自定義\] 專案管理會議
+- \[自定義\] 一對一會議
+- \[自定義\] 法律案件準備
+- \[自定義\] 記者訪談記錄
+- \[自定義\] 需求討論會議
+- \[自定義\] 產品開發會議
+- \[自定義\] 醫療看診預約記錄
+- \[自定義\] 策略規劃會議
 
 ## 4. 設定預設模板
 

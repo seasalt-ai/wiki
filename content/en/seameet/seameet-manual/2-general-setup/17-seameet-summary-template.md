@@ -9,8 +9,7 @@ menu:
   seameet:
     parent: "seameet-manual"
 aliases:
-  - /en/seameet/17-seameet-summary-template/
-url: /en/seameet/summary-template/
+url: /en/seameet/customize-meeting-summary-template/
 weight: 25
 toc: true
 ---
