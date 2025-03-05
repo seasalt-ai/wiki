@@ -16,6 +16,12 @@ weight: 1600
 toc: true
 ---
 
+### 3/5/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved Mobile Experience: Fixed conversation page styles on mobile to ensure users can conveniently view conversations and reply to customers.
+- Google Calendar Integration Update: Setting up Google Calendar integration now automatically enables Time Awareness in the AI agent’s Advanced Settings, using the selected timezone.
+
 ### 2/26/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
