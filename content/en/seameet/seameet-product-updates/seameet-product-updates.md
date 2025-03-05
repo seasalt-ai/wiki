@@ -16,6 +16,21 @@ weight: 400
 toc: true
 ---
 
+### 3/04/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for meeting transcription in the following languages: Spanish, French, German, Danish, Polish, Thai, Hindi, Vietnamese, Japanese, and Korean.
+- Fixed timestamp errors caused by daylight saving time adjustments.
+- Corrected Chinese Wikipedia links.
+- Fixed an issue where replacing a speaker caused misalignment in speaker layout.
+- Adjusted the sorting order for the summary template list.
+
+### 2/20/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Introduced Summary Templates, allowing users to apply different templates for meeting summaries.
+- Adjusted text layout for the Try It Now invitation button on the landing page.
+- Modified the timestamp display for meetings occurring within an hour.
+- Fixed an issue where English users who had not used the service for several days after registration were receiving notifications in Chinese instead of English.
+
 ### 2/13/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added a "Try It Out" section on the product landing page.  

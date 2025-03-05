@@ -16,6 +16,24 @@ weight: 1
 toc: true
 ---
 
+### 3/04/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- MMS now correctly displays images in the conversation window.
+- Fixed timestamp errors caused by daylight saving time adjustments.
+- Fixed an issue where phone numbers were required to start with a "+".
+
+### 2/27/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Displayed MegaSend count in the list.
+- Added timestamp logging for label matching.
+- Fixed an issue where the contact field no longer checks for case sensitivity.
+
+### 2/20/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added MegaSend feature.
+- Implemented Do Not Contact label check during MegaSend.
+- Fixed an issue where loading the AI agent list took too long.
+
 ### 2/13/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Integrated SeaChat with WhatsApp Business Platform, enabling synchronization of WhatsApp Business messages to SeaChat.  
