@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
-      <description>2/13/2025 # New Features and Improvements #  Integrated SeaChat with WhatsApp Business Platform, enabling synchronization of WhatsApp Business messages to SeaChat. Added AI agent assignment for WhatsApp at the numbers page, with the ability to take over or reactivate conversations from SeaX. Added campaign failed status for WhatsApp campaign cards when campaign delivery fails.  2/6/2025 # New Features and Improvements #  Added contact search functionality to the dial pad.</description>
+      <description>3/04/2025 # New Features and Improvements #  MMS now correctly displays images in the conversation window. Fixed timestamp errors caused by daylight saving time adjustments. Fixed an issue where phone numbers were required to start with a &amp;ldquo;+&amp;rdquo;.  2/27/2025 # New Features and Improvements #  Displayed MegaSend count in the list. Added timestamp logging for label matching. Fixed an issue where the contact field no longer checks for case sensitivity.</description>
     </item>
     
   </channel>

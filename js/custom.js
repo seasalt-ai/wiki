@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
   // bindWidgets
-  bindWidgets.init();
+ // bindWidgets.init();
 });
