@@ -16,7 +16,42 @@ toc: true
 
 When recording a meeting, depending on the nature of the meeting, different focus and formats of the meeting minutes may need to be produced. In order to make the meeting summary more in line with the needs of enterprises and individual meetings, users can choose an appropriate meeting template according to the meeting, or create an appropriate abstract template by themselves. Each workspace will have its own list of summary templates.
 
-※ Please note that the abstract template is only applicable to "summary" meeting abstracts and not to "real-time" meeting abstracts.
+- Please note that the abstract template is only applicable to "summary" meeting abstracts and not to "real-time" meeting abstracts.
+
+## 1. Summary Template List
+
+1.  To view the current template list, navigate to `Workspace Settings` -> `Template`.
+
+- Note: Available only for Individual and Team plans. Users must have Owner or Admin permissions for the workspace.
+
+<center>
+<a name="seameet-customize-template" href="/images/seameet-en/17-seameet-summary-template/6seameet-customize-template.png" target="_blank">
+<img style="width: 80%" src="/images/seameet-en/17-seameet-summary-template/6seameet-customize-template.png" alt="seameet-customize-template"/>
+</a>
+</center>
+
+2. SeaMeet provides a set of built-in summary templates covering common business meetings and industry-specific needs. Users can select a template from the list or create a new one.
+
+**Built-in Summary Templates**
+
+- \[Default\] SeaMeet standard summary
+- \[Custom\] Weekly Department Meeting
+- \[Custom\] Podcast Recording
+- \[Custom\] Lecture Notes
+- \[Custom\] All-Hands Meeting
+- \[Custom\] Client Meeting
+- \[Custom\] Legal Case Preparation
+- \[Custom\] Job Interview Record
+- \[Custom\] Sales Meeting
+- \[Custom\] Daily Stand-up Meeting
+- \[Custom\] Academic Affairs Meeting
+- \[Custom\] Project Management Meeting
+- \[Custom\] One-on-One Meeting
+- \[Custom\] Journalist Interview Records
+- \[Custom\] Requirement Discussion Meeting
+- \[Custom\] Product Development Meeting
+- \[Custom\] Medical Appointment Records
+- \[Custom\] Strategy Planning Meeting
 
 ## 1. Apply summary template
 
@@ -25,7 +60,6 @@ When recording a meeting, depending on the nature of the meeting, different focu
 <a name="seameet-template-btn" href="/images/seameet-en/17-seameet-summary-template/1seameet-template-btn.png" target="_blank">
 <img style="width: 60%" src="/images/seameet-en/17-seameet-summary-template/1seameet-template-btn.png" alt="seameet-template-btn"/>
 </a>
-
 </center>
 
 2. In the drop-down menu of the pop-up window, select the summary template you want to apply
@@ -33,13 +67,18 @@ When recording a meeting, depending on the nature of the meeting, different focu
 <a name="seameet-template-popup" href="/images/seameet-en/17-seameet-summary-template/2seameet-template-popup.png" target="_blank">
 <img style="width: 60%" src="/images/seameet-en/17-seameet-summary-template/2seameet-template-popup.png" alt="seameet-template-popup"/>
 </a>
-
 </center>
 
 3. Select Save to regenerate the meeting summary
 <center>
 <a name="seameet-generating-summary" href="/images/seameet-en/17-seameet-summary-template/3seameet-generating-summary.png" target="_blank">
 <img style="width: 60%" src="/images/seameet-en/17-seameet-summary-template/3seameet-generating-summary.png" alt="seameet-generating-summary"/>
+</a>
+</center>
+<br>
+<center>
+<a name="seameet-generating-summary" href="/images/seameet-en/17-seameet-summary-template/3seameet-generating-summary2.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-en/17-seameet-summary-template/3seameet-generating-summary2.png" alt="seameet-generating-summary"/>
 </a>
 
 </center>
@@ -51,25 +90,23 @@ Note that each time a new digest is generated, a new email with the digest will 
 1. If you have a fixed routine meeting and want to apply a specific meeting summary template, such as "stand-up meeting" or "weekly meeting". If your meeting is invited by binding Google calendar or email, when you click the abstract template, you will automatically be asked whether you want to apply a fixed abstract template to this series of meetings.
 2. After application, the template will be automatically applied whenever a new meeting of this series is created.
 
-- ※ Note: Regular meetings will be based on the applied template, not the default meeting template
-  <center>
-  <a name="seameet-choose-template" href="/images/seameet-en/17-seameet-summary-template/4seameet-choose-template.png" target="_blank">
-  <img style="width: 60%" src="/images/seameet-en/17-seameet-summary-template/4seameet-choose-template.png" alt="seameet-choose-template"/>
-  </a>
-
+- Note: Regular meetings will be based on the applied template, not the default meeting template
+<center>
+<a name="seameet-choose-template" href="/images/seameet-en/17-seameet-summary-template/4seameet-choose-template.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-en/17-seameet-summary-template/4seameet-choose-template.png" alt="seameet-choose-template"/>
+</a>
 </center>
 
 ## 3. Summary template checklist
 
 1.  Go to the `Template` tab to browse the current template list
 
-- ※ Note: The custom summary function can only be used if it is an individual plan or a team plan. The user must have owner or administrator rights for the workspace.
+- Note: The custom summary function can only be used if it is an individual plan or a team plan. The user must have owner or administrator rights for the workspace.
 
 <center>
 <a name="seameet-customize-template" href="/images/seameet-en/17-seameet-summary-template/5seameet-choose-template.png" target="_blank">
 <img style="width: 80%" src="/images/seameet-en/17-seameet-summary-template/5seameet-choose-template.png" alt="seameet-customize-template"/>
 </a>
-
 </center>
 
 ## 4. Set default template

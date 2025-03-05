@@ -15,65 +15,17 @@ toc: true
 
 記錄會議時，取決於不同的會議性質，可能需要產出不同的會議紀錄重點與格式。為了讓會議摘要可以更符合企業與個別會議的需要，用戶可以依照會議選用合適的會議模板，或是自行創建合適的摘要模板。每個工作區都將有自己的摘要模板清單。
 
-※特別注意，摘要範本僅適用於「總結」會議摘要，不適用於「即時」會議摘要。
+- 特別注意，摘要範本僅適用於「總結」會議摘要，不適用於「即時」會議摘要。
 
-## 1. 套用摘要模板
-
-1. 會議結束後，點選會議摘要旁邊的摘要模板按鈕
-<center>
-<a name="seameet-template-btn" href="/images/seameet-zh/17-seameet-summary-template/1seameet-template-btn.png" target="_blank">
-<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/1seameet-template-btn.png" alt="seameet-template-btn"/>
-</a>
-
-</center>
-
-2. 在彈窗的下拉選單中，選擇您想套用的摘要模板
-<center>
-<a name="seameet-template-popup" href="/images/seameet-zh/17-seameet-summary-template/2seameet-template-popup.png" target="_blank">
-<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/2seameet-template-popup.png" alt="seameet-template-popup"/>
-</a>
-
-</center>
-
-3. 選擇儲存，即可重新產生會議摘要
-<center>
-<a name="seameet-generating-summary" href="/images/seameet-zh/17-seameet-summary-template/3seameet-generating-summary.png" target="_blank">
-<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/3seameet-generating-summary.png" alt="seameet-generating-summary"/>
-</a>
-
-</center>
-    <center>
-    <a name="seameet-generating-summary" href="/images/seameet-zh/17-seameet-summary-template/4seameet-generating-summary.png" target="_blank">
-    <img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/4seameet-generating-summary.png" alt="seameet-generating-summary"/>
-    </a>
-
-</center>
-
-注意，每次產生新摘要後會自動寄出一封帶摘要的新郵件。如果您的分享設置是也分享給其他與會者，則所有人都會收到一份新郵件。
-
-## 2. 為例行性會議套用模板
-
-1. 若您有固定的例行性會議希望套用特定的會議摘要模板，例如「站立會議」或「週例會」。如您的會議是透過綁定 Google 行事曆或 E-mail 邀請，則點擊摘要模板時，便會自動詢問是否要為該系列會議套用固定的摘要模板。
-2. 套用後，每當有該系列的新會議被建立時，將自動套用該模板。
-
-- ※注意事項：例行性會議將以套用的模板為主，而非預設會議模板
-  <center>
-  <a name="seameet-choose-template" href="/images/seameet-zh/17-seameet-summary-template/5seameet-choose-template.png" target="_blank">
-  <img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/5seameet-choose-template.png" alt="seameet-choose-template"/>
-  </a>
-
-</center>
-
-## 3. 摘要模板清單
+## 1. 摘要模板清單
 
 1.  點擊「工作區設定」的「自定義摘要」，即可瀏覽目前的模板清單
 
-- ※注意事項：須為個人方案或團隊方案，才可使用自定義摘要功能。用戶須為該工作區的擁有者或管理員權限。
+- 注意事項：須為個人方案或團隊方案，才可使用自定義摘要功能。用戶須為該工作區的擁有者或管理員權限。
 <center>
 <a name="seameet-customize-template" href="/images/seameet-zh/17-seameet-summary-template/6seameet-customize-template.png" target="_blank">
 <img style="width: 80%" src="/images/seameet-zh/17-seameet-summary-template/6seameet-customize-template.png" alt="seameet-customize-template"/>
 </a>
-
 </center>
 
 2. SeaMeet 目前預設支援如下摘要模板，包含多數企業日常所進行的各類會議，以及部份產業常見的會議需求。用戶可以自行選擇所需的摘要模板，或自行創建新模板。
@@ -98,6 +50,53 @@ toc: true
 - \[自定義\] 產品開發會議
 - \[自定義\] 醫療看診預約記錄
 - \[自定義\] 策略規劃會議
+
+## 2. 套用摘要模板
+
+1. 會議結束後，點選會議摘要旁邊的摘要模板按鈕
+<center>
+<a name="seameet-template-btn" href="/images/seameet-zh/17-seameet-summary-template/1seameet-template-btn.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/1seameet-template-btn.png" alt="seameet-template-btn"/>
+</a>
+
+</center>
+
+2. 在彈窗的下拉選單中，選擇您想套用的摘要模板
+<center>
+<a name="seameet-template-popup" href="/images/seameet-zh/17-seameet-summary-template/2seameet-template-popup.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/2seameet-template-popup.png" alt="seameet-template-popup"/>
+</a>
+
+</center>
+
+3. 選擇儲存，即可重新產生會議摘要
+<center>
+<a name="seameet-generating-summary" href="/images/seameet-zh/17-seameet-summary-template/3seameet-generating-summary.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/3seameet-generating-summary.png" alt="seameet-generating-summary"/>
+</a>
+
+</center>
+<br>
+<center>
+<a name="seameet-generating-summary" href="/images/seameet-zh/17-seameet-summary-template/4seameet-generating-summary.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/4seameet-generating-summary.png" alt="seameet-generating-summary"/>
+</a>
+</center>
+
+注意，每次產生新摘要後會自動寄出一封帶摘要的新郵件。如果您的分享設置是也分享給其他與會者，則所有人都會收到一份新郵件。
+
+## 3. 為例行性會議套用模板
+
+1. 若您有固定的例行性會議希望套用特定的會議摘要模板，例如「站立會議」或「週例會」。如您的會議是透過綁定 Google 行事曆或 E-mail 邀請，則點擊摘要模板時，便會自動詢問是否要為該系列會議套用固定的摘要模板。
+2. 套用後，每當有該系列的新會議被建立時，將自動套用該模板。
+
+- 注意事項：例行性會議將以套用的模板為主，而非預設會議模板
+<center>
+<a name="seameet-choose-template" href="/images/seameet-zh/17-seameet-summary-template/5seameet-choose-template.png" target="_blank">
+<img style="width: 60%" src="/images/seameet-zh/17-seameet-summary-template/5seameet-choose-template.png" alt="seameet-choose-template"/>
+</a>
+
+</center>
 
 ## 4. 設定預設模板
 
