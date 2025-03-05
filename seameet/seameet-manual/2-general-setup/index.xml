@@ -60,5 +60,14 @@ Sync with Google Calendar #  Go to the SeaMeet settings page, click Integration,
 Identifying Speakers #  Based on the actual number of meeting participants, you can use &amp;ldquo;Identify Speakers&amp;rdquo; to resplit the transcript and specify how many speakers to distinguish            During the speaker identification process, you can leave the meeting at any time and return to view the results when it&amp;rsquo;s complete       When identification is complete, you can see participants distinguished as different speakers (e.</description>
     </item>
     
+    <item>
+      <title>Customize Your Meeting Summary Template</title>
+      <link>https://wiki.seasalt.ai/en/seameet/customize-meeting-summary-template/</link>
+      <pubDate>Sat, 01 Mar 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seameet/customize-meeting-summary-template/</guid>
+      <description>When recording a meeting, depending on the nature of the meeting, different focus and formats of the meeting minutes may need to be produced. In order to make the meeting summary more in line with the needs of enterprises and individual meetings, users can choose an appropriate meeting template according to the meeting, or create an appropriate abstract template by themselves. Each workspace will have its own list of summary templates.</description>
+    </item>
+    
   </channel>
 </rss>
