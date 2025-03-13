@@ -16,9 +16,17 @@ weight: 1600
 toc: true
 ---
 
+### 3/13/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Email Format Validation: An email format validation is added in webchat forms to ensure customers provide correct email addresses.
+- Enhanced Call End Feature: When a voice conversation is in progress, the button in the upper right corner of the conversation detail window will function as an end call button, allowing users to terminate ongoing calls with a single click.
+
 ### 3/5/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Improved Mobile Experience: Fixed conversation page styles on mobile to ensure users can conveniently view conversations and reply to customers.
 - Google Calendar Integration Update: Setting up Google Calendar integration now automatically enables Time Awareness in the AI agent’s Advanced Settings, using the selected timezone.
 
