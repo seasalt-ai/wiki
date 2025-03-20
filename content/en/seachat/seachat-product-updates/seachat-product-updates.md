@@ -16,6 +16,12 @@ weight: 1600
 toc: true
 ---
 
+### 3/20/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Webchat Widget Bubble Feature: Users can now add an attention-grabbing bubble near the webchat widget to make it more visually prominent and appealing. This feature can be configured in the webchat widget settings page.
+
 ### 3/13/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
