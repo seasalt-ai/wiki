@@ -16,6 +16,22 @@ weight: 400
 toc: true
 ---
 
+### 3/20/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Introduced meeting sharing functionality, allowing links to be shared with non-workspace users and granting access to either "Anyone with the link" or "Invited users only."
+- Fixed an issue where meeting summaries generated using the "Standard Template" now align with the newly recorded transcription language.
+- Prevented errors from being triggered when the bot was not allow to join a meeting and no audio recording is available.
+- Corrected the fee calculation explanation for the "Edit Plan" popup.
+- Fixed an issue where the language prompt was incorrect when inviting the bot to join Google Meet.
+- Removed the "Upgrade" button for "Custom Plans."
+- Adjusted the bot's meeting entry behavior for "Recorded Meetings."
+
+### 3/13/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added localization support for additional languages, including Cantonese (Traditional Chinese – Hong Kong, Simplified Chinese) and Spanish (Latin America).
+- Fixed an issue preventing the bot from joining meetings when invited via the extension in newly supported languages.
+- Resolved an issue where summary templates could not be applied in the Individual or Team plan.
+
 ### 3/04/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added support for meeting transcription in the following languages: Spanish, French, German, Danish, Polish, Thai, Hindi, Vietnamese, Japanese, and Korean.

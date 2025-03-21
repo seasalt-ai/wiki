@@ -16,6 +16,16 @@ weight: 1
 toc: true
 ---
 
+### 3/20/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed the application process and procedure for purchasing numbers.
+
+### 3/13/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Adjusted the display of failed WhatsApp campaigns to show failure reasons for all messages.
+- Enabled WhatsApp message template activation.
+- Fixed an issue causing errors in the campaign initiation process.
+
 ### 3/04/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - MMS now correctly displays images in the conversation window.
