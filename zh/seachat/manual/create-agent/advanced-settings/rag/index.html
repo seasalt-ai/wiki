@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-05-29T08:48:45+00:00">
-  <meta property="article:modified_time" content="2025-03-27T20:28:37-07:00">
+  <meta property="article:modified_time" content="2025-04-02T14:55:54-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-05-29T08:48:45CET",
-      "dateModified": "2025-03-27T20:28:37CET",
+      "dateModified": "2025-04-02T14:55:54CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/#/schema/breadcrumb/1"
       },
@@ -1350,6 +1350,13 @@
         <li><a href="#知識庫擷取計數的考慮因素">知識庫擷取計數的考慮因素</a></li>
       </ul>
     </li>
+    <li><a href="#知識庫搜索優化">知識庫搜索優化</a>
+      <ul>
+        <li><a href="#配置知識庫搜索優化">配置知識庫搜索優化</a></li>
+        <li><a href="#自定義優化指令">自定義優化指令</a></li>
+        <li><a href="#知識庫搜索優化的好處">知識庫搜索優化的好處</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -1383,6 +1390,13 @@
     <li><a href="#知識庫擷取計數seachat-rag-ui"><a href="#seachat-rag-ui">知識庫擷取計數</a></a>
       <ul>
         <li><a href="#知識庫擷取計數的考慮因素">知識庫擷取計數的考慮因素</a></li>
+      </ul>
+    </li>
+    <li><a href="#知識庫搜索優化">知識庫搜索優化</a>
+      <ul>
+        <li><a href="#配置知識庫搜索優化">配置知識庫搜索優化</a></li>
+        <li><a href="#自定義優化指令">自定義優化指令</a></li>
+        <li><a href="#知識庫搜索優化的好處">知識庫搜索優化的好處</a></li>
       </ul>
     </li>
   </ul>
@@ -1439,6 +1453,44 @@
 </ul>
 <p>每次請求的上下文是有限制的。如果檢索到的文檔超過此限制，SeaChat 將使用在限制內能夠適應的文檔。</p>
 <p>通過調整知識庫檢索數量，您可以優化資料深度和資源使用之間的平衡，確保準確且高效的回應。</p>
+<h2 id="知識庫搜索優化">知識庫搜索優化 <a href="#%e7%9f%a5%e8%ad%98%e5%ba%ab%e6%90%9c%e7%b4%a2%e5%84%aa%e5%8c%96" class="anchor" aria-hidden="true">#</a></h2>
+<p>SeaChat 現在提供一個名為知識庫搜索優化的進階功能，讓您能夠進一步提升檢索資訊的質量。此功能使 AI 能夠在生成回應前對初步搜索結果進行二次分析。</p>
+<h3 id="配置知識庫搜索優化">配置知識庫搜索優化 <a href="#%e9%85%8d%e7%bd%ae%e7%9f%a5%e8%ad%98%e5%ba%ab%e6%90%9c%e7%b4%a2%e5%84%aa%e5%8c%96" class="anchor" aria-hidden="true">#</a></h3>
+<p>您可以在AI Agent 資訊的進階設定頁面中啟用此功能：</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="https://wiki.seasalt.ai/images/seachat/zh/agent-advanced-settings/kb-refinement.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/zh/agent-advanced-settings/kb-refinement.png" alt="SeaChat 中的知識庫搜索優化功能圖">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">SeaChat 中的知識庫搜索優化設置</p></p>
+</div>
+<h3 id="自定義優化指令">自定義優化指令 <a href="#%e8%87%aa%e5%ae%9a%e7%be%a9%e5%84%aa%e5%8c%96%e6%8c%87%e4%bb%a4" class="anchor" aria-hidden="true">#</a></h3>
+<p>為了更精確地控制 LLM 如何優化搜索結果，您可以在文本欄位中提供自定義指令。這些指令指導 AI：</p>
+<ul>
+<li>如何評估文檔相關性</li>
+<li>優先處理哪些類型的資訊</li>
+<li>如何處理模糊查詢</li>
+<li>針對您特定知識領域的特殊考慮</li>
+</ul>
+<h4 id="指令示例">指令示例 <a href="#%e6%8c%87%e4%bb%a4%e7%a4%ba%e4%be%8b" class="anchor" aria-hidden="true">#</a></h4>
+<p>以下是一些有效的優化指令示例：</p>
+<ul>
+<li>&ldquo;當用戶詢問產品規格時，優先考慮包含特定產品代碼的文檔。&rdquo;</li>
+<li>&ldquo;對於停車相關查詢，專注於包含與用戶提及區域匹配的位置資訊的文檔。&rdquo;</li>
+<li>&ldquo;處理技術支援問題時，優先考慮最新文檔而非舊版本。&rdquo;</li>
+<li>&ldquo;對於多部分問題，確保包含能夠解答查詢所有部分的文檔。&rdquo;</li>
+</ul>
+<h3 id="知識庫搜索優化的好處">知識庫搜索優化的好處 <a href="#%e7%9f%a5%e8%ad%98%e5%ba%ab%e6%90%9c%e7%b4%a2%e5%84%aa%e5%8c%96%e7%9a%84%e5%a5%bd%e8%99%95" class="anchor" aria-hidden="true">#</a></h3>
+<p>啟用此功能可以顯著提升您的 AI 助理性能：</p>
+<ul>
+<li>提供更準確和相關的回應</li>
+<li>減少複雜知識庫中的資訊過載</li>
+<li>更有效地處理模糊查詢</li>
+<li>提升對用戶問題的上下文理解</li>
+<li>提供更簡潔和專注的答案</li>
+</ul>
+<p>通過微調您的知識庫搜索優化設置，您可以創建一個更智能、更靈敏的 AI 助理，更好地理解和解決用戶的特定需求。</p>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>

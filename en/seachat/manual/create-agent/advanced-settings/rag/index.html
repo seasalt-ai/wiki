@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-04-26T08:48:45+00:00">
-  <meta property="article:modified_time" content="2025-03-27T20:28:37-07:00">
+  <meta property="article:modified_time" content="2025-04-02T14:55:54-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-04-26T08:48:45CET",
-      "dateModified": "2025-03-27T20:28:37CET",
+      "dateModified": "2025-04-02T14:55:54CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/#/schema/breadcrumb/1"
       },
@@ -1459,6 +1459,13 @@
         <li><a href="#considerations-for-setting-the-count">Considerations for setting the count</a></li>
       </ul>
     </li>
+    <li><a href="#knowledge-base-search-refinement">Knowledge Base Search Refinement</a>
+      <ul>
+        <li><a href="#configuring-kb-search-refinement">Configuring KB Search Refinement</a></li>
+        <li><a href="#custom-refinement-instructions">Custom Refinement Instructions</a></li>
+        <li><a href="#benefits-of-kb-search-refinement">Benefits of KB Search Refinement</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -1492,6 +1499,13 @@
     <li><a href="#knowledge-base-retrieval-countseachat-rag-ui"><a href="#seachat-rag-ui">Knowledge Base Retrieval Count</a></a>
       <ul>
         <li><a href="#considerations-for-setting-the-count">Considerations for setting the count</a></li>
+      </ul>
+    </li>
+    <li><a href="#knowledge-base-search-refinement">Knowledge Base Search Refinement</a>
+      <ul>
+        <li><a href="#configuring-kb-search-refinement">Configuring KB Search Refinement</a></li>
+        <li><a href="#custom-refinement-instructions">Custom Refinement Instructions</a></li>
+        <li><a href="#benefits-of-kb-search-refinement">Benefits of KB Search Refinement</a></li>
       </ul>
     </li>
   </ul>
@@ -1548,6 +1562,44 @@
 </ul>
 <p>There is a limit to the amount of context that can be provided with each request. If the retrieved documents exceed this limit, SeaChat will use as many documents as can fit within the limit.</p>
 <p>By adjusting the KB retrieval count, you can optimize the balance between depth of information and resource usage, ensuring accurate and efficient responses.</p>
+<h2 id="knowledge-base-search-refinement">Knowledge Base Search Refinement <a href="#knowledge-base-search-refinement" class="anchor" aria-hidden="true">#</a></h2>
+<p>SeaChat now offers an advanced feature called Knowledge Base Search Refinement that allows you to further enhance the quality of retrieved information. This feature enables the AI to perform a secondary refinement on preliminary search results before generating responses.</p>
+<h3 id="configuring-kb-search-refinement">Configuring KB Search Refinement <a href="#configuring-kb-search-refinement" class="anchor" aria-hidden="true">#</a></h3>
+<p>You can enable this feature in the Agent Information&rsquo;s Advanced Settings page:</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="https://wiki.seasalt.ai/images/seachat/en/agent-advanced-settings/kb-refinement.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat/en/agent-advanced-settings/kb-refinement.png" alt="image of the Knowledge Base Search Refinement feature in SeaChat">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">KB Search Refinement Settings in SeaChat</p></p>
+</div>
+<h3 id="custom-refinement-instructions">Custom Refinement Instructions <a href="#custom-refinement-instructions" class="anchor" aria-hidden="true">#</a></h3>
+<p>For more precise control over how the LLM refines search results, you can provide custom instructions in the text field. These instructions guide the AI on:</p>
+<ul>
+<li>How to evaluate document relevance</li>
+<li>Which types of information to prioritize</li>
+<li>How to handle ambiguous queries</li>
+<li>Special considerations for your specific knowledge domain</li>
+</ul>
+<h4 id="example-instructions">Example Instructions <a href="#example-instructions" class="anchor" aria-hidden="true">#</a></h4>
+<p>Here are some examples of effective refinement instructions:</p>
+<ul>
+<li>&ldquo;Prioritize documents containing specific product codes when the user asks about product specifications.&rdquo;</li>
+<li>&ldquo;For parking-related queries, focus on documents with location information that matches the user&rsquo;s mentioned area.&rdquo;</li>
+<li>&ldquo;When handling technical support questions, prioritize the most recent documentation over older versions.&rdquo;</li>
+<li>&ldquo;For multi-part questions, ensure that documents addressing all parts of the query are included.&rdquo;</li>
+</ul>
+<h3 id="benefits-of-kb-search-refinement">Benefits of KB Search Refinement <a href="#benefits-of-kb-search-refinement" class="anchor" aria-hidden="true">#</a></h3>
+<p>Enabling this feature can significantly improve your AI agent&rsquo;s performance by:</p>
+<ul>
+<li>Providing more accurate and relevant responses</li>
+<li>Reducing information overload in complex knowledge bases</li>
+<li>Handling ambiguous queries more effectively</li>
+<li>Improving the contextual understanding of user questions</li>
+<li>Delivering more concise and focused answers</li>
+</ul>
+<p>By fine-tuning your KB Search Refinement settings, you can create a more intelligent and responsive AI agent that better understands and addresses your users' specific needs.</p>
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
