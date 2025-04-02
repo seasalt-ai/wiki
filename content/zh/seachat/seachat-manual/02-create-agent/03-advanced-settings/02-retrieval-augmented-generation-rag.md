@@ -14,6 +14,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/rag
 ---
 
 ## 簡介
+
 檢索增強生成 (RAG) 是 SeaChat 中一個進階功能，增強了知識檢索和 AI 助理互動的準確性。通過提供您調整查詢模式、選擇檢索方法和定義知識庫檢索數量的能力，優化了 AI 助理的性能。
 
 ---
@@ -28,6 +29,7 @@ url: /zh/seachat/manual/create-agent/advanced-settings/rag
 </div>
 
 ## [檢索查詢模式](#seachat-rag-ui)
+
 無論您需要全面的上下文、專注的互動，還是快速、精確的回應，SeaChat 靈活的查詢模式確保了優化的聊天體驗，以滿足您的偏好。
 
 以下是客戶與停車場 FAQ AI 助理之間的示例對話，知識庫中包含數百個停車場的資料：
@@ -43,12 +45,15 @@ url: /zh/seachat/manual/create-agent/advanced-settings/rag
 ---
 
 ### 前一用戶提問 &#8594; 機器人回應 &#8594; 當前用戶提問
+
 通過結合對話的前三輪提供全面的上下文。在這種情況下，完整的對話（上一用戶提問 + 機器人回應 + 當前用戶提問）將用於查詢知識庫並生成機器人對當前用戶提問的下一個回應。
 
 ### 上一用戶提問 &#8594; 當前用戶提問
+
 更加關注用戶的請求，不受機器人回應的影響。它包括最近兩個用戶輸入（上一用戶提問 和 當前用戶提問）來查詢知識庫並生成機器人對下一個回應。
 
 ### 當前用戶提問
+
 只考慮用戶的最新提問，即當前用戶提問，用於生成機器人的下一個回應。這對於一次性對話或用戶頻繁切換主題的情況非常理想。然而，在多輪對話中討論相同主題時，它可能會忽略重要的上下文。
 
 ## [檢索方法](#seachat-rag-ui)
@@ -56,12 +61,15 @@ url: /zh/seachat/manual/create-agent/advanced-settings/rag
 您可以通過選擇不同的知識庫檢索方法來優化知識庫檢索：
 
 ### Keyword Search (關鍵字檢索)
+
 根據用戶提供的關鍵字來匹配知識庫，以提供相關結果。當您有唯一標識符如產品名稱、地點、ID 等時，這種方法效果很好，但在用戶沒有說出精確的關鍵字時（例如使用同義詞或不同語言）可能會錯過。
 
 ### Vector Search (向量檢索)
+
 利用文本嵌入的能力來增強相關資料的檢索。向量檢索可以跨語言工作，即使沒有匹配的關鍵字也能檢索到相似的文檔。然而，對於稀有標識符如產品名稱、地點或 ID 可能會有困難。
 
 ### Hybrid Search (混合檢索)
+
 結合關鍵字檢索和向量檢索方法，優化資料檢索。
 
 ## [知識庫擷取計數](#seachat-rag-ui)
@@ -83,3 +91,50 @@ url: /zh/seachat/manual/create-agent/advanced-settings/rag
 每次請求的上下文是有限制的。如果檢索到的文檔超過此限制，SeaChat 將使用在限制內能夠適應的文檔。
 
 通過調整知識庫檢索數量，您可以優化資料深度和資源使用之間的平衡，確保準確且高效的回應。
+
+## 知識庫搜索優化
+
+SeaChat 現在提供一個名為知識庫搜索優化的進階功能，讓您能夠進一步提升檢索資訊的質量。此功能使 AI 能夠在生成回應前對初步搜索結果進行二次分析。
+
+### 配置知識庫搜索優化
+
+您可以在AI Agent 資訊的進階設定頁面中啟用此功能：
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/zh/agent-advanced-settings/kb-refinement.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement.png" alt="SeaChat 中的知識庫搜索優化功能圖">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">SeaChat 中的知識庫搜索優化設置</p></p>
+</div>
+
+### 自定義優化指令
+
+為了更精確地控制 LLM 如何優化搜索結果，您可以在文本欄位中提供自定義指令。這些指令指導 AI：
+
+- 如何評估文檔相關性
+- 優先處理哪些類型的資訊
+- 如何處理模糊查詢
+- 針對您特定知識領域的特殊考慮
+
+#### 指令示例
+
+以下是一些有效的優化指令示例：
+
+- "當用戶詢問產品規格時，優先考慮包含特定產品代碼的文檔。"
+- "對於停車相關查詢，專注於包含與用戶提及區域匹配的位置資訊的文檔。"
+- "處理技術支援問題時，優先考慮最新文檔而非舊版本。"
+- "對於多部分問題，確保包含能夠解答查詢所有部分的文檔。"
+
+### 知識庫搜索優化的好處
+
+啟用此功能可以顯著提升您的 AI 助理性能：
+
+- 提供更準確和相關的回應
+- 減少複雜知識庫中的資訊過載
+- 更有效地處理模糊查詢
+- 提升對用戶問題的上下文理解
+- 提供更簡潔和專注的答案
+
+通過微調您的知識庫搜索優化設置，您可以創建一個更智能、更靈敏的 AI 助理，更好地理解和解決用戶的特定需求。

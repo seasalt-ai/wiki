@@ -16,6 +16,12 @@ weight: 1600
 toc: true
 ---
 
+### 4/1/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Knowledge Base Refinement: Users can now configure whether to refine knowledge base search results and customize instructions for the LLM in the Agent Information's Advanced Settings page on how to optimize these results, enhancing AI agent performance when answering user queries. See [tutorial](/en/seachat/manual/create-agent/advanced-settings/rag/#knowledge-base-search-refinement).
+
 ### 3/20/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
