@@ -109,7 +109,9 @@ You can enable this feature in the Agent Information's Advanced Settings page:
     <p style="margin-top: 20px; font-size: 15px">KB Search Refinement Settings in SeaChat</p></p>
 </div>
 
-### Custom Refinement Instructions
+### Optional KB Refinement Instructions
+
+Simply enabling this feature without any additional instructions is sufficient for most use cases. The system will automatically refine search results using default optimization strategies. Custom instructions are optional but can significantly enhance performance for specific scenarios.
 
 For more precise control over how the LLM refines search results, you can provide custom instructions in the text field. These instructions guide the AI on:
 
@@ -126,6 +128,8 @@ Here are some examples of effective refinement instructions:
 - "For parking-related queries, focus on documents with location information that matches the user's mentioned area."
 - "When handling technical support questions, prioritize the most recent documentation over older versions."
 - "For multi-part questions, ensure that documents addressing all parts of the query are included."
+- "When summarizing the conversation history, include the branch name if it can be inferred from the discussion, ensuring that it reflects the branch the user intended in the last query, even if not explicitly mentioned."
+- "When identifying relevant articles, exclude those related to branches different from the one mentioned in the summary, provided the summary specifies a branch name."
 
 ### Benefits of KB Search Refinement
 
