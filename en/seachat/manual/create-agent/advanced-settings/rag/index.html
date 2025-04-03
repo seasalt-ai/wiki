@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-04-26T08:48:45+00:00">
-  <meta property="article:modified_time" content="2025-04-02T17:10:07-07:00">
+  <meta property="article:modified_time" content="2025-04-03T15:53:16-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-04-26T08:48:45CET",
-      "dateModified": "2025-04-02T17:10:07CET",
+      "dateModified": "2025-04-03T15:53:16CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/rag/#/schema/breadcrumb/1"
       },
@@ -1462,7 +1462,7 @@
     <li><a href="#knowledge-base-search-refinement">Knowledge Base Search Refinement</a>
       <ul>
         <li><a href="#configuring-kb-search-refinement">Configuring KB Search Refinement</a></li>
-        <li><a href="#custom-refinement-instructions">Custom Refinement Instructions</a></li>
+        <li><a href="#optional-kb-refinement-instructions">Optional KB Refinement Instructions</a></li>
         <li><a href="#benefits-of-kb-search-refinement">Benefits of KB Search Refinement</a></li>
       </ul>
     </li>
@@ -1504,7 +1504,7 @@
     <li><a href="#knowledge-base-search-refinement">Knowledge Base Search Refinement</a>
       <ul>
         <li><a href="#configuring-kb-search-refinement">Configuring KB Search Refinement</a></li>
-        <li><a href="#custom-refinement-instructions">Custom Refinement Instructions</a></li>
+        <li><a href="#optional-kb-refinement-instructions">Optional KB Refinement Instructions</a></li>
         <li><a href="#benefits-of-kb-search-refinement">Benefits of KB Search Refinement</a></li>
       </ul>
     </li>
@@ -1574,7 +1574,8 @@
 </div>
     <p style="margin-top: 20px; font-size: 15px">KB Search Refinement Settings in SeaChat</p></p>
 </div>
-<h3 id="custom-refinement-instructions">Custom Refinement Instructions <a href="#custom-refinement-instructions" class="anchor" aria-hidden="true">#</a></h3>
+<h3 id="optional-kb-refinement-instructions">Optional KB Refinement Instructions <a href="#optional-kb-refinement-instructions" class="anchor" aria-hidden="true">#</a></h3>
+<p>Simply enabling this feature without any additional instructions is sufficient for most use cases. The system will automatically refine search results using default optimization strategies. Custom instructions are optional but can significantly enhance performance for specific scenarios.</p>
 <p>For more precise control over how the LLM refines search results, you can provide custom instructions in the text field. These instructions guide the AI on:</p>
 <ul>
 <li>How to evaluate document relevance</li>
@@ -1589,6 +1590,8 @@
 <li>&ldquo;For parking-related queries, focus on documents with location information that matches the user&rsquo;s mentioned area.&rdquo;</li>
 <li>&ldquo;When handling technical support questions, prioritize the most recent documentation over older versions.&rdquo;</li>
 <li>&ldquo;For multi-part questions, ensure that documents addressing all parts of the query are included.&rdquo;</li>
+<li>&ldquo;When summarizing the conversation history, include the branch name if it can be inferred from the discussion, ensuring that it reflects the branch the user intended in the last query, even if not explicitly mentioned.&rdquo;</li>
+<li>&ldquo;When identifying relevant articles, exclude those related to branches different from the one mentioned in the summary, provided the summary specifies a branch name.&rdquo;</li>
 </ul>
 <h3 id="benefits-of-kb-search-refinement">Benefits of KB Search Refinement <a href="#benefits-of-kb-search-refinement" class="anchor" aria-hidden="true">#</a></h3>
 <p>Enabling this feature can significantly improve your AI agent&rsquo;s performance by:</p>
