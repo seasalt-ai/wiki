@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>4/1/2025 # New Features and Improvements #  Knowledge Base Refinement: Users can now configure whether to refine knowledge base search results and customize instructions for the LLM in the Agent Information&amp;rsquo;s Advanced Settings page on how to optimize these results, enhancing AI agent performance when answering user queries. See tutorial.  3/20/2025 # New Features and Improvements #  Webchat Widget Bubble Feature: Users can now add an attention-grabbing bubble near the webchat widget to make it more visually prominent and appealing.</description>
+      <description>4/9/2025 # New Features and Improvements #  Enhanced References feature: When users enable the References feature in the Advanced Settings page and have configured the Zendesk ticket search tool, if the AI agent&amp;rsquo;s response includes content from Zendesk tickets, the system will display the relevant ticket numbers and titles in the references area, making it easier to track information sources.  4/1/2025 # New Features and Improvements #  Knowledge Base Refinement: Users can now configure whether to refine knowledge base search results and customize instructions for the LLM in the Agent Information&amp;rsquo;s Advanced Settings page on how to optimize these results, enhancing AI agent performance when answering user queries.</description>
     </item>
     
   </channel>
