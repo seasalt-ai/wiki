@@ -16,6 +16,12 @@ weight: 1600
 toc: true
 ---
 
+### 4/9/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Enhanced References feature: When users enable the References feature in the Advanced Settings page and have configured the Zendesk ticket search tool, if the AI agent's response includes content from Zendesk tickets, the system will display the relevant ticket numbers and titles in the references area, making it easier to track information sources.
+
 ### 4/1/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
