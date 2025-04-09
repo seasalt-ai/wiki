@@ -16,6 +16,13 @@ weight: 400
 toc: true
 ---
 
+### 3/27/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated the "Auto-share Meeting Notes" email and Google Meet in-call message link. Recipients can request access to the specific shared meeting only.  
+- Updated browser extension favicon to display the language currently being transcribed.  
+- Refined pricing explanation in the "Edit Plan" section.  
+- Added product chatbot to the landing page.
+
 ### 3/20/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Introduced meeting sharing functionality, allowing links to be shared with non-workspace users and granting access to either "Anyone with the link" or "Invited users only."

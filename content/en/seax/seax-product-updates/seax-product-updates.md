@@ -16,6 +16,20 @@ weight: 1
 toc: true
 ---
 
+### 4/2/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated DNC keywords for Spanish.  
+- Fixed missing plan title issue in the pricing section.  
+- Enhanced outbound and inbound calling via dialpad.  
+- Improved outbound call functionality via AI Agent.
+
+### 3/27/2025 
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated "Keywords and Auto-replies" to support WhatsApp messages.  
+- Fixed an issue with DNC keywords.  
+- Updated chatbot bubble title.  
+- Added product chatbot to the landing page.
+
 ### 3/20/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Fixed the application process and procedure for purchasing numbers.
