@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>3/27/2025 # New Features and Improvements #  Updated the &amp;ldquo;Auto-share Meeting Notes&amp;rdquo; email and Google Meet in-call message link. Recipients can request access to the specific shared meeting only. Updated browser extension favicon to display the language currently being transcribed. Refined pricing explanation in the &amp;ldquo;Edit Plan&amp;rdquo; section. Added product chatbot to the landing page.  3/20/2025 # New Features and Improvements #  Introduced meeting sharing functionality, allowing links to be shared with non-workspace users and granting access to either &amp;ldquo;Anyone with the link&amp;rdquo; or &amp;ldquo;Invited users only.</description>
+      <description>4/10/2025 # New Features and Improvements #  Enhanced &amp;ldquo;Share Meeting&amp;rdquo;: when selecting &amp;ldquo;All participants in calendar event&amp;rdquo; attendees can access the meeting page after logging in. Users without invitations can request access via shared meeting links. The meeting inviter will receive an email notification for each access request. Workspace members can approve or reject access requests on the meeting page. Approved users will be notified via email. Updated &amp;ldquo;Auto-share Meeting Notes&amp;rdquo; emails to distinguish between workspace members and external users.</description>
     </item>
     
   </channel>
