@@ -16,6 +16,18 @@ weight: 400
 toc: true
 ---
 
+### 4/10/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Enhanced "Share Meeting": when selecting "All participants in calendar event" attendees can access the meeting page after logging in.  
+- Users without invitations can request access via shared meeting links. The meeting inviter will receive an email notification for each access request.  
+- Workspace members can approve or reject access requests on the meeting page. Approved users will be notified via email.  
+- Updated "Auto-share Meeting Notes" emails to distinguish between workspace members and external users.  
+- Improved member count display on the "Members" page.  
+- Updated tooltip for "Integrations" when edit Google Drive is not available.  
+- Updated error messages format when the browser extension fails to connect.  
+- Updated description for the "Upload Audio", including messaging for speaker diarization.  
+- Urgent fix: Resolved issue where speaker identification failed due to recent Google Meet UI changes.
+
 ### 3/27/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Updated the "Auto-share Meeting Notes" email and Google Meet in-call message link. Recipients can request access to the specific shared meeting only.  

@@ -134,6 +134,8 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 
 ### 1. 不允許客戶主動請求真人客服
 
+若選擇此選項，**顯示摘要** 和 **自動切換至 AI 助理** 功能將隱藏或顯示為灰色，且用戶在對話期間無法請求真人客服。
+
 <center>
 <a href="/images/seachat/zh/live-agent-transfer/do-not-request.png" target="_blank" alt="不允許客戶主動請求真人客服">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/do-not-request.png" alt="不允許客戶主動請求真人客服">
@@ -141,7 +143,9 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 </center>
 <br/>
 
-若選擇此選項，**顯示摘要** 和 **自動切換至 AI 助理** 功能將隱藏或顯示為灰色，且用戶在對話期間無法請求真人客服。
+
+### 2. 顯示摘要
+若選擇此功能，對話中的所有人都可以查看對話的摘要。
 
 <center>
 <a href="/images/seachat/zh/live-agent-transfer/remove-live-agent.png" target="_blank">
@@ -150,12 +154,16 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 </center>
 <br/>
 
-### 2. 顯示摘要
-若選擇此功能，對話中的所有人都可以查看對話的摘要。
-
 ### 3. 自動切換至 AI 助理
 
 有時候，真人客服可能需要同時處理大量對話，可能會忘記點擊 **完成** 按鈕，將對話交回給 AI 助理。為了防止這種情況發生，可以設定真人客服功能的自動超時。若對話在一段時間內無活動，系統將自動完成對話。
+
+<center>
+<a href="/images/seachat/zh/live-agent-transfer/auto-timeout.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/auto-timeout.png" alt="Auto Transfer Back to AI Agent"">
+</a>
+</center>
+<br/>
 
 ## :dart: 疑難排解
 
