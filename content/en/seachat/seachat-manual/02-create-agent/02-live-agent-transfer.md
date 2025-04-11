@@ -129,15 +129,18 @@ As the result of such flexibility, here are feature options that users can only 
 
 ### 1.  Do not let customers request a live agent proactively
 
+If selected, **Show Summary** and **Automatic Switch to AI Agent** features  should hide or grey out, and the users should not be able to request a live agent during the chat conversation.
+
 <center>
 
-<a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
-<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/remove-live-agent.png" alt="Live Mode Timeout | SeaChat Live Agent Transfer">
+<a href="/images/seachat/en/live-agent-transfer/do-not-request.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/do-not-request.png" alt="Live Mode Timeout | SeaChat Live Agent Transfer">
 </a>
 </center>
 <br/>
 
-If selected, **Show Summary** and **Automatic Switch to AI Agent** features  should hide or grey out, and the users should not be able to request a live agent during the chat conversation.
+### 2. Show Summary
+If selected, everyone in the chat can see the summary of the conversation. 
 
 <center>
 <a href="/images/seachat/en/live-agent-transfer/remove-live-agent.png" target="_blank">
@@ -146,15 +149,18 @@ If selected, **Show Summary** and **Automatic Switch to AI Agent** features  sho
 </center>
 <br/>
 
-### 2. Show Summary
-If selected, everyone in the chat can see the summary of the conversation. 
-
 ### 3. Automatic Switch to AI Agent
 
 Sometimes, a human live agent might have to deal with a lot of the conversation at once, and they can forget to click on the **Complete** button to give the conversation back to the AI agent. 
 
 To prevent this from happening, you can set up an automatic timeout for the live agent feature. This will automatically complete the conversation if there is no activity from the chat for a certain amount of time.
 
+<center>
+<a href="/images/seachat/en/live-agent-transfer/auto-timeout.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/auto-timeout.png" alt="Auto Transfer Back to AI Agent">
+</a>
+</center>
+<br/>
 
 ## :dart: Troubleshooting
 

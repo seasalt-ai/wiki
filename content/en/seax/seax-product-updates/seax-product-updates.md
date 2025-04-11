@@ -16,6 +16,11 @@ weight: 1
 toc: true
 ---
 
+### 4/10/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed issue where WhatsApp message templates could not be retrieved.  
+- Fixed issue preventing message updates in SeaContact.
+
 ### 4/2/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Updated DNC keywords for Spanish.  
