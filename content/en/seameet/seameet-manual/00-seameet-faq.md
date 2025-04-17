@@ -153,3 +153,105 @@ Here are the main differences between the two plans:
 
 1. The team plan allows multiple people to collaborate in the workspace, where everyone can view transcriptions in the backend, download audio, and export using Google Docs, etc.
 2. The team plan supports multiple simultaneous meetings, whereas the individual plan allows only one copilot to join a meeting at a time. For individual plan users, if the copilot is still attending Meeting A and the user starts another Meeting B, the copilot will not be able to join Meeting B.
+
+## 29. Why wasn't my meeting fully recorded?
+There are various reasons why a meeting might not be fully recorded. Please first check if the bot was admitted into the meeting by the host and successfully joined the meeting room. If so, confirm whether the bot stayed throughout the entire meeting or was removed by a participant at some point.
+
+If the bot remained in the meeting room the entire time, please verify whether the recording and transcript are complete. Then send the SeaMeet meeting record link along with your issue description to <email: seameet@seasalt.ai> for further assistance.
+
+## 30. The bot can’t join and keeps spinning
+Please ask the Google Meet meeting host to check whether the bot's join request was received.
+If not, go to the SeaMeet meeting list to confirm whether the meeting was successfully created.
+
+## 31. Why does my meeting audio file show “File Not Found”?
+It may still be processing within five minutes after the meeting ends. If the file is still missing after ten minutes, please send the SeaMeet meeting record link to <email: seameet@seasalt.ai> for further investigation.
+
+## 32. Why can’t I download the meeting audio?
+Audio downloads are currently only available for "Personal" and "Team" plan users. Free plan users do not have access to downloads yet.
+
+## 33. How do I record bilingual meetings in Chinese and English?
+To conduct a bilingual meeting, we recommend selecting “Traditional Chinese” as the transcription language. It can simultaneously recognize English speech.
+
+## 34. How is SeaMeet bot usage time calculated?
+SeaMeet only starts counting recording time after the bot successfully joins the Google Meet room. If the bot does not enter the meeting, no time is counted.
+Binding your Google Calendar allows the bot to automatically attempt to join meetings, but time is not recorded unless the bot is admitted and records content.
+
+For paid plans, the usage time resets every month, allowing the full monthly quota for transcription.
+
+## 35. Can someone other than the meeting host invite the SeaMeet bot?
+Yes, anyone can invite the bot, but the meeting host must approve the bot’s entry.
+The recording will be associated with the account that invited the bot and time usage will be calculated accordingly.
+
+If the meeting host is not a SeaMeet user, they cannot invite the bot on your behalf unless they have a SeaMeet account.
+
+## 36. What happens after exceeding the monthly usage limit?
+Each plan includes a monthly quota. Once exceeded, additional usage will incur extra charges, but recordings can continue.
+
+## 37. After the meeting ends, has the “View full meeting record” link in the summary email changed from Google Docs to the SeaMeet site?
+Yes, to provide a better experience for recipients, we’ve redesigned this.
+
+Workspace users who click the link will be taken to the “SeaMeet meeting page.”
+
+Non-workspace users will see the “SeaMeet public share page,” which is view-only and cannot be edited.
+
+If the recipient hasn’t been invited or granted access, the content will be masked for security.
+
+## 38. Where can I manage permissions for shared meeting pages?
+Each meeting has its own “Share List.”
+Click the Share button in the top-right corner of the meeting page to edit the share list or review access requests.
+If sharing is set to “Invite calendar attendees,” they will be automatically added to the view list.
+
+## 39. How do I subscribe to an annual plan?
+The annual plan option is currently under development.
+If you need one now, please contact us at <email: seameet@seasalt.ai> and we’ll set it up manually.
+
+## 40. Why does my subscription only last until the end of this month? Why am I not charged $9.99/month?
+SeaMeet Personal Plan is billed monthly at $9.99, from the 1st to the end of each month.
+If you subscribe mid-month, a prorated charge will apply (e.g., subscribe on 4/20, you pay 1/3 of $9.99 for the remaining days).
+
+## 1. Will adding admins or members increase the cost?
+Yes. In the Team Plan, each additional seat incurs a charge, which will be billed at the start of the next month.
+
+## 42. Why can’t I remove my credit card directly?
+To prevent overdue charges for items like additional usage or new members, credit cards cannot be removed directly while a subscription is active.
+If you no longer need the service, we can help remove the card manually.
+
+If you prefer not to store a card, consider one-time payment options such as an annual plan with 12-month prepayment via bank transfer.
+
+## 43. Can you help improve recognition for commonly used company-specific terms?
+Yes! Please provide a glossary of commonly misrecognized terms so we can help improve accuracy.
+
+## 44. Does SeaMeet support Microsoft Teams?
+Microsoft Teams support is currently in internal testing and not yet available to general users.
+Public availability is planned for Q2 2025. At that time, you’ll be able to paste the meeting link to invite SeaMeet bot.
+
+## 45. How do I change my login password?
+SeaMeet primarily uses Google login or OTP-based login. Password login is reserved for enterprise clients and currently cannot be edited directly by users.
+
+## 46. Can I delete my account or workspace?
+SeaMeet does not yet offer self-serve account or workspace deletion.
+To ensure the bot won’t auto-join meetings, you can disconnect your Google Calendar.
+If you need to delete a workspace, please email <email: seameet@seasalt.ai>.
+⚠️ Note: Deleted workspaces cannot be recovered.
+
+## 47. Is SeaMeet secure?
+Yes — data security is our top priority when recording meetings.
+See our [Terms of Service](https://seasalt.ai/terms/) for details on our usage terms and security practices.
+For info on what data we collect and how we use it, see our [Privacy Policy](https://seasalt.ai/privacy/).
+We use WAF protection via Azure and AWS to prevent malicious access, and FIPS-compliant encryption to protect sensitive data.
+SeaMeet complies with CASA Level 2 security, performs regular Nessus vulnerability scans, and meets HECVAT standards and US data residency guarantees.
+
+## 48. Can the bot auto-join meetings without host approval?
+No — due to privacy and security concerns (especially for external meetings), host approval is required before the bot can join.
+
+If you're unsure why a bot failed to join, please check this guide.
+
+## 49. Can the bot’s display name be changed?
+Currently, there are no plans to support customizing the bot’s nickname.
+
+## 50. Can the bot be muted to not speak during meetings?
+Due to security policy constraints, this feature is not currently supported.
+
+## 51. How do I disable the SeaMeet popup in every Google Meet session?
+The SeaMeet popup is a feature of the Chrome extension.
+To disable it, click the extension icon in the upper-right corner of Chrome and choose Manage Extensions to adjust the settings.
