@@ -142,3 +142,38 @@ Enabling this feature can significantly improve your AI agent's performance by:
 - Delivering more concise and focused answers
 
 By fine-tuning your KB Search Refinement settings, you can create a more intelligent and responsive AI agent that better understands and addresses your users' specific needs.
+
+### 📌 Example: Handling Multi-Branch Knowledge with KB Search Refinement
+
+Imagine you run a restaurant with five different branches. In your knowledge base, you’ve collected menus, service details, hours, and promotions for each branch in a spreadsheet. When users ask about a specific branch, you want your AI agent to answer with accurate, branch-specific information.
+
+To enhance your AI agent’s performance, there are two powerful ways to improve how it processes user queries:
+
+1. Include Branch Names in Your Knowledge Base Entries
+
+For every cell or row in your Excel sheet, add the branch name to the content it refers to.
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/en/agent-advanced-settings/kb-refinement-example.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-advanced-settings/kb-refinement-example.png" alt="An example spreadsheet contains five restaurant branches">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Example Spreadsheet: Multi-Branch Knowledge Base with Branch-Specific Tags</p></p>
+</div>
+
+This ensures that when AI agent's reads the knowledge base content, it understands which branch the information belongs to, improving its relevance when forming a response.
+
+2. Use KB Search Refinement to Filter Irrelevant Results
+
+Enable Knowledge Base Search Refinement feature and add refinement instructions:
+`Extract the branch name from the user’s query. Exclude articles or rows that refer to branches other than the one mentioned.`
+
+With these instructions, even if your initial KB search returns a mix of results from all branches, the AI agent will automatically filter out unrelated content and keep only what’s relevant to the user’s intended branch—leading to more accurate, focused, and helpful answers.
+
+This approach is especially effective for:
+
+- Large knowledge bases with overlapping content
+- Businesses with multiple locations
+- Scenarios where branch-specific accuracy is critical
+
+By combining good KB structure (with branch names) and refinement logic, you can make your AI agent feel smarter, more precise, and more human-like.
