@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seavoice/stt/</loc>
-      <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+      <lastmod>2025-04-17T21:12:03-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seavoice/tts/</loc>
-      <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+      <lastmod>2025-04-17T21:12:03-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -36,19 +36,19 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/seavoice/discord/</loc>
-      <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+      <lastmod>2025-04-17T21:12:03-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/seavoice/stt/panel_tutorial_en/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/stt/decoder/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -64,43 +64,43 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/tts/panel_tutorial_en/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/discord/discord-bot/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/discord/2-why-discord-bot/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/discord/3-how-to-use/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/discord/4-configuration/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/discord/5-language-support/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/seavoice/discord/6-community/</loc>
-        <lastmod>2025-04-16T23:08:11-07:00</lastmod>
+        <lastmod>2025-04-17T21:12:03-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
