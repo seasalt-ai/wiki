@@ -149,7 +149,7 @@ Imagine you run a restaurant with five different branches. In your knowledge bas
 
 To enhance your AI agent’s performance, there are two powerful ways to improve how it processes user queries:
 
-1. Include Branch Names in Your Knowledge Base Entries
+**1. Include Branch Names in Your Knowledge Base Entries**
 
 For every cell or row in your Excel sheet, add the branch name to the content it refers to.
 <div style="display: flex; flex-direction: column; align-items: center;">
@@ -163,7 +163,20 @@ For every cell or row in your Excel sheet, add the branch name to the content it
 
 This ensures that when AI agent's reads the knowledge base content, it understands which branch the information belongs to, improving its relevance when forming a response.
 
-2. Use KB Search Refinement to Filter Irrelevant Results
+**2. Upload Spreadsheet**
+
+Upload this spreadsheet to your knowledge base through the **Upload Spreadsheets** card.  And choose this option to upload each row in the table as an individual KB document.
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/en/agent-advanced-settings/kb-refinement-upload2.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-advanced-settings/kb-refinement-upload2.png" alt="Upload each row as an individual kb article">
+    </a>
+</div>
+</div>
+<br/>
+
+
+**3. Use KB Search Refinement to Filter Irrelevant Results**
 
 Enable Knowledge Base Search Refinement feature and add refinement instructions:
 `Extract the branch name from the user’s query. Exclude articles or rows that refer to branches other than the one mentioned.`

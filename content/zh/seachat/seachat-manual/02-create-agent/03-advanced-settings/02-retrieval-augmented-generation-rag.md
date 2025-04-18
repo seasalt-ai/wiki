@@ -148,13 +148,27 @@ SeaChat 現在提供一個名為知識庫搜索優化的進階功能，讓您能
 
 要提升 AI 助理對使用者問題的理解與回應品質，有兩個有效的方法可以強化知識庫的處理方式：
 
-1. 在知識庫內容中標示分店名稱
+**1. 在知識庫內容中標示分店名稱**
+
 在你的 Excel 試算表中，為每一列或每一格的內容加上該資訊所屬的分店名稱。
 
 <div style="display: flex; flex-direction: column; align-items: center;"> <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center"> <a id="seachat-kb-refinement" href="/images/seachat/zh/agent-advanced-settings/kb-refinement-example.png" target="_blank"> <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement-example.png" alt="An example spreadsheet contains five restaurant branches"> </a> </div> <p style="margin-top: 20px; font-size: 15px">範例試算表：包含分店標籤的多分店知識庫</p> </div>
 這樣可以幫助 AI 助理在閱讀知識庫內容時正確理解該資訊屬於哪一家分店，進一步提升回應的準確性與相關性。
 
-2. 使用知識庫搜尋優化功能過濾不相關資料
+**2. 上傳試算表**
+
+透過 **上傳試算表** 卡片將此試算表上傳到您的知識庫。選擇此選項將表格中的每一行上傳為單獨的知識庫文件。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/zh/agent-advanced-settings/kb-refinement-upload2.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement-upload2.png" alt="Upload each row as an individual kb article">
+    </a>
+</div>
+</div>
+<br/>
+
+**3. 使用知識庫搜尋優化功能過濾不相關資料**
 
 啟用知識庫搜尋優化功能，並加入自訂的優化指令，例如：`從使用者的問題中擷取分店名稱。排除與該分店無關的文章或資料列。`
 
