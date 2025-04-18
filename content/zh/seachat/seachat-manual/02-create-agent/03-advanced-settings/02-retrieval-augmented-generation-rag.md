@@ -142,3 +142,42 @@ SeaChat 現在提供一個名為知識庫搜索優化的進階功能，讓您能
 - 提供更簡潔和專注的答案
 
 通過微調您的知識庫搜索優化設置，您可以創建一個更智能、更靈敏的 AI 助理，更好地理解和解決用戶的特定需求。
+
+### 📌 範例：透過知識庫搜尋優化功能處理多分店資訊
+想像你經營一間擁有五家分店的餐廳。在你的知識庫中，你使用試算表記錄了每家分店的菜單、服務細節、營業時間與優惠資訊。當使用者詢問特定分店的問題時，你會希望 AI 智能助理能回應出正確、對應該分店的資訊。
+
+要提升 AI 助理對使用者問題的理解與回應品質，有兩個有效的方法可以強化知識庫的處理方式：
+
+**1. 在知識庫內容中標示分店名稱**
+
+在你的 Excel 試算表中，為每一列或每一格的內容加上該資訊所屬的分店名稱。
+
+<div style="display: flex; flex-direction: column; align-items: center;"> <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center"> <a id="seachat-kb-refinement" href="/images/seachat/zh/agent-advanced-settings/kb-refinement-example.png" target="_blank"> <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement-example.png" alt="An example spreadsheet contains five restaurant branches"> </a> </div> <p style="margin-top: 20px; font-size: 15px">範例試算表：包含分店標籤的多分店知識庫</p> </div>
+這樣可以幫助 AI 助理在閱讀知識庫內容時正確理解該資訊屬於哪一家分店，進一步提升回應的準確性與相關性。
+
+**2. 上傳試算表**
+
+透過 **上傳試算表** 卡片將此試算表上傳到您的知識庫。選擇此選項將表格中的每一行上傳為單獨的知識庫文件。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/zh/agent-advanced-settings/kb-refinement-upload2.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement-upload2.png" alt="Upload each row as an individual kb article">
+    </a>
+</div>
+</div>
+<br/>
+
+**3. 使用知識庫搜尋優化功能過濾不相關資料**
+
+啟用知識庫搜尋優化功能，並加入自訂的優化指令，例如：`從使用者的問題中擷取分店名稱。排除與該分店無關的文章或資料列。`
+
+有了這些指令，即使初步的知識庫搜尋結果涵蓋了多家分店，AI 助理也能自動篩選出與使用者查詢分店相關的內容，提供更精準、聚焦且有幫助的回應。
+
+這樣的作法特別適用於：
+- 內容交錯重疊的大型知識庫
+- 擁有多個據點的企業或品牌
+- 回答分店資訊需具高度準確性的場景
+
+透過良好的知識庫結構（標示分店名稱）與搜尋優化邏輯結合，你可以打造一個更聰明、更貼近需求的 AI 助理。
+
