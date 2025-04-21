@@ -16,6 +16,13 @@ weight: 1600
 toc: true
 ---
 
+### 4/16/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Human Agent-Only Mode Enhancement: The automatic switch to AI agents is now disabled in human agent-only mode, ensuring that human agents have sufficient time to address customer inquiries without interruption.
+- Mobile Widget Display Optimization: Improved the display logic for mobile widgets, ensuring that only one widget icon is visible on mobile devices when a single widget is configured.
+
 ### 4/9/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
