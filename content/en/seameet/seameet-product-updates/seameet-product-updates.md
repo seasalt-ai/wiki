@@ -16,6 +16,19 @@ weight: 400
 toc: true
 ---
 
+### 4/17/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Adjusted the "Request Access" email — clicking the button will now redirect users to the "Share Meeting" popup on the meeting page.  
+- Fixed layout issues in the "Share Meeting" popup under certain conditions.  
+- Fixed authorization prompt display when accessing a shared meeting page in Incognito mode.  
+- Fixed an issue where applying a summary template during an ongoing meeting could prematurely trigger meeting completion and stop summary updates.  
+- Optimized the Google Calendar binding flow during registration and for existing users.  
+- Fixed an issue where setting speaker diarization to "1 speaker" caused errors in audio file uploads.  
+- Improved server resources for audio uploads to accelerate processing speed.
+- Fixed cases where hallucinated prompts appeared in "Meeting Summary" or "Action Items." 
+- Fixed paragraph segmentation issues in long transcripts.
+
+
 ### 4/10/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Enhanced "Share Meeting": when selecting "All participants in calendar event" attendees can access the meeting page after logging in.  

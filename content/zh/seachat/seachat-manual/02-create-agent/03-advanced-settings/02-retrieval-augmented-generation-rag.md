@@ -143,7 +143,7 @@ SeaChat 現在提供一個名為知識庫搜索優化的進階功能，讓您能
 
 通過微調您的知識庫搜索優化設置，您可以創建一個更智能、更靈敏的 AI 助理，更好地理解和解決用戶的特定需求。
 
-### 📌 範例：透過知識庫搜尋優化功能處理多分店資訊
+### 📌 範例 1：透過知識庫搜尋優化功能處理多分店資訊
 想像你經營一間擁有五家分店的餐廳。在你的知識庫中，你使用試算表記錄了每家分店的菜單、服務細節、營業時間與優惠資訊。當使用者詢問特定分店的問題時，你會希望 AI 智能助理能回應出正確、對應該分店的資訊。
 
 要提升 AI 助理對使用者問題的理解與回應品質，有兩個有效的方法可以強化知識庫的處理方式：
@@ -181,3 +181,59 @@ SeaChat 現在提供一個名為知識庫搜索優化的進階功能，讓您能
 
 透過良好的知識庫結構（標示分店名稱）與搜尋優化邏輯結合，你可以打造一個更聰明、更貼近需求的 AI 助理。
 
+
+### 📌 範例 2：使用知識庫搜尋優化管理產品資訊
+
+假設您管理一個擁有數千種產品的電子商務平台。您的知識庫包含了多個試算表，記錄著詳細的產品資訊，包括規格、價格、庫存狀態和客戶回饋。當客戶詢問特定產品時，您希望 AI 助理能提供準確的產品專屬資訊。
+
+**1. 在知識庫條目中加入產品名稱**
+
+在試算表的每個儲存格中，加入產品名稱以清楚識別資訊：
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement-product" href="/images/seachat/zh/agent-advanced-settings/kb-refinement-product.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement-product.png" alt="一個包含產品資訊的試算表範例">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">範例試算表：附有產品專屬標籤的產品知識庫</p></p>
+</div>
+
+這種結構化的試算表確保當 AI 助理處理知識庫時，能準確地將資訊與特定產品關聯起來。
+
+**2. 上傳試算表**
+
+透過 **上傳試算表** 卡片將此試算表上傳到您的知識庫。選擇此選項將表格中的每一行上傳為單獨的知識庫文件。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/zh/agent-advanced-settings/kb-refinement-upload2.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/agent-advanced-settings/kb-refinement-upload2.png" alt="Upload each row as an individual kb article">
+    </a>
+</div>
+</div>
+<br/>
+
+**3. 設定知識庫搜尋優化指令**
+
+啟用知識庫搜尋優化功能，並加入以下具體指令：
+
+```
+從用戶的查詢中提取產品名稱。
+優先考慮完全匹配的結果，其次才考慮產品變體或相關型號。
+除非用戶特別要求比較功能，否則排除其他產品的資訊。
+```
+
+透過這些指令，您的 AI 助理可以：
+- 識別正在討論的特定產品
+- 專注於相關的產品細節
+- 僅在適當時機包含相關產品資訊
+- 在多次查詢中保持對同一產品的上下文理解
+
+這種方法特別適用於：
+- 擁有大量相似商品的產品目錄
+- 需要精確產品資訊的技術支援場景
+- 產品比較和推薦查詢
+- 處理客戶對產品規格和可用性的詢問
+
+透過實施這種結構，您的 AI 助理能夠有效地瀏覽大量產品資訊，並為客戶查詢提供準確且具有上下文關聯的回應。
