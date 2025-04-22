@@ -143,7 +143,7 @@ Enabling this feature can significantly improve your AI agent's performance by:
 
 By fine-tuning your KB Search Refinement settings, you can create a more intelligent and responsive AI agent that better understands and addresses your users' specific needs.
 
-### 📌 Example: Handling Multi-Branch Knowledge with KB Search Refinement
+### 📌 Example 1: Handling Multi-Branch Knowledge with KB Search Refinement
 
 Imagine you run a restaurant with five different branches. In your knowledge base, you’ve collected menus, service details, hours, and promotions for each branch in a spreadsheet. When users ask about a specific branch, you want your AI agent to answer with accurate, branch-specific information.
 
@@ -179,7 +179,10 @@ Upload this spreadsheet to your knowledge base through the **Upload Spreadsheets
 **3. Use KB Search Refinement to Filter Irrelevant Results**
 
 Enable Knowledge Base Search Refinement feature and add refinement instructions:
-`Extract the branch name from the user’s query. Exclude articles or rows that refer to branches other than the one mentioned.`
+```
+Extract the branch name from user’s query.
+Exclude articles or rows that refer to branches other than the one mentioned.
+```
 
 With these instructions, even if your initial KB search returns a mix of results from all branches, the AI agent will automatically filter out unrelated content and keep only what’s relevant to the user’s intended branch—leading to more accurate, focused, and helpful answers.
 
@@ -190,3 +193,47 @@ This approach is especially effective for:
 - Scenarios where branch-specific accuracy is critical
 
 By combining good KB structure (with branch names) and refinement logic, you can make your AI agent feel smarter, more precise, and more human-like.
+
+
+### 📌 Example 2: Managing Product Information with KB Search Refinement
+
+Imagine you manage an e-commerce platform with thousands of products. Your knowledge base contains detailed product logs including specifications, pricing, inventory status, and customer feedback across multiple spreadsheets. When customers inquire about specific products, you want your AI agent to provide accurate, product-specific information.
+
+**1. Include Product Names in Your Knowledge Base Entries**
+
+For each cell in your spreadsheet, include the product name to clearly identify the information:
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement-product" href="/images/seachat/en/agent-advanced-settings/kb-refinement-product.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-advanced-settings/kb-refinement-product.png" alt="An example spreadsheet containing product information">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">Example Spreadsheet: Product Knowledge Base with Product-Specific Tags</p></p>
+</div>
+
+This structured spreadsheet ensures that when the AI agent processes the knowledge base, it can accurately associate information with specific products.
+
+**2. Configure KB Search Refinement Instructions**
+
+Enable Knowledge Base Search Refinement and add specific instructions:
+
+```
+Extract product names from the user's query.
+Prioritize exact matches first, then consider product variants or related models. 
+Exclude information about different products unless specifically comparing features.
+```
+
+With these instructions, your AI agent can:
+- Identify the specific product being discussed
+- Focus on relevant product details
+- Include related product information only when appropriate
+- Maintain context across multiple queries about the same product
+
+This approach is particularly effective for:
+- Large product catalogs with similar items
+- Technical support scenarios requiring precise product information
+- Product comparison and recommendation queries
+- Handling customer inquiries about product specifications and availability
+
+By implementing this structure, your AI agent can efficiently navigate through extensive product information and provide accurate, contextual responses to customer queries.
