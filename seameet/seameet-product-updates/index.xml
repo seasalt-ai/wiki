@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>4/10/2025 # New Features and Improvements #  Enhanced &amp;ldquo;Share Meeting&amp;rdquo;: when selecting &amp;ldquo;All participants in calendar event&amp;rdquo; attendees can access the meeting page after logging in. Users without invitations can request access via shared meeting links. The meeting inviter will receive an email notification for each access request. Workspace members can approve or reject access requests on the meeting page. Approved users will be notified via email. Updated &amp;ldquo;Auto-share Meeting Notes&amp;rdquo; emails to distinguish between workspace members and external users.</description>
+      <description>4/17/2025 # New Features and Improvements #  Adjusted the &amp;ldquo;Request Access&amp;rdquo; email — clicking the button will now redirect users to the &amp;ldquo;Share Meeting&amp;rdquo; popup on the meeting page. Fixed layout issues in the &amp;ldquo;Share Meeting&amp;rdquo; popup under certain conditions. Fixed authorization prompt display when accessing a shared meeting page in Incognito mode. Fixed an issue where applying a summary template during an ongoing meeting could prematurely trigger meeting completion and stop summary updates.</description>
     </item>
     
   </channel>
