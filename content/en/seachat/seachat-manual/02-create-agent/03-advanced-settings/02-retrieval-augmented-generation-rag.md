@@ -214,7 +214,21 @@ For each cell in your spreadsheet, include the product name to clearly identify 
 
 This structured spreadsheet ensures that when the AI agent processes the knowledge base, it can accurately associate information with specific products.
 
-**2. Configure KB Search Refinement Instructions**
+**2. Upload Spreadsheet**
+
+Upload this spreadsheet to your knowledge base through the **Upload Spreadsheets** card.  And choose this option to upload each row in the table as an individual KB document.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a id="seachat-kb-refinement" href="/images/seachat/en/agent-advanced-settings/kb-refinement-upload2.png" target="_blank">
+    <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/agent-advanced-settings/kb-refinement-upload2.png" alt="Upload each row as an individual kb article">
+    </a>
+</div>
+</div>
+<br/>
+
+
+**3. Configure KB Search Refinement Instructions**
 
 Enable Knowledge Base Search Refinement and add specific instructions:
 
