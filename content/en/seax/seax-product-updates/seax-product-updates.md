@@ -15,6 +15,10 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 4/24/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Optimized performance for bulk message sending.  
+- Synchronized phone_capability with SeaContact.
 
 ### 4/10/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
