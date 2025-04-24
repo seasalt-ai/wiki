@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
-      <description>4/10/2025 # New Features and Improvements #  Fixed issue where WhatsApp message templates could not be retrieved. Fixed issue preventing message updates in SeaContact.  4/2/2025 # New Features and Improvements #  Updated DNC keywords for Spanish. Fixed missing plan title issue in the pricing section. Enhanced outbound and inbound calling via dialpad. Improved outbound call functionality via AI Agent.  3/27/2025 # New Features and Improvements #  Updated &amp;ldquo;Keywords and Auto-replies&amp;rdquo; to support WhatsApp messages.</description>
+      <description>4/24/2025 # New Features and Improvements #  Optimized performance for bulk message sending. Synchronized phone_capability with SeaContact.  4/10/2025 # New Features and Improvements #  Fixed issue where WhatsApp message templates could not be retrieved. Fixed issue preventing message updates in SeaContact.  4/2/2025 # New Features and Improvements #  Updated DNC keywords for Spanish. Fixed missing plan title issue in the pricing section. Enhanced outbound and inbound calling via dialpad.</description>
     </item>
     
   </channel>
