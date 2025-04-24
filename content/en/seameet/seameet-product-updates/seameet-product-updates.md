@@ -16,6 +16,15 @@ weight: 400
 toc: true
 ---
 
+### 4/24/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added "Email Report" tab for enterprise users.  
+- Fixed an issue where some meetings on 04/21 midnight did not generate summaries.  
+- Fixed an error tooltip when the "Start Recording" button was used after exceeding the base quota in paid plans.  
+- Improved clarity of the "Connect Google Calendar" reminder popup.  
+- Updated the feedback survey shown during subscription cancellation.
+
+
 ### 4/17/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Adjusted the "Request Access" email — clicking the button will now redirect users to the "Share Meeting" popup on the meeting page.  
