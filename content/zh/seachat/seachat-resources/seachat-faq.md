@@ -24,3 +24,26 @@ aliases:
 SeaChat 提供了解決此問題的方法。利用 KB ID 的功能可以避免訊息被截斷。您可以了解如何使用 [KB ID](https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/#kb-id) 功能來避免訊息被截斷。
 
 請參閱我們的 [LINE 頻道](https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/#line-按鈕訊息的限制)，以了解更多有關 LINE 所施加的訊息限制的信息。
+
+## 3. **部署 SeaChat 後，我該如何吸引更多對話**
+
+為了吸引更多使用者，你可以採取以下兩個方法：
+
+1. 將小工具圖示（widget icon）設為 GIF 動畫
+
+2. 加入一個對話氣泡（bubble），若使用者在 2 秒內未點擊，則自動跳出提示（或設定其他時間）
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+    <a href="/images/seachat/en/seachat-resources/seachat-bubble-with-gif.gif" target="_blank">
+    <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/seachat-resources/seachat-bubble-with-gif.gif" alt="SeaChat 透過對話氣泡和 GIF 圖示來吸引更多使用者。">
+    </a>
+</div>
+    <p style="margin-top: 20px; font-size: 15px">SeaChat 透過對話氣泡和 GIF 圖示來吸引更多使用者。</p>
+</div>
+
+
+
+你可以在「頻道 --> 網頁AI助理 --> 氣泡（第一個分頁）」中找到氣泡的設定選項。
+
+
