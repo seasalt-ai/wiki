@@ -16,11 +16,18 @@ weight: 1600
 toc: true
 ---
 
+### 5/1/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+- Messenger Conversation Title Enhancement: Fixed an issue where sender names were not being captured in Messenger conversation titles. Now, conversation titles from Messenger are automatically updated to include the sender's name, making conversations more identifiable and easier to manage.
+- Expanded AI agent Description Limit: Increased the character limit for AI agent descriptions based on different language models. Users can now provide more comprehensive descriptions of AI agent functionalities.
+- Voice Conversation Recording Download Fix: Resolved the issue with downloading voice conversation recordings, ensuring users can successfully access their voice conversation records.
+
 ### 4/24/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
 
-- Extraction Enhancement: We have optimized the `Extraction` feature, enabling AI assistants to more accurately identify and extract key information from user conversations.
+- Extraction Enhancement: We have optimized the `Extraction` feature, enabling AI agents to more accurately identify and extract key information from user conversations.
 - Google Calendar Timezone Fix: Fixed the default timezone setting issue in Google Calendar integration. The system now correctly identifies and uses the user's browser timezone, preventing AI agent from stop responding issues previously caused by incorrect timezone codes.
 
 ### 4/16/2025
