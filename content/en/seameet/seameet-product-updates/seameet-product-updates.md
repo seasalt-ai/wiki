@@ -15,6 +15,14 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 5/6/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+ - Fixed an issue where user status could be changed before joining a workspace.
+- Resolved layout issues caused by dropdown menus in popups.
+- Streamlined the signup and login process.
+- Clicking the "Plan" label in the sidebar now redirects to the Billing page.
+- Fixed a bug in the Billing page where users couldn’t proceed in the Edit Plan popup when opened directly.
+- Updated "Account" menu links to redirect to the workspace and language settings.
 
 ### 4/24/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
