@@ -15,6 +15,13 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 5/6/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated the call logs list.
+- Fixed an issue where empty chats were generated when creating new contacts.
+- Resolved a memory leak issue.
+- Fixed Twilio sub-account verification errors.
+
 ### 4/24/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Optimized performance for bulk message sending.  
