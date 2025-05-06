@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>4/24/2025 # New Features and Improvements #  Added &amp;ldquo;Email Report&amp;rdquo; tab for enterprise users. Fixed an issue where some meetings on 04/21 midnight did not generate summaries. Fixed an error tooltip when the &amp;ldquo;Start Recording&amp;rdquo; button was used after exceeding the base quota in paid plans. Improved clarity of the &amp;ldquo;Connect Google Calendar&amp;rdquo; reminder popup. Updated the feedback survey shown during subscription cancellation.  4/17/2025 # New Features and Improvements #  Adjusted the &amp;ldquo;Request Access&amp;rdquo; email — clicking the button will now redirect users to the &amp;ldquo;Share Meeting&amp;rdquo; popup on the meeting page.</description>
+      <description>5/6/2025 # New Features and Improvements #  Fixed an issue where user status could be changed before joining a workspace. Resolved layout issues caused by dropdown menus in popups. Streamlined the signup and login process. Clicking the &amp;ldquo;Plan&amp;rdquo; label in the sidebar now redirects to the Billing page. Fixed a bug in the Billing page where users couldn’t proceed in the Edit Plan popup when opened directly. Updated &amp;ldquo;Account&amp;rdquo; menu links to redirect to the workspace and language settings.</description>
     </item>
     
   </channel>
