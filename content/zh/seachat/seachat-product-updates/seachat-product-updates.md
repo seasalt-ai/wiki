@@ -15,6 +15,9 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+### 5/8/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 帳單頁面的費用明細新增多語言支援，可顯示下期帳單資訊。
 
 ### 5/1/2025
 ##### **<font color="#739963">新功能與改進</font>**
