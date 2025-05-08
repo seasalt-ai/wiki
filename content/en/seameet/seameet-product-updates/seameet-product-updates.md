@@ -15,6 +15,15 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 5/8/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed an issue where some meetings incorrectly showed audio file does not exist.
+- Improved audio file retention mechanism for better stability.
+- Adjusted pricing description in the subscription plan section.
+- Fixed a crash issue caused by uploading audio files exceeding the length limit.
+- Enhanced UX: Added a link to the SeaMeet product wiki in the browser extension.
+- Enhanced UX: Updated the default theme color for newly registered users.
+
 ### 5/6/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
  - Fixed an issue where user status could be changed before joining a workspace.

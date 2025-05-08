@@ -15,6 +15,10 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 5/8/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added multilanguage support in Billing page cost breakdown for the next bill.
 
 ### 5/1/2025
 
