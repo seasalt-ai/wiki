@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>5/6/2025 # New Features and Improvements #  Fixed an issue where user status could be changed before joining a workspace. Resolved layout issues caused by dropdown menus in popups. Streamlined the signup and login process. Clicking the &amp;ldquo;Plan&amp;rdquo; label in the sidebar now redirects to the Billing page. Fixed a bug in the Billing page where users couldn’t proceed in the Edit Plan popup when opened directly. Updated &amp;ldquo;Account&amp;rdquo; menu links to redirect to the workspace and language settings.</description>
+      <description>5/8/2025 # New Features and Improvements #  Fixed an issue where some meetings incorrectly showed audio file does not exist. Improved audio file retention mechanism for better stability. Adjusted pricing description in the subscription plan section. Fixed a crash issue caused by uploading audio files exceeding the length limit. Enhanced UX: Added a link to the SeaMeet product wiki in the browser extension. Enhanced UX: Updated the default theme color for newly registered users.</description>
     </item>
     
   </channel>
