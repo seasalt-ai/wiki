@@ -14,6 +14,8 @@ url: /zh/seachat/manual/channels/facebook-messenger/
 weight: 302
 toc: true
 ---
+## 注意：此 Messenger 整合已不再推薦使用。請改用[嵌入式註冊的 Messenger 整合](/zh/seachat/seachat-manual/04-channels/09-seachat-messenger-integration-embedded-signup/)。
+
 
 ## 🎥 影片教學
 

@@ -1,5 +1,5 @@
 ---
-title: "Facebook Messenger"
+title: "Facebook Messenger(Deprecated)"
 description: "Set up a ChatGPT-powered bot on Facebook Messenger. Follow our guide to create a Meta app, configure webhooks, and launch your bot for seamless communication."
 date: 2024-04-08T08:48:57+00:00
 lastmod: 2024-04-08T08:48:57+00:00
@@ -13,9 +13,11 @@ aliases:
   - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
   - /seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
 url: /en/seachat/manual/channels/facebook-messenger/
-weight: 502
+weight: 503
 toc: true
 ---
+
+## Note: This Messenger Integration is deprecated. Please use [Messenger Integration With Embedded Signup](/en/seachat/seachat-manual/04-channels/09-seachat-messenger-integration-embedded-signup/) instead.
 
 ## 🎥 Video Tutorial
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/aFruY5bwG00?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>

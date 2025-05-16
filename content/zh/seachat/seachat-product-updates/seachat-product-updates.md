@@ -15,6 +15,11 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+### 5/15/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 改進文件知識庫上傳處理：修復了上傳大型文件時導致伺服器超時的錯誤。現在用戶可以上傳大型文件，系統會將上傳作為背景處理程序，同時用戶可以處理其他事務。
+- Messenger 整合 FB 嵌入式註冊：我們支援 FB 嵌入式註冊，用戶可以直接使用其 FB 帳號登錄，並選擇要與其 SeaChat AI 助理連接的 FB 頁面。請參閱[教程](/zh/seachat/manual/channels/facebook-messenger-embedded-signup/#-為什麼要使用嵌入式註冊)。
+
 ### 5/8/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - 帳單頁面的費用明細新增多語言支援，可顯示下期帳單資訊。
