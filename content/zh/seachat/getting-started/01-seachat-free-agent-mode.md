@@ -8,7 +8,7 @@ weight: 3
 draft: false
 images: []
 toc: true
-url: zh/seachat/getting-started/free-agent-mode/
+url: /zh/seachat/getting-started/free-agent-mode/
 ---
 ---
 
