@@ -89,8 +89,18 @@ Once completed, SeaChat will start handling messages via your SeaChat AI agent. 
 If you previously integrated Messenger through our old method, here’s how to switch:
 Go to your Messenger Integration page in SeaChat.
 
-- Find the "Messenger Integration(Deprecated)" card.
-- Click "Remove" on the upper right norner to remove the old integration.
+- Find the Messenger Integration(Deprecated) card.
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/en/channels/facebook-messenger/messenger-integration-embedded-signup-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/channels/facebook-messenger/messenger-integration-embedded-signup-3.png" alt="SeaChat | Facebook Messenger Integration">
+</a>
+</div>
+</div>
+
+<br/> 
+
+- Click Remove button on the upper right norner to remove the old integration.
 - Then, go to the new `Messenger With Embedded Signup` card and follow the updated steps to reconnect.
 
 🙋 Need help with the migration? <br/>

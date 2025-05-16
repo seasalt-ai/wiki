@@ -78,6 +78,7 @@ toc: true
 <br/> 
 
 **步驟 2：選擇頻道特定語言**
+
 定義語音訊息的語言，以便 SeaChat 可以將其轉錄為文字，並以相同語言回覆。這也適用於系統訊息（例如，當用戶點擊 🧹新主題 後）。
 
 🚀 設定完成！
@@ -87,10 +88,24 @@ toc: true
 如果您先前透過我們的舊方法整合了 Messenger，以下是切換方式：
 前往您的 SeaChat 中的 Messenger 整合頁面。
 
-- 找到「Messenger Integration(已棄用)」卡片。
+- 找到「Messenger Integration(不推薦使用)」卡片。
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="/images/seachat/zh/channels/facebook-messenger/messenger-integration-embedded-signup-3.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="50%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/channels/facebook-messenger/messenger-integration-embedded-signup-3.png" alt="SeaChat | Facebook Messenger Integration">
+</a>
+</div>
+</div>
+
+<br/> 
+
 - 點擊右上角的「移除」以移除舊的整合。
 - 然後，前往新的 Messenger With Embedded Signup 卡片，依照更新後的步驟重新連接。
-🙋 需要遷移協助嗎？ 📧 請聯絡我們： seachat@seasalt.ai 🌍 我們提供多語言客戶服務，很樂意協助您！
+
+🙋 需要遷移協助嗎？ <br/>
+📧 請聯絡我們： seachat@seasalt.ai  <br/> 
+
 
 # 與真人助理互動
 您是否注意到在上圖中我使用了`/live_agent`來請求真人助理？如果助理恰好在線並設置了他們的在線狀態：
