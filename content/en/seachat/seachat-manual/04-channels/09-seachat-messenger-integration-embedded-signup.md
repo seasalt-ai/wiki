@@ -28,7 +28,7 @@ You no longer need to leave the SeaChat interface or switch tabs. Everything hap
 ✅ No Meta Developer Account Required
 With embedded signup, you don’t need to create your own Meta App or go through Meta’s App Review process. We’ve done that for you.
 
-✅ Pass <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/?locale=en_US" target="_blank">Meta's 24-Hour Rule</a>for Live Agent Support. With SeaChat’s Messenger integration, users can message your Page at any time — and SeaChat will receive it instantly. Thanks to our Meta-approved app with Human Agent permission , your support team can reply even after the 24-hour window , without needing message templates or extra approvals. No need to create your own Meta app or go through App Review — SeaChat handles it all so you can focus on helping your customers.
+<!-- ✅ Pass <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/?locale=en_US" target="_blank">Meta's 24-Hour Rule</a>for Live Agent Support. With SeaChat’s Messenger integration, users can message your Page at any time — and SeaChat will receive it instantly. Thanks to our Meta-approved app with Human Agent permission , your support team can reply even after the 24-hour window , without needing message templates or extra approvals. No need to create your own Meta app or go through App Review — SeaChat handles it all so you can focus on helping your customers. -->
 
 
 ### Connect Your Facebook Page with JUST TWO STEPS

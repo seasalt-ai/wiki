@@ -25,7 +25,7 @@ toc: true
 ✅ 無需 Meta 開發者帳號
 使用嵌入式註冊，您不需要建立自己的 Meta 應用程式或通過 Meta 的應用程式審查流程。我們已經為您處理好了。
 
-✅ 突破 <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/?locale=en_US" target="_blank">Meta 的 24 小時規則</a>限制。透過 SeaChat 的 Messenger 整合，用戶可以隨時向您的專頁發送訊息 — SeaChat 會立即接收。由於我們的應用程式已獲得 Meta 認證並具有真人客服權限，您的支援團隊可以在 24 小時時限之後回覆訊息，無需使用訊息範本或額外審批。您不需要建立自己的 Meta 應用程式或通過應用程式審查 — SeaChat 已為您處理所有事項，讓您專注於協助客戶。
+<!-- ✅ 突破 <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/?locale=en_US" target="_blank">Meta 的 24 小時規則</a>限制。透過 SeaChat 的 Messenger 整合，用戶可以隨時向您的專頁發送訊息 — SeaChat 會立即接收。由於我們的應用程式已獲得 Meta 認證並具有真人客服權限，您的支援團隊可以在 24 小時時限之後回覆訊息，無需使用訊息範本或額外審批。您不需要建立自己的 Meta 應用程式或通過應用程式審查 — SeaChat 已為您處理所有事項，讓您專注於協助客戶。 -->
 
 
 ### 只需兩步驟即可連接您的 Facebook 專頁
