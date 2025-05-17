@@ -28,13 +28,24 @@
     </item>
     
     <item>
-      <title>Facebook Messenger</title>
+      <title>Facebook Messenger Using Embedded Signup</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger-embedded-signup/</link>
+      <pubDate>Mon, 08 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger-embedded-signup/</guid>
+      <description>This guide will walk you through how to connect your Facebook Page to SeaChat using Facebook Embedded Signup.
+✨ Why Use Embedded Signup? # Compared to the old method, SeaChat’s Messenger integration with embedded signup is simpler, faster, and more powerful. Here’s why:
+✅ Seamless Setup Experience You no longer need to leave the SeaChat interface or switch tabs. Everything happens within SeaChat — login, permission approval, and Page connection.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Messenger(Deprecated)</title>
       <link>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/</link>
       <pubDate>Mon, 08 Apr 2024 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/manual/channels/facebook-messenger/</guid>
-      <description>🎥 Video Tutorial #  Overview # In this section, we will dive deeper into the process of setting up a ChatGPT-powered chatbot or chat agent on Facebook Messenger. By the end of this section, you will have a clear understanding of how to:
- Automate responses to user messages:   Connect your Messenger business account to the SeaChat chatbot and agent platform. Train the chatbot using ChatGPT&amp;rsquo;s advanced language model to generate natural language responses to a wide range of user queries.</description>
+      <description>Note: This Messenger Integration is deprecated. Please use Messenger Integration With Embedded Signup instead. # 🎥 Video Tutorial #  Overview # In this section, we will dive deeper into the process of setting up a ChatGPT-powered chatbot or chat agent on Facebook Messenger. By the end of this section, you will have a clear understanding of how to:
+ Automate responses to user messages:   Connect your Messenger business account to the SeaChat chatbot and agent platform.</description>
     </item>
     
     <item>

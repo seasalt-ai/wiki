@@ -44,7 +44,7 @@ WhatsApp Business App限制:
       <pubDate>Mon, 22 Apr 2024 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/</guid>
-      <description>🎥 影片教學 #  簡介 # 在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
+      <description>注意：此 Messenger 整合已不再推薦使用。請改用嵌入式註冊的 Messenger 整合。 # 🎥 影片教學 #  簡介 # 在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
  自動回App戶消息：   將您的Messenger商業帳號連接到SeaChat聊天機器人/AI助理平台。 使用ChatGPT等先進大語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。 配置聊天助理，根據您的知識庫自動回應訊息。  通過SeaChat管理所有與用戶的對話：   使用SeaChat，掌握用戶和您的聊天機器人之間的所有對話。 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的需要改進的部分。 管理對話，確保與用戶的無縫溝通。  用戶能夠請求真人客服協助：   允許用戶在他們有更進階需求或需要個性化支援時請求真人客服的協助。 順暢地將對話從AI聊天助理轉移到真人客服。 用戶可選擇他們需要的客服支援層級，增強整體客戶體驗。  到本教學結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
  使用SeaChat的ChatGPT驅動的聊天機器人與Facebook Messenger集成
    在開始設置過程之前，有幾個關鍵點需要記住：
@@ -52,6 +52,20 @@ Messenger的限制：
  SeaChat AI助理設計只能回應訊息，不能自行主動開始對話。 作為SeaChat管理員的您仍然能夠與用戶進行對話，但請事先安排真人助理。  誰需要Messenger頻道：
  需要自動化處理大量Messenger訊息的企業和組織。 尋求提供個性化和更好客戶體驗的公司。 通過自動化常規查詢來減輕人力負擔的客戶服務部門。   Facebook Messenger設置 # 設置Facebook Messenger需要仔細照著以下步驟設定，往下滑可看到逐步詳細指南：
  創建MessengerApp:   轉到Meta Developer網站。 點擊右上角的MyApps。 從下拉選單選擇CreateApp。  選擇App類型:   在App Type下選擇Other。 輸入一個全新的App名稱，避免使用MessengerApp或Facebook等難以辨識的名稱。  添加Messenger產品:   滾動到App列表的底部。 找到Messenger並選擇它以將該產品添加到您的App中。  配置MessengerApp:   仔細閱讀配置頁面上的信息。 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。 確保正確填寫所有必填欄位。  生成訪問金鑰:   配置完成後，生成一個永久的訪問金鑰。 此金鑰對於使用Messenger API至關重要。  移除您的Messenger集成:   從您的MetaApp中正確移除頁面訪問權限 在SeaChat內點擊移除按鈕   📚 推薦閱讀:</description>
+    </item>
+    
+    <item>
+      <title>Facebook Messenger</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-embedded-signup/</link>
+      <pubDate>Mon, 22 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-embedded-signup/</guid>
+      <description>本指南將引導您如何使用 Facebook 嵌入式註冊將您的 Facebook 專頁連接至 SeaChat。
+✨ 為什麼要使用嵌入式註冊？ # 相較於舊方法，SeaChat 的 Messenger 整合搭配嵌入式註冊更簡單、更快速、更強大。以下是原因：
+✅ 無縫設定體驗 您不再需要離開 SeaChat 介面或切換分頁。所有操作都在 SeaChat 中完成 — 登入、權限核准和專頁連接。
+✅ 無需 Meta 開發者帳號 使用嵌入式註冊，您不需要建立自己的 Meta 應用程式或通過 Meta 的應用程式審查流程。我們已經為您處理好了。
+Meta 的 24 小時規則限制。透過 SeaChat 的 Messenger 整合，用戶可以隨時向您的專頁發送訊息 — SeaChat 會立即接收。由於我們的應用程式已獲得 Meta 認證並具有真人客服權限，您的支援團隊可以在 24 小時時限之後回覆訊息，無需使用訊息範本或額外審批。您不需要建立自己的 Meta 應用程式或通過應用程式審查 — SeaChat 已為您處理所有事項，讓您專注於協助客戶。 -- 只需兩步驟即可連接您的 Facebook 專頁 # 前往您的 SeaChat Channels 頁面中的 Messenger With Embedded Signup 卡片。
+    步驟 1：登入 Facebook 並選擇 Facebook 專頁</description>
     </item>
     
     <item>

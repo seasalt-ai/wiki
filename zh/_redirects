@@ -77,6 +77,7 @@
 /zh/seachat/seachat-integrations/whatsapp/ /zh/seachat/integrations/whatsapp/
 /zh/seachat/seachat-manual/04-channels/05-install-to-line/ /zh/seachat/manual/channels/install-to-line/
 /zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/ /zh/seachat/manual/channels/facebook-messenger/
+/zh/seachat/seachat-manual/04-channels/09-seachat-messenger-integration-embedded-signup/ /zh/seachat/manual/channels/facebook-messenger-embedded-signup/
 /zh/seachat/seachat-manual/04-channels/07-seachat-voicebot/ /zh/seachat/manual/channels/voicebot/
 /zh/seachat/seachat-manual/04-channels/08-install-to-webpage/ /zh/seachat/manual/channels/webpage/
 /zh/seachat/seachat-integrations/google-calendar/ /zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/

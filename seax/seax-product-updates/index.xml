@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
-      <description>5/6/2025 # New Features and Improvements #  Updated the call logs list. Fixed an issue where empty chats were generated when creating new contacts. Resolved a memory leak issue. Fixed Twilio sub-account verification errors.  4/24/2025 # New Features and Improvements #  Optimized performance for bulk message sending. Synchronized phone_capability with SeaContact.  4/10/2025 # New Features and Improvements #  Fixed issue where WhatsApp message templates could not be retrieved.</description>
+      <description>5/15/2025 # New Features and Improvements #  Added detection for authorized recording devices when launching SeaX. Automatically fills in the default device when SeaX starts. Automatically sets human agent status to offline when websocket disconnects, and restores it to online upon reconnection.  5/6/2025 # New Features and Improvements #  Updated the call logs list. Fixed an issue where empty chats were generated when creating new contacts. Resolved a memory leak issue.</description>
     </item>
     
   </channel>
