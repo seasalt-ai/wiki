@@ -15,6 +15,12 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 5/15/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added detection for authorized recording devices when launching SeaX.
+- Automatically fills in the default device when SeaX starts.
+- Automatically sets human agent status to offline when websocket disconnects, and restores it to online upon reconnection.
+
 ### 5/6/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Updated the call logs list.

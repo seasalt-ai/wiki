@@ -15,6 +15,12 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 5/15/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+- Better document knowledge base upload handling: Fixed the bug that caused server timeout when uploading large documents. Now users can upload large documents and the system will process the upload as a background process, while users can work on something else.
+- Messenger integration with FB embedded signup: We support FB embedded signup, and users can sign up with their FB account directly and choose which FB page to connect with their SeaChat AI agent. See tutorial [here](/en/seachat/manual/channels/facebook-messenger-embedded-signup/).
+
 ### 5/8/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**

@@ -15,6 +15,17 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+
+### 5/15/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated audio player UI.
+- Added the "Download Transcript" button to the audio player bar.
+- Fixed an issue where adding a viewer to the list didn't trigger a notification email.
+- Fixed a bug where disabled workspaces were still shown in the extension.
+- Fixed an issue where free plan users couldn't retry diarization after an audio upload failed.
+- Shortened the signup and onboarding flow.
+
+
 ### 5/8/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Fixed an issue where some meetings incorrectly showed audio file does not exist.
