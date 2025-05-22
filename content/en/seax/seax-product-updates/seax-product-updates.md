@@ -15,6 +15,14 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 5/22/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Removed the deprecated Call Analysis tab.
+- Fixed issue where outbound calls couldn’t be canceled before being answered.
+- Resolved issue where inbound calls did not trigger the dial pad.
+- Adjusted height of the template editor.
+- Fixed a bug where expired data caused call reception to fail.
+
 ### 5/15/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added detection for authorized recording devices when launching SeaX.

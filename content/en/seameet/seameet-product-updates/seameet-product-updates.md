@@ -15,6 +15,19 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 5/22/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed delays in transcript updates.
+- Resolved audio file loss and added an automatic recovery mechanism upon error.
+- Added email notification option when audio is still processing.
+- Fixed occasional subscription failure when clicking the “Subscription” button in the sidebar.
+- Ensured users complete registration when accessing the share page to prevent permission issues.
+- Shortened the signup and onboarding flow; improved onboarding after extension installation.
+- Adjusted the default time when uploading audio files.
+- Fixed an issue where the wrong account was displayed when connecting Google Calendar.
+- Corrected hour calculations when uploading audio scheduled for another month.
+- Fixed missing error alerts when uploading unsupported audio formats.
+
 
 ### 5/15/2025
 ##### **<font color="#739963">New Features and Improvements</font>**

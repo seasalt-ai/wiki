@@ -15,6 +15,14 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+
+### 5/22/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+- Live Agent Transfer Enhancement: Added seamless live agent transfer functionality in chat. When enabled, customer messages to the AI agent will be smoothly transferred to a human agent.
+- Webchat Card Improvements: Added support for inbound message cards in Webchat. When users click these cards, the system sends a predefined question to your AI agent, initiating a conversation automatically.
+- LINE Message Template Enhancement: Improved LINE template message handling by sending quick action buttons as a separate text message, ensuring button visibility throughout the conversation.
+
 ### 5/15/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
