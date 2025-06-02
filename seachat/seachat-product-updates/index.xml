@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>5/22/2025 # New Features and Improvements #  Live Agent Transfer Enhancement: Added seamless live agent transfer functionality in chat. When enabled, customer messages to the AI agent will be smoothly transferred to a human agent. Webchat Card Improvements: Added support for inbound message cards in Webchat. When users click these cards, the system sends a predefined question to your AI agent, initiating a conversation automatically. LINE Message Template Enhancement: Improved LINE template message handling by sending quick action buttons as a separate text message, ensuring button visibility throughout the conversation.</description>
+      <description>6/1/2025 # New Features and Improvements #  Auto-Labeling Refined: Fixed behavior where auto-labeling incorrectly replaced labels instead of patching them. With this update, labels are now correctly patched—allowing multiple labels to coexist without overwriting each other. GA4 Customization Support: You can now add your GA4 Measurement ID directly in the Agent Information tab → Design Style page → Chat Settings section. Once set, SeaChat will begin sending widget interaction data (like message sends, button clicks, and agent handovers) to your GA4 property—allowing for detailed user behavior insights and performance monitoring.</description>
     </item>
     
   </channel>
