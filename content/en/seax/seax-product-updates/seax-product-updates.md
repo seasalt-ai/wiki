@@ -15,6 +15,18 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 6/1/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added WhatsApp support check before workspace import/export.
+- Supported importing contact with WhatsApp fields.
+- Enabled contact search in dialpad with matched contact names displayed.
+- Allowed use of dialpad during active calls for input.
+- Updated plan descriptions on the product landing page.
+- Enhanced error messages when WhatsApp campaign sending fails.
+- Filtered WhatsApp Business template with headers.
+- Disabled call recording for outbound calls via dialpad.
+- Adjusted WhatsApp template limit to 200.
+
 ### 5/22/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Removed the deprecated Call Analysis tab.

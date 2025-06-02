@@ -15,6 +15,14 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 6/1/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added OTP login option via extension; removed the password login.
+- Fixed an issue where clicking the extension too early when entering a meeting could block bot invitation.
+- Resolved a registration flow allowing users to exit the process unexpectedly.
+- Updated titles and button descriptions on the meeting share page for clarity.
+- Removed individual call analytics page previously integrated with Twilio Flex.
+
 ### 5/22/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Fixed delays in transcript updates.
