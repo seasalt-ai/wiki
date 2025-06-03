@@ -112,6 +112,24 @@ WebChat 頻道讓您在網站上嵌入 SeaChat 對話小工具。這個頻道是
 </center>
 <br/>
 
+如果您的AI助理程式部署到非網頁聊天頻道（例如 Messenger 和 WhatsApp），它們將無法顯示該按鈕。使用者可以像下面這樣口頭請求人工客服轉接：
+
+<br/>
+<a href="/images/seachat/zh/live-agent-transfer/ask-to-chat-with-live-agent-zh.jpeg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/ask-to-chat-with-live-agent-zh.jpeg" alt="Request Live Agent | SeaChat Live Agent Transfer">
+</a>
+<br/>
+
+
+這項功能可以單獨打開，或者和真人轉接按鈕一起使用：
+
+<br/>
+<a href="/images/seachat/zh/live-agent-transfer/settings-ask-to-chat-with-live-agent-zh.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/zh/live-agent-transfer/settings-ask-to-chat-with-live-agent-zh.png" alt="Request Live Agent | SeaChat Live Agent Transfer">
+</a>
+<br/>
+
+
 ## 如何在 LINE 上轉接真人客服
 
 一旦您集成了 LINE 頻道並開啟真人客服服務，您的客戶將在 LINE 聊天的底部看到 **Live Agent** 按鈕。 客戶可以在聊天對話期間點擊**Live Agent**按鈕轉接真人客服。
