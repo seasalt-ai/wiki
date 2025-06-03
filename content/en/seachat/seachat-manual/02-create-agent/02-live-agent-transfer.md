@@ -106,6 +106,27 @@ The chat conversation will let your customer know how many live agents are curre
 </a>
 <br/>
 
+If your AI agent is deployed to a non-webchat channel, such as Messenger and WhatsApp, then they cannot display the button. Instead, users can ask for a live agent transfer verbally like the following:
+
+<br/>
+<a href="/images/seachat/en/live-agent-transfer/ask-to-chat-with-live-agent.jpeg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/ask-to-chat-with-live-agent.jpeg" alt="Request Live Agent | SeaChat Live Agent Transfer">
+</a>
+<br/>
+
+
+You can enable this feature separately via the following setting:
+
+
+<br/>
+<a href="/images/seachat/en/live-agent-transfer/settings-ask-to-chat-with-live-agent.jpeg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/live-agent-transfer/settings-ask-to-chat-with-live-agent.jpeg" alt="Request Live Agent | SeaChat Live Agent Transfer">
+</a>
+<br/>
+
+
+
+
 
 ## How to Request Live Agent on LINE
 
