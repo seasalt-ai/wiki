@@ -15,6 +15,10 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 6/5/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Adjusted conversation sorting logic to prioritize the latest inbound message.
+
 ### 6/1/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added WhatsApp support check before workspace import/export.
