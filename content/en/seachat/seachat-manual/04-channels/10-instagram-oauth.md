@@ -6,7 +6,7 @@ lastmod: 2024-12-24T08:00:00+00:00
 weight: 505
 draft: false
 toc: true
-url: /en/seachat/manual/channels/instagram-oauth/
+url: /en/seachat/manual/channels/instagram/
 ---
 
 ---

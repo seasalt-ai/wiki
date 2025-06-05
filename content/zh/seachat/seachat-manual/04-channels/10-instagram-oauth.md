@@ -6,7 +6,7 @@ lastmod: 2024-12-24T08:00:00+00:00
 weight: 304
 draft: false
 toc: true
-url: /zh/seachat/manual/channels/instagram-oauth/
+url: /zh/seachat/manual/channels/instagram/
 ---
 
 ## 前置需求

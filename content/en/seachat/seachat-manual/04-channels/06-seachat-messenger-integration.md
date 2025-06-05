@@ -9,15 +9,15 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-  - /en/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
-  - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration/
-  - /seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
-url: /en/seachat/manual/channels/facebook-messenger/
+  - /en/seachat/seachat-manual/04-channels/06-seachat-messenger-integration-webhook/
+  - /seachat/seachat-integrations/03-seachat-facebook-messenger-integration-webhook/
+  - /seachat/seachat-manual/04-channels/06-seachat-messenger-integration-webhook/
+url: /en/seachat/manual/channels/facebook-messenger-webhook/
 weight: 503
 toc: true
 ---
 
-## Note: This Messenger Integration is deprecated. Please use [Messenger Integration With Embedded Signup](/en/seachat/seachat-manual/04-channels/09-seachat-messenger-integration-embedded-signup/) instead.
+Note: This Messenger Integration is deprecated. Please use [Messenger Integration With Embedded Signup](/en/seachat/seachat-manual/04-channels/09-seachat-messenger-integration/) instead.
 
 ## 🎥 Video Tutorial
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/aFruY5bwG00?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>

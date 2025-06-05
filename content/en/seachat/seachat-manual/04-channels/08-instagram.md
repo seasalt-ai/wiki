@@ -6,10 +6,10 @@ lastmod: 2024-12-24T08:00:00+00:00
 weight: 506
 draft: false
 toc: true
-url: /en/seachat/manual/channels/instagram/
+url: /en/seachat/manual/channels/instagram-webhook/
 ---
 
-Note: This Instagram Integration is deprecated. Please use [Instagram Integration With OAuth Login](/en/seachat/manual/channels/instagram-oauth/) instead.
+Note: This Instagram Integration is deprecated. Please use [Instagram Integration With OAuth Login](/en/seachat/manual/channels/instagram/) instead.
 
 ## Video Tutorial
 

@@ -6,9 +6,10 @@ lastmod: 2024-12-24T08:00:00+00:00
 weight: 305
 draft: false
 toc: true
-url: /zh/seachat/manual/channels/instagram/
+url: /zh/seachat/manual/channels/instagram-webhook/
 ---
-注意：此 Instagram 整合已不再推薦使用。請改用[Instagram 登錄使用](/zh/seachat/manual/channels/instagram-oauth/)。
+
+注意：此 Instagram 整合已不再推薦使用。請改用[Instagram 登錄使用](/zh/seachat/manual/channels/instagram/)。
 
 ## 前置需求
 

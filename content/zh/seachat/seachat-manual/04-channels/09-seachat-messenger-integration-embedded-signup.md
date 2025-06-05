@@ -9,8 +9,8 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-  - /zh/seachat/seachat-manual/04-channels/09-seachat-messenger-integration-embedded-signup/
-url: /zh/seachat/manual/channels/facebook-messenger-embedded-signup/  
+  - /zh/seachat/seachat-manual/04-channels/09-seachat-messenger-integration/
+url: /zh/seachat/manual/channels/facebook-messenger/  
 weight: 302
 toc: true
 ---
