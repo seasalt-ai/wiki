@@ -15,6 +15,10 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+### 6/5/2025
+##### **<font color="#739963">新功能與改進</font>**
+- Instagram 登入整合：透過 OAuth 認證機制，簡化登入流程，讓您能更輕鬆地登入並將 Instagram 帳號與 SeaChat AI 助理連結。請參閱[教程](/zh/seachat/manual/channels/instagram-oauth/)。
+- 圖片上傳容量提升：人工客服對話中的圖片上傳大小上限已提升至 20MB，讓您在與客戶分享視覺內容時擁有更大的彈性。
 
 ### 6/1/2025
 ##### **<font color="#739963">新功能與改進</font>**

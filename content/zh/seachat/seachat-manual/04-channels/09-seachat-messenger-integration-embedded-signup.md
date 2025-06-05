@@ -1,5 +1,5 @@
 ---
-title: "Facebook Messenger"
+title: "Messenger嵌入式登錄"
 description: "利用本指南或YouTube視頻教程，探索如何將SeaChat AI助理集成到Facebook Messenger，設置自動回應，並管理真人客服交接。"
 date: 2024-04-22T08:48:57+00:00
 lastmod: 2024-04-22T08:48:57+00:00

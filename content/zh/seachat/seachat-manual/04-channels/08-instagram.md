@@ -1,13 +1,14 @@
 ---
-title: "Instagram"
+title: "Instagram (不推薦使用)"
 description: "按照以下步驟將 Instagram 與您的應用程式整合，並建立AI agent的訊息。"
 date: 2024-12-24T08:00:00+00:00
 lastmod: 2024-12-24T08:00:00+00:00
-weight: 304
+weight: 305
 draft: false
 toc: true
 url: /zh/seachat/manual/channels/instagram/
 ---
+注意：此 Instagram 整合已不再推薦使用。請改用[Instagram 登錄使用](/zh/seachat/manual/channels/instagram-oauth/)。
 
 ## 前置需求
 

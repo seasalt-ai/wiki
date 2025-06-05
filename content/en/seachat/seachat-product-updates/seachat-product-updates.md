@@ -15,6 +15,11 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 6/5/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+- Instagram Login with OAuth: Streamlined authentication process allowing you to easily sign in and connect your Instagram account with your SeaChat AI agent. See tutorial [here](/en/seachat/manual/channels/instagram-oauth/).
+- Enhanced Image Upload Capacity: Maximum image upload size increased to 20MB for human agent conversations, enabling more flexibility in sharing visual content with customers.
 
 ### 6/1/2025
 
