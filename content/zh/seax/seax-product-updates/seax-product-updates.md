@@ -15,6 +15,11 @@ url: /zh/seax/product-updates/
 weight: 400
 toc: true
 ---
+
+### 6/5/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 調整對話排序原則為最後一則進線訊息優先
+
 ### 6/1/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - 工作區輸入/輸出前，將先檢查是否支援 WhatsApp

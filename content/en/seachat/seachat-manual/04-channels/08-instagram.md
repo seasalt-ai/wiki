@@ -1,15 +1,15 @@
 ---
-title: "Instagram"
+title: "Instagram (Deprecated)"
 description: "Follow these steps to integrate Instagram with your app and build a messaging AI agent."
 date: 2024-12-24T08:00:00+00:00
 lastmod: 2024-12-24T08:00:00+00:00
-weight: 505
+weight: 506
 draft: false
 toc: true
-url: /en/seachat/manual/channels/instagram/
+url: /en/seachat/manual/channels/instagram-webhook/
 ---
 
----
+Note: This Instagram Integration is deprecated. Please use [Instagram Integration With OAuth Login](/en/seachat/manual/channels/instagram/) instead.
 
 ## Video Tutorial
 

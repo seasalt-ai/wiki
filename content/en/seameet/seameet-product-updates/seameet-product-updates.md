@@ -15,6 +15,15 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+
+### 6/5/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Enhanced audio upload with automatic speaker count detection and improved overall transcript generation efficiency.
+- Updated interface for audio upload, including support for regenerating transcripts in different languages.
+- Fixed an issue where new users registering via the extension were not correctly directed to the onboarding flow.
+- Resolved an issue where newly invited users were not guided through the proper onboarding steps, and added redirect logic to complete onboarding.
+- Refined onboarding flow to improve clarity and accuracy during sign-up and login
+
 ### 6/1/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added OTP login option via extension; removed the password login.

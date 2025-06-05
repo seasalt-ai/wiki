@@ -16,18 +16,26 @@ weight: 1600
 toc: true
 ---
 
+### 6/5/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Instagram Login with OAuth: Streamlined authentication process allowing you to easily sign in and connect your Instagram account with your SeaChat AI agent. See tutorial [here](/en/seachat/manual/channels/instagram/).
+- Enhanced Image Upload Capacity: Maximum image upload size increased to 20MB for human agent conversations, enabling more flexibility in sharing visual content with customers.
+
 ### 6/1/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Auto-Labeling Refined: Fixed behavior where auto-labeling incorrectly replaced labels instead of patching them. With this update, labels are now correctly patched—allowing multiple labels to coexist without overwriting each other. 
+
+- Auto-Labeling Refined: Fixed behavior where auto-labeling incorrectly replaced labels instead of patching them. With this update, labels are now correctly patched—allowing multiple labels to coexist without overwriting each other.
 - GA4 Customization Support: You can now add your GA4 Measurement ID directly in the Agent Information tab → Design Style page → Chat Settings section. Once set, SeaChat will begin sending widget interaction data (like message sends, button clicks, and agent handovers) to your GA4 property—allowing for detailed user behavior insights and performance monitoring.
 - Live Agent Transfer Options: We updates the options for live agent transfer so users can customize how live agent handovers are triggered. Users can now choose between user requests via button clicks, intent expressed during conversations with the AI agent, or both.
 - Conversation Image Upload Size Limit Increased: We’ve raised the maximum image upload size to 20 MB. You can now upload images up to this size in your conversations, making it easier to share clearer, higher-quality visuals.
 
-
 ### 5/22/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Live Agent Transfer Enhancement: Added seamless live agent transfer functionality in chat. When enabled, customer messages to the AI agent will be smoothly transferred to a human agent.
 - Webchat Card Improvements: Added support for inbound message cards in Webchat. When users click these cards, the system sends a predefined question to your AI agent, initiating a conversation automatically.
 - LINE Message Template Enhancement: Improved LINE template message handling by sending quick action buttons as a separate text message, ensuring button visibility throughout the conversation.

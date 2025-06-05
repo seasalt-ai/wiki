@@ -1,5 +1,5 @@
 ---
-title: "Facebook Messenger"
+title: "Messenger (不推薦使用)"
 description: "利用本指南或YouTube視頻教程，探索如何將SeaChat AI助理集成到Facebook Messenger，設置自動回應，並管理真人客服交接。"
 date: 2024-04-22T08:48:57+00:00
 lastmod: 2024-04-22T08:48:57+00:00
@@ -9,12 +9,12 @@ menu:
   seachat:
     parent: "seachat-manual"
 aliases:
-  - /zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration/
-url: /zh/seachat/manual/channels/facebook-messenger/  
-weight: 302
+  - /zh/seachat/seachat-manual/04-channels/06-seachat-messenger-integration-webhook/
+url: /zh/seachat/manual/channels/facebook-messenger-webhook/  
+weight: 303
 toc: true
 ---
-## 注意：此 Messenger 整合已不再推薦使用。請改用[嵌入式註冊的 Messenger 整合](/zh/seachat/seachat-manual/04-channels/09-seachat-messenger-integration-embedded-signup/)。
+## 注意：此 Messenger 整合已不再推薦使用。請改用[嵌入式註冊的 Messenger 整合](/zh/seachat/seachat-manual/04-channels/09-seachat-messenger-integration/)。
 
 
 ## 🎥 影片教學
