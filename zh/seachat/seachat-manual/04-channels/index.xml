@@ -39,27 +39,11 @@ WhatsApp Business App限制:
     </item>
     
     <item>
-      <title>Facebook Messenger</title>
+      <title>Messenger嵌入式登錄</title>
       <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/</link>
       <pubDate>Mon, 22 Apr 2024 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/</guid>
-      <description>注意：此 Messenger 整合已不再推薦使用。請改用嵌入式註冊的 Messenger 整合。 # 🎥 影片教學 #  簡介 # 在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
- 自動回App戶消息：   將您的Messenger商業帳號連接到SeaChat聊天機器人/AI助理平台。 使用ChatGPT等先進大語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。 配置聊天助理，根據您的知識庫自動回應訊息。  通過SeaChat管理所有與用戶的對話：   使用SeaChat，掌握用戶和您的聊天機器人之間的所有對話。 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的需要改進的部分。 管理對話，確保與用戶的無縫溝通。  用戶能夠請求真人客服協助：   允許用戶在他們有更進階需求或需要個性化支援時請求真人客服的協助。 順暢地將對話從AI聊天助理轉移到真人客服。 用戶可選擇他們需要的客服支援層級，增強整體客戶體驗。  到本教學結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
- 使用SeaChat的ChatGPT驅動的聊天機器人與Facebook Messenger集成
-   在開始設置過程之前，有幾個關鍵點需要記住：
-Messenger的限制：
- SeaChat AI助理設計只能回應訊息，不能自行主動開始對話。 作為SeaChat管理員的您仍然能夠與用戶進行對話，但請事先安排真人助理。  誰需要Messenger頻道：
- 需要自動化處理大量Messenger訊息的企業和組織。 尋求提供個性化和更好客戶體驗的公司。 通過自動化常規查詢來減輕人力負擔的客戶服務部門。   Facebook Messenger設置 # 設置Facebook Messenger需要仔細照著以下步驟設定，往下滑可看到逐步詳細指南：
- 創建MessengerApp:   轉到Meta Developer網站。 點擊右上角的MyApps。 從下拉選單選擇CreateApp。  選擇App類型:   在App Type下選擇Other。 輸入一個全新的App名稱，避免使用MessengerApp或Facebook等難以辨識的名稱。  添加Messenger產品:   滾動到App列表的底部。 找到Messenger並選擇它以將該產品添加到您的App中。  配置MessengerApp:   仔細閱讀配置頁面上的信息。 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。 確保正確填寫所有必填欄位。  生成訪問金鑰:   配置完成後，生成一個永久的訪問金鑰。 此金鑰對於使用Messenger API至關重要。  移除您的Messenger集成:   從您的MetaApp中正確移除頁面訪問權限 在SeaChat內點擊移除按鈕   📚 推薦閱讀:</description>
-    </item>
-    
-    <item>
-      <title>Facebook Messenger</title>
-      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-embedded-signup/</link>
-      <pubDate>Mon, 22 Apr 2024 08:48:57 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-embedded-signup/</guid>
       <description>本指南將引導您如何使用 Facebook 嵌入式註冊將您的 Facebook 專頁連接至 SeaChat。
 ✨ 為什麼要使用嵌入式註冊？ # 相較於舊方法，SeaChat 的 Messenger 整合搭配嵌入式註冊更簡單、更快速、更強大。以下是原因：
 ✅ 無縫設定體驗 您不再需要離開 SeaChat 介面或切換分頁。所有操作都在 SeaChat 中完成 — 登入、權限核准和專頁連接。
@@ -92,12 +76,45 @@ Meta 的 24 小時規則限制。透過 SeaChat 的 Messenger 整合，用戶可
     </item>
     
     <item>
-      <title>Instagram</title>
+      <title>Messenger (不推薦使用)</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-webhook/</link>
+      <pubDate>Mon, 22 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-webhook/</guid>
+      <description>注意：此 Messenger 整合已不再推薦使用。請改用嵌入式註冊的 Messenger 整合。 # 🎥 影片教學 #  簡介 # 在這教學中，我們將深入探討在Facebook Messenger上設置由ChatGPT驅動的聊天機器人（AI助理）的過程。從本教學，您將清楚了解如何：
+ 自動回App戶消息：   將您的Messenger商業帳號連接到SeaChat聊天機器人/AI助理平台。 使用ChatGPT等先進大語言模型訓練聊天機器人，以生成對廣泛用戶查詢的自然語言回應。 配置聊天助理，根據您的知識庫自動回應訊息。  通過SeaChat管理所有與用戶的對話：   使用SeaChat，掌握用戶和您的聊天機器人之間的所有對話。 查看聊天記錄，分析用戶行為，並識別聊天助理回應中的需要改進的部分。 管理對話，確保與用戶的無縫溝通。  用戶能夠請求真人客服協助：   允許用戶在他們有更進階需求或需要個性化支援時請求真人客服的協助。 順暢地將對話從AI聊天助理轉移到真人客服。 用戶可選擇他們需要的客服支援層級，增強整體客戶體驗。  到本教學結束時，您將擁有一個由SeaChat驅動的Facebook Messenger機器人以及一個SeaChat控制台來查看所有消息，如下所示：
+ 使用SeaChat的ChatGPT驅動的聊天機器人與Facebook Messenger集成
+   在開始設置過程之前，有幾個關鍵點需要記住：
+Messenger的限制：
+ SeaChat AI助理設計只能回應訊息，不能自行主動開始對話。 作為SeaChat管理員的您仍然能夠與用戶進行對話，但請事先安排真人助理。  誰需要Messenger頻道：
+ 需要自動化處理大量Messenger訊息的企業和組織。 尋求提供個性化和更好客戶體驗的公司。 通過自動化常規查詢來減輕人力負擔的客戶服務部門。   Facebook Messenger設置 # 設置Facebook Messenger需要仔細照著以下步驟設定，往下滑可看到逐步詳細指南：
+ 創建MessengerApp:   轉到Meta Developer網站。 點擊右上角的MyApps。 從下拉選單選擇CreateApp。  選擇App類型:   在App Type下選擇Other。 輸入一個全新的App名稱，避免使用MessengerApp或Facebook等難以辨識的名稱。  添加Messenger產品:   滾動到App列表的底部。 找到Messenger並選擇它以將該產品添加到您的App中。  配置MessengerApp:   仔細閱讀配置頁面上的信息。 按照指示提供必要的細節，例如商業名稱、地址和聯繫信息。 確保正確填寫所有必填欄位。  生成訪問金鑰:   配置完成後，生成一個永久的訪問金鑰。 此金鑰對於使用Messenger API至關重要。  移除您的Messenger集成:   從您的MetaApp中正確移除頁面訪問權限 在SeaChat內點擊移除按鈕   📚 推薦閱讀:</description>
+    </item>
+    
+    <item>
+      <title>Instagram 登錄使用</title>
       <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram/</link>
       <pubDate>Tue, 24 Dec 2024 08:00:00 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram/</guid>
-      <description>前置需求 #  Instagram Professional Account：您需要擁有 Business 或 Creator 帳戶才能設定 Instagram Messaging。如果您目前的帳戶類型不符，可以在 Instagram settings 中 切換到 Professional Account。  操作指引 # 步驟 1：建立 Instagram App #  訪問 Meta Developer Site 並點擊右上角的 My Apps。 在下拉選單中選擇 Create App 開始建立。   輸入應用程式的相關資訊，如 App Name 和 Contact Email，然後點擊 Next。       選擇一個使用案例，選擇 Other，然後點擊 Next。       將 App Type 設定為 Business，然後點擊 Next。       檢查應用程式的詳細資訊後，點擊 Create App。      步驟 2：將 Instagram Product 加入應用程式 #  在 Add Products to Your App 區域中選擇 Instagram。 點擊 Set Up 按鈕將其新增至應用程式。      步驟 3：連結 Instagram Account #  前往 API Setup with Instagram 頁面。 在步驟 1 點擊 Add Account，連結您的 Instagram Account。      步驟 4：配置 Webhook #  在 SeaChat 獲取 Webhook URL。  前往 Agent Configuration → Channels → Instagram 查看 Callback URL 和 Verify Token。        點擊步驟 1 中的 Set Up Verify Token。完成後，會彈出提示框確認 Token 已成功儲存。      回到 Instagram App Dashboard，將 Webhook URL 和 Verify Token 貼入相應欄位並點擊 Save。       點擊 Manage，啟用所有必要的 Webhook Events。      步驟 5：生成 Access Token #  在 Generate Access Token 區域中點擊 Generate Token 按鈕。 在彈出窗口中勾選 I Understand，然後複製 Access Token。       將複製的 Token 貼到 SeaChat Instagram Setup Interface 的步驟 2，然後點擊 Save。      完成所有步驟後，您已經成功在 SeaChat 中設置 Instagram Integration！</description>
+      <description>前置需求 #  Instagram Professional Account：您需要擁有 Business 或 Creator 帳戶才能設定 Instagram Messaging。如果您目前的帳戶類型不符，可以在 Instagram settings 中 切換到 Professional Account。  只需兩步完成 Instagram 整合 # 前往 SeaChat 通道頁面中的 Instagram 卡片。
+    步驟 1: 登入你的 Instagram 帳號
+點擊 Connect 按鈕，將出現 Instagram 登入弹窗。授予所有權限並點擊 允許
+    步驟 2: 選擇訊息輸入語言
+設定輸入訊息的語言，SeaChat 將以相同語言轉錄並回應。這個設定同樣適用於系統訊息（例如點擊 🧹開始新話題時）
+    🚀 完成啦！整合完成後，SeaChat 將開始以你的 AI 智能助理處理 Instagram 訊息，你可以立即測試發送訊息。
+曾使用舊方式連線 Instagram？ # 如果你過去是用舊方式連線，現在需要分成兩步重新設定：
+步驟 1: 從 SeaChat 移除 #  前往 SeaChat 的 Instagram 連線頁面，在 Deprecated 區塊中找到舊會訊卡片        點擊右上角的 移除 按鈕刪除 然後前往新的 Instagram 卡片，依照新步驟重新連線  步驟 2: 從 Meta App 移除認證 # 正確從 Meta App 中移除帳號認證 前往 Meta Business App → Instagram API setup with Instagram login → Generate access tokens → 垃圾桶圖示 → Remove Account</description>
+    </item>
+    
+    <item>
+      <title>Instagram (不推薦使用)</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram-webhook/</link>
+      <pubDate>Tue, 24 Dec 2024 08:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram-webhook/</guid>
+      <description>注意：此 Instagram 整合已不再推薦使用。請改用Instagram 登錄使用。
+前置需求 #  Instagram Professional Account：您需要擁有 Business 或 Creator 帳戶才能設定 Instagram Messaging。如果您目前的帳戶類型不符，可以在 Instagram settings 中 切換到 Professional Account。  操作指引 # 步驟 1：建立 Instagram App #  訪問 Meta Developer Site 並點擊右上角的 My Apps。 在下拉選單中選擇 Create App 開始建立。   輸入應用程式的相關資訊，如 App Name 和 Contact Email，然後點擊 Next。       選擇一個使用案例，選擇 Other，然後點擊 Next。       將 App Type 設定為 Business，然後點擊 Next。       檢查應用程式的詳細資訊後，點擊 Create App。      步驟 2：將 Instagram Product 加入應用程式 #  在 Add Products to Your App 區域中選擇 Instagram。 點擊 Set Up 按鈕將其新增至應用程式。      步驟 3：連結 Instagram Account #  前往 API Setup with Instagram 頁面。 在步驟 1 點擊 Add Account，連結您的 Instagram Account。      步驟 4：配置 Webhook #  在 SeaChat 獲取 Webhook URL。  前往 Agent Configuration → Channels → Instagram 查看 Callback URL 和 Verify Token。        點擊步驟 1 中的 Set Up Verify Token。完成後，會彈出提示框確認 Token 已成功儲存。      回到 Instagram App Dashboard，將 Webhook URL 和 Verify Token 貼入相應欄位並點擊 Save。       點擊 Manage，啟用所有必要的 Webhook Events。      步驟 5：生成 Access Token #  在 Generate Access Token 區域中點擊 Generate Token 按鈕。 在彈出窗口中勾選 I Understand，然後複製 Access Token。       將複製的 Token 貼到 SeaChat Instagram Setup Interface 的步驟 2，然後點擊 Save。      完成所有步驟後，您已經成功在 SeaChat 中設置 Instagram Integration！</description>
     </item>
     
     <item>

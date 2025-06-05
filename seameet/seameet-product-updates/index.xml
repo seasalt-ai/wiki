@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>6/1/2025 # New Features and Improvements #  Added OTP login option via extension; removed the password login. Fixed an issue where clicking the extension too early when entering a meeting could block bot invitation. Resolved a registration flow allowing users to exit the process unexpectedly. Updated titles and button descriptions on the meeting share page for clarity. Removed individual call analytics page previously integrated with Twilio Flex.  5/22/2025 # New Features and Improvements #  Fixed delays in transcript updates.</description>
+      <description>6/5/2025 # New Features and Improvements #  Enhanced audio upload with automatic speaker count detection and improved overall transcript generation efficiency. Updated interface for audio upload, including support for regenerating transcripts in different languages. Fixed an issue where new users registering via the extension were not correctly directed to the onboarding flow. Resolved an issue where newly invited users were not guided through the proper onboarding steps, and added redirect logic to complete onboarding.</description>
     </item>
     
   </channel>

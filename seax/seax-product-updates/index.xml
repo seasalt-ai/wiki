@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
-      <description>6/1/2025 # New Features and Improvements #  Added WhatsApp support check before workspace import/export. Supported importing contact with WhatsApp fields. Enabled contact search in dialpad with matched contact names displayed. Allowed use of dialpad during active calls for input. Updated plan descriptions on the product landing page. Enhanced error messages when WhatsApp campaign sending fails. Filtered WhatsApp Business template with headers. Disabled call recording for outbound calls via dialpad. Adjusted WhatsApp template limit to 200.</description>
+      <description>6/5/2025 # New Features and Improvements #  Adjusted conversation sorting logic to prioritize the latest inbound message.  6/1/2025 # New Features and Improvements #  Added WhatsApp support check before workspace import/export. Supported importing contact with WhatsApp fields. Enabled contact search in dialpad with matched contact names displayed. Allowed use of dialpad during active calls for input. Updated plan descriptions on the product landing page. Enhanced error messages when WhatsApp campaign sending fails.</description>
     </item>
     
   </channel>
