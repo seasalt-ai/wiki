@@ -36,7 +36,6 @@ With SeaMeet Copilot’s powerful transcription tools, you can upload and transc
    SeaMeet supports multiple audio file formats, such as:
     - **.mp3**
     - **.wav**
-    - **.m4a**
     - **.aac**
     - **.flac**
     - **.ogg**
@@ -45,7 +44,6 @@ With SeaMeet Copilot’s powerful transcription tools, you can upload and transc
 3. Adjust Upload Settings:
    Before starting the transcription, customize the following settings for optimal results:
     - **Language of the Audio:** Choose the appropriate language.
-    - **Speaker Count:** Specify the number of speakers in the recording.
     - **Meeting Title:** Add a descriptive title for easy reference.
 
 <center>
