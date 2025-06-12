@@ -15,6 +15,16 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+
+### 6/12/2025
+
+##### **<font color="#739963">新功能與改進</font>**
+
+- 自訂 CSAT 表單以安裝於 Widget：您現在可以將 CSAT（顧客滿意度）表單附加至你的網頁AI助理。當使用者透過網頁AI助理互動時，表單可自動跳出，您也能從對話介面中直接查看每則對話所對應的回饋內容。請參閱[教程](/zh/seachat/manual/channels/webpage/#自定义表单客户满意度调查表单)。
+- WebChat 支援多張圖片發送：SeaChat 現在支援在一次訊息中發送多張圖片，當顧客與 AI助理 聊天時，SeaChat AI助理將能夠整體理解所有圖片的內容，提供更具上下文、也更準確的回應，而非逐一處理。
+- 提升時間感知準確性：修復了啟用時間感知功能時，AI助理無法正確提供在地化時間的問題。
+- LINE 格式修正：解決了AI助理傳送訊息到 LINE 時，每個句子前面都會多出不必要空白字元的問題。
+
 ### 6/5/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - Instagram 登入整合：透過 OAuth 認證機制，簡化登入流程，讓您能更輕鬆地登入並將 Instagram 帳號與 SeaChat AI 助理連結。請參閱[教程](/zh/seachat/manual/channels/instagram/)。
