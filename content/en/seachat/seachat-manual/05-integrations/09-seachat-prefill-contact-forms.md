@@ -11,8 +11,8 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/seachat-prefill-contact-forms/
-url: /seachat/integrations/seachat-prefill-contact-forms/  
-weight: 607
+url: /en/seachat/integrations/seachat-prefill-contact-forms/  
+weight: 608
 toc: true
 ---
 
