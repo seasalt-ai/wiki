@@ -1,5 +1,5 @@
 ---
-title: "SeaX Integration"
+title: "SeaX Integration with SMS & Call"
 description: "Integrate SeaX with SeaChat for bulk messaging and automated call handling. Automate customer communications with AI."
 date: 2024-07-16T08:48:57+00:00
 lastmod: 2024-07-16T08:48:57+00:00
