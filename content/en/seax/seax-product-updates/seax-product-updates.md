@@ -15,6 +15,17 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 6/12/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved the display of contact search results in the dialpad.
+- Inbound calls will now automatically cycle through available agents if unanswered for 10 seconds.
+- Fixed an issue where making calls after entering from the workspace list view could result in an error.
+- Fixed a bug that prevented WhatsApp Only plan users from accessing services until the subscription end date after cancellation.
+- Fixed a plan-switching display issue when accessing the subscription page via certain links.
+- Optimized conversation sorting and improved performance.
+- Fixed occasional CSV upload failures.
+- Fixed an issue where the SeaChat bot failed to send WhatsApp template messages.
+
 ### 6/5/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Adjusted conversation sorting logic to prioritize the latest inbound message.

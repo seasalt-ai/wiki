@@ -16,6 +16,15 @@ weight: 400
 toc: true
 ---
 
+### 6/12/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed an issue where .m4a audio files failed to upload.
+- Resolved a bug where regenerated meeting notes did not use the selected language.
+- Updated the formatting of certain meeting note emails.
+- Fixed an issue where some product emails were sent in the wrong language.
+- Refined error messages in the audio file list.
+- Improved automatic fallback handling when speech recognition encounters issues.
+
 ### 6/5/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Enhanced audio upload with automatic speaker count detection and improved overall transcript generation efficiency.

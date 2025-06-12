@@ -16,6 +16,15 @@ weight: 1600
 toc: true
 ---
 
+### 6/12/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Custom CSAT Form for Widget Installations: You can now attach a CSAT (Customer Satisfaction) form to your SeaChat widget. When users interact via the widget, the form can automatically pop up, and you’ll be able to view feedback linked to each conversation directly from your dashboard. See tutorial [here](/en/seachat/manual/channels/webpage/#custom-forms-csat-survey-form).
+- Multiple Image Support in WebChat: SeaChat now supports sending multiple images in a single message when your customers chat with your AI agent. SeaChat AI agent will now comprehensively understand all images together—enabling more contextual and accurate responses, instead of processing them one by one.
+- Improved Time Awareness Accuracy: Fixed an issue where the AI agent, when time awareness was enabled, failed to provide the correct localized time.
+- LINE Formatting Fix: Resolved a bug where messages sent by the AI agent to LINE always had an unnecessary leading whitespace before each sentence.
+
 ### 6/5/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
