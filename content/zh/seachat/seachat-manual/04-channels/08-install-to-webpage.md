@@ -168,7 +168,7 @@ _展示访客如何留下反馈_
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/zh/channels/webpage-widget/csat-form-result.png" target="_blank">
-<img height="100%" width="60%" src="/images/seachat/zh/channels/webpage-widget/csat-form-result.png" alt="SeaChat 的自定义表单设置">
+<img height="100%" width="100%" src="/images/seachat/zh/channels/webpage-widget/csat-form-result.png" alt="SeaChat 的自定义表单设置">
 </a>
 
 _查看客户满意度调查结果_

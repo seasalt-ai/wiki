@@ -168,7 +168,7 @@ _Demonstration of how your website visitor can leave a feedback_
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/channels/webpage-widget/csat-form-result.png" target="_blank">
-<img height="100%" width="60%" src="/images/seachat/en/channels/webpage-widget/csat-form-result.png" alt="Custom form setting on SeaChat">
+<img height="100%" width="100%" src="/images/seachat/en/channels/webpage-widget/csat-form-result.png" alt="Custom form setting on SeaChat">
 </a>
 
 _View Customer Satisfaction Survey Result_
