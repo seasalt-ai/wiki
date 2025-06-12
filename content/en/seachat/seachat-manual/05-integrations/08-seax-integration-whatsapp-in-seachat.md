@@ -10,7 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/seax-integration-with-whatsapp-in-seachat/
-url: /seachat/integrations/seax-seachat-whatsapp/
+url: /en/seachat/integrations/seax-seachat-whatsapp/
 weight: 607
 toc: true
 ---

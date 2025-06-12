@@ -10,7 +10,7 @@ menu:
     parent: "seachat-integrations"
 aliases:
   - /en/seachat/seachat-integrations/seax-integration-in-seachat/
-url: /seachat/integrations/seax-seachat/
+url: /seachat/integrations/seax-seachat-sms-phone-calls/
 weight: 606
 toc: true
 ---
