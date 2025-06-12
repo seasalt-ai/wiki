@@ -74,22 +74,32 @@ Step 2: Open Wordpress and &amp;ldquo;Appearance&amp;rdquo; # Go to your Wordpre
     </item>
     
     <item>
-      <title>SeaX Integration</title>
-      <link>https://wiki.seasalt.ai/seachat/integrations/seax-seachat/</link>
+      <title>SeaX Integration with SMS &amp; Call</title>
+      <link>https://wiki.seasalt.ai/seachat/integrations/seax-seachat-sms-phone-calls/</link>
       <pubDate>Tue, 16 Jul 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/integrations/seax-seachat/</guid>
+      <guid>https://wiki.seasalt.ai/seachat/integrations/seax-seachat-sms-phone-calls/</guid>
       <description>Overview # In this tutorial, we will guide you through setting up Seasalt&amp;rsquo;s bulk-messaging platform, SeaX, in SeaChat. SeaX is a powerful omni-channel platform that enables you to manage all your business channels from a single interface.
 For more information, check out our SeaX Documentation.
 With SeaX integrated into SeaChat, you can not only manually manage customer conversations but also automate responses with your SeaChat AI agent. SeaX consolidates all your business channels, such as WhatsApp, phone calls, and SMS, allowing these channels to be directed to SeaChat for AI-driven responses.</description>
     </item>
     
     <item>
+      <title>SeaX Integration with WhatsApp</title>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-whatsapp/</link>
+      <pubDate>Wed, 11 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-whatsapp/</guid>
+      <description>Overview # SeaX enables businesses to send bulk WhatsApp messages and manage large-scale customer engagement campaigns efficiently. When integrated with SeaChat, SeaX not only allows for outbound messaging at scale but also automates replies to incoming customer responses using AI. This integration streamlines both outbound campaigns and inbound support, making it ideal for organizations handling high message volumes or seeking to automate customer interactions.
+🎥 Video Tutorial #   Key Features #  Bulk WhatsApp Messaging: Send broadcast messages to large lists of WhatsApp contacts directly from SeaX.</description>
+    </item>
+    
+    <item>
       <title>Programmatically Pre-Fill Contact Forms in WebChat</title>
-      <link>https://wiki.seasalt.ai/seachat/integrations/seachat-prefill-contact-forms/</link>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/seachat-prefill-contact-forms/</link>
       <pubDate>Tue, 16 Jul 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seachat/integrations/seachat-prefill-contact-forms/</guid>
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/seachat-prefill-contact-forms/</guid>
       <description>SeaChat supports pre-filling user information in the webchat form by detecting query strings in the webchat URL. This allows seamless integration between your website and the chat widget, so your customers don’t need to enter their details manually.
     Why is this important? This is mostly used in scenarios where your end users have already logged into your system, then you can use their login info to auto fill in the contact form.</description>
     </item>

@@ -1,0 +1,1986 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://wiki.seasalt.ai/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind-ui.js"></script>
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10880948239');
+  </script>
+  
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJGXPTGC');</script>
+  
+  <link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-10405841-7', 'auto');
+    ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="https://wiki.seasalt.ai/main.466b495fe72429983c22003b238507e0f155f9b9678e5f5f125101138519e6b9c19a79ac533ba7fc97df582d3342dd389ab1ad60cc1c0f7de63576a1c242b362.css" integrity="sha512-RmtJX&#43;ckKZg8IgA7I4UH4PFV&#43;blnjl9fElEBE4UZ5rnBmnmsUzun/JffWC0zQt04mrGtYMwcD33mNXahwkKzYg==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>MailerLite - Seasalt.ai</title>
+<meta name="description" content="將 SeaChat 與 MailerLite 整合，讓表單自動將客戶信箱加入郵件名單。學習如何產生 API 金鑰以進行郵件行銷。">
+<link rel="canonical" href="https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MailerLite">
+<meta property="og:description" content="將 SeaChat 與 MailerLite 整合，讓表單自動將客戶信箱加入郵件名單。學習如何產生 API 金鑰以進行郵件行銷。">
+<meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/">
+<meta property="og:site_name" content="Seasalt.ai">
+<meta property="article:published_time" content="2024-04-23T08:48:57+00:00">
+  <meta property="article:modified_time" content="2025-06-11T21:37:11-07:00">
+  
+  <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
+      <meta property="og:image:alt" content="Seasalt.ai">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="MailerLite">
+<meta name="twitter:description" content="將 SeaChat 與 MailerLite 整合，讓表單自動將客戶信箱加入郵件名單。學習如何產生 API 金鑰以進行郵件行銷。">
+<meta name="twitter:image" content="https://wiki.seasalt.ai/seasalt-logo.png">
+    <meta name="twitter:image:alt" content="MailerLite">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://wiki.seasalt.ai/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://wiki.seasalt.ai/",
+      "sameAs": [
+      
+      "https:\/\/x.com\/SeasaltAI"
+      ,
+      "https:\/\/www.linkedin.com\/company\/seasalt-ai\/"
+      ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://wiki.seasalt.ai/#/schema/website/1",
+      "url": "https://wiki.seasalt.ai/",
+      "name": "Seasalt.ai",
+      "description": "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.",
+      "publisher": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/",
+      "url": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/",
+      "name": "MailerLite",
+      "description": "將 SeaChat 與 MailerLite 整合，讓表單自動將客戶信箱加入郵件名單。學習如何產生 API 金鑰以進行郵件行銷。",
+      "isPartOf": {
+        "@id": "https://wiki.seasalt.ai/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        },
+      "datePublished": "2024-04-23T08:48:57CET",
+      "dateModified": "2025-06-11T21:37:11CET",
+      "breadcrumb": {
+        "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/",
+          "url": "https://wiki.seasalt.ai/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/",
+          "url": "https://wiki.seasalt.ai/zh/",
+          "name": "Zh"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/seachat/",
+          "url": "https://wiki.seasalt.ai/zh/seachat/",
+          "name": "Seachat"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/",
+          "url": "https://wiki.seasalt.ai/zh/seachat/integrations/",
+          "name": "Integrations"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  5 ,
+        "item": {
+          "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/#/schema/image/2",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "contentUrl": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "caption": "MailerLite"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiki.seasalt.ai/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wiki.seasalt.ai/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wiki.seasalt.ai/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://wiki.seasalt.ai/site.webmanifest">
+
+</head>
+  <body class="seachat single">
+    <div class="sticky-lg-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="https://wiki.seasalt.ai/zh/" aria-label="Seasalt.ai">
+      Seasalt.ai
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="https://wiki.seasalt.ai/zh/">Seasalt.ai</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/" aria-label="SeaChat">SeaChat</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/" aria-label="SeaMeet">SeaMeet</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seax/demo_videos_zh/videos/" aria-label="SeaX">SeaX</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESTful APIs
+              <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/01-seachat-api-intro/" aria-label="SeaChat API">SeaChat API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/02-seax-api-intro/" aria-label="SeaX API">SeaX API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/03-seameet-api-intro/" aria-label="SeaMeet API">SeaMeet API</a>
+              </li>
+              </ul>
+          </li>
+          
+          
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://seasalt.ai/" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><small class="ms-2 d-md-none">Home</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.youtube.com/@seasaltai" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><small class="ms-2 d-md-none">YouTube</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.linkedin.com/company/seasalt-ai/" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><small class="ms-2 d-md-none">LinkedIn</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan" aria-label="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><small class="ms-2 d-md-none">Contact</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        ZH
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/">繁體中文</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/en/seachat/integrations/mailerlite/" hreflang="en" lang="en">English</a></li>
+        
+      </ul>
+    </div>
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </nav>
+</header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
+
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</div>
+<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+    <span class="navbar-text ms-0">Seachat</span>
+    <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-c46d213ca01afa28f2fd64261e25a08d" aria-expanded="true">
+          新手上路
+        </button>
+        <div class="collapse show" id="section-c46d213ca01afa28f2fd64261e25a08d">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/">簡介</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/getting-started/02-quick-start/">快速入門</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/getting-started/free-agent-mode/">免費真人客服模式</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bb2c7b47de3835ea154a6ebd155c35ad" aria-expanded="true">
+          SeaChat 說明書
+        </button>
+        <div class="collapse show" id="section-bb2c7b47de3835ea154a6ebd155c35ad">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e9a72b8ebf3477710723c9145a147dc8" aria-expanded="true">
+                    創建AI助理
+                  </button>
+                  <div class="collapse show" id="section-e9a72b8ebf3477710723c9145a147dc8">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/">建立新助理</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/agent-information/">AI助理資訊</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/live-agent-transfer/">真人客服</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/version-control/">助理版本控制</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/conversation/">助理對話</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/analytics/">數據分析</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-2774204a84df7c6ffd6cf1ba3e821ee5" aria-expanded="true">
+                              進階設置
+                            </button>
+                            <div class="collapse show" id="section-2774204a84df7c6ffd6cf1ba3e821ee5">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/">檢索增強生成 (RAG)</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/context-extraction/">上下文抽取</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/">時間意識與上下文</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/kb-references/">在聊天中啟用引用</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-5c48be725d2b8176f1373a2d388e63b7" aria-expanded="true">
+                    知識庫
+                  </button>
+                  <div class="collapse show" id="section-5c48be725d2b8176f1373a2d388e63b7">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/intro/">如何加入知識</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/csv-upload/">上傳試算表</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/multimedia-upload/">上傳影片/音頻檔案</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/template-upload/">上傳模板文件</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/document-upload/">上傳文件</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-urls/">匯入網址</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-sitemaps/">匯入站點地圖</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/manual-entry/">手動輸入</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/">新增URL按鈕到知識庫回應</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/file-size-rule/">檔案大小規則</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-26ce7c7bbd4c7e917264d6b05314de4a" aria-expanded="true">
+                              其他設置
+                            </button>
+                            <div class="collapse show" id="section-26ce7c7bbd4c7e917264d6b05314de4a">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/additional-features-in-kb/">知識庫中的額外功能</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-965cc8bb1833784429f1a0711dabf9ab" aria-expanded="true">
+                    頻道
+                  </button>
+                  <div class="collapse show" id="section-965cc8bb1833784429f1a0711dabf9ab">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/">WhatsApp</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/">LINE官方帳號</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/">Messenger嵌入式登錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/voicebot/">電話</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-webhook/">Messenger (不推薦使用)</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram/">Instagram 登錄使用</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram-webhook/">Instagram (不推薦使用)</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/">網頁機器人</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-7204a3cfec9c67f0454b9681c22f1025" aria-expanded="true">
+                    第三方整合
+                  </button>
+                  <div class="collapse show" id="section-7204a3cfec9c67f0454b9681c22f1025">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/">Google Calendar</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/shopify/">Shopify</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/manual/integrations/squarespace/">Squarespace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/wix/">Wix</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/">MailerLite</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/">Wordpress</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-sms-phone-calls/">SeaX 與 SMS &amp; 語音通話整合</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-whatsapp/">SeaX 與 WhatsApp 整合</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seachat-prefill-contact-forms/">以程式設計方式在 WebChat 中預先填寫聯絡表格</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-f88a2f0f0fa93109510d80e84df4690f" aria-expanded="true">
+                    如何測試和改善
+                  </button>
+                  <div class="collapse show" id="section-f88a2f0f0fa93109510d80e84df4690f">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/">如何測試和改善回答品質</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">連上 SeaChat 後 - 成功營運的 SOP</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">評估：透過測試集增強 AI智能助理響應準確性</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e00ab192989e9aac9252ca5a25a22c16" aria-expanded="true">
+                    自動化
+                  </button>
+                  <div class="collapse show" id="section-e00ab192989e9aac9252ca5a25a22c16">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/custom-gpt-tool/">客制GPT工具</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/automation/auto-labeling/">自動標記</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/automation/label-automation/">標籤自動化</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/zendesk-ticket-search/">Zendesk 工單搜尋工具</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-03a21915504df93cf5dba0636080f62e" aria-expanded="true">
+                    Workspace
+                  </button>
+                  <div class="collapse show" id="section-03a21915504df93cf5dba0636080f62e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/workspace/workspace-management/">工作區管理</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/">設定SeaChat語言和外觀</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-7067cf79fc672df9e0ad2458e567a302" aria-expanded="true">
+          來電語音助理
+        </button>
+        <div class="collapse show" id="section-7067cf79fc672df9e0ad2458e567a302">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/tutorial/">來電轉接</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-da4f8e5fcfa0196ef988e2dd287e475a" aria-expanded="true">
+                    來電轉接設定
+                  </button>
+                  <div class="collapse show" id="section-da4f8e5fcfa0196ef988e2dd287e475a">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">Android/ iPhone</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/business/">商業來電 - US, VoIP, Taiwan, Singapore</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-f04df8207dc030fba2fb26a7cd5076a2" aria-expanded="true">
+          方案與服務
+        </button>
+        <div class="collapse show" id="section-f04df8207dc030fba2fb26a7cd5076a2">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-payments/pricing-plans/">定價方案</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/billing-subs/">方案與帳務</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-add7960b6bdb8c02cacee7f5bff59b42" aria-expanded="true">
+          SeaChat 功能發布和修復
+        </button>
+        <div class="collapse show" id="section-add7960b6bdb8c02cacee7f5bff59b42">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/product-updates/">SeaChat 版本發布資訊</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-536240686280d897ad3e47dd40a3af70" aria-expanded="true">
+          資源
+        </button>
+        <div class="collapse show" id="section-536240686280d897ad3e47dd40a3af70">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/">提示指令範例</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-api/">SeaChat API</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-faq/">SeaChat 常見問題</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+    <div class="wrap container-xxl" role="document">      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-c46d213ca01afa28f2fd64261e25a08d" aria-expanded="true">
+          新手上路
+        </button>
+        <div class="collapse show" id="section-c46d213ca01afa28f2fd64261e25a08d">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/">簡介</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/getting-started/02-quick-start/">快速入門</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/getting-started/free-agent-mode/">免費真人客服模式</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bb2c7b47de3835ea154a6ebd155c35ad" aria-expanded="true">
+          SeaChat 說明書
+        </button>
+        <div class="collapse show" id="section-bb2c7b47de3835ea154a6ebd155c35ad">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e9a72b8ebf3477710723c9145a147dc8" aria-expanded="true">
+                    創建AI助理
+                  </button>
+                  <div class="collapse show" id="section-e9a72b8ebf3477710723c9145a147dc8">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/">建立新助理</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/agent-information/">AI助理資訊</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/live-agent-transfer/">真人客服</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/version-control/">助理版本控制</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/conversation/">助理對話</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/analytics/">數據分析</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-2774204a84df7c6ffd6cf1ba3e821ee5" aria-expanded="true">
+                              進階設置
+                            </button>
+                            <div class="collapse show" id="section-2774204a84df7c6ffd6cf1ba3e821ee5">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/">檢索增強生成 (RAG)</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/context-extraction/">上下文抽取</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/">時間意識與上下文</a></li>
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/kb-references/">在聊天中啟用引用</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-5c48be725d2b8176f1373a2d388e63b7" aria-expanded="true">
+                    知識庫
+                  </button>
+                  <div class="collapse show" id="section-5c48be725d2b8176f1373a2d388e63b7">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/intro/">如何加入知識</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/csv-upload/">上傳試算表</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/multimedia-upload/">上傳影片/音頻檔案</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/template-upload/">上傳模板文件</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/document-upload/">上傳文件</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-urls/">匯入網址</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/import-sitemaps/">匯入站點地圖</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/manual-entry/">手動輸入</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/">新增URL按鈕到知識庫回應</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/file-size-rule/">檔案大小規則</a></li>
+                        
+                      
+                        
+                          
+                          <li class="my-1 ms-3">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-26ce7c7bbd4c7e917264d6b05314de4a" aria-expanded="true">
+                              其他設置
+                            </button>
+                            <div class="collapse show" id="section-26ce7c7bbd4c7e917264d6b05314de4a">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                
+                                  
+                                  <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/additional-features-in-kb/">知識庫中的額外功能</a></li>
+                                
+                              </ul>
+                            </div>
+                          </li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-965cc8bb1833784429f1a0711dabf9ab" aria-expanded="true">
+                    頻道
+                  </button>
+                  <div class="collapse show" id="section-965cc8bb1833784429f1a0711dabf9ab">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/whatsapp/">WhatsApp</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/install-to-line/">LINE官方帳號</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger/">Messenger嵌入式登錄</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/voicebot/">電話</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/facebook-messenger-webhook/">Messenger (不推薦使用)</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram/">Instagram 登錄使用</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/instagram-webhook/">Instagram (不推薦使用)</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/">網頁機器人</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-7204a3cfec9c67f0454b9681c22f1025" aria-expanded="true">
+                    第三方整合
+                  </button>
+                  <div class="collapse show" id="section-7204a3cfec9c67f0454b9681c22f1025">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/05-integrations/01-seachat-google-calendar-integration/">Google Calendar</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/shopify/">Shopify</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/manual/integrations/squarespace/">Squarespace</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/wix/">Wix</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/">MailerLite</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/">Wordpress</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-sms-phone-calls/">SeaX 與 SMS &amp; 語音通話整合</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-whatsapp/">SeaX 與 WhatsApp 整合</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/integrations/seachat-prefill-contact-forms/">以程式設計方式在 WebChat 中預先填寫聯絡表格</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-f88a2f0f0fa93109510d80e84df4690f" aria-expanded="true">
+                    如何測試和改善
+                  </button>
+                  <div class="collapse show" id="section-f88a2f0f0fa93109510d80e84df4690f">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/improve-agent/">如何測試和改善回答品質</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/post-launch-sop/">連上 SeaChat 後 - 成功營運的 SOP</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-test-and-improve-ai-agent/evaluation/">評估：透過測試集增強 AI智能助理響應準確性</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e00ab192989e9aac9252ca5a25a22c16" aria-expanded="true">
+                    自動化
+                  </button>
+                  <div class="collapse show" id="section-e00ab192989e9aac9252ca5a25a22c16">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/custom-gpt-tool/">客制GPT工具</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/automation/auto-labeling/">自動標記</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/manual/automation/label-automation/">標籤自動化</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/automation/zendesk-ticket-search/">Zendesk 工單搜尋工具</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-03a21915504df93cf5dba0636080f62e" aria-expanded="true">
+                    Workspace
+                  </button>
+                  <div class="collapse show" id="section-03a21915504df93cf5dba0636080f62e">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/workspace/workspace-management/">工作區管理</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-manual/07-appearance-setting/">設定SeaChat語言和外觀</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-7067cf79fc672df9e0ad2458e567a302" aria-expanded="true">
+          來電語音助理
+        </button>
+        <div class="collapse show" id="section-7067cf79fc672df9e0ad2458e567a302">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/tutorial/">來電轉接</a></li>
+              
+            
+              
+                
+                <li class="my-1 ms-3">
+                  <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-da4f8e5fcfa0196ef988e2dd287e475a" aria-expanded="true">
+                    來電轉接設定
+                  </button>
+                  <div class="collapse show" id="section-da4f8e5fcfa0196ef988e2dd287e475a">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/android-and-iphone/">Android/ iPhone</a></li>
+                        
+                      
+                        
+                          
+                          <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/inbound-voice-agent/call-forwarding-setup/business/">商業來電 - US, VoIP, Taiwan, Singapore</a></li>
+                        
+                      
+                    </ul>
+                  </div>
+                </li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-f04df8207dc030fba2fb26a7cd5076a2" aria-expanded="true">
+          方案與服務
+        </button>
+        <div class="collapse show" id="section-f04df8207dc030fba2fb26a7cd5076a2">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-payments/pricing-plans/">定價方案</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/billing-subs/">方案與帳務</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-add7960b6bdb8c02cacee7f5bff59b42" aria-expanded="true">
+          SeaChat 功能發布和修復
+        </button>
+        <div class="collapse show" id="section-add7960b6bdb8c02cacee7f5bff59b42">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/product-updates/">SeaChat 版本發布資訊</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-536240686280d897ad3e47dd40a3af70" aria-expanded="true">
+          資源
+        </button>
+        <div class="collapse show" id="section-536240686280d897ad3e47dd40a3af70">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/prompt-examples/">提示指令範例</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-api/">SeaChat API</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seachat/seachat-resources/seachat-faq/">SeaChat 常見問題</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#步驟-1建立-seachat-帳戶">步驟 1：建立 SeaChat 帳戶</a></li>
+    <li><a href="#步驟-2開啟integrations">步驟 2：開啟「Integrations」</a></li>
+    <li><a href="#步驟-3選擇api">步驟 3：選擇「API」</a></li>
+    <li><a href="#步驟-4產生新金鑰">步驟 4：產生新金鑰</a></li>
+    <li><a href="#步驟-5複製-api-金鑰">步驟 5：複製 API 金鑰</a></li>
+    <li><a href="#步驟-6選填查找-group-id">步驟 6：（選填）查找 Group ID</a>
+      <ul>
+        <li><a href="#支援">支援</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>MailerLite</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#步驟-1建立-seachat-帳戶">步驟 1：建立 SeaChat 帳戶</a></li>
+    <li><a href="#步驟-2開啟integrations">步驟 2：開啟「Integrations」</a></li>
+    <li><a href="#步驟-3選擇api">步驟 3：選擇「API」</a></li>
+    <li><a href="#步驟-4產生新金鑰">步驟 4：產生新金鑰</a></li>
+    <li><a href="#步驟-5複製-api-金鑰">步驟 5：複製 API 金鑰</a></li>
+    <li><a href="#步驟-6選填查找-group-id">步驟 6：（選填）查找 Group ID</a>
+      <ul>
+        <li><a href="#支援">支援</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+			</nav>
+			<p>本頁將詳細說明如何將 MailerLite 與 SeaChat 整合。完成整合後，您可以利用 SeaChat 表單自動收集客戶信箱與資訊，並自動加入 <a href="https://www.mailerlite.com/">MailerLite</a> 郵件名單。</p>
+<p>如需視覺化教學，請參考下方影片：<br/></p>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/xTnJ9L1sVC4?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<hr>
+<h2 id="步驟-1建立-seachat-帳戶">步驟 1：建立 SeaChat 帳戶 <a href="#%e6%ad%a5%e9%a9%9f-1%e5%bb%ba%e7%ab%8b-seachat-%e5%b8%b3%e6%88%b6" class="anchor" aria-hidden="true">#</a></h2>
+<p>如果您尚未擁有 SeaChat 帳戶，可前往 <a href="https://chat.seasalt.ai/">SeaChat 網站</a> 免費註冊！註冊後即可建立 AI 助理並整合 MailerLite。</p>
+<h2 id="步驟-2開啟integrations">步驟 2：開啟「Integrations」 <a href="#%e6%ad%a5%e9%a9%9f-2%e9%96%8b%e5%95%9fintegrations" class="anchor" aria-hidden="true">#</a></h2>
+<p>進入 MailerLite 後台，於左側選單點選「Integrations」。</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 50%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/add-mailerlite-integrations.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/add-mailerlite-integrations.png" alt="前往 Mailerlite 後台並點選 Integrations。">
+</a>
+</div>
+</div>
+<h2 id="步驟-3選擇api">步驟 3：選擇「API」 <a href="#%e6%ad%a5%e9%a9%9f-3%e9%81%b8%e6%93%87api" class="anchor" aria-hidden="true">#</a></h2>
+<p>點擊「Use」選擇「API」。</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/select-mailerlite-api.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/select-mailerlite-api.png" alt="在 MailerLite 選擇 API">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">在 MailerLite 產生新金鑰
+</div>
+</div>
+<h2 id="步驟-4產生新金鑰">步驟 4：產生新金鑰 <a href="#%e6%ad%a5%e9%a9%9f-4%e7%94%a2%e7%94%9f%e6%96%b0%e9%87%91%e9%91%b0" class="anchor" aria-hidden="true">#</a></h2>
+<p>點擊「Generate new token」。為此 API 金鑰命名，並同意 API 金鑰規範後，點擊「Create token」。</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/generate-new-token-mailerlite.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/generate-new-token-mailerlite.png" alt="在 MailerLite 產生新金鑰">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">在 MailerLite 產生新金鑰
+</div>
+</div>
+<br>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 60%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/give-api-token-name-mailerlite.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/give-api-token-name-mailerlite.png" alt="為新金鑰命名">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">為新金鑰命名
+</div>
+</div>
+<h2 id="步驟-5複製-api-金鑰">步驟 5：複製 API 金鑰 <a href="#%e6%ad%a5%e9%a9%9f-5%e8%a4%87%e8%a3%bd-api-%e9%87%91%e9%91%b0" class="anchor" aria-hidden="true">#</a></h2>
+<p>請妥善保存您的 API 金鑰，然後回到 SeaChat 的 MailerLite 整合頁面完成整合。</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/copy-and-save-mailerlite-api-key.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/copy-and-save-mailerlite-api-key.png" alt="複製並保存 MailerLite API 金鑰">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">複製並保存 MailerLite API 金鑰
+</div>
+</div>
+<h2 id="步驟-6選填查找-group-id">步驟 6：（選填）查找 Group ID <a href="#%e6%ad%a5%e9%a9%9f-6%e9%81%b8%e5%a1%ab%e6%9f%a5%e6%89%be-group-id" class="anchor" aria-hidden="true">#</a></h2>
+<p>若您希望將聯絡人加入特定 MailerLite 群組，可於「Developer API」頁面底部查詢所有 Group ID。提示：可將聯絡人加入多個群組。</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+  <a href="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/get-mailerlite-group-id.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="https://wiki.seasalt.ai/images/seachat-integrations/mailerlite/get-mailerlite-group-id.png" alt="查找 MailerLite 群組 ID">
+</a>
+    <p style="margin-top: 20px; font-size: 15px">查找 MailerLite 群組 ID
+</div>
+</div>
+<h3 id="支援">支援 <a href="#%e6%94%af%e6%8f%b4" class="anchor" aria-hidden="true">#</a></h3>
+<p>需要協助？請聯絡 <a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>。</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="https://wiki.seasalt.ai/zh/seachat/integrations/wix/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; Wix
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					Wordpress &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <p style="text-align: center;">Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p>
+  
+
+
+  
+    <script src="https://wiki.seasalt.ai/js/custom.js"></script>
+  
+    <script src="https://wiki.seasalt.ai/js/widget.js"></script>
+  
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+</footer>
+    <script src="https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js" integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp&#43;dznJkhQ2nKWFuqYPz9DUA==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js" integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V&#43;Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296&#43;Tx1MwY25qTpslERKCPKSQ==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js" integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin="anonymous" defer></script>
+  
+
+
+
+    <button id="sui-widget-btn" class=""></button>
+    <button id="sui-webchat-btn"></button>
+    <iframe id="sui-webchat" src=https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93></iframe>
+    <button id="sui-Line-btn" class="chat-button"></button>
+    <button id="sui-Instagram-btn" class="chat-button"></button>
+    <button id="sui-Messenger-btn" class="chat-button"></button>
+    <button id="sui-WhatsApp-btn" class="chat-button"></button>
+    <button id="sui-Voice-btn" class="chat-button"></button>
+    
+    <div id="sui-widget-tooltip">
+        <div id="sui-widget-tooltip-msg">Any questions? We follow up with every message.</div>
+        <div id="sui-widget-tooltip-close"></div>
+    </div>
+    
+    <noscript>
+      Powered by 
+      <a href="https://chat.seasalt.ai">SeaChat</a> from
+      <a href="https://seasalt.ai" target="_blank">Seasalt.ai</a>.
+    </noscript>
+    <style>
+      #sui-Voice-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 358px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-voice.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-Instagram-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 290px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-instagram.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-Messenger-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 154px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-facebook.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-Line-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 86px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-line.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-WhatsApp-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 222px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-whatsapp.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-webchat-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        bottom: 16px;
+        right: 16px;
+        padding: 0;
+        font-size: 0;
+        color: transparent;
+        background: 50%/24px no-repeat
+          url(https://chat.seasalt.ai/api/v1/conversations/async/config/9e4cef8823b94d019b954db6f4328a93/webchat_widget_icon?1747424676963) #19b9c3;
+        background-size: cover;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        z-index: 9999;
+        cursor: pointer;
+      }
+      #sui-webchat-btn.close{
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg);
+        background-size: cover;
+        display: block;
+      }
+      #sui-widget-btn {
+        position: fixed;
+        display: none;
+        width: 56px;
+        height: 56px;
+        bottom: 20px;
+        right: 16px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-widget.svg);
+        background-size: cover;
+        z-index: 9997;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        cursor: pointer;
+      }
+      #sui-widget-btn.close{
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg);
+        background-size: cover;
+           display: block;
+      }
+      #sui-webchat {
+        position: fixed;
+        display: none;
+        width: 30%;
+        min-width: 280px;
+        height: 500px;
+        bottom: 80px;
+        right: 80px;
+        margin-top: 24px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+        z-index: 9998;
+      }
+      #sui-call-form{
+        position: fixed;
+        display: none;
+        bottom: 358px;
+        right: 80px;
+        margin-top: 24px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+        background:#fff;
+        z-index: 9998;
+      }
+      @media only screen and (max-width: 460px) {
+        #sui-widget-btn {
+          display: block;
+        }
+        #sui-webchat {     
+          right: 50%;  
+          transform: translate(50%, -12%);
+          bottom: 20px;
+        }
+        #sui-webchat-btn {
+            display: none;
+            bottom: 88px;
+        }
+        #sui-webchat-btn.show {
+            display: block;
+        }
+        #sui-webchat-btn.show-iframe {
+          display: block;
+          bottom: 20px;
+          z-index: 9998;
+        }
+        #sui-call-form {     
+          right: 50%;  
+          transform: translate(50%, -12%);
+          bottom: 20px;
+        }
+        #sui-Line-btn {
+            display: none;
+            bottom:156px;
+        }
+        #sui-Line-btn.show {
+            display: block;
+        }
+        #sui-Line-btn.show.show-iframe {
+            display: none;
+            
+        }
+        #sui-WhatsApp-btn {
+            display: none;
+            bottom:292px;
+        }
+        #sui-WhatsApp-btn.show {
+            display: block;
+          
+        }
+        #sui-WhatsApp-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Messenger-btn {
+            display: none;
+            bottom:224px;
+        }
+        #sui-Messenger-btn.show {
+            display: block;
+        }
+        #sui-Messenger-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Instagram-btn {
+            display: none;
+            bottom:360px;
+        }
+        #sui-Instagram-btn.show {
+            display: block;
+        }
+        #sui-Instagram-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Voice-btn {
+            display: none;
+            bottom:428px;
+        }
+        #sui-Voice-btn.show {
+            display: block;
+        }
+        #sui-Voice-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Voice-btn.show.show-call-form{
+            bottom: 20px;
+            z-index: 9998;
+        }
+      }
+      
+        #sui-widget-tooltip {
+          position: fixed;
+          bottom: 16px;
+          right: 80px;
+          background-color: #FFFFFF;
+          color: #000000;
+          font-size: 14px;
+          line-height: 22px;
+          border-radius: 16px;
+          padding: 12px 16px;
+          box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
+          max-width: 200px;
+          z-index: 3;
+        }
+        #sui-widget-tooltip-msg {
+          white-space: pre-wrap;
+        }
+        #sui-widget-tooltip-close {
+          width: 20px;
+          height: 20px;
+          background-color: #656565;
+          border-radius: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: -8px;
+          left: -8px;      
+          cursor: pointer;
+          z-index: 3;
+        }
+        #sui-widget-tooltip-close::after {
+          content: '×';
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          line-height: 18px;
+        }
+        @media only screen and (max-width: 460px) {
+          #sui-widget-tooltip {
+            bottom: 20px;
+          }
+        }
+        
+    </style>
+    <script>
+      function initSeaChat() {
+        var showWebChat = false;
+        var isMobile = window.innerWidth <= 460;
+        var callFormUrl = "";
+        function calc() {
+          var buttons = document.querySelectorAll('.chat-button');
+          buttons.forEach(function(button, index) {
+            var baseOffset;
+            if (isMobile) {
+              baseOffset = 88;
+            } else{
+              baseOffset = 20;
+            }
+            var increment = 68;
+            button.style.bottom = baseOffset + (index + 1) * increment + 'px';
+          }); 
+        }
+        calc();
+        handleSingleButtonDisplay();
+        function updateButtonClasses() {
+          document.querySelectorAll('.chat-button').forEach(function(button) {
+            button.className = 'chat-button';
+            if (showWebChat) {
+              button.classList.add('show-iframe');
+            } else if (isMobile) {
+                button.classList.add('show');
+            }
+          });
+          calc();
+          var button = document.querySelector('#sui-webchat-btn');
+          button.className = '';
+            if (showWebChat) {
+              button.classList.add('show-iframe');
+              button.classList.add('close');
+            } else if (isMobile) {
+                button.classList.add('show');
+            }
+        }
+        function handleSingleButtonDisplay() {
+            var webchatButton = document.querySelector("#sui-webchat-btn");
+            var chatButtons = Array.prototype.slice.call(document.querySelectorAll(".chat-button"));
+            var allButtons = [webchatButton].concat(chatButtons);
+            var widgetButton = document.querySelector("#sui-widget-btn");
+    
+            if (window.innerWidth <= 460 && allButtons.length === 1) {
+                widgetButton.style.display = "none";
+                allButtons[0].style.display = "block";
+                allButtons[0].style.bottom = "20px";
+            }
+        }
+        function handleResize() {
+          var currentIsMobile = window.innerWidth <= 460;
+          if (currentIsMobile !== isMobile) {
+            isMobile = currentIsMobile;
+            widgetButton.classList.remove('close');
+            assignClickHandlers();
+            calc(); 
+          }
+          handleSingleButtonDisplay();
+        }
+        window.addEventListener('resize', handleResize);
+        var button = document.querySelector('#sui-webchat-btn');
+        var iframe = document.querySelector('#sui-webchat');
+        var callFormButton = document.querySelector('#sui-voice-btn');
+        var handleClick = function() {
+          if (iframe.src !== "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93") {
+            iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
+          }
+          if (iframe.style.display !== 'block') {
+            iframe.style.display = 'block';
+            button.classList.add('close');
+          } else {
+            iframe.style.display = 'none';
+            button.classList.remove('close');
+          }
+          showWebChat = !showWebChat;
+          updateButtonClasses();
+        };
+        function assignClickHandlers() {
+          if(callFormButton && callFormUrl){
+            callFormButton.addEventListener('click', function() {
+              window.location.href = callFormUrl;
+            });
+          }
+          button.addEventListener('click', handleClick);
+        }
+        assignClickHandlers();
+        var widgetButton = document.querySelector('#sui-widget-btn');
+        widgetButton.addEventListener('click', function() {
+          isMobile = !isMobile;
+          calc();
+          widgetButton.classList.toggle('close', isMobile);
+          updateButtonClasses();
+        });
+    
+        document.querySelectorAll('button[id^="sui-"]').forEach(function(button, index) {
+          var card = [{"id":"57cd3b97-f606-44ba-ba4f-9f8bdcfaddff","channel_type":"Line","channel_url":"https://lin.ee/fFNydh0a"},{"id":"2285fc57-0069-407c-b391-2ad3746f07b8","channel_type":"Instagram","channel_url":"https://www.instagram.com/seasalt.ai/"},{"id":"25946b1a-79a2-47ce-b08b-4c9d5154a15a","channel_type":"Messenger","channel_url":"https://mobile.facebook.com/profile.php?id=106953261045343"},{"id":"2e63b903-141e-4a47-acb7-0a191b18d725","channel_type":"WhatsApp","channel_url":"https://api.whatsapp.com/send/?phone=%2B14252987474&amp;text&amp;type=phone_number&amp;app_absent=0"},{"id":"f3040b06-34dc-47c5-bfb3-8cbf9c9022d3","channel_type":"Voice","channel_url":"<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSe1Z3Yq1u4w-eMZvCYdLoexkFRiJNirN7Ksr6I_et15DJBobA/viewform?embedded=true\" width=\"600\" height=\"500\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>"}].find(function(c) {button.id === 'sui-' + c.channel_type + '-btn'});
+          if (card) {
+            button.addEventListener('click', function() {
+              if (card.channel_url.startsWith('<iframe')) {
+                handleCallForm(card);
+            } else {
+              window.open(card.channel_url, '_blank');
+            }
+            });
+          }
+        });
+    
+        function handleCallForm(card) {
+          var voiceButton = document.querySelector('#sui-Voice-btn');
+          if (!voiceButton){
+            return;
+          }
+          var iframeContainer = document.querySelector('#sui-call-form');
+          if (!iframeContainer) {
+            iframeContainer = document.createElement('div');
+            iframeContainer.id = 'sui-call-form';
+          }
+          var srcMatch = card.channel_url.match(/<iframe.*?src="(.*?)"/);
+          var src = srcMatch ? srcMatch[1] : null;
+          if (src) {
+            iframeContainer.innerHTML = card.channel_url;
+            document.body.appendChild(iframeContainer);
+            callFormUrl = src;
+            var buttonBottom = getComputedStyle(voiceButton).bottom;
+            iframeContainer.style.bottom = buttonBottom;
+            iframeContainer.style.display =
+            iframeContainer.style.display === 'block' ? 'none' : 'block';
+          } else{
+            window.open(card.channel_url, '_blank');
+          }
+        }
+        
+        const handleTooltipClose = () => {
+          const tooltipElement = document.querySelector('#sui-widget-tooltip');
+          tooltipElement.style.display = 'none';
+        }
+        const tooltipCloseButton = document.querySelector('#sui-widget-tooltip-close');
+        tooltipCloseButton.addEventListener('click', handleTooltipClose);
+        const handleAutoCloseTooltip = () => {
+            const closeMilliseconds =
+              Number(2) * 1000;
+            setTimeout(() => {
+              handleTooltipClose();
+            }, closeMilliseconds);
+          }      
+          handleAutoCloseTooltip()
+          
+      }
+      if (document.readyState !== 'loading') {
+        initSeaChat();
+      } else {
+        document.addEventListener('DOMContentLoaded', function () {
+          initSeaChat();
+        });
+      }
+    </script>
+    
+  </body>
+</html>

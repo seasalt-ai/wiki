@@ -85,6 +85,21 @@
     </item>
     
     <item>
+      <title>MailerLite</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/</link>
+      <pubDate>Tue, 23 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/mailerlite/</guid>
+      <description>本頁將詳細說明如何將 MailerLite 與 SeaChat 整合。完成整合後，您可以利用 SeaChat 表單自動收集客戶信箱與資訊，並自動加入 MailerLite 郵件名單。
+如需視覺化教學，請參考下方影片：
+  步驟 1：建立 SeaChat 帳戶 # 如果您尚未擁有 SeaChat 帳戶，可前往 SeaChat 網站 免費註冊！註冊後即可建立 AI 助理並整合 MailerLite。
+步驟 2：開啟「Integrations」 # 進入 MailerLite 後台，於左側選單點選「Integrations」。
+   步驟 3：選擇「API」 # 點擊「Use」選擇「API」。
+ 在 MailerLite 產生新金鑰   步驟 4：產生新金鑰 # 點擊「Generate new token」。為此 API 金鑰命名，並同意 API 金鑰規範後，點擊「Create token」。
+ 在 MailerLite 產生新金鑰    為新金鑰命名   步驟 5：複製 API 金鑰 # 請妥善保存您的 API 金鑰，然後回到 SeaChat 的 MailerLite 整合頁面完成整合。</description>
+    </item>
+    
+    <item>
       <title>Wordpress</title>
       <link>https://wiki.seasalt.ai/zh/seachat/integrations/wordpress/</link>
       <pubDate>Mon, 20 May 2024 08:48:57 +0000</pubDate>
@@ -102,6 +117,34 @@
 🔍 原因 # 某些最佳化外掛可能會延遲或移除關鍵 CSS，這可能影響 SeaChat 小工具的呈現方式，導致以下問題：
  小工具無法顯示在您的網站上。 聊天小工具出現異常的 UI 問題。  🛠️ 修復方法 # 如果您啟用了效能最佳化外掛，請按照以下步驟操作：
  檢查您的外掛設定是否包含 「消除 Render-Blocking CSS」 或 「最佳化 CSS 傳遞」 選項。 停用此特定最佳化設定，以防影響聊天小工具的正常運作。 清除快取並重新載入您的網站，以確保聊天小工具能夠正確運作。  外掛示例: WP Rocket # 我們以 WP Rocket 這款廣泛使用的網站效能最佳化外掛為例。在 「檔案最佳化」（File Optimization）標籤下，請勿勾選 「最佳化 CSS 傳遞」（Optimize CSS Delivery）選項，以確保 SeaChat 網頁聊天小工具能順利載入。</description>
+    </item>
+    
+    <item>
+      <title>SeaX 與 SMS &amp; 語音通話整合</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-sms-phone-calls/</link>
+      <pubDate>Tue, 16 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-sms-phone-calls/</guid>
+      <description>概述 # 本教學將帶您完成在 SeaChat 中設置 Seasalt 大量訊息平台 SeaX 的流程。SeaX 是一個強大的全通路平台，讓您能在單一介面管理所有業務通路。
+更多資訊請參閱 SeaX 文件。
+整合 SeaX 至 SeaChat 後，您不僅能手動管理客戶對話，還能讓 SeaChat AI 智能客服自動回覆。SeaX 整合所有業務通路（如 WhatsApp、電話、SMS），並將這些通路導向 SeaChat 進行 AI 驅動的回應。
+SeaX 大量通話/發送 # SeaX 為您的 AI 智能客服提供與客戶溝通的通道。完成與 SeaChat 的整合後，您即可透過 SeaX 向客戶發送大量訊息。
+SeaChat 與 SeaX 無縫協作執行大量訊息發送。SeaX 會依序撥打名單上的每位客戶（約每秒一通）。當客戶接聽後，AI 智能客服會接手對話，您只需前往 Conversations 儀表板查看對話內容。
+SeaChat 並不知曉您撥打的客戶名單，也無法主動發起通話。SeaChat 僅在對話啟動後負責對話內容；SeaX 則負責發起通話與發送訊息。
+您可建立 活動（Campaigns），向客戶發送 SMS 或語音留言。這些活動將透過 SeaX 發送，並由 SeaChat 上的專屬 AI 智能客服處理後續對話。
+外撥通話活動 #   外撥/來電整合
+  外撥通話是主動聯繫客戶的有效方式。透過 SeaX，您可自動化這些通話。
+ 語言選擇：選擇語言及對應模型。建議使用 SeaVoice，穩定且適合正式環境。 語音選擇：選擇偏好的語音，並可點擊播放鍵預聽。 外撥開場訊息：當客戶接聽時，將播放此訊息，AI 智能客服隨後接手對話。您可於 Conversations 儀表板查看對話內容。  來電整合 # 來電是提供客戶服務的可靠方式。AI 智能客服可接聽來電並擔任語音接待員。</description>
+    </item>
+    
+    <item>
+      <title>SeaX 與 WhatsApp 整合</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-whatsapp/</link>
+      <pubDate>Wed, 11 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-whatsapp/</guid>
+      <description>概述 # SeaX 讓企業能夠高效發送 WhatsApp 大量訊息，並管理大規模客戶互動活動。當與 SeaChat 整合後，SeaX 不僅可進行大規模外發訊息，還能利用 AI 自動回覆客戶來訊。此整合同時優化外發活動與來訊支援，特別適合處理高訊息量或希望自動化客戶互動的組織。
+🎥 教學影片 #   主要功能 #  WhatsApp 大量訊息發送： 直接從 SeaX 向大量 WhatsApp 聯絡人發送廣播訊息。 AI 自動回覆： SeaChat 可自動接手來訊，利用先進語言模型自動回覆。 真人客服接管： 隨時可在 AI 與真人客服間切換，提供個人化支援。 統一管理： 於單一 SeaX 介面管理多個 WhatsApp 商業帳號與活動。 合規性： 確保所有收件人均已同意接收 WhatsApp 訊息，符合 WhatsApp 政策。   先決條件 #  具備 API 權限的 WhatsApp 商業帳號。 SeaX 與 SeaChat 帳號。 具備 Meta Business Suite 管理員權限以整合 WhatsApp。   步驟說明 # 1.</description>
     </item>
     
     <item>
