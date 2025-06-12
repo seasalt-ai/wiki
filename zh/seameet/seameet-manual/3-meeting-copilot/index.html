@@ -52,7 +52,7 @@
 <meta property="og:description" content="SeaMeet 會議助理">
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/">
 <meta property="og:site_name" content="Seasalt.ai">
-<meta property="og:updated_time" content="2025-06-12T13:38:17-07:00">
+<meta property="og:updated_time" content="2025-06-12T14:56:45-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -117,7 +117,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-06-10T08:48:45CET",
-      "dateModified": "2025-06-12T13:38:17CET",
+      "dateModified": "2025-06-12T14:56:45CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seameet/seameet-manual/3-meeting-copilot/#/schema/breadcrumb/1"
       },
@@ -856,6 +856,7 @@
 
 
 
+        
     <button id="sui-widget-btn" class=""></button>
     <button id="sui-webchat-btn"></button>
     <iframe id="sui-webchat" src=https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93></iframe>
@@ -864,12 +865,12 @@
     <button id="sui-Messenger-btn" class="chat-button"></button>
     <button id="sui-WhatsApp-btn" class="chat-button"></button>
     <button id="sui-Voice-btn" class="chat-button"></button>
-    
+
     <div id="sui-widget-tooltip">
         <div id="sui-widget-tooltip-msg">Any questions? We follow up with every message.</div>
         <div id="sui-widget-tooltip-close"></div>
     </div>
-    
+
     <noscript>
       Powered by 
       <a href="https://chat.seasalt.ai">SeaChat</a> from
@@ -967,7 +968,7 @@
         font-size: 0;
         color: transparent;
         background: 50%/24px no-repeat
-          url(https://chat.seasalt.ai/api/v1/conversations/async/config/9e4cef8823b94d019b954db6f4328a93/webchat_widget_icon?1747424676963) #19b9c3;
+          url(https://chat.seasalt.ai/api/v1/conversations/async/config/9e4cef8823b94d019b954db6f4328a93/webchat_widget_icon?1749761608155) #19b9c3;
         background-size: cover;
         border: none;
         border-radius: 50%;
@@ -1001,7 +1002,7 @@
         background: 50%/24px no-repeat
           url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg);
         background-size: cover;
-           display: block;
+          display: block;
       }
       #sui-webchat {
         position: fixed;
@@ -1160,8 +1161,47 @@
         
     </style>
     <script>
+      var configId = "9e4cef8823b94d019b954db6f4328a93";
+      var currentConversationId = null;
+      var showWebChat = false;
+      
+      window.addEventListener("message", function (event) { 
+        if (event.data?.type === "SEACHAT_CONVERSATION_ID") {
+          currentConversationId = event.data.conversation_id;
+        }
+
+        if (event.data?.type === "CLOSE_IFRAME_AFTER_SURVEY") {
+          setTimeout(() => {
+            resetIframeToChat();
+          }, 300);
+        }
+      });
+      function tryRedirectToSurvey() {
+        var iframe = document.getElementById("sui-webchat");
+        if (iframe) {
+          if (!currentConversationId) {
+            iframe.style.display = "none";
+            return;
+          }
+
+          var surveyUrl = "https://chat.seasalt.ai/chat/survey/csat?id="+ configId + "&conversation_id=" + currentConversationId;
+          iframe.src = surveyUrl;
+          iframe.dataset.fromSurvey = "true";
+        }
+      }
+      
+      function resetIframeToChat() {
+        var iframe = document.getElementById("sui-webchat");
+        var btn = document.getElementById("sui-webchat-btn");
+        iframe.style.display = "none";
+        iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
+        btn.classList.remove("close");
+        showWebChat = false;
+        updateButtonClasses();
+      }
+        
       function initSeaChat() {
-        var showWebChat = false;
+        showWebChat = false;
         var isMobile = window.innerWidth <= 460;
         var callFormUrl = "";
         function calc() {
@@ -1203,7 +1243,7 @@
             var chatButtons = Array.prototype.slice.call(document.querySelectorAll(".chat-button"));
             var allButtons = [webchatButton].concat(chatButtons);
             var widgetButton = document.querySelector("#sui-widget-btn");
-    
+
             if (window.innerWidth <= 460 && allButtons.length === 1) {
                 widgetButton.style.display = "none";
                 allButtons[0].style.display = "block";
@@ -1223,8 +1263,23 @@
         window.addEventListener('resize', handleResize);
         var button = document.querySelector('#sui-webchat-btn');
         var iframe = document.querySelector('#sui-webchat');
-        var callFormButton = document.querySelector('#sui-voice-btn');
-        var handleClick = function() {
+        var callFormButton = document.querySelector('#sui-Voice-btn');
+
+        var handleClick = function(event) {
+          var isClosing = event.currentTarget.classList.contains("close");
+          var isVisible = iframe && iframe.style.display === "block";
+          if (iframe?.dataset.fromSurvey === "true" && isClosing && isVisible) {
+            resetIframeToChat();
+            delete iframe.dataset.fromSurvey;
+            return;
+          }
+          if (isClosing && isVisible) {
+            setTimeout(() => {
+              tryRedirectToSurvey();
+            }, 200);
+            return;
+          }
+
           if (iframe.src !== "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93") {
             iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
           }
@@ -1238,6 +1293,7 @@
           showWebChat = !showWebChat;
           updateButtonClasses();
         };
+        var widgetButton = document.querySelector('#sui-widget-btn');
         function assignClickHandlers() {
           if(callFormButton && callFormUrl){
             callFormButton.addEventListener('click', function() {
@@ -1245,18 +1301,44 @@
             });
           }
           button.addEventListener('click', handleClick);
+
+          widgetButton.addEventListener("click", function (event) {
+            var isClosing = event.currentTarget.classList.contains("close");
+            var isVisible = iframe && iframe.style.display === "block";
+
+            if (iframe?.dataset.fromSurvey === "true" && isClosing && isVisible) {
+              resetIframeToChat();
+              delete iframe.dataset.fromSurvey;
+              return;
+            }
+
+            if (isClosing && isVisible) {
+              setTimeout(() => {
+                tryRedirectToSurvey();
+              }, 500);
+              return;
+            }
+
+            if (iframe.src !== "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93") {
+              iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
+            }
+
+            iframe.style.display = "block";
+            widgetButton.classList.add("close");
+            showWebChat = true;
+            updateButtonClasses();
+          });
         }
         assignClickHandlers();
-        var widgetButton = document.querySelector('#sui-widget-btn');
         widgetButton.addEventListener('click', function() {
           isMobile = !isMobile;
           calc();
           widgetButton.classList.toggle('close', isMobile);
           updateButtonClasses();
         });
-    
+
         document.querySelectorAll('button[id^="sui-"]').forEach(function(button, index) {
-          var card = [{"id":"57cd3b97-f606-44ba-ba4f-9f8bdcfaddff","channel_type":"Line","channel_url":"https://lin.ee/fFNydh0a"},{"id":"2285fc57-0069-407c-b391-2ad3746f07b8","channel_type":"Instagram","channel_url":"https://www.instagram.com/seasalt.ai/"},{"id":"25946b1a-79a2-47ce-b08b-4c9d5154a15a","channel_type":"Messenger","channel_url":"https://mobile.facebook.com/profile.php?id=106953261045343"},{"id":"2e63b903-141e-4a47-acb7-0a191b18d725","channel_type":"WhatsApp","channel_url":"https://api.whatsapp.com/send/?phone=%2B14252987474&amp;text&amp;type=phone_number&amp;app_absent=0"},{"id":"f3040b06-34dc-47c5-bfb3-8cbf9c9022d3","channel_type":"Voice","channel_url":"<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSe1Z3Yq1u4w-eMZvCYdLoexkFRiJNirN7Ksr6I_et15DJBobA/viewform?embedded=true\" width=\"600\" height=\"500\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>"}].find(function(c) {button.id === 'sui-' + c.channel_type + '-btn'});
+          var card = [{"id":"57cd3b97-f606-44ba-ba4f-9f8bdcfaddff","channel_type":"Line","channel_url":"https://lin.ee/fFNydh0a"},{"id":"2285fc57-0069-407c-b391-2ad3746f07b8","channel_type":"Instagram","channel_url":"https://www.instagram.com/seasalt.ai/"},{"id":"25946b1a-79a2-47ce-b08b-4c9d5154a15a","channel_type":"Messenger","channel_url":"https://mobile.facebook.com/profile.php?id=106953261045343"},{"id":"2e63b903-141e-4a47-acb7-0a191b18d725","channel_type":"WhatsApp","channel_url":"https://api.whatsapp.com/send/?phone=%2B14252987474&amp;text&amp;type=phone_number&amp;app_absent=0"},{"id":"f3040b06-34dc-47c5-bfb3-8cbf9c9022d3","channel_type":"Voice","channel_url":"<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSe1Z3Yq1u4w-eMZvCYdLoexkFRiJNirN7Ksr6I_et15DJBobA/viewform?embedded=true\" width=\"600\" height=\"500\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>"}].find(function(c) {return button.id === 'sui-' + c.channel_type + '-btn'});
           if (card) {
             button.addEventListener('click', function() {
               if (card.channel_url.startsWith('<iframe')) {
@@ -1267,7 +1349,7 @@
             });
           }
         });
-    
+
         function handleCallForm(card) {
           var voiceButton = document.querySelector('#sui-Voice-btn');
           if (!voiceButton){
