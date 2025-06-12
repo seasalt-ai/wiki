@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2023-11-22T08:48:57+00:00">
-  <meta property="article:modified_time" content="2025-06-11T21:37:11-07:00">
+  <meta property="article:modified_time" content="2025-06-12T13:38:17-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2023-11-22T08:48:57CET",
-      "dateModified": "2025-06-11T21:37:11CET",
+      "dateModified": "2025-06-12T13:38:17CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/#/schema/breadcrumb/1"
       },
@@ -1366,17 +1366,188 @@
 			</nav>
 		</div>
 		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-			
+			<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-在网页上集成-seachat-小部件">🎥 在网页上集成 SeaChat 小部件</a></li>
+    <li><a href="#自定义您的公司网页小部件">自定义您的公司网页小部件</a></li>
+    <li><a href="#seachat-小部件配置">SeaChat 小部件配置</a>
+      <ul>
+        <li><a href="#基本设置和聊天设置">基本设置和聊天设置</a></li>
+        <li><a href="#卡片设置">卡片设置</a></li>
+        <li><a href="#自定义表单聊天前用户信息收集表单">自定义表单：聊天前用户信息收集表单</a></li>
+        <li><a href="#自定义表单客户满意度调查表单">自定义表单：客户满意度调查表单</a></li>
+      </ul>
+    </li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#支持">支持</a></li>
+  </ul>
+</nav>
+</div>
+
 		</nav>
 		<main class="docs-content col-lg-11 col-xl-9">
 		
 			<h1>網頁機器人</h1>
 			<p class="lead"></p>
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
-				
+				<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-在网页上集成-seachat-小部件">🎥 在网页上集成 SeaChat 小部件</a></li>
+    <li><a href="#自定义您的公司网页小部件">自定义您的公司网页小部件</a></li>
+    <li><a href="#seachat-小部件配置">SeaChat 小部件配置</a>
+      <ul>
+        <li><a href="#基本设置和聊天设置">基本设置和聊天设置</a></li>
+        <li><a href="#卡片设置">卡片设置</a></li>
+        <li><a href="#自定义表单聊天前用户信息收集表单">自定义表单：聊天前用户信息收集表单</a></li>
+        <li><a href="#自定义表单客户满意度调查表单">自定义表单：客户满意度调查表单</a></li>
+      </ul>
+    </li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#支持">支持</a></li>
+  </ul>
+</nav>
+</div>
+
 			</nav>
-			<p>Seachat能夠讓你使用同一個AI助理同時服務網站和LINE這兩個通訊方式。在<strong>安裝網頁助理</strong>的頁面你會有完整的程式碼，把它貼到你的網頁代碼就行。</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/EWCUNYeobGg?list=PL8K7_LTqly449uOg_uBWOPfFyL1fJRjkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+			<h2 id="-在网页上集成-seachat-小部件">🎥 在网页上集成 SeaChat 小部件 <a href="#-%e5%9c%a8%e7%bd%91%e9%a1%b5%e4%b8%8a%e9%9b%86%e6%88%90-seachat-%e5%b0%8f%e9%83%a8%e4%bb%b6" class="anchor" aria-hidden="true">#</a></h2>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5YCiO8GEAu0?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+<h2 id="自定义您的公司网页小部件">自定义您的公司网页小部件 <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e6%82%a8%e7%9a%84%e5%85%ac%e5%8f%b8%e7%bd%91%e9%a1%b5%e5%b0%8f%e9%83%a8%e4%bb%b6" class="anchor" aria-hidden="true">#</a></h2>
+<p>网页小部件是一个强大的工具，可让您将 SeaChat 集成到您的网站中。此功能使您能够提供实时客户支持并与网站访客互动。小部件可以根据您的品牌标识和网站设计进行定制。您还可以创建表单以收集访客信息和反馈。</p>
+<h2 id="seachat-小部件配置">SeaChat 小部件配置 <a href="#seachat-%e5%b0%8f%e9%83%a8%e4%bb%b6%e9%85%8d%e7%bd%ae" class="anchor" aria-hidden="true">#</a></h2>
+<p>SeaChat 小部件提供多种自定义选项，帮助您创建无缝的客户体验。您可以调整小部件的外观和行为以满足您的需求。</p>
+<h3 id="基本设置和聊天设置">基本设置和聊天设置 <a href="#%e5%9f%ba%e6%9c%ac%e8%ae%be%e7%bd%ae%e5%92%8c%e8%81%8a%e5%a4%a9%e8%ae%be%e7%bd%ae" class="anchor" aria-hidden="true">#</a></h3>
+<p>在这里，您可以定义小部件的名称、描述，并在 <strong>基本设置</strong> 中选择小部件的 UI 语言。向下滚动查看 <strong>聊天设置</strong>，在这里您可以定义助理在聊天中的行为。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/basic-settings.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/basic-settings.png" alt="SeaChat 的基本设置">
+</a>
+<p><em>样式的基本设置</em></p>
+</center>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/chat-settings.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/chat-settings.png" alt="SeaChat 的聊天设置">
+</a>
+<p><em>助理回答的聊天设置</em></p>
+</center>
+<br/>
+<p>每次更改后，您可以通过点击 <strong>预览</strong> 按钮在预览窗口中查看更改。一旦对更改满意，请点击 <strong>保存</strong> 按钮。</p>
+<blockquote>
+<p>⚠️ 注意</p>
+<p>请注意，只有点击 <strong>保存</strong> 按钮后更改才会保存。我们建议您点击 <strong>预览</strong> 按钮查看更改，只有在保存更改后才能点击 <strong>测试 AI 助理</strong>。</p>
+</blockquote>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/preview-widget-chat.png" target="_blank">
+<img height="100%" width="70%" style="border-radius: 5px" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/preview-widget-chat.png" alt="SeaChat 的基本设置">
+</a>
+<p><em>预览窗口</em></p>
+</center>
+<br/>
+<h3 id="卡片设置">卡片设置 <a href="#%e5%8d%a1%e7%89%87%e8%ae%be%e7%bd%ae" class="anchor" aria-hidden="true">#</a></h3>
+<p>除了完全可定制的小部件外，您还可以创建卡片向客户显示信息。卡片可用于在用户首次访问您的网站时提供信息。您还可以将链接附加到卡片上，将用户引导到特定页面。要添加更多卡片，请点击 <strong>加号</strong> 按钮。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/card-setting.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/card-setting.png" alt="SeaChat 的聊天设置">
+</a>
+<p><em>设计您的卡片</em></p>
+</center>
+<br/>
+<h3 id="自定义表单聊天前用户信息收集表单">自定义表单：聊天前用户信息收集表单 <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e8%a1%a8%e5%8d%95%e8%81%8a%e5%a4%a9%e5%89%8d%e7%94%a8%e6%88%b7%e4%bf%a1%e6%81%af%e6%94%b6%e9%9b%86%e8%a1%a8%e5%8d%95" class="anchor" aria-hidden="true">#</a></h3>
+<p>有时您可能希望收集客户信息。您可以创建自定义表单以收集信息，例如姓名、电子邮件和电话号码。这些信息可用于为客户提供个性化支持。根据您的使用场景，我们可以定义新表单并重复使用旧表单。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/custom-forms.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/custom-forms.png" alt="SeaChat 的自定义表单设置">
+</a>
+<p><em>选择或创建客户表单</em></p>
+</center>
+<br/>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/custom-forms2.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/custom-forms2.png" alt="SeaChat 的自定义表单设置">
+</a>
+<p><em>聊天开始前选择</em></p>
+</center>
+<br/>
+<p>要编辑表单，请点击 <strong>编辑</strong> 按钮后点击 <strong>⋮</strong>。您还可以通过点击 <strong>删除</strong> 按钮删除表单。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/access-edit-forms.png" target="_blank">
+<img height="100%" width="60%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/access-edit-forms.png" alt="SeaChat 的自定义表单设置">
+</a>
+<p><em>选择或创建客户表单</em></p>
+</center>
+<br/>
+<h3 id="自定义表单客户满意度调查表单">自定义表单：客户满意度调查表单 <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e8%a1%a8%e5%8d%95%e5%ae%a2%e6%88%b7%e6%bb%a1%e6%84%8f%e5%ba%a6%e8%b0%83%e6%9f%a5%e8%a1%a8%e5%8d%95" class="anchor" aria-hidden="true">#</a></h3>
+<p>现在，您可以通过客户满意度调查表单轻松收集客户反馈——就像设置用户信息收集表单一样！当访客尝试关闭 WebChat 小部件时，表单会自动弹出，允许访客留下星级评分并可选择写评论。</p>
+<p>设置步骤：</p>
+<ol>
+<li>点击添加新表单按钮并选择客户满意度调查卡片。</li>
+</ol>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/custom-forms2.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/custom-forms2.png" alt="SeaChat 的自定义表单设置">
+</a>
+<p><em>选择客户满意度调查</em></p>
+</center>
+<br/>
+<ol start="2">
+<li>配置表格</li>
+</ol>
+<ul>
+<li>打开启用开关。</li>
+<li>根据您的需求自定义字段，包括：表单名称、调查标题、调查描述，并选择启用或禁用评论框（用于书面反馈）。如果启用，您还可以自定义评论框中的占位符文本。完成后点击保存。</li>
+</ul>
+<ol start="3">
+<li>
+<p>按以下 <a href="https://wiki.seasalt.ai/zh/seachat/manual/channels/webpage/#%E5%AE%89%E8%A3%85">安装步骤</a> 将更新的小部件代码安装到您的网站。</p>
+</li>
+<li>
+<p>查看调查结果</p>
+<p>现在，当访客与您的 AI 助理聊天并点击右下角图标关闭小部件时，客户满意度调查表单会弹出。如果访客提交反馈，您可以进入 SeaChat 的会话页面，通过点击会话头像查看星级评分和评论。</p>
+</li>
+</ol>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/csat-demo.gif" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/csat-demo.gif" alt="SeaChat 的自定义表单设置">
+</a>
+<p><em>展示访客如何留下反馈</em></p>
+</center>
+<br/>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/csat-form-result.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/csat-form-result.png" alt="SeaChat 的自定义表单设置">
+</a>
+<p><em>查看客户满意度调查结果</em></p>
+</center>
+<br/>
+<h2 id="安装">安装 <a href="#%e5%ae%89%e8%a3%85" class="anchor" aria-hidden="true">#</a></h2>
+<p>现在您已经自定义了小部件，可以将其安装到您的网站。只需从 <strong>安装小部件</strong> 中复制提供的代码片段，并将其粘贴到您网站的 HTML 代码中。也就是当前 <code>&lt;body&gt;{...}&lt;/body&gt;</code> 标签的末尾。</p>
+<p>小部件将显示在您的网站上，使您能够为客户提供实时支持。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/installation-code.png" target="_blank">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/zh/channels/webpage-widget/installation-code.png" alt="SeaChat 界面指导用户安装网页小部件">
+</a>
+<p><em>遵循安装步骤</em></p>
+</center>
+<br/>
+<h2 id="支持">支持 <a href="#%e6%94%af%e6%8c%81" class="anchor" aria-hidden="true">#</a></h2>
+<p>需要帮助？请联系我们：<a href="mailto:seachat@seasalt.ai">seachat@seasalt.ai</a>。</p>
+
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
 			<div class="docs-navigation d-flex justify-content-between">
