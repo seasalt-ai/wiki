@@ -138,6 +138,25 @@ SeaChat 並不知曉您撥打的客戶名單，也無法主動發起通話。Sea
     </item>
     
     <item>
+      <title>Voice AI大規模外撥電話與自動來電處理</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-phone-calls/</link>
+      <pubDate>Thu, 12 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-phone-calls/</guid>
+      <description>概述 # SeaX 讓企業能夠利用 AI 智能客服進行大規模外撥與來電活動。整合 SeaChat 後，SeaX 不僅可自動外撥（如問卷、客戶聯繫），還能 24/7 由 AI 智能客服接聽來電。這項整合非常適合希望自動化語音互動、提升客戶參與度並確保每通來電都能被即時處理的企業。
+🎥 教學影片 # 下方影片將完整示範如何設定與使用 SeaX 電話外撥與 AI 來電處理。
+ 主要功能 # 大規模外撥電話：
+直接從 SeaX 發起數百或數千筆外撥電話活動。可用 AI 智能客服自動執行問卷、訪談或通知。
+AI 來電自動接聽：
+設定 AI 智能客服 24 小時自動接聽來電，隨時即時回覆客戶問題。
+統一管理介面：
+於單一 SeaX 介面管理所有外撥/來電活動、電話號碼與 AI 智能客服。SeaX 與 SeaChat 智能客服同步，設定更簡單。
+即時語音轉錄與摘要：
+自動將通話內容轉錄並產生摘要，方便回顧互動紀錄與萃取重點。
+先決條件 #  需有 SeaX 與 SeaChat 帳號。 至少在 SeaX 配置一組電話號碼（市話或免付費）。 具備管理員權限以設定整合與 AI 智能客服。  步驟說明 # 1. 指派並設定電話號碼 #  登入 SeaX，前往 Workspace → Numbers。 選擇或新增一組用於外撥/來電的電話號碼。 點擊該號碼的 Edit。 啟用 AI Agent to answer the phone 選項。 指派 SeaChat 工作區的 AI 智能客服來接聽來電。  2.</description>
+    </item>
+    
+    <item>
       <title>SeaX 與 WhatsApp 整合</title>
       <link>https://wiki.seasalt.ai/zh/seachat/integrations/seax-seachat-whatsapp/</link>
       <pubDate>Wed, 11 Jun 2025 08:48:57 +0000</pubDate>

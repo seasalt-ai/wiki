@@ -85,6 +85,16 @@ With SeaX integrated into SeaChat, you can not only manually manage customer con
     </item>
     
     <item>
+      <title>Bulk Outbound and Automatic Inbound Phone Calls with AI Agents</title>
+      <link>https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-phone-calls/</link>
+      <pubDate>Wed, 11 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-phone-calls/</guid>
+      <description>Overview # SeaX empowers organizations to conduct large-scale outbound and inbound phone call campaigns using AI-powered agents. When integrated with SeaChat, SeaX enables both automated outbound calls—such as surveys or customer outreach—and seamless handling of inbound calls with 24/7 AI agent support. This integration is ideal for businesses seeking to automate voice interactions, improve customer engagement, and ensure that no call goes unanswered.
+🎥 Video Tutorial # A comprehensive video tutorial demonstrates step-by-step how to set up and use SeaX with phone calls, including both outbound campaigns and inbound call handling by AI agents.</description>
+    </item>
+    
+    <item>
       <title>SeaX Integration with WhatsApp</title>
       <link>https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-whatsapp/</link>
       <pubDate>Wed, 11 Jun 2025 08:48:57 +0000</pubDate>
