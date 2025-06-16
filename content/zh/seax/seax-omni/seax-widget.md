@@ -11,8 +11,8 @@ parent: "seax_enterprise"
 aliases:
   - /seax/seax-widget/
   - /seax/seax-messaging/seax-widget/
-url: /zh/seax/seax-messaging/seax-widget/
-weight: 130
+url: /zh/seax/seax-omni/seax-widget/
+weight: 50
 toc: true
 ---
 

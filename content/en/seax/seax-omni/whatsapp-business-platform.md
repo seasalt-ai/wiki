@@ -7,10 +7,10 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax-messaging"
+    parent: "seax-omni"
 aliases:
    - /seax/seax-messaging/whatsapp-business-platform/
-url: /en/seax/seax-messaging/whatsapp-business-platform/
+url: /en/seax/seax-omni/whatsapp-business-platform/
 weight: 10
 toc: true
 ---

@@ -7,10 +7,10 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax-messaging"
+    parent: "seax-omni"
 aliases:
   - /seax/seax-messaging/seax-intro/
-url: /en/seax/seax-messaging/seax-intro/
+url: /en/seax/seax-omni/seax-intro/
 weight: 1
 toc: true
 ---

@@ -7,10 +7,10 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax-messaging"
+    parent: "seax-omni"
 aliases:
   - /seax/seax-messaging/bulk-messaging-features/
-url: /en/seax/seax-messaging/bulk-messaging-features/
+url: /en/seax/seax-omni/bulk-messaging-features/
 weight: 5
 toc: true
 ---

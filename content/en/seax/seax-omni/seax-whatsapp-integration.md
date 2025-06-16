@@ -7,10 +7,10 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax-messaging"
+    parent: "seax-omni"
 aliases:
   - /seax/seax-messaging/seax-whatsapp-integration/
-url: /en/seax/seax-messaging/seax-whatsapp-integration/
+url: /en/seax/seax-omni/seax-whatsapp-business-app/
 weight: 20
 toc: true
 ---

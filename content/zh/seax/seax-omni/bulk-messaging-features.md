@@ -6,6 +6,7 @@ lastmod: 2024-01-27T08:48:57+00:00
 draft: false
 images: []
 weight: 5
+url: /zh/seax/seax-omni/bulk-messaging-features/
 toc: true
 ---
 

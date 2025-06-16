@@ -6,14 +6,14 @@ lastmod: 2024-07-22T08:48:57+00:00
 draft: false
 images: []
 menu:
-seax:
-parent: "seax_enterprise"
+  seachat:
+    parent: "seachat-omni"
 aliases:
 - /zh/seax/seax-messaging/seax-agent-bulk-send/
 - /zh/seax/seax-agent-bulk-send/
 - /seax/seax-agent-bulk-send/
-url: /zh/seax/seax-messaging/seax-agent-bulk-send/
-weight: 103
+url: /zh/seax/seax-omni/seax-agent-bulk-send/
+weight: 30
 toc: true
 ---
 

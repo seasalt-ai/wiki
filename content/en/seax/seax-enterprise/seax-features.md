@@ -1,5 +1,5 @@
 ---
-title: "SeaX Enterprise Omni-channel Contact Center Features"
+title: "SeaX Enterprise Contact Center (Twilio Flex)"
 description: "The SeaX Collaborative Contact Center boasts robust and customizable features that give your agents and supervisors the exact functionality that they need."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
@@ -18,7 +18,7 @@ toc: true
 
 ## Basic Features
 -------------------
-The SeaX Collaborative Contact Center puts all of your call center's tools right at your agents' fingertips in one easy interface, while automating repetitive tasks to allow your agents to focus on the ones that really need their attention.
+The SeaX Collaborative Contact Center (Twilio Flex) puts all of your call center's tools right at your agents' fingertips in one easy interface, while automating repetitive tasks to allow your agents to focus on the ones that really need their attention.
 
 ### Omni-channel Messaging
 
