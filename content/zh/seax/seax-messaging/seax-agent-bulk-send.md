@@ -9,9 +9,10 @@ menu:
 seax:
 parent: "seax_enterprise"
 aliases:
-- /en/seax/seax-messaging/seax-agent-bulk-send/
-- /en/seax/seax-agent-bulk-send/
+- /zh/seax/seax-messaging/seax-agent-bulk-send/
+- /zh/seax/seax-agent-bulk-send/
 - /seax/seax-agent-bulk-send/
+url: /zh/seax/seax-messaging/seax-agent-bulk-send/
 weight: 103
 toc: true
 ---

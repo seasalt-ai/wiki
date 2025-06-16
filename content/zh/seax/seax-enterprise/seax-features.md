@@ -6,12 +6,12 @@ lastmod: 2023-11-22T08:48:57+00:00
 draft: false
 images: []
 menu:
-seax:
-parent: "seax_enterprise"
+  seax:
+    parent: "seax-enterprise"
 aliases:
-    - /seax/seax_intro/01-introduction/
-    - /seax/demo_videos/videos/
-    - /seax/
+   - /zh/seax/seax-enterprise/
+   - /zh/seax/seax-enterprise/seax-features
+url: /zh/seax/seax-enterprise/features
 weight: 102
 toc: true
 ---

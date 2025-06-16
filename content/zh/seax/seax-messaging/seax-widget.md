@@ -9,8 +9,9 @@ menu:
 seax:
 parent: "seax_enterprise"
 aliases:
-  - /en/seax/seax-widget/
   - /seax/seax-widget/
+  - /seax/seax-messaging/seax-widget/
+url: /zh/seax/seax-messaging/seax-widget/
 weight: 130
 toc: true
 ---

@@ -6,11 +6,12 @@ lastmod: 2024-05-08T08:48:57+00:00
 draft: false
 images: []
 menu:
-  seachat:
-    parent: "seachat-manual"
+  seax:
+    parent: "seax-messaging"
 aliases:
-  - /en/seax/seax-messaging/seax-whatsapp-integration/
-weight: 30
+  - /seax/seax-messaging/seax-whatsapp-integration/
+url: /en/seax/seax-messaging/seax-whatsapp-integration/
+weight: 20
 toc: true
 ---
 

@@ -7,11 +7,11 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax_enterprise"
+    parent: "seax-enterprise"
 aliases:
-   - /seax/seax_intro/01-introduction/
-   - /seax/demo_videos/videos/
-   - /seax/
+   - /seax/seax-enterprise/
+   - /seax/seax-enterprise/seax-features/
+url: /en/seax/seax-enterprise/features
 weight: 102
 toc: true
 ---

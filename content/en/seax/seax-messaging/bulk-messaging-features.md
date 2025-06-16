@@ -10,7 +10,7 @@ menu:
     parent: "seax-messaging"
 aliases:
   - /seax/seax-messaging/bulk-messaging-features/
-url: /seax/seax-messaging/bulk-messaging-features/
+url: /en/seax/seax-messaging/bulk-messaging-features/
 weight: 1
 toc: true
 ---

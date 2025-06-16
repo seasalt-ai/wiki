@@ -7,14 +7,13 @@ draft: false
 images: []
 menu:
   seax:
-    parent: "seax_enterprise"
+    parent: "seax-messaging"
 aliases:
-   - /en/seax/seax-messaging/seax-agent-bulk-send/
    - /en/seax/seax-agent-bulk-send/
    - /seax/seax-agent-bulk-send/
    - /seax/seax-messaging/seax-agent-bulk-send/
-url: /seax/seax-messaging/seax-agent-bulk-send/
-weight: 20
+url: /en/seax/seax-messaging/seax-agent-bulk-send/
+weight: 30
 toc: true
 ---
 
