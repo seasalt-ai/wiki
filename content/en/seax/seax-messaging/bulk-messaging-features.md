@@ -11,7 +11,7 @@ menu:
 aliases:
   - /seax/seax-messaging/bulk-messaging-features/
 url: /en/seax/seax-messaging/bulk-messaging-features/
-weight: 1
+weight: 5
 toc: true
 ---
 
