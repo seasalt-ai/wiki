@@ -1,4 +1,5 @@
 
+/zh/seax/seax-messaging/seax-intro/ /zh/seax/seax-omni/seax-intro/
 /zh/seachat/getting-started/01-seachat-intro /zh/seachat/getting-started/01-seachat-intro/
 /zh/seachat/01-seachat-intro/ /zh/seachat/getting-started/01-seachat-intro/
 /zh/seachat/seachat-intro/01-seachat-intro/ /zh/seachat/getting-started/01-seachat-intro/
@@ -10,11 +11,15 @@
 /zh/seameet/17-seameet-subscription-how-to/ /zh/seameet/manual/subscription/
 /zh/seameet/05-2-seameet-workspace-management/ /zh/seameet/workspace-management/
 /zh/seameet/05-seameet-workspace/ /zh/seameet/seameet-manual/1-seameet-workplace-management/05-seameet-workspace/
+/zh/seax/seax-messaging/seax-whatsapp-integration/ /zh/seax/seax-omni/seax-whatsapp-business-app/
 /zh/seameet/03-seameet-how-to-invite-seameet/ /zh/seameet/invite-seameet/
 /zh/seameet/08-seameet-language-setting/ /zh/seameet/language-setting/
 /zh/seameet/10-seameet-sharing/ /zh/seameet/sharing/
 /zh/seameet/in-person-meetings/ /zh/seameet/seameet-manual/2-general-setup/seameet-in-person-meeting/
 /zh/seameet/16-seameet-auto-join/ /zh/seameet/auto-join/
+/zh/seax/seax-messaging/seax-agent-bulk-send/ /zh/seax/seax-omni/seax-agent-bulk-send/
+/zh/seax/seax-agent-bulk-send/ /zh/seax/seax-omni/seax-agent-bulk-send/
+/seax/seax-agent-bulk-send/ /zh/seax/seax-omni/seax-agent-bulk-send/
 /zh/seachat/seachat-manual/03-add-knowledge/ /zh/seachat/seachat-manual/03-add-knowledge/
 /zh/seameet/06-seameet-view-meeting/ /zh/seameet/manual/view-meeting/
 /zh/seameet/07-seameet-meeting-analytics/ /zh/seameet/meeting-analytics/
@@ -25,9 +30,10 @@
 /zh/seameet/4-integration/0-browser-extension/ /zh/seameet/manual/browser-extension/
 /zh/seameet/seameet-manual/0-browser-extension/ /zh/seameet/manual/browser-extension/
 /zh/seameet/13-seameet-google-docs/ /zh/seameet/manual/google-docs/
+/seax/seax-widget/ /zh/seax/seax-omni/seax-widget/
+/seax/seax-messaging/seax-widget/ /zh/seax/seax-omni/seax-widget/
 /zh/seachat/seachat-manual/integrations/ /zh/seachat/seachat-manual/05-integrations/
 /zh/seachat/seachat-manual/test-and-improve/ /zh/seachat/seachat-manual/07-test-and-improve-ai-agent/
-/zh/seax/seax-messaging/seax-whatsapp-integration/ /zh/seax/seax-messaging/seax-whatsapp-integration/
 /zh/seachat/seachat-manual/integrations/ /zh/seachat/seachat-manual/06-workspace/
 /seachat/seachat-manual/integrations/ /zh/seachat/seachat-manual/06-workspace/
 /zh-tw/seameet/billing-and-subscription/ /zh/seameet/seameet-manual/billing-and-subscription/
@@ -37,13 +43,9 @@
 /zh/seachat/seachat-manual/02-create-agent/02-live-agent-transfer/ /zh/seachat/live-agent-transfer/
 /zh/seavoice/ /zh/seavoice/tts/panel_tutorial_zh/
 /zh/seavoice/stt/decoder_zh/ /zh/seavoice/stt/decoder/
-/seax/seax_intro/01-introduction/ /zh/seax/seax-enterprise/seax-features/
-/seax/demo_videos/videos/ /zh/seax/seax-enterprise/seax-features/
-/seax/ /zh/seax/seax-enterprise/seax-features/
+/zh/seax/seax-enterprise/ /zh/seax/seax-enterprise/features/
+/zh/seax/seax-enterprise/seax-features /zh/seax/seax-enterprise/features/
 /zh/seachat/seachat-payments/ /zh/seachat/seachat-payments/
-/en/seax/seax-messaging/seax-agent-bulk-send/ /zh/seax/seax-messaging/seax-agent-bulk-send/
-/en/seax/seax-agent-bulk-send/ /zh/seax/seax-messaging/seax-agent-bulk-send/
-/seax/seax-agent-bulk-send/ /zh/seax/seax-messaging/seax-agent-bulk-send/
 /zh/seachat/seachat-manual/02-create-agent/03-agent-duplication-replacement /zh/seachat/manual/create-agent/version-control/
 /zh/seachat/seachat-manual/seachat-agent-conversation/ /zh/seachat/manual/conversation/
 /zh/seachat/seachat-manual/analytics/ /zh/seachat/manual/analytics/
@@ -53,16 +55,10 @@
 /zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/ /zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/
 /zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/05-kb-references /zh/seachat/manual/create-agent/advanced-settings/kb-references/
 /zh/seachat/manual/create-agent/advanced-settings/kb-references/ /zh/seachat/manual/create-agent/advanced-settings/kb-references/
-/zh/seax/videos /zh/seax/demo-videos-zh/videos/
-/zh/seax/ /zh/seax/demo-videos-zh/videos/
-/en/seax/seax-widget/ /zh/seax/seax-messaging/seax-widget/
-/seax/seax-widget/ /zh/seax/seax-messaging/seax-widget/
 /zh/seachat/seachat-manual/ /zh/seachat/seachat-manual/
 /zh/seachat/seachat-manual/03-add-knowledge/01-add-knowledge-intro/ /zh/seachat/manual/add-knowledge/intro/
 /zh/seameet/00-seameet-faq/ /zh/seameet/seameet-manual/00-seameet-faq/
 /zh/seameet/15-seameet-help/ /zh/seameet/seameet-manual/15-seameet-help/
-/en/seax-product-updates/ /zh/seax/seax-messaging/seax-messaging-product-updates/
-/en/seax/seax-product-updates/ /zh/seax/seax-messaging/seax-messaging-product-updates/
 /zh/seachat/seachat-manual/03-add-knowledge/02-spreadsheet-upload /zh/seachat/manual/add-knowledge/csv-upload/
 /zh/seachat/seachat-manual/03-add-knowledge/03-multimedia-upload/ /zh/seachat/manual/add-knowledge/multimedia-upload/
 /zh/seachat/seachat-intro/03-add-knowledge/04-template-file-upload/ /zh/seachat/manual/add-knowledge/template-upload/

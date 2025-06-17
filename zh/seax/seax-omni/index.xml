@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaX by Seasalt.ai on </title>
+    <link>https://wiki.seasalt.ai/zh/seax/seax-omni/</link>
+    <description>Recent content in SeaX by Seasalt.ai on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seax/seax-omni/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaX 簡介</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-intro/</link>
+      <pubDate>Mon, 16 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-intro/</guid>
+      <description>什麼是 SeaX？ # SeaX 是由 Seasalt.ai 開發的全通路溝通平台，讓企業能夠在單一介面上進行大規模外聯、雙向互動，並用 AI 助理自動回覆。
+SeaX 專為行銷、客戶體驗與營運團隊設計，協助組織透過 SMS、WhatsApp、語音電話 同步觸及成千上萬用戶，並可無縫串接 SeaChat 進行 AI 智能對話。這是現代企業擴大客戶互動、又不需等比例擴編人力的最佳溝通中樞。
+ 主要功能 # SeaX 聚焦於三大通路的三大溝通支柱：
+1. 大量訊息與電話群發 # SeaX 讓您能在所有支援通路上發送高容量活動：
+ SMS 群發：適合即時促銷、通知、提醒 WhatsApp 行銷：支援圖片、按鈕、快速回覆等豐富內容 語音廣播：可用預錄音檔或文字轉語音（TTS）  無論是 100 人還是 10 萬人，SeaX 都能輕鬆擴展。您可匯入聯絡人、個人化訊息內容，並即時追蹤發送成效。
+2. 雙向互動 # 不同於多數單向群發工具，SeaX 支援互動式對話。客戶可直接回覆您的訊息或來電，您可在 SeaX 後台繼續對話（手動或用 AI 助理）。
+這對於：
+ 活動後線索篩選 客戶詢問與售後追蹤 互動式問卷、同意確認  都非常重要。每則回覆都會記錄為對話串，方便您即時監控、管理與處理。
+3. AI 助理支援（串接 SeaChat） # 如果活動收到成千上萬回覆怎麼辦？
+SeaX 原生整合 SeaChat（Seasalt.ai 的無程式碼 AI 助理平台），讓AI 智能客服即時接手對話，規模再大也不怕。
+例如：</description>
+    </item>
+    
+    <item>
+      <title>群發簡訊</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/bulk-messaging-features/</link>
+      <pubDate>Mon, 22 Jan 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/bulk-messaging-features/</guid>
+      <description>簡介 #  群發簡訊平台將 SMS 和 MMS 行銷所需的所有工具集中在一個方便的平台上。在此平台上，您可以：
+發送
+ 發送群發 SMS 和 MMS 訊息 即時發送或安排最多提前 7 天的訊息 自動篩選“不聯絡”客戶 查看群發訊息波的送達報告 從多個電話號碼發送訊息  接收
+ 捕獲客戶的自動選擇加入和退出回應 接收客戶對群發訊息的回覆 回覆並與客戶繼續對話  聯絡人管理
+ 匯入和匯出聯絡人名單 為每位聯絡人分配多個標籤 按標籤對聯絡人分組  如需有關群發簡訊平台的概覽，請觀看以下影片：
+ 👥 聯絡人與客戶分組 # SeaX 提供多項功能來有效管理和與客戶基礎互動。聯絡人功能允許用戶手動上傳客戶電話號碼或從 CSV 文件匯入，節省時間並減少錯誤。平台還提供標籤功能，根據人口統計或購買記錄等標準分組聯絡人，實現目標訊息傳遞。此外，用戶還可以匯出聯絡人進行備份或進一步分析。
+ 📲 群發簡訊與排程發送 # SeaX 提供強大的群發訊息功能。用戶可以輕鬆管理和組織客戶資訊，從 CSV 文件匯入聯絡人，並選擇特定的客戶群組或全部聯絡人進行行銷活動。平台允許用戶選擇發送號碼，撰寫包含客戶資訊字段和附件的個性化訊息，並審核/排程訊息發送。此外，用戶可以監控活動進度，匯出活動報告，並管理客戶回應和對話。
+ 💬 對話與雙向簡訊 # SeaX 平台提供強大的對話功能，簡化了客戶回應管理和即時對話互動。通過整齊組織的對話線程，您可以輕鬆跟踪個別交流並及時回覆。該平台還允許您應用標籤進行分類，根據不同標準篩選對話，並輕鬆啟動個性化對話。利用 SeaX 簡化您的客戶互動，建立強大的客戶關係。
+ 🤖 關鍵字與自動回覆 # SeaX 的關鍵字和自動回覆功能讓用戶能根據客戶使用的特定關鍵字創建自定義回覆。此自動化功能有助於提供及時且相關的資訊，同時提升溝通策略。用戶可以為沒有特定關鍵字的訊息和選擇退出的用戶設置預設回覆，確保合規和尊重的溝通。該功能還支持創建自定義關鍵字、自動回覆和自動標籤，有效地組織和分段聯絡人。
+ 🏢 助理/特許經營模式 # 對於擁有多個業務或地點的客戶，SeaX 提供工作區。工作區是 SeaX 平台內的獨立實例，允許數據分離和多業務或地點的管理。用戶可以將電話號碼分配給特定的業務地點，簡化通信，提升客戶體驗，並支持詳細分析。該平台還提供用戶權限功能，允許高效的訪問管理和組織內的協作。</description>
+    </item>
+    
+    <item>
+      <title>WhatsApp Business Platform 商業平台</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-platform/</link>
+      <pubDate>Sat, 21 Dec 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-platform/</guid>
+      <description>SeaX 使用者可以將 WhatsApp 商業平台 連接至 SeaX，以整合 Meta Cloud API。
+此功能允許使用者存取其 Meta Business Manager 帳戶，並直接從 SeaX 管理客戶通訊管道。
+在 Meta Business Manager 上運營的高級使用者終於可以體驗真正的全通路溝通，將所有客戶互動統一在一個平台上。
+   如何將 WhatsApp 商業平台 連接到 SeaX # 前往 Workspace 下的 Channel，然後點擊 WhatsApp 商業平台 標籤。
+   點擊 Add Account 以將您的 Meta Business Manager 帳戶連接到 SeaX。
+   新增 Meta Business Manager 帳戶 # 按照系統自動生成的步驟，將您的 Meta Business Manager 帳戶連接至 SeaX。
+ 登入您的 Facebook 帳戶。     連接您的帳戶至 Seasalt AI LLC。     填寫企業資訊：請確保正確填寫企業資訊，並確保 Business Portfolio 中包含您要連接的可用號碼。     創建 WhatsApp Business Profile。     WhatsApp 訊息傳送規則 #   客戶發起對話</description>
+    </item>
+    
+    <item>
+      <title>WhatsApp Business App (已棄用)</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-app/</link>
+      <pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-app/</guid>
+      <description>SeaX 支援 WhatsApp 整合，讓您能夠通過 WhatsApp 與客戶連結。本指南將引導您完成 WhatsApp 與 SeaX 的整合步驟。立即開始利用 SeaX 的強大功能在 WhatsApp 上與您的客戶互動吧！
+ 連結 WhatsApp 與 SeaX # 前往側邊欄選單中的 工作區 下的 頻道。點擊 WhatsApp Business App 以開始整合過程。
+   點擊 WhatsApp Business App
+ 步驟 1: 將設備連結到 WhatsApp Business App # 按照說明使用 QR 碼將您的設備連結到 WhatsApp Business App。
+   使用 QR 碼連結到 WhatsApp
+ 步驟 2: 按照 WhatsApp App 上的說明進行操作 # 按照應用上的鏈接和 QR 碼說明將您的設備連結到 WhatsApp。更多信息請查看這裡。
+步驟 3: 將 WhatsApp 連結到 SeaX # 成功連結您的設備後，返回側邊欄選單中的 工作區 下的 頻道。如下面的圖像所示，現在您的賬戶應該已連結到 WhatsApp。</description>
+    </item>
+    
+    <item>
+      <title>SeaX 與 SeaChat 的群發簡訊/電話</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-agent-bulk-send/</link>
+      <pubDate>Mon, 22 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-agent-bulk-send/</guid>
+      <description>SeaX 與 SeaChat 的群發簡訊/WhatsApp/電話 # SeaX 的群發簡訊功能提供了一個強大的工具，可以從單一平台管理多個業務渠道的通訊。不僅可以向不同客戶發送訊息，還可以通過與 SeaChat 的整合，自動化這些對話。
+本指南將引導您如何使用 SeaX 和 SeaChat 發送群發訊息和電話，幫助您簡化業務通訊。
+🎥 Video Tutorial for Bulk Calling # A comprehensive video tutorial demonstrates step-by-step how to set up and use SeaX with phone calls, including both outbound campaigns and inbound call handling by AI agents.
+ See cross reference with SeaChat
+🎥 Video Tutorial for Bulk WhatsApp Messaging (Campaigns) #  See cross reference with SeaChat
+設置工作區 # 要將 SeaX 與 SeaChat 整合，您需要一個電話號碼來發送訊息，以及一個 AI 助理來處理對話。您可以在 SeaX 的 工作區 下的 號碼 部分找到電話號碼，並在 SeaChat 的 工作區 下的 AI助理 部分找到 AI 助理。</description>
+    </item>
+    
+    <item>
+      <title>SeaX 小工具</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/</link>
+      <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/</guid>
+      <description>簡介 # 在本文中，我們將介紹 SeaX 小工具，這是 SeaX 平台的一項功能，允許您整合一個網路聊天小工具，您的客戶只需點擊即可直接向您的 SeaX 帳戶發送訊息。您將學習如何設置 SeaX Widget 並將其整合到您的網站或應用程式中。
+ 為什麼選擇 SeaX 小工具？ # 為客戶提供流暢的體驗對於任何業務至關重要。SeaX 小工具 可以整合到您的網站或應用程式中，讓客戶能直接向您的 SeaX 帳戶發送訊息。通過在您的網站或應用程式中整合 SeaX Widget，您的客戶只需點擊一下即可獲得所需的幫助。作為業務擁有者，您可以在 SeaX 中統一管理所有客戶互動，這使您更容易管理和回應客戶。
+找到 網路聊天小工具 儀表板 # 首先，讓我們在 SeaX 中找到 網路聊天小工具 儀表板。在側邊欄選單中，點擊 網路聊天小工具 以進入 網路聊天小工具 儀表板。
+ 網路聊天小工具 儀表板
+  設置您的 SeaX 小工具 # 在 網路聊天小工具 儀表板中，您可以自訂 SeaX 小工具 的外觀。您可以更改小工具按鈕的顏色、大小和圖像，以匹配您的網站或應用程式的設計。您還可以設置客戶使用小工具時看到的歡迎訊息。讓我們逐步了解這些設置。
+ 💡 提醒：
+每次進行更改時，記得點擊 儲存 按鈕以應用變更。
+ 懸浮圖示 # 懸浮圖示 設置允許您自訂小工具按鈕的外觀。這是您的客戶在網站或應用程式上看到的內容。通過將 URL 貼上到 小工具標誌 中，您可以更改小工具的圖示，使其符合品牌設計。記得撰寫一條友好的 小工具彈出訊息，作為歡迎訊息。當氣泡按鈕顯示時，您的客戶會看到此訊息。</description>
+    </item>
+    
+  </channel>
+</rss>

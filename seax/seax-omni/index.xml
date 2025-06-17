@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SeaX by Seasalt.ai on </title>
+    <link>https://wiki.seasalt.ai/seax/seax-omni/</link>
+    <description>Recent content in SeaX by Seasalt.ai on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seax/seax-omni/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaX Introduction</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/</link>
+      <pubDate>Mon, 16 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/</guid>
+      <description>What is SeaX? # SeaX is an omni-channel communication platform developed by Seasalt.ai that empowers businesses to conduct bulk outreach, engage in two-way messaging, and automate responses using AI agents — all from a single, unified interface.
+Designed with marketers, customer experience teams, and operations leaders in mind, SeaX helps organizations reach thousands of users simultaneously through SMS, WhatsApp, and Phone Calls, with seamless support for AI follow-up conversations via SeaChat.</description>
+    </item>
+    
+    <item>
+      <title>Bulk SMS</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/bulk-messaging-features/</link>
+      <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/bulk-messaging-features/</guid>
+      <description>Overview #  The Bulk Messaging Platform puts all the tools you need for SMS and MMS marketing together in one convenient platform. On the Bulk Messaging Platform, you can:
+Send
+ Send bulk SMS and MMS messages Send now or schedule messages up to 7 days in advance Automatically filter &amp;lsquo;Do Not Contact&amp;rsquo; customers out of send lists View delivery reports on bulk messaging waves Send messages from multiple phone numbers  Receive</description>
+    </item>
+    
+    <item>
+      <title>WhatsApp Business Platform</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-business-platform/</link>
+      <pubDate>Sat, 21 Dec 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-business-platform/</guid>
+      <description>SeaX users can connect their WhatsApp Business Platform to SeaX to integrate Meta Cloud API.
+This feature allows users to access their Meta Business Manager account and manage customer channels directly from SeaX.
+Power users that are operating on the Meta Business Manager can finally have a true experience of omnichannel communication that unifies all your customer interactions in one place.
+   How to Connect WhatsApp Business Platform to SeaX # Go to Channel under Workspace and then click on the WhatsApp Business Platform tab.</description>
+    </item>
+    
+    <item>
+      <title>WhatsApp Business App (Deprecated)</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-whatsapp-business-app/</link>
+      <pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/seax-whatsapp-business-app/</guid>
+      <description>SeaX supports WhatsApp integration, allowing you to connect with your customers on WhatsApp. This guide will walk you through the steps to integrate WhatsApp with SeaX. Start leveraging the power of SeaX to engage with your customers on WhatsApp today!
+ Connect WhatsApp with SeaX # Head to Channels under Workspace in the sidebar menu. Click on WhatsApp Business App to start the integration process.
+   Click on WhatsApp Business App</description>
+    </item>
+    
+    <item>
+      <title>SeaX Bulk Send/Call with SeaChat</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-agent-bulk-send/</link>
+      <pubDate>Mon, 22 Jul 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/seax-agent-bulk-send/</guid>
+      <description>SeaX Bulk Send SMS/WhatsApp/Call with SeaChat # SeaX bulk messaging offers a powerful way to manage communications across multiple business channels from a single platform. With SeaX, you can not only send messages to different customers but also automate these conversations by integrating with SeaChat.
+This guide will walk you through the process of sending bulk messages and calls using SeaX and SeaChat, helping you streamline your business communication.
+🎥 Video Tutorial for Bulk Calling # A comprehensive video tutorial demonstrates step-by-step how to set up and use SeaX with phone calls, including both outbound campaigns and inbound call handling by AI agents.</description>
+    </item>
+    
+    <item>
+      <title>SeaX Widget</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</link>
+      <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</guid>
+      <description>Overview # In this article, we will introduce the SeaX Widget, a feature of the SeaX platform that allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX account. You will learn how you can set up the SeaX Widget and integrate it into your website or app.
+ Why SeaX Widget? # Providing a seamless experience for your customers is crucial for any business.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 16 Oct 2024 08:48:23 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seax/seax-resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SeaX FAQ</title>
-      <link>https://wiki.seasalt.ai/seax/seax-resources/seax-faq/</link>
+      <link>https://wiki.seasalt.ai/en/seax/seax-resources/seax-faq/</link>
       <pubDate>Wed, 16 Oct 2024 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/seax/seax-resources/seax-faq/</guid>
+      <guid>https://wiki.seasalt.ai/en/seax/seax-resources/seax-faq/</guid>
       <description>1. What is the Twilio 30007 error, and how does it affect bulk messaging? # The Twilio 30007 error occurs when a carrier filters your message. This can disrupt bulk campaigns. To learn how to prevent this, check out this blog.
 2. How are &amp;ldquo;DNC&amp;rdquo; labels captured in SMS? # “DNC” labels are added to a recipient if they reply the following phrases: stop, cancel, end, quit, stopall, unsubscribe, remove me, stop sending me messages, wrong person and wrong number.</description>
     </item>
