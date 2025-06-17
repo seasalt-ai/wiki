@@ -17,11 +17,26 @@ weight: 30
 toc: true
 ---
 
-## SeaX 與 SeaChat 的群發簡訊/電話
+## SeaX 與 SeaChat 的群發簡訊/WhatsApp/電話
 
 SeaX 的群發簡訊功能提供了一個強大的工具，可以從單一平台管理多個業務渠道的通訊。不僅可以向不同客戶發送訊息，還可以通過與 SeaChat 的整合，自動化這些對話。
 
 本指南將引導您如何使用 SeaX 和 SeaChat 發送群發訊息和電話，幫助您簡化業務通訊。
+
+## 🎥 Video Tutorial for Bulk Calling
+
+A comprehensive video tutorial demonstrates step-by-step how to set up and use SeaX with phone calls, including both outbound campaigns and inbound call handling by AI agents.
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/An4n8JhhdvA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/05-integrations/08-seax-integration-bulk-phone-calls.md" >}}) 
+
+## 🎥 Video Tutorial for Bulk WhatsApp Messaging (Campaigns)
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/WUwn2QoeBGA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/05-integrations/09-seax-integration-whatsapp-in-seachat.md" >}}) 
+
 
 ## 設置工作區
 

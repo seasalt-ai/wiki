@@ -17,11 +17,25 @@ weight: 30
 toc: true
 ---
 
-## SeaX Bulk Send/Call with SeaChat
+## SeaX Bulk Send SMS/WhatsApp/Call with SeaChat
 
 SeaX bulk messaging offers a powerful way to manage communications across multiple business channels from a single platform. With SeaX, you can not only send messages to different customers but also automate these conversations by integrating with SeaChat.
 
 This guide will walk you through the process of sending bulk messages and calls using SeaX and SeaChat, helping you streamline your business communication.
+
+## 🎥 Video Tutorial for Bulk Calling
+
+A comprehensive video tutorial demonstrates step-by-step how to set up and use SeaX with phone calls, including both outbound campaigns and inbound call handling by AI agents.
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/An4n8JhhdvA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+See [cross reference with SeaChat]({{< ref "/content/en/seachat/seachat-manual/05-integrations/08-seax-integration-bulk-phone-calls.md" >}}) 
+
+## 🎥 Video Tutorial for Bulk WhatsApp Messaging (Campaigns)
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/WUwn2QoeBGA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+See [cross reference with SeaChat]({{< ref "/content/en/seachat/seachat-manual/05-integrations/09-seax-integration-whatsapp-in-seachat.md" >}}) 
 
 ## Set Up Workspace
 
