@@ -5,7 +5,13 @@ date: 2024-12-21T08:48:57+00:00
 lastmod: 2024-12-21T08:48:57+00:00
 draft: false
 images: []
-weight: 5
+menu:
+  seax:
+    parent: "seax-omni"
+aliases:
+   - /seax/seax-messaging/whatsapp-business-platform/
+url: /en/seax/seax-omni/whatsapp-business-platform/
+weight: 10
 toc: true
 ---
 

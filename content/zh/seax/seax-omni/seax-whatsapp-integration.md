@@ -1,5 +1,5 @@
 ---
-title: "WhatsApp Business"
+title: "WhatsApp Business App (已棄用)"
 description: "SeaX支援WhatsApp Business帳戶，本指南將帶您走過所有的整合步驟，並開始利用SeaX與您的客戶互動。"
 date: 2024-05-02T08:48:57+00:00
 lastmod: 2024-06-24T08:48:57+00:00
@@ -7,10 +7,11 @@ draft: false
 images: []
 menu:
   seachat:
-    parent: "seachat-manual"
+    parent: "seachat-omni"
 aliases:
   - /zh/seax/seax-messaging/seax-whatsapp-integration/
-weight: 60
+url: /zh/seax/seax-omni/seax-whatsapp-business-app/
+weight: 20
 toc: true
 ---
 

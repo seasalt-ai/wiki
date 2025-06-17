@@ -1,11 +1,12 @@
 ---
-title: "WhatsApp 商業平台"
+title: "WhatsApp Business Platform 商業平台"
 description: "SeaX 使用者可以將 WhatsApp 商業平台 連接至 SeaX，以整合 WhatsApp Cloud API。"
 date: 2024-12-21T08:48:57+00:00
 lastmod: 2024-12-21T08:48:57+00:00
 draft: false
 images: []
-weight: 103
+url: /zh/seax/seax-omni/seax-whatsapp-business-platform/
+weight: 10
 toc: true
 ---
 

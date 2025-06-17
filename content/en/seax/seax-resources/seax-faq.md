@@ -5,6 +5,9 @@ date: 2024-10-16T08:48:57+00:00
 lastmod: 2024-10-16T08:48:57+00:00
 draft: false
 images: []
+aliases:
+   - /seax/seax-resources/seax-faq/
+url: /en/seax/seax-resources/seax-faq/
 weight: 1
 toc: true
 ---
