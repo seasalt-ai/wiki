@@ -15,6 +15,14 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 6/19/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved contact CSV import with dynamic parsing of WhatsApp and phone number fields.
+- Added a user status selection menu to help users quickly select between Available and Away.
+- Improved the onboarding flow for first-time WhatsApp setup.
+- Fixed an issue where the sidebar failed to navigate to the portal. 
+- Fixed an issue that caused incoming calls to fail and play an error message.
+
 ### 6/12/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Improved the display of contact search results in the dialpad.

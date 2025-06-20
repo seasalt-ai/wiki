@@ -15,6 +15,12 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 6/19/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved CSAT Result Display: Users can now view CSAT (Customer Satisfaction) ratings and comments directly within the conversation window.
+- Sign-in Email Validation Fixed: Resolved an issue where SeaChat sign-in incorrectly flagged valid email formats as invalid.
+- Billing Page Error Resolved: Fixed error code 10002 where newly registered users saw a "paid user not found" account error on the billing page.
+- Twilio Phone Number Purchase Bug Fixed: Addressed an issue preventing users from purchasing phone numbers through Twilio.
 
 ### 6/12/2025
 

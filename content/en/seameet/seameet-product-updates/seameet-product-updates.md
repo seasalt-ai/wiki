@@ -15,6 +15,14 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 6/19/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Updated SeaMeet copilot display name in meetings to include the inviter's name.
+- Improved registration flow for mobile users.
+- Refined onboarding guidance for newly registered users.
+- Adjusted default timestamp and updated part of the UI in the audio upload interface.
+- Fixed an issue with queue ordering display in audio uploads.
+- Improved error messaging when summary templates are unavailable.
 
 ### 6/12/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
