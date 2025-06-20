@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
-      <description>6/12/2025 # New Features and Improvements #  Fixed an issue where .m4a audio files failed to upload. Resolved a bug where regenerated meeting notes did not use the selected language. Updated the formatting of certain meeting note emails. Fixed an issue where some product emails were sent in the wrong language. Refined error messages in the audio file list. Improved automatic fallback handling when speech recognition encounters issues.  6/5/2025 # New Features and Improvements #  Enhanced audio upload with automatic speaker count detection and improved overall transcript generation efficiency.</description>
+      <description>6/19/2025 # New Features and Improvements #  Updated SeaMeet copilot display name in meetings to include the inviter&amp;rsquo;s name. Improved registration flow for mobile users. Refined onboarding guidance for newly registered users. Adjusted default timestamp and updated part of the UI in the audio upload interface. Fixed an issue with queue ordering display in audio uploads. Improved error messaging when summary templates are unavailable.  6/12/2025 # New Features and Improvements #  Fixed an issue where .</description>
     </item>
     
   </channel>

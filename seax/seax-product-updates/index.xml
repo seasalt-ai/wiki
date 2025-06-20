@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seax/product-updates/</guid>
-      <description>6/12/2025 # New Features and Improvements #  Improved the display of contact search results in the dialpad. Inbound calls will now automatically cycle through available agents if unanswered for 10 seconds. Fixed an issue where making calls after entering from the workspace list view could result in an error. Fixed a bug that prevented WhatsApp Only plan users from accessing services until the subscription end date after cancellation. Fixed a plan-switching display issue when accessing the subscription page via certain links.</description>
+      <description>6/19/2025 # New Features and Improvements #  Improved contact CSV import with dynamic parsing of WhatsApp and phone number fields. Added a user status selection menu to help users quickly select between Available and Away. Improved the onboarding flow for first-time WhatsApp setup. Fixed an issue where the sidebar failed to navigate to the portal. Fixed an issue that caused incoming calls to fail and play an error message.  6/12/2025 # New Features and Improvements #  Improved the display of contact search results in the dialpad.</description>
     </item>
     
   </channel>
