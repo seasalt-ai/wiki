@@ -29,7 +29,193 @@ Power users that are operating on the Meta Business Manager can finally have a t
 </div>
 </div>
 
-## How to Connect WhatsApp Business Platform to SeaX
+## 🎥 Video Tutorial
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/3cqNHzvlZ1k?list=PL8K7_LTqly45pLJ1NAw3P3VlPseovylOC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+This video guide provides step-by-step instructions for creating and managing bulk WhatsApp campaigns using the SeaX platform.
+
+### Prerequisites
+
+Before starting your WhatsApp campaign, ensure you have:
+
+**WhatsApp Business Platform Setup**
+- A registered WhatsApp Business Platform account (Meta Cloud API)
+- Phone numbers with "Connected" status and "High" quality rating
+- Approved message templates from Meta
+
+**Platform Access**
+- Active SeaX platform account
+- Connected WhatsApp Business Platform in your workspace
+
+### Connecting WhatsApp Business Platform
+
+#### Initial Connection Process
+
+1. **Navigate to Workspace Settings**
+   - Go to **Workspace** → **Channels**
+   - Select **WhatsApp Business Platform**
+
+2. **Add Your Account**
+   - Click **Add Account** button
+   - Login with your Meta Business Suite credentials
+   - Select your business account (e.g., "Seasalt AI")
+   - Choose your registered WhatsApp Business numbers
+   - Complete the connection process
+
+3. **Verify Connection Status**
+   - Ensure all numbers show "Connected" status with green indicators
+   - Verify quality ratings are "High" in Meta Business Manager
+
+### Template Management
+
+#### Creating Templates in Meta
+
+WhatsApp Business Platform requires all message templates to be pre-approved by Meta.
+
+1. **Access Meta WhatsApp Manager**
+   - Go to **Manage Templates** section
+   - Click **Create Template** button
+
+2. **Template Configuration**
+   - Select template category (e.g., Marketing)
+   - Add template name and content
+   - Include variables using double brackets: `{{name}}`
+   - Add media samples (images, videos, documents) if needed
+   - Configure action buttons (website visits, etc.)
+
+3. **Submit for Review**
+   - Click **Submit for Review**
+   - Wait for Meta approval before use
+
+#### Synchronizing Templates to SeaX
+
+Once templates are approved in Meta:
+
+1. Navigate to **Channels** → **WhatsApp Business Platform**
+2. Click **Synchronize from WhatsApp** button
+3. Approved templates will appear in your SeaX template library
+
+### Contact Management
+
+#### Individual Contact Creation
+
+1. Go to **Contacts** section
+2. Click **Add Contact**
+3. Enter contact details:
+   - Name
+   - WhatsApp number in E.164 format (e.g., +1234567890)
+   - Labels for segmentation
+   - Additional notes
+
+#### Bulk Contact Upload
+
+**CSV Template Method:**
+
+1. **Download Template**
+   - Click **Import from CSV**
+   - Download the contact template file
+
+2. **Prepare Your Data**
+   - Fill in required fields: Name, WhatsApp Number, Labels
+   - Use E.164 format for all phone numbers
+   - Separate multiple labels with commas
+   - Include additional fields: Address, Business Email, etc.
+
+3. **Upload Process**
+   - Drag and drop your CSV file into the upload area
+   - System will process and validate the contacts
+   - Review uploaded contacts by label filters
+
+### Creating Bulk Campaigns
+
+#### Campaign Setup Process
+
+1. **Access Bulk Send**
+   - Navigate to **Bulk Send and Call**
+   - Select **WhatsApp** option
+
+2. **Select Recipients**
+   - Choose contact labels (e.g., "WA1", "WA2")
+   - Preview selected contacts
+   - Click **Continue**
+
+3. **Configure Sender**
+   - Select your WhatsApp Business number
+   - Add campaign name with date for tracking
+
+4. **Choose Template**
+   - Select from synchronized templates
+   - Preview template with variable substitution
+   - Review message content for first few contacts
+
+#### Sending Your Campaign
+
+1. **Final Review**
+   - Verify recipient count and template content
+   - Check variable substitution accuracy
+
+2. **Send Process**
+   - Click **Send Now**
+   - System provides 10-second cancellation window
+   - Campaign begins processing immediately
+
+### Monitoring Campaign Performance
+
+#### Real-time Tracking
+
+**Campaign Dashboard:**
+- Access **Campaigns** → **WhatsApp** section
+- View delivery statistics: Delivered, Failed, etc.
+- Monitor individual message status in **Logs**
+
+**Message Status Types:**
+- **Delivered**: Successfully received by recipient
+- **Failed**: Delivery unsuccessful (with error details)
+- **Read**: Message opened by recipient
+
+#### Managing Responses
+
+**24-Hour Response Window:**
+- WhatsApp Business Platform provides 24-hour window for replies after customer contact
+- Responses appear in **Conversations** tab
+- Manual replies can be sent within the response window
+
+**Automated Response Integration:**
+- Consider SeaChat AI for automated 24/7 responses
+- Seamless integration with WhatsApp campaigns
+
+### Best Practices
+
+**Contact Management:**
+- Maintain clean, segmented contact lists with relevant labels
+- Use E.164 format consistently for all phone numbers
+- Regular contact list updates and validation
+
+**Template Strategy:**
+- Create templates for different campaign types
+- Use variables for personalization
+- Ensure Meta compliance for approval
+
+**Campaign Optimization:**
+- Monitor delivery rates and adjust strategies
+- Track response rates for template effectiveness
+- Segment audiences for targeted messaging
+
+### Troubleshooting
+
+**Common Issues:**
+- **Failed Deliveries**: Check phone number format and recipient WhatsApp status
+- **Template Sync Issues**: Verify Meta approval status and re-synchronize
+- **Connection Problems**: Confirm WhatsApp Business Platform status in Meta Business Manager
+
+**Platform Limitations:**
+- No contact upload limits on SeaX platform
+- Pricing remains consistent regardless of contact volume
+- Templates must be pre-approved by Meta
+
+
+## With pitcures: How to Connect WhatsApp Business Platform to SeaX
 
 Go to **Channel** under **Workspace** and then click on the WhatsApp Business Platform tab.
 
@@ -65,7 +251,7 @@ Follow the steps automatically generated by the system to connect your Meta Busi
 </div>
 </div>
 
-2. Connect your account to Seasalt AI LLC.
+2. Connect your account to SeaX.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 <div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
