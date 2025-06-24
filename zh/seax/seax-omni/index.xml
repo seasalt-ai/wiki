@@ -87,6 +87,19 @@ SeaX 原生整合 SeaChat（Seasalt.ai 的無程式碼 AI 助理平台），讓A
     </item>
     
     <item>
+      <title>SeaX 撥號盤的來電/去電功能</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/</link>
+      <pubDate>Tue, 24 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/</guid>
+      <description>SeaX 提供完整聯絡中心解決方案，讓你透過整合式撥號盤介面處理來電與去電。此功能補足 SeaX 既有的大型外撥活動、WhatsApp 訊息與 SMS 通訊能力。
+🎥 撥號盤操作影片教學 # 完整影片教學將逐步展示如何設置與使用 SeaX 進行電話，包括由真人代理處理的去電與來電。
+ 涵蓋重點功能：
+ ✅ 撥號盤設置與設定 ✅ 來電處理 ✅ 去電管理 ✅ AI 代理整合 ✅ 多代理輪詢分配 ✅ 聯絡人管理與通話紀錄  先決條件 # 在使用撥號盤功能前，請確保：
+ 已啟用 SeaX 工作區 已設定可語音通話的電話號碼 已正確設置音訊裝置（麥克風與喇叭） 代理狀態設為「可用」  撥號盤設置 # 代理設定 #  進入撥號盤：進入 SeaX 工作區並找到撥號盤介面 設置代理狀態：將狀態切換為「可用」以接聽來電 音訊裝置設定：  選擇偏好的喇叭（電腦或外接裝置） 選擇麥克風輸入 通話前測試音訊設定    電話號碼設定 #  進入號碼管理：前往 Workspace &amp;gt; Numbers 查看可用號碼 確認語音啟用：確保號碼已啟用語音（會看到 SMS、MMS 與電話選項） 檢查號碼類型：SeaX 支援多種號碼類型，包括：  支援 WhatsApp 的號碼 支援舊式 PSTN 的 SIP trunk 支援 SMS/MMS 的標準號碼    處理來電 # 接聽來電 # 當有來電時：</description>
+    </item>
+    
+    <item>
       <title>SeaX 小工具</title>
       <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>

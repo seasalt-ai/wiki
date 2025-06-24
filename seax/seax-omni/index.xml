@@ -63,6 +63,16 @@ This guide will walk you through the process of sending bulk messages and calls 
     </item>
     
     <item>
+      <title>SeaX Inbound/Outbound Call with a Dialpad</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/phone-call-dialpad/</link>
+      <pubDate>Tue, 24 Jun 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/phone-call-dialpad/</guid>
+      <description>SeaX provides a comprehensive contact center solution that allows you to handle both inbound and outbound phone calls using an integrated dial pad interface. This feature complements SeaX&amp;rsquo;s existing capabilities for large-scale outbound campaigns, WhatsApp messaging, and SMS communications.
+🎥 Video Tutorial for Dialpad # A comprehensive video tutorial demonstrates step-by-step how to set up and use SeaX with phone calls, including both outbound and inbound calls handled by human agents.</description>
+    </item>
+    
+    <item>
       <title>SeaX Widget</title>
       <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>

@@ -1,0 +1,1488 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link href="https://wiki.seasalt.ai/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind-ui.js"></script>
+  <script src="https://wiki.seasalt.ai/pagefind/pagefind.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10880948239');
+  </script>
+  
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PJGXPTGC');</script>
+  
+  <link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://wiki.seasalt.ai/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-10405841-7', 'auto');
+    ga('send', 'pageview');
+</script>
+  <link rel="stylesheet" href="https://wiki.seasalt.ai/main.466b495fe72429983c22003b238507e0f155f9b9678e5f5f125101138519e6b9c19a79ac533ba7fc97df582d3342dd389ab1ad60cc1c0f7de63576a1c242b362.css" integrity="sha512-RmtJX&#43;ckKZg8IgA7I4UH4PFV&#43;blnjl9fElEBE4UZ5rnBmnmsUzun/JffWC0zQt04mrGtYMwcD33mNXahwkKzYg==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>SeaX 撥號盤的來電/去電功能 - Seasalt.ai</title>
+<meta name="description" content="使用 SeaX 撥打和接聽電話：VoIP, Twilio, SIP, PSTN">
+<link rel="canonical" href="https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SeaX 撥號盤的來電/去電功能">
+<meta property="og:description" content="使用 SeaX 撥打和接聽電話：VoIP, Twilio, SIP, PSTN">
+<meta property="og:url" content="https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/">
+<meta property="og:site_name" content="Seasalt.ai">
+<meta property="article:published_time" content="2025-06-24T08:48:57+00:00">
+  <meta property="article:modified_time" content="2025-06-24T13:09:24-07:00">
+  
+  <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
+      <meta property="og:image:alt" content="Seasalt.ai">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="SeaX 撥號盤的來電/去電功能">
+<meta name="twitter:description" content="使用 SeaX 撥打和接聽電話：VoIP, Twilio, SIP, PSTN">
+<meta name="twitter:image" content="https://wiki.seasalt.ai/seasalt-logo.png">
+    <meta name="twitter:image:alt" content="SeaX 撥號盤的來電/去電功能">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://wiki.seasalt.ai/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://wiki.seasalt.ai/",
+      "sameAs": [
+      
+      "https:\/\/x.com\/SeasaltAI"
+      ,
+      "https:\/\/www.linkedin.com\/company\/seasalt-ai\/"
+      ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://wiki.seasalt.ai/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://wiki.seasalt.ai/#/schema/website/1",
+      "url": "https://wiki.seasalt.ai/",
+      "name": "Seasalt.ai",
+      "description": "Everything you need to know to get started with our products! Sharpen your skills and explore new ways to use Conversational AI.",
+      "publisher": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/",
+      "url": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/",
+      "name": "SeaX 撥號盤的來電\/去電功能",
+      "description": "使用 SeaX 撥打和接聽電話：VoIP, Twilio, SIP, PSTN",
+      "isPartOf": {
+        "@id": "https://wiki.seasalt.ai/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
+        },
+      "datePublished": "2025-06-24T08:48:57CET",
+      "dateModified": "2025-06-24T13:09:24CET",
+      "breadcrumb": {
+        "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/",
+          "url": "https://wiki.seasalt.ai/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/",
+          "url": "https://wiki.seasalt.ai/zh/",
+          "name": "Zh"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/seax/",
+          "url": "https://wiki.seasalt.ai/zh/seax/",
+          "name": "Seax"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/",
+          "url": "https://wiki.seasalt.ai/zh/seax/seax-omni/",
+          "name": "Seax Omni"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  5 ,
+        "item": {
+          "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/#/schema/image/2",
+          "url": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "contentUrl": "https://wiki.seasalt.ai/seasalt-logo.png",
+          "caption": "SeaX 撥號盤的來電\/去電功能"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiki.seasalt.ai/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wiki.seasalt.ai/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wiki.seasalt.ai/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://wiki.seasalt.ai/site.webmanifest">
+
+</head>
+  <body class="seax single">
+    <div class="sticky-lg-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="https://wiki.seasalt.ai/zh/" aria-label="Seasalt.ai">
+      Seasalt.ai
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="https://wiki.seasalt.ai/zh/">Seasalt.ai</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seachat/getting-started/01-seachat-intro/" aria-label="SeaChat">SeaChat</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/" aria-label="SeaMeet">SeaMeet</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link ps-0 py-1" href="https://wiki.seasalt.ai/zh/seax/demo_videos_zh/videos/" aria-label="SeaX">SeaX</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESTful APIs
+              <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/01-seachat-api-intro/" aria-label="SeaChat API">SeaChat API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/02-seax-api-intro/" aria-label="SeaX API">SeaX API</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://wiki.seasalt.ai/zh/seasaltapi/seasalt-api/03-seameet-api-intro/" aria-label="SeaMeet API">SeaMeet API</a>
+              </li>
+              </ul>
+          </li>
+          
+          
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://seasalt.ai/" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><small class="ms-2 d-md-none">Home</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.youtube.com/@seasaltai" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><small class="ms-2 d-md-none">YouTube</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://www.linkedin.com/company/seasalt-ai/" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><small class="ms-2 d-md-none">LinkedIn</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan" aria-label="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><small class="ms-2 d-md-none">Contact</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+      <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+    </button>
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        ZH
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/">繁體中文</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      
+          <li><a class="dropdown-item" rel="alternate" href="https://wiki.seasalt.ai/en/seax/seax-omni/phone-call-dialpad/" hreflang="en" lang="en">English</a></li>
+        
+      </ul>
+    </div>
+    <button class="btn btn-search-icon btn-link order-md-1" id="search-icon" type="button" aria-label="Open search bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </nav>
+</header>
+  <div id="search-container" style="display: none; padding: 1em; background-color: #f8f9fa;">
+    <div id="search"></div>
+  </div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true, resetStyles: true });
+
+      const searchIcon = document.getElementById('search-icon');
+      const searchContainer = document.getElementById('search-container');
+
+      searchIcon.addEventListener('click', () => {
+        const isSearchVisible = searchContainer.style.display === 'block';
+        searchContainer.style.display = isSearchVisible ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</div>
+
+<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+
+
+    <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-8901f97f56b0c29584e9f75d3162207f" aria-expanded="true">
+          SeaX by Seasalt.ai
+        </button>
+        <div class="collapse show" id="section-8901f97f56b0c29584e9f75d3162207f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-intro/">SeaX 簡介</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/bulk-messaging-features/">群發簡訊</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-platform/">WhatsApp Business Platform 商業平台</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-app/">WhatsApp Business App (已棄用)</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-agent-bulk-send/">SeaX 與 SeaChat 的群發簡訊/電話</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/">SeaX 撥號盤的來電/去電功能</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/">SeaX 小工具</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-fc14d83d7be64de6ecd16ed666af38a0" aria-expanded="true">
+          SeaX Enterprise
+        </button>
+        <div class="collapse show" id="section-fc14d83d7be64de6ecd16ed666af38a0">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-enterprise/features/">SeaX 企業聯絡中心 (Twilio Flex)</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ddcf50c29294d4414f3f7c1bbc892cb5" aria-expanded="true">
+          Resources
+        </button>
+        <div class="collapse show" id="section-ddcf50c29294d4414f3f7c1bbc892cb5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/">SeaX 常見問題 (FAQ)</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bbaad05ffc8c2edb2eac3c2dbb0ef876" aria-expanded="true">
+          SeaX 功能發布和修復
+        </button>
+        <div class="collapse show" id="section-bbaad05ffc8c2edb2eac3c2dbb0ef876">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/product-updates/">SeaX 版本發布資訊</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+
+    <div class="wrap container-xxl" role="document">      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-8901f97f56b0c29584e9f75d3162207f" aria-expanded="true">
+          SeaX by Seasalt.ai
+        </button>
+        <div class="collapse show" id="section-8901f97f56b0c29584e9f75d3162207f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-intro/">SeaX 簡介</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/bulk-messaging-features/">群發簡訊</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-platform/">WhatsApp Business Platform 商業平台</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-whatsapp-business-app/">WhatsApp Business App (已棄用)</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-agent-bulk-send/">SeaX 與 SeaChat 的群發簡訊/電話</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="https://wiki.seasalt.ai/zh/seax/seax-omni/phone-call-dialpad/">SeaX 撥號盤的來電/去電功能</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/">SeaX 小工具</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-fc14d83d7be64de6ecd16ed666af38a0" aria-expanded="true">
+          SeaX Enterprise
+        </button>
+        <div class="collapse show" id="section-fc14d83d7be64de6ecd16ed666af38a0">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-enterprise/features/">SeaX 企業聯絡中心 (Twilio Flex)</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-ddcf50c29294d4414f3f7c1bbc892cb5" aria-expanded="true">
+          Resources
+        </button>
+        <div class="collapse show" id="section-ddcf50c29294d4414f3f7c1bbc892cb5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/">SeaX 常見問題 (FAQ)</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-bbaad05ffc8c2edb2eac3c2dbb0ef876" aria-expanded="true">
+          SeaX 功能發布和修復
+        </button>
+        <div class="collapse show" id="section-bbaad05ffc8c2edb2eac3c2dbb0ef876">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://wiki.seasalt.ai/zh/seax/product-updates/">SeaX 版本發布資訊</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-撥號盤操作影片教學">🎥 撥號盤操作影片教學</a>
+      <ul>
+        <li><a href="#先決條件">先決條件</a></li>
+        <li><a href="#撥號盤設置">撥號盤設置</a></li>
+        <li><a href="#處理來電">處理來電</a></li>
+        <li><a href="#撥打去電">撥打去電</a></li>
+        <li><a href="#進階設定">進階設定</a></li>
+        <li><a href="#與其他-seax-功能整合">與其他 SeaX 功能整合</a></li>
+        <li><a href="#最佳實踐">最佳實踐</a></li>
+        <li><a href="#疑難排解">疑難排解</a></li>
+      </ul>
+    </li>
+    <li><a href="#-撥號盤圖文教學">📷 撥號盤圖文教學</a>
+      <ul>
+        <li><a href="#概覽">概覽</a></li>
+        <li><a href="#撥號盤通話">撥號盤通話</a></li>
+        <li><a href="#代理狀態設定">代理狀態設定</a></li>
+        <li><a href="#認識循環響鈴">認識循環響鈴</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>SeaX 撥號盤的來電/去電功能</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="page-links">
+  
+   <h3>本頁內容</h3> 
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-撥號盤操作影片教學">🎥 撥號盤操作影片教學</a>
+      <ul>
+        <li><a href="#先決條件">先決條件</a></li>
+        <li><a href="#撥號盤設置">撥號盤設置</a></li>
+        <li><a href="#處理來電">處理來電</a></li>
+        <li><a href="#撥打去電">撥打去電</a></li>
+        <li><a href="#進階設定">進階設定</a></li>
+        <li><a href="#與其他-seax-功能整合">與其他 SeaX 功能整合</a></li>
+        <li><a href="#最佳實踐">最佳實踐</a></li>
+        <li><a href="#疑難排解">疑難排解</a></li>
+      </ul>
+    </li>
+    <li><a href="#-撥號盤圖文教學">📷 撥號盤圖文教學</a>
+      <ul>
+        <li><a href="#概覽">概覽</a></li>
+        <li><a href="#撥號盤通話">撥號盤通話</a></li>
+        <li><a href="#代理狀態設定">代理狀態設定</a></li>
+        <li><a href="#認識循環響鈴">認識循環響鈴</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+			</nav>
+			<p>SeaX 提供完整聯絡中心解決方案，讓你透過整合式撥號盤介面處理來電與去電。此功能補足 SeaX 既有的大型外撥活動、WhatsApp 訊息與 SMS 通訊能力。</p>
+<h2 id="-撥號盤操作影片教學">🎥 撥號盤操作影片教學 <a href="#-%e6%92%a5%e8%99%9f%e7%9b%a4%e6%93%8d%e4%bd%9c%e5%bd%b1%e7%89%87%e6%95%99%e5%ad%b8" class="anchor" aria-hidden="true">#</a></h2>
+<p>完整影片教學將逐步展示如何設置與使用 SeaX 進行電話，包括由真人代理處理的去電與來電。</p>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/1luD3EFnIu4?list=PL8K7_LTqly45pLJ1NAw3P3VlPseovylOC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<p><strong>涵蓋重點功能：</strong></p>
+<ul>
+<li>✅ 撥號盤設置與設定</li>
+<li>✅ 來電處理</li>
+<li>✅ 去電管理</li>
+<li>✅ AI 代理整合</li>
+<li>✅ 多代理輪詢分配</li>
+<li>✅ 聯絡人管理與通話紀錄</li>
+</ul>
+<h3 id="先決條件">先決條件 <a href="#%e5%85%88%e6%b1%ba%e6%a2%9d%e4%bb%b6" class="anchor" aria-hidden="true">#</a></h3>
+<p>在使用撥號盤功能前，請確保：</p>
+<ul>
+<li>已啟用 SeaX 工作區</li>
+<li>已設定可語音通話的電話號碼</li>
+<li>已正確設置音訊裝置（麥克風與喇叭）</li>
+<li>代理狀態設為「可用」</li>
+</ul>
+<h3 id="撥號盤設置">撥號盤設置 <a href="#%e6%92%a5%e8%99%9f%e7%9b%a4%e8%a8%ad%e7%bd%ae" class="anchor" aria-hidden="true">#</a></h3>
+<h4 id="代理設定">代理設定 <a href="#%e4%bb%a3%e7%90%86%e8%a8%ad%e5%ae%9a" class="anchor" aria-hidden="true">#</a></h4>
+<ol>
+<li><strong>進入撥號盤</strong>：進入 SeaX 工作區並找到撥號盤介面</li>
+<li><strong>設置代理狀態</strong>：將狀態切換為「可用」以接聽來電</li>
+<li><strong>音訊裝置設定</strong>：
+<ul>
+<li>選擇偏好的喇叭（電腦或外接裝置）</li>
+<li>選擇麥克風輸入</li>
+<li>通話前測試音訊設定</li>
+</ul>
+</li>
+</ol>
+<h4 id="電話號碼設定">電話號碼設定 <a href="#%e9%9b%bb%e8%a9%b1%e8%99%9f%e7%a2%bc%e8%a8%ad%e5%ae%9a" class="anchor" aria-hidden="true">#</a></h4>
+<ol>
+<li><strong>進入號碼管理</strong>：前往 <strong>Workspace &gt; Numbers</strong> 查看可用號碼</li>
+<li><strong>確認語音啟用</strong>：確保號碼已啟用語音（會看到 SMS、MMS 與電話選項）</li>
+<li><strong>檢查號碼類型</strong>：SeaX 支援多種號碼類型，包括：
+<ul>
+<li>支援 WhatsApp 的號碼</li>
+<li>支援舊式 PSTN 的 SIP trunk</li>
+<li>支援 SMS/MMS 的標準號碼</li>
+</ul>
+</li>
+</ol>
+<h3 id="處理來電">處理來電 <a href="#%e8%99%95%e7%90%86%e4%be%86%e9%9b%bb" class="anchor" aria-hidden="true">#</a></h3>
+<h4 id="接聽來電">接聽來電 <a href="#%e6%8e%a5%e8%81%bd%e4%be%86%e9%9b%bb" class="anchor" aria-hidden="true">#</a></h4>
+<p>當有來電時：</p>
+<ol>
+<li>你會聽到來電通知</li>
+<li>點擊瀏覽器介面上的按鈕接聽</li>
+<li>通話中如需 IVR 可用螢幕上的數字鍵盤</li>
+</ol>
+<h4 id="通話管理功能">通話管理功能 <a href="#%e9%80%9a%e8%a9%b1%e7%ae%a1%e7%90%86%e5%8a%9f%e8%83%bd" class="anchor" aria-hidden="true">#</a></h4>
+<ul>
+<li><strong>通話紀錄</strong>：可查詢所有來電與去電詳細紀錄</li>
+<li><strong>聯絡人整合</strong>：已儲存聯絡人的號碼會顯示姓名</li>
+<li><strong>多通道整合</strong>：同一號碼可用於語音與 WhatsApp</li>
+</ul>
+<h3 id="撥打去電">撥打去電 <a href="#%e6%92%a5%e6%89%93%e5%8e%bb%e9%9b%bb" class="anchor" aria-hidden="true">#</a></h3>
+<h4 id="手動撥號">手動撥號 <a href="#%e6%89%8b%e5%8b%95%e6%92%a5%e8%99%9f" class="anchor" aria-hidden="true">#</a></h4>
+<ol>
+<li><strong>開啟撥號盤</strong>：進入撥號盤介面</li>
+<li><strong>搜尋聯絡人</strong>：使用搜尋功能找現有聯絡人</li>
+<li><strong>選擇號碼</strong>：如有多個號碼可選擇</li>
+<li><strong>發起通話</strong>：點擊開始去電</li>
+</ol>
+<h4 id="ai-協助撥號">AI 協助撥號 <a href="#ai-%e5%8d%94%e5%8a%a9%e6%92%a5%e8%99%9f" class="anchor" aria-hidden="true">#</a></h4>
+<p>SeaX 支援 AI 代理協助去電：</p>
+<ol>
+<li><strong>選擇 AI 代理</strong>：從 SeaChat 設定的語音 AI 代理中選擇</li>
+<li><strong>輸入目標號碼</strong>：輸入收件人電話</li>
+<li><strong>啟動 AI 撥號</strong>：AI 代理會自動撥打</li>
+<li><strong>應用場景</strong>：適用於面試、預約、回訪等</li>
+</ol>
+<h3 id="進階設定">進階設定 <a href="#%e9%80%b2%e9%9a%8e%e8%a8%ad%e5%ae%9a" class="anchor" aria-hidden="true">#</a></h3>
+<h4 id="號碼分配">號碼分配 <a href="#%e8%99%9f%e7%a2%bc%e5%88%86%e9%85%8d" class="anchor" aria-hidden="true">#</a></h4>
+<p>每個號碼可設定：</p>
+<ul>
+<li><strong>多代理分配</strong>：多位代理共同處理同一號碼來電</li>
+<li><strong>預設來電代理</strong>：可設定由真人或 AI 處理來電</li>
+<li><strong>通道專屬設定</strong>：SMS 與語音可分別指定不同代理</li>
+</ul>
+<h4 id="輪詢分配系統">輪詢分配系統 <a href="#%e8%bc%aa%e8%a9%a2%e5%88%86%e9%85%8d%e7%b3%bb%e7%b5%b1" class="anchor" aria-hidden="true">#</a></h4>
+<p>多代理分配時：</p>
+<ul>
+<li>來電會以輪詢方式分配給可用代理</li>
+<li>每位代理響鈴 10 秒後轉給下一位</li>
+<li>系統優先分配給「最閒」的代理</li>
+<li>若無真人代理，來電可自動轉給 AI</li>
+</ul>
+<h3 id="與其他-seax-功能整合">與其他 SeaX 功能整合 <a href="#%e8%88%87%e5%85%b6%e4%bb%96-seax-%e5%8a%9f%e8%83%bd%e6%95%b4%e5%90%88" class="anchor" aria-hidden="true">#</a></h3>
+<p>撥號盤功能可無縫整合：</p>
+<ul>
+<li><strong>大規模外撥活動</strong></li>
+<li><strong>WhatsApp Business 訊息</strong></li>
+<li><strong>SMS/MMS 通訊</strong></li>
+<li><strong>SeaChat AI 全通道支援</strong></li>
+</ul>
+<h3 id="最佳實踐">最佳實踐 <a href="#%e6%9c%80%e4%bd%b3%e5%af%a6%e8%b8%90" class="anchor" aria-hidden="true">#</a></h3>
+<ol>
+<li><strong>代理狀態</strong>：隨時更新狀態以確保正確分配來電</li>
+<li><strong>音訊品質</strong>：建議使用高品質耳麥</li>
+<li><strong>聯絡人管理</strong>：保持聯絡人名單最新，提升外撥效率</li>
+<li><strong>AI 備援</strong>：設定 AI 代理作為真人代理的備援</li>
+<li><strong>通話紀錄</strong>：定期檢視通話紀錄以優化表現</li>
+</ol>
+<h3 id="疑難排解">疑難排解 <a href="#%e7%96%91%e9%9b%a3%e6%8e%92%e8%a7%a3" class="anchor" aria-hidden="true">#</a></h3>
+<p><strong>常見問題：</strong></p>
+<ul>
+<li><strong>回音問題</strong>：調整麥克風與喇叭設定避免回音</li>
+<li><strong>漏接來電</strong>：確認代理狀態為「可用」並開啟通知</li>
+<li><strong>號碼設定</strong>：於號碼管理確認號碼已啟用語音</li>
+</ul>
+<p>此撥號盤功能讓 SeaX 成為完整的人機協作聯絡中心，實現自動化活動與個人化互動的無縫切換。</p>
+<h2 id="-撥號盤圖文教學">📷 撥號盤圖文教學 <a href="#-%e6%92%a5%e8%99%9f%e7%9b%a4%e5%9c%96%e6%96%87%e6%95%99%e5%ad%b8" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="概覽">概覽 <a href="#%e6%a6%82%e8%a6%bd" class="anchor" aria-hidden="true">#</a></h3>
+<p>SeaX 將內外部電話通訊整合於單一平台。在此平台你可以：</p>
+<p><strong>撥打與接聽電話</strong></p>
+<ul>
+<li>直接搜尋或輸入號碼即可撥打電話</li>
+<li>不需切換應用程式即可接聽來電</li>
+<li>可選擇不同外撥號碼或讓 AI 代理處理</li>
+</ul>
+<p><strong>通話管理</strong></p>
+<ul>
+<li>所有來電、去電與未接來電自動記錄</li>
+<li>已儲存聯絡人於通話紀錄中顯示姓名</li>
+<li>可搜尋通話紀錄以追蹤或查詢歷史</li>
+</ul>
+<p><strong>聯絡人管理</strong></p>
+<ul>
+<li>匯入與匯出聯絡人清單</li>
+<li>每位聯絡人可設定多個標籤</li>
+<li>依標籤分組方便管理</li>
+</ul>
+<h3 id="撥號盤通話">撥號盤通話 <a href="#%e6%92%a5%e8%99%9f%e7%9b%a4%e9%80%9a%e8%a9%b1" class="anchor" aria-hidden="true">#</a></h3>
+<p>SeaX 內建撥號盤，讓用戶可直接於平台撥打與接聽電話，無需外接裝置或應用程式。</p>
+<h4 id="如何撥打去電">如何撥打去電 <a href="#%e5%a6%82%e4%bd%95%e6%92%a5%e6%89%93%e5%8e%bb%e9%9b%bb" class="anchor" aria-hidden="true">#</a></h4>
+<p>點擊右上角撥號盤圖示開啟撥號盤。可手動輸入號碼或搜尋姓名／號碼快速撥號。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/1-dialpad.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/1-dialpad.png" alt="SeaX | Dialpad">
+</a>
+<p><em>SeaX Dialpad</em></p>
+</center>
+<h4 id="如何接聽來電">如何接聽來電 <a href="#%e5%a6%82%e4%bd%95%e6%8e%a5%e8%81%bd%e4%be%86%e9%9b%bb" class="anchor" aria-hidden="true">#</a></h4>
+<p>有來電時，右上角會出現通知卡片。點擊即可接聽或拒接。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/2-dialpad-inbound-call.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/2-dialpad-inbound-call.png" alt="SeaX | Dialpad Inbound Call">
+</a>
+<p><em>SeaX Dialpad Inbound Call</em></p>
+</center>
+<h4 id="切換-ai-agent-進行通話">切換 AI agent 進行通話 <a href="#%e5%88%87%e6%8f%9b-ai-agent-%e9%80%b2%e8%a1%8c%e9%80%9a%e8%a9%b1" class="anchor" aria-hidden="true">#</a></h4>
+<p>點擊撥號盤上的箭頭可選擇 AI Agent，然後輸入或搜尋聯絡人號碼進行撥號。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/3-dialpad-ai-agent.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/3-dialpad-ai-agent.png" alt="SeaX | Dialpad Calling with an AI Agent">
+</a>
+<p><em>SeaX Dialpad Calling with an AI Agent</em></p>
+</center>
+<h4 id="通話紀錄總覽">通話紀錄總覽 <a href="#%e9%80%9a%e8%a9%b1%e7%b4%80%e9%8c%84%e7%b8%bd%e8%a6%bd" class="anchor" aria-hidden="true">#</a></h4>
+<p>所有來電與去電都會記錄於左側通話紀錄面板，可依時間、時長、聯絡人等條件查詢。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/4-call-logs.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/4-call-logs.png" alt="SeaX | Dialpad Call Logs">
+</a>
+<p><em>SeaX Dialpad Call Logs</em></p>
+</center>
+<h3 id="代理狀態設定">代理狀態設定 <a href="#%e4%bb%a3%e7%90%86%e7%8b%80%e6%85%8b%e8%a8%ad%e5%ae%9a" class="anchor" aria-hidden="true">#</a></h3>
+<p>SeaX 提供狀態切換功能，代理可自行控制可用性，系統會依據狀態分配來電。</p>
+<p>狀態類型</p>
+<ul>
+<li>可用</li>
+<li>離開</li>
+<li>勿擾</li>
+<li>離線</li>
+<li>通話中</li>
+</ul>
+<h4 id="如何切換狀態">如何切換狀態 <a href="#%e5%a6%82%e4%bd%95%e5%88%87%e6%8f%9b%e7%8b%80%e6%85%8b" class="anchor" aria-hidden="true">#</a></h4>
+<ol>
+<li>登入 SeaX 後點擊右上角個人頭像</li>
+</ol>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/5-status-menu.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/5-status-menu.png" alt="SeaX | Dialpad Status Menu">
+</a>
+<p><em>SeaX Dialpad Status Menu</em></p>
+</center>
+<ol start="2">
+<li>找到顯示目前可用性的狀態面板</li>
+</ol>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/6-status-menu-open.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/6-status-menu-open.png" alt="SeaX | Dialpad Status Menu Open">
+</a>
+<p><em>SeaX DialpadStatus Menu Open</em></p>
+</center>
+<ol start="3">
+<li>點擊目前狀態可查看所有選項（可用、離開、勿擾、離線），選擇後 SeaX 會立即更新。</li>
+</ol>
+<h4 id="狀態說明">狀態說明： <a href="#%e7%8b%80%e6%85%8b%e8%aa%aa%e6%98%8e" class="anchor" aria-hidden="true">#</a></h4>
+<p>在線：綠色 – 可接聽來電</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/7-status-available.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/7-status-available.png" alt="SeaX | Dialpad Status Green">
+</a>
+<p><em>SeaX 撥號盤狀態：在線</em></p>
+</center>
+<p>離開：橘色 – 不會分配新來電</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/8-status-away.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/8-status-away.png" alt="SeaX | Dialpad Status Away">
+</a>
+<p><em>SeaX 撥號盤狀態：離開</em></p>
+</center>
+<p>請勿打擾：紅色 – 不會分配新來電</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/9-status-do-not-disturb.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/9-status-do-not-disturb.png" alt="SeaX | Dialpad Status: DND">
+</a>
+<p><em>SeaX 撥號盤狀態：請勿打擾</em></p>
+</center>
+<p>離線：灰色 – 完全離線</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/10-status-offline.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/10-status-offline.png" alt="SeaX | Dialpad Status: Offline">
+</a>
+<p><em>SeaX 撥號盤狀態：離線</em></p>
+</center>
+<p>通話中，系統將自動切換狀態為「通話中」，結束後自動恢復至先前狀態。</p>
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/11-status-in-the-call.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/phone-call-dialpad/11-status-in-the-call.png" alt="SeaX | Dialpad Status: On A Call">
+</a>
+<p><em>SeaX 撥號盤狀態：通話中</em></p>
+</center>
+<h3 id="認識循環響鈴">認識循環響鈴 <a href="#%e8%aa%8d%e8%ad%98%e5%be%aa%e7%92%b0%e9%9f%bf%e9%88%b4" class="anchor" aria-hidden="true">#</a></h3>
+<p>當用戶在 <strong>號碼</strong> 設定處，將進線電話預設接收人切換至人工客服後，SeaX 將依照以下規則，及客服狀態設定進行響鈴分配：</p>
+<p>響鈴分配原則</p>
+<ul>
+<li>僅對號碼成員中狀態為「在線」的人員進行響鈴。</li>
+<li>系統會依照客服的狀態與活躍時間，排序人員進行響鈴。</li>
+<li>每位客服都會依序被嘗試響鈴 10 秒，直到有人接聽為止。</li>
+<li>每輪響鈴會略過上一輪響過但未接聽的人，改由其他人接續。</li>
+</ul>
+<p>並請注意，當只有一位客服在線時，並響鈴未接起後，系統將自動播放「客服皆忙線中」，並結束通話。</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-agent-bulk-send/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; SeaX 與 SeaChat 的群發簡訊/電話
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					SeaX 小工具 &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <p style="text-align: center;">Made with ❤️ in the city of ☕ 🌧️ ✈️ 💎</p>
+  
+
+
+  
+    <script src="https://wiki.seasalt.ai/js/custom.js"></script>
+  
+    <script src="https://wiki.seasalt.ai/js/widget.js"></script>
+  
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJGXPTGC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+</footer>
+    <script src="https://wiki.seasalt.ai/js/bootstrap.min.2ddab8d0d953c6c2c8b5b808d0cfd883f0ffaf0d2847f18e3a5791daa25af333fb2fad4be549c1eda1873ba5bd5dd329f9dce7264850da729616ea983f3f4350.js" integrity="sha512-Ldq40NlTxsLItbgI0M/Yg/D/rw0oR/GOOleR2qJa8zP7L61L5UnB7aGHO6W9XdMp&#43;dznJkhQ2nKWFuqYPz9DUA==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/js/highlight.min.01a9efbad2780041a445937d52f7785429d7db857e67f8a05a881ea7515a5d2f03a2becc3583354cd1e73c21f9176f7af93c75330636e6a4e9b251112823ca49.js" integrity="sha512-AanvutJ4AEGkRZN9Uvd4VCnX24V&#43;Z/igWogep1FaXS8Dor7MNYM1TNHnPCH5F296&#43;Tx1MwY25qTpslERKCPKSQ==" crossorigin="anonymous" defer></script>
+  <script src="https://wiki.seasalt.ai/main.min.a364c3f37bd20d8445deb7cc6b8d95f0e22890378cd46ba418744770facf05c76ec927790695d3684f26dd04395bfc892cab56bcd982d35c10f566ae43ac50e4.js" integrity="sha512-o2TD83vSDYRF3rfMa42V8OIokDeM1GukGHRHcPrPBcduySd5BpXTaE8m3QQ5W/yJLKtWvNmC01wQ9WauQ6xQ5A==" crossorigin="anonymous" defer></script>
+  
+
+
+
+        
+    <button id="sui-widget-btn" class=""></button>
+    <button id="sui-webchat-btn"></button>
+    <iframe id="sui-webchat" src=https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93></iframe>
+    <button id="sui-Line-btn" class="chat-button"></button>
+    <button id="sui-Instagram-btn" class="chat-button"></button>
+    <button id="sui-Messenger-btn" class="chat-button"></button>
+    <button id="sui-WhatsApp-btn" class="chat-button"></button>
+    <button id="sui-Voice-btn" class="chat-button"></button>
+
+    <div id="sui-widget-tooltip">
+        <div id="sui-widget-tooltip-msg">Any questions? We follow up with every message.</div>
+        <div id="sui-widget-tooltip-close"></div>
+    </div>
+
+    <noscript>
+      Powered by 
+      <a href="https://chat.seasalt.ai">SeaChat</a> from
+      <a href="https://seasalt.ai" target="_blank">Seasalt.ai</a>.
+    </noscript>
+    <style>
+      #sui-Voice-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 358px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-voice.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-Instagram-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 290px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-instagram.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-Messenger-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 154px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-facebook.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-Line-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 86px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-line.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-WhatsApp-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        right: 16px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        z-index: 9997;
+        bottom: 222px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-whatsapp.svg);
+        background-size: cover;
+        cursor: pointer;
+      }
+      #sui-webchat-btn {
+        position: fixed;
+        display: block;
+        width: 56px;
+        height: 56px;
+        bottom: 16px;
+        right: 16px;
+        padding: 0;
+        font-size: 0;
+        color: transparent;
+        background: 50%/24px no-repeat
+          url(https://chat.seasalt.ai/api/v1/conversations/async/config/9e4cef8823b94d019b954db6f4328a93/webchat_widget_icon?1749761608155) #19b9c3;
+        background-size: cover;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        z-index: 9999;
+        cursor: pointer;
+      }
+      #sui-webchat-btn.close{
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg);
+        background-size: cover;
+        display: block;
+      }
+      #sui-widget-btn {
+        position: fixed;
+        display: none;
+        width: 56px;
+        height: 56px;
+        bottom: 20px;
+        right: 16px;
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-widget.svg);
+        background-size: cover;
+        z-index: 9997;
+        border-radius: 50%;
+        box-shadow: 1px 2px 8px 0px #000;
+        border: none;
+        cursor: pointer;
+      }
+      #sui-widget-btn.close{
+        background: 50%/24px no-repeat
+          url(https://seasalt-cdn.s3.us-west-2.amazonaws.com/f2e/icon-close.svg);
+        background-size: cover;
+          display: block;
+      }
+      #sui-webchat {
+        position: fixed;
+        display: none;
+        width: 30%;
+        min-width: 280px;
+        height: 500px;
+        bottom: 80px;
+        right: 80px;
+        margin-top: 24px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+        z-index: 9998;
+      }
+      #sui-call-form{
+        position: fixed;
+        display: none;
+        bottom: 358px;
+        right: 80px;
+        margin-top: 24px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+        background:#fff;
+        z-index: 9998;
+      }
+      @media only screen and (max-width: 460px) {
+        #sui-widget-btn {
+          display: block;
+        }
+        #sui-webchat {     
+          right: 50%;  
+          transform: translate(50%, -12%);
+          bottom: 20px;
+        }
+        #sui-webchat-btn {
+            display: none;
+            bottom: 88px;
+        }
+        #sui-webchat-btn.show {
+            display: block;
+        }
+        #sui-webchat-btn.show-iframe {
+          display: block;
+          bottom: 20px;
+          z-index: 9998;
+        }
+        #sui-call-form {     
+          right: 50%;  
+          transform: translate(50%, -12%);
+          bottom: 20px;
+        }
+        #sui-Line-btn {
+            display: none;
+            bottom:156px;
+        }
+        #sui-Line-btn.show {
+            display: block;
+        }
+        #sui-Line-btn.show.show-iframe {
+            display: none;
+            
+        }
+        #sui-WhatsApp-btn {
+            display: none;
+            bottom:292px;
+        }
+        #sui-WhatsApp-btn.show {
+            display: block;
+          
+        }
+        #sui-WhatsApp-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Messenger-btn {
+            display: none;
+            bottom:224px;
+        }
+        #sui-Messenger-btn.show {
+            display: block;
+        }
+        #sui-Messenger-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Instagram-btn {
+            display: none;
+            bottom:360px;
+        }
+        #sui-Instagram-btn.show {
+            display: block;
+        }
+        #sui-Instagram-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Voice-btn {
+            display: none;
+            bottom:428px;
+        }
+        #sui-Voice-btn.show {
+            display: block;
+        }
+        #sui-Voice-btn.show.show-iframe {
+            display: none;
+        }
+        #sui-Voice-btn.show.show-call-form{
+            bottom: 20px;
+            z-index: 9998;
+        }
+      }
+      
+        #sui-widget-tooltip {
+          position: fixed;
+          bottom: 16px;
+          right: 80px;
+          background-color: #FFFFFF;
+          color: #000000;
+          font-size: 14px;
+          line-height: 22px;
+          border-radius: 16px;
+          padding: 12px 16px;
+          box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
+          max-width: 200px;
+          z-index: 3;
+        }
+        #sui-widget-tooltip-msg {
+          white-space: pre-wrap;
+        }
+        #sui-widget-tooltip-close {
+          width: 20px;
+          height: 20px;
+          background-color: #656565;
+          border-radius: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: -8px;
+          left: -8px;      
+          cursor: pointer;
+          z-index: 3;
+        }
+        #sui-widget-tooltip-close::after {
+          content: '×';
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          line-height: 18px;
+        }
+        @media only screen and (max-width: 460px) {
+          #sui-widget-tooltip {
+            bottom: 20px;
+          }
+        }
+        
+    </style>
+    <script>
+      var configId = "9e4cef8823b94d019b954db6f4328a93";
+      var currentConversationId = null;
+      var showWebChat = false;
+      
+      window.addEventListener("message", function (event) { 
+        if (event.data?.type === "SEACHAT_CONVERSATION_ID") {
+          currentConversationId = event.data.conversation_id;
+        }
+
+        if (event.data?.type === "CLOSE_IFRAME_AFTER_SURVEY") {
+          setTimeout(() => {
+            resetIframeToChat();
+          }, 300);
+        }
+      });
+      function tryRedirectToSurvey() {
+        var iframe = document.getElementById("sui-webchat");
+        if (iframe) {
+          if (!currentConversationId) {
+            iframe.style.display = "none";
+            return;
+          }
+
+          var surveyUrl = "https://chat.seasalt.ai/chat/survey/csat?id="+ configId + "&conversation_id=" + currentConversationId;
+          iframe.src = surveyUrl;
+          iframe.dataset.fromSurvey = "true";
+        }
+      }
+      
+      function resetIframeToChat() {
+        var iframe = document.getElementById("sui-webchat");
+        var btn = document.getElementById("sui-webchat-btn");
+        iframe.style.display = "none";
+        iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
+        btn.classList.remove("close");
+        showWebChat = false;
+        updateButtonClasses();
+      }
+        
+      function initSeaChat() {
+        showWebChat = false;
+        var isMobile = window.innerWidth <= 460;
+        var callFormUrl = "";
+        function calc() {
+          var buttons = document.querySelectorAll('.chat-button');
+          buttons.forEach(function(button, index) {
+            var baseOffset;
+            if (isMobile) {
+              baseOffset = 88;
+            } else{
+              baseOffset = 20;
+            }
+            var increment = 68;
+            button.style.bottom = baseOffset + (index + 1) * increment + 'px';
+          }); 
+        }
+        calc();
+        handleSingleButtonDisplay();
+        function updateButtonClasses() {
+          document.querySelectorAll('.chat-button').forEach(function(button) {
+            button.className = 'chat-button';
+            if (showWebChat) {
+              button.classList.add('show-iframe');
+            } else if (isMobile) {
+                button.classList.add('show');
+            }
+          });
+          calc();
+          var button = document.querySelector('#sui-webchat-btn');
+          button.className = '';
+            if (showWebChat) {
+              button.classList.add('show-iframe');
+              button.classList.add('close');
+            } else if (isMobile) {
+                button.classList.add('show');
+            }
+        }
+        function handleSingleButtonDisplay() {
+            var webchatButton = document.querySelector("#sui-webchat-btn");
+            var chatButtons = Array.prototype.slice.call(document.querySelectorAll(".chat-button"));
+            var allButtons = [webchatButton].concat(chatButtons);
+            var widgetButton = document.querySelector("#sui-widget-btn");
+
+            if (window.innerWidth <= 460 && allButtons.length === 1) {
+                widgetButton.style.display = "none";
+                allButtons[0].style.display = "block";
+                allButtons[0].style.bottom = "20px";
+            }
+        }
+        function handleResize() {
+          var currentIsMobile = window.innerWidth <= 460;
+          if (currentIsMobile !== isMobile) {
+            isMobile = currentIsMobile;
+            widgetButton.classList.remove('close');
+            assignClickHandlers();
+            calc(); 
+          }
+          handleSingleButtonDisplay();
+        }
+        window.addEventListener('resize', handleResize);
+        var button = document.querySelector('#sui-webchat-btn');
+        var iframe = document.querySelector('#sui-webchat');
+        var callFormButton = document.querySelector('#sui-Voice-btn');
+
+        var handleClick = function(event) {
+          var isClosing = event.currentTarget.classList.contains("close");
+          var isVisible = iframe && iframe.style.display === "block";
+          if (iframe?.dataset.fromSurvey === "true" && isClosing && isVisible) {
+            resetIframeToChat();
+            delete iframe.dataset.fromSurvey;
+            return;
+          }
+          if (isClosing && isVisible) {
+            setTimeout(() => {
+              tryRedirectToSurvey();
+            }, 200);
+            return;
+          }
+
+          if (iframe.src !== "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93") {
+            iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
+          }
+          if (iframe.style.display !== 'block') {
+            iframe.style.display = 'block';
+            button.classList.add('close');
+          } else {
+            iframe.style.display = 'none';
+            button.classList.remove('close');
+          }
+          showWebChat = !showWebChat;
+          updateButtonClasses();
+        };
+        var widgetButton = document.querySelector('#sui-widget-btn');
+        function assignClickHandlers() {
+          if(callFormButton && callFormUrl){
+            callFormButton.addEventListener('click', function() {
+              window.location.href = callFormUrl;
+            });
+          }
+          button.addEventListener('click', handleClick);
+
+          widgetButton.addEventListener("click", function (event) {
+            var isClosing = event.currentTarget.classList.contains("close");
+            var isVisible = iframe && iframe.style.display === "block";
+
+            if (iframe?.dataset.fromSurvey === "true" && isClosing && isVisible) {
+              resetIframeToChat();
+              delete iframe.dataset.fromSurvey;
+              return;
+            }
+
+            if (isClosing && isVisible) {
+              setTimeout(() => {
+                tryRedirectToSurvey();
+              }, 500);
+              return;
+            }
+
+            if (iframe.src !== "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93") {
+              iframe.src = "https://chat.seasalt.ai/chat/9e4cef8823b94d019b954db6f4328a93";
+            }
+
+            iframe.style.display = "block";
+            widgetButton.classList.add("close");
+            showWebChat = true;
+            updateButtonClasses();
+          });
+        }
+        assignClickHandlers();
+        widgetButton.addEventListener('click', function() {
+          isMobile = !isMobile;
+          calc();
+          widgetButton.classList.toggle('close', isMobile);
+          updateButtonClasses();
+        });
+
+        document.querySelectorAll('button[id^="sui-"]').forEach(function(button, index) {
+          var card = [{"id":"57cd3b97-f606-44ba-ba4f-9f8bdcfaddff","channel_type":"Line","channel_url":"https://lin.ee/fFNydh0a"},{"id":"2285fc57-0069-407c-b391-2ad3746f07b8","channel_type":"Instagram","channel_url":"https://www.instagram.com/seasalt.ai/"},{"id":"25946b1a-79a2-47ce-b08b-4c9d5154a15a","channel_type":"Messenger","channel_url":"https://mobile.facebook.com/profile.php?id=106953261045343"},{"id":"2e63b903-141e-4a47-acb7-0a191b18d725","channel_type":"WhatsApp","channel_url":"https://api.whatsapp.com/send/?phone=%2B14252987474&amp;text&amp;type=phone_number&amp;app_absent=0"},{"id":"f3040b06-34dc-47c5-bfb3-8cbf9c9022d3","channel_type":"Voice","channel_url":"<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSe1Z3Yq1u4w-eMZvCYdLoexkFRiJNirN7Ksr6I_et15DJBobA/viewform?embedded=true\" width=\"600\" height=\"500\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>"}].find(function(c) {return button.id === 'sui-' + c.channel_type + '-btn'});
+          if (card) {
+            button.addEventListener('click', function() {
+              if (card.channel_url.startsWith('<iframe')) {
+                handleCallForm(card);
+            } else {
+              window.open(card.channel_url, '_blank');
+            }
+            });
+          }
+        });
+
+        function handleCallForm(card) {
+          var voiceButton = document.querySelector('#sui-Voice-btn');
+          if (!voiceButton){
+            return;
+          }
+          var iframeContainer = document.querySelector('#sui-call-form');
+          if (!iframeContainer) {
+            iframeContainer = document.createElement('div');
+            iframeContainer.id = 'sui-call-form';
+          }
+          var srcMatch = card.channel_url.match(/<iframe.*?src="(.*?)"/);
+          var src = srcMatch ? srcMatch[1] : null;
+          if (src) {
+            iframeContainer.innerHTML = card.channel_url;
+            document.body.appendChild(iframeContainer);
+            callFormUrl = src;
+            var buttonBottom = getComputedStyle(voiceButton).bottom;
+            iframeContainer.style.bottom = buttonBottom;
+            iframeContainer.style.display =
+            iframeContainer.style.display === 'block' ? 'none' : 'block';
+          } else{
+            window.open(card.channel_url, '_blank');
+          }
+        }
+        
+        const handleTooltipClose = () => {
+          const tooltipElement = document.querySelector('#sui-widget-tooltip');
+          tooltipElement.style.display = 'none';
+        }
+        const tooltipCloseButton = document.querySelector('#sui-widget-tooltip-close');
+        tooltipCloseButton.addEventListener('click', handleTooltipClose);
+        const handleAutoCloseTooltip = () => {
+            const closeMilliseconds =
+              Number(2) * 1000;
+            setTimeout(() => {
+              handleTooltipClose();
+            }, closeMilliseconds);
+          }      
+          handleAutoCloseTooltip()
+          
+      }
+      if (document.readyState !== 'loading') {
+        initSeaChat();
+      } else {
+        document.addEventListener('DOMContentLoaded', function () {
+          initSeaChat();
+        });
+      }
+    </script>
+    
+  </body>
+</html>
