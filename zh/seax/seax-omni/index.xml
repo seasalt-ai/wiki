@@ -53,10 +53,8 @@ SeaX 原生整合 SeaChat（Seasalt.ai 的無程式碼 AI 助理平台），讓A
       <description>SeaX 使用者可以將 WhatsApp 商業平台 連接至 SeaX，以整合 Meta Cloud API。
 此功能允許使用者存取其 Meta Business Manager 帳戶，並直接從 SeaX 管理客戶通訊管道。
 在 Meta Business Manager 上運營的高級使用者終於可以體驗真正的全通路溝通，將所有客戶互動統一在一個平台上。
-   如何將 WhatsApp 商業平台 連接到 SeaX # 前往 Workspace 下的 Channel，然後點擊 WhatsApp 商業平台 標籤。
-   點擊 Add Account 以將您的 Meta Business Manager 帳戶連接到 SeaX。
-   新增 Meta Business Manager 帳戶 # 按照系統自動生成的步驟，將您的 Meta Business Manager 帳戶連接至 SeaX。
- 登入您的 Facebook 帳戶。     連接您的帳戶至 Seasalt AI LLC。     填寫企業資訊：請確保正確填寫企業資訊，並確保 Business Portfolio 中包含您要連接的可用號碼。     創建 WhatsApp Business Profile。     WhatsApp 訊息傳送規則 #   客戶發起對話</description>
+   🎥 視頻教程 (英文) #  ⏰ 時間戳記：
+ 00:00 介紹與平台概覽 00:24 WhatsApp Business Platform 需求 01:59 了解 WhatsApp 應用程式類型 03:06 將 WhatsApp 連接到 SeaX 平台 04:18 驗證連接狀態 04:32 設定批量發送行銷活動 05:01 上傳聯絡人與 CSV 模板 07:24 創建和管理訊息模板 09:19 模板同步 09:38 行銷活動設定與審查 10:09 發送您的行銷活動 10:32 接收和回覆訊息 11:45 監控行銷活動結果 12:42 總結與最佳實務 13:54 SeaChat AI 整合預覽  本指南提供使用 SeaX 平台創建和管理 WhatsApp 批量行銷活動的逐步說明。</description>
     </item>
     
     <item>
