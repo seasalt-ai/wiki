@@ -11,6 +11,7 @@ menu:
 aliases:
    - /en/seameet-product-updates/
    - /en/seameet/seameet-product-updates/
+# important: all product update pages follow `https://wiki.seasalt.ai/${language}/${product}/product-updates/` format
 url: /en/seameet/product-updates/   
 weight: 400
 toc: true
