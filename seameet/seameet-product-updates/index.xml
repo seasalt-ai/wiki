@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/seameet/seameet-product-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SeaMeet Release History</title>
-      <link>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</link>
+      <link>https://wiki.seasalt.ai/en/seameet/product-updates/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
-      <guid>https://wiki.seasalt.ai/en/seameet/seameet-product-updates/</guid>
+      <guid>https://wiki.seasalt.ai/en/seameet/product-updates/</guid>
       <description>6/19/2025 # New Features and Improvements #  Updated SeaMeet copilot display name in meetings to include the inviter&amp;rsquo;s name. Improved registration flow for mobile users. Refined onboarding guidance for newly registered users. Adjusted default timestamp and updated part of the UI in the audio upload interface. Fixed an issue with queue ordering display in audio uploads. Improved error messaging when summary templates are unavailable.  6/12/2025 # New Features and Improvements #  Fixed an issue where .</description>
     </item>
     
