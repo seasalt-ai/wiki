@@ -11,6 +11,7 @@ menu:
 aliases:
    - /en/seax-product-updates/
    - /en/seax/seax-product-updates/
+# NOTE: All product update pages should follow the URL format: https://wiki.seasalt.ai/${language}/${product}/product-updates/
 url: /en/seax/product-updates/
 weight: 1
 toc: true

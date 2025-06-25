@@ -11,6 +11,7 @@ menu:
 aliases:
   - /zh/seachat-product-updates/
   - /zh/seachat/seachat-product-updates/
+# NOTE: All product update pages should follow the URL format: https://wiki.seasalt.ai/${language}/${product}/product-updates/
 url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
