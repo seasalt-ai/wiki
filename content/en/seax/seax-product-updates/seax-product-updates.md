@@ -16,6 +16,16 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 6/26/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added a Human Agent option in number settings to automatically forward inbound calls to a live agent.
+- Added a shortcut menu to quickly view “Sent” messages.
+- Added detailed error messages when message delivery fails.
+- Improved the alert message for failed WhatsApp delivery after 24 hours.
+- Improved the outbound call flow.
+- Fixed an issue where some users were occasionally unable to switch their current status.
+- Backend now supports document, audio, video, and image messages on WhatsApp.
+
 ### 6/19/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Improved contact CSV import with dynamic parsing of WhatsApp and phone number fields.

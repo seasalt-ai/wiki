@@ -16,6 +16,16 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 6/26/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- If Google Drive is connected to the workspace, the auto-share email will now include a link to the corresponding Google Doc in addition to the meeting page.
+- Replies to auto-share emails will now be directed to the meeting inviter.
+- Added timezone setting to the onboarding process and fixed errors when creating a workspace.
+- Updated the onboarding guide to help newly registered users start their first meeting.
+- Fixed an issue where the SeaMeet extension showed an error UI if the copilot was not granted access to join the meeting.
+- Updated styles for parts of the extension interface.
+- Fixed an issue where users couldn't disconnect calendar or drive integration after revoking SeaMeet access via their Google account.
+
 ### 6/19/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Updated SeaMeet copilot display name in meetings to include the inviter's name.

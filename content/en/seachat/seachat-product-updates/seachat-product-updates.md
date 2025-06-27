@@ -16,6 +16,12 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 6/26/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- “Deploy” Button for Easier Channel Integration: A new Deploy button has been added to the header, providing quick access to all supported platforms, channels, and website integrations. User can navigate to relevant setup pages and deploy their AI agent across desired communication platforms
+- New Multi-Image Message Interface: All images within a single message will now be presented in this new design. This update improves both the visual clarity of the conversation context and the performance of sending multiple images efficiently.
+- Improved Stability for Knowledge Base Article Upload: Resolved several issues affecting the stability of knowledge base article uploads.
+
 ### 6/19/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Improved CSAT Result Display: Users can now view CSAT (Customer Satisfaction) ratings and comments directly within the conversation window.
