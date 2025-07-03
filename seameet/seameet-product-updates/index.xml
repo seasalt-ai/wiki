@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/product-updates/</guid>
-      <description>6/26/2025 # New Features and Improvements #  If Google Drive is connected to the workspace, the auto-share email will now include a link to the corresponding Google Doc in addition to the meeting page. Replies to auto-share emails will now be directed to the meeting inviter. Added timezone setting to the onboarding process and fixed errors when creating a workspace. Updated the onboarding guide to help newly registered users start their first meeting.</description>
+      <description>7/3/2025 # New Features and Improvements #  Added support for additional audio formats: .mp4, .webm, .wma, and .wmv, .m4a in the audio upload feature. Improved Google Calendar integration to automatically retry connection when an error occurs. Fixed an issue where the SeaMeet copilot failed to transcribe in certain Google Meet scenarios. Resolved authorization issues when exporting meeting notes to Google Docs. Removed a duplicate and outdated &amp;ldquo;Summary Template&amp;rdquo; button.  6/26/2025 # New Features and Improvements #  If Google Drive is connected to the workspace, the auto-share email will now include a link to the corresponding Google Doc in addition to the meeting page.</description>
     </item>
     
   </channel>
