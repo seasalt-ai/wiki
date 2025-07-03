@@ -15,6 +15,14 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 7/3/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for additional audio formats: .mp4, .webm, .wma, and .wmv in the audio upload feature.
+- Improved Google Calendar integration to automatically retry connection when an error occurs.
+- Fixed an issue where the SeaMeet copilot failed to transcribe in certain Google Meet scenarios.
+- Resolved authorization issues when exporting meeting notes to Google Docs.
+- Removed a duplicate and outdated "Summary Template" button.
+
 ### 6/26/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - If Google Drive is connected to the workspace, the auto-share email will now include a link to the corresponding Google Doc in addition to the meeting page.
