@@ -20,7 +20,7 @@ toc: true
 
 ##### **<font color="#739963">新功能與改進</font>**
 
-- 「上傳音檔」新增支援 .mp4, .webm, .wma, .wmv 等格式
+- 「上傳音檔」新增支援 .mp4, .webm, .wma, .wmv, .m4a 等格式
 - 調整綁定 Google 日曆遇到錯誤時，會自動重新嘗試
 - 修正 SeaMeet 機器人在特定 Google Meet 會議情境可能無法轉錄的問題
 - 修正匯出會議紀錄至 Google 文件的授權問題
