@@ -19,7 +19,7 @@ toc: true
 ### 7/3/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Image upload limit introduced: To ensure the AI agent can accurately interpret images and provide a better conversation experience, users can now upload up to 20 images per message.
-- LINE integration update: When your LINE message quota is running low, an automated email notification will be sent to the workspace owner as a reminder.
+- LINE integration update: When your LINE message quota is used up, an automated email notification will be sent to the workspace owner as a reminder.
 - Multi-image message handling fixed: Messages from Messenger and Instagram that contain multiple images are now consolidated into a single message, ensuring all images are correctly identified and understood by the AI agent.
 
 ### 6/26/2025
