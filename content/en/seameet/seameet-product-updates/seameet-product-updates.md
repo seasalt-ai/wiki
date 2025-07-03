@@ -17,7 +17,7 @@ toc: true
 ---
 ### 7/3/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Added support for additional audio formats: .mp4, .webm, .wma, and .wmv in the audio upload feature.
+- Added support for additional audio formats: .mp4, .webm, .wma, and .wmv, .m4a in the audio upload feature.
 - Improved Google Calendar integration to automatically retry connection when an error occurs.
 - Fixed an issue where the SeaMeet copilot failed to transcribe in certain Google Meet scenarios.
 - Resolved authorization issues when exporting meeting notes to Google Docs.
