@@ -16,6 +16,15 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 7/3/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for sending media files via WhatsApp in a conversation
+- Added support for sending MMS to US numbers in conversations
+- Enabled backend support for attaching media files in WhatsApp campaigns
+- Optimized campaign result CSV format and included fields for better readability
+- Improved error display when WhatsApp message delivery fails
+- Enhanced inbound call experience by preventing unnecessary busy-tone playback
+
 ### 6/26/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added a Human Agent option in number settings to automatically forward inbound calls to a live agent.
