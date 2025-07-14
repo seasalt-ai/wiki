@@ -15,6 +15,14 @@ url: /zh/seax/product-updates/
 weight: 400
 toc: true
 ---
+### 7/10/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 新增 WhatsApp 群發訊息支援夾帶標題和圖片、文件、影片等多媒體檔案
+- 新增 WhatsApp 群發訊息可同步綁定 SeaChat AI 助理
+- 新增 SeaX 與 SeaChat 之間的訊息同步功能
+- 新增 API 介接，可提取用戶於 Meta Business Suite 中的所有 Template
+- 修復電話 Campaign 顯示錯誤狀態的問題
+
 ### 7/3/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - 新增於對話中傳送 WhatsApp 多媒體檔案的功能

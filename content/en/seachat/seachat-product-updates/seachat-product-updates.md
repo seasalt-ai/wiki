@@ -15,6 +15,10 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 7/10/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Workspaces page now mobile responsive: The Workspace page is now mobile responsive. You can access your workspace on your mobile devices and manage conversations.
+- Adjusted AI agent behavior for Instagram and Messenger: When a user reacts to an AI agent's message on Instagram or Messenger, it no longer triggers AI agent reply. It’s the first step, with more optimizations and feature improvements coming soon.
 
 ### 7/3/2025
 ##### **<font color="#739963">New Features and Improvements</font>**

@@ -15,6 +15,15 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+
+### 7/10/2025
+
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Added a toggle button in the meeting list to control whether the copilot should join and record meetings from your Google Calendar.
+- Enhanced the audio upload progress bar for better visibility of upload status.
+- Updated the error message when exceeding the audio upload limit to make it clearer.
+- Updated the onboarding tutorial popup to include a “Don't show again” checkbox.
 ### 7/3/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added support for additional audio formats: .mp4, .webm, .wma, and .wmv in the audio upload feature.

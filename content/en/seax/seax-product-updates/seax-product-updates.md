@@ -15,6 +15,14 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 7/10/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for attaching images, documents, videos, and titles in WhatsApp campaigns.
+- Added support for syncing WhatsApp bulk send messages with the SeaChat AI agent.
+- Added message synchronization between SeaX and SeaChat.
+- Introduced a new API to fetch all templates from the user’s Meta Business Suite.
+- Fixed incorrect status display issue in phone campaigns.
+
 ### 7/3/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added support for sending media files via WhatsApp in a conversation
