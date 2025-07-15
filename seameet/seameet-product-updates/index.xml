@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/product-updates/</guid>
-      <description>7/3/2025 # New Features and Improvements #  Added support for additional audio formats: .mp4, .webm, .wma, and .wmv, .m4a in the audio upload feature. Improved Google Calendar integration to automatically retry connection when an error occurs. Fixed an issue where the SeaMeet copilot failed to transcribe in certain Google Meet scenarios. Resolved authorization issues when exporting meeting notes to Google Docs. Removed a duplicate and outdated &amp;ldquo;Summary Template&amp;rdquo; button.  6/26/2025 # New Features and Improvements #  If Google Drive is connected to the workspace, the auto-share email will now include a link to the corresponding Google Doc in addition to the meeting page.</description>
+      <description>7/10/2025 # New Features and Improvements #  Added a toggle button in the meeting list to control whether the copilot should join and record meetings from your Google Calendar. Enhanced the audio upload progress bar for better visibility of upload status. Updated the error message when exceeding the audio upload limit to make it clearer. Updated the onboarding tutorial popup to include a “Don&amp;rsquo;t show again” checkbox.  7/3/2025 # New Features and Improvements #  Added support for additional audio formats: .</description>
     </item>
     
   </channel>
