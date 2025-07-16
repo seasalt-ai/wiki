@@ -13,6 +13,11 @@
   url = "/zh/seax/demo_videos_zh/videos/"
   weight = 30
 
+[[main]]
+  name = "SeaVoice"
+  url = "/zh/seavoice/stt/decoder/"
+  weight = 31
+
  [[main]]
    name = "RESTful APIs"
    url = "/seasaltApi/seasalt-api/01-seachat-api-intro/"

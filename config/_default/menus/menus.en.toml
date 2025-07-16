@@ -12,6 +12,10 @@
   url = "/seax/seax-messaging/bulk-messaging-features/"
   weight = 20
 
+[[main]]
+  name = "SeaVoice"
+  url = "/seavoice/discord/discord-bot/"
+  weight = 25
 
 [[main]]
 
