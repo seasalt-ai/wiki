@@ -29,7 +29,7 @@ Supported meeting links must start with: [https://teams.microsoft.com/l/meetup-j
 
 <center>
 
-<img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-2.png" alt="SeaMeet 完成會議邀請" width="70%"/>
+<img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-2.png" alt="SeaMeet Complete Meeting Invitation" width="70%"/>
 
 </center>
 
