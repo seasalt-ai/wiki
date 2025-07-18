@@ -90,5 +90,5 @@ You can obtain the meeting link in the following ways:
    3. Select "Copy meeting link".
 
    <center>
-   <img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-8.png" alt="複製 Copy meeting link" width="70%"/>
+   <img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-8.png" alt="Copy Meeting Link" width="70%"/>
    </center>
