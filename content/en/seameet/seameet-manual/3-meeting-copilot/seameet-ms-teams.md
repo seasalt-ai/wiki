@@ -75,7 +75,7 @@ You can obtain the meeting link in the following ways:
 
    <center>
 
-   <img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-6.png" alt="點選人員頁籤" width="70%"/>
+   <img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-6.png" alt="Click People Tab" width="70%"/>
 
    </center>
 
