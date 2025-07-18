@@ -91,5 +91,5 @@ toc: true
    3. 複製會議連結
 
    <center>
-   <img src="/images/seameet-zh/seameet-ms-teams/seameet-ms-teams-8.png" alt="複製 Copy meeting link" width="70%"/>
+   <img src="/images/seameet-zh/seameet-ms-teams/seameet-ms-teams-8.png" alt="複製會議連結" width="70%"/>
    </center>
