@@ -55,7 +55,7 @@ You can obtain the meeting link in the following ways:
 
 <center>
 
-<img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-4.png" alt="複製加入連結"/>
+<img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-4.png" alt="Copy Join Link"/>
 
 </center>
 
