@@ -1,5 +1,5 @@
 ---
-title: "How to Use SeaMeet Copilot"
+title: "How to Record Google Meet Meetings"
 description: "Invite SeaMeet Copilot to Google Meet for automated note-taking and recording with Chrome extension or Google Calendar."
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
