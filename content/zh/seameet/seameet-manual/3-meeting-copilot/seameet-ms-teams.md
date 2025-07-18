@@ -84,7 +84,7 @@ toc: true
 
    <center>
 
-   <img src="/images/seameet-zh/seameet-ms-teams/seameet-ms-teams-7.png" alt="Share Invite" width="70%"/>
+   <img src="/images/seameet-zh/seameet-ms-teams/seameet-ms-teams-7.png" alt="分享邀請" width="70%"/>
 
    </center>
 
