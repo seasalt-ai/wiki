@@ -16,6 +16,11 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 7/17/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Fixed an issue where images sent by Messenger users could not be displayed properly.
+- Fixed an issue where empty summary titles were still displayed on Messenger and Instagram when the transfer summary feature was not enabled.
+
 ### 7/10/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Workspaces page now mobile responsive: You can now access your workspace on your mobile devices and manage conversations.

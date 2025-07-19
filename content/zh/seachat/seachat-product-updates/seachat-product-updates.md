@@ -16,6 +16,11 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+### 7/17/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 修正了 Messenger 發送者傳送圖片時無法正常顯示的問題。
+- 修正了在 Messenger 和 Instagram 上，當未開啟轉接摘要功能時仍顯示空白摘要標題的問題。
+
 ### 7/10/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - 工作區頁面支援移動設備顯示：用戶現在可在移動設備上登錄SeaChat，並可在工作區列表中瀏覽及管理AI助理對話。

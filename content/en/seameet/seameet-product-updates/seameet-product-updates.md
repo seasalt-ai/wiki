@@ -16,6 +16,14 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 7/17/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for inviting the Copilot to record Microsoft Teams meetings via meeting link.
+- Introduced the Recognition Boosting, allowing workspace-specific terms to enhance transcription accuracy.
+- Improved onboarding flow on mobile devices for a smoother user experience.
+- Fixed an issue that could occur when uploading audio files via mobile.
+- Optimized the handling of action items during meeting note regeneration, new action items will now overwrite previous ones instead of appearing alongside them.
+- Updated the description shown when deleting recurring meetings with Auto-Join enabled, providing clearer instructions.
 
 ### 7/10/2025
 ##### **<font color="#739963">New Features and Improvements</font>**

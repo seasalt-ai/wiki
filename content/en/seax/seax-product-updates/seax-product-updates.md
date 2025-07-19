@@ -16,6 +16,15 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 7/17/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added support for sending WhatsApp HSM campaigns with titles and multimedia files (images, documents, videos)
+- Added mobile call settings for making and receiving calls
+- Added a Skills page to create and assign skill groups
+- Added user status overview in the member settings page
+- Improved mobile interface for workspace browsing
+- Fixed issue during WhatsApp binding
+
 ### 7/10/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added support for attaching images, documents, videos, and titles in WhatsApp campaigns.

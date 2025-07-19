@@ -1,6 +1,6 @@
 ---
-title: "快速上手 SeaMeet"
-description: "快速上手 SeaMeet，邀請機器人記錄 Google Meet 會議，並管理會議紀錄。支援擴充程式、自動加入及行事曆邀請功能。"
+title: "如何進行 Google Meet 會議記錄"
+description: "邀請 SeaMeet 機器人記錄 Google Meet 會議。"
 date: 2023-11-22T08:48:57+00:00
 lastmod: 2023-11-22T08:48:57+00:00
 draft: false
@@ -18,7 +18,8 @@ toc: true
 
 [//]: # (   <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>)
    <iframe width="100%" height="350px" src="https://www.youtube.com/embed/NwXm13WBY44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
--------------------
+
+
 ## 邀請 SeaMeet 機器人記錄會議
 
 邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
