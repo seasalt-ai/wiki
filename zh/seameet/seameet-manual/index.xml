@@ -8,12 +8,12 @@
     <language>en-US</language>
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://wiki.seasalt.ai/zh/seameet/seameet-manual/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>快速上手 SeaMeet</title>
+      <title>如何進行 Google Meet 會議記錄</title>
       <link>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</link>
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/</guid>
-      <description>  ------------------- ## 邀請 SeaMeet 機器人記錄會議 邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
+      <description>  邀請 SeaMeet 機器人記錄會議 # 邀請機器人加入 Google Meet 記錄會議，您可以從三種方式中選擇一種進行邀請：
 方法ㄧ：使用 SeaMeet 擴充程式邀請 #  到Chrome應用程式商店安裝SeaMeet擴充程式 安裝後開啟Google Meet，就會自動開啟程式 點擊「開始轉錄」，邀請機器人參與會議 允許機器人加入，並開始記錄會議   方法二：在 SeaMeet 會議清單「開始新會議記錄」 #  按下「開始新會議記錄」按鈕 輸入 Google Meet 會議代碼並送出 會議會自動被新增到會議清單中   方法三：在 Google 日曆寄送邀請 #  在Google行事曆邀請 SeaMeet 機器人 &amp;lt;信箱：meet@seasalt.ai&amp;gt; 至會議中 SeaMeet機器人將準時加入Google Meet會議    查看會議記錄 # 當您邀請 SeaMeet Copilot 加入會議時，它會在您的工作區會議清單中創建一個會議。 點擊會議標題以查看詳細的會議資訊，包括會議轉錄、討論主題、摘要和行動項目。
  ------------------- ## 查看會議工作區 你可以登入SeaMeet後，在會議工作區查看所有歷史、正在進行中、以及未來的會議紀錄，並在工作區管理團隊成員。
  </description>

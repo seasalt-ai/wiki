@@ -71,5 +71,18 @@ With SeaMeet Copilot’s powerful transcription tools, you can upload and transc
  How to Upload Audio Files on SeaMeet #  Access the File List:</description>
     </item>
     
+    <item>
+      <title>How to Record Microsoft Teams Meetings</title>
+      <link>https://wiki.seasalt.ai/en/seameet/ms-teams-meeting-recording/</link>
+      <pubDate>Thu, 21 Nov 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seameet/ms-teams-meeting-recording/</guid>
+      <description>Invite SeaMeet Copilot to Your Microsoft Teams Meeting # You can provide a Microsoft Teams meeting link for SeaMeet Copilot to transcribe your meeting.
+To begin, go to the SeaMeet meeting list, click &amp;ldquo;Start Recording&amp;rdquo;, and select &amp;ldquo;Microsoft Teams&amp;rdquo; as the platform.
+  Paste your Microsoft Teams meeting link into the input field and click &amp;ldquo;Confirm&amp;rdquo; to complete the invitation.
+Supported meeting links must start with: https://teams.microsoft.com/l/meetup-join.
+  How to Get a Microsoft Teams Meeting Link # You can obtain the meeting link in the following ways:</description>
+    </item>
+    
   </channel>
 </rss>

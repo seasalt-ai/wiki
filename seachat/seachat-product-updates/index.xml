@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>7/10/2025 # New Features and Improvements #  Workspaces page now mobile responsive: You can now access your workspace on your mobile devices and manage conversations. Adjusted AI agent behavior for Instagram and Messenger: When a user reacts to an AI agent&amp;rsquo;s message on Instagram or Messenger, it no longer triggers AI agent reply. It’s the first step, with more optimizations and feature improvements coming soon.  7/3/2025 # New Features and Improvements #  Image upload limit introduced: To ensure the AI agent can accurately interpret images and provide a better conversation experience, users can now upload up to 20 images per message.</description>
+      <description>7/17/2025 # New Features and Improvements #  Fixed an issue where images sent by Messenger users could not be displayed properly. Fixed an issue where empty summary titles were still displayed on Messenger and Instagram when the transfer summary feature was not enabled.  7/10/2025 # New Features and Improvements #  Workspaces page now mobile responsive: You can now access your workspace on your mobile devices and manage conversations.</description>
     </item>
     
   </channel>
