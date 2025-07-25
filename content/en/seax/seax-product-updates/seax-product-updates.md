@@ -15,6 +15,14 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 7/24/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added auto-answer feature for incoming calls to help agents handle calls more efficiently
+- Added status change logging for live agents
+- Added backend support for setting agent skills and assigning corresponding IVR menus
+- Improved CSV contact import to support Ctrl+M as a line terminator
+- Fixed issue with blank page display in some cases
+
 ### 7/17/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added support for sending WhatsApp HSM campaigns with titles and multimedia files (images, documents, videos)
