@@ -19,7 +19,7 @@ toc: true
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Adjusted AI assistant response behavior on Instagram and Messenger: When users react to your Instagram Story, it no longer triggers AI assistant replies.
 - Optimized the backend customer service online status switching functionality in SeaChat, making it more real-time and responsive.
-- Added live agent transfer functionality to SeaX phone integration: When users have set up a SeaX phone number and enabled SeaChat AI assistant, users can now transfer to live agents during SeaX phone calls.
+- Added live agent transfer functionality to SeaX phone integration: When a SeaX phone number is set up and the SeaChat AI assistant is enabled, users can now transfer to live agents during SeaX phone calls.
 
 ### 7/17/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
