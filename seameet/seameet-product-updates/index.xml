@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/product-updates/</guid>
-      <description>7/17/2025 # New Features and Improvements #  Added support for inviting the Copilot to record Microsoft Teams meetings via meeting link. Introduced the Recognition Boosting, allowing workspace-specific terms to enhance transcription accuracy. Improved onboarding flow on mobile devices for a smoother user experience. Fixed an issue that could occur when uploading audio files via mobile. Optimized the handling of action items during meeting note regeneration, new action items will now overwrite previous ones instead of appearing alongside them.</description>
+      <description>7/24/2025 # New Features and Improvements #  Added &amp;ldquo;Weekly Meeting Reminder Emails&amp;rdquo;, sent every Monday to help users stay on top of upcoming meetings. Fixed an issue where the full audio file was not available until the page was refreshed after a meeting ended. Fixed a bug where manually inviting the Copilot to a meeting marked as “Auto-Join Off” could cause the meeting to be hidden from the meeting list.</description>
     </item>
     
   </channel>
