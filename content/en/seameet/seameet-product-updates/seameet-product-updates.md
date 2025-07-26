@@ -16,6 +16,16 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 7/24/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Added "Weekly Meeting Reminder Emails", sent every Monday to help users stay on top of upcoming meetings.
+- Fixed an issue where the full audio file was not available until the page was refreshed after a meeting ended.
+- Fixed a bug where manually inviting the Copilot to a meeting marked as “Auto-Join Off” could cause the meeting to be hidden from the meeting list.
+- Updated the sign-up and login flow for a more streamlined experience.
+- Revised the "Microsoft Teams guide" in the product wiki for improved clarity.
+- Updated meeting platform icons in the meeting list for better visual consistency.
+- Hotfix: Resolved an issue caused by recent Google Meet UI changes that prevented participant information from being captured.
+
 ### 7/17/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added support for inviting the Copilot to record Microsoft Teams meetings via meeting link.

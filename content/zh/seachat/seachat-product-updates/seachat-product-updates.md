@@ -16,6 +16,12 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+### 7/24/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 調整AI助理在 Instagram 和 Messenger 的回應行為。當用戶在 Instagram上對您的Instagram Story做出反應時，不再觸發AI助理的回覆。
+- 優化了SeaChat後台切換客服在線狀態的功能，使其更為即時和反應性。
+- SeaX電話整合添加了真人客服轉接的功能，當用戶設置了SeaX電話號碼，並啟用了SeaChat AI智能助理時，用戶可以在SeaX電話中與真人客服進行轉接。
+
 ### 7/17/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - 修正了 Messenger 發送者傳送圖片時無法正常顯示的問題。
