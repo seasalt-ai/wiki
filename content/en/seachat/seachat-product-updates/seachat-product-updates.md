@@ -15,6 +15,13 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 08/07/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Users of Meta apps (Messenger, Instagram, WhatsApp) can now add reactions to messages from live agents and bots, and our UI will display these reactions.
+- When starting a conversation in Webchat or the Widget, the first user message will have an opacity effect to enhance the user experience and indicate that the conversation is loading.
+- A new CSAT section has been added to the SeaChat Analytics page, allowing you to view ratings within the selected time range and download all customer feedback from that period.
+- New Japanese and Indonesian voice options are now available for Twilio integration and SeaX phone integratio
+
 ### 7/24/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Adjusted AI assistant response behavior on Instagram and Messenger: When users react to your Instagram Story, it no longer triggers AI assistant replies.
