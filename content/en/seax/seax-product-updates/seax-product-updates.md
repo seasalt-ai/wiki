@@ -16,6 +16,22 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 08/07/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Refined call log layout and added visibility into the responsible agent for each call
+- Improved workspace list behavior to hide UI when no invitations are present
+- Added user activity logging during voice calls
+- Fixed the dropdown menu UI overlapping issue
+- Fixed issue preventing proper hang-up of inbound calls
+
+### 07/31/2025
+##### **<font color="#739963">New Features and Improvements</font>**
+- Improved contact label page and added conversation label feature
+- Enhanced call tracking logs with status tracking functionality
+- Improved phone number validation to support Argentina WhatsApp mobile number format
+- Completed migration of Workspace API Key and event notification pages
+- Fixed TwiML parsing error for outbound calls that caused call failures
+
 ### 7/24/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Added auto-answer feature for incoming calls to help agents handle calls more efficiently
