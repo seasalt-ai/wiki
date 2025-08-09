@@ -17,7 +17,7 @@ toc: true
 ---
 ### 08/07/2025
 ##### **<font color="#739963">新功能與改進</font>**
-- Meta 系列的應用（Messenger、Instagram、WhatsApp）的用戶，現在可以對 live agent 和 bot 的訊息添加 reaction，我們的 UI 也能顯示這些 reaction。
+- Meta 系列的應用（Messenger、Instagram、WhatsApp）的用戶，現在可以對 live agent 和 bot 的訊息添加表情回應，我們的 UI 也能顯示這些表情回應。
 - 在 Webchat 或 Widget 中開啟對話時，第一則用戶訊息會有透明度效果，提升用戶體驗，提示對話正在加載。
 - SeaChat Analytics 頁面新增 CSAT 區塊，可查看所選時間範圍內的評分，並可下載該時間範圍內所有客戶的評價內容。
 - Twilio集成和SeaX電話集成新增日語與印尼語的語音聲音選項。
