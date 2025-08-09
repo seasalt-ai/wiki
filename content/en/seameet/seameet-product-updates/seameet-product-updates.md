@@ -21,7 +21,7 @@ toc: true
 - Fixed a sync error when multiple SeaMeet accounts were linked to the same Google Calendar
 - Updated options for auto-sharing emails
 - Refreshed content on the landing page
-- Improved signup and signin flow
+- Improved signup and sign-in flow
 - Updated content in weekly meeting emails
 
 ### 07/31/2025
