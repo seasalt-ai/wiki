@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>7/24/2025 # New Features and Improvements #  Adjusted AI assistant response behavior on Instagram and Messenger: When users react to your Instagram Story, it no longer triggers AI assistant replies. Optimized the backend customer service online status switching functionality in SeaChat, making it more real-time and responsive. Added live agent transfer functionality to SeaX phone integration: When a SeaX phone number is set up and the SeaChat AI assistant is enabled, users can now transfer to live agents during SeaX phone calls.</description>
+      <description>08/07/2025 # New Features and Improvements #  Users of Meta apps (Messenger, Instagram, WhatsApp) can now add reactions to messages from live agents and bots, and our UI will display these reactions. When starting a conversation in Webchat or the Widget, the first user message will have an opacity effect to enhance the user experience and indicate that the conversation is loading. A new CSAT section has been added to the SeaChat Analytics page, allowing you to view ratings within the selected time range and download all customer feedback from that period.</description>
     </item>
     
   </channel>

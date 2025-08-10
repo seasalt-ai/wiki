@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/product-updates/</guid>
-      <description>7/24/2025 # New Features and Improvements #  Added &amp;ldquo;Weekly Meeting Reminder Emails&amp;rdquo;, sent every Monday to help users stay on top of upcoming meetings. Fixed an issue where the full audio file was not available until the page was refreshed after a meeting ended. Fixed a bug where manually inviting the Copilot to a meeting marked as “Auto-Join Off” could cause the meeting to be hidden from the meeting list.</description>
+      <description>08/07/2025 # New Features and Improvements #  Fixed an issue where auto-sharing emails displayed non-clickable Google Docs when Google Drive was not connected Fixed a sync error when multiple SeaMeet accounts were linked to the same Google Calendar Updated options for auto-sharing emails Refreshed content on the landing page Improved signup and sign-in flow Updated content in weekly meeting emails  07/31/2025 # New Features and Improvements #  Fixed an issue where meeting notes were missing real-time summaries.</description>
     </item>
     
   </channel>
