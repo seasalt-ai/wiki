@@ -192,11 +192,12 @@ Here is a summary of the current limits for our button templates and postback bu
 
 For detailed reference, please visit the following sections on LINE's developer documentation:
 
-Button template message character limit and number of buttons limit under the [Buttons Template](https://developers.line.biz/en/docs/messaging-api/message-types/#template-messages) section.
+Button template message character limit and number of buttons limit under the [Buttons Template](https://developers.line.biz/en/reference/messaging-api/#template-messages) section.
 
-Postback Button’s content character limit under the [Postback Action](https://developers.line.biz/en/docs/messaging-api/actions/) section.
+Postback Button’s content character limit under the [Postback Action](https://developers.line.biz/en/reference/messaging-api/#action-objects) section.
 
 SeaChat has a solution for this issue. Utilize the feature of KB ID to avoid the message being cut off. Please check out our wiki about [KB ID](https://wiki.seasalt.ai/en/seachat/manual/add-knowledge/webpage-link/#kb-ids) for more information on how to avoid the message being cut off.
+
 
 ## LINE's AI Auto-Reply Function Will Be Discontinued Soon
 

@@ -202,9 +202,9 @@ toc: true
 
 如需詳細參考，請訪問 LINE 開發者文檔中的以下部分：
 
-在 [按鈕模板](https://developers.line.biz/en/docs/messaging-api/message-types/#template-messages) 部分下查閱按鈕模板訊息字符限制和按鈕數量限制。
+在 [按鈕模板](https://developers.line.biz/en/reference/messaging-api/#template-messages) 部分下查閱按鈕模板訊息字符限制和按鈕數量限制。
 
-在 [回傳動作](https://developers.line.biz/en/docs/messaging-api/actions/) 部分下查閱回傳按鈕內容的字符限制。
+在 [回傳動作](https://developers.line.biz/en/reference/messaging-api/#action-objects) 部分下查閱回傳按鈕內容的字符限制。
 
 SeaChat 為此問題提供了解決方案。利用 KB ID 功能來避免訊息被截斷。請查看我們的 Wiki 關於 [KB ID](https://wiki.seasalt.ai/zh/seachat/manual/add-knowledge/webpage-link/#kb-id) 的更多信息，以了解如何避免訊息被截斷。
 
