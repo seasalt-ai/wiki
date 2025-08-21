@@ -29,16 +29,16 @@ toc: true
 - Updated content on the product landing page
 
 ### 08/07/2025
-##### **<font color="#739963">New Features & Improvements</font>**
+##### **<font color="#739963">New Features and Improvements</font>**
 - Fixed an issue where auto-sharing emails displayed non-clickable Google Docs when Google Drive was not connected
 - Fixed a sync error when multiple SeaMeet accounts were linked to the same Google Calendar
 - Updated options for auto-sharing emails
 - Refreshed content on the landing page
-- Improved signup and signin flow
+- Improved signup and sign-in flow
 - Updated content in weekly meeting emails
 
 ### 07/31/2025
-##### **<font color="#739963">New Features & Improvements</font>**
+##### **<font color="#739963">New Features and Improvements</font>**
 - Fixed an issue where meeting notes were missing real-time summaries.
 - Fixed a bug where the extension couldn't reset meetings that had already ended.
 - Updated the signup flow for a smoother onboarding experience.
