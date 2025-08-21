@@ -2,7 +2,7 @@
 title: "SeaX Release History"
 description: "Stay tuned with SeaX's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-12-10T08:48:57+00:00
+lastmod: 2025-08-21T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,22 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 08/21/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Improved workspace creation flow by making name and address optional
+- Improved WhatsApp template search to support all categories
+- Backend now supports contacts without phone numbers
+- Improved onboarding flow and UI guidance
+- Changed default UI theme from dark to light
+
+### 08/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Improved new user onboarding with a phone number application entry
+- Fixed conversation sorting and updated microphone permission request behavior
+- Fixed message forwarding issue from SeaX to SeaChat when no bot messages are present
+- Fixed attachment display issue in forwarded messages
+- Added integration between SeaX and SeaMeet for call analytics
+
 ### 08/07/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
 - Refined call log layout and added visibility into the responsible agent for each call
