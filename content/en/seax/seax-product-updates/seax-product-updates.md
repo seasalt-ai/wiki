@@ -32,7 +32,7 @@ toc: true
 - Added integration between SeaX and SeaMeet for call analytics
 
 ### 08/07/2025
-##### **<font color="#739963">New Features and Improvements</font>**
+##### **<font color="#739963">New Features & Improvements</font>**
 - Refined call log layout and added visibility into the responsible agent for each call
 - Improved workspace list behavior to hide UI when no invitations are present
 - Added user activity logging during voice calls
