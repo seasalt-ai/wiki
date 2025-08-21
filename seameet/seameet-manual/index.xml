@@ -47,9 +47,9 @@ Billing Details # Click on Cost Breakdown under Next Billing Period to see the d
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/seameet/seameet-manual/00-seameet-faq/</guid>
-      <description>1. How do I start meeting transcription? # You can invite the SeaMeet Copilot to join the meeting in Google Calendar or Google Meet. Once the meeting starts, the Copilot will automatically join and begin transcription.
-2. Which meeting platforms does SeaMeet support? # Currently, SeaMeet supports transcribing meetings held in Google Meet. More meeting platforms will be supported in the future.
-3. Which languages does SeaMeet support? # SeaMeet currently supports transcribing meetings in Chinese and English.</description>
+      <description>1. What types of meeting recordings and platforms does SeaMeet support? # SeaMeet supports three ways of recording different meeting formats, including:
+ Real-time recording for Google Meet Real-time recording for Microsoft Teams Audio file uploads  More online meeting platforms will be supported in the future.
+2. How do I start recording a Google Meet session with SeaMeet? # You have several ways to invite the SeaMeet bot to join your Google Meet and record:</description>
     </item>
     
     <item>
