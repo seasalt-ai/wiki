@@ -65,17 +65,11 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/zh/seameet/seameet-manual/00-seameet-faq/</guid>
-      <description>1. 我該怎麼開始會議轉錄？ # 您可以在 Google 日曆或 Google Meet 中邀請 SeaMeet 機器人加入會議。當會議開始後，機器人會自動加入會議並開始轉錄。
-2. SeaMeet 支援哪些會議平台？ # SeaMeet 目前支援轉錄 Google Meet 進行的會議，未來將支援更多會議平台。
-3. SeaMeet 支援哪些語言？ # SeaMeet 目前支援轉錄中文、英文會議，未來將逐步擴大支援其他語言。
-4. 我可以和我的團隊成員一起協作嗎？ # 當然可以，只要將您的團隊成員邀請至您的工作區中，即可看到共用工作區的所有會議，並可共同編輯會議記錄。
-5. 什麼是工作區？ # 工作區是您用來管理所有會議、團隊成員與方案的地方。
-5-1. 如何在工作區管理會議？ # 任何轉錄的會議記錄都會被儲存到工作區，不論是未來、進行中或已完成的會議，都可以在工作區進行管理。
-5-2. 如何在工作區與團隊協作？ # 您可以邀請團隊成員加入工作區，共同瀏覽、編輯會議記錄。您還可以設定不同權限以便更好地管理工作區。
-5-3. 如何選擇方案？ # 如果您希望擁有更多轉錄時數或進階功能，歡迎 升級工作區方案 或 聯繫我們的客服人員 &amp;lt;email: seameet@seasalt.ai&amp;gt;，我們會很樂於提供協助。
-6. 我該如何登入 SeaMeet？ # 您可以使用您的 Google 帳號登入 SeaMeet，或者使用電子郵件進行註冊。
-7. 我能否編輯已經記錄好的逐字稿？ # 您可以使用輸出成 Google Docs 的功能進行編輯。目前 SeaMeet 會議頁面不允許編輯，但預計近期會支援相關功能。
-8. 我能否下載會議錄音檔？ # 目前暫不允許下載會議錄音檔。</description>
+      <description>1. SeaMeet 支援哪些會議記錄形式與平台？ # SeaMeet 支援三種方式記錄不同的會議形式，包括：
+ Google Meet 即時會議記錄 Microsoft Teams 即時會議記錄 上傳音檔  未來將支援更多線上會議平台。
+2. 我該怎麼開始 Google Meet 會議記錄？ # 您有多種方式可以邀請 SeaMeet 機器人加入您的 Google Meet 會議並記錄。
+ 方法一：在 Google Meet 會議中使用 SeaMeet 擴充程式 邀請 方法二：在 SeaMeet 會議清單輸入 Google Meet 會議 ID 以開始新會議記錄 方法三：在 Google 日曆寄送邀請給 SeaMeet 機器人 (meet@seasalt.ai) 加入會議 方法四：綁定 Google 日曆，機器人會自動加入 Google 日曆上的所有會議  詳細操作方式可以參考如下連結： https://wiki.seasalt.ai/zh/seameet/seameet-manual/01-seameet-intro/ https://wiki.seasalt.ai/zh/seameet/auto-join/
+3. 我該怎麼開始 Microsoft Teams 會議記錄？ # 若要開始錄製 Microsoft Teams 會議，請提供該會議的連結。</description>
     </item>
     
     <item>
