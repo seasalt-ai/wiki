@@ -15,14 +15,14 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
-### 08/21
+### 08/21/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Refined meeting notes page layout
 - Improved sign-in and onboarding experience
 - Fixed issue where some Google Meet sessions could not be recorded due to recent Google Meet updates
 - Fixed issue where the upload prompt reappeared after completing an audio upload
 
-### 08/15
+### 08/15/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Improved Google account sign-up and sign-in flow experience
 - Enhanced overall product sign-up/sign-in flow and sign-up page layout
