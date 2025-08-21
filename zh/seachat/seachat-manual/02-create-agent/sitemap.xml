@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/create-new-agent/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/agent-information/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -36,7 +36,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/live-agent-transfer/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -53,21 +53,21 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/version-control/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/conversation/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/manual/analytics/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -84,7 +84,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/</loc>
-      <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+      <lastmod>2025-08-21T16:25:18-07:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -100,7 +100,7 @@
     </url>
     <url>
         <loc>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/rag/</loc>
-        <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+        <lastmod>2025-08-21T16:25:18-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -116,7 +116,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/context-extraction/</loc>
-        <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+        <lastmod>2025-08-21T16:25:18-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -132,7 +132,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seachat/seachat-manual/02-create-agent/03-advanced-settings/04-time-awareness-context/</loc>
-        <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+        <lastmod>2025-08-21T16:25:18-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -148,7 +148,7 @@
       </url>
       <url>
         <loc>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/kb-references/</loc>
-        <lastmod>2025-08-21T12:39:08-07:00</lastmod>
+        <lastmod>2025-08-21T16:25:18-07:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
         <xhtml:link
