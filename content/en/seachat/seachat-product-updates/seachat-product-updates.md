@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-01-15-24T08:48:57+00:00
+lastmod: 2025-08-21T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,8 +16,19 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 08/21/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added auto-hangup configuration for SeaX calls integration
+- Fixed bugs in html embedded widget code
+- Updated auto-timeout transfer: now it switches back to the AI agent based on the last human activity, instead of only when the last message was sent by the user
+
+### 08/15/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed a bug where error messages appeared when conversing with the AI agent while the custom GPT tool was enabled.
+- Added a feature to the conversation page's filter dropdown that allows sorting conversations by user feedback scores, either from highest to lowest or lowest to highest.
+
 ### 08/07/2025
-##### **<font color="#739963">New Features and Improvements</font>**
+##### **<font color="#739963">New Features & Improvements</font>**
 - Users of Meta apps (Messenger, Instagram, WhatsApp) can now add reactions to messages from live agents and bots, and our UI will display these reactions.
 - When starting a conversation in Webchat or the Widget, the first user message will have an opacity effect to enhance the user experience and indicate that the conversation is loading.
 - A new CSAT section has been added to the SeaChat Analytics page, allowing you to view ratings within the selected time range and download all customer feedback from that period.

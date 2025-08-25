@@ -14,244 +14,337 @@ weight: 200
 toc: true
 ---
 
-## 1. **How do I start meeting transcription?**
+## 1. **What types of meeting recordings and platforms does SeaMeet support?**
 
-You can invite the SeaMeet Copilot to join the meeting in Google Calendar or Google Meet. Once the meeting starts, the Copilot will automatically join and begin transcription.
+SeaMeet supports three ways of recording different meeting formats, including:
 
-## 2. **Which meeting platforms does SeaMeet support?**
+1. Real-time recording for Google Meet
+2. Real-time recording for Microsoft Teams
+3. Audio file uploads
 
-Currently, SeaMeet supports transcribing meetings held in Google Meet. More meeting platforms will be supported in the future.
+More online meeting platforms will be supported in the future.
 
-## 3. **Which languages does SeaMeet support?**
+## 2. **How do I start recording a Google Meet session with SeaMeet?**
 
-SeaMeet currently supports transcribing meetings in Chinese and English. Support for additional languages will be expanded gradually.
+You have several ways to invite the SeaMeet bot to join your Google Meet and record:
 
-## 4. **Can I collaborate with my team members?**
+1. Method 1: Use the SeaMeet Chrome extension within Google Meet to invite.
+2. Method 2: Enter the Google Meet ID in the SeaMeet meeting list to start a new recording.
+3. Method 3: Send a Google Calendar invite to the SeaMeet bot ([meet@seasalt.ai](mailto:meet@seasalt.ai)) to join the meeting.
+4. Method 4: Link your Google Calendar, and the bot will automatically join all scheduled meetings.
 
-Absolutely. Simply invite your team members to your workspace, and they will be able to see all meetings in the shared workspace and collaboratively edit meeting records.
+## 3. **How do I start recording a Microsoft Teams meeting?**
 
-## 5. **What is a workspace?**
+To record a Microsoft Teams meeting, please provide the meeting link.
 
-A workspace is where you manage all your meetings, team members, and plans.
+The link format must begin with:
+[https://teams.microsoft.com/l/meetup-join](https://teams.microsoft.com/l/meetup-join)...
 
-### **5-1. How do I manage meetings in the workspace?**
+*SeaMeet supports links starting with teams.microsoft.com generated from Microsoft 365 Business or Enterprise accounts. Currently, links starting with teams.live.com from free accounts (Free, Personal, or Family) are not supported.*
 
-Any transcribed meeting records will be stored in the workspace. You can manage future, ongoing, and completed meetings in the workspace.
+You can obtain the meeting link by:
 
-### **5-2. How do I collaborate with my team in the workspace?**
+* Clicking **Copy meeting link** in the Teams meeting.
+* Or selecting **Copy join link** from the Teams calendar.
 
-You can invite team members to join the workspace to collaboratively view and edit meeting records. You can also set different permissions for better management of the workspace.
+## 4. **How do I upload an audio file? What formats are supported?**
 
-### **5-3. How do I choose a plan?**
+Go to the audio file list, click **Upload Audio**, and either select or drag-and-drop the file into the upload box.
 
-If you want more transcription hours or advanced features, feel free to **upgrade your workspace plan** or **contact our customer service at seameet@seasalt.ai**. We will be happy to assist you.
+* Free plan users can upload up to 5 audio files, but can only view the first 3 minutes of transcription.
+* Individual plan users can upload up to 100 audio files per month.
+* Team plan users can upload up to 200 audio files per month.
 
-## 6. **How do I log in to SeaMeet?**
+Supported formats: .aac, .flac, .m4a, .mp3, .mp4, .ogg, .opus, .wav, .webm, .wma, .wmv
 
-You can log in to SeaMeet using your Google account or register using your email.
+## 5. **Does SeaMeet support in-person meetings?**
 
-## 7. **Can I edit already recorded transcripts?**
+Yes, SeaMeet supports two methods for in-person meetings:
 
-You can use the export to Google Docs feature to edit. Editing is currently not allowed on the SeaMeet meeting page, but this feature is expected to be supported soon.
+1. Record the meeting audio yourself and upload it to SeaMeet for processing.
+2. In hybrid meetings, open Google Meet, and SeaMeet will help record the entire session.
 
-## 8. **Can I download meeting audio files?**
+In-person meetings often include multiple speakers. After the meeting, you can use **Speaker Identification** and **Speaker Reassignment** features to distinguish speakers.
 
-Downloading meeting audio files is currently not allowed.
+## 6. **Can SeaMeet detect and differentiate speakers in a meeting?**
 
-## 9. **Does SeaMeet support in-person meetings? Can I change the speaker?**
+Yes, SeaMeet can label speakers as “Speaker 1,” “Speaker 2,” etc., and allows you to reassign them to actual participant names in bulk. The recognition works best when there are 2–6 participants.
 
-You can use a computer to open Google Meet for meeting recording during in-person meetings. However, features like changing the speaker for in-person meetings are not yet available and are expected to be provided in Q1 2024.
+## 7. **What languages does SeaMeet support for transcription?**
 
-## 10. **If I have multiple workspaces, can I store meetings in different workspaces separately? Can I switch languages?**
+SeaMeet currently supports the following languages:
 
-If the meeting is scheduled in Google Calendar, the storage location and language will be determined according to the default language and default workspace in "Personal Settings - Meeting Settings". If you use the Chrome application to invite, you can specify which workspace to store it in.
+* English (U.S., Singapore)
+* Spanish (Spain, Latin America)
+* French
+* German
+* Polish
+* Danish
+* Mandarin (Traditional, Taiwan)
+* Cantonese (Traditional, Hong Kong; Simplified)
+* Japanese
+* Korean
+* Vietnamese
+* Thai
+* Hindi
 
-## 11. **Why does SeaMeet Copilot still join the meeting even after I've turned off the auto-join feature?**
+More languages will be added in the future.
 
-First, please disconnect your Google Calendar in order to stop SeaMeet Copilot from synchronizing with your Google Calendar. Go to **Account** -> **Integration** to disconnect Google Calendar.
+## 8. **Can I collaborate with my team members? What are the differences between Team and Personal plans? How many accounts does my team need?**
 
-If after disconnecting, SeaMeet Copilot still joins the meeting, it is because the meeting was scheduled before the disconnection. In this case, you can manually remove the meeting from your meeting list. Go to **Meeting List** and find the future meetings with the turquoise background. Simply click on the trash can icon to delete the meeting.
+Yes. By upgrading to the Team plan, you can invite your team members to your workspace.
+Team members can view all shared meetings in the workspace and co-edit meeting notes.
 
-## 12. **As a registered user, can I invite the copilot back to the meeting if the copilot leaves the meeting?**
+In addition, the Team plan provides:
 
-Yes, you can invite the copilot back to the meeting. You can go to your meeting list and click on **Start Recording** to invite the copilot back to the meeting.
+* More transcription hours
+* The ability to run up to 3 meetings simultaneously
 
-## 13. **If I use an unregistered account, will the registered user be able to see the meeting records?**
+We recommend subscribing to as many accounts as the number of members who need to record meetings.
+For full team adoption of SeaMeet, please **contact us**.
 
-If the registered user has invited the copilot to the meeting, then the registered user will be able to see the meeting records. Moreover, if the registered user has scheduled the meeting in the meeting list, they can use the auto-share feature to share the meeting records with everyone that is invited to that meeting. Simply go to **General** -> **Auto Share** and choose **All participants in calendar event**. You can take a look at our [tutorial](https://wiki.seasalt.ai/en/seameet/sharing/) for more information.
+## 9. **What is a workspace?**
 
-## 14. **Will the registered user be able to receive the meeting transcription if they join a meeting scheduled by other users?**
+A workspace is where you manage all your meetings, team members, and subscription plans.
 
-If the registered user invites the copilot to the meeting, then the registered user will be able to receive the meeting transcription. If the registered user has not invited the copilot to the meeting, then they will not be able to receive the meeting transcription. However, if the meeting owner has enabled the auto-share feature, the meeting transcription will be shared with everyone that is invited to the meeting.
+### **9-1. How do I manage meetings in a workspace?**
 
-## 15. **Where can I see the email that I have set up for auto-sharing?**
+All transcribed meeting notes are stored in the workspace. You can manage them whether they are upcoming, ongoing, or completed.
 
-Go to **Workspace** -> **General** -> **Auto Share**. You can see the email that you have set up for auto-sharing in the **Auto Share** section.
+### **9-2. How do I collaborate in a workspace with my team?**
 
-## 16. **Do I need to confirm the invitation email for the copilot to join the meeting?**
+You can invite team members to join the workspace to view and edit meeting notes together. You can also set different permissions for better workspace management.
 
-No, as long as you have invited the copilot to the meeting, and you have enough base minutes left, the copilot will automatically join the meeting.
+### **9-3. How do I choose a plan?**
 
-## 17. **Do I have to use Google Calendar to invite the copilot to the meeting?**
+If you need more transcription hours or advanced features, you can **upgrade your plan** or **contact our support team \<email: [seameet@seasalt.ai](mailto:seameet@seasalt.ai)>** for assistance.
 
-Not necessarily. SeaMeet provides multiple ways to invite the copilot to the meeting. You can find more information in our [tutorial](https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/).
+## 10. **How do I log in to SeaMeet?**
 
-## 18. **If a registered user hosts more than one meeting at the same time, will the copilot be able to join all the meetings?**
+You can log in using your Google or Microsoft account, or register with an email address.
 
-No, only users with team plans can host multiple meetings at the same time. If you are using an individual plan, you can only host one meeting at a time. The number of available copilots depends on the number of paid licenses. That is, if there are two paid licenses, you can invite two copilots to join the meetings.
+## 11. **Do you support Google Education accounts?**
 
-## 19. **How long does a meeting stay in the meeting list? How can we know which meeting in the meeting list lasted the longest?**
+Yes, SeaMeet supports Google Education accounts.
 
-Currently, meetings do not have an expiration date. You can see the meeting duration of each meeting in the meeting list.
+However, due to Google’s restrictions, you cannot directly invite the SeaMeet bot to a meeting initiated by an Education account.
+To enable this feature, please email [seameet@seasalt.ai](mailto:seameet@seasalt.ai), and we will help activate your account so the bot can join your future meetings.
 
-## 20. **How much would I pay if I use more than the 50 hours of base minutes? Does the system notify the user when the base minutes are running out?**
+## 12. **Can I edit transcripts that have already been recorded?**
 
-After you exceed the 50 hours of base minutes, you will be charged $1 per hour. You can always check the remaining base minutes and the minutes used at the bottom of your sidebar.
+You can export transcripts to Google Docs for editing. Editing directly within the SeaMeet meeting page is not yet supported.
 
-## 21. **Will the copilot quit the recording if the base minutes run out?**
+## 13. **If I have multiple workspaces, can I store meetings separately? Can I switch languages?**
 
-Currently, there are only two situations that will cause the copilot to quit the recording. One is when a user with the free plan uses more than six hours in total, and the other is when a single meeting exceeds the limits of certain hours. For free plan users, the limit is one hour. For paid plan individual users, the limit is three hours, and for paid plan team users, the limit is five hours.
+For meetings scheduled in Google Calendar, the storage location and language depend on your **Account → Meeting Preference** (default language and workspace).
 
-## 22. What if the language used in the meeting has more than one language. For example, a meeting in English and Chinese. How should I set the meeting language?
+If using the Chrome extension to invite the bot, you can specify which workspace to store the meeting in.
 
-Although one can set the meeting language to **Detect Language**, we recommand users to set the meeting language to the primary language used in the meeting for optimal performance. One way to do deal with multiple languages is to set the meeting language to the primary language used in the meeting and switch to the other language mid-meeting when the conversation will be conducted in that language. The transcription will then have both the primary language and the other language.
+## 14. **Why does SeaMeet Copilot still join meetings even after I disable auto-join?**
 
-## 23. Can I also record the video of the meeting? 
+First, disconnect your Google Calendar to stop synchronization.
+Go to **Account Settings → Integrations** and remove the Google Calendar connection.
 
-No, SeaMeet currently only supports transcribing and recording the audio of the meeting. Video recording is not supported at the moment.
+For meetings scheduled before the disconnection, manually delete them from the meeting list:
+Go to **Meeting List**, find the future meeting with a light-blue background, and click the trash icon to delete.
 
-## 24. Can I download the meeting recording?
+## 15. **As a subscriber, can I re-invite Copilot if it leaves a meeting?**
 
-Yes, user with paid plans can download the meeting recording. Free plan user can only listen to the recording on the SeaMeet platform.
+Yes. You can re-invite Copilot by going to your meeting list and clicking **Start New Recording**.
 
-## 25. Can SeaMeet discern between different speakers in a physical meeting?
+## 16. **If I use a non-subscriber account to host a meeting, can subscribers still view the meeting notes?**
 
-This feature is not yet available. However, we expect to provide an alternative feature by the end of 2024. Users can use one single resource of recording device to record a physical meeting and SeaMeet will identify the speakers based on the audio, and then user can manually change the speaker names in the transcription. 
+Yes. If a subscriber invites Copilot to the meeting, they can view the meeting notes.
+Subscribers can also enable **Auto Sharing** to share notes with all invited participants:
+Go to **General → Auto Share → All participants in calendar event (recommended)**.
 
-## 26. The copilot joined the meeting but accidentally left. If SeaMeet cannot automatically rejoin the meeting, how can I invite it again using a mobile device?
+For details, see our [guide](https://wiki.seasalt.ai/en/seameet/sharing/).
 
-You can invite the SeaMeet copilot to join the meeting again using a mobile device in the following two scenarios:
+## 17. **If a subscriber attends a meeting hosted by another user, can they still receive the meeting notes?**
 
-1. **For meetings that have not yet had the copilot record**: You can invite `meet@seasalt.ai` to the meeting through Google Calendar, ensuring that the copilot joins the meeting on time to start recording.
+* If the subscriber invited Copilot → They will receive notes.
+* If they did not invite Copilot → They will not receive notes, unless the host enabled Auto Sharing.
 
-2. **For meetings where the copilot has already been invited**: Simply log in to SeaMeet on your mobile device -> go to the meeting list page -> click on "Start Meeting" -> and paste the Google Meet ID to invite the copilot to rejoin the meeting.
+## 18. **Where can I see the emails set for auto-sharing?**
 
-> **Note**
->
-> To invite SeaMeet to record the same meeting again, make sure that the "previous SeaMeet meeting record" has ended. If the meeting was previously being recorded by SeaMeet, it may take about 30 seconds to a minute to process after stopping the meeting.
->
-> Be sure to wait until the previous recording has completely ended before making the second invitation, as otherwise, the system might determine that "the meeting is already being recorded," resulting in an invitation failure.
+Go to **Workspace → General → Auto Sharing** to view the list of auto-share emails.
 
-## 27. How can I use only the hours from the team workspace to automatically join meetings, instead of using the hours from my personal workspace?
+## 19. **Do I need to confirm invitation emails for Copilot to join meetings?**
 
-Currently, SeaMeet determines which plan's hours are deducted, **based on the workspace where the meeting is stored**.
-So, if you want the feature of "automatically joined meetings" to use the team plan's hours and store the meeting records in the team workspace, you can set the default workspace to the team workspace by following this path: **Account** -> **Meeting Preference** -> **Default Settings** -> **Default Workspace**.
+No. As long as Copilot is invited and you have enough transcription minutes, it will automatically join.
 
-## 28. What is the difference between the SeaMeet individual plan and the team plan?
+## 20. **Do I have to use Google Calendar to invite Copilot?**
 
-Here are the main differences between the two plans:
+No. SeaMeet provides multiple ways to invite Copilot. See our [guide](https://wiki.seasalt.ai/seameet/seameet-manual/01-seameet-intro/) for more details.
 
-1. The team plan allows multiple people to collaborate in the workspace, where everyone can view transcriptions in the backend, download audio, and export using Google Docs, etc.
-2. The team plan supports multiple simultaneous meetings, whereas the individual plan allows only one copilot to join a meeting at a time. For individual plan users, if the copilot is still attending Meeting A and the user starts another Meeting B, the copilot will not be able to join Meeting B.
+## 21. **Can Copilot join multiple meetings simultaneously for subscribers?**
 
-## 29. Why wasn't my meeting fully recorded?
-There are various reasons why a meeting might not be fully recorded. Please first check if the bot was admitted into the meeting by the host and successfully joined the meeting room. If so, confirm whether the bot stayed throughout the entire meeting or was removed by a participant at some point.
+Only Team plan users can run multiple concurrent meetings. Individual plan users can only host one meeting at a time.
 
-If the bot remained in the meeting room the entire time, please verify whether the recording and transcript are complete. Then send the SeaMeet meeting record link along with your issue description to <email: seameet@seasalt.ai> for further assistance.
+## 22. **How long are meetings stored in the meeting list? Can I see which one lasted the longest?**
 
-## 30. The bot can’t join and keeps spinning
-Please ask the Google Meet meeting host to check whether the bot's join request was received.
-If not, go to the SeaMeet meeting list to confirm whether the meeting was successfully created.
+Currently, meetings do not expire. You can view each meeting’s duration in the meeting list.
 
-## 31. Why does my meeting audio file show “File Not Found”?
-It may still be processing within five minutes after the meeting ends. If the file is still missing after ten minutes, please send the SeaMeet meeting record link to <email: seameet@seasalt.ai> for further investigation.
+## 23. **What happens when I exceed my included meeting hours? Will I be notified?**
 
-## 32. Why can’t I download the meeting audio?
-Audio downloads are currently only available for "Personal" and "Team" plan users. Free plan users do not have access to downloads yet.
+Once you exceed your plan’s hours, you’ll be charged \$1 per additional hour.
+You can check your remaining and used minutes at the bottom of the sidebar anytime.
 
-## 33. How do I record bilingual meetings in Chinese and English?
-To conduct a bilingual meeting, we recommend selecting “Traditional Chinese” as the transcription language. It can simultaneously recognize English speech.
+## 24. **Will Copilot stop recording when my included hours are used up?**
 
-## 34. How is SeaMeet bot usage time calculated?
-SeaMeet only starts counting recording time after the bot successfully joins the Google Meet room. If the bot does not enter the meeting, no time is counted.
-Binding your Google Calendar allows the bot to automatically attempt to join meetings, but time is not recorded unless the bot is admitted and records content.
+Only in two cases:
 
-For paid plans, the usage time resets every month, allowing the full monthly quota for transcription.
+1. Free plan users exceed 6 total hours.
+2. A single meeting exceeds time limits (1 hour for Free, 5 hours for paid plans).
 
-## 35. Can someone other than the meeting host invite the SeaMeet bot?
-Yes, anyone can invite the bot, but the meeting host must approve the bot’s entry.
-The recording will be associated with the account that invited the bot and time usage will be calculated accordingly.
+## 25. **What if my meeting uses multiple languages, e.g., English and Chinese?**
 
-If the meeting host is not a SeaMeet user, they cannot invite the bot on your behalf unless they have a SeaMeet account.
+We recommend setting the meeting language to the primary language.
+If switching languages mid-meeting, adjust settings accordingly to ensure both are captured.
 
-## 36. What happens after exceeding the monthly usage limit?
-Each plan includes a monthly quota. Once exceeded, additional usage will incur extra charges, but recordings can continue.
+## 26. **Can I use SeaMeet to record meeting video?**
 
-## 37. After the meeting ends, has the “View full meeting record” link in the summary email changed from Google Docs to the SeaMeet site?
-Yes, to provide a better experience for recipients, we’ve redesigned this.
+No. SeaMeet currently only supports transcription and audio recording, not video.
 
-Workspace users who click the link will be taken to the “SeaMeet meeting page.”
+## 27. **Can I download recordings or export data from SeaMeet?**
 
-Non-workspace users will see the “SeaMeet public share page,” which is view-only and cannot be edited.
+* Only **Individual** and **Team** users can download audio. Free users can only listen on the platform.
+* SeaMeet integrates with Google Drive, where all meeting records can be stored, owned, and shared by you.
 
-If the recipient hasn’t been invited or granted access, the content will be masked for security.
+## 28. **If the bot leaves a meeting, how do I re-invite it on mobile?**
 
-## 38. Where can I manage permissions for shared meeting pages?
-Each meeting has its own “Share List.”
-Click the Share button in the top-right corner of the meeting page to edit the share list or review access requests.
-If sharing is set to “Invite calendar attendees,” they will be automatically added to the view list.
+Two scenarios:
 
-## 39. How do I subscribe to an annual plan?
-The annual plan option is currently under development.
-If you need one now, please contact us at <email: seameet@seasalt.ai> and we’ll set it up manually.
+1. **Meeting not previously recorded**: Invite `meet@seasalt.ai` via Google Calendar.
+2. **Meeting already recorded**: Log in to SeaMeet → Meeting List → Start Meeting → Paste Google Meet ID.
 
-## 40. Why does my subscription only last until the end of this month? Why am I not charged $9.99/month?
-SeaMeet Personal Plan is billed monthly at $9.99, from the 1st to the end of each month.
-If you subscribe mid-month, a prorated charge will apply (e.g., subscribe on 4/20, you pay 1/3 of $9.99 for the remaining days).
+⚠️ *Important*: Ensure the previous recording has fully ended before re-inviting.
 
-## 1. Will adding admins or members increase the cost?
-Yes. In the Team Plan, each additional seat incurs a charge, which will be billed at the start of the next month.
+## 29. **How do I ensure auto-join uses Team plan hours instead of Personal?**
 
-## 42. Why can’t I remove my credit card directly?
-To prevent overdue charges for items like additional usage or new members, credit cards cannot be removed directly while a subscription is active.
-If you no longer need the service, we can help remove the card manually.
+SeaMeet determines billing based on the **workspace where the meeting is stored**.
+To use Team hours, set the Team workspace as the default:
+**Account → Meeting Preference → Default Workspace**
 
-If you prefer not to store a card, consider one-time payment options such as an annual plan with 12-month prepayment via bank transfer.
+## 30. **What are the main differences between Team and Individual plans?**
 
-## 43. Can you help improve recognition for commonly used company-specific terms?
-Yes! Please provide a glossary of commonly misrecognized terms so we can help improve accuracy.
+1. Team plan allows multiple users to access transcripts, download audio, and export to Google Docs.
+2. Team plan allows multiple concurrent Copilot sessions; Individual only allows one at a time.
 
-## 44. Does SeaMeet support Microsoft Teams?
-Microsoft Teams support is currently in internal testing and not yet available to general users.
-Public availability is planned for Q2 2025. At that time, you’ll be able to paste the meeting link to invite SeaMeet bot.
+## 31. **Why wasn’t my meeting fully recorded?**
 
-## 45. How do I change my login password?
-SeaMeet primarily uses Google login or OTP-based login. Password login is reserved for enterprise clients and currently cannot be edited directly by users.
+Possible reasons:
 
-## 46. Can I delete my account or workspace?
-SeaMeet does not yet offer self-serve account or workspace deletion.
-To ensure the bot won’t auto-join meetings, you can disconnect your Google Calendar.
-If you need to delete a workspace, please email <email: seameet@seasalt.ai>.
-⚠️ Note: Deleted workspaces cannot be recovered.
+* Bot was not admitted by the host
+* Bot was removed during the meeting
+* Recording or transcript processing failed
 
-## 47. Is SeaMeet secure?
-Yes — data security is our top priority when recording meetings.
-See our [Terms of Service](https://seasalt.ai/terms/) for details on our usage terms and security practices.
-For info on what data we collect and how we use it, see our [Privacy Policy](https://seasalt.ai/privacy/).
-We use WAF protection via Azure and AWS to prevent malicious access, and FIPS-compliant encryption to protect sensitive data.
-SeaMeet complies with CASA Level 2 security, performs regular Nessus vulnerability scans, and meets HECVAT standards and US data residency guarantees.
+If the bot stayed throughout but data is missing, please email [seameet@seasalt.ai](mailto:seameet@seasalt.ai) with the meeting link.
 
-## 48. Can the bot auto-join meetings without host approval?
-No — due to privacy and security concerns (especially for external meetings), host approval is required before the bot can join.
+## 32. **Why can’t the bot join and keeps spinning?**
 
-If you're unsure why a bot failed to join, please check this guide.
+Check if the host received the bot’s join request.
+If not, verify in the SeaMeet meeting list whether the meeting was created successfully.
 
-## 49. Can the bot’s display name be changed?
-Currently, there are no plans to support customizing the bot’s nickname.
+## 33. **Why does my meeting audio show “file not found”?**
 
-## 50. Can the bot be muted to not speak during meetings?
-Due to security policy constraints, this feature is not currently supported.
+Audio may still be processing within 5 minutes after the meeting ends.
+If not available after 10 minutes, email [seameet@seasalt.ai](mailto:seameet@seasalt.ai) with the meeting link.
 
-## 51. How do I disable the SeaMeet popup in every Google Meet session?
-The SeaMeet popup is a feature of the Chrome extension.
-To disable it, click the extension icon in the upper-right corner of Chrome and choose Manage Extensions to adjust the settings.
+## 34. **How is recording time calculated?**
+
+Time is only counted when the bot successfully joins the meeting.
+Calendar-linked auto-join attempts do not consume minutes unless admitted.
+
+Usage resets monthly for paid plans.
+
+## 35. **Can non-hosts invite SeaMeet to record a meeting?**
+
+Yes, but the host must admit the bot.
+The bot will retry joining every 1–2 minutes until admitted.
+
+If the host is also a SeaMeet user, they can invite using their account.
+
+## 36. **What if I exceed the included plan hours?**
+
+You can continue recording, but additional charges apply (see pricing chart).
+
+## 37. **Why do meeting summary emails now link to SeaMeet instead of Google Docs?**
+
+* Workspace users → redirected to SeaMeet meeting page
+* Non-workspace users → redirected to a share-only page (view-only)
+* Unauthorized users → blocked view (masked content)
+
+This ensures both convenience and security.
+
+## 38. **Where can I manage sharing permissions for meeting notes?**
+
+Each meeting has its own **share list**.
+Click the **Share** button on the meeting page to manage or approve viewer access.
+
+If “Share with calendar attendees” is enabled, attendees are auto-added.
+
+## 39. **How do I subscribe to an annual plan?**
+
+Annual subscription is under development.
+For now, contact [seameet@seasalt.ai](mailto:seameet@seasalt.ai) for manual setup.
+
+## 40. **Why does my subscription cycle end this month? Why isn’t it \$9.99 flat?**
+
+Subscriptions run from the 1st to the end of each month.
+Mid-month signups are prorated. (e.g., signup on 4/20 → pay 1/3 of \$9.99).
+
+## 41. **Does adding admins or members increase costs?**
+
+Yes. Each additional Team user seat incurs extra charges, billed the following month.
+
+## 42. **Why can’t I remove my credit card directly?**
+
+To prevent unpaid balances (usage, added seats), card removal isn’t allowed while subscribed.
+When unsubscribed, we can assist with card removal manually.
+
+Annual plans are available with one-time payments (wire transfer possible).
+
+## 43. **Can SeaMeet improve recognition of industry-specific terms?**
+
+Yes. Please provide a glossary of commonly misrecognized terms for correction.
+
+## 44. **How can I change my password?**
+
+Currently, login is via Google, Microsoft, or OTP.
+Password login is only for project clients and not user-editable.
+
+## 45. **Can I delete my account or workspace?**
+
+Direct deletion is not available.
+You can unlink Google Calendar to stop auto-join.
+
+If you need deletion, email [seameet@seasalt.ai](mailto:seameet@seasalt.ai). ⚠️ Once deleted, workspaces cannot be restored.
+
+## 46. **Is SeaMeet secure?**
+
+Yes. Security is our top priority.
+
+* See our [Terms of Service](https://seasalt.ai/terms/) and [Privacy Policy](https://seasalt.ai/privacy).
+* Web Application Firewall via Azure & AWS.
+* FIPS-compliant encryption.
+* CASA Level 2 security, Nessus scans, HECVAT certification, U.S. data residency.
+
+## 47. **Can the bot auto-join meetings without host approval?**
+
+No. Due to security concerns, host approval is always required.
+
+See [documentation](https://wiki.seasalt.ai/en/seameet/audio-upload/).
+
+## 48. **Can I change the bot’s nickname?**
+
+Not at this time.
+
+## 49. **Can I disable the bot from speaking in meetings?**
+
+No. This is restricted by security policy.
+
+## 50. **How do I disable the SeaMeet pop-up window in Google Meet?**
+
+The pop-up is part of the Chrome extension.
+Click the extension icon (top-right) → Manage Extensions.

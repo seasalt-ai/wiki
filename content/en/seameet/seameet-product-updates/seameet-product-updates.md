@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2024-12-10T08:48:57+00:00
+lastmod: 2025-08-21T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,8 +16,21 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 08/21/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Refined meeting notes page layout
+- Improved sign-in and onboarding experience
+- Fixed issue where some Google Meet sessions could not be recorded due to recent Google Meet updates
+- Fixed issue where the upload prompt reappeared after completing an audio upload
+
+### 08/15/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Improved Google account sign-up and sign-in flow experience
+- Enhanced overall product sign-up/sign-in flow and sign-up page layout
+- Updated content on the product landing page
+
 ### 08/07/2025
-##### **<font color="#739963">New Features and Improvements</font>**
+##### **<font color="#739963">New Features & Improvements</font>**
 - Fixed an issue where auto-sharing emails displayed non-clickable Google Docs when Google Drive was not connected
 - Fixed a sync error when multiple SeaMeet accounts were linked to the same Google Calendar
 - Updated options for auto-sharing emails
