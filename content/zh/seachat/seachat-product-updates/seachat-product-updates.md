@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: "掌握 SeaChat 最新版本發布資訊，了解新增功能、效能優化及錯誤修復，確保您隨時使用最穩定、最先進的 AI 助理功能。"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-08-21T08:48:57+00:00
+lastmod: 2025-09-04T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,17 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+### 09/04/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 在AI agent 基礎設定頁面，添加向客戶隱藏真人客服身份的選項。若啟用，真人客服仍可回覆客戶，但系統會隱藏訊息是來自AI還是真人，且主動客服請求功能將被停用。
+- 修復了KB上傳url，並文件數量超過當前訂閱方案上線頁面持續加載的漏洞。
+- 添加了AI助理分析儀表板和工作區分析儀表板。請見[分析教程](/zh/seachat/manual/analytics/)。
+
+### 08/28/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 新增自定義GPT工具，可透過上傳圖片進行商品探索。請見[客製GPT工具教程](/zh/seachat/seachat-manual/automation/custom-gpt-tool/#配置圖片搜尋工具的步驟)。
+- 新增Messenger, Instagram存取權杖自動更新功能，避免存取權杖失效問題。
+
 ### 08/21/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - SeaX 通話整合新增自動掛斷功能設定

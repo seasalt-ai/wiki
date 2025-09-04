@@ -103,9 +103,9 @@ SeaChat 目前支持一種類型的工具：
 
 **圖片搜尋**工具類型通過添加圖像處理功能來擴展搜尋和顯示工具的功能。此工具類型專門設計用於：
 
-* 接受用戶的圖像輸入（作為 URL 或上傳的文件）
+* 接受用戶上傳的圖像文件
 * 通過您的 API 端點處理這些圖像
-* 以帶有增強描述的可自定義卡片格式顯示結果
+* 可選：以帶有增強描述的可自定義卡片格式顯示結果
 
 ### 步驟 2：添加必填字段
 
@@ -137,7 +137,7 @@ SeaChat 目前支持一種類型的工具：
 
 </center>
 
-### 步驟 4：帶有描述的卡片設置
+### 步驟 4（可選）：帶有描述的卡片設置
 
 圖片搜尋工具通過在卡片設置部分添加**卡片描述**字段來增強卡片顯示功能：
 
@@ -160,16 +160,6 @@ SeaChat 目前支持一種類型的工具：
 
 <br/>
 
-<center>
-<a href="/images/seachat/zh/gpt-tools/image-tool-example.png">
-<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/image-tool-example.png"  alt="圖片搜尋卡片顯示">
-</a>
-
-<br/>
-
-*範例：最終的卡片顯示，顯示圖像下方帶有自定義描述。*
-
-</center>
 
 ### 步驟 5：測試您的 API 配置
 
@@ -214,6 +204,17 @@ SeaChat 目前支持一種類型的工具：
 ### 步驟 6：保存並完成
 
 成功測試您的圖片搜尋工具配置後，點擊保存按鈕以永久存儲您的設置。然後，該工具將可用於用戶提供圖像的對話中。
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/image-tool-example.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/image-tool-example.png"  alt="圖片搜尋卡片顯示">
+</a>
+
+<br/>
+
+*範例：用戶上傳圖像後，工具返回基於上傳圖像的響應。*
+
+</center>
 
 ## 配置電子郵件發送或簡訊發送工具的步驟
 

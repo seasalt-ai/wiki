@@ -207,9 +207,9 @@ Once you've confirmed that your Custom GPT Tool settings are working as expected
 
 The **Image Search** tool type extends the functionality of Search and Display tools by adding image processing capabilities. This tool type is specifically designed to:
 
-* Accept image inputs from users (either as URLs or uploaded files)
+* Accept image files uploaded by users
 * Process these images through your API endpoint
-* Display results in customizable card formats with enhanced descriptions
+* Optional: Display results in customizable card formats with enhanced descriptions
 
 ### Step 2: Add Required Fields
 
@@ -241,7 +241,7 @@ The Image Search tool introduces a new **Image Input Data** section that allows 
 
 </center>
 
-### Step 4: Card Settings with Description
+### Step 4 (Optional): Card Settings with Description
 
 The Image Search tool enhances the card display capabilities by adding a **Card Description** field in the Card Settings section:
 
@@ -264,16 +264,6 @@ The Image Search tool enhances the card display capabilities by adding a **Card 
 
 <br/>
 
-<center>
-<a href="/images/seachat/en/gpt-tools/image-tool-example.png">
-<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-example.png"  alt="Image Search Card Display">
-</a>
-
-<br/>
-
-*Example: The final card display showing the image with a custom description below it.*
-
-</center>
 
 ### Step 5: Test Your API Configuration
 
@@ -318,6 +308,17 @@ The Image Search tool provides flexible testing options based on your Image Inpu
 ### Step 6: Save and Done
 
 After successfully testing your Image Search tool configuration, click the Save button to permanently store your settings. The tool will then be available for use in conversations where users provide images.
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-example.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-example.png"  alt="Image Search Card Display">
+</a>
+
+<br/>
+
+*Example: User uploads image and the tool returns response based on the image uploaded.*
+
+</center>
 
 ## Steps to Configure Email-Sending or SMS-Sending Tools
 
