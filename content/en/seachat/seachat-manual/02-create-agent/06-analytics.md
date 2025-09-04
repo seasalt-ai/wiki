@@ -134,7 +134,7 @@ This analysis helps you:
 
 *Note: This section is only available in the AI Agent Analytics Dashboard as CSAT ratings are specific to each AI agent.*
 
-Track customer satisfaction through star ratings and feedback comments. Monitor satisfaction rates, rating distributions, and recent customer feedback to improve service quality. Link to conversations for each comments.
+Track customer satisfaction through star ratings and feedback comments. Monitor satisfaction rates, rating distributions, and recent customer feedback to improve service quality. Link to the conversation for each comment.
 
 <center>
 <a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-csat-section.png" target="_blank">
