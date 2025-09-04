@@ -23,7 +23,7 @@ toc: true
 
 ### 08/28/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
-- Added Image Search Custom GPT tool that calls API to search based on an uploaded image. See the [Custom GPT Tools tutorial](/zh/seachat/seachat-manual/automation/custom-gpt-tool/#配置圖片搜尋工具的步驟).
+- Added Image Search Custom GPT tool that calls API to search based on an uploaded image. See the [Custom GPT Tools tutorial](/seachat/seachat-manual/automation/custom-gpt-tools/#steps-to-configure-an-image-search-tool).
 - Added automatic Messenger and Instagram access-token refresh to prevent token expiration issues.
 
 ### 08/21/2025
