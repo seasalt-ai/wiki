@@ -65,8 +65,9 @@ Depending on your SeaChat channel, it might take different configurations to ena
       <pubDate>Fri, 14 Feb 2025 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/manual/analytics/</guid>
-      <description>SeaChat Analytics # Overview # The SeaChat Analytics feature provides valuable insights into user interactions with your AI chatbot. This dashboard enables you to track key performance metrics over time, helping measure engagement, optimize chatbot performance, and make data-driven decisions. Navigate to the Analytics tab below Agent Configuration to view the analytics page for a specific bot.
-📊 Track Chatbot Performance Monitor the number of conversations, unique visitors, and message activity to understand how users are engaging with your chatbot.</description>
+      <description>SeaChat Analytics Dashboards # Overview # SeaChat provides two comprehensive analytics dashboards to help you monitor and optimize your AI agent performance:
+  AI Agent Analytics Dashboard - Provides detailed insights into individual AI agent performance, including conversations, activity trends, label usage, and customer satisfaction metrics.
+  Workspace Analytics Dashboard - Offers an organization-wide view of all AI agents, conversations, and team performance metrics across your entire workspace.</description>
     </item>
     
   </channel>

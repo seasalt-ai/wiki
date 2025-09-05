@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>08/21/2025 # New Features &amp;amp; Improvements #  Added auto-hangup configuration for SeaX calls integration Fixed bugs in html embedded widget code Updated auto-timeout transfer: now it switches back to the AI agent based on the last human activity, instead of only when the last message was sent by the user  08/15/2025 # New Features &amp;amp; Improvements #  Fixed a bug where error messages appeared when conversing with the AI agent while the custom GPT tool was enabled.</description>
+      <description>09/04/2025 # New Features &amp;amp; Improvements #  Added an option on the AI Agent basic settings page to hide the human agent&amp;rsquo;s identity from customers. When enabled, human agents can still reply, but the UI won&amp;rsquo;t reveal whether a message is from AI or a human, and the proactive/live-agent request feature will be disabled. Fixed issues with KB (knowledge base) URL uploads and a bug where the page would keep loading if the number of documents exceeded the current subscription plan&amp;rsquo;s limit.</description>
     </item>
     
   </channel>

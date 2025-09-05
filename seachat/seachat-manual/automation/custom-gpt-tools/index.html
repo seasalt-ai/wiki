@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-11-13T00:22:19-07:00">
-  <meta property="article:modified_time" content="2025-08-25T14:30:40-07:00">
+  <meta property="article:modified_time" content="2025-09-04T22:25:20-07:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-11-13T00:22:19CET",
-      "dateModified": "2025-08-25T14:30:40CET",
+      "dateModified": "2025-09-04T22:25:20CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/seachat/seachat-manual/automation/custom-gpt-tools/#/schema/breadcrumb/1"
       },
@@ -1479,6 +1479,16 @@
         <li><a href="#step-5-save-and-done">Step 5: Save and Done</a></li>
       </ul>
     </li>
+    <li><a href="#steps-to-configure-an-image-search-tool">Steps to Configure an Image Search Tool:</a>
+      <ul>
+        <li><a href="#step-1-select-tool-type-1">Step 1: Select Tool Type</a></li>
+        <li><a href="#step-2-add-required-fields-1">Step 2: Add Required Fields</a></li>
+        <li><a href="#step-3-image-input-data-configuration">Step 3: Image Input Data Configuration</a></li>
+        <li><a href="#step-4-optional-card-settings-with-description">Step 4 (Optional): Card Settings with Description</a></li>
+        <li><a href="#step-5-test-your-api-configuration">Step 5: Test Your API Configuration</a></li>
+        <li><a href="#step-6-save-and-done">Step 6: Save and Done</a></li>
+      </ul>
+    </li>
     <li><a href="#steps-to-configure-email-sending-or-sms-sending-tools">Steps to Configure Email-Sending or SMS-Sending Tools</a>
       <ul>
         <li><a href="#step-1-add-required-fields">Step 1: Add Required Fields</a></li>
@@ -1514,6 +1524,16 @@
         <li><a href="#step-5-save-and-done">Step 5: Save and Done</a></li>
       </ul>
     </li>
+    <li><a href="#steps-to-configure-an-image-search-tool">Steps to Configure an Image Search Tool:</a>
+      <ul>
+        <li><a href="#step-1-select-tool-type-1">Step 1: Select Tool Type</a></li>
+        <li><a href="#step-2-add-required-fields-1">Step 2: Add Required Fields</a></li>
+        <li><a href="#step-3-image-input-data-configuration">Step 3: Image Input Data Configuration</a></li>
+        <li><a href="#step-4-optional-card-settings-with-description">Step 4 (Optional): Card Settings with Description</a></li>
+        <li><a href="#step-5-test-your-api-configuration">Step 5: Test Your API Configuration</a></li>
+        <li><a href="#step-6-save-and-done">Step 6: Save and Done</a></li>
+      </ul>
+    </li>
     <li><a href="#steps-to-configure-email-sending-or-sms-sending-tools">Steps to Configure Email-Sending or SMS-Sending Tools</a>
       <ul>
         <li><a href="#step-1-add-required-fields">Step 1: Add Required Fields</a></li>
@@ -1545,9 +1565,10 @@
 <h2 id="getting-started">Getting Started <a href="#getting-started" class="anchor" aria-hidden="true">#</a></h2>
 <p>To set up this feature, after logging into SeaChat, navigate to <strong>Agent Configuration</strong> -&gt; <strong>Integrations</strong> -&gt; <strong>Custom GPT Tools</strong>.</p>
 <blockquote>
-<p>SeaChat currently supports three types of tools:</p>
+<p>SeaChat currently supports four types of tools:</p>
 <ul>
 <li><strong>Search and Display Tools</strong>: These tools allow SeaChat to perform an external search using your API and fetch additional information based on the conversation context. The search results will be displayed in webchat as plaintext or as a carousel of cards.</li>
+<li><strong>Image Search</strong>: Similar to Search and Display but with enhanced image processing capabilities. This tool allows SeaChat to accept image inputs from users, process them through your API, and display results as cards with custom descriptions.</li>
 <li><strong>Send Email</strong>: Automate email sending based on your instructions. Ensure you specify the purpose, recipients, and conditions. To send emails to users, collect their email addresses via a webchat form.</li>
 <li><strong>Send SMS</strong>: Automate SMS sending based on your instructions. Define the purpose, recipients, and conditions. To send SMS to users, ensure access to their phone numbers through the channel or a webchat form.</li>
 </ul>
@@ -1642,6 +1663,92 @@
 </center>
 <h3 id="step-5-save-and-done">Step 5: Save and Done <a href="#step-5-save-and-done" class="anchor" aria-hidden="true">#</a></h3>
 <p>Once you&rsquo;ve confirmed that your Custom GPT Tool settings are working as expected, you can proceed to save the configuration by clicking the Save button to save your Custom GPT Tool settings permanently.</p>
+<h2 id="steps-to-configure-an-image-search-tool">Steps to Configure an Image Search Tool: <a href="#steps-to-configure-an-image-search-tool" class="anchor" aria-hidden="true">#</a></h2>
+<h3 id="step-1-select-tool-type-1">Step 1: Select Tool Type <a href="#step-1-select-tool-type-1" class="anchor" aria-hidden="true">#</a></h3>
+<p>The <strong>Image Search</strong> tool type extends the functionality of Search and Display tools by adding image processing capabilities. This tool type is specifically designed to:</p>
+<ul>
+<li>Accept image files uploaded by users</li>
+<li>Process these images through your API endpoint</li>
+<li>Optional: Display results in customizable card formats with enhanced descriptions</li>
+</ul>
+<h3 id="step-2-add-required-fields-1">Step 2: Add Required Fields <a href="#step-2-add-required-fields-1" class="anchor" aria-hidden="true">#</a></h3>
+<p>Similar to other Custom GPT Tools, you&rsquo;ll need to provide:</p>
+<ul>
+<li><strong>Enable the Tool</strong>: Turn on the <strong>Enable</strong> switch to activate the tool for automatic use in relevant conversations.</li>
+<li><strong>Tool Name</strong>: Enter a unique name using only letters (A-Z, a-z), numbers (0-9), underscores (_), or hyphens (-).</li>
+<li><strong>HTTP Method</strong>: Select the appropriate HTTP method (<code>POST</code> is commonly used for image processing).</li>
+<li><strong>Endpoint URL</strong>: Provide your API endpoint URL that will process the image requests.</li>
+<li><strong>Description</strong>: Write a clear description to help GPT understand when and how to use this image search tool.</li>
+</ul>
+<h3 id="step-3-image-input-data-configuration">Step 3: Image Input Data Configuration <a href="#step-3-image-input-data-configuration" class="anchor" aria-hidden="true">#</a></h3>
+<p>The Image Search tool introduces a new <strong>Image Input Data</strong> section that allows you to configure how images are sent to your API endpoint:</p>
+<ul>
+<li><strong>Image URL String</strong>: Select this option if your API expects to receive the image as a URL string. Users can provide image URLs, and SeaChat will pass them directly to your endpoint.</li>
+<li><strong>Image Data</strong>: Choose this option if your API requires the actual image binary data. Users can upload image files directly, and SeaChat will send the encoded image data to your endpoint.</li>
+</ul>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-image-input-data-configuration.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-image-input-data-configuration.png"  alt="Image Input Data Configuration">
+</a>
+<br/>
+<p><em>Example: Configuring how images are sent to your API - either as URL strings or as binary data.</em></p>
+</center>
+<h3 id="step-4-optional-card-settings-with-description">Step 4 (Optional): Card Settings with Description <a href="#step-4-optional-card-settings-with-description" class="anchor" aria-hidden="true">#</a></h3>
+<p>The Image Search tool enhances the card display capabilities by adding a <strong>Card Description</strong> field in the Card Settings section:</p>
+<ul>
+<li><strong>Card Description</strong>: This new field allows you to configure custom descriptions for each card in the results. You can use placeholders to dynamically populate descriptions based on API response data.</li>
+<li><strong>Image URL</strong>: Specify the field in your API response that contains the image URL.</li>
+<li><strong>Button Settings</strong>: Configure button titles and URLs for user interactions.</li>
+</ul>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-card-settings.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-card-settings.png"  alt="Card Settings with Description">
+</a>
+<br/>
+<p><em>Example: Card settings showing the new Card Description field for customizing how results are displayed.</em></p>
+</center>
+<br/>
+<h3 id="step-5-test-your-api-configuration">Step 5: Test Your API Configuration <a href="#step-5-test-your-api-configuration" class="anchor" aria-hidden="true">#</a></h3>
+<p>The Image Search tool provides flexible testing options based on your Image Input Data configuration:</p>
+<p><strong>For Image URL String configuration:</strong></p>
+<ul>
+<li>Enter a test image URL in the testing area</li>
+<li>SeaChat will send this URL to your API endpoint</li>
+<li>Review the response to ensure proper processing</li>
+</ul>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-test-with-image-url.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-test-with-image-url.png"  alt="Testing with Image URL">
+</a>
+<br/>
+<p><em>Example: Testing the Image Search tool with an image URL string.</em></p>
+</center>
+<p><strong>For Image Data configuration:</strong></p>
+<ul>
+<li>Upload a test image file directly</li>
+<li>SeaChat will encode and send the image data to your API</li>
+<li>Verify the API processes the binary data correctly</li>
+</ul>
+<br/>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-test-with-image-file.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-test-with-image-file.png"  alt="Testing with Image Upload">
+</a>
+<br/>
+<p><em>Example: Testing the Image Search tool by uploading an image file.</em></p>
+</center>
+<h3 id="step-6-save-and-done">Step 6: Save and Done <a href="#step-6-save-and-done" class="anchor" aria-hidden="true">#</a></h3>
+<p>After successfully testing your Image Search tool configuration, click the Save button to permanently store your settings. The tool will then be available for use in conversations where users provide images.</p>
+<center>
+<a href="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-example.png">
+<img height="100%" width="100%" src="https://wiki.seasalt.ai/images/seachat/en/gpt-tools/image-tool-example.png"  alt="Image Search Card Display">
+</a>
+<br/>
+<p><em>Example: User uploads image and the tool returns response based on the image uploaded.</em></p>
+</center>
 <h2 id="steps-to-configure-email-sending-or-sms-sending-tools">Steps to Configure Email-Sending or SMS-Sending Tools <a href="#steps-to-configure-email-sending-or-sms-sending-tools" class="anchor" aria-hidden="true">#</a></h2>
 <h3 id="step-1-add-required-fields">Step 1: Add Required Fields <a href="#step-1-add-required-fields" class="anchor" aria-hidden="true">#</a></h3>
 <p>You need to provide several key pieces of information:</p>
