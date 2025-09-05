@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-08-21T08:48:57+00:00
+lastmod: 2025-09-04T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,26 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 09/04/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Optimized mobile experience, adjusting layouts for the meeting page and sidebar on mobile devices
+- Improved display logic for the "Workspaces"
+- Fixed an issue where ongoing Microsoft Teams meetings could be invited repeatedly within the same workspace
+- Enhanced backup and storage logic for Microsoft Teams meeting audio files
+- Added a one-click "Copy Summary" button
+
+### 08/28/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added support for Microsoft account sign-up and sign-in, with updated onboarding flows for different registration methods
+- Added support for Outlook Calendar integration, including auto-join for Teams meetings
+- Teams meetings created via Outlook calendar integration now automatically generate corresponding meeting titles
+- Added support for various Teams meeting link formats, including teams.microsoft.com, launcher links, and links copied from Google Calendar
+- Updated content of calendar reminder pop-ups
+- Added Team Plan description and link
+- Fixed issue where transcripts on the meeting notes page did not auto-scroll
+- Fixed issue where recording controls overlapped transcripts during generation
+- Fixed issue where the "Start Recording" button in the extension overlapped the "Workspace" dropdown
+
 ### 08/21/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Refined meeting notes page layout

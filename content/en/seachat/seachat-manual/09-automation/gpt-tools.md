@@ -46,9 +46,10 @@ In this 6th tutorial, we demonstrate how to automatically send information to ca
 To set up this feature, after logging into SeaChat, navigate to **Agent Configuration** \-\> **Integrations** \-\> **Custom GPT Tools**. 
 
 >
-> SeaChat currently supports three types of tools:
+> SeaChat currently supports four types of tools:
 > 
 > - **Search and Display Tools**: These tools allow SeaChat to perform an external search using your API and fetch additional information based on the conversation context. The search results will be displayed in webchat as plaintext or as a carousel of cards.
+> - **Image Search**: Similar to Search and Display but with enhanced image processing capabilities. This tool allows SeaChat to accept image inputs from users, process them through your API, and display results as cards with custom descriptions.
 > - **Send Email**: Automate email sending based on your instructions. Ensure you specify the purpose, recipients, and conditions. To send emails to users, collect their email addresses via a webchat form.
 > - **Send SMS**: Automate SMS sending based on your instructions. Define the purpose, recipients, and conditions. To send SMS to users, ensure access to their phone numbers through the channel or a webchat form.
 > 
@@ -199,6 +200,125 @@ After filling out the required fields, a testing query will be automatically gen
 ### Step 5: Save and Done
 
 Once you've confirmed that your Custom GPT Tool settings are working as expected, you can proceed to save the configuration by clicking the Save button to save your Custom GPT Tool settings permanently.
+
+## Steps to Configure an Image Search Tool:
+
+### Step 1: Select Tool Type
+
+The **Image Search** tool type extends the functionality of Search and Display tools by adding image processing capabilities. This tool type is specifically designed to:
+
+* Accept image files uploaded by users
+* Process these images through your API endpoint
+* Optional: Display results in customizable card formats with enhanced descriptions
+
+### Step 2: Add Required Fields
+
+Similar to other Custom GPT Tools, you'll need to provide:
+
+* **Enable the Tool**: Turn on the **Enable** switch to activate the tool for automatic use in relevant conversations.
+* **Tool Name**: Enter a unique name using only letters (A-Z, a-z), numbers (0-9), underscores (_), or hyphens (-).
+* **HTTP Method**: Select the appropriate HTTP method (`POST` is commonly used for image processing).
+* **Endpoint URL**: Provide your API endpoint URL that will process the image requests.
+* **Description**: Write a clear description to help GPT understand when and how to use this image search tool.
+
+### Step 3: Image Input Data Configuration
+
+The Image Search tool introduces a new **Image Input Data** section that allows you to configure how images are sent to your API endpoint:
+
+* **Image URL String**: Select this option if your API expects to receive the image as a URL string. Users can provide image URLs, and SeaChat will pass them directly to your endpoint.
+* **Image Data**: Choose this option if your API requires the actual image binary data. Users can upload image files directly, and SeaChat will send the encoded image data to your endpoint.
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-image-input-data-configuration.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-image-input-data-configuration.png"  alt="Image Input Data Configuration">
+</a>
+
+<br/>
+
+*Example: Configuring how images are sent to your API - either as URL strings or as binary data.*
+
+</center>
+
+### Step 4 (Optional): Card Settings with Description
+
+The Image Search tool enhances the card display capabilities by adding a **Card Description** field in the Card Settings section:
+
+* **Card Description**: This new field allows you to configure custom descriptions for each card in the results. You can use placeholders to dynamically populate descriptions based on API response data.
+* **Image URL**: Specify the field in your API response that contains the image URL.
+* **Button Settings**: Configure button titles and URLs for user interactions.
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-card-settings.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-card-settings.png"  alt="Card Settings with Description">
+</a>
+
+<br/>
+
+*Example: Card settings showing the new Card Description field for customizing how results are displayed.*
+
+</center>
+
+<br/>
+
+
+### Step 5: Test Your API Configuration
+
+The Image Search tool provides flexible testing options based on your Image Input Data configuration:
+
+**For Image URL String configuration:**
+* Enter a test image URL in the testing area
+* SeaChat will send this URL to your API endpoint
+* Review the response to ensure proper processing
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-test-with-image-url.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-test-with-image-url.png"  alt="Testing with Image URL">
+</a>
+
+<br/>
+
+*Example: Testing the Image Search tool with an image URL string.*
+
+</center>
+
+**For Image Data configuration:**
+* Upload a test image file directly
+* SeaChat will encode and send the image data to your API
+* Verify the API processes the binary data correctly
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-test-with-image-file.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-test-with-image-file.png"  alt="Testing with Image Upload">
+</a>
+
+<br/>
+
+*Example: Testing the Image Search tool by uploading an image file.*
+
+</center>
+
+### Step 6: Save and Done
+
+After successfully testing your Image Search tool configuration, click the Save button to permanently store your settings. The tool will then be available for use in conversations where users provide images.
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-example.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-example.png"  alt="Image Search Card Display">
+</a>
+
+<br/>
+
+*Example: User uploads image and the tool returns response based on the image uploaded.*
+
+</center>
 
 ## Steps to Configure Email-Sending or SMS-Sending Tools
 

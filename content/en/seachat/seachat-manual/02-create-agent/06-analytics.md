@@ -1,8 +1,8 @@
 ---
 title: "Analytics"
-description: "Monitor statistics about conversation and messages with your bot over time."
+description: "Monitor statistics about conversation and messages with your AI agents and workspace over time."
 date: 2025-02-14T08:48:57+00:00
-lastmod: 2025-02-14T08:48:57+00:00
+lastmod: 2025-09-04T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,148 +15,169 @@ weight: 105
 toc: true
 ---
 
-## SeaChat Analytics
+## SeaChat Analytics Dashboards
+
 ### Overview
-The SeaChat Analytics feature provides valuable insights into user interactions with your AI chatbot. This dashboard enables you to track key performance metrics over time, helping measure engagement, optimize chatbot performance, and make data-driven decisions. Navigate to the `Analytics` tab below `Agent Configuration` to view the analytics page for a specific bot.
 
-📊 Track Chatbot Performance
-Monitor the number of conversations, unique visitors, and message activity to understand how users are engaging with your chatbot.
+SeaChat provides two comprehensive analytics dashboards to help you monitor and optimize your AI agent performance:
 
-📈 Measure Growth and Trends
-Compare data across different time ranges (Last 7 Days, Last 30 Days, etc.) to identify trends in chatbot usage and user behavior.
+1. **AI Agent Analytics Dashboard** - Provides detailed insights into individual AI agent performance, including conversations, activity trends, label usage, and customer satisfaction metrics.
 
-🤖 Optimize Chatbot Responses
-Analyze bot message statistics to see how effectively the chatbot is handling conversations and refine responses for better user satisfaction.
+2. **Workspace Analytics Dashboard** - Offers an organization-wide view of all AI agents, conversations, and team performance metrics across your entire workspace.
 
-👥 Improve Customer Engagement
-By tracking live agent requests and user interactions, businesses can identify opportunities to enhance customer support and automation strategies.
+Both dashboards enable you to track key performance metrics over time, measure engagement, optimize AI agent responses, and make data-driven decisions. Navigate to the `Analytics` tab below `Agent Configuration` to view the analytics for a specific AI agent, or access the Workspace Analytics from your workspace dashboard.
 
-🔄 Data-Driven Decision Making
-Use real-time analytics to refine chatbot workflows, improve response accuracy, and optimize user experience based on actual usage patterns.
+## Key Features
 
-### Settings
+📊 **Track Performance** - Monitor conversations, unique visitors, and message activity across all channels
 
-At the top of the page, there are a couple settings you can configure. First, select the timezone you would like the data to be presented in. Second, check the box for whether or not you would like to include conversations that have *no messages from the user*. For example, if a user opens the webchat and reads the welcome message, but does NOT send a message, the conversation will still be created and show up in the conversation statistics. If you check the setting box, conversations like this with no user messages will be *excluded* from the statistics.
+📈 **Measure Trends** - Compare data across different time ranges to identify usage patterns and growth
 
-By default, the dashboard data will update every hour. If you would like to refresh the data on demand, click the "Refresh Data" button.
+🏷️ **Label Analytics** - Analyze how labels are used and related to understand conversation categories
 
-### Basic Metrics
+🤖 **Optimize Responses** - Track AI agent vs human agent performance to improve automation
 
-<center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/01-seachat-analytics-settings-metrics.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/01-seachat-analytics-settings-metrics.png" alt="SeaChat Analytics Basic Metrics">
-</a>
+⭐ **Customer Satisfaction** - Monitor CSAT ratings and feedback to improve service quality
 
-**SeaChat Analytics Basic Metrics**
-</center>
+📅 **Yearly Insights** - View complete annual performance metrics and seasonal patterns
 
-The Metrics section in SeaChat Analytics provides a detailed breakdown of your chatbot's performance over a selected time range. You can customize the date range by choosing from:
+## Analytics Sections
 
-- Last Day
-- Last 7 Days
-- Last 30 Days
-- Last 90 Days
-- Last 180 Days
+### 1. Conversations Section
 
-Once a time range is selected, SeaChat will compare the chatbot's performance during that period to the same length of time immediately before it. For example:
-
-> If you select Last 7 Days, the displayed metrics will compare the last 7 days to the previous 7-day period.
-
-> If you select Last 30 Days, it will compare the last 30 days to the 30 days before that.
-
-#### Understanding the Metrics
-The key performance indicators (KPIs) displayed include:
-
-- Conversations – The total number of chatbot interactions initiated during the selected time period.
-- Unique Visitors – The number of distinct users who interacted with the chatbot.
-- Messages Received – The number of messages sent by users to the chatbot.
-- Bot Messages Sent – The number of responses generated by the chatbot.
-- Live Agent Requests – The number of times users requested a human agent.
-- Agent Messages Sent – The number of messages sent by live agents in conversations.
-
-Each metric includes a percentage change indicator, showing how it has increased or decreased compared to the previous equivalent time period. Green arrows indicate positive growth, while red arrows (if applicable) indicate a decline.
-
-This comparison helps businesses track chatbot performance trends over time, evaluate improvements, and identify areas for optimization.
-
-### Conversation Yearly Overview
+Track conversation volumes, message counts, and user interactions across different channels and time periods. Monitor AI agent vs. human agent engagement to optimize your support strategy.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/02-seachat-analytics-conversations-by-year.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/02-seachat-analytics-conversations-by-year.png" alt="SeaChat Analytics Conversation Yearly Overview">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-conversation-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-conversation-section.png" alt="SeaChat Analytics Conversations Section">
 </a>
 
-**Conversation Yearly Overview**
+**Conversations Analytics Dashboard**
 </center>
 
-The Conversation Overview section in SeaChat Analytics provides a high-level summary of chatbot interactions for a selected year. Users can choose a specific year from the dropdown menu to view key statistics on chatbot engagement during that period.
+Key metrics include:
+- Total conversations
+- Message volumes and trends
+- User engagement patterns
+- AI agent vs human agent distribution
+- Channel performance comparison
 
-- Total Number of Conversations – Displays the total count of chatbot conversations for the selected year.
-Average Number of Messages Per Conversation – Shows the average number of messages exchanged per conversation, helping assess user engagement levels.
-- Total Messages by Month
+### 2. Activity Trend Section
 
-Below the key metrics, a line graph visualizes the total number of messages exchanged with the chatbot each month. This allows users to:
-
-- Identify trends in chatbot activity over time.
-- Spot seasonal fluctuations or spikes in engagement.
-- Assess the impact of business campaigns or chatbot improvements on conversation volume.
-
-### Conversation & Messages Breakdown
-
-The Conversations Breakdown by Day, Time & Channel section allows users to analyze chatbot interactions across various channels and time periods within a custom date range. By selecting a specific start and end date, businesses can gain detailed insights into when and where most of their interactions are occurring.
+Monitor activity patterns between AI agents and human agents across different time periods. Track messages and calls to understand workload distribution and identify peak hours.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/03-seachat-analytics-conversation-breakdown-by-channel.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/03-seachat-analytics-conversation-breakdown-by-channel.png" alt="SeaChat Analytics Channel Breakdown">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-activity-trend-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-activity-trend-section.png" alt="SeaChat Analytics Activity Trend">
 </a>
 
-**Channel Breakdown**
+**Activity Trend Analysis**
 </center>
 
-The channel breakdown table displays the following data for each channel:
+Features include:
+- **Calls and Messages Tabs** - Switch between viewing call activity or message activity
+- **Time Unit Selection** - Choose to view trends by day, month, or year
+- **Agent Comparison** - Compare AI agent vs human agent activity levels
+- **Peak Hour Identification** - Identify busy periods for better resource planning
 
-- Channel – The different communication channels through which users are interacting with the chatbot (e.g., Webchat, LINE, WhatsApp, Voice, Messenger, etc.). All channels offered by SeaChat will automatically appear in the table once they have traffic.
-- Unique Visitors – The number of distinct users who engaged with the chatbot via each specific channel within the selected time frame.
-- Inbound Messages Received – The total number of messages sent by users across each channel during the selected date range.
+### 3. Label Usage Overview
 
-#### Setting Up Sub-Channel Tracking
-The SeaChat WebChat widget allows you to install a chat window directly in your own website.
-Some clients add the webchat widget to multiple sites and want to be able to track the amount of traffic from the widget on each site separately.
-By default, the channel breakdown will lump all the webchat traffic together into a single channel type called `WEBCHAT`.
-However, with a simple customization to the WebChat widget code, you can provide a specific "subchannel" name to each instance of the widget and track the traffic separately.
-Once you customize the webchat widget with subchannel information, all subsequent traffic will appear as `WEBCHAT - {subchannel}` in the table.
+Get insights into how many conversations each label is attached to, helping you understand the categorization of your customer interactions.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" alt="SeaChat Analytics WebChat Subchannel Setup">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-label-usage-overview-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-label-usage-overview-section.png" alt="SeaChat Analytics Label Usage Overview">
 </a>
 
-**WebChat Subchannel Setup**
+**Label Usage Overview**
 </center>
 
-Navigate to `Channels` -> `WebChat` -> `Install Widget` to find the WebChat widget code.
-Within this code block, there are four instances of your chatbot's webchat URL - it looks like this: `https://chat.seasalt.ai/chat/{chat_config_id}`.
-To distinguish different subchannels, simply append to following to the end of the URL: `?channel={subchannel_name}`. 
-For example, say you want to add the WebChat widget to your homepage as well as your wiki site.
-You could update the URL `https://chat.seasalt.ai/chat/aaaabbbbccccdddd` to `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=homepage` and add the widget code to your homepage.
-Then you could update the URL again to `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=wiki` and add the code to your wiki site.
-In the channel breakdown, you would see traffic from two separate channels: `WEBCHAT - homepage` and `WEBCHAT - wiki`.
+This section shows total conversations per label
+
+### 4. Label Usage by Period
+
+Analyze how label usage changes over time with detailed breakdowns by day, month, or year. Track label trends and identify patterns in conversation categorization.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/04-seachat-analytics-messages-by-day-of-week.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/04-seachat-analytics-messages-by-day-of-week.png" alt="SeaChat Analytics Day of the Week Breakdown">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-label-usage-by-period-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-label-usage-by-period-section.png" alt="SeaChat Analytics Label Usage by Period">
 </a>
 
-**Day of the Week Breakdown**
+**Label Usage Trends Over Time**
 </center>
 
-The 'Day of the Week' breakdown allows you to see how many user messages are sent to your bot on each day of the week. This allows you to identify trends of when users are engaging with your bot.
+Capabilities include:
+- Time-based label trend analysis
+- Comparison of label usage patterns
+- Identification of seasonal or recurring issues
+- Data export for deeper analysis
+
+### 5. Label Relationship Analysis
+
+Analyze how different labels appear together in conversations. Select two labels to discover overlap patterns, co-occurrence rates, and relationship insights for better label organization.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/05-seachat-analytics-messages-by-hour-of-day.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/05-seachat-analytics-messages-by-hour-of-day.png" alt="SeaChat Analytics Hour of the Day Breakdown">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-label-relationship-section.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-label-relationship-section.png" alt="SeaChat Analytics Label Relationship Analysis">
 </a>
 
-**Hour of the Day Breakdown**
+**Label Relationship Analysis - Example: New User and Solved Labels**
 </center>
 
-The 'Hour of the Day' breakdown allows you to see what time of day users are sending messages to your bot. This allows you to identify trends of when users are engaging with your bot, and may help with making decisions such as what times to have live agents online.
+This analysis helps you:
+- Understand label co-occurrences
+- Identify related conversation topics
+- Optimize label taxonomy
+- Discover hidden patterns in customer interactions
+
+### 6. Customer Satisfaction (CSAT)
+
+*Note: This section is only available in the AI Agent Analytics Dashboard as CSAT ratings are specific to each AI agent.*
+
+Track customer satisfaction through star ratings and feedback comments. Monitor satisfaction rates, rating distributions, and recent customer feedback to improve service quality. Link to the conversation for each comment.
+
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-csat-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-csat-section.png" alt="SeaChat Analytics CSAT Dashboard">
+</a>
+
+**Customer Satisfaction Analytics**
+</center>
+
+CSAT metrics include:
+- Overall satisfaction score
+- Rating distribution (1-5 stars)
+- Recent feedback comments
+- Satisfaction trends over time
+- Channel-specific satisfaction rates
+
+### 7. Yearly Overview
+
+View your complete yearly performance metrics including total conversations, messages, and monthly trends to understand your annual growth and seasonality patterns.
+
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-yearly-overview-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-yearly-overview-section.png" alt="SeaChat Analytics Yearly Overview">
+</a>
+
+**Yearly Performance Overview**
+</center>
+
+Annual insights include:
+- Total yearly conversations
+- Average messages per conversation
+- Monthly trend visualization
+- Year-over-year comparisons
+- Seasonal pattern identification
+- Growth metrics and milestones
+
+### Time Zone Configuration
+Select your preferred timezone for data presentation to ensure accurate time-based analytics.
+
+## Best Practices
+
+1. **Regular Monitoring** - Check your analytics dashboards weekly to stay informed about trends
+2. **Label Consistency** - Use consistent labeling to get meaningful insights from label analytics
+3. **CSAT Follow-up** - Act on customer feedback promptly to improve satisfaction scores
+4. **Peak Hour Planning** - Use activity trends to schedule human agents during busy periods
+5. **Channel Optimization** - Focus resources on high-performing channels based on conversation data

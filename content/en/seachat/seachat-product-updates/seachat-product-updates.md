@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-08-21T08:48:57+00:00
+lastmod: 2025-09-04T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,17 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 09/04/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added an option on the AI Agent basic settings page to hide the human agent's identity from customers. When enabled, human agents can still reply, but the UI won't reveal whether a message is from AI or a human, and the proactive/live-agent request feature will be disabled.
+- Fixed issues with KB (knowledge base) URL uploads and a bug where the page would keep loading if the number of documents exceeded the current subscription plan's limit.
+- Added the AI Assistant Analytics dashboard and the Workspace Analytics dashboard. See the [analytics tutorial](/en/seachat/manual/analytics/).
+
+### 08/28/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added Image Search Custom GPT tool that calls API to search based on an uploaded image. See the [Custom GPT Tools tutorial](/seachat/seachat-manual/automation/custom-gpt-tools/#steps-to-configure-an-image-search-tool).
+- Added automatic Messenger and Instagram access-token refresh to prevent token expiration issues.
+
 ### 08/21/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added auto-hangup configuration for SeaX calls integration
