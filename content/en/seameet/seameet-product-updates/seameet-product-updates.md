@@ -24,6 +24,8 @@ toc: true
 - If the user's mailbox does not support dynamic emails for the "Weekly Meeting Email", the email will redirect to the meeting list instead, with an explanation that expired meetings cannot be modified.
 - Clicking "Back to Previous Page" from a meeting page will now return to the exact position of that meeting in the meeting list.
 - Improved the guidance and messaging shown when an Outlook Calendar is linked with a non-Exchange Online mailbox.
+
+##### **<font color="#d66a60">Bugfix</font>**
 - Fixed an issue with incorrect tab styles on the meeting page.
 - Fixed an issue where meetings with the same date were displayed multiple times in the meeting list under certain conditions.
 - Fixed an issue where duplicate attendees appeared in Microsoft Teams meetings.
