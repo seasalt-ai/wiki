@@ -2,7 +2,7 @@
 title: "SeaX Release History"
 description: "Stay tuned with SeaX's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-09-04T08:48:57+00:00
+lastmod: 2025-09-12T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,15 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 09/12/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added IVR management page with voice prompt and business hour settings
+- Improved outbound call timeout to prevent early disconnection
+- Enabled call logging during close hours
+- Added structure to track agent status duration in real time
+- Improved logic to keep agent status when reconnecting within 15 minutes
+- Fixed issue where WhatsApp campaigns used the wrong sending number
+
 ### 09/04/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Updated call status logs to include assigned agent name

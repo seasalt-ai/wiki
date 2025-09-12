@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-09-04T08:48:57+00:00
+lastmod: 2025-09-12T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,12 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 09/12/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors.
+- Custom GPT Tool – Extra Message setting: After the agent executes a tool call and responds, it can automatically send an additional, configurable follow-up message (e.g., guidance/CTA).
+- Fix: In Webchat, the menu card no longer disappears after it's clicked to send the first message in a conversation.
+
 ### 09/04/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added an option on the AI Agent basic settings page to hide the human agent's identity from customers. When enabled, human agents can still reply, but the UI won't reveal whether a message is from AI or a human, and the proactive/live-agent request feature will be disabled.
