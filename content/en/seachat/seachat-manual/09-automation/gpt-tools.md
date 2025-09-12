@@ -2,7 +2,7 @@
 title: "Custom GPT Tools"
 description: ""
 date: 2024-11-13T00:22:19-07:00
-lastmod: 2024-11-13T00:22:19-07:00
+lastmod: 2025-09-12T00:22:19-07:00
 draft: false
 weight: 900
 
@@ -429,6 +429,160 @@ Once you've completed configuring your Custom GPT Tool email or SMS settings, cl
 *Example B: SMS with the content "The user has been flagged for inappropriate conduct."*
 
 </center>
+
+## Extra Message Settings
+
+The **Extra Message Settings** feature allows you to configure additional messages that will be automatically sent every time your AI agent responds using the API response from a Custom GPT Tool execution. This feature enables you to provide follow-up guidance, call-to-actions, or additional information after your tool has been executed.
+
+### Overview
+
+Extra Message Settings support three different message formats:
+
+* **Plain Text**: Send a simple text message
+* **Card**: Send a rich card with an image and buttons
+* **Buttons**: Send buttons without an image
+
+### Configuration Steps
+
+#### Step 1: Access Extra Message Settings
+
+When creating or editing a Custom GPT Tool, scroll down to find the **Extra Message Settings** section. This section appears for all tool types and allows you to configure what additional message should be sent after your tool executes successfully.
+
+#### Step 2: Choose Message Type
+
+Select from three available message types:
+
+**Plain Text Message:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_text.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_text.png"  alt="Extra Message Text Configuration">
+</a>
+
+<br/>
+
+*Configure a plain text message to be sent after tool execution*
+
+</center>
+
+**Card Message (with image and buttons):**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_card.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_card.png"  alt="Extra Message Card Configuration">
+</a>
+
+<br/>
+
+*Configure a rich card message with image and buttons*
+
+</center>
+
+**Buttons Only Message:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_buttons.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_buttons.png"  alt="Extra Message Buttons Configuration">
+</a>
+
+<br/>
+
+*Configure buttons-only message for quick actions*
+
+</center>
+
+#### Step 3: Configure Message Content
+
+**For Plain Text Messages:**
+- Enter your desired text in the message field
+- You can include placeholders or dynamic content as needed
+
+**For Card Messages:**
+- **Title**: Enter a title for your card
+- **Description**: Add descriptive text for the card
+- **Image URL**: Provide the URL for the card image
+- **Buttons**: Configure button text and actions (URLs or predefined responses)
+
+**For Buttons Only Messages:**
+- **Buttons**: Add one or more buttons with custom text and actions
+- Each button can link to a URL or trigger a specific response
+
+#### Step 4: Save and Test
+
+After configuring your extra message settings, save your Custom GPT Tool configuration. The extra message will now be automatically sent every time your tool is executed in a conversation.
+
+### Usage Examples
+
+Here are examples of how the extra messages appear in actual conversations:
+
+**Plain Text Example:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_example_text.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_example_text.png"  alt="Plain Text Extra Message Example">
+</a>
+
+<br/>
+
+*Example: Plain text extra message providing additional guidance after tool execution*
+
+</center>
+
+**Card Example:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_example_card.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_example_card.png"  alt="Card Extra Message Example">
+</a>
+
+<br/>
+
+*Example: Rich card extra message with image and action buttons*
+
+</center>
+
+**Buttons Example:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_example_buttons.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_example_buttons.png"  alt="Buttons Extra Message Example">
+</a>
+
+<br/>
+
+*Example: Button-based extra message for quick user actions*
+
+</center>
+
+### Use Cases
+
+Extra Message Settings are particularly useful for:
+
+* **Follow-up Actions**: Providing next steps after information is retrieved
+* **Call-to-Actions**: Encouraging users to take specific actions
+* **Additional Resources**: Offering related links or resources
+* **Feedback Collection**: Adding quick feedback buttons
+* **Navigation**: Helping users explore more options
+
+### Best Practices
+
+* Keep extra messages concise and relevant to the tool's function
+* Use cards for visually rich content that benefits from images
+* Use buttons for clear call-to-actions or navigation options
+* Test your extra messages to ensure they provide value to the user experience
+* Consider the context in which your tool will be used when designing extra messages
 
 ## Limits
 
