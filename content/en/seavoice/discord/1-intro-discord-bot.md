@@ -9,6 +9,7 @@ draft: false
 images: []
 aliases:
     - /seavoice/discord/discord_bot/
+    - /seavoice/
 toc: true
 url: /seavoice/discord/discord-bot/
 ---

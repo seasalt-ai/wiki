@@ -9,7 +9,7 @@
 
 [[main]]
   name = "SeaX"
-  url = "/seax/seax-messaging/bulk-messaging-features/"
+  url = "/seax/"
   weight = 20
 
 [[main]]
