@@ -1,5 +1,6 @@
 
-/seax/seax-messaging/seax-intro/ /en/seax/seax-omni/seax-intro/
+/seax/seax-messaging/seax-intro/ /seax/seax-omni/seax-intro/
+/seax/ /seax/seax-omni/seax-intro/
 /seax/seax-resources/seax-faq/ /en/seax/seax-resources/seax-faq/
 /en/seachat/seachat-intro/01-introduction/ /seachat/getting-started/01-seachat-intro/
 /seachat/seachat-intro/01-seachat-intro/ /seachat/getting-started/01-seachat-intro/
@@ -13,6 +14,7 @@
 /seameet/ /seameet/seameet-manual/01-seameet-intro/
 /seax/seax-messaging/whatsapp-business-platform/ /en/seax/seax-omni/whatsapp-business-platform/
 /seavoice/discord/discord_bot/ /seavoice/discord/discord-bot/
+/seavoice/ /seavoice/discord/discord-bot/
 /en/seameet/04-seameet-workspace/ /en/seameet/workspace/
 /en/seameet/05-seameet-workspace-management/ /en/seameet/workspace-management/
 /seax/seax-messaging/seax-whatsapp-integration/ /en/seax/seax-omni/seax-whatsapp-business-app/
