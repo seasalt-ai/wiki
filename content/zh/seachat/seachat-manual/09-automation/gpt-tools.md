@@ -2,7 +2,7 @@
 title: "客制GPT工具"
 description: ""
 date: 2025-01-06T08:48:45+00:00
-lastmod: 2024-01-06T08:48:45+00:00
+lastmod: 2025-09-12T08:48:45+00:00
 draft: false
 weight: 600
 url: /zh/seachat/seachat-manual/automation/custom-gpt-tool
@@ -216,6 +216,162 @@ SeaChat 目前支持一種類型的工具：
 
 </center>
 
+
+## 額外訊息設定
+
+**額外訊息設定** 此部分適用於所有搜尋和顯示工具和圖片搜尋工具，允許您配置工具成功執行後應發送的額外訊息。每當您的 AI 助理使用客制 GPT 工具執行後的 API 回應進行回覆時，這些訊息會自動發送。此功能使您能夠在工具執行後提供後續指導、行動呼籲或其他資訊。
+
+### 概述
+
+額外訊息設定支援三種不同的訊息格式：
+
+* **純文字**：發送簡單的文字訊息
+* **卡片**：發送帶有圖片和按鈕的豐富卡片
+* **按鈕**：發送不含圖片的按鈕
+
+### 配置步驟
+
+#### 步驟 1：存取額外訊息設定
+
+建立或編輯客制 GPT 工具時，向下滾動找到**額外訊息設定**部分。
+
+#### 步驟 2：選擇訊息類型
+
+從三種可用的訊息類型中選擇：
+
+**純文字訊息：**
+
+<br/>
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/extra_message_text.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/extra_message_text.png"  alt="額外訊息純文字配置">
+</a>
+
+<br/>
+
+*配置工具執行後發送的純文字訊息*
+
+</center>
+
+**卡片訊息（帶圖片和按鈕）：**
+
+<br/>
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/extra_message_card.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/extra_message_card.png"  alt="額外訊息卡片配置">
+</a>
+
+<br/>
+
+*配置帶有圖片和按鈕的豐富卡片訊息*
+
+</center>
+
+**僅按鈕訊息：**
+
+<br/>
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/extra_message_buttons.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/extra_message_buttons.png"  alt="額外訊息按鈕配置">
+</a>
+
+<br/>
+
+*配置用於快速操作的僅按鈕訊息*
+
+</center>
+
+#### 步驟 3：配置訊息內容
+
+**對於純文字訊息：**
+- 在訊息欄位中輸入您想要的文字
+- 您可以根據需要包含佔位符或動態內容
+
+**對於卡片訊息：**
+- **標題**：為您的卡片輸入標題
+- **描述**：為卡片添加描述性文字
+- **圖片 URL**：提供卡片圖片的 URL
+- **按鈕**：配置按鈕文字和URL
+
+**對於僅按鈕訊息：**
+- **按鈕**：添加一個或多個具有自定義文字和操作的按鈕
+- 每個按鈕可以連接到 URL
+
+#### 步驟 4：保存並測試
+
+配置額外訊息設定後，保存您的客制 GPT 工具配置。額外訊息現在將在您的工具在對話中執行時自動發送。
+
+### 使用範例
+
+以下是額外訊息在實際對話中出現的範例：
+
+**純文字範例：**
+
+<br/>
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/extra_message_example_text.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/extra_message_example_text.png"  alt="純文字額外訊息範例">
+</a>
+
+<br/>
+
+*範例：工具執行後提供額外指導的純文字額外訊息*
+
+</center>
+
+**卡片範例：**
+
+<br/>
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/extra_message_example_card.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/extra_message_example_card.png"  alt="卡片額外訊息範例">
+</a>
+
+<br/>
+
+*範例：帶有圖片和操作按鈕的豐富卡片額外訊息*
+
+</center>
+
+**按鈕範例：**
+
+<br/>
+
+<center>
+<a href="/images/seachat/zh/gpt-tools/extra_message_example_buttons.png">
+<img height="100%" width="100%" src="/images/seachat/zh/gpt-tools/extra_message_example_buttons.png"  alt="按鈕額外訊息範例">
+</a>
+
+<br/>
+
+*範例：用於快速用戶操作的基於按鈕的額外訊息*
+
+</center>
+
+### 使用場景
+
+額外訊息設定特別適用於：
+
+* **後續操作**：在檢索資訊後提供下一步操作
+* **行動呼籲**：鼓勵用戶採取特定行動
+* **額外資源**：提供相關連結或資源
+* **反饋收集**：添加快速反饋按鈕
+* **導航**：幫助用戶探索更多選項
+
+### 最佳實踐
+
+* 保持額外訊息簡潔並與工具功能相關
+* 對於受益於圖片的視覺豐富內容使用卡片
+* 對於明確的行動呼籲或導航選項使用按鈕
+* 測試您的額外訊息以確保它們為用戶體驗提供價值
+* 在設計額外訊息時考慮工具將使用的上下文
+
+
 ## 配置電子郵件發送或簡訊發送工具的步驟
 
 ### 步驟 1：添加必填字段
@@ -248,5 +404,4 @@ SeaChat 目前支持一種類型的工具：
 
 為確保最佳性能，客制 GPT 工具設置適用某些限制：
 
-* **字符限制**：工具名稱、描述、所有固定值參數（鍵和值）以及所有動態變量參數（鍵和描述）的組合字符數不得超過 1024 個字符。
 * **工具執行限制**：SeaChat 每個傳入的用戶消息最多激活一個啟用的 GPT 工具。這包括與日曆或實時代理轉接的任何集成，確保為每個對話選擇最相關的工具。

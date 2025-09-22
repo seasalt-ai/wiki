@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-09-04T08:48:57+00:00
+lastmod: 2025-09-12T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,27 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 09/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Updated the underlying system architecture to enhance overall stability and prevent potential performance degradation during extended use
+- Fixed an issue where binding with Outlook Calendar could cause synchronization errors, ensuring accurate display and updates of all meetings
+- Resolved an issue where the bot occasionally failed to join Google Meet sessions under certain conditions, improving the reliability of meeting assistance
+
+### 09/12/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added the "Executive Insights" feature for team plan users, providing summarized meeting analysis by workspace, with the option to send reports to designated email addresses.
+- Adjusted the sign-up and onboarding flow to help new users experience meeting transcription features earlier.
+- Updated the "Weekly Meeting Email" to a dynamic email, allowing users to adjust whether to invite the bot to specific meetings directly from the email.
+- When the bot joins a Microsoft Teams meeting, it will now send a message to the chats with details about the recording language, and a link to view the meeting notes.
+- If the user's mailbox does not support dynamic emails for the "Weekly Meeting Email", the email will redirect to the meeting list instead, with an explanation that expired meetings cannot be modified.
+- Clicking "Back to Previous Page" from a meeting page will now return to the exact position of that meeting in the meeting list.
+- Improved the guidance and messaging shown when an Outlook Calendar is linked with a non-Exchange Online mailbox.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed an issue with incorrect tab styles on the meeting page.
+- Fixed an issue where meetings with the same date were displayed multiple times in the meeting list under certain conditions.
+- Fixed an issue where duplicate attendees appeared in Microsoft Teams meetings.
+
 ### 09/04/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Optimized mobile experience, adjusting layouts for the meeting page and sidebar on mobile devices
