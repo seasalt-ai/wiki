@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>09/04/2025 # New Features &amp;amp; Improvements #  Added an option on the AI Agent basic settings page to hide the human agent&amp;rsquo;s identity from customers. When enabled, human agents can still reply, but the UI won&amp;rsquo;t reveal whether a message is from AI or a human, and the proactive/live-agent request feature will be disabled. Fixed issues with KB (knowledge base) URL uploads and a bug where the page would keep loading if the number of documents exceeded the current subscription plan&amp;rsquo;s limit.</description>
+      <description>09/18/2025 # New Features &amp;amp; Improvements #  Added Inline.app assistant integration settings page and support configurations to both staging and production environment.  09/12/2025 # New Features &amp;amp; Improvements #  New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors. Custom GPT Tool – Extra Message setting: After the agent executes a tool call and responds, it can automatically send an additional, configurable follow-up message (e.</description>
     </item>
     
   </channel>
