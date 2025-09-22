@@ -31,6 +31,8 @@ toc: true
 - Enabled call logging during close hours
 - Added structure to track agent status duration in real time
 - Improved logic to keep agent status when reconnecting within 15 minutes
+
+##### **<font color="#d66a60">Bugfix</font>**
 - Fixed issue where WhatsApp campaigns used the wrong sending number
 
 ### 09/04/2025

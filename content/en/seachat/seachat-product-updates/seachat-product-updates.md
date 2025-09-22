@@ -23,7 +23,9 @@ toc: true
 ##### **<font color="#739963">New Features & Improvements</font>**
 - New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors.
 - Custom GPT Tool – Extra Message setting: After the agent executes a tool call and responds, it can automatically send an additional, configurable follow-up message (e.g., guidance/CTA).
-- Fix: In Webchat, the menu card no longer disappears after it's clicked to send the first message in a conversation.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- In Webchat, the menu card no longer disappears after it's clicked to send the first message in a conversation.
 
 ### 09/04/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
