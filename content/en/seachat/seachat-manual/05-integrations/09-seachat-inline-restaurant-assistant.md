@@ -1,6 +1,6 @@
 ---
-title: "Inline Restaurant Assistant"
-description: "Integrate SeaChat AI agents with Inline Restaurant Assistant for seamless restaurant operations management. Handle orders, reservations, and customer inquiries with AI-powered assistance."
+title: "Inline.app  Assistant"
+description: "Integrate SeaChat AI agents with Inline.app Assistant for seamless restaurant operations management. Handle orders, reservations, and customer inquiries with AI-powered assistance."
 date: 2024-12-19T08:48:57+00:00
 lastmod: 2024-12-19T08:48:57+00:00
 draft: false
@@ -17,11 +17,19 @@ toc: true
 ---
 
 ## Overview
-> After logging into SeaChat, navigate to **Agent Configuration** -> **Agent Information** -> Choose User Case: **Inline Restaurant Assistant** to add the integration.
+> After logging into SeaChat, navigate to **Agent Configuration** -> **Agent Information** -> Choose User Case: **Inline.app Restaurant Assistant** to add the integration.
 
-## Inline Restaurant Assistant Integration
+## Inline.app Assistant Integration
 
-The Inline Restaurant Assistant integration enables your SeaChat agent to seamlessly manage restaurant operations through AI-powered conversations. We currently supports seamless reservation management, making it an essential tool for modern restaurant businesses.
+The Inline.app  Assistant integration enables your SeaChat agent to seamlessly manage operations through AI-powered conversations. We currently supports seamless reservation management, making it an essential tool for modern  businesses.
+
+<center>
+  <a href="/images/seachat/en/inline/inline_settings_staging.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_card.png" alt="SeaChat | Inline Restaurant Assistant | Staging Settings">
+</a>
+
+**Inline.app Assistant**
+</center>
 
 ## Reservation System
 Streamline your reservation process with:
@@ -35,8 +43,17 @@ Streamline your reservation process with:
 ### Step 1: Access Integration Settings
 1. Log into your SeaChat dashboard
 2. Navigate to **Agent Configuration**
-3. Select **Integrations**
-4. Choose **Inline Restaurant Assistant**
+3. Select **Use Case**
+4. Choose **Inline.app Restaurant Assistant**
+5. Follow the notification window and click **Ok** to redirect to the configuration page.
+
+<center>
+  <a href="/images/seachat/en/inline/inline_settings_staging.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_notify_seasalt_to_finish.png" alt="SeaChat | Inline Restaurant Assistant | Staging Settings">
+</a>
+
+*Notification for Inline.app Assistant Configuration*
+</center>
 
 ### Step 2: Environment Configuration
 
@@ -54,27 +71,12 @@ Streamline your reservation process with:
 <img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_settings_production.png" alt="SeaChat | Inline Restaurant Assistant | Production Settings">
 </a>
 
-*Inline Restaurant Assistant Production Settings*
+*Inline Assistant Production Settings*
 </center>
 
 Configure your environment settings:
-- **Production Environment**: For live restaurant operations
+- **Production Environment**: For live operations
 - **Staging Environment**: For testing and development
-
-
-### Step 4: We help you finish up setup
-
-<br/>
-<center>
-  <a href="/images/seachat/en/inline/inline_notify_seasalt_to_finish.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_notify_seasalt_to_finish.png" alt="SeaChat | Inline Restaurant Assistant | Notification Settings">
-</a>
-
-*Notification Configuration*
-</center>
-
-To finish up your setup, the last step if to inform us by sending an email to us and we will add your restaurant to our system. 
-
 
 ### Tips: Time Awareness Features
 

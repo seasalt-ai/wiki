@@ -15,6 +15,12 @@ url: /en/seameet/seameet-product-updates/
 weight: 400
 toc: true
 ---
+### 09/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Updated the underlying system architecture to enhance overall stability and prevent potential performance degradation during extended use
+- Fixed an issue where binding with Outlook Calendar could cause synchronization errors, ensuring accurate display and updates of all meetings
+- Resolved an issue where the bot occasionally failed to join Google Meet sessions under certain conditions, improving the reliability of meeting assistance
+
 ### 09/12/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added the "Executive Insights" feature for team plan users, providing summarized meeting analysis by workspace, with the option to send reports to designated email addresses.

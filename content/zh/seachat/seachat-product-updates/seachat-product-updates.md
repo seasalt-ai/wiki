@@ -15,6 +15,11 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+
+### 09/18/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 新增 Inline.app 助理整合設定頁面，並支援測試和正式環境的配置同時保存。
+
 ### 09/12/2025
 ##### **<font color="#739963">新功能與改進</font>**
 - 新增 Inline.app 餐廳助手用例：可將 AI Agent 與 inline 訂位管理系統整合，支援自動訂位確認，協助餐廳提升效率並降低錯誤率。

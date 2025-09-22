@@ -15,6 +15,15 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 09/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+-  Fixed issue where calls during closed business hours were not logged
+-  Added agent status and duration display to the member page
+-  Introduced new agent status types: Wrap-up, Meal, Outbound, and Break
+-  Enabled backend support for assigning agents to conversations
+-  Added support for sending messages via WhatsApp Webhook
+-  Added human agent activity to the workspace analytics dashboard
+
 ### 09/12/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added IVR management page with voice prompt and business hour settings

@@ -15,6 +15,10 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 09/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added Inline.app assistant integration settings page and support configurations to both staging and production environment.
+
 ### 09/12/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors.

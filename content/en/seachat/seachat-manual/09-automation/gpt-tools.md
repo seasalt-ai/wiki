@@ -590,5 +590,4 @@ Once you've completed configuring your Custom GPT Tool email or SMS settings, cl
 
 To ensure optimal performance, certain limits apply to Custom GPT Tool settings:
 
-* **Character Limits**: The combined character count of the tool name, description, all Fixed Value Parameters (keys and values), and all Dynamic Variable Parameters (keys and descriptions) must not exceed 1024 characters.
 * **Tool Execution Limit**: SeaChat will activate at most one enabled GPT tool per incoming user message. This includes any integrations with calendars or live agent transfers, ensuring that only the most relevant tool is selected for each conversation.
