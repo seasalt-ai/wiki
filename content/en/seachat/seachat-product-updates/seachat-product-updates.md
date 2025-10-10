@@ -37,7 +37,7 @@ toc: true
 - Human agents can now send images to LINE channel users.
 
 ##### **<font color="#d66a60">Bugfix</font>**
-- Cannot delete evaluation samples from a test set when related results exist.
+- Fixed an issue where evaluation samples could not be deleted from a test set when related results exist.
 - Analytics: corrected message count source for human-agent messages.
 ### 09/18/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
