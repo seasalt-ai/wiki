@@ -25,7 +25,7 @@ toc: true
 - Option to hide “Open Chat in New Tab” in the menu.
 - Support for uploading a custom “New Topic” icon.
 - Option to enable full-screen mode on mobile.
-- AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live-agent transfer settings.
+- AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live agent transfer settings.
 
 ##### **<font color="#d66a60">Bugfix</font>**
 - Fixed missing phone call transcriptions.
@@ -37,8 +37,8 @@ toc: true
 - Human agents can now send images to LINE channel users.
 
 ##### **<font color="#d66a60">Bugfix</font>**
-- Cannot delete evaluation samples from a test set when related results exist.
-- Analytics: corrected message count source for human-agent messages.
+- Fixed an issue where evaluation samples could not be deleted from a test set when related results exist.
+- Analytics: corrected message count source for human agent messages.
 ### 09/18/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added Inline.app assistant integration settings page and support configurations to both staging and production environment.

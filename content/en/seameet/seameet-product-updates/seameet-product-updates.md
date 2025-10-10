@@ -19,7 +19,7 @@ toc: true
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added support for sending "Auto-Sharing Emails" for Microsoft Teams calendar meetings.
 - Improved the editing experience for meeting summaries and action items.
-- Enhanced drag-and-drop audio upload and link-paste functionality in the Meeting List, ensuring compatibility even for empty workspaces.
+- Enhanced drag-and-drop audio upload and link paste functionality in the Meeting List, ensuring compatibility even for empty workspaces.
 - Updated the logic for displaying meeting durations in the Meeting List.
 - Fixed an issue preventing support for Microsoft Teams meeting links in "launcher" format.
 - Fixed a bug where pasting a Microsoft Teams meeting link could trigger duplicate pop-ups.
