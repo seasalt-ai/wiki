@@ -38,7 +38,7 @@ toc: true
 
 ##### **<font color="#d66a60">Bugfix</font>**
 - Fixed an issue where evaluation samples could not be deleted from a test set when related results exist.
-- Analytics: corrected message count source for human-agent messages.
+- Analytics: corrected message count source for human agent messages.
 ### 09/18/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added Inline.app assistant integration settings page and support configurations to both staging and production environment.
