@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-09-12T08:48:57+00:00
+lastmod: 2025-10-09T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,30 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 10/09/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Auto-labeling now applies to active session labels as well as conversation-level labels.
+- Reactivated old conversations no longer immediately timeout when “auto return to AI after inactivity” is enabled.
+
+### 10/02/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Option to hide “Open Chat in New Tab” in the menu.
+- Support for uploading a custom “New Topic” icon.
+- Option to enable full-screen mode on mobile.
+- AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live-agent transfer settings.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed missing phone call transcriptions.
+- Messenger webhook deduplication: handle duplicate notifications once; additional optimizations to follow.
+
+### 09/25/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Allow human agents to proactively message Messenger users beyond 24 hours and within the 7-day human-agent window.
+- Human agents can now send images to LINE channel users.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Cannot delete evaluation samples from a test set when related results exist.
+- Analytics: corrected message count source for human-agent messages.
 ### 09/18/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added Inline.app assistant integration settings page and support configurations to both staging and production environment.
