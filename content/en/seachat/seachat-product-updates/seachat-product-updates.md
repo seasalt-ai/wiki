@@ -25,7 +25,7 @@ toc: true
 - Option to hide “Open Chat in New Tab” in the menu.
 - Support for uploading a custom “New Topic” icon.
 - Option to enable full-screen mode on mobile.
-- AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live-agent transfer settings.
+- AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live agent transfer settings.
 
 ##### **<font color="#d66a60">Bugfix</font>**
 - Fixed missing phone call transcriptions.
