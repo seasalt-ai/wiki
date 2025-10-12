@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>09/18/2025 # New Features &amp;amp; Improvements #  Added Inline.app assistant integration settings page and support configurations to both staging and production environment.  09/12/2025 # New Features &amp;amp; Improvements #  New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors. Custom GPT Tool – Extra Message setting: After the agent executes a tool call and responds, it can automatically send an additional, configurable follow-up message (e.</description>
+      <description>10/09/2025 # New Features &amp;amp; Improvements #  Auto-labeling now applies to active session labels as well as conversation-level labels. Reactivated old conversations no longer immediately timeout when “auto return to AI after inactivity” is enabled.  10/02/2025 # New Features &amp;amp; Improvements #  Option to hide “Open Chat in New Tab” in the menu. Support for uploading a custom “New Topic” icon. Option to enable full-screen mode on mobile.</description>
     </item>
     
   </channel>

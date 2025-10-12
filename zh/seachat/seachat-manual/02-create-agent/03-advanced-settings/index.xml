@@ -73,5 +73,22 @@
         範例：AI 智能助理的回應顯示手動添加的 KB 條目 引用</description>
     </item>
     
+    <item>
+      <title>AI 助理回應排程</title>
+      <link>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/ai-agent-response-schedule/</link>
+      <pubDate>Fri, 10 Oct 2025 19:10:09 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seachat/manual/create-agent/advanced-settings/ai-agent-response-schedule/</guid>
+      <description>概述 # SeaChat 的 AI 助理回應排程功能讓您可以設定 AI 助理主動回應客戶詢問的特定時間範圍。這項強大功能非常適合需要在非工作時間、假期、週末或任何自訂時間範圍內處理客戶互動的企業，同時保持對自動化回應發送時機的控制。
+在排程回應時間之外，對話將遵循您配置的對話處理模式和真人客服轉接設定，確保客戶服務的無縫連續性。
+如何配置 AI 助理回應排程 # 要設定 AI 助理回應排程，請按照以下步驟操作：
+步驟 1：進入進階設定 # 在您的 SeaChat 儀表板中導航至 助理資訊 → 進階設定 標籤。
+步驟 2：配置排程 #       啟用開關：切換 AI 助理回應排程功能以啟動它。
+  選擇時區：為您的業務營運選擇適當的時區。這確保排程按照您的當地時間運作。
+  新增時間和日期設定：配置您希望 AI 助理活躍的特定時間範圍和日期。您可以在一週內設定多個時間區塊，以適應不同的業務需求。
+  選擇 AI 助理行為：選擇 AI 助理在排程時間內應如何表現：
+ 正常回應：使用標準的 SeaChat AI 助理功能 回覆固定訊息：向客戶發送預設的訊息        使用案例 # AI 助理回應排程功能在以下情況下特別有價值：</description>
+    </item>
+    
   </channel>
 </rss>

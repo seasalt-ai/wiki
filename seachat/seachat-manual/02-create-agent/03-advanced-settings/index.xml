@@ -63,5 +63,15 @@ How to Enable Knowledge Base References # To enable this feature, follow these s
  Go to the Agent Information -&amp;gt; Advanced Settings tab Toggle Knowledge Base References  Find the Knowledge Base References setting and switch it on to activate the feature.</description>
     </item>
     
+    <item>
+      <title>AI Agent Response Schedule</title>
+      <link>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/ai-agent-response-schedule/</link>
+      <pubDate>Fri, 10 Oct 2025 19:10:09 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seachat/manual/create-agent/advanced-settings/ai-agent-response-schedule/</guid>
+      <description>Overview # The AI Agent Response Schedule feature in SeaChat allows you to set specific timeframes when your AI agent should actively respond to customer inquiries. This powerful feature is ideal for businesses that need to handle customer interactions during off-hours, holidays, weekends, or any custom timeframe while maintaining control over when automated responses are sent.
+Outside of the scheduled response times, conversations will follow your configured conversation handling mode and live agent transfer settings, ensuring seamless customer service continuity.</description>
+    </item>
+    
   </channel>
 </rss>
