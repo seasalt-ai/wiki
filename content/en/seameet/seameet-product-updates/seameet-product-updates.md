@@ -16,6 +16,24 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 10/09/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added support for sending "Auto-Sharing Emails" for Microsoft Teams calendar meetings.
+- Improved the editing experience for meeting summaries and action items.
+- Enhanced drag-and-drop audio upload and link paste functionality in the Meeting List, ensuring compatibility even for empty workspaces.
+- Updated the logic for displaying meeting durations in the Meeting List.
+- Fixed an issue preventing support for Microsoft Teams meeting links in "launcher" format.
+- Fixed a bug where pasting a Microsoft Teams meeting link could trigger duplicate pop-ups.
+
+### 10/02/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Enhanced the mobile browsing experience across Meeting List, Settings, and Billing pages.
+- Added the ability to paste a meeting link directly in the Meeting List to start transcription.
+- Added Malay and Simplified Chinese as supported transcription languages.
+- Refined the onboarding flow for better usability.
+- Fixed an issue where logging out and back into the extension could redirect users to the workspace list.
+- When a user switches a meeting status from "Do not join" to "Join," the system now automatically assigns that user as the meeting owner.
+
 ### 09/18/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Updated the underlying system architecture to enhance overall stability and prevent potential performance degradation during extended use
