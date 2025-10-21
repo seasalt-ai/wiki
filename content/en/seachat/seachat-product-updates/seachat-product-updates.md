@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-10-09T08:48:57+00:00
+lastmod: 2025-10-16T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -15,6 +15,11 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+
+### 10/16/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Optimized the message buffer, extending the adjustable interval from 1–10 seconds to 1–20 seconds
+
 ### 10/09/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Auto-labeling now applies to active session labels as well as conversation-level labels.
