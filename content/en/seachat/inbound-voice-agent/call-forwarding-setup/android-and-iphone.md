@@ -22,10 +22,11 @@ To forward your personal calls to Seasalt.ai, we need to configure both your per
   - Now we need to configure your number on your device to enable the call forwarding feature. Note that the IOS system has a different configuration in comparison to the Android one. This section will focus on the configuration related to Android devices.
     - ***Step 1.1*** – ***Open the Phone App***.
       - Locate the Phone App on your device. This is usually the app with the phone icon.
-    - ***Step 1.2*** – ***Assess Call Settings***.
-      - Find the Settings option in the Phone App. You can usually find it by clicking on the  Menu icon.
+    - ***Step 1.2*** – ***Access Call Settings***.
+      - Find the Settings option in the Phone App. You can usually find it by clicking on the  Menu icon. Then go to "General" -> "Calling accounts"
+      -> select your carrier (such as T-Mobile) -> Call forwarding.
     - ***Step 1.3*** – ***Find and Enable Call Forwarding***.
-      - Search for Call Forwarding in Settings. Find keywords, Call Forwarding or Forwarding, in the section. There may be under the names of Calls or Advanced Settings
+      - Or you can search for Call Forwarding in Settings. Find keywords, Call Forwarding or Forwarding, in the section. There may be under the names of Calls or Advanced Settings
     - ***Step 1.4*** – ***Enter the number of the AI agent***.
       - Now you should see the following image that allows you to route calls to your AI agent’s number. Input the number in the fields that you wish for the AI agent to take over. For Conditional Forwarding, we will focus on the fields of When busy, When unanswered and When unreachable.
     - ***Step 1.5*** – ***Enter AI numbers in the target fields***.

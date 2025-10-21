@@ -11,7 +11,8 @@ menu:
 aliases:
    - /en/seameet-product-updates/
    - /en/seameet/seameet-product-updates/
-url: /en/seameet/seameet-product-updates/   
+# NOTE: All product update pages should follow the URL format: https://wiki.seasalt.ai/${language}/${product}/product-updates/
+url: /en/seameet/product-updates/   
 weight: 400
 toc: true
 ---
@@ -141,7 +142,7 @@ toc: true
 - Updated the onboarding tutorial popup to include a “Don't show again” checkbox.
 ### 7/3/2025
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Added support for additional audio formats: .mp4, .webm, .wma, and .wmv in the audio upload feature.
+- Added support for additional audio formats: .mp4, .webm, .wma, and .wmv, .m4a in the audio upload feature.
 - Improved Google Calendar integration to automatically retry connection when an error occurs.
 - Fixed an issue where the SeaMeet copilot failed to transcribe in certain Google Meet scenarios.
 - Resolved authorization issues when exporting meeting notes to Google Docs.
