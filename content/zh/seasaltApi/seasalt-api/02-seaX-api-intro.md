@@ -50,6 +50,6 @@ SeaX Messaging API 允許使用者整合和自動化訊息傳遞工作流程，�
 <div class="row justify-content-center">
     <div class="col-lg-9 col-xl-8 text-center">
         <p class="lead"></p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://seax.seasalt.ai/bulk-sms-api/redoc" role="button" target="_blank" rel="noopener noreferrer">SeaX API 文件</a>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://seax.seasalt.ai/seax-api/redoc" role="button" target="_blank" rel="noopener noreferrer">SeaX API 文件</a>
     </div>
 </div>
