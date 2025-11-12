@@ -2,7 +2,7 @@
 title: "SeaX Release History"
 description: "Stay tuned with SeaX's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-09-12T08:48:57+00:00
+lastmod: 2025-10-09T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,39 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+### 10/09/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed the error when enabling the SeaMeet feature
+- Completed backend phases of Facebook Messenger integration: DB setup, settings management, and message handling
+- Fixed the issue where the agent status was stuck on "on the call" during inbound ringing
+- Fixed incorrect status color display during call ringing
+- Improved status label wording for better clarity
+- Fixed conversation display error
+
+### 10/02/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added support for displaying SeaChat AI Bot's name and reply timestamp in conversations
+- Added support for assigning conversations to specific agents
+- Added backend support for Bring Your Own Twilio configuration
+- Added remedial logic to fix user status and end abnormal calls
+- Added workspace timezone configuration to manage IVR business hours
+- Fixed incorrect status color display during call ringing
+- Fixed failure when exporting contact CSV files
+- Fixed the contact selection issue when creating scheduled campaigns
+- Fixed the incorrect calculation of unread conversation count
+
+### 09/25/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Improved UI feedback after sending messages in Conversations, including button and message status
+- Improved stability in user status handling
+- Added data fields and transmission logic to sync workspaces with SeaMeet and support audio restoration
+- Added remedial logic to automatically restore agent status and end abnormal calls
+- Added support for converting inbound voice calls to voicemail
+- Fixed and updated the display of campaign results
+- Fixed the issue where recipient numbers were not displayed correctly in the WhatsApp campaign
+- Disabled the auto-retry mechanism in the campaign to improve the experience
+- Updated webhook subscription settings to include call-ended and meeting-ended events
+
 ### 09/18/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 -  Fixed issue where calls during closed business hours were not logged
@@ -274,7 +307,7 @@ toc: true
 - Fixed inaccuracies in the recipient count displayed on activity cards.  
 - Corrected text content on campaign cards.  
 - Adjusted reply rate calculations for sent campaigns.  
-- Fixed navigation issues in the WhatsApp Business Platform message template steps.  
+- Fixed navigation issues in the WhatsApp Business Platform message template steps.
 
 ### 12/5/2024
 ##### **<font color="#d66a60">Bugfix</font>**

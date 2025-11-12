@@ -2,7 +2,7 @@
 title: "SeaMeet Release History"
 description: "Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-09-12T08:48:57+00:00
+lastmod: 2025-10-16T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,16 @@ url: /en/seameet/product-updates/
 weight: 400
 toc: true
 ---
+### 10/16/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added real-time speaker indicator in live transcription and internationalized display support
+- Enabled custom speaker names in transcription content
+- Improved recognition message ordering and positioning for better user experience
+- Enhanced tooltip display in the upload area of the meeting list
+- Improved SeaMeet calendar extension appearance in Google Calendar
+- Fixed summary toggle display issue
+- Fixed recording worker restart failure during meeting recording
+
 ### 10/09/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Added support for sending "Auto-Sharing Emails" for Microsoft Teams calendar meetings.
