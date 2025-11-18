@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: "掌握 SeaChat 最新版本發布資訊，了解新增功能、效能優化及錯誤修復，確保您隨時使用最穩定、最先進的 AI 助理功能。"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-10-09T08:48:57+00:00
+lastmod: 2025-10-16T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,10 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+
+### 10/16/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 優化訊息緩衝設定功能，將可調整的延遲時間由 1–10 秒擴充至 1–20 秒
 
 ### 10/09/2025
 ##### **<font color="#739963">新功能與改進</font>**
