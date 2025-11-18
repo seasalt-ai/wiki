@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seameet/product-updates/</guid>
-      <description>10/09/2025 # New Features &amp;amp; Improvements #  Added support for sending &amp;ldquo;Auto-Sharing Emails&amp;rdquo; for Microsoft Teams calendar meetings. Improved the editing experience for meeting summaries and action items. Enhanced drag-and-drop audio upload and link paste functionality in the Meeting List, ensuring compatibility even for empty workspaces. Updated the logic for displaying meeting durations in the Meeting List. Fixed an issue preventing support for Microsoft Teams meeting links in &amp;ldquo;launcher&amp;rdquo; format.</description>
+      <description>10/16/2025 # New Features &amp;amp; Improvements #  Added real-time speaker indicator in live transcription and internationalized display support Enabled custom speaker names in transcription content Improved recognition message ordering and positioning for better user experience Enhanced tooltip display in the upload area of the meeting list Improved SeaMeet calendar extension appearance in Google Calendar Fixed summary toggle display issue Fixed recording worker restart failure during meeting recording  10/09/2025 # New Features &amp;amp; Improvements #  Added support for sending &amp;ldquo;Auto-Sharing Emails&amp;rdquo; for Microsoft Teams calendar meetings.</description>
     </item>
     
   </channel>
