@@ -46,7 +46,7 @@ This drip campaign is designed to onboard new SeaMeet users, guiding them from i
     *   Emphasize the benefit of quickly finding key information.
 *   **Multimedia:**
     *   Include a video demonstrating the playback features.
-    -  Use an image from the "Play Meeting Recordings" page.
+    *   Use an image from the "Play Meeting Recordings" page.
 *   **CTA:** "Listen to Your Last Meeting"
 
 ---
