@@ -1847,6 +1847,65 @@ The SeaMeet team will respond within 24-48 hours at the latest.
 
 *Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes.*
 
+### 10/09/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added support for sending "Auto-Sharing Emails" for Microsoft Teams calendar meetings.
+- Improved the editing experience for meeting summaries and action items.
+- Enhanced drag-and-drop audio upload and link paste functionality in the Meeting List, ensuring compatibility even for empty workspaces.
+- Updated the logic for displaying meeting durations in the Meeting List.
+- Fixed an issue preventing support for Microsoft Teams meeting links in "launcher" format.
+- Fixed a bug where pasting a Microsoft Teams meeting link could trigger duplicate pop-ups.
+
+### 10/02/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Enhanced the mobile browsing experience across Meeting List, Settings, and Billing pages.
+- Added the ability to paste a meeting link directly in the Meeting List to start transcription.
+- Added Malay and Simplified Chinese as supported transcription languages.
+- Refined the onboarding flow for better usability.
+- Fixed an issue where logging out and back into the extension could redirect users to the workspace list.
+- When a user switches a meeting status from "Do not join" to "Join," the system now automatically assigns that user as the meeting owner.
+
+### 09/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Updated the underlying system architecture to enhance overall stability and prevent potential performance degradation during extended use
+- Fixed an issue where binding with Outlook Calendar could cause synchronization errors, ensuring accurate display and updates of all meetings
+- Resolved an issue where the bot occasionally failed to join Google Meet sessions under certain conditions, improving the reliability of meeting assistance
+
+### 09/12/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added the "Executive Insights" feature for team plan users, providing summarized meeting analysis by workspace, with the option to send reports to designated email addresses.
+- Adjusted the sign-up and onboarding flow to help new users experience meeting transcription features earlier.
+- Updated the "Weekly Meeting Email" to a dynamic email, allowing users to adjust whether to invite the bot to specific meetings directly from the email.
+- When the bot joins a Microsoft Teams meeting, it will now send a message to the chats with details about the recording language, and a link to view the meeting notes.
+- If the user's mailbox does not support dynamic emails for the "Weekly Meeting Email", the email will redirect to the meeting list instead, with an explanation that expired meetings cannot be modified.
+- Clicking "Back to Previous Page" from a meeting page will now return to the exact position of that meeting in the meeting list.
+- Improved the guidance and messaging shown when an Outlook Calendar is linked with a non-Exchange Online mailbox.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed an issue with incorrect tab styles on the meeting page.
+- Fixed an issue where meetings with the same date were displayed multiple times in the meeting list under certain conditions.
+- Fixed an issue where duplicate attendees appeared in Microsoft Teams meetings.
+
+### 09/04/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Optimized mobile experience, adjusting layouts for the meeting page and sidebar on mobile devices
+- Improved display logic for the "Workspaces"
+- Fixed an issue where ongoing Microsoft Teams meetings could be invited repeatedly within the same workspace
+- Enhanced backup and storage logic for Microsoft Teams meeting audio files
+- Added a one-click "Copy Summary" button
+
+### 08/28/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added support for Microsoft account sign-up and sign-in, with updated onboarding flows for different registration methods
+- Added support for Outlook Calendar integration, including auto-join for Teams meetings
+- Teams meetings created via Outlook calendar integration now automatically generate corresponding meeting titles
+- Added support for various Teams meeting link formats, including teams.microsoft.com, launcher links, and links copied from Google Calendar
+- Updated content of calendar reminder pop-ups
+- Added Team Plan description and link
+- Fixed issue where transcripts on the meeting notes page did not auto-scroll
+- Fixed issue where recording controls overlapped transcripts during generation
+- Fixed issue where the "Start Recording" button in the extension overlapped the "Workspace" dropdown
+
 ### 08/21/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Refined meeting notes page layout
@@ -2367,5 +2426,552 @@ left due to reasons such as "not being permitted to join the meeting" or "no con
 ##### **<font color="#739963">New Feature</font>** 
 - More browser support: [SeaMeet Extension](https://chromewebstore.google.com/detail/seameet-take-chatgpt-meet/gkkhkniggakfgioeeclbllpihmipkcmn) is compatible with not only Chrome, but also Edge, Arc, and Brave browsers. This means you can have productive meetings (almost) anywhere now!
 
+
+---
+
+
+### Seameet Drip Campaign
+
+<!-- Source: seameet-manual/seameet-drip-campaign.md -->
+
+<!-- Weight: 999 (default) -->
+
+# SeaMeet User Onboarding Drip Campaign
+
+## Campaign Overview
+
+This drip campaign is designed to guide new SeaMeet users through a progressive onboarding journey, helping them discover and adopt key features while maximizing their meeting productivity. The campaign spans 6 weeks with 12 targeted touchpoints.
+
+## Campaign Goals
+
+- **Primary**: Increase user activation and feature adoption
+- **Secondary**: Reduce churn and increase subscription conversion
+- **Tertiary**: Build user confidence and establish meeting recording habits
+
+## Target Audience
+
+New SeaMeet users who have:
+- Completed initial signup
+- Started their free trial or subscription
+- May or may not have recorded their first meeting
+
+---
+
+## Week 1: Foundation & First Success
+
+### Email 1: Welcome & Quick Start (Day 1)
+**Subject**: "Welcome to SeaMeet! Record your first meeting in 2 minutes 🎉"
+
+**Content Focus**:
+- Warm welcome and value proposition reinforcement
+- Three simple ways to start recording: Chrome extension, workspace invitation, Google Calendar
+- Link to quick start video tutorial
+- Clear CTA: "Record Your First Meeting"
+
+**Resources to Include**:
+- Chrome extension installation link
+- Quick start video (from intro guide)
+- Link to first meeting setup guide
+
+### Email 2: First Meeting Success Guide (Day 3)
+**Subject**: "Ready to invite SeaMeet to your next meeting? Here's how 👥"
+
+**Content Focus**:
+- Detailed walkthrough of the three invitation methods
+- Best practices for first meeting
+- What to expect when copilot joins
+- Setting expectations for transcription quality
+
+**Resources to Include**:
+- Step-by-step invitation guide
+- Chrome extension tutorial
+- Google Calendar integration steps
+
+---
+
+## Week 2: Core Features Discovery
+
+### Email 3: Meeting Analytics Deep Dive (Day 7)
+**Subject**: "Turn your meetings into actionable insights ✨"
+
+**Content Focus**:
+- Showcase AI-powered features: summaries, action items, discussion topics
+- Real-time transcription capabilities
+- Team notes collaboration
+- Language detection and switching
+
+**Resources to Include**:
+- Meeting analytics tutorial
+- Sample meeting summary
+- Language setting guide
+
+### Email 4: Recording & Playback Power (Day 10)
+**Subject**: "Never miss a detail - Master meeting recordings 🎧"
+
+**Content Focus**:
+- Full meeting playback features
+- Individual conversation segment replay
+- Transcript navigation
+- Audio quality optimization tips
+
+**Resources to Include**:
+- Recording playback tutorial
+- Best practices for audio quality
+- Troubleshooting common issues
+
+---
+
+## Week 3: Collaboration & Sharing
+
+### Email 5: Team Collaboration Setup (Day 14)
+**Subject**: "Bring your team together with shared workspaces 🤝"
+
+**Content Focus**:
+- Workspace creation and management
+- Team member invitation process
+- Permission levels (Admin vs Member)
+- Multiple workspace organization
+
+**Resources to Include**:
+- Workspace setup guide
+- Team invitation tutorial
+- Permission management best practices
+
+### Email 6: Auto-Sharing & Distribution (Day 17)
+**Subject**: "Automatically share meeting notes with your team 📤"
+
+**Content Focus**:
+- Auto-sharing configuration options
+- Email distribution settings
+- Additional recipient lists
+- Blocklist functionality for sensitive meetings
+
+**Resources to Include**:
+- Auto-sharing setup guide
+- Email template examples
+- Privacy and security tips
+
+---
+
+## Week 4: Advanced Features & Automation
+
+### Email 7: Auto-Join Magic (Day 21)
+**Subject**: "Set it and forget it - Auto-join your calendar meetings 🔄"
+
+**Content Focus**:
+- Google Calendar integration setup
+- Auto-join configuration
+- Scheduled meetings management
+- Meeting preparation automation
+
+**Resources to Include**:
+- Auto-join setup tutorial
+- Calendar integration guide
+- Troubleshooting sync issues
+
+### Email 8: Custom Templates & Labels (Day 24)
+**Subject**: "Customize your meeting summaries for different meeting types 📝"
+
+**Content Focus**:
+- Pre-built summary templates showcase
+- Custom template creation
+- Meeting labeling system
+- Organization and categorization strategies
+
+**Resources to Include**:
+- Template customization guide
+- Sample templates for different meeting types
+- Label management tutorial
+
+---
+
+## Week 5: Power User Features
+
+### Email 9: Multi-Platform & Audio Upload (Day 28)
+**Subject**: "Beyond Google Meet - Teams integration & audio uploads 🎵"
+
+**Content Focus**:
+- Microsoft Teams meeting support
+- Audio file upload capabilities
+- Speaker identification for in-person meetings
+- File format support and best practices
+
+**Resources to Include**:
+- Teams integration guide
+- Audio upload tutorial
+- Speaker ID setup for in-person meetings
+
+### Email 10: Google Docs Integration (Day 31)
+**Subject**: "Seamlessly export to Google Docs for easy collaboration 📄"
+
+**Content Focus**:
+- Google Drive connection setup
+- Automatic document export
+- Collaborative editing workflows
+- Document organization strategies
+
+**Resources to Include**:
+- Google Docs integration tutorial
+- Workflow optimization tips
+- Collaboration best practices
+
+---
+
+## Week 6: Optimization & Growth
+
+### Email 11: Language & Personalization (Day 35)
+**Subject**: "Optimize SeaMeet for your global team 🌍"
+
+**Content Focus**:
+- Multi-language support capabilities
+- Interface language customization
+- Meeting language detection and switching
+- International team collaboration tips
+
+**Resources to Include**:
+- Language configuration guide
+- Multi-language meeting best practices
+- Global team setup recommendations
+
+### Email 12: Success & Subscription Value (Day 42)
+**Subject**: "You're now a SeaMeet power user! Here's what's next 🚀"
+
+**Content Focus**:
+- Celebrate user progress and achievements
+- Advanced features recap
+- Subscription plan benefits overview
+- Success stories and use cases
+- Next-level productivity tips
+
+**Resources to Include**:
+- Feature adoption checklist
+- Subscription upgrade benefits
+- Customer success stories
+- Advanced workflow templates
+
+---
+
+## Behavioral Triggers & Branching
+
+### Engagement-Based Variations
+
+**High Engagement Path** (users who record 3+ meetings):
+- Fast-track to advanced features
+- Focus on team collaboration and automation
+- Include productivity optimization tips
+
+**Low Engagement Path** (users with 0-1 meetings):
+- Extended foundational content
+- Additional motivation and success stories
+- Simplified feature introduction
+- Re-engagement campaigns
+
+**Feature-Specific Triggers**:
+- **Workspace creators**: Priority team collaboration content
+- **Extension users**: Advanced browser integration tips
+- **Calendar integrators**: Automation optimization focus
+- **Multi-language users**: Global team collaboration emphasis
+
+### Abandonment Recovery
+
+**No First Meeting (Day 5)**:
+- Special re-engagement email with video tutorial
+- Simplified setup instructions
+- Personal success story
+- Limited-time onboarding assistance offer
+
+**No Activity (Day 15)**:
+- Check-in email with help offer
+- Common obstacles and solutions
+- Simplified quick-win features
+- Direct support contact option
+
+---
+
+## Success Metrics & KPIs
+
+### Primary Metrics
+- **Activation Rate**: % users recording first meeting within 7 days
+- **Feature Adoption**: % users utilizing key features by week 4
+- **Retention Rate**: % users active after 30 days
+- **Subscription Conversion**: % trial users converting to paid plans
+
+### Secondary Metrics
+- **Email Engagement**: Open rates, click-through rates, reply rates
+- **Feature Depth**: Average features used per active user
+- **Support Ticket Reduction**: Decreased help requests from drip campaign users
+- **User Satisfaction**: NPS scores from campaign graduates
+
+### Feature-Specific Goals
+- **Week 1**: 70% first meeting completion
+- **Week 2**: 50% trying AI analytics features  
+- **Week 3**: 30% setting up team collaboration
+- **Week 4**: 40% enabling automation features
+- **Week 5**: 20% using advanced features
+- **Week 6**: 60% subscription conversion rate
+
+---
+
+## Content Personalization Strategy
+
+### Segmentation Variables
+- **Company Size**: Solo vs Team vs Enterprise approaches
+- **Industry**: Meeting types and use cases
+- **Usage Patterns**: Frequency and feature preferences
+- **Geographic Location**: Language and time zone considerations
+
+### Dynamic Content Elements
+- **Meeting Type Examples**: Industry-specific scenarios
+- **Team Size References**: Scaled collaboration examples  
+- **Time Zone Optimization**: Scheduling and automation tips
+- **Compliance Considerations**: Industry-specific privacy notes
+
+---
+
+## Technical Implementation Notes
+
+### Email Platform Requirements
+- Behavioral trigger capabilities
+- A/B testing functionality
+- Segmentation and personalization
+- Analytics and reporting dashboard
+- Integration with SeaMeet user data
+
+### Data Integration Points
+- User signup date and source
+- First meeting completion timestamp
+- Feature usage analytics
+- Subscription status and plan type
+- Team/workspace activity levels
+
+### Quality Assurance
+- Mobile responsiveness for all emails
+- Accessibility compliance (WCAG 2.1)
+- Email deliverability optimization
+- Unsubscribe and preference management
+- GDPR and privacy compliance
+
+---
+
+## Conclusion
+
+This comprehensive drip campaign transforms new SeaMeet users into confident power users through strategic feature introduction, practical tutorials, and progressive skill building. By focusing on quick wins early and building toward advanced collaboration features, users develop lasting habits that drive long-term engagement and subscription value.
+
+The campaign's success lies in its balance of education, motivation, and practical application, ensuring users not only learn SeaMeet's capabilities but actively integrate them into their meeting workflows for maximum productivity impact.
+
+---
+
+
+### Seameet Drip Campaign Strategy
+
+<!-- Source: seameet-manual/seameet_drip_campaign_strategy.md -->
+
+<!-- Weight: 999 (default) -->
+
+# SeaMeet User Onboarding Drip Campaign Strategy
+
+## Campaign Overview
+This drip campaign is designed to guide new SeaMeet users through their first 30 days, ensuring they understand key features, experience quick wins, and develop lasting usage habits. The campaign focuses on progressive value delivery and feature adoption.
+
+## Target Audience
+- New users who have signed up for SeaMeet
+- Users who may have attended their first few meetings
+- Both individual and team plan subscribers
+
+## Campaign Goals
+1. **Reduce time-to-value**: Help users record their first meeting within 48 hours
+2. **Increase feature adoption**: Ensure users discover and use core features
+3. **Build habit formation**: Establish regular usage patterns
+4. **Prevent churn**: Address common pain points proactively
+5. **Drive upgrades**: Showcase premium features for trial users
+
+---
+
+## Email Sequence (30-Day Campaign)
+
+### Day 0: Welcome & Quick Start (Trigger: Account Creation)
+**Subject**: "Welcome to SeaMeet! Let's record your first meeting in 2 minutes 🎯"
+
+**Content**:
+- Personal welcome and value proposition reinforcement
+- Three ways to invite SeaMeet Copilot (with video tutorials):
+  1. **Easiest**: Install Chrome extension and click "Start Recording"
+  2. **Most automated**: Add meet@seasalt.ai to Google Calendar
+  3. **Manual**: Use workspace "Start Recording" button
+- CTA: "Record Your First Meeting Now"
+- Quick tip: "Pro tip: Start with a short test meeting to see SeaMeet in action!"
+
+### Day 2: First Success & Core Features (Trigger: 48 hours OR first meeting recorded)
+**Subject**: "🎉 Your meeting insights are ready! Here's what SeaMeet captured"
+
+**Content**:
+**If meeting recorded:**
+- Celebrate their first meeting
+- Highlight what SeaMeet captured: transcript, summary, action items
+- Show how to access and share meeting records
+- Next step: Set up auto-sharing preferences
+
+**If no meeting yet:**
+- Gentle reminder with simplified quick-start
+- Address common setup issues
+- Offer one-click extension installation
+- Include calendar invitation template
+
+### Day 5: Productivity Boost - Auto Features
+**Subject**: "Save 15 minutes per meeting with these automation features"
+
+**Content**:
+- **Auto-join meetings**: Connect Google Calendar for automatic recording
+- **Auto-sharing**: Set up meeting record distribution
+- **Default language settings**: Optimize transcription accuracy
+- **Meeting templates**: Introduce custom summary templates
+- Case study: "How Sarah saves 2 hours weekly with SeaMeet automation"
+- CTA: "Set Up Auto-Features Now"
+
+### Day 8: Team Collaboration (Segment: Team potential users)
+**Subject**: "Multiply your impact: Share SeaMeet with your team"
+
+**Content**:
+- Benefits of team workspaces vs. individual use
+- How to create and manage team workspaces
+- User permission levels (Admin vs. Member)
+- Team sharing and collaboration features
+- Workspace-level settings and labels
+- CTA: "Create Team Workspace" or "Invite Team Members"
+
+### Day 12: Advanced Features Deep Dive
+**Subject**: "Level up your meetings with these power features 🚀"
+
+**Content**:
+- **Meeting analytics**: Discussion topics, action items, team notes
+- **Recording playback**: Navigate transcripts with audio
+- **Speaker identification**: For in-person meetings
+- **Meeting labels**: Organize and categorize meetings
+- **Custom summary templates**: Tailor outputs to meeting types
+- Interactive demo or video walkthrough
+- CTA: "Try Advanced Features"
+
+### Day 16: Integration Ecosystem
+**Subject**: "Connect SeaMeet to your workflow"
+
+**Content**:
+- **Google Workspace integration**: Calendar sync, Google Docs export
+- **Browser extension**: Features and installation across browsers
+- **Microsoft Teams support**: How to record Teams meetings
+- **Audio upload**: Transcribe external recordings
+- Workflow examples for different use cases
+- CTA: "Connect Your Tools"
+
+### Day 20: Optimization & Best Practices
+**Subject**: "Meeting mastery: Tips from SeaMeet power users"
+
+**Content**:
+- Best practices for meeting preparation
+- How to get the most accurate transcriptions
+- Managing meeting language settings
+- Effective use of team notes during meetings
+- Sharing strategies for different meeting types
+- Customer spotlight featuring advanced usage
+- CTA: "Optimize Your Setup"
+
+### Day 25: Value Demonstration & Success Stories
+**Subject**: "Your SeaMeet impact report + customer success stories"
+
+**Content**:
+- Personal usage statistics (meetings recorded, time saved, etc.)
+- ROI calculation based on their usage
+- Customer success stories and case studies
+- Advanced use cases they haven't tried yet
+- Community and support resources
+- CTA: "Share Your Success Story"
+
+### Day 30: Plan Optimization & Next Steps
+**Subject**: "30 days with SeaMeet: What's next for your meeting productivity?"
+
+**Content**:
+- **For trial users**: Upgrade prompts with plan comparison
+- **For paid users**: Usage optimization and advanced features
+- Plan recommendations based on usage patterns
+- Future roadmap preview
+- Feedback request and user research invitation
+- Long-term success resources
+- CTA: "Optimize Your Plan" or "Continue Your Journey"
+
+---
+
+## Behavioral Triggers & Branching Logic
+
+### Engagement-Based Triggers
+1. **High engagement**: Accelerate advanced features introduction
+2. **Low engagement**: Send re-engagement sequence with simpler value props
+3. **Feature adoption**: Customize subsequent emails based on features used
+4. **Team vs. individual**: Branch into team-focused or individual productivity tracks
+
+### Usage-Based Segmentation
+- **Power users**: Focus on advanced features and integrations
+- **Casual users**: Emphasize automation and time-saving
+- **Team leads**: Highlight collaboration and management features
+- **Non-adopters**: Simplified onboarding and barrier removal
+
+### Plan-Based Customization
+- **Free trial**: Include upgrade prompts and premium feature previews
+- **Individual plan**: Focus on personal productivity features
+- **Team plan**: Emphasize collaboration and management capabilities
+
+---
+
+## Supporting Content Strategy
+
+### Educational Content
+- **Video tutorials**: Screen recordings for each major feature
+- **Interactive demos**: Sandbox environment for feature testing
+- **Use case guides**: Industry and role-specific applications
+- **FAQ responses**: Address common questions proactively
+
+### Social Proof Elements
+- **Customer testimonials**: Real user quotes and success metrics
+- **Case studies**: Detailed transformation stories
+- **Usage statistics**: Aggregate benefits (meetings recorded, time saved)
+- **Community highlights**: User-generated tips and workflows
+
+---
+
+## Success Metrics & KPIs
+
+### Primary Metrics
+- **Time to first value**: Days until first meeting recorded
+- **Feature adoption rate**: Percentage using key features by day 30
+- **Active usage**: Meeting recordings per week
+- **Retention rate**: Users still active at 30, 60, 90 days
+
+### Secondary Metrics
+- **Email engagement**: Open rates, click-through rates by email
+- **Support ticket reduction**: Fewer basic questions from campaign users
+- **Upgrade conversion**: Trial to paid conversion rates
+- **Team expansion**: Individual users who add team members
+
+### Optimization Opportunities
+- **A/B testing**: Subject lines, content length, CTA placement
+- **Send time optimization**: Best days/times for each user segment
+- **Content personalization**: Dynamic content based on user behavior
+- **Frequency adjustment**: Optimal spacing between emails
+
+---
+
+## Implementation Notes
+
+### Technical Requirements
+- **User segmentation**: Track plan type, usage patterns, team size
+- **Behavioral tracking**: Monitor feature adoption and engagement
+- **Dynamic content**: Personalize based on user data
+- **Trigger automation**: Real-time response to user actions
+
+### Content Production
+- **Video creation**: Professional tutorials for each major feature
+- **Copy variants**: Multiple versions for A/B testing
+- **Visual assets**: Screenshots, infographics, workflow diagrams
+- **Localization**: Multi-language support if needed
+
+This comprehensive drip campaign ensures new SeaMeet users receive value quickly, understand the full feature set, and develop lasting usage habits that drive retention and growth.
 
 ---
