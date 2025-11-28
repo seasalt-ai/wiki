@@ -75,7 +75,7 @@ This guide outlines how to configure a Zapier workflow using the Seasalt.ai Agen
 
 The trigger defines the starting point of the automation.
 
-1.  **Select the Trigger App:** Choose the application that initiates the workflow (e.g., Google Calendar, Google Sheets, Typeform, Job Form, Google Form, Microsoft Form, or Mailchimp).
+1.  **Select the Trigger App:** Choose the application that initiates the workflow (e.g., Google Calendar, Google Sheets, Typeform, Jotform, Google Form, Microsoft Form, or Mailchimp).
 2.  **Define the Event:** Configure the specific event that activates the Zap (e.g., a new or updated row in Google Sheets, or 15 minutes before a Google event starts).
 3.  **Test the Trigger:** Execute the trigger to retrieve an example payload, which will contain the raw data output.
 
