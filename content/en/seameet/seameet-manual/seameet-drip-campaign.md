@@ -266,7 +266,7 @@ New SeaMeet users who have:
 
 ### Feature-Specific Goals
 - **Week 1**: 70% first meeting completion
-- **Week 2**: 50% trying AI analytics features  
+- **Week 2**: 50% trying AI analytics features
 - **Week 3**: 30% setting up team collaboration
 - **Week 4**: 40% enabling automation features
 - **Week 5**: 20% using advanced features
