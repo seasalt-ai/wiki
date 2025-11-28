@@ -130,7 +130,7 @@ The core simplification is achieved by telling the agent what to do, rather than
 
 The Agentic Send agent automatically processes the raw data from the trigger output.
 
-1.  **Input the Entire JSON Output:** Take the entire JSON payload dump from the preceding trigger step (e.g., the full Google Calendar output) and input it into the Agentic Send action. You do not have to "painfully go through all the little payload" fields.
+1.  **Input the Entire JSON Output:** Take the entire JSON payload dump from the preceding trigger step (e.g., the full Google Calendar output) and input it into the Agentic Send action. You do not need to manually parse individual fields from the payload.
 2.  **Automated Processing:** The language model agent reads the entire dump and figures out the necessary next steps, including:
     *   Extracting phone numbers from the data.
     *   Guaranteeing format compliance, such as ensuring phone numbers use the **e.164 format** (even if the user did not originally put in the country code, which often causes conventional SMS/WhatsApp sending to fail).
