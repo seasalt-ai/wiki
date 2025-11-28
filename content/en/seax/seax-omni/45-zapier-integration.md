@@ -28,7 +28,7 @@ toc: true
 
 The **Seasalt.ai Agentic Send** is a powerful feature designed to radically simplify complicated, multi-step Zapier automation workflows. It collapses typically fragile, multi-step configurations (which might otherwise involve five, ten, or even seventeen steps) into a **single action step**—resulting in a workflow of **one trigger and one action**.
 
-This tool utilizes a large language model agent to read and process raw data based on a simple prompt, automating complex data extraction, formatting, and matching tasks. The Agentic Send is compatible with all 7,000 or 8,000 trigger apps available through Zapier, extending its usefulness beyond simple calendar reminders.
+This tool utilizes a large language model agent to read and process raw data based on a simple prompt, automating complex data extraction, formatting, and matching tasks. The Agentic Send is compatible with all 8,000+ trigger apps available through Zapier, extending its usefulness beyond simple calendar reminders.
 
 Find out what triggers and actions Seasalt.ai offers on Zapier: [https://zapier.com/apps/seasaltai/integrations](https://zapier.com/apps/seasaltai/integrations)
 
