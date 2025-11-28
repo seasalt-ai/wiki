@@ -100,6 +100,19 @@ SeaX 原生整合 SeaChat（Seasalt.ai 的無程式碼 AI 助理平台），讓A
     </item>
     
     <item>
+      <title>Zapier 整合</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/zapier-integration-with-agentic-send/</link>
+      <pubDate>Thu, 27 Nov 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/zapier-integration-with-agentic-send/</guid>
+      <description>Seasalt.ai Agentic Send：簡化 Zapier 自動化指南 #  先決條件 #  一個 Zapier 帳號。 一個 Seasalt.ai 帳號（需連接到您的簡訊或 WhatsApp 等訊息管道）。 一個觸發應用程式（例如 Google Calendar、Google Sheets、Typeform）。   Seasalt.ai Agentic Send 是一個強大的功能，專為徹底簡化複雜、多步驟的 Zapier 自動化流程而設計。它能將原本脆弱的多步驟設定（可能需要五、十，甚至十七個步驟）壓縮成 單一步驟動作——讓流程僅需 一個觸發 + 一個動作。
+此工具利用大型語言模型代理來讀取並處理原始資料，根據簡單提示自動化複雜的資料擷取、格式化與匹配任務。Agentic Send 相容於 Zapier 上所有 8000+ 觸發應用程式，功能不僅限於簡單的行事曆提醒。
+查看 Seasalt.ai 在 Zapier 上提供的觸發與動作：https://zapier.com/apps/seasaltai/integrations
+概覽：傳統流程 vs. Agentic 流程 # 一般來說，從行事曆事件自動發送簡訊/WhatsApp 提醒需要一個脆弱的五步驟流程：
+ 觸發器： 事件開始。 格式化器： 從描述中擷取電話號碼。 路徑： 檢查號碼是否存在。 路徑條件： 檢查號碼是否有效。 動作： 發送文字訊息。     傳統流程 — 5 個步驟</description>
+    </item>
+    
+    <item>
       <title>SeaX 小工具</title>
       <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>

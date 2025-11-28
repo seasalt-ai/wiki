@@ -73,6 +73,15 @@ This guide will walk you through the process of sending bulk messages and calls 
     </item>
     
     <item>
+      <title>Zapier Integration</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/zapier-integration-with-agentic-send/</link>
+      <pubDate>Thu, 27 Nov 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/zapier-integration-with-agentic-send/</guid>
+      <description>Seasalt.ai Agentic Send: Simplified Zapier Automation Guide #  Prerequisites #  A Zapier account. A Seasalt.ai account (connected to your messaging channels like SMS or WhatsApp). A trigger app (e.g., Google Calendar, Google Sheets, Typeform).   The Seasalt.ai Agentic Send is a powerful feature designed to radically simplify complicated, multi-step Zapier automation workflows. It collapses typically fragile, multi-step configurations (which might otherwise involve five, ten, or even seventeen steps) into a single action step—resulting in a workflow of one trigger and one action.</description>
+    </item>
+    
+    <item>
       <title>SeaX Widget</title>
       <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>
