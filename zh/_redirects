@@ -33,6 +33,8 @@
 /seax/seax-widget/ /zh/seax/seax-omni/seax-widget/
 /seax/seax-messaging/seax-widget/ /zh/seax/seax-omni/seax-widget/
 /zh/seachat/seachat-manual/integrations/ /zh/seachat/seachat-manual/05-integrations/
+/zh/seax/csat/ /zh/seax/seax-omni/csat/
+/zh/seax/seax-messaging/csat/ /zh/seax/seax-omni/csat/
 /zh/seachat/seachat-manual/test-and-improve/ /zh/seachat/seachat-manual/07-test-and-improve-ai-agent/
 /zh/seachat/seachat-manual/integrations/ /zh/seachat/seachat-manual/06-workspace/
 /seachat/seachat-manual/integrations/ /zh/seachat/seachat-manual/06-workspace/

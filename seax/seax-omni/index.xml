@@ -91,5 +91,16 @@ This guide will walk you through the process of sending bulk messages and calls 
  Why SeaX Widget? # Providing a seamless experience for your customers is crucial for any business.</description>
     </item>
     
+    <item>
+      <title>Customer Satisfaction (CSAT) Survey</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/csat/</link>
+      <pubDate>Tue, 10 Dec 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/csat/</guid>
+      <description>Collect actionable feedback with customizable, automated, and manually-triggered post-conversation surveys.
+Customer Satisfaction (CSAT) surveys help you understand how customers feel about their interaction with your support team. With SeaX, you can configure a custom CSAT message, let agents send it manually, or automate delivery based on your own timing rules. The system intelligently parses customer replies and ensures feedback collection is smooth and unobtrusive.
+ Why CSAT Matters # CSAT surveys provide measurable insights into customer experience.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -40,6 +40,9 @@
 /seax/seax-widget/ /en/seax/seax-omni/seax-widget/
 /seax/seax-messaging/seax-agent-bulk-send/ /en/seax/seax-omni/seax-widget/
 /seachat/seachat-manual/channels/ /seachat/seachat-manual/04-channels/
+/en/seax/csat/ /en/seax/seax-omni/csat/
+/seax/csat/ /en/seax/seax-omni/csat/
+/seax/seax-messaging/csat/ /en/seax/seax-omni/csat/
 /en/seachat/seachat-manual/integrations/ /seachat/seachat-manual/05-integrations/
 /seachat/seachat-manual/integrations/ /seachat/seachat-manual/05-integrations/
 /zh/seachat/seachat-manual/workspace/ /seachat/seachat-manual/06-workspace/

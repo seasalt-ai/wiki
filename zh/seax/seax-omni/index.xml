@@ -128,5 +128,24 @@ SeaX 原生整合 SeaChat（Seasalt.ai 的無程式碼 AI 助理平台），讓A
  懸浮圖示 # 懸浮圖示 設置允許您自訂小工具按鈕的外觀。這是您的客戶在網站或應用程式上看到的內容。通過將 URL 貼上到 小工具標誌 中，您可以更改小工具的圖示，使其符合品牌設計。記得撰寫一條友好的 小工具彈出訊息，作為歡迎訊息。當氣泡按鈕顯示時，您的客戶會看到此訊息。</description>
     </item>
     
+    <item>
+      <title>客戶滿意度（CSAT）調查</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/csat/</link>
+      <pubDate>Tue, 10 Dec 2024 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/csat/</guid>
+      <description>使用可自訂、可自動與可手動觸發的對話後調查，輕鬆蒐集可行回饋。
+客戶滿意度（CSAT）調查能夠幫助您了解客戶對支援互動的感受。透過 SeaX，您可以設定自訂的 CSAT 訊息、讓客服人員在需要時手動發送，或依照您指定的規則自動發送。系統會智慧解析客戶回覆，確保蒐集回饋的流程順暢且不打擾對話體驗。
+ 為什麼 CSAT 很重要 # CSAT 調查能提供可量化的客戶體驗洞察。支援團隊可以藉由 CSAT：
+ 追蹤滿意度的長期趨勢 找出低分對話與其根本原因 驅動人員訓練與品質改善 自動化蒐集回饋以降低手動工作量 依各頻道的訊息規範維持合規   在介面中設定 CSAT 的位置 #   前往：側邊選單 → 工作區（Workspace） → 頻道（Channels）
+  點擊頻道卡片，會開啟設定視窗，您可以在其中啟用 CSAT 設定。
+  CSAT 調查可用的頻道包含：LINE、WhatsApp、Instagram、Messenger。找不到您需要的頻道？歡迎聯絡我們的支援團隊：info@seasalt.ai。 
+     啟用與自訂 CSAT 調查 # 在頻道設定視窗內：
+1. 啟用 CSAT # 切換 啟用客戶滿意度調查（Enable Customer Satisfaction Survey）。
+2. 撰寫 CSAT 訊息 # 輸入您希望客戶收到的調查訊息。
+重要指引：
+ 僅回覆 1、2、3、4 或 5 會被視為有效的 CSAT 評分。 訊息應清楚指示客戶以單一數字回覆。</description>
+    </item>
+    
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>10/16/2025 # New Features &amp;amp; Improvements #  Optimized the message buffer, extending the adjustable interval from 1–10 seconds to 1–20 seconds  10/09/2025 # New Features &amp;amp; Improvements #  Auto-labeling now applies to active session labels as well as conversation-level labels. Reactivated old conversations no longer immediately timeout when “auto return to AI after inactivity” is enabled.  10/02/2025 # New Features &amp;amp; Improvements #  Option to hide “Open Chat in New Tab” in the menu.</description>
+      <description>12/10/2025 # New Features &amp;amp; Improvements #  Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls. Added voicemail detection examples; when the voice agent hears sentences similar to these examples, it treats the call as reaching the user’s voicemail and proceeds accordingly.  12/04/2025 # New Features &amp;amp; Improvements #  Fixed a bug where changing the Speech-to-Text language within the same language category incorrectly changed the TTS language.</description>
     </item>
     
   </channel>
