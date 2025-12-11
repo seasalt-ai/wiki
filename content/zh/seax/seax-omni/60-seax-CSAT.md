@@ -147,7 +147,7 @@ CSAT 調查可用的頻道包含：LINE、WhatsApp、Instagram、Messenger。找
 
 ---
 
-# CSAT 回覆解析方式
+## CSAT 回覆解析方式
 
 了解系統如何讀取客戶回覆，有助於設定正確的期待值。
 
