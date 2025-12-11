@@ -7,16 +7,73 @@ draft: false
 images: []
 menu:
   seameet:
-      parent: "seax-product-updates"
+    parent: "seax-product-updates"
 aliases:
-   - /zh/seax-product-updates/
-   - /zh/seax/seax-product-updates/
+  - /zh/seax-product-updates/
+  - /zh/seax/seax-product-updates/
 # NOTE: All product update pages should follow the URL format: https://wiki.seasalt.ai/${language}/${product}/product-updates/
 url: /zh/seax/product-updates/
 weight: 400
 toc: true
 ---
 
+### 11/21/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 支援 LINE 和 WhatsApp 頻道可於客服讀取訊息時於客戶端顯示已讀
+- 新增通話數據並整合至總使用量分析頁
+- 優化聯絡人呈現，以呈現多渠道的頭像、名稱以及 ID 資訊
+- 後端新增支援聯絡人多筆記架構
+- 支援於對話列表中顯示該對話渠道的用戶頭像與名稱
+- 修復多帳號時 Instagram 出現的整合錯誤
+- 修正視窗開啟時 WhatsApp 新進入訊息未標示已讀
+
+### 11/13/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 調整 Facebook 與 Instagram 訊息的已讀狀態顯示
+- 聯絡人資料中新增各頻道的個人檔案欄位
+- 調整群發訊息的結果 CSV 欄位，提供接聽者以及號碼顯示優化
+- 新增對話狀態改變時的系統訊息顯示
+- 調整免費方案中的頻道建立規則，及調整不同權限使用者建立畫面顯示
+- 優化頻道設定頁中啟用 AI 客服的描述內容
+- 調整自動接聽功能的啟用方式，以及增加提示秒數以優化體驗
+- 修復未讀訊息統計查詢條件不同的問題
+- 修復 DNC 聯絡人訊息錯誤轉發至 SeaChat 的問題
+- 修復進線消息未觸發 SeaChat 機器人回應的問題
+- 修復自動撥號流程中聯絡人名稱被覆蓋的問題
+
+### 11/6/2025
+##### **<font color="#739963">新功能與改進</font>**
+- LINE、Messenger、Instagram 語音訊息支援轉錄（STT）處理
+- 優化聯絡人頭像並加入同步紀錄
+- 支援將 LINE、FB、IG 頻道連結至 SeaChat 機器人
+- 關鍵字與自動回覆設定中新增電話號碼設定選項
+- 支援在來電設定為 IVR 時啟用自動接聽
+- 支援未訂閱方案用戶可設定並啟用 LINE、Messenger、Instagram 等頻道
+- 修復來電轉接後進入 IVR 設定時的錯誤
+- 修復修改電話號碼時錯誤問題
+- 修復 WhatsApp only 方案中 WhatsApp 頻道消失的問題
+- 修復 Instagram 附件訊息中的佔位符
+
+### 10/30/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 優化並提供 LINE 與 Instagram 聯絡人頭像顯示
+- 支援未訂閱方案用戶可建立 Messenger、Instagram、LINE 頻道來進行訊息收發
+- 新增指派客服時的 Email 通知開關以及寄送
+- 新增 WhatsApp 訊息名稱顯示
+- 修復儲存 Webhook 後跳出提示阻擋畫面問題
+- 修復新增成員時錯誤提示訊息
+- 修復設置 IVR 後的來電錯誤
+
+### 10/23/2025
+##### **<font color="#739963">新功能與改進</font>**
+- 後端新增支援 Instagram 訊息與多媒體檔案處理
+- 後端新增支援 Facebook Messenger 訊息處理
+- 後端新增支援 LINE 官方帳號 (LINE OA) 整合
+- 後端新增支援 LINE 取消追蹤事件，並透過 WebSocket 即時更新狀態
+- 新增將訊息轉傳 SeaChat 以提供機器人判讀，並新增被指派的新訊息通知顯示
+- 優化新增外部頻道時的接收客服設定，預設將用戶加入頻道中
+- 新增針對語音來電路由追蹤記錄，提升除錯效率
+- 修復客服狀態在來電時，狀態卡在「通話中」的問題
 
 ### 10/09/2025
 ##### **<font color="#739963">新功能與改進</font>**

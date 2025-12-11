@@ -16,10 +16,48 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 12/10/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls.
+- Added voicemail detection examples; when the voice agent hears sentences similar to these examples, it treats the call as reaching the user’s voicemail and proceeds accordingly.
+
+### 12/04/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed a bug where changing the Speech-to-Text language within the same language category incorrectly changed the TTS language.
+
+### 11/27/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added configuration for the auto-timeout message used when a conversation is automatically transferred back to the AI agent; the message is customizable.
+
+### 11/20/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added call session related statistics to the Analytics page.
+- Added a customizable date range picker to the Analytics page for more flexible data analysis.
+- Improved the post-call summary to include more detailed items and an overall summary.
+- Added volume control configuration in the Twilio Calls channel and SeaX Calls integration.
+
+### 11/13/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added SeaX integrations for LINE, Messenger, and Instagram.
+- Improved the content of emails sent automatically by label automation to include more details.
+
+### 11/06/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added a welcome message setting that lets users customize the initial message sent to new conversations; it can be text, a button, or an event card with an image.
+
+### 10/30/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed behavior when the message quota is exceeded: phone calls now handle it gracefully by speaking the quota‑depletion message configured in Advanced settings.
+
+### 10/23/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added TTS (Text-to-Speech) language configurations to SeaX Calls integration.
+- Fixed the calculation of unread counts in the conversation list to accurately reflect the number of unread messages from meaningful conversations.
+- Optimized inbound message handling speed.
 
 ### 10/16/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
-- Optimized the message buffer, extending the adjustable interval from 1–10 seconds to 1–20 seconds
+- Optimized the message buffer, extending the adjustable interval from 1–10 seconds to 1–20 seconds.
 
 ### 10/09/2025
 ##### **<font color="#739963">New Features & Improvements</font>**

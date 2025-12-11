@@ -16,6 +16,65 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+
+### 11/21/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Support read receipt display on the client side when LINE and WhatsApp messages are read by the agent
+- Added call statistics and integrated them into the total usage analytics dashboard
+- Improved contact display to include multi-channel avatars, names, and ID information
+- Backend support for multi-note structure for contacts
+- Support showing the user's avatar and name by messaging channel in the conversation list
+- Fixed Instagram integration issue when using multiple accounts
+- Fixed WhatsApp messages not marked as read when the window is opened
+
+### 11/13/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Adjusted read status visibility for messages on Facebook and Instagram  
+- Added profile fields for each messaging channel in contact data  
+- Updated Call Campaign result CSV fields with improved recipient and number display  
+- Added system message display when conversation status changes  
+- Revised channel creation rules for free plans and optimized UI for different user roles  
+- Improved wording for enabling AI agent in channel settings  
+- Adjusted auto-answer feature behavior and added countdown hint to improve experience  
+- Fixed inconsistent query conditions for unread message statistics  
+- Fixed issue where DNC contact messages were incorrectly forwarded to SeaChat  
+- Fixed issue where inbound messages failed to trigger SeaChat bot response  
+- Fixed contact name being overwritten during auto-dialer campaign process  
+
+### 11/6/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added speech-to-text transcription support for voice messages in LINE, Messenger, and Instagram
+- Improved contact avatar synchronization and added last-sync tracking
+- Enabled linking LINE, Facebook, and Instagram channels to SeaChat bots
+- Added phone number options in keyword reply and auto-reply settings
+- Enabled auto-answer setting when IVR is used for inbound call handling
+- Allowed users without paid plans to configure and use LINE, Messenger, and Instagram channels
+- Fixed error when entering IVR settings after call transfer
+- Fixed issue when editing phone numbers
+- Fixed the missing WhatsApp channel issue in WhatsApp-only plans
+- Fixed placeholder rendering issue in Instagram attachment messages
+
+### 10/30/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Improved and enabled the display of profile pictures for LINE and Instagram channels
+- Allowed users without a paid plan to create Messenger, Instagram, and LINE channels
+- Added email notification toggle and delivery when assigning human agents
+- Added display of message name for WhatsApp messages
+- Fixed the issue where a pop-up blocked the screen after successfully saving a Webhook
+- Fixed the incorrect error message when adding a new member
+- Fixed inbound call errors after IVR setup
+
+### 10/23/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added backend support for Instagram messages and media attachments
+- Added backend support for Facebook Messenger message handling
+- Added backend support for LINE Official Account (LINE OA) integration
+- Added support for LINE unfollow events with status updates via WebSocket
+- Added message forwarding to SeaChat for bot processing
+- Improved default agent assignment when adding channels
+- Added logs for inbound voice calls to improve debugging efficiency
+- Fixed an issue where the agent status became stuck on “On the Call” during inbound calls
+
 ### 10/09/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
 - Fixed the error when enabling the SeaMeet feature
