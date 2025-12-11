@@ -40,7 +40,7 @@ CSAT surveys provide measurable insights into customer experience. By using CSAT
 
 2. Click the card to open a configuration popup where CSAT settings can be enabled.
 
-CSAT surveys are available for these channels LINE, WhatsApp, Instagram, Messenger. Don't see a channel you need? Contact our support team to discuss your requirements at [info@seasalt.ai](mailto:info@seasalt.ai).
+CSAT surveys are available for these channels: LINE, WhatsApp, Instagram, and Messenger. Don't see a channel you need? Contact our support team to discuss your requirements at [info@seasalt.ai](mailto:info@seasalt.ai).
 <br/>
 
 <center>
