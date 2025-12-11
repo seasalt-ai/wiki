@@ -148,7 +148,7 @@ Set the number of minutes to wait after the **customer’s last inbound message*
 
 ---
 
-# How CSAT Reply Parsing Works
+## How CSAT Reply Parsing Works
 
 Understanding how the system reads customer replies is critical to setting expectations.
 
