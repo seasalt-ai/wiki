@@ -19,13 +19,13 @@ toc: true
 
 ### 11/21/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
-- Support read receipt display on the client side when LINE and WhatsApp messages are read by the agent  
-- Added call statistics and integrated them into the total usage analytics dashboard  
-- Improved contact display to include multi-channel avatars, names, and ID information  
-- Backend support for multi-note structure for contacts  
-- Support showing the user's avatar and name by messaging channel in the conversation list  
-- Fixed Instagram integration issue when using multiple accounts  
-- Fixed WhatsApp messages not marked as read when the window is opened 
+- Support read receipt display on the client side when LINE and WhatsApp messages are read by the agent
+- Added call statistics and integrated them into the total usage analytics dashboard
+- Improved contact display to include multi-channel avatars, names, and ID information
+- Backend support for multi-note structure for contacts
+- Support showing the user's avatar and name by messaging channel in the conversation list
+- Fixed Instagram integration issue when using multiple accounts
+- Fixed WhatsApp messages not marked as read when the window is opened
 
 ### 11/13/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
