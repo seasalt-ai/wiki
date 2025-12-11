@@ -45,7 +45,7 @@ CSAT surveys are available for these channels LINE, WhatsApp, Instagram, Messeng
 
 <center>
 <a href="/images/seax/en/csat/CSAT_Entry.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Entry.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Entry.png" alt="CSAT Entry">
 </a>
 
 </center>
@@ -76,7 +76,7 @@ Important guidelines:
 
 <center>
 <a href="/images/seax/en/csat/CSAT_Config_Manual.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Config_Manual.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Config_Manual.png" alt="CSAT Configuration Manual">
 </a>
 
 </center>
@@ -99,7 +99,7 @@ How:
 
 <center>
 <a href="/images/seax/en/csat/CSAT_Send_Btn.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Send_Btn.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Send_Btn.png" alt="CSAT Send Button">
 </a>
 
 </center>
@@ -113,7 +113,7 @@ For Instagram, Messenger, and WhatsApp:
 - The customer must have sent a message within the **last 24 hours**
 - If outside the 24-hour window, the CSAT icon is **disabled** per Meta policy
 
-You may manually send CSAT surveys as many times as needed.
+You may manually send CSAT surveys as many times as needed. Manual sending doesn't have any limit.
 
 ---
 
@@ -131,7 +131,7 @@ Set the number of minutes to wait after the **customer’s last inbound message*
 
 <center>
 <a href="/images/seax/en/csat/CSAT_Config_Auto.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Config_Auto.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Config_Auto.png" alt="CSAT Configuration Auto">
 </a>
 
 </center>
@@ -169,7 +169,7 @@ The system monitors the **immediate next inbound customer message** and interpre
 
 <center>
 <a href="/images/seax/en/csat/CSAT_Demo.gif" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Demo.gif" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Demo.gif" alt="CSAT Demo">
 </a>
 
 </center>
@@ -190,9 +190,8 @@ System behavior:
 
 1. The system **cannot parse** a valid rating
 2. The message is treated as a **normal inbound message**
-3. The system **will not** treat any future messages as CSAT replies
-4. Auto-sending will continue retrying as configured
-5. Agents may manually resend a CSAT survey at any time
+3. Auto-sending will continue retrying as configured until a valid rating is received
+4. Agents may manually resend a CSAT survey at any time
 
 This ensures the conversation flow remains natural and customers are never stuck in “survey mode.”
 
@@ -200,7 +199,7 @@ This ensures the conversation flow remains natural and customers are never stuck
 
 <center>
 <a href="/images/seax/en/csat/CSAT_Demo_Invalid.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Demo_Invalid.png" alt="An image that shows how to navigate to the dashboard of agent creation.">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/csat/CSAT_Demo_Invalid.png" alt="CSAT Demo Invalid">
 </a>
 
 </center>
@@ -211,5 +210,6 @@ This ensures the conversation flow remains natural and customers are never stuck
 
 ## Case 3 — Customer does not reply at all
 
-- Auto-send will retry sending the CSAT survey after new inbound message arrives
+- As soon as new inbound message arrives, the countdown timer restarts
+- Auto-send will retry sending the CSAT survey after the delay expires
 - Agents may manually send CSAT whenever appropriate
