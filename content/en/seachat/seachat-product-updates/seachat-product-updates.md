@@ -16,6 +16,10 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+### 12/10/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls.
+- Added voicemail detection examples; when the voice agent hears sentences similar to these examples, it treats the call as reaching the user’s voicemail and proceeds accordingly.
 
 ### 12/04/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
