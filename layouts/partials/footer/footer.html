@@ -1,6 +1,6 @@
 <footer class="footer text-muted">
   <p style="text-align: center;">{{ .Site.Params.footer | safeHTML }}</p>
-  {{ partial "partials/footer/widget.html" . }}
+  {{ partial "footer/widget.html" . }}
   {{ range .Site.Params.custom_js }}
     <script src="{{ . | absURL }}"></script>
   {{ end }}

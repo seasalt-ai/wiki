@@ -9,9 +9,9 @@ menu:
   seax:
     parent: "seax-omni"
 aliases:
-   - /en/seax/seax-agent-bulk-send/
-   - /seax/seax-agent-bulk-send/
-   - /seax/seax-messaging/seax-agent-bulk-send/
+  - /en/seax/seax-agent-bulk-send/
+  - /seax/seax-agent-bulk-send/
+  - /seax/seax-messaging/seax-agent-bulk-send/
 url: /en/seax/seax-omni/seax-agent-bulk-send/
 weight: 30
 toc: true
@@ -29,13 +29,13 @@ A comprehensive video tutorial demonstrates step-by-step how to set up and use S
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/An4n8JhhdvA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-See [cross reference with SeaChat]({{< ref "/content/en/seachat/seachat-manual/05-integrations/08-seax-integration-bulk-phone-calls.md" >}}) 
+See [cross reference with SeaChat]({{< ref "seachat/seachat-manual/05-integrations/08-seax-integration-bulk-phone-calls.md" >}})
 
 ## 🎥 Video Tutorial for Bulk WhatsApp Messaging (Campaigns)
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/WUwn2QoeBGA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-See [cross reference with SeaChat]({{< ref "/content/en/seachat/seachat-manual/05-integrations/09-seax-integration-whatsapp-in-seachat.md" >}}) 
+See [cross reference with SeaChat]({{< ref "seachat/seachat-manual/05-integrations/09-seax-integration-whatsapp-in-seachat.md" >}})
 
 ## Set Up Workspace
 
@@ -47,7 +47,8 @@ To integrate SeaX with SeaChat, you'll need a phone number to send messages and 
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/seax-number.png" alt="SeaX | SeaX Number Setup">
 </a>
 
-*SeaX Numbers*
+_SeaX Numbers_
+
 </center>
 
 > 🚨 Attention 🚨
@@ -76,7 +77,8 @@ All labels can be seen in the **Recipients** section under bulk messages, allowi
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/recipient-step.png" alt="SeaX | Recipient Setup">
 </a>
 
-*Labels of Recipients*
+_Labels of Recipients_
+
 </center>
 
 ### Contacts
@@ -89,7 +91,8 @@ After selecting recipient labels, you'll be directed to the **Contacts** section
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/contact-step.png" alt="SeaX | Contact">
 </a>
 
-*Manage Contacts*
+_Manage Contacts_
+
 </center>
 
 ### Compose a Campaign for Outbound SMS and Calls
@@ -102,7 +105,8 @@ A campaign is the unit for sending bulk messages. Configure the campaign’s nam
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" alt="SeaX | Campaign Dashboard">
 </a>
 
-*Compose a Campaign*
+_Compose a Campaign_
+
 </center>
 
 #### Campaign Name and Labels
@@ -119,7 +123,8 @@ After setting the campaign name and labels, choose the execution method. Select 
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-execution.png" alt="SeaX | Executing SeaX Campaign">
 </a>
 
-*Campaign Execution*
+_Campaign Execution_
+
 </center>
 
 > 🔖 NOTE
@@ -140,7 +145,8 @@ Set up the sending time for scheduled campaigns. You can choose to send the camp
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/schedule-setting.png" alt="SeaX | Schedule Setup">
 </a>
 
-*Scheduled Setting*
+_Scheduled Setting_
+
 </center>
 
 > Additional Setting - Capture Recipients' Key Presses (Outbound Calls) and Click Tracking (Outbound SMS)
@@ -161,7 +167,8 @@ To add a new phone number, click **Quote for a New Number**, and Seasalt will pr
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/sender.png" alt="SeaX | Sender Setup">
 </a>
 
-*Senders Setting*
+_Senders Setting_
+
 </center>
 
 ### Review
@@ -178,7 +185,8 @@ For SMS and call campaigns, update the inbound agent to handle incoming messages
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/inbound-agent-update.png" alt="SeaX | SeaX Number Setup">
 </a>
 
-*Inbound Agent Setting*
+_Inbound Agent Setting_
+
 </center>
 
 ### Send Out the Campaign
@@ -191,7 +199,8 @@ Click **Send Now** to activate the campaign and start sending messages through S
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-dashboard.png" alt="SeaX | Send out Campaign">
 </a>
 
-*Campaign Dashboard*
+_Campaign Dashboard_
+
 </center>
 
 ## Conversation synchronized between SeaX and SeaChat
