@@ -2,7 +2,6 @@
 title: "Zendesk Ticket Search Tool"
 description: ""
 date: 2025-02-04T00:22:19-07:00
-date: 2025-02-04T00:22:19-07:00
 draft: false
 weight: 903
 url: /seachat/seachat-manual/automation/zendesk-ticket-search
