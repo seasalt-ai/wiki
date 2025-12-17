@@ -10,7 +10,6 @@ menu:
     parent: "tts"
 weight: 102
 url: /seavoice/tts/panel_tutorial_en/
-weight: 101
 toc: true
 ---
 

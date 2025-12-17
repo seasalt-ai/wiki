@@ -9,9 +9,9 @@ menu:
   seachat:
     parent: "seachat-omni"
 aliases:
-- /zh/seax/seax-messaging/seax-agent-bulk-send/
-- /zh/seax/seax-agent-bulk-send/
-- /seax/seax-agent-bulk-send/
+  - /zh/seax/seax-messaging/seax-agent-bulk-send/
+  - /zh/seax/seax-agent-bulk-send/
+  - /seax/seax-agent-bulk-send/
 url: /zh/seax/seax-omni/seax-agent-bulk-send/
 weight: 30
 toc: true
@@ -29,14 +29,13 @@ A comprehensive video tutorial demonstrates step-by-step how to set up and use S
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/An4n8JhhdvA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/05-integrations/08-seax-integration-bulk-phone-calls.md" >}}) 
+See [cross reference with SeaChat]({{< ref "seachat/seachat-manual/05-integrations/08-seax-integration-bulk-phone-calls.md" >}})
 
 ## 🎥 Video Tutorial for Bulk WhatsApp Messaging (Campaigns)
 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/WUwn2QoeBGA?list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/05-integrations/09-seax-integration-whatsapp-in-seachat.md" >}}) 
-
+See [cross reference with SeaChat]({{< ref "seachat/seachat-manual/05-integrations/09-seax-integration-whatsapp-in-seachat.md" >}})
 
 ## 設置工作區
 
@@ -48,7 +47,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/seax-number.png" alt="SeaX | SeaX Number Setup">
 </a>
 
-*SeaX 號碼*
+_SeaX 號碼_
+
 </center>
 
 > 🚨 注意 🚨
@@ -77,7 +77,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/recipient-step.png" alt="SeaX | Recipient Setup">
 </a>
 
-*收件人標籤*
+_收件人標籤_
+
 </center>
 
 ### 聯絡人
@@ -90,7 +91,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/contact-step.png" alt="SeaX | Contact">
 </a>
 
-*管理聯絡人*
+_管理聯絡人_
+
 </center>
 
 ### 為外發 SMS 和電話創建活動
@@ -103,7 +105,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/compose-dashboard.png" alt="SeaX | Campaign Dashboard">
 </a>
 
-*創建活動*
+_創建活動_
+
 </center>
 
 #### 活動名稱與標籤
@@ -120,7 +123,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-execution.png" alt="SeaX | Executing SeaX Campaign">
 </a>
 
-*執行活動*
+_執行活動_
+
 </center>
 
 > 🔖 注意
@@ -141,7 +145,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/schedule-setting.png" alt="SeaX | Schedule Setup">
 </a>
 
-*計劃設置*
+_計劃設置_
+
 </center>
 
 > 額外設置 - 捕捉收件人按鍵和點擊追蹤
@@ -162,7 +167,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/sender.png" alt="SeaX | Sender Setup">
 </a>
 
-*發送者設置*
+_發送者設置_
+
 </center>
 
 ### 審核
@@ -179,7 +185,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/inbound-agent-update.png" alt="SeaX | SeaX Number Setup">
 </a>
 
-*內發助理設置*
+_內發助理設置_
+
 </center>
 
 ### 發送活動
@@ -192,7 +199,8 @@ See [cross reference with SeaChat]({{< ref "/content/zh/seachat/seachat-manual/0
 <img width="80%" style="border-radius: 0.4rem" src="/images/seax/en/seax-agent-bulk-send/campaign-dashboard.png" alt="SeaX | Send out Campaign">
 </a>
 
-*活動儀表板*
+_活動儀表板_
+
 </center>
 
 ## SeaX 與 SeaChat 的對話同步
