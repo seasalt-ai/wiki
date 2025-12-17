@@ -113,6 +113,16 @@ SeaX 原生整合 SeaChat（Seasalt.ai 的無程式碼 AI 助理平台），讓A
     </item>
     
     <item>
+      <title>Zoho 整合</title>
+      <link>https://wiki.seasalt.ai/zh/seax/seax-omni/zoho-integration-with-contacts-sync/</link>
+      <pubDate>Tue, 16 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seax/seax-omni/zoho-integration-with-contacts-sync/</guid>
+      <description>本指南概述了將 Zoho CRM 與您的 Seasalt.ai (SeaX) 工作區整合的步驟。此整合允許您在 SeaX 和 Zoho CRM 之間無縫同步聯絡人資訊。
+ 先決條件 #  一個 Seasalt.ai (SeaX) 工作區帳號。 一個 Zoho CRM 帳號（免費版、標準版、專業版或企業版）。  整合步驟指南 # 1. 進入 SeaX 的整合設定 #  登入您的 SeaX 工作區。 在左側選單中，前往 Workspace &amp;gt; Integrations。 從 CRM Integrations (CRM 整合) 列表中選擇 Zoho。  2. 在 Zoho API Console 建立客戶端 #  開啟新的瀏覽器分頁並前往 api-console.zoho.com。 點擊 Add Client (新增客戶端)。 選擇 Server-based Applications 作為客戶端類型。 Client Name: 輸入整合名稱（例如：Seasalt.ai）。 Homepage URL: 返回 SeaX 整合頁面，複製步驟 3 中提供的 Homepage URL，並將其貼上至 Zoho 控制台。 Authorized Redirect URIs: 從 SeaX 整合頁面複製 Authorized Redirect URI，並將其貼上至 Zoho 控制台。 點擊 Create (建立)。  3.</description>
+    </item>
+    
+    <item>
       <title>SeaX 小工具</title>
       <link>https://wiki.seasalt.ai/zh/seax/seax-omni/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>

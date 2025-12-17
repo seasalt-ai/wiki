@@ -82,6 +82,16 @@ This guide will walk you through the process of sending bulk messages and calls 
     </item>
     
     <item>
+      <title>Zoho Integration</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/zoho-integration-with-contacts-sync/</link>
+      <pubDate>Tue, 16 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/zoho-integration-with-contacts-sync/</guid>
+      <description>This guide outlines the steps to integrate Zoho CRM with your Seasalt.ai (SeaX) workspace. This integration allows you to synchronize contact information between SeaX and Zoho CRM seamlessly.
+ Prerequisites #  A Seasalt.ai (SeaX) Workspace account. A Zoho CRM account (Free, Standard, Professional, or Enterprise).  Step-by-Step Integration Guide # 1. Access Integration Settings in SeaX1. Log in to your SeaX workspace. # Navigate to Workspace &amp;gt; Integrations in the left-hand menu.</description>
+    </item>
+    
+    <item>
       <title>SeaX Widget</title>
       <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</link>
       <pubDate>Thu, 25 Apr 2024 08:48:57 +0000</pubDate>
