@@ -90,7 +90,7 @@ SeaMeet currently supports the following languages:
 
 More languages will be added in the future.
 
-## 7.1 **What languages does SeaMeet support for translation?**
+## 8. **What languages does SeaMeet support for translation?**
 
 SeaMeet supports translation into the following formal languages:
 
