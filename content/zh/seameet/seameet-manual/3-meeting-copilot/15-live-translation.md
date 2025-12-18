@@ -25,6 +25,10 @@ toc: true
 * Google 帳戶（用於 Google Meet 整合）。
 * 基於 Chromium 的瀏覽器（Google Chrome、Microsoft Edge 等）。
 
+<center>
+<img src="/images/seameet-zh/live-translation-zh.jpeg" alt="Real-time translation for Google Meet, Microsoft Teams, Zoom"/>
+</center>
+
 ## 2. 安裝
 
 1. **造訪官方網站：** 前往 [SeaMeet.ai](https://seameet.ai) 註冊免費帳戶。

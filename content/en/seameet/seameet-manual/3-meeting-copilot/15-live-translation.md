@@ -25,6 +25,10 @@ To use SeaMeet, you will need:
 * A Google account (for Google Meet integration).
 * A Chromium-based browser (Google Chrome, Microsoft Edge, etc.).
 
+<center>
+<img src="/images/seameet-en/live-translation-en.jpg" alt="Real-time translation for Google Meet, Microsoft Teams, Zoom"/>
+</center>
+
 ## 2. Installation
 
 1. **Visit the Official Website:** Head to [SeaMeet.ai](https://seameet.ai) to sign up for a free account.
@@ -101,6 +105,9 @@ SeaMeet allows you to "Spice it up" by adding a third, fun translation track:
 
 
 3. The live feed will now display the original text, the standard translation, and the "fun" version simultaneously.
+
+
+
 
 ## 6. Post-Meeting Review
 
