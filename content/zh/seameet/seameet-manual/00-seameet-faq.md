@@ -75,6 +75,60 @@ SeaMeet 可將說話人區分為「說話人1」、「說話人2」……，並�
 
 SeaMeet 目前支援以下語言：英語（美國、新加坡）、西班牙語（西班牙、拉丁美洲）、法語、德語、波蘭語、丹麥語、國語（臺灣繁體）、廣東話（香港繁體）、廣東話（簡體）、日語、韓語、越南語、泰語和印地語。未來將新增更多語言。
 
+## 8. **SeaMeet 支援哪些語言進行翻譯？**
+
+SeaMeet 支援翻譯成以下正式語言：
+
+* English (United States)
+* Español (España)
+* Español (Latinoamérica)
+* Français (France)
+* Deutsch (Deutschland)
+* Dansk (Denmark)
+* Polski (Polska)
+* ไทย (ประเทศไทย)
+* हिन्दी (भारत)
+* Tiếng Việt (Việt Nam)
+* 한국어 (대한민국)
+* 日本語 (日本)
+* Bahasa Melayu (Malaysia)
+* Filipino (Pilipinas)
+* 广东话 (简体)
+* 廣東話 (香港繁體)
+* 國語 (台灣繁體)
+* 普通话 (中国简体)
+* العربية (Arabic)
+* فارسی (Farsi)
+
+此外，SeaMeet 提供「有趣」的翻譯選項，包括：
+
+**奇幻與虛構：**
+* Klingon (克林貢語)
+* Dothraki (多斯拉克語)
+* Elvish (精靈語)
+* Minionese (小黃人語)
+
+**數位與宅：**
+* Morse Code (摩斯密碼)
+* Emoji-only (僅表情符號，將語意翻譯成圖標)
+
+**可愛與網路文化：**
+* "UwU speak" (UwU 語，可愛的動漫風格)
+* Doggo speak (狗狗語)
+
+**歷史與角色：**
+* Shakespearean English (莎士比亞英語)
+* Pirate Speak (海盜語)
+* Yoda Speak (尤達語)
+
+**全球風味與方言：**
+* Spanglish (西班牙英語)
+* Chinglish (中式英語)
+* Singlish (新加坡英語)
+
+**實用風格：**
+* Shorthand/Texting (簡寫/簡訊，將語音壓縮成快速文字)
+
 ## 8. **我可以和我的團隊成員一起協作嗎？團隊方案跟個人方案具體有什麼差異？我的團隊需要多少組帳號？**
 
 當然可以，只要升級至團隊方案後，便可以將您的團隊成員邀請至您的工作區中。

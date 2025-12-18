@@ -90,6 +90,60 @@ SeaMeet currently supports the following languages:
 
 More languages will be added in the future.
 
+## 8. **What languages does SeaMeet support for translation?**
+
+SeaMeet supports translation into the following formal languages:
+
+* English (United States)
+* Español (España)
+* Español (Latinoamérica)
+* Français (France)
+* Deutsch (Deutschland)
+* Dansk (Denmark)
+* Polski (Polska)
+* ไทย (ประเทศไทย)
+* हिन्दी (भारत)
+* Tiếng Việt (Việt Nam)
+* 한국어 (대한민국)
+* 日本語 (日本)
+* Bahasa Melayu (Malaysia)
+* Filipino (Pilipinas)
+* 广东话 (简体)
+* 廣東話 (香港繁體)
+* 國語 (台灣繁體)
+* 普通话 (中国简体)
+* العربية (Arabic)
+* فارسی (Farsi)
+
+Additionally, SeaMeet offers "fun" translation options, including:
+
+**Fantasy & Fictional:**
+* Klingon
+* Dothraki
+* Elvish
+* Minionese
+
+**Digital & Nerdy:**
+* Morse Code
+* Emoji-only (semantic translation into icons)
+
+**Cute & Internet Culture:**
+* "UwU speak" (cutesy anime style)
+* Doggo speak
+
+**Historical & Character:**
+* Shakespearean English
+* Pirate Speak
+* Yoda Speak
+
+**Global Flavors & Dialects:**
+* Spanglish
+* Chinglish
+* Singlish
+
+**Utility Styles:**
+* Shorthand/Texting (compressing speech into rapid text)
+
 ## 8. **Can I collaborate with my team members? What are the differences between Team and Personal plans? How many accounts does my team need?**
 
 Yes. By upgrading to the Team plan, you can invite your team members to your workspace.
