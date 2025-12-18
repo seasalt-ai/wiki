@@ -97,5 +97,16 @@
  點選人員頁籤    點選 分享邀請 按鈕    複製會議連結     </description>
     </item>
     
+    <item>
+      <title>即時翻譯</title>
+      <link>https://wiki.seasalt.ai/zh/seameet/live-translation/</link>
+      <pubDate>Wed, 17 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh/seameet/live-translation/</guid>
+      <description>SeaMeet 是一款由 AI 驅動的「代理會議助理」，旨在提升個人和高績效團隊的生產力。它提供即時轉錄、多語言翻譯，以及獨特的「有趣」翻譯過濾器（三軌翻譯），適用於線上和離線會議。
+ 1. 先決條件 # 要使用 SeaMeet，您需要：
+ Google 帳戶（用於 Google Meet 整合）。 基於 Chromium 的瀏覽器（Google Chrome、Microsoft Edge 等）。    2. 安裝 #  造訪官方網站： 前往 SeaMeet.ai 註冊免費帳戶。 安裝擴充功能： 從 Google Chrome 網路商店下載 SeaMeet Chrome 擴充功能。 登入： 安裝後，點擊擴充功能圖標並使用您的 SeaMeet 憑證登入。  3. 使用 SeaMeet 開始會議 #  啟動會議： 開啟 Google Meet 並開始新會議或加入現有會議。 啟動助理： 在 Google Meet 畫面的左側，您會看到 SeaMeet 小工具。點擊 「開始錄製」。 允許機器人： 「SeaMeet Copilot」會請求加入會議。會議主持人必須點擊 「允許」 以允許機器人開始轉錄。  4.</description>
+    </item>
+    
   </channel>
 </rss>

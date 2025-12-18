@@ -84,5 +84,16 @@ Supported meeting links must start with: https://teams.microsoft.com/l/meetup-jo
   How to Get a Microsoft Teams Meeting Link # You can obtain the meeting link in the following ways:</description>
     </item>
     
+    <item>
+      <title>Live Translation</title>
+      <link>https://wiki.seasalt.ai/en/seameet/live-translation/</link>
+      <pubDate>Wed, 17 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seameet/live-translation/</guid>
+      <description>SeaMeet is an AI-powered &amp;ldquo;Agentic Meeting Copilot&amp;rdquo; designed to enhance productivity for individuals and high-performance teams. It provides real-time transcription, multi-language translation, and unique &amp;ldquo;fun&amp;rdquo; translation filters (Triple Track Translation) for both online and offline meetings.
+ 1. Prerequisites # To use SeaMeet, you will need:
+ A Google account (for Google Meet integration). A Chromium-based browser (Google Chrome, Microsoft Edge, etc.).    2. Installation #  Visit the Official Website: Head to SeaMeet.</description>
+    </item>
+    
   </channel>
 </rss>
