@@ -108,5 +108,26 @@
  Google 帳戶（用於 Google Meet 整合）。 基於 Chromium 的瀏覽器（Google Chrome、Microsoft Edge 等）。    2. 安裝 #  造訪官方網站： 前往 SeaMeet.ai 註冊免費帳戶。 安裝擴充功能： 從 Google Chrome 網路商店下載 SeaMeet Chrome 擴充功能。 登入： 安裝後，點擊擴充功能圖標並使用您的 SeaMeet 憑證登入。  3. 使用 SeaMeet 開始會議 #  啟動會議： 開啟 Google Meet 並開始新會議或加入現有會議。 啟動助理： 在 Google Meet 畫面的左側，您會看到 SeaMeet 小工具。點擊 「開始錄製」。 允許機器人： 「SeaMeet Copilot」會請求加入會議。會議主持人必須點擊 「允許」 以允許機器人開始轉錄。  4.</description>
     </item>
     
+    <item>
+      <title>Email工作流Copilot</title>
+      <link>https://wiki.seasalt.ai/zh-tw/seameet/email-copilot/</link>
+      <pubDate>Thu, 18 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/zh-tw/seameet/email-copilot/</guid>
+      <description>簡介
+SeaMeet 是一款由 AI 驅動的會議助理，旨在簡化會議後的工作流程。不同於傳統工具需要使用者將逐字稿複製到外部的大型語言模型 (LLM) 工具（如 ChatGPT 或 Claude），SeaMeet 採用了一種「代理式郵件 (Agentic Email)」工作流程。這讓使用者可以透過直接「回覆」電子郵件串的方式，來生成摘要、草擬信件、建立 GitHub 工單 (Ticket) 以及撰寫工作說明書 (SOW)，完全無需切換分頁或複製貼上內容。
+ 您將在本影片中學到：
+大多數 AI 會議工具都會迫使您切換分頁並遺失當下的脈絡 (Context)。SeaMeet 透過將 AI 直接帶入您的電子郵件串中，徹底改變了這一點。觀看我們如何從原始會議錄音，轉變為完成的工作說明書和 GitHub 工單，而無需離開 Gmail。
+時間戳記：
+0:00 - 「複製貼上」的問題與情境切換 (Context Switching)
+0:21 - 介紹 SeaMeet Copilot：代理式工作流程
+1:16 - 示範 1：透過電子郵件提取洞察與行動項目
+2:51 - 示範 2：生成正式的工作說明書 (SOW)
+4:06 - 示範 3：在不離開郵件串的情況下草擬客戶信件
+5:33 - 示範 4：建立 Markdown 格式的技術性 GitHub 工單
+6:32 - 為什麼「保持在工作流中 (Staying in the Flow)」很重要
+  先決條件</description>
+    </item>
+    
   </channel>
 </rss>

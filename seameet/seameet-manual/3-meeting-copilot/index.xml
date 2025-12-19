@@ -95,5 +95,15 @@ Supported meeting links must start with: https://teams.microsoft.com/l/meetup-jo
  A Google account (for Google Meet integration). A Chromium-based browser (Google Chrome, Microsoft Edge, etc.).    2. Installation #  Visit the Official Website: Head to SeaMeet.</description>
     </item>
     
+    <item>
+      <title>Email Copilot</title>
+      <link>https://wiki.seasalt.ai/en/seameet/email-copilot/</link>
+      <pubDate>Thu, 18 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seameet/email-copilot/</guid>
+      <description>Introduction
+SeaMeet is an AI-powered meeting assistant designed to streamline post-meeting workflows. Unlike traditional tools that require users to copy transcripts into external Large Language Model (LLM) tools (like ChatGPT or Claude), SeaMeet utilizes an &amp;ldquo;Agentic Email&amp;rdquo; workflow. This allows users to generate summaries, draft emails, create GitHub tickets, and write Statements of Work (SOW) directly by replying to an email thread, eliminating the need to switch tabs or copy-paste context.</description>
+    </item>
+    
   </channel>
 </rss>
