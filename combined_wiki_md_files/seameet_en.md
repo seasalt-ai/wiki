@@ -1048,7 +1048,7 @@ You can add various meeting labels to your workspace to help categorize meetings
 
 #### Audio Upload
 
-<!-- Source: seameet-manual/3-meeting-copilot/seameet-audio-upload.md -->
+<!-- Source: seameet-manual/3-meeting-copilot/13-seameet-audio-upload.md -->
 
 <!-- Weight: 36 -->
 
@@ -1206,7 +1206,7 @@ SeaMeet’s audio upload feature transforms any recording into actionable insigh
 
 #### How to Record Microsoft Teams Meetings
 
-<!-- Source: seameet-manual/3-meeting-copilot/seameet-ms-teams.md -->
+<!-- Source: seameet-manual/3-meeting-copilot/14-seameet-ms-teams.md -->
 
 <!-- Weight: 37 -->
 
@@ -1291,6 +1291,207 @@ You can obtain the meeting link in the following ways:
    <center>
    <img src="/images/seameet-en/seameet-ms-teams/seameet-ms-teams-8.png" alt="Copy Meeting Link" width="70%"/>
    </center>
+
+---
+
+
+#### Live Translation
+
+<!-- Source: seameet-manual/3-meeting-copilot/15-live-translation.md -->
+
+<!-- Weight: 38 -->
+
+
+
+**SeaMeet** is an AI-powered "Agentic Meeting Copilot" designed to enhance productivity for individuals and high-performance teams. It provides real-time transcription, multi-language translation, and unique "fun" translation filters (Triple Track Translation) for both online and offline meetings.
+
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/3gK3qhEtZvs?si=v47owOuo0cRJMw0e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"/></iframe>
+
+## 1. Prerequisites
+
+To use SeaMeet, you will need:
+
+* A Google account (for Google Meet integration).
+* A Chromium-based browser (Google Chrome, Microsoft Edge, etc.).
+
+<center>
+<img src="/images/seameet-en/live-translation-en.jpg" alt="Real-time translation for Google Meet, Microsoft Teams, Zoom"/>
+</center>
+
+## 2. Installation
+
+1. **Visit the Official Website:** Head to [SeaMeet.ai](https://seameet.ai) to sign up for a free account.
+2. **Install the Extension:** Download the [SeaMeet Chrome Extension](https://chromewebstore.google.com/detail/seameet-take-chatgpt-meet/gkkhkniggakfgioeeclbllpihmipkcmn) from the Google Chrome Web Store.
+3. **Sign In:** Once installed, click the extension icon and log in with your SeaMeet credentials.
+
+## 3. Starting a Meeting with SeaMeet
+
+1. **Launch a Meeting:** Open Google Meet and start a new meeting or join an existing one.
+2. **Activate the Copilot:** On the left-hand side of your Google Meet screen, you will see the SeaMeet widget. Click **"Start Recording."**
+3. **Admit the Bot:** A "SeaMeet Copilot" will request to join the meeting. The meeting host must click **"Admit"** to allow the bot to begin transcribing.
+
+## 4. Real-Time Transcription and Translation
+
+Once the Copilot is in the meeting:
+
+1. **Open the Dashboard:** Click the **"Transcription & Translation"** tab in the SeaMeet widget. This will open the SeaMeet back-end interface.
+2. **Enable Translation:** By default, translation is disabled. Click the **"Translate"** dropdown menu.
+3. **Standard Translation:** Select up to two standard languages to see live parallel translations of the speaker's words. Supported formal languages include:
+   * English (United States)
+   * Español (España)
+   * Español (Latinoamérica)
+   * Français (France)
+   * Deutsch (Deutschland)
+   * Dansk (Denmark)
+   * Polski (Polska)
+   * ไทย (ประเทศไทย)
+   * हिन्दी (भारत)
+   * Tiếng Việt (Việt Nam)
+   * 한국어 (대한민국)
+   * 日本語 (日本)
+   * Bahasa Melayu (Malaysia)
+   * Filipino (Pilipinas)
+   * 广东话 (简体)
+   * 廣東話 (香港繁體)
+   * 國語 (台灣繁體)
+   * 普通话 (中国简体)
+   * العربية (Arabic)
+   * فارسی (Farsi)
+
+## 5. Using "Triple Track" (Fun) Translations
+
+SeaMeet allows you to "Spice it up" by adding a third, fun translation track:
+
+1. In the translation menu, click the **"Spice it up!"** tab.
+2. Choose from a variety of "fun" languages, including:
+
+   **Fantasy & Fictional:**
+   * Klingon
+   * Dothraki
+   * Elvish
+   * Minionese
+
+   **Digital & Nerdy:**
+   * Morse Code
+   * Emoji-only (semantic translation into icons)
+
+   **Cute & Internet Culture:**
+   * "UwU speak" (cutesy anime style)
+   * Doggo speak
+
+   **Historical & Character:**
+   * Shakespearean English
+   * Pirate Speak
+   * Yoda Speak
+
+   **Global Flavors & Dialects:**
+   * Spanglish
+   * Chinglish
+   * Singlish
+
+   **Utility Styles:**
+   * Shorthand/Texting (compressing speech into rapid text)
+
+
+3. The live feed will now display the original text, the standard translation, and the "fun" version simultaneously.
+
+
+
+
+## 6. Post-Meeting Review
+
+After the meeting ends, you can visit your workspace at [SeaMeet.ai](https://seameet.ai) to view:
+
+* Full meeting transcripts.
+* Summaries and action items.
+* All generated translations.
+
+
+---
+
+
+#### Email Copilot
+
+<!-- Source: seameet-manual/3-meeting-copilot/16-seameet-email-copilot.md -->
+
+<!-- Weight: 39 -->
+
+
+
+
+**Introduction**
+
+SeaMeet is an AI-powered meeting assistant designed to streamline post-meeting workflows. Unlike traditional tools that require users to copy transcripts into external Large Language Model (LLM) tools (like ChatGPT or Claude), SeaMeet utilizes an "Agentic Email" workflow. This allows users to generate summaries, draft emails, create GitHub tickets, and write Statements of Work (SOW) directly by replying to an email thread, eliminating the need to switch tabs or copy-paste context.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/VpJgd6G-6K4?si=_A1sKG7T1XpmWDmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"/></iframe>
+
+**What you will learn in this video:**
+
+Most AI meeting tools force you to switch tabs and lose context. SeaMeet changes the game by bringing the AI directly into your email thread. Watch how we go from a raw meeting recording to a finished Statement of Work and GitHub tickets without ever leaving Gmail.
+
+Timestamps: 
+
+0:00 - The "Copy-Paste" Problem & Context Switching 
+
+0:21 - Introducing SeaMeet Copilot: The Agentic Workflow 
+
+1:16 - Demo 1: Extracting Insights & Action Items via Email 
+
+2:51 - Demo 2: Generating a Formal Statement of Work (SOW) 
+
+4:06 - Demo 3: Drafting Client Emails without Leaving the Thread
+
+5:33 - Demo 4: Creating Technical GitHub Tickets in Markdown 
+
+6:32 - Why Staying in the Flow Matters
+
+
+<center>
+<img src="/images/seameet-en/seameet-email-copilot-en.jpg" alt="Agentic Email followup right after meetings"/>
+</center>
+
+**Prerequisites**
+
+To begin using SeaMeet effectively, ensure you have the browser extension installed:
+
+* **Download:** [SeaMeet Chrome Extension](https://chromewebstore.google.com/detail/seameet-take-chatgpt-meet/gkkhkniggakfgioeeclbllpihmipkcmn?utm_source=SeaMeet&utm_medium=Website&utm_campaign=Landing_Btn_Click&pli=1)
+* **Account:** Sign up at [SeaMeet.ai](https://seameet.ai)
+
+**The Agentic Workflow: Step-by-Step**
+
+**1. Record Your Meeting**
+Start your meeting (via Zoom, Google Meet, or Microsoft Teams) with SeaMeet enabled. The tool will record and transcribe the session in real-time.
+
+**2. Receive the Summary Email**
+Once the meeting concludes, SeaMeet Copilot automatically sends an email to your inbox. This email contains:
+
+* A summary of the discussion.
+* Suggested action items.
+* A "Reply" prompt feature.
+
+**3. Interact with the Copilot (The "Reply" Method)**
+Instead of taking the transcript to a separate AI tool, simply hit **Reply** to the summary email. You can ask SeaMeet Copilot to perform specific tasks using natural language.
+
+* *Example:* "Draft a follow-up email to the client summarizing the next steps."
+* *Example:* "Create a formal Statement of Work (SOW) based on the pricing discussed."
+
+**4. Receive Generated Content**
+SeaMeet will process your request and reply to the same email thread with the generated content. This keeps the context history intact within one conversation.
+
+**5. Iterate and Refine**
+Because the context is preserved in the email thread, you can reply again to refine the output.
+
+* *Example:* "Make the email more polite."
+* *Example:* "Change the SOW format to a bulleted list."
+
+**Advanced Use Cases**
+
+* **Project Management Integration:** You can ask SeaMeet to convert meeting notes into technical formats. For example: *"Create a detailed GitHub issue ticket in Markdown format for the team."* SeaMeet will generate the code block ready for copy-pasting.
+* **Sales & Legal Documents:** Generate complex documents like SOWs or proposals by referencing the specific details mentioned in the meeting audio.
+* **Contextual History:** All iterations are saved within the email thread. If you need to revisit why a decision was made months later, the entire conversation history with the AI is preserved in your inbox.
+
+
 
 ---
 
@@ -1555,6 +1756,60 @@ SeaMeet currently supports the following languages:
 * Hindi
 
 More languages will be added in the future.
+
+## 8. **What languages does SeaMeet support for translation?**
+
+SeaMeet supports translation into the following formal languages:
+
+* English (United States)
+* Español (España)
+* Español (Latinoamérica)
+* Français (France)
+* Deutsch (Deutschland)
+* Dansk (Denmark)
+* Polski (Polska)
+* ไทย (ประเทศไทย)
+* हिन्दी (भारत)
+* Tiếng Việt (Việt Nam)
+* 한국어 (대한민국)
+* 日本語 (日本)
+* Bahasa Melayu (Malaysia)
+* Filipino (Pilipinas)
+* 广东话 (简体)
+* 廣東話 (香港繁體)
+* 國語 (台灣繁體)
+* 普通话 (中国简体)
+* العربية (Arabic)
+* فارسی (Farsi)
+
+Additionally, SeaMeet offers "fun" translation options, including:
+
+**Fantasy & Fictional:**
+* Klingon
+* Dothraki
+* Elvish
+* Minionese
+
+**Digital & Nerdy:**
+* Morse Code
+* Emoji-only (semantic translation into icons)
+
+**Cute & Internet Culture:**
+* "UwU speak" (cutesy anime style)
+* Doggo speak
+
+**Historical & Character:**
+* Shakespearean English
+* Pirate Speak
+* Yoda Speak
+
+**Global Flavors & Dialects:**
+* Spanglish
+* Chinglish
+* Singlish
+
+**Utility Styles:**
+* Shorthand/Texting (compressing speech into rapid text)
 
 ## 8. **Can I collaborate with my team members? What are the differences between Team and Personal plans? How many accounts does my team need?**
 
@@ -1846,6 +2101,16 @@ The SeaMeet team will respond within 24-48 hours at the latest.
 <!-- Weight: 400 -->
 
 *Stay tuned with SeaMeet's release history. Explore new features, performance optimizations, and bug fixes.*
+
+### 10/16/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added real-time speaker indicator in live transcription and internationalized display support
+- Enabled custom speaker names in transcription content
+- Improved recognition message ordering and positioning for better user experience
+- Enhanced tooltip display in the upload area of the meeting list
+- Improved SeaMeet calendar extension appearance in Google Calendar
+- Fixed summary toggle display issue
+- Fixed recording worker restart failure during meeting recording
 
 ### 10/09/2025
 ##### **<font color="#739963">New Features & Improvements</font>**
@@ -2430,6 +2695,142 @@ left due to reasons such as "not being permitted to join the meeting" or "no con
 ---
 
 
+### New Drip Campaign
+
+<!-- Source: seameet-manual/new_drip_campaign.md -->
+
+<!-- Weight: 999 (default) -->
+
+
+# SeaMeet New User Onboarding Drip Campaign
+
+This drip campaign is designed to onboard new SeaMeet users, guiding them from initial sign-up to becoming power users. Each email is crafted to be engaging, informative, and visually appealing, with clear calls to action.
+
+---
+
+## Email 1: Welcome & Your First Recording
+
+*   **Subject:** Welcome to SeaMeet! Your first AI meeting assistant awaits 🚀
+*   **Goal:** Get the user to record their first meeting.
+*   **Content:**
+    *   A warm welcome to the SeaMeet family.
+    *   Highlight the core value proposition: "Never take meeting notes again."
+    *   Show the three simple ways to start a recording.
+*   **Multimedia:**
+    *   Include a welcoming GIF.
+    *   Embed the "How to Record Google Meet Meetings" video.
+    *   Use icons to visually represent the three recording methods.
+*   **CTA:** "Record Your First Meeting"
+
+---
+
+## Email 2: Unlocking Your Meeting Insights
+
+*   **Subject:** Your first meeting summary is ready! ✨
+*   **Goal:** Introduce the user to the AI-powered meeting analysis features.
+*   **Content:**
+    *   Congratulate the user on their first recording.
+    *   Explain the different parts of the meeting record: Summary, Action Items, and Discussion Topics.
+    *   Briefly touch on the accuracy of the transcription.
+*   **Multimedia:**
+    *   Use a screenshot of a meeting summary.
+    *   Create a short GIF that scrolls through the different sections of a meeting record.
+*   **CTA:** "View Your Meeting Insights"
+
+---
+
+## Email 3: Master Your Meetings with Playback
+
+*   **Subject:** Did you miss that? Replay key moments from your meetings 🎧
+*   **Goal:** Teach users how to use the meeting recording playback features.
+*   **Content:**
+    *   Explain how to play the entire meeting recording.
+    *   Highlight the feature of playing individual conversation segments.
+    *   Emphasize the benefit of quickly finding key information.
+*   **Multimedia:**
+    *   Include a video demonstrating the playback features.
+    *   Use an image from the "Play Meeting Recordings" page.
+*   **CTA:** "Listen to Your Last Meeting"
+
+---
+
+## Email 4: Collaborate with Your Team
+
+*   **Subject:** Meetings are a team sport. Invite your colleagues to SeaMeet! 🤝
+*   **Goal:** Encourage users to invite their team members and set up a workspace.
+*   **Content:**
+    *   Explain the benefits of a team workspace.
+    *   Walk through the steps to invite team members.
+    *   Explain the different user roles (Admin vs. Member).
+*   **Multimedia:**
+    *   Use a diagram to illustrate the concept of a shared workspace.
+    *   Include a short video on how to set up a workspace and invite users.
+*   **CTA:** "Create Your Team Workspace"
+
+---
+
+## Email 5: Automate Your Workflow
+
+*   **Subject:** Put your meeting notes on autopilot 🤖
+*   **Goal:** Introduce users to the automation features like auto-join and auto-sharing.
+*   **Content:**
+    *   Explain how to sync their Google Calendar for auto-join.
+    *   Show how to set up auto-sharing to distribute meeting notes automatically.
+    *   Highlight the time-saving benefits of automation.
+*   **Multimedia:**
+    *   Use GIFs to show the setup process for auto-join and auto-sharing.
+    *   Include a testimonial from a user who loves the automation features.
+*   **CTA:** "Automate Your Meeting Notes"
+
+---
+
+## Email 6: Beyond Google Meet
+
+*   **Subject:** SeaMeet works with more than just Google Meet!
+*   **Goal:** Inform users about MS Teams integration and audio uploads.
+*   **Content:**
+    *   Announce support for Microsoft Teams meetings.
+    *   Explain how to upload audio files for transcription.
+    *   Mention the speaker identification feature for in-person meetings.
+*   **Multimedia:**
+    *   Use logos of Google Meet, Microsoft Teams, and a generic audio file icon.
+    *   Include a short video on how to upload and transcribe an audio file.
+*   **CTA:** "Record a Teams Meeting or Upload an Audio File"
+
+---
+
+## Email 7: Power-User Tips & Tricks
+
+*   **Subject:** Become a SeaMeet pro with these power-user tips 🚀
+*   **Goal:** Share advanced tips to help users get the most out of SeaMeet.
+*   **Content:**
+    *   Explain how to use meeting labels for organization.
+    *   Introduce custom summary templates.
+    *   Share a tip on how to improve transcription accuracy by setting the correct meeting language.
+*   **Multimedia:**
+    *   Use screenshots to show where to find these features.
+    *   Include a "tip of the week" graphic.
+*   **CTA:** "Try a Power-User Feature Today"
+
+---
+
+## Email 8: Your Journey with SeaMeet
+
+*   **Subject:** You're all set! What's next on your SeaMeet journey?
+*   **Goal:** Recap the user's journey and encourage continued use.
+*   **Content:**
+    *   A summary of what the user has learned.
+    *   A link to the FAQ page for any remaining questions.
+    *   An invitation to provide feedback.
+*   **Multimedia:**
+    *   Use a visual roadmap of the user's journey with SeaMeet.
+    *   Include a friendly "thank you" GIF.
+*   **CTA:** "Explore the Help Center" or "Share Your Feedback"
+
+
+---
+
+
 ### Seameet Drip Campaign
 
 <!-- Source: seameet-manual/seameet-drip-campaign.md -->
@@ -2704,7 +3105,7 @@ New SeaMeet users who have:
 
 ### Feature-Specific Goals
 - **Week 1**: 70% first meeting completion
-- **Week 2**: 50% trying AI analytics features  
+- **Week 2**: 50% trying AI analytics features
 - **Week 3**: 30% setting up team collaboration
 - **Week 4**: 40% enabling automation features
 - **Week 5**: 20% using advanced features

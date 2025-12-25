@@ -1,6 +1,6 @@
 # Seachat Documentation
 
-*Combined documentation from content/en/seachat (Hugo weight-ordered)*
+*Combined documentation from content/en/seachat/ (Hugo weight-ordered)*
 
 ---
 
@@ -1007,154 +1007,176 @@ You will see the conversation history in a CSV file format. The CSV file contain
 
 <!-- Weight: 105 -->
 
-*Monitor statistics about conversation and messages with your bot over time.*
+*Monitor statistics about conversation and messages with your AI agents and workspace over time.*
 
 
-## SeaChat Analytics
+## SeaChat Analytics Dashboards
+
 ### Overview
-The SeaChat Analytics feature provides valuable insights into user interactions with your AI chatbot. This dashboard enables you to track key performance metrics over time, helping measure engagement, optimize chatbot performance, and make data-driven decisions. Navigate to the `Analytics` tab below `Agent Configuration` to view the analytics page for a specific bot.
 
-📊 Track Chatbot Performance
-Monitor the number of conversations, unique visitors, and message activity to understand how users are engaging with your chatbot.
+SeaChat provides two comprehensive analytics dashboards to help you monitor and optimize your AI agent performance:
 
-📈 Measure Growth and Trends
-Compare data across different time ranges (Last 7 Days, Last 30 Days, etc.) to identify trends in chatbot usage and user behavior.
+1. **AI Agent Analytics Dashboard** - Provides detailed insights into individual AI agent performance, including conversations, activity trends, label usage, and customer satisfaction metrics.
 
-🤖 Optimize Chatbot Responses
-Analyze bot message statistics to see how effectively the chatbot is handling conversations and refine responses for better user satisfaction.
+2. **Workspace Analytics Dashboard** - Offers an organization-wide view of all AI agents, conversations, and team performance metrics across your entire workspace.
 
-👥 Improve Customer Engagement
-By tracking live agent requests and user interactions, businesses can identify opportunities to enhance customer support and automation strategies.
+Both dashboards enable you to track key performance metrics over time, measure engagement, optimize AI agent responses, and make data-driven decisions. Navigate to the `Analytics` tab below `Agent Configuration` to view the analytics for a specific AI agent, or access the Workspace Analytics from your workspace dashboard.
 
-🔄 Data-Driven Decision Making
-Use real-time analytics to refine chatbot workflows, improve response accuracy, and optimize user experience based on actual usage patterns.
+## Key Features
 
-### Settings
+📊 **Track Performance** - Monitor conversations, unique visitors, and message activity across all channels
 
-At the top of the page, there are a couple settings you can configure. First, select the timezone you would like the data to be presented in. Second, check the box for whether or not you would like to include conversations that have *no messages from the user*. For example, if a user opens the webchat and reads the welcome message, but does NOT send a message, the conversation will still be created and show up in the conversation statistics. If you check the setting box, conversations like this with no user messages will be *excluded* from the statistics.
+📈 **Measure Trends** - Compare data across different time ranges to identify usage patterns and growth
 
-By default, the dashboard data will update every hour. If you would like to refresh the data on demand, click the "Refresh Data" button.
+🏷️ **Label Analytics** - Analyze how labels are used and related to understand conversation categories
 
-### Basic Metrics
+🤖 **Optimize Responses** - Track AI agent vs human agent performance to improve automation
 
-<center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/01-seachat-analytics-settings-metrics.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/01-seachat-analytics-settings-metrics.png" alt="SeaChat Analytics Basic Metrics">
-</a>
+⭐ **Customer Satisfaction** - Monitor CSAT ratings and feedback to improve service quality
 
-**SeaChat Analytics Basic Metrics**
-</center>
+📅 **Yearly Insights** - View complete annual performance metrics and seasonal patterns
 
-The Metrics section in SeaChat Analytics provides a detailed breakdown of your chatbot's performance over a selected time range. You can customize the date range by choosing from:
+## Analytics Sections
 
-- Last Day
-- Last 7 Days
-- Last 30 Days
-- Last 90 Days
-- Last 180 Days
+### 1. Conversations Section
 
-Once a time range is selected, SeaChat will compare the chatbot's performance during that period to the same length of time immediately before it. For example:
-
-> If you select Last 7 Days, the displayed metrics will compare the last 7 days to the previous 7-day period.
-
-> If you select Last 30 Days, it will compare the last 30 days to the 30 days before that.
-
-#### Understanding the Metrics
-The key performance indicators (KPIs) displayed include:
-
-- Conversations – The total number of chatbot interactions initiated during the selected time period.
-- Unique Visitors – The number of distinct users who interacted with the chatbot.
-- Messages Received – The number of messages sent by users to the chatbot.
-- Bot Messages Sent – The number of responses generated by the chatbot.
-- Live Agent Requests – The number of times users requested a human agent.
-- Agent Messages Sent – The number of messages sent by live agents in conversations.
-
-Each metric includes a percentage change indicator, showing how it has increased or decreased compared to the previous equivalent time period. Green arrows indicate positive growth, while red arrows (if applicable) indicate a decline.
-
-This comparison helps businesses track chatbot performance trends over time, evaluate improvements, and identify areas for optimization.
-
-### Conversation Yearly Overview
+Track conversation volumes, message counts, and user interactions across different channels and time periods. Monitor AI agent vs. human agent engagement to optimize your support strategy.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/02-seachat-analytics-conversations-by-year.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/02-seachat-analytics-conversations-by-year.png" alt="SeaChat Analytics Conversation Yearly Overview">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-conversation-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-conversation-section.png" alt="SeaChat Analytics Conversations Section">
 </a>
 
-**Conversation Yearly Overview**
+**Conversations Analytics Dashboard**
 </center>
 
-The Conversation Overview section in SeaChat Analytics provides a high-level summary of chatbot interactions for a selected year. Users can choose a specific year from the dropdown menu to view key statistics on chatbot engagement during that period.
+Key metrics include:
+- Total conversations
+- Message volumes and trends
+- User engagement patterns
+- AI agent vs human agent distribution
+- Channel performance comparison
 
-- Total Number of Conversations – Displays the total count of chatbot conversations for the selected year.
-Average Number of Messages Per Conversation – Shows the average number of messages exchanged per conversation, helping assess user engagement levels.
-- Total Messages by Month
+### 2. Activity Trend Section
 
-Below the key metrics, a line graph visualizes the total number of messages exchanged with the chatbot each month. This allows users to:
-
-- Identify trends in chatbot activity over time.
-- Spot seasonal fluctuations or spikes in engagement.
-- Assess the impact of business campaigns or chatbot improvements on conversation volume.
-
-### Conversation & Messages Breakdown
-
-The Conversations Breakdown by Day, Time & Channel section allows users to analyze chatbot interactions across various channels and time periods within a custom date range. By selecting a specific start and end date, businesses can gain detailed insights into when and where most of their interactions are occurring.
+Monitor activity patterns between AI agents and human agents across different time periods. Track messages and calls to understand workload distribution and identify peak hours.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/03-seachat-analytics-conversation-breakdown-by-channel.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/03-seachat-analytics-conversation-breakdown-by-channel.png" alt="SeaChat Analytics Channel Breakdown">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-activity-trend-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-activity-trend-section.png" alt="SeaChat Analytics Activity Trend">
 </a>
 
-**Channel Breakdown**
+**Activity Trend Analysis**
 </center>
 
-The channel breakdown table displays the following data for each channel:
+Features include:
+- **Calls and Messages Tabs** - Switch between viewing call activity or message activity
+- **Time Unit Selection** - Choose to view trends by day, month, or year
+- **Agent Comparison** - Compare AI agent vs human agent activity levels
+- **Peak Hour Identification** - Identify busy periods for better resource planning
 
-- Channel – The different communication channels through which users are interacting with the chatbot (e.g., Webchat, LINE, WhatsApp, Voice, Messenger, etc.). All channels offered by SeaChat will automatically appear in the table once they have traffic.
-- Unique Visitors – The number of distinct users who engaged with the chatbot via each specific channel within the selected time frame.
-- Inbound Messages Received – The total number of messages sent by users across each channel during the selected date range.
+### 3. Label Usage Overview
 
-#### Setting Up Sub-Channel Tracking
-The SeaChat WebChat widget allows you to install a chat window directly in your own website.
-Some clients add the webchat widget to multiple sites and want to be able to track the amount of traffic from the widget on each site separately.
-By default, the channel breakdown will lump all the webchat traffic together into a single channel type called `WEBCHAT`.
-However, with a simple customization to the WebChat widget code, you can provide a specific "subchannel" name to each instance of the widget and track the traffic separately.
-Once you customize the webchat widget with subchannel information, all subsequent traffic will appear as `WEBCHAT - {subchannel}` in the table.
+Get insights into how many conversations each label is attached to, helping you understand the categorization of your customer interactions.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/06-seachat-widget-subchannel-setup.png" alt="SeaChat Analytics WebChat Subchannel Setup">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-label-usage-overview-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-label-usage-overview-section.png" alt="SeaChat Analytics Label Usage Overview">
 </a>
 
-**WebChat Subchannel Setup**
+**Label Usage Overview**
 </center>
 
-Navigate to `Channels` -> `WebChat` -> `Install Widget` to find the WebChat widget code.
-Within this code block, there are four instances of your chatbot's webchat URL - it looks like this: `https://chat.seasalt.ai/chat/{chat_config_id}`.
-To distinguish different subchannels, simply append to following to the end of the URL: `?channel={subchannel_name}`. 
-For example, say you want to add the WebChat widget to your homepage as well as your wiki site.
-You could update the URL `https://chat.seasalt.ai/chat/aaaabbbbccccdddd` to `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=homepage` and add the widget code to your homepage.
-Then you could update the URL again to `https://chat.seasalt.ai/chat/aaaabbbbccccdddd?channel=wiki` and add the code to your wiki site.
-In the channel breakdown, you would see traffic from two separate channels: `WEBCHAT - homepage` and `WEBCHAT - wiki`.
+This section shows total conversations per label
+
+### 4. Label Usage by Period
+
+Analyze how label usage changes over time with detailed breakdowns by day, month, or year. Track label trends and identify patterns in conversation categorization.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/04-seachat-analytics-messages-by-day-of-week.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/04-seachat-analytics-messages-by-day-of-week.png" alt="SeaChat Analytics Day of the Week Breakdown">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-label-usage-by-period-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-label-usage-by-period-section.png" alt="SeaChat Analytics Label Usage by Period">
 </a>
 
-**Day of the Week Breakdown**
+**Label Usage Trends Over Time**
 </center>
 
-The 'Day of the Week' breakdown allows you to see how many user messages are sent to your bot on each day of the week. This allows you to identify trends of when users are engaging with your bot.
+Capabilities include:
+- Time-based label trend analysis
+- Comparison of label usage patterns
+- Identification of seasonal or recurring issues
+- Data export for deeper analysis
+
+### 5. Label Relationship Analysis
+
+Analyze how different labels appear together in conversations. Select two labels to discover overlap patterns, co-occurrence rates, and relationship insights for better label organization.
 
 <center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/05-seachat-analytics-messages-by-hour-of-day.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/05-seachat-analytics-messages-by-hour-of-day.png" alt="SeaChat Analytics Hour of the Day Breakdown">
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-label-relationship-section.png" target="_blank">
+<img width="100%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-label-relationship-section.png" alt="SeaChat Analytics Label Relationship Analysis">
 </a>
 
-**Hour of the Day Breakdown**
+**Label Relationship Analysis - Example: New User and Solved Labels**
 </center>
 
-The 'Hour of the Day' breakdown allows you to see what time of day users are sending messages to your bot. This allows you to identify trends of when users are engaging with your bot, and may help with making decisions such as what times to have live agents online.
+This analysis helps you:
+- Understand label co-occurrences
+- Identify related conversation topics
+- Optimize label taxonomy
+- Discover hidden patterns in customer interactions
+
+### 6. Customer Satisfaction (CSAT)
+
+*Note: This section is only available in the AI Agent Analytics Dashboard as CSAT ratings are specific to each AI agent.*
+
+Track customer satisfaction through star ratings and feedback comments. Monitor satisfaction rates, rating distributions, and recent customer feedback to improve service quality. Link to the conversation for each comment.
+
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-csat-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-csat-section.png" alt="SeaChat Analytics CSAT Dashboard">
+</a>
+
+**Customer Satisfaction Analytics**
+</center>
+
+CSAT metrics include:
+- Overall satisfaction score
+- Rating distribution (1-5 stars)
+- Recent feedback comments
+- Satisfaction trends over time
+- Channel-specific satisfaction rates
+
+### 7. Yearly Overview
+
+View your complete yearly performance metrics including total conversations, messages, and monthly trends to understand your annual growth and seasonality patterns.
+
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seachat/en/analytics/analytics-yearly-overview-section.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seachat/en/analytics/analytics-yearly-overview-section.png" alt="SeaChat Analytics Yearly Overview">
+</a>
+
+**Yearly Performance Overview**
+</center>
+
+Annual insights include:
+- Total yearly conversations
+- Average messages per conversation
+- Monthly trend visualization
+- Year-over-year comparisons
+- Seasonal pattern identification
+- Growth metrics and milestones
+
+### Time Zone Configuration
+Select your preferred timezone for data presentation to ensure accurate time-based analytics.
+
+## Best Practices
+
+1. **Regular Monitoring** - Check your analytics dashboards weekly to stay informed about trends
+2. **Label Consistency** - Use consistent labeling to get meaningful insights from label analytics
+3. **CSAT Follow-up** - Act on customer feedback promptly to improve satisfaction scores
+4. **Peak Hour Planning** - Use activity trends to schedule human agents during busy periods
+5. **Channel Optimization** - Focus resources on high-performing channels based on conversation data
+
 
 ---
 
@@ -2098,6 +2120,97 @@ Here are some scenarios where **Knowledge Base References** can be particularly 
   - Teachers can guide students by pointing them to specific referenced materials.
 
 By enabling Knowledge Base References, users gain better transparency, increased trust in AI responses, and more control over chatbot-generated content. 🚀
+
+
+---
+
+
+##### AI Agent Response Schedule
+
+<!-- Source: seachat-manual/02-create-agent/03-advanced-settings/06-ai-agent-response-schedule.md -->
+
+<!-- Weight: 110 -->
+
+*Set a schedule for when the AI Agent should respond to customers — ideal for handling inquiries during off-hours, holidays, or any custom timeframe.*
+
+
+## Overview
+
+The AI Agent Response Schedule feature in SeaChat allows you to set specific timeframes when your AI agent should actively respond to customer inquiries. This powerful feature is ideal for businesses that need to handle customer interactions during off-hours, holidays, weekends, or any custom timeframe while maintaining control over when automated responses are sent.
+
+Outside of the scheduled response times, conversations will follow your configured conversation handling mode and live agent transfer settings, ensuring seamless customer service continuity.
+
+## How to Configure AI Agent Response Schedule
+
+To set up the AI Agent Response Schedule, follow these steps:
+
+### Step 1: Access Advanced Settings
+
+Navigate to **Agent Information → Advanced Settings** tab in your SeaChat dashboard.
+
+### Step 2: Configure the Schedule
+
+<center>
+<a href="/images/seachat/en/agent-advanced-settings/ai-agent-schedule-1.png">
+<img height="100%" width="100%" src="/images/seachat/en/agent-advanced-settings/ai-agent-schedule-1.png" alt="AI Agent Response Schedule Configuration">
+</a>
+<br/>
+</center>
+
+1. **Enable the Switch**: Toggle the AI Agent Response Schedule feature on to activate it.
+
+2. **Choose Timezone**: Select the appropriate timezone for your business operations. This ensures the schedule operates according to your local time.
+
+3. **Add Time and Day Settings**: Configure specific time ranges and days when you want the AI agent to be active. You can set multiple time blocks throughout the week to accommodate different business needs.
+
+4. **Choose AI Agent Behavior**: Select how the AI agent should behave during the scheduled time:
+   - **Respond Normally**: Use the standard SeaChat AI agent functionality
+   - **Reply with Fixed Reply**: Send a predetermined message to customers
+
+<center>
+<a href="/images/seachat/en/agent-advanced-settings/ai-agent-schedule-2.png">
+<img height="100%" width="100%" src="/images/seachat/en/agent-advanced-settings/ai-agent-schedule-2.png" alt="AI Agent Response Schedule Options">
+</a>
+<br/>
+</center>
+
+## Use Cases
+
+The AI Agent Response Schedule feature can be particularly valuable in the following scenarios:
+
+### **24/7 Customer Support**
+- **Off-Hours Coverage**: Ensure customers receive immediate responses during nights and weekends when human agents are unavailable
+- **Holiday Support**: Maintain customer service during holidays while your team is away
+- **Global Time Zone Support**: Serve international customers across different time zones without requiring round-the-clock staffing
+
+### **Business Hours Management**
+- **Lunch Break Coverage**: Keep customer service active during staff lunch breaks or meetings
+- **Peak Hour Management**: Use AI agents during high-traffic periods to reduce wait times
+- **Emergency Hours**: Provide basic support outside normal business hours for urgent inquiries
+
+### **Seasonal Business Operations**
+- **Seasonal Businesses**: Maintain customer engagement during off-season periods
+- **Event-Based Support**: Provide automated responses during special events, sales, or promotional periods
+- **Maintenance Windows**: Keep customers informed during system maintenance or updates
+
+### **Cost-Effective Operations**
+- **Small Business Support**: Provide professional customer service without hiring additional staff for extended hours
+- **Startup Efficiency**: Maintain customer engagement 24/7 while building your team
+- **Resource Optimization**: Reduce operational costs while improving customer satisfaction
+
+### **Multi-Channel Support**
+- **Website Integration**: Provide consistent support across your website during specified hours
+- **Social Media Management**: Automate initial responses on social platforms during busy periods
+- **Email Follow-up**: Handle email inquiries during designated timeframes
+
+### **Special Application Scenarios**
+- **Healthcare Services**: Provide basic health inquiries and appointment scheduling during non-clinic hours
+- **Education**: Offer after-hours learning support and FAQs for students
+- **E-commerce**: Deliver instant product information and purchase assistance during promotions
+- **Financial Services**: Provide basic account inquiries and service information outside trading hours
+- **Travel Industry**: Offer 24/7 itinerary assistance and emergency support for customers across time zones
+
+By implementing the AI Agent Response Schedule, businesses can ensure consistent customer service delivery while optimizing resource allocation and maintaining professional standards across all customer touchpoints. This feature helps create a seamless blend of automated and human support that adapts to your specific business needs and customer expectations.
 
 
 ---
@@ -7024,6 +7137,93 @@ If you need further assistance, feel free to reach out to [seachat@seasalt.ai](m
 ---
 
 
+#### Inline.app  Assistant
+
+<!-- Source: seachat-manual/05-integrations/09-seachat-inline-restaurant-assistant.md -->
+
+<!-- Weight: 900 -->
+
+*Integrate SeaChat AI agents with Inline.app Assistant for seamless restaurant operations management. Handle orders, reservations, and customer inquiries with AI-powered assistance.*
+
+
+## Overview
+> After logging into SeaChat, navigate to **Agent Configuration** -> **Agent Information** -> Choose User Case: **Inline.app Restaurant Assistant** to add the integration.
+
+## Inline.app Assistant Integration
+
+The Inline.app  Assistant integration enables your SeaChat agent to seamlessly manage operations through AI-powered conversations. We currently supports seamless reservation management, making it an essential tool for modern  businesses.
+
+<center>
+  <a href="/images/seachat/en/inline/inline_settings_staging.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_card.png" alt="SeaChat | Inline Restaurant Assistant | Staging Settings">
+</a>
+
+**Inline.app Assistant**
+</center>
+
+## Reservation System
+Streamline your reservation process with:
+- Real-time table availability checking
+- Reservation booking and confirmation
+- Modification and cancellation handling
+- Customer preference tracking
+
+## Setup Process
+
+### Step 1: Access Integration Settings
+1. Log into your SeaChat dashboard
+2. Navigate to **Agent Configuration**
+3. Select **Use Case**
+4. Choose **Inline.app Restaurant Assistant**
+5. Follow the notification window and click **Ok** to redirect to the configuration page.
+
+<center>
+  <a href="/images/seachat/en/inline/inline_settings_staging.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_notify_seasalt_to_finish.png" alt="SeaChat | Inline Restaurant Assistant | Staging Settings">
+</a>
+
+*Notification for Inline.app Assistant Configuration*
+</center>
+
+### Step 2: Environment Configuration
+
+<br/>
+<center>
+  <a href="/images/seachat/en/inline/inline_settings_staging.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_settings_staging.png" alt="SeaChat | Inline Restaurant Assistant | Staging Settings">
+</a>
+
+*Staging Environment Configuration*
+</center>
+
+<center>
+  <a href="/images/seachat/en/inline/inline_settings_production.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_settings_production.png" alt="SeaChat | Inline Restaurant Assistant | Production Settings">
+</a>
+
+*Inline Assistant Production Settings*
+</center>
+
+Configure your environment settings:
+- **Production Environment**: For live operations
+- **Staging Environment**: For testing and development
+
+### Tips: Time Awareness Features
+
+<br/>
+<center>
+  <a href="/images/seachat/en/inline/inline_timeawareness.png" style="height: 200px; width: 100%; height: 100%;display: flex; justify-content: center; align-items: center; overflow: hidden;" target="_blank">
+<img width="80%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seachat/en/inline/inline_timeawareness.png" alt="SeaChat | Inline Restaurant Assistant | Time Awareness">
+</a>
+
+*Time Awareness Configuration*
+</center>
+
+For sophisticated time awareness capabilities, we recommend enabling time awareness with your timezone in Advanced Settings. 
+
+---
+
+
 #### Custom GPT Tools
 
 <!-- Source: seachat-manual/09-automation/gpt-tools.md -->
@@ -7068,9 +7268,10 @@ In this 6th tutorial, we demonstrate how to automatically send information to ca
 To set up this feature, after logging into SeaChat, navigate to **Agent Configuration** \-\> **Integrations** \-\> **Custom GPT Tools**. 
 
 >
-> SeaChat currently supports three types of tools:
+> SeaChat currently supports four types of tools:
 > 
 > - **Search and Display Tools**: These tools allow SeaChat to perform an external search using your API and fetch additional information based on the conversation context. The search results will be displayed in webchat as plaintext or as a carousel of cards.
+> - **Image Search**: Similar to Search and Display but with enhanced image processing capabilities. This tool allows SeaChat to accept image inputs from users, process them through your API, and display results as cards with custom descriptions.
 > - **Send Email**: Automate email sending based on your instructions. Ensure you specify the purpose, recipients, and conditions. To send emails to users, collect their email addresses via a webchat form.
 > - **Send SMS**: Automate SMS sending based on your instructions. Define the purpose, recipients, and conditions. To send SMS to users, ensure access to their phone numbers through the channel or a webchat form.
 > 
@@ -7222,6 +7423,281 @@ After filling out the required fields, a testing query will be automatically gen
 
 Once you've confirmed that your Custom GPT Tool settings are working as expected, you can proceed to save the configuration by clicking the Save button to save your Custom GPT Tool settings permanently.
 
+## Steps to Configure an Image Search Tool:
+
+### Step 1: Select Tool Type
+
+The **Image Search** tool type extends the functionality of Search and Display tools by adding image processing capabilities. This tool type is specifically designed to:
+
+* Accept image files uploaded by users
+* Process these images through your API endpoint
+* Optional: Display results in customizable card formats with enhanced descriptions
+
+### Step 2: Add Required Fields
+
+Similar to other Custom GPT Tools, you'll need to provide:
+
+* **Enable the Tool**: Turn on the **Enable** switch to activate the tool for automatic use in relevant conversations.
+* **Tool Name**: Enter a unique name using only letters (A-Z, a-z), numbers (0-9), underscores (_), or hyphens (-).
+* **HTTP Method**: Select the appropriate HTTP method (`POST` is commonly used for image processing).
+* **Endpoint URL**: Provide your API endpoint URL that will process the image requests.
+* **Description**: Write a clear description to help GPT understand when and how to use this image search tool.
+
+### Step 3: Image Input Data Configuration
+
+The Image Search tool introduces a new **Image Input Data** section that allows you to configure how images are sent to your API endpoint:
+
+* **Image URL String**: Select this option if your API expects to receive the image as a URL string. Users can provide image URLs, and SeaChat will pass them directly to your endpoint.
+* **Image Data**: Choose this option if your API requires the actual image binary data. Users can upload image files directly, and SeaChat will send the encoded image data to your endpoint.
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-image-input-data-configuration.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-image-input-data-configuration.png"  alt="Image Input Data Configuration">
+</a>
+
+<br/>
+
+*Example: Configuring how images are sent to your API - either as URL strings or as binary data.*
+
+</center>
+
+### Step 4 (Optional): Card Settings with Description
+
+The Image Search tool enhances the card display capabilities by adding a **Card Description** field in the Card Settings section:
+
+* **Card Description**: This new field allows you to configure custom descriptions for each card in the results. You can use placeholders to dynamically populate descriptions based on API response data.
+* **Image URL**: Specify the field in your API response that contains the image URL.
+* **Button Settings**: Configure button titles and URLs for user interactions.
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-card-settings.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-card-settings.png"  alt="Card Settings with Description">
+</a>
+
+<br/>
+
+*Example: Card settings showing the new Card Description field for customizing how results are displayed.*
+
+</center>
+
+<br/>
+
+
+### Step 5: Test Your API Configuration
+
+The Image Search tool provides flexible testing options based on your Image Input Data configuration:
+
+**For Image URL String configuration:**
+* Enter a test image URL in the testing area
+* SeaChat will send this URL to your API endpoint
+* Review the response to ensure proper processing
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-test-with-image-url.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-test-with-image-url.png"  alt="Testing with Image URL">
+</a>
+
+<br/>
+
+*Example: Testing the Image Search tool with an image URL string.*
+
+</center>
+
+**For Image Data configuration:**
+* Upload a test image file directly
+* SeaChat will encode and send the image data to your API
+* Verify the API processes the binary data correctly
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-test-with-image-file.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-test-with-image-file.png"  alt="Testing with Image Upload">
+</a>
+
+<br/>
+
+*Example: Testing the Image Search tool by uploading an image file.*
+
+</center>
+
+### Step 6: Save and Done
+
+After successfully testing your Image Search tool configuration, click the Save button to permanently store your settings. The tool will then be available for use in conversations where users provide images.
+
+<center>
+<a href="/images/seachat/en/gpt-tools/image-tool-example.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/image-tool-example.png"  alt="Image Search Card Display">
+</a>
+
+<br/>
+
+*Example: User uploads image and the tool returns response based on the image uploaded.*
+
+</center>
+
+
+## Extra Message Settings
+
+The **Extra Message Settings** feature allows you to configure additional messages that will be automatically sent every time your AI agent responds using the API response from a Custom GPT Tool execution. This feature enables you to provide follow-up guidance, call-to-actions, or additional information after your tool has been executed.
+
+### Overview
+
+Extra Message Settings support three different message formats:
+
+* **Plain Text**: Send a simple text message
+* **Card**: Send a rich card with an image and buttons
+* **Buttons**: Send buttons without an image
+
+### Configuration Steps
+
+#### Step 1: Access Extra Message Settings
+
+When creating or editing a Custom GPT Tool, scroll down to find the **Extra Message Settings** section. This section appears for all tool types and allows you to configure what additional message should be sent after your tool executes successfully.
+
+#### Step 2: Choose Message Type
+
+Select from three available message types:
+
+**Plain Text Message:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_text.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_text.png"  alt="Extra Message Text Configuration">
+</a>
+
+<br/>
+
+*Configure a plain text message to be sent after tool execution*
+
+</center>
+
+**Card Message (with image and buttons):**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_card.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_card.png"  alt="Extra Message Card Configuration">
+</a>
+
+<br/>
+
+*Configure a rich card message with image and buttons*
+
+</center>
+
+**Buttons Only Message:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_buttons.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_buttons.png"  alt="Extra Message Buttons Configuration">
+</a>
+
+<br/>
+
+*Configure buttons-only message for quick actions*
+
+</center>
+
+#### Step 3: Configure Message Content
+
+**For Plain Text Messages:**
+- Enter your desired text in the message field
+- You can include placeholders or dynamic content as needed
+
+**For Card Messages:**
+- **Title**: Enter a title for your card
+- **Description**: Add descriptive text for the card
+- **Image URL**: Provide the URL for the card image
+- **Buttons**: Configure button text and URLs
+
+**For Buttons Only Messages:**
+- **Buttons**: Add one or more buttons with custom text and URLs
+- Each button can link to a URL
+
+#### Step 4: Save and Test
+
+After configuring your extra message settings, save your Custom GPT Tool configuration. The extra message will now be automatically sent every time your tool is executed in a conversation.
+
+### Usage Examples
+
+Here are examples of how the extra messages appear in actual conversations:
+
+**Plain Text Example:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_example_text.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_example_text.png"  alt="Plain Text Extra Message Example">
+</a>
+
+<br/>
+
+*Example: Plain text extra message providing additional guidance after tool execution*
+
+</center>
+
+**Card Example:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_example_card.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_example_card.png"  alt="Card Extra Message Example">
+</a>
+
+<br/>
+
+*Example: Rich card extra message with image and action buttons*
+
+</center>
+
+**Buttons Example:**
+
+<br/>
+
+<center>
+<a href="/images/seachat/en/gpt-tools/extra_message_example_buttons.png">
+<img height="100%" width="100%" src="/images/seachat/en/gpt-tools/extra_message_example_buttons.png"  alt="Buttons Extra Message Example">
+</a>
+
+<br/>
+
+*Example: Button-based extra message for quick user actions*
+
+</center>
+
+### Use Cases
+
+Extra Message Settings are particularly useful for:
+
+* **Follow-up Actions**: Providing next steps after information is retrieved
+* **Call-to-Actions**: Encouraging users to take specific actions
+* **Additional Resources**: Offering related links or resources
+* **Feedback Collection**: Adding quick feedback buttons
+* **Navigation**: Helping users explore more options
+
+### Best Practices
+
+* Keep extra messages concise and relevant to the tool's function
+* Use cards for visually rich content that benefits from images
+* Use buttons for clear call-to-actions or navigation options
+* Test your extra messages to ensure they provide value to the user experience
+* Consider the context in which your tool will be used when designing extra messages
+
+
 ## Steps to Configure Email-Sending or SMS-Sending Tools
 
 ### Step 1: Add Required Fields
@@ -7336,7 +7812,6 @@ Once you've completed configuring your Custom GPT Tool email or SMS settings, cl
 
 To ensure optimal performance, certain limits apply to Custom GPT Tool settings:
 
-* **Character Limits**: The combined character count of the tool name, description, all Fixed Value Parameters (keys and values), and all Dynamic Variable Parameters (keys and descriptions) must not exceed 1024 characters.
 * **Tool Execution Limit**: SeaChat will activate at most one enabled GPT tool per incoming user message. This includes any integrations with calendars or live agent transfers, ensuring that only the most relevant tool is selected for each conversation.
 
 
@@ -9021,8 +9496,109 @@ Bubble config can be found in Channels --> Webchat --> Bubble (first tab)
 
 *Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes.*
 
+### 12/10/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls.
+- Added voicemail detection examples; when the voice agent hears sentences similar to these examples, it treats the call as reaching the user’s voicemail and proceeds accordingly.
+
+### 12/04/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed a bug where changing the Speech-to-Text language within the same language category incorrectly changed the TTS language.
+
+### 11/27/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added configuration for the auto-timeout message used when a conversation is automatically transferred back to the AI agent; the message is customizable.
+
+### 11/20/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added call session related statistics to the Analytics page.
+- Added a customizable date range picker to the Analytics page for more flexible data analysis.
+- Improved the post-call summary to include more detailed items and an overall summary.
+- Added volume control configuration in the Twilio Calls channel and SeaX Calls integration.
+
+### 11/13/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added SeaX integrations for LINE, Messenger, and Instagram.
+- Improved the content of emails sent automatically by label automation to include more details.
+
+### 11/06/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added a welcome message setting that lets users customize the initial message sent to new conversations; it can be text, a button, or an event card with an image.
+
+### 10/30/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed behavior when the message quota is exceeded: phone calls now handle it gracefully by speaking the quota‑depletion message configured in Advanced settings.
+
+### 10/23/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added TTS (Text-to-Speech) language configurations to SeaX Calls integration.
+- Fixed the calculation of unread counts in the conversation list to accurately reflect the number of unread messages from meaningful conversations.
+- Optimized inbound message handling speed.
+
+### 10/16/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Optimized the message buffer, extending the adjustable interval from 1–10 seconds to 1–20 seconds.
+
+### 10/09/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Auto-labeling now applies to active session labels as well as conversation-level labels.
+- Reactivated old conversations no longer immediately timeout when “auto return to AI after inactivity” is enabled.
+
+### 10/02/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Option to hide “Open Chat in New Tab” in the menu.
+- Support for uploading a custom “New Topic” icon.
+- Option to enable full-screen mode on mobile.
+- AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live agent transfer settings.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed missing phone call transcriptions.
+- Messenger webhook deduplication: handle duplicate notifications once; additional optimizations to follow.
+
+### 09/25/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Allow human agents to proactively message Messenger users beyond 24 hours and within the 7-day human-agent window.
+- Human agents can now send images to LINE channel users.
+
+##### **<font color="#d66a60">Bugfix</font>**
+- Fixed an issue where evaluation samples could not be deleted from a test set when related results exist.
+- Analytics: corrected message count source for human agent messages.
+### 09/18/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added Inline.app assistant integration settings page and support configurations to both staging and production environment.
+
+### 09/12/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors.
+- Custom GPT Tool – Extra Message setting: After the agent executes a tool call and responds, it can automatically send an additional, configurable follow-up message (e.g., guidance/CTA).
+
+##### **<font color="#d66a60">Bugfix</font>**
+- In Webchat, the menu card no longer disappears after it's clicked to send the first message in a conversation.
+
+### 09/04/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added an option on the AI Agent basic settings page to hide the human agent's identity from customers. When enabled, human agents can still reply, but the UI won't reveal whether a message is from AI or a human, and the proactive/live-agent request feature will be disabled.
+- Fixed issues with KB (knowledge base) URL uploads and a bug where the page would keep loading if the number of documents exceeded the current subscription plan's limit.
+- Added the AI Assistant Analytics dashboard and the Workspace Analytics dashboard. See the [analytics tutorial](/en/seachat/manual/analytics/).
+
+### 08/28/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added Image Search Custom GPT tool that calls API to search based on an uploaded image. See the [Custom GPT Tools tutorial](/seachat/seachat-manual/automation/custom-gpt-tools/#steps-to-configure-an-image-search-tool).
+- Added automatic Messenger and Instagram access-token refresh to prevent token expiration issues.
+
+### 08/21/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Added auto-hangup configuration for SeaX calls integration
+- Fixed bugs in html embedded widget code
+- Updated auto-timeout transfer: now it switches back to the AI agent based on the last human activity, instead of only when the last message was sent by the user
+
+### 08/15/2025
+##### **<font color="#739963">New Features & Improvements</font>**
+- Fixed a bug where error messages appeared when conversing with the AI agent while the custom GPT tool was enabled.
+- Added a feature to the conversation page's filter dropdown that allows sorting conversations by user feedback scores, either from highest to lowest or lowest to highest.
+
 ### 08/07/2025
-##### **<font color="#739963">New Features and Improvements</font>**
+##### **<font color="#739963">New Features & Improvements</font>**
 - Users of Meta apps (Messenger, Instagram, WhatsApp) can now add reactions to messages from live agents and bots, and our UI will display these reactions.
 - When starting a conversation in Webchat or the Widget, the first user message will have an opacity effect to enhance the user experience and indicate that the conversation is loading.
 - A new CSAT section has been added to the SeaChat Analytics page, allowing you to view ratings within the selected time range and download all customer feedback from that period.
