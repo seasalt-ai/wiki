@@ -7137,7 +7137,7 @@ If you need further assistance, feel free to reach out to [seachat@seasalt.ai](m
 ---
 
 
-#### Inline.app  Assistant
+#### Inline.app Assistant
 
 <!-- Source: seachat-manual/05-integrations/09-seachat-inline-restaurant-assistant.md -->
 
