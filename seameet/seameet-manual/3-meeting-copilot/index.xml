@@ -105,5 +105,16 @@ Supported meeting links must start with: https://teams.microsoft.com/l/meetup-jo
 SeaMeet is an AI-powered meeting assistant designed to streamline post-meeting workflows. Unlike traditional tools that require users to copy transcripts into external Large Language Model (LLM) tools (like ChatGPT or Claude), SeaMeet utilizes an &amp;ldquo;Agentic Email&amp;rdquo; workflow. This allows users to generate summaries, draft emails, create GitHub tickets, and write Statements of Work (SOW) directly by replying to an email thread, eliminating the need to switch tabs or copy-paste context.</description>
     </item>
     
+    <item>
+      <title>Daily Executive Insights</title>
+      <link>https://wiki.seasalt.ai/en/seameet/daily-executive-insights/</link>
+      <pubDate>Wed, 24 Dec 2025 08:48:57 +0000</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seameet/daily-executive-insights/</guid>
+      <description>SeaMeet Executive Insights is a high-level organizational intelligence feature designed to help leaders overcome the &amp;ldquo;Individual Productivity Trap.&amp;rdquo; While standard AI note-takers help individuals, Executive Insights synthesizes data from every meeting across an entire organization to provide leaders with a daily, actionable intelligence report.
+   What you will learn in this video:
+In this video, we dive into SeaMeet Executive Insights—the ultimate tool for organizational intelligence. While most AI tools focus on individual productivity, SeaMeet Executive Insights bridges the gap by synthesizing every meeting in your company into a single, daily executive briefing.</description>
+    </item>
+    
   </channel>
 </rss>
