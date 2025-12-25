@@ -18,7 +18,7 @@ toc: true
 
 SeaMeet is an AI-powered meeting assistant designed to streamline post-meeting workflows. Unlike traditional tools that require users to copy transcripts into external Large Language Model (LLM) tools (like ChatGPT or Claude), SeaMeet utilizes an "Agentic Email" workflow. This allows users to generate summaries, draft emails, create GitHub tickets, and write Statements of Work (SOW) directly by replying to an email thread, eliminating the need to switch tabs or copy-paste context.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/VpJgd6G-6K4?si=_A1sKG7T1XpmWDmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"/></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/VpJgd6G-6K4?si=_A1sKG7T1XpmWDmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 **What you will learn in this video:**
 
