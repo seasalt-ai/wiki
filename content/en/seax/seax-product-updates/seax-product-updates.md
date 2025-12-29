@@ -361,7 +361,7 @@ toc: true
 
 ### 5/22/2025
 
-##### **<font color="#739963">New Features and Improvements</font>**
+##### **<font color="#739963">New Features & Improvements</font>**
 
 - Removed the deprecated Call Analysis tab.
 - Fixed issue where outbound calls couldn’t be canceled before being answered.
