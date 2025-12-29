@@ -184,7 +184,7 @@ toc: true
 
 ### 7/24/2025
 
-##### **<font color="#739963">New Features and Improvements</font>**
+##### **<font color="#739963">New Features & Improvements</font>**
 
 - Adjusted AI assistant response behavior on Instagram and Messenger: When users react to your Instagram Story, it no longer triggers AI assistant replies.
 - Optimized the backend customer service online status switching functionality in SeaChat, making it more real-time and responsive.
