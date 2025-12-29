@@ -155,7 +155,7 @@ toc: true
 ##### **<font color="#739963">新功能與改進</font>**
 
 - 新增自定義GPT工具，可透過上傳圖片進行商品探索。請見[客製GPT工具教程](/zh/seachat/seachat-manual/automation/custom-gpt-tool/#配置圖片搜尋工具的步驟)。
-- 新增Messenger, Instagram存取權杖自動更新功能，避免存取權杖失效問題。
+- 新增Messenger、Instagram存取權杖自動更新功能，避免存取權杖失效問題。
 
 ### 08/21/2025
 
