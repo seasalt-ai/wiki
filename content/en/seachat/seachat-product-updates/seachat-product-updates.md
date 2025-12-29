@@ -77,7 +77,7 @@ toc: true
 
 ##### **<font color="#739963">New Features & Improvements</font>**
 
-- Fixed behavior when the message quota is exceeded: phone calls now handle it gracefully by speaking the quota‑depletion message configured in Advanced settings.
+- Fixed behavior when the message quota is exceeded: phone calls now handle it gracefully by speaking the quota-depletion message configured in Advanced settings.
 
 ### 10/23/2025
 
