@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-10-16T08:48:57+00:00
+lastmod: 2025-12-30T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,144 +16,214 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
-### 12/10/2025
+
+### 12/30/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
+- Enhanced Monthly Voice Bot Usage Report Excel format:
+  - Added "Company Name", "Branch Name", and "Uniq ID" columns.
+  - Updated Period display format to `YYYY/MM/dd - YYYY/MM/dd`
+  - Applied professional styling (header/totals emphasis and aligned total labels)
+
+### 12/17/2025
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Improved conversation scrolling: when loading older messages, the viewport stays anchored instead of jumping.
+
+### 12/10/2025
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls.
 - Added voicemail detection examples; when the voice agent hears sentences similar to these examples, it treats the call as reaching the user’s voicemail and proceeds accordingly.
 
 ### 12/04/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Fixed a bug where changing the Speech-to-Text language within the same language category incorrectly changed the TTS language.
 
 ### 11/27/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added configuration for the auto-timeout message used when a conversation is automatically transferred back to the AI agent; the message is customizable.
 
 ### 11/20/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added call session related statistics to the Analytics page.
 - Added a customizable date range picker to the Analytics page for more flexible data analysis.
 - Improved the post-call summary to include more detailed items and an overall summary.
 - Added volume control configuration in the Twilio Calls channel and SeaX Calls integration.
 
 ### 11/13/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added SeaX integrations for LINE, Messenger, and Instagram.
 - Improved the content of emails sent automatically by label automation to include more details.
 
 ### 11/06/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added a welcome message setting that lets users customize the initial message sent to new conversations; it can be text, a button, or an event card with an image.
 
 ### 10/30/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
-- Fixed behavior when the message quota is exceeded: phone calls now handle it gracefully by speaking the quota‑depletion message configured in Advanced settings.
+
+- Fixed behavior when the message quota is exceeded: phone calls now handle it gracefully by speaking the quota-depletion message configured in Advanced settings.
 
 ### 10/23/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added TTS (Text-to-Speech) language configurations to SeaX Calls integration.
 - Fixed the calculation of unread counts in the conversation list to accurately reflect the number of unread messages from meaningful conversations.
 - Optimized inbound message handling speed.
 
 ### 10/16/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Optimized the message buffer, extending the adjustable interval from 1–10 seconds to 1–20 seconds.
 
 ### 10/09/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Auto-labeling now applies to active session labels as well as conversation-level labels.
 - Reactivated old conversations no longer immediately timeout when “auto return to AI after inactivity” is enabled.
 
 ### 10/02/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Option to hide “Open Chat in New Tab” in the menu.
 - Support for uploading a custom “New Topic” icon.
 - Option to enable full-screen mode on mobile.
 - AI Agent Response Schedule: define when the AI should reply (business hours, holidays, custom timeframes). Outside scheduled hours, conversations follow your handling mode and live agent transfer settings.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed missing phone call transcriptions.
 - Messenger webhook deduplication: handle duplicate notifications once; additional optimizations to follow.
 
 ### 09/25/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Allow human agents to proactively message Messenger users beyond 24 hours and within the 7-day human-agent window.
 - Human agents can now send images to LINE channel users.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed an issue where evaluation samples could not be deleted from a test set when related results exist.
 - Analytics: corrected message count source for human agent messages.
+
 ### 09/18/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added Inline.app assistant integration settings page and support configurations to both staging and production environment.
 
 ### 09/12/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - New Inline.app restaurant assistant use case: Integrate your AI agent with inline, a booking management system built for restaurants, enabling automated booking confirmations to improve efficiency and reduce errors.
 - Custom GPT Tool – Extra Message setting: After the agent executes a tool call and responds, it can automatically send an additional, configurable follow-up message (e.g., guidance/CTA).
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - In Webchat, the menu card no longer disappears after it's clicked to send the first message in a conversation.
 
 ### 09/04/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added an option on the AI Agent basic settings page to hide the human agent's identity from customers. When enabled, human agents can still reply, but the UI won't reveal whether a message is from AI or a human, and the proactive/live-agent request feature will be disabled.
 - Fixed issues with KB (knowledge base) URL uploads and a bug where the page would keep loading if the number of documents exceeded the current subscription plan's limit.
 - Added the AI Assistant Analytics dashboard and the Workspace Analytics dashboard. See the [analytics tutorial](/en/seachat/manual/analytics/).
 
 ### 08/28/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added Image Search Custom GPT tool that calls API to search based on an uploaded image. See the [Custom GPT Tools tutorial](/seachat/seachat-manual/automation/custom-gpt-tools/#steps-to-configure-an-image-search-tool).
 - Added automatic Messenger and Instagram access-token refresh to prevent token expiration issues.
 
 ### 08/21/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added auto-hangup configuration for SeaX calls integration
 - Fixed bugs in html embedded widget code
 - Updated auto-timeout transfer: now it switches back to the AI agent based on the last human activity, instead of only when the last message was sent by the user
 
 ### 08/15/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Fixed a bug where error messages appeared when conversing with the AI agent while the custom GPT tool was enabled.
 - Added a feature to the conversation page's filter dropdown that allows sorting conversations by user feedback scores, either from highest to lowest or lowest to highest.
 
 ### 08/07/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Users of Meta apps (Messenger, Instagram, WhatsApp) can now add reactions to messages from live agents and bots, and our UI will display these reactions.
 - When starting a conversation in Webchat or the Widget, the first user message will have an opacity effect to enhance the user experience and indicate that the conversation is loading.
 - A new CSAT section has been added to the SeaChat Analytics page, allowing you to view ratings within the selected time range and download all customer feedback from that period.
 - New Japanese and Indonesian voice options are now available for Twilio integration and SeaX phone integration
 
 ### 7/24/2025
-##### **<font color="#739963">New Features and Improvements</font>**
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
 - Adjusted AI assistant response behavior on Instagram and Messenger: When users react to your Instagram Story, it no longer triggers AI assistant replies.
 - Optimized the backend customer service online status switching functionality in SeaChat, making it more real-time and responsive.
 - Added live agent transfer functionality to SeaX phone integration: When a SeaX phone number is set up and the SeaChat AI assistant is enabled, users can now transfer to live agents during SeaX phone calls.
 
 ### 7/17/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Fixed an issue where images sent by Messenger users could not be displayed properly.
 - Fixed an issue where empty summary titles were still displayed on Messenger and Instagram when the transfer summary feature was not enabled.
 
 ### 7/10/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Workspaces page now mobile responsive: You can now access your workspace on your mobile devices and manage conversations.
 - Adjusted AI agent behavior for Instagram and Messenger: When a user reacts to an AI agent's message on Instagram or Messenger, it no longer triggers AI agent reply. It’s the first step, with more optimizations and feature improvements coming soon.
 
 ### 7/3/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Image upload limit introduced: To ensure the AI agent can accurately interpret images and provide a better conversation experience, users can now upload up to 20 images per message.
 - LINE integration update: When your LINE message quota is used up, an automated email notification will be sent to the workspace owner as a reminder.
 - Multi-image message handling fixed: Messages from Messenger and Instagram that contain multiple images are now consolidated into a single message, ensuring all images are correctly identified and understood by the AI agent.
 
 ### 6/26/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - “Deploy” Button for Easier Channel Integration: A new Deploy button has been added to the header, providing quick access to all supported platforms, channels, and website integrations. User can navigate to relevant setup pages and deploy their AI agent across desired communication platforms
 - New Multi-Image Message Interface: All images within a single message will now be presented in this new design. This update improves both the visual clarity of the conversation context and the performance of sending multiple images efficiently.
 - Improved Stability for Knowledge Base Article Upload: Resolved several issues affecting the stability of knowledge base article uploads.
 
 ### 6/19/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Improved CSAT Result Display: Users can now view CSAT (Customer Satisfaction) ratings and comments directly within the conversation window.
 - Sign-in Email Validation Fixed: Resolved an issue where SeaChat sign-in incorrectly flagged valid email formats as invalid.
 - Billing Page Error Resolved: Fixed error code 10002 where newly registered users saw a "paid user not found" account error on the billing page.
@@ -195,17 +265,20 @@ toc: true
 ### 5/15/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Better document knowledge base upload handling: Fixed the bug that caused server timeout when uploading large documents. Now users can upload large documents and the system will process the upload as a background process, while users can work on something else.
 - Messenger integration with FB embedded signup: We support FB embedded signup, and users can sign up with their FB account directly and choose which FB page to connect with their SeaChat AI agent. See tutorial [here](/en/seachat/manual/channels/facebook-messenger-embedded-signup/).
 
 ### 5/8/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added multilanguage support in Billing page cost breakdown for the next bill.
 
 ### 5/1/2025
 
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Messenger Conversation Title Enhancement: Fixed an issue where sender names were not being captured in Messenger conversation titles. Now, conversation titles from Messenger are automatically updated to include the sender's name, making conversations more identifiable and easier to manage.
 - Expanded AI agent Description Limit: Increased the character limit for AI agent descriptions based on different language models. Users can now provide more comprehensive descriptions of AI agent functionalities.
 - Voice Conversation Recording Download Fix: Resolved the issue with downloading voice conversation recordings, ensuring users can successfully access their voice conversation records.

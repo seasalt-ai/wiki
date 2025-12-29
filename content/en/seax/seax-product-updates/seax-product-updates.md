@@ -2,23 +2,77 @@
 title: "SeaX Release History"
 description: "Stay tuned with SeaX's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-10-09T08:48:57+00:00
+lastmod: 2025-12-18T08:48:57+00:00
 draft: false
 images: []
 menu:
   seax:
-      parent: "seax-product-updates"
+    parent: "seax-product-updates"
 aliases:
-   - /en/seax-product-updates/
-   - /en/seax/seax-product-updates/
+  - /en/seax-product-updates/
+  - /en/seax/seax-product-updates/
 # NOTE: All product update pages should follow the URL format: https://wiki.seasalt.ai/${language}/${product}/product-updates/
 url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
 
-### 11/21/2025
+### 12/18/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
+- App push credentials now auto-update when the workspace is modified
+- Added CSAT metrics to the analytics page for quick agent performance review
+- Conversation view shows unread badges for channel groups
+- Display Zoho integration status directly in the UI
+- Added push credential management: supports deletion and auto-upload
+- WhatsApp template page now shows templates with headers
+- After creating a new channel, system auto-redirects to the active view for smoother setup
+
+##### **<font color="#d66a60">Bugfix</font>**
+
+- Fixed missing plan block warning on conversation page
+- Fixed scroll issue in “Get Started” guide mode
+- Fixed incorrect conversation counts in channel group view
+
+### 12/11/2025
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Improved Zoho CRM integration with updated sync logic and clearer error handling
+- Introduced CSAT scheduling for automated survey dispatch and response tracking
+- Enhanced CSAT message format and frontend UI for better readability
+- Backend support for "Views" to organize and categorize conversations by channel type
+- Zoho phone field now supported in sync
+- Added onboarding flow for new users with clearer setup steps
+
+##### **<font color="#d66a60">Bugfix</font>**
+
+- Fixed issue where CSAT was incorrectly sent to conversations handled by human agents
+- Resolved onboarding event duplication and unintended re-triggering
+- Fixed contact structure errors and Zoho phone update failures
+
+### 12/4/2025
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Optimized bulk contact upload performance with batch processing
+- Added Zapier integration to automate SMS and WhatsApp workflows via SeaX
+- Implemented backend SeaNotify event framework to support app push notifications
+- Added call features and device preferences in the app to customize how users answer calls
+- WhatsApp read indicators are now available in the mobile app to confirm message read status
+- Contact notes now support multiple entries per contact for better knowledge tracking
+
+##### **<font color="#d66a60">Bugfix</font>**
+
+- Fixed issue where contact status was not synced to SeaChat
+- Fixed default user status not set to offline
+- Fixed integration errors when managing multiple Instagram accounts
+
+### 11/21/2025
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
 - Support read receipt display on the client side when LINE and WhatsApp messages are read by the agent
 - Added call statistics and integrated them into the total usage analytics dashboard
 - Improved contact display to include multi-channel avatars, names, and ID information
@@ -28,21 +82,25 @@ toc: true
 - Fixed WhatsApp messages not marked as read when the window is opened
 
 ### 11/13/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
-- Adjusted read status visibility for messages on Facebook and Instagram  
-- Added profile fields for each messaging channel in contact data  
-- Updated Call Campaign result CSV fields with improved recipient and number display  
-- Added system message display when conversation status changes  
-- Revised channel creation rules for free plans and optimized UI for different user roles  
-- Improved wording for enabling AI agent in channel settings  
-- Adjusted auto-answer feature behavior and added countdown hint to improve experience  
-- Fixed inconsistent query conditions for unread message statistics  
-- Fixed issue where DNC contact messages were incorrectly forwarded to SeaChat  
-- Fixed issue where inbound messages failed to trigger SeaChat bot response  
-- Fixed contact name being overwritten during auto-dialer campaign process  
+
+- Adjusted read status visibility for messages on Facebook and Instagram
+- Added profile fields for each messaging channel in contact data
+- Updated Call Campaign result CSV fields with improved recipient and number display
+- Added system message display when conversation status changes
+- Revised channel creation rules for free plans and optimized UI for different user roles
+- Improved wording for enabling AI agent in channel settings
+- Adjusted auto-answer feature behavior and added countdown hint to improve experience
+- Fixed inconsistent query conditions for unread message statistics
+- Fixed issue where DNC contact messages were incorrectly forwarded to SeaChat
+- Fixed issue where inbound messages failed to trigger SeaChat bot response
+- Fixed contact name being overwritten during auto-dialer campaign process
 
 ### 11/6/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added speech-to-text transcription support for voice messages in LINE, Messenger, and Instagram
 - Improved contact avatar synchronization and added last-sync tracking
 - Enabled linking LINE, Facebook, and Instagram channels to SeaChat bots
@@ -55,7 +113,9 @@ toc: true
 - Fixed placeholder rendering issue in Instagram attachment messages
 
 ### 10/30/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Improved and enabled the display of profile pictures for LINE and Instagram channels
 - Allowed users without a paid plan to create Messenger, Instagram, and LINE channels
 - Added email notification toggle and delivery when assigning human agents
@@ -65,7 +125,9 @@ toc: true
 - Fixed inbound call errors after IVR setup
 
 ### 10/23/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added backend support for Instagram messages and media attachments
 - Added backend support for Facebook Messenger message handling
 - Added backend support for LINE Official Account (LINE OA) integration
@@ -76,7 +138,9 @@ toc: true
 - Fixed an issue where the agent status became stuck on “On the Call” during inbound calls
 
 ### 10/09/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Fixed the error when enabling the SeaMeet feature
 - Completed backend phases of Facebook Messenger integration: DB setup, settings management, and message handling
 - Fixed the issue where the agent status was stuck on "on the call" during inbound ringing
@@ -85,7 +149,9 @@ toc: true
 - Fixed conversation display error
 
 ### 10/02/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added support for displaying SeaChat AI Bot's name and reply timestamp in conversations
 - Added support for assigning conversations to specific agents
 - Added backend support for Bring Your Own Twilio configuration
@@ -97,7 +163,9 @@ toc: true
 - Fixed the incorrect calculation of unread conversation count
 
 ### 09/25/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Improved UI feedback after sending messages in Conversations, including button and message status
 - Improved stability in user status handling
 - Added data fields and transmission logic to sync workspaces with SeaMeet and support audio restoration
@@ -109,16 +177,20 @@ toc: true
 - Updated webhook subscription settings to include call-ended and meeting-ended events
 
 ### 09/18/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
--  Fixed issue where calls during closed business hours were not logged
--  Added agent status and duration display to the member page
--  Introduced new agent status types: Wrap-up, Meal, Outbound, and Break
--  Enabled backend support for assigning agents to conversations
--  Added support for sending messages via WhatsApp Webhook
--  Added human agent activity to the workspace analytics dashboard
+
+- Fixed issue where calls during closed business hours were not logged
+- Added agent status and duration display to the member page
+- Introduced new agent status types: Wrap-up, Meal, Outbound, and Break
+- Enabled backend support for assigning agents to conversations
+- Added support for sending messages via WhatsApp Webhook
+- Added human agent activity to the workspace analytics dashboard
 
 ### 09/12/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Added IVR management page with voice prompt and business hour settings
 - Improved outbound call timeout to prevent early disconnection
 - Enabled call logging during close hours
@@ -126,10 +198,13 @@ toc: true
 - Improved logic to keep agent status when reconnecting within 15 minutes
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed issue where WhatsApp campaigns used the wrong sending number
 
 ### 09/04/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Updated call status logs to include assigned agent name
 - Increased service resource limits for CPU and memory
 - Fixed user status incorrectly switching to offline after missed outbound calls
@@ -137,7 +212,9 @@ toc: true
 - Improved outbound call timeout to prevent early disconnection
 
 ### 08/28/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Fixed issue where user online status incorrectly switched to offline
 - Fixed CSV upload failure when importing contact files
 - Fixed incorrect agent presence status showing as offline
@@ -146,7 +223,9 @@ toc: true
 - Fixed incorrect display of total message count in WhatsApp channel
 
 ### 08/21/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Improved workspace creation flow by making name and address optional
 - Improved WhatsApp template search to support all categories
 - Backend now supports contacts without phone numbers
@@ -154,7 +233,9 @@ toc: true
 - Changed default UI theme from dark to light
 
 ### 08/18/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Improved new user onboarding with a phone number application entry
 - Fixed conversation sorting and updated microphone permission request behavior
 - Fixed message forwarding issue from SeaX to SeaChat when no bot messages are present
@@ -162,7 +243,9 @@ toc: true
 - Added integration between SeaX and SeaMeet for call analytics
 
 ### 08/07/2025
+
 ##### **<font color="#739963">New Features & Improvements</font>**
+
 - Refined call log layout and added visibility into the responsible agent for each call
 - Improved workspace list behavior to hide UI when no invitations are present
 - Added user activity logging during voice calls
@@ -170,7 +253,9 @@ toc: true
 - Fixed issue preventing proper hang-up of inbound calls
 
 ### 07/31/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Improved contact label page and added conversation label feature
 - Enhanced call tracking logs with status tracking functionality
 - Improved phone number validation to support Argentina WhatsApp mobile number format
@@ -178,7 +263,9 @@ toc: true
 - Fixed TwiML parsing error for outbound calls that caused call failures
 
 ### 7/24/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added auto-answer feature for incoming calls to help agents handle calls more efficiently
 - Added status change logging for live agents
 - Added backend support for setting agent skills and assigning corresponding IVR menus
@@ -186,7 +273,9 @@ toc: true
 - Fixed issue with blank page display in some cases
 
 ### 7/17/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added support for sending WhatsApp HSM campaigns with titles and multimedia files (images, documents, videos)
 - Added mobile call settings for making and receiving calls
 - Added a Skills page to create and assign skill groups
@@ -195,7 +284,9 @@ toc: true
 - Fixed issue during WhatsApp binding
 
 ### 7/10/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added support for attaching images, documents, videos, and titles in WhatsApp campaigns.
 - Added support for syncing WhatsApp bulk send messages with the SeaChat AI agent.
 - Added message synchronization between SeaX and SeaChat.
@@ -203,7 +294,9 @@ toc: true
 - Fixed incorrect status display issue in phone campaigns.
 
 ### 7/3/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added support for sending media files via WhatsApp in a conversation
 - Added support for sending MMS to US numbers in conversations
 - Enabled backend support for attaching media files in WhatsApp campaigns
@@ -212,7 +305,9 @@ toc: true
 - Enhanced inbound call experience by preventing unnecessary busy-tone playback
 
 ### 6/26/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added a Human Agent option in number settings to automatically forward inbound calls to a live agent.
 - Added a shortcut menu to quickly view “Sent” messages.
 - Added detailed error messages when message delivery fails.
@@ -222,15 +317,19 @@ toc: true
 - Backend now supports document, audio, video, and image messages on WhatsApp.
 
 ### 6/19/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Improved contact CSV import with dynamic parsing of WhatsApp and phone number fields.
 - Added a user status selection menu to help users quickly select between Available and Away.
 - Improved the onboarding flow for first-time WhatsApp setup.
-- Fixed an issue where the sidebar failed to navigate to the portal. 
+- Fixed an issue where the sidebar failed to navigate to the portal.
 - Fixed an issue that caused incoming calls to fail and play an error message.
 
 ### 6/12/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Improved the display of contact search results in the dialpad.
 - Inbound calls will now automatically cycle through available agents if unanswered for 10 seconds.
 - Fixed an issue where making calls after entering from the workspace list view could result in an error.
@@ -241,11 +340,15 @@ toc: true
 - Fixed an issue where the SeaChat bot failed to send WhatsApp template messages.
 
 ### 6/5/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Adjusted conversation sorting logic to prioritize the latest inbound message.
 
 ### 6/1/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added WhatsApp support check before workspace import/export.
 - Supported importing contact with WhatsApp fields.
 - Enabled contact search in dialpad with matched contact names displayed.
@@ -257,7 +360,9 @@ toc: true
 - Adjusted WhatsApp template limit to 200.
 
 ### 5/22/2025
-##### **<font color="#739963">New Features and Improvements</font>**
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
 - Removed the deprecated Call Analysis tab.
 - Fixed issue where outbound calls couldn’t be canceled before being answered.
 - Resolved issue where inbound calls did not trigger the dial pad.
@@ -265,188 +370,245 @@ toc: true
 - Fixed a bug where expired data caused call reception to fail.
 
 ### 5/15/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added detection for authorized recording devices when launching SeaX.
 - Automatically fills in the default device when SeaX starts.
 - Automatically sets human agent status to offline when websocket disconnects, and restores it to online upon reconnection.
 
 ### 5/6/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Updated the call logs list.
 - Fixed an issue where empty chats were generated when creating new contacts.
 - Resolved a memory leak issue.
 - Fixed Twilio sub-account verification errors.
 
 ### 4/24/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Optimized performance for bulk message sending.  
+
+- Optimized performance for bulk message sending.
 - Synchronized phone_capability with SeaContact.
 
 ### 4/10/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Fixed issue where WhatsApp message templates could not be retrieved.  
+
+- Fixed issue where WhatsApp message templates could not be retrieved.
 - Fixed issue preventing message updates in SeaContact.
 
 ### 4/2/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Updated DNC keywords for Spanish.  
-- Fixed missing plan title issue in the pricing section.  
-- Enhanced outbound and inbound calling via dialpad.  
+
+- Updated DNC keywords for Spanish.
+- Fixed missing plan title issue in the pricing section.
+- Enhanced outbound and inbound calling via dialpad.
 - Improved outbound call functionality via AI Agent.
 
-### 3/27/2025 
+### 3/27/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Updated "Keywords and Auto-replies" to support WhatsApp messages.  
-- Fixed an issue with DNC keywords.  
-- Updated chatbot bubble title.  
+
+- Updated "Keywords and Auto-replies" to support WhatsApp messages.
+- Fixed an issue with DNC keywords.
+- Updated chatbot bubble title.
 - Added product chatbot to the landing page.
 
 ### 3/20/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Fixed the application process and procedure for purchasing numbers.
 
 ### 3/13/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Adjusted the display of failed WhatsApp campaigns to show failure reasons for all messages.
 - Enabled WhatsApp message template activation.
 - Fixed an issue causing errors in the campaign initiation process.
 
 ### 3/04/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - MMS now correctly displays images in the conversation window.
 - Fixed timestamp errors caused by daylight saving time adjustments.
 - Fixed an issue where phone numbers were required to start with a "+".
 
 ### 2/27/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Displayed MegaSend count in the list.
 - Added timestamp logging for label matching.
 - Fixed an issue where the contact field no longer checks for case sensitivity.
 
 ### 2/20/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added MegaSend feature.
 - Implemented Do Not Contact label check during MegaSend.
 - Fixed an issue where loading the AI agent list took too long.
 
 ### 2/13/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Integrated SeaChat with WhatsApp Business Platform, enabling synchronization of WhatsApp Business messages to SeaChat.  
-- Added AI agent assignment for WhatsApp at the numbers page, with the ability to take over or reactivate conversations from SeaX.  
-- Added campaign failed status for WhatsApp campaign cards when campaign delivery fails.  
+
+- Integrated SeaChat with WhatsApp Business Platform, enabling synchronization of WhatsApp Business messages to SeaChat.
+- Added AI agent assignment for WhatsApp at the numbers page, with the ability to take over or reactivate conversations from SeaX.
+- Added campaign failed status for WhatsApp campaign cards when campaign delivery fails.
 
 ### 2/6/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Added contact search functionality to the dial pad.  
-- Fixed the timing of success and failure notifications for contact uploads.  
+
+- Added contact search functionality to the dial pad.
+- Fixed the timing of success and failure notifications for contact uploads.
 
 ### 1/22/2025
-##### **<font color="#739963">New Features and Improvements</font>**
-- Added options to select "Input Device" and "Output Device" in the dial pad.  
-- Adjusted the display of "Unverified Numbers" in the WhatsApp Business Platform number list.  
-- Updated phone call display icons.  
 
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Added options to select "Input Device" and "Output Device" in the dial pad.
+- Adjusted the display of "Unverified Numbers" in the WhatsApp Business Platform number list.
+- Updated phone call display icons.
 
 ### 1/16/2025
-##### **<font color="#739963">New Features and Improvements</font>**
-- Introduced call logs list displaying call outcomes for inbound and outbound calls.  
-- Updated campaign and channel icons for the WhatsApp Business Platform.  
 
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Introduced call logs list displaying call outcomes for inbound and outbound calls.
+- Updated campaign and channel icons for the WhatsApp Business Platform.
 
 ### 1/9/2025
-##### **<font color="#739963">New Features and Improvements</font>**
-- Fixed an issue requiring double API calls for Webhook campaigns to trigger.  
-- Corrected data reporting errors in campaign cards.  
-- Removed the mandatory name field requirement for contact entries.  
 
+##### **<font color="#739963">New Features and Improvements</font>**
+
+- Fixed an issue requiring double API calls for Webhook campaigns to trigger.
+- Corrected data reporting errors in campaign cards.
+- Removed the mandatory name field requirement for contact entries.
 
 ### 1/2/2025
+
 ##### **<font color="#739963">New Features and Improvements</font>**
-- Added functionality to answer inbound calls and make outbound calls via the dial pad.  
-- Fixed inaccuracies in the recipient count displayed on activity cards.  
-- Corrected text content on campaign cards.  
-- Adjusted reply rate calculations for sent campaigns.  
+
+- Added functionality to answer inbound calls and make outbound calls via the dial pad.
+- Fixed inaccuracies in the recipient count displayed on activity cards.
+- Corrected text content on campaign cards.
+- Adjusted reply rate calculations for sent campaigns.
 - Fixed navigation issues in the WhatsApp Business Platform message template steps.
 
 ### 12/5/2024
+
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed an issue causing errors when generating new conversations
 
 ### 11/14/2024
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Synchronized status displays for live agent interventions in conversations
 - Updated billing breakdown
 - Removed Chinese-language bot from the landing page
 
 ### 11/7/2024
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Renamed "Memory" feature to "Extraction"
 - Fixed issue with WhatsApp Business Platform where country codes lacked "+" sign
 
-
 ### 10/31/2024
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added support for binding WhatsApp Business Platform accounts and sending/receiving messages.
 - Updated enable and disabled statuses for AI agent on individual numbers.
 - Enhanced retrieval of AI assistant responses to queries.
 
 ### 10/24/2024
+
 ##### **<font color="#739963">New Features and Improvements</font>**
+
 - Added batch deletion for multiple labels.
 - Optimized behavior logic across options when editing numbers.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed issues with auto label.
 
 ### 10/03/2024
+
 ##### **<font color="#739963">New Features and Performance Optimization</font>**
+
 - Added dynamic loading for WhatsApp messages to avoid errors from loading too many messages.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Added a feature allowing cancel campaigns from the SeaX customer support.
 - Fixed issue where "unsent messages" caused the conversations to display as blank.
 - Fixed issue where SMS campaign end time was earlier than the start time.
 
 ### 09/26/2024
+
 ##### **<font color="#739963">New Features and Performance Optimization</font>**
+
 - Added WhatsApp and Omni-Channel pricing plans.
 - Updated plan descriptions on the landing page.
 - Implemented a mechanism to prevent duplicate campaign bookings.
 
 ### 09/12/2024
+
 ##### **<font color="#739963">New Features and Performance Optimization</font>**
+
 - Added the "Business Caller ID" binding feature, allowing purchased numbers to be linked with verified "Business Caller IDs" for outbound calls.
 - Introduced dynamic loading for WhatsApp messages to improve overall loading efficiency and user experience.
 - Added a history log for purchased numbers.
 - Conversations with deleted contacts are retained and linked when contacts are re-added.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed the issue where AI agents failed to handle incoming calls.
 
 ### 09/05/2024
+
 ##### **<font color="#739963">New Features and Performance Optimization</font>**
+
 - Updated the SeaX product landing page and URL.
 - Introduced user registration and login processes.
 - New users can create workspaces independently.
 - Added the ability to forward numbers to other specified numbers.
 
 ### 08/22/2024
+
 ##### **<font color="#739963">New Features and Performance Optimization</font>**
+
 - Added the feature to purchase phone numbers.
 - Introduced error checking and prompts for Excel uploads.
 - Added a new use case for Excel uploads, allowing batch message sending to contacts via Excel.
 - Introduced background loading for WhatsApp messages to speed up message loading.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed the issue with unread message count display.
 
 ### 07/17/2024
+
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed filtering for "unread" and "replied" messages in conversations
 
-
 ### 06/27/2024
+
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fixed formatting issues with Canadian numbers.
 - Resolved the issue where the count of unread messages was incorrect.
 - Corrected the display issue for sending times in bulk messaging campaigns.
@@ -454,52 +616,70 @@ toc: true
 - Fixed the problem where the conversation thread would jump back to a specific conversation during loading.
 
 ### 06/20/2024
+
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Added a "Loading" status effect when setting up mass messaging campaigns to prevent multiple creation clicks.
 - Disabled Twilio AMD detection to speed up AI customer service interactions.
 - Fixed the issue where workspace icons could not be replaced.
 - Fixed errors in contact uploads.
 
 ### 06/13/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Added "Members" sorting functionality - Sort by account email, username, permissions, etc.
 
-
 ### 06/06/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Help Desk - Users can chat with the support bot anytime for assistance.
 - Contact Support - Users can book support sessions via Hubspot for help.
 - WhatsApp Fix - Users can edit phone numbers on the contact page.
 
 ### 05/02/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Added WhatsApp Channel: Bind WhatsApp numbers and send WhatsApp messages via SeaX.
 
 ### 03/28/2024
-##### **<font color="#739963">Enhancement</font>** 
+
+##### **<font color="#739963">Enhancement</font>**
+
 - Enhanced SeaX campaign icon: display whether the campaign is sent instantly or scheduled.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fix bugs on widget experience, including adding a test widget button, enabling country code search in the form, adding a scroll bar to the form, and implementing URL checking.
 
 ### 03/14/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Added translation to the Plan Description.
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Rectified the disappearance of the "Edit Contact's add label" button.
 - Addressed the issue with the campaign page getting stuck when there are no campaigns.
 
 ### 03/07/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Webchat widget: Adding agent icon to popup message
 
 ##### **<font color="#d66a60">Bugfix</font>**
+
 - Fix the 404 error message popup
 - Adjusted widget color settings. User reply messages and checkboxes will align with the main color.
 
 ### 02/01/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Schedule send to a single contact
 
 <center>
@@ -507,5 +687,7 @@ toc: true
 </center>
 
 ### 01/25/2024
-##### **<font color="#739963">New Feature</font>** 
+
+##### **<font color="#739963">New Feature</font>**
+
 - Add support for viewing Scheduled Campaigns
