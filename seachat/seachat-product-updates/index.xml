@@ -13,7 +13,7 @@
       <pubDate>Wed, 22 Nov 2023 08:48:57 +0000</pubDate>
       
       <guid>https://wiki.seasalt.ai/en/seachat/product-updates/</guid>
-      <description>12/10/2025 # New Features &amp;amp; Improvements #  Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls. Added voicemail detection examples; when the voice agent hears sentences similar to these examples, it treats the call as reaching the user’s voicemail and proceeds accordingly.  12/04/2025 # New Features &amp;amp; Improvements #  Fixed a bug where changing the Speech-to-Text language within the same language category incorrectly changed the TTS language.</description>
+      <description>12/30/2025 # New Features &amp;amp; Improvements #  Enhanced Monthly Voice Bot Usage Report Excel format:  Added &amp;ldquo;Company Name&amp;rdquo;, &amp;ldquo;Branch Name&amp;rdquo;, and &amp;ldquo;Uniq ID&amp;rdquo; columns. Updated Period display format to YYYY/MM/dd - YYYY/MM/dd Applied professional styling (header/totals emphasis and aligned total labels)    12/17/2025 # New Features &amp;amp; Improvements #  Improved conversation scrolling: when loading older messages, the viewport stays anchored instead of jumping.  12/10/2025 # New Features &amp;amp; Improvements #  Added an idle-wait setting to define how many seconds of inactivity to wait before automatically hanging up on Twilio calls.</description>
     </item>
     
   </channel>
