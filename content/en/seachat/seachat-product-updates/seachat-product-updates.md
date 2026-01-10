@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-12-30T08:48:57+00:00
+lastmod: 2026-01-08T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,12 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+
+### 1/8/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- AI agent Upgrade: Significantly improved response quality and readability. Seasalt AI agent now delivers more ChatGPT-like answers with clear structure, including headings, lists, and well-organized explanations.
 
 ### 12/30/2025
 

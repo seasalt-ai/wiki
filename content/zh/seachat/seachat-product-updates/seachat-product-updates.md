@@ -2,7 +2,7 @@
 title: "SeaChat 版本發布資訊"
 description: "掌握 SeaChat 最新版本發布資訊，了解新增功能、效能優化及錯誤修復，確保您隨時使用最穩定、最先進的 AI 助理功能。"
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-12-30T08:48:57+00:00
+lastmod: 2026-01-08T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,12 @@ url: /zh/seachat/product-updates/
 weight: 1100
 toc: true
 ---
+
+### 1/8/2026
+
+##### **<font color="#739963">新功能與改進</font>**
+
+- AI 智能助理的重大升級：顯著提升了回覆品質與可讀性。AI 智能助理在文字聊天中能提供更接近 ChatGPT 風格的回覆，具備清晰的結構，包含標題、列表及條理分明的說明。
 
 ### 12/30/2025
 

@@ -2,7 +2,7 @@
 title: "SeaX Release History"
 description: "Stay tuned with SeaX's release history. Explore new features, performance optimizations, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2025-12-18T08:48:57+00:00
+lastmod: 2026-01-08T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,40 @@ url: /en/seax/product-updates/
 weight: 1
 toc: true
 ---
+
+### 1/8/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Added automatic detection of Twilio call status and push notification failures to improve mobile-side debugging
+- Call records now include call results for better review and analysis
+- Outbound call logs now auto-fill agent names to prevent missing information
+- Introduced a unified “All Conversations” view to browse messages across all channels
+- Added channel tabs to the sidebar for quicker switching between channel-specific views
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed WhatsApp channel filtering to correctly display verified and connected statuses
+- Updated the incorrect Instagram client ID for proper authentication
+- Fixed incomplete AI agent list display when assigning to channels
+- Corrected naming conflict errors when setting AI agents
+- Fixed issue where phone number disappeared in dialpad after ending a call
+
+### 12/29/2025
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Improved Zoho integration with clearer error and warning indicators
+- Optimized call routing logic across web and mobile devices to improve call distribution efficiency
+- Automatically cleans up expired mobile device records to avoid extended ringing time
+- Enhanced voice call logic to improve overall security and stability
+- Push credentials for mobile devices are now automatically synced when the workspace is updated
+- Added channel group settings and improved channel list management
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed incorrect page redirection after creating a new channel
+- Improved error message display when Zoho sync encounters issues
 
 ### 12/18/2025
 
