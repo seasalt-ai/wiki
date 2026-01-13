@@ -18,7 +18,7 @@ toc: true
 SeaMeet 是一款由 AI 驅動的會議助理，旨在簡化會議後的工作流程。不同於傳統工具需要使用者將逐字稿複製到外部的大型語言模型 (LLM) 工具（如 ChatGPT 或 Claude），SeaMeet 採用了一種「代理式郵件 (Agentic Email)」工作流程。這讓使用者可以透過直接「回覆」電子郵件串的方式，來生成摘要、草擬信件、建立 GitHub 工單 (Ticket) 以及撰寫工作說明書 (SOW)，完全無需切換分頁或複製貼上內容。
 
 
-中文版：
+### 中文版
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/OkoaXEvnBao?si=hdIRwsLz8HYu-s_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
