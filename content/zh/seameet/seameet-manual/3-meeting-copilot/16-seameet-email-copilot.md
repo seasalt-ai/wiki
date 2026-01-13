@@ -20,7 +20,7 @@ SeaMeet 是一款由 AI 驅動的會議助理，旨在簡化會議後的工作�
 
 中文版：
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/OkoaXEvnBao?si=hdIRwsLz8HYu-s_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"/></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/OkoaXEvnBao?si=hdIRwsLz8HYu-s_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 **您將在本影片中學到：**
 
