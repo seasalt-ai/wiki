@@ -50,3 +50,11 @@ toc: true
 ## 帳單歷史 - 發票
 
 在 **帳單歷史** 區段，您可以查看過去帳單的詳細資訊。點擊下載圖示以下載 PDF 格式的發票。
+
+## 取消您的訂閱方案
+在**編輯計畫**頁面中，您可點擊**管理帳單與發票**取消現有方案 
+<img width="857" height="373" alt="manage" src="https://github.com/user-attachments/assets/ac7f2f42-d3fe-4049-a30b-40b3854ca59e" />
+
+接著點擊**取消訂閱**以終止您的訂閱方案。
+<img width="636" height="242" alt="cancel" src="https://github.com/user-attachments/assets/163e0fe6-89b6-4ce5-a5ad-f1d460f4b775" />
+
