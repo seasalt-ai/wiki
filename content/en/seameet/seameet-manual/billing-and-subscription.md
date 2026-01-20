@@ -13,11 +13,6 @@ toc: true
 
 You can find all the information about billing and subscription in the billing section of the SeaMeet dashboard. Find **Billing** in the left sidebar of the dashboard.
 
-<br/>
-<center>
-<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" target="_blank">
-<img width="80%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" alt="SeaMeet | Billing & Subscription">
-</a>
 
 **Billing and Subscription**
 </center>
@@ -26,13 +21,29 @@ You can find all the information about billing and subscription in the billing s
 
 In the **Plan** section, you can see the details of your current subscription plan. Edit your plan by clicking the **Edit Plan** button.
 
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="https://wiki.seasalt.ai/images/seameet-en/17-seameet-subscription-how-to/billing-dashboard.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seameet-en/17-seameet-subscription-how-to/billing-dashboard.png" ">
+</a>
+
+
 ### Billing Details
 
 Click on **Cost Breakdown** under **Next Billing Period** to see the details of your next billing details according to your subscription and usage.
 
 ### Billing Recipient
 
-In the **Billing Recipients** section, you can see the details of the billing recipients. Click on **Change Recipient** to modify the billing recipient. If you have an organization name, you can add it here.
+In the **Billing Recipients** section, you can see the details of the billing recipients. Click on **Change Recipient** to modify the billing recipient. 
+
+<br/>
+<center>
+<a style="border-radius: 0.4rem; cursor: zoom-in;" href="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" target="_blank">
+<img width="80%" style="border-radius: 0.4rem" src="/images/seameet-en/billing-and-subscription/billing-and-subscription.png" alt="SeaMeet | Click Change Recepient">
+</a>
+
+
+If you have an organization name, you can add it here.
 
 <br/>
 <center>
@@ -51,3 +62,10 @@ In the **Usage** section, you can see the details of your usage. Your monthly us
 ## Billing History - Invoices
 
 In the **Billing History** section, you can see the details of your past billing history. Click on the Download icon to download the invoice in PDF format.
+
+## Change or Cancel Your Subscription Plan
+In the **Edit Plan** page you may change or cancel your plan by clicking **Manage Billing and Invoice**
+<img width="638" height="389" alt="seameet-manage -billing" src="https://github.com/user-attachments/assets/5e166af8-903a-42d3-b87a-a0d66e436a85" />
+
+Then click on **Cancel Subscription** to **Update Subscription** to change to another plan. 
+<img width="695" height="271" alt="seameet-cancel" src="https://github.com/user-attachments/assets/a512334f-58ca-46f8-b612-0cd2a6448c18" />
