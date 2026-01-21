@@ -56,4 +56,4 @@ toc: true
  <img width="857" height="373" alt="manage" src="/images/seameet-zh/billing-and-subscription/manage.png" />
 
 接著點擊**取消訂閱**以終止您的訂閱方案。
-<img width="636" height="242" alt="cancel" src="seasalt-ai/wiki/static/images/seameet-zh/billing-and-subscription/cancel.png" />
+<img width="636" height="242" alt="cancel" src="/images/seameet-zh/billing-and-subscription/cancel.png" />
