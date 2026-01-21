@@ -54,7 +54,7 @@ In the **Billing History** section, you can see the details of your past billing
 
 ## Cancel Your Subscription Plan
 On the **Edit Plan** page, you can cancel your plan by clicking **Manage Billing and Invoice**
-<img width="638" height="389" alt="seameet-manage -billing" src="static/images/seameet-en/billing-and-subscription/seameet-manage-billing.png" />
+<img width="638" height="389" alt="seameet-manage-billing" src="/images/seameet-en/billing-and-subscription/seameet-manage-billing.png" />
 
 Then click **Cancel Subscription** to cancel your subscription plan.
 <img width="695" height="271" alt="seameet-cancel" src="static/images/seameet-en/billing-and-subscription/seameet-cancel.png" />
