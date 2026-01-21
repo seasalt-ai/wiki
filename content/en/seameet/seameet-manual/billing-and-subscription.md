@@ -57,4 +57,4 @@ On the **Edit Plan** page, you can cancel your plan by clicking **Manage Billing
 <img width="638" height="389" alt="seameet-manage-billing" src="/images/seameet-en/billing-and-subscription/seameet-manage-billing.png" />
 
 Then click **Cancel Subscription** to cancel your subscription plan.
-<img width="695" height="271" alt="seameet-cancel" src="static/images/seameet-en/billing-and-subscription/seameet-cancel.png" />
+<img width="695" height="271" alt="seameet-cancel" src="/images/seameet-en/billing-and-subscription/seameet-cancel.png" />
