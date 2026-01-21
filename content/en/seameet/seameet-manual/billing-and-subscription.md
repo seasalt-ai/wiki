@@ -53,7 +53,7 @@ In the **Usage** section, you can see the details of your usage. Your monthly us
 In the **Billing History** section, you can see the details of your past billing history. Click on the Download icon to download the invoice in PDF format.
 
 ## Cancel Your Subscription Plan
-In the **Edit Plan** page you may cancel your plan by clicking **Manage Billing and Invoice**
+On the **Edit Plan** page, you can cancel your plan by clicking **Manage Billing and Invoice**
 <img width="638" height="389" alt="seameet-manage -billing" src="https://github.com/user-attachments/assets/5e166af8-903a-42d3-b87a-a0d66e436a85" />
 
 Then click on **Cancel Subscription** to cancel your subscription plan. 
