@@ -53,7 +53,7 @@ toc: true
 
 ## 取消您的訂閱方案
 在**編輯計畫**頁面中，您可點擊**管理帳單與發票**取消現有方案。
- <img width="857" height="373" alt="manage" src="seasalt-ai/wiki/static/images/seameet-zh/billing-and-subscription/manage.png" />
+ <img width="857" height="373" alt="manage" src="/images/seameet-zh/billing-and-subscription/manage.png" />
 
 接著點擊**取消訂閱**以終止您的訂閱方案。<br/>
 <img width="636" height="242" alt="cancel" src="seasalt-ai/wiki/static/images/seameet-zh/billing-and-subscription/cancel.png" />
