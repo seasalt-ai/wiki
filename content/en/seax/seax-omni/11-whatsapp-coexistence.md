@@ -21,7 +21,7 @@ WhatsApp Coexistence is a new offering from Meta that allows business owners to 
 This feature solves the "scaling problem" faced by small businesses. Previously, moving to the API meant losing the mobile app interface. With Coexistence, businesses can keep the flexibility of the mobile app for personal use or on-the-go replies, while using Seasalt.ai to scale with unlimited agents, unified inboxes, and automation.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
 <a href="/images/seax/en/whatsapp-coexistence-illustration.png" target="_blank">
 <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/whatsapp-coexistence-illustration.png" alt="WhatsApp Coexistence Diagram">
 </a>
