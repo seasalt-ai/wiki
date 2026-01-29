@@ -1,44 +1,44 @@
 [[main]]
   name = "SeaChat"
   url = "/zh/seachat/getting-started/01-seachat-intro/"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "SeaMeet"
   url = "/zh/seameet/seameet-manual/01-seameet-intro/"
-  weight = 25
+  weight = 15
 
 [[main]]
   name = "SeaX"
-  url = "/zh/seax/demo_videos_zh/videos/"
-  weight = 30
+  url = "/zh/seax/"
+  weight = 20
 
 [[main]]
   name = "SeaVoice"
   url = "/zh/seavoice/stt/decoder/"
-  weight = 31
+  weight = 25
 
  [[main]]
    name = "RESTful APIs"
-   url = "/seasaltApi/seasalt-api/01-seachat-api-intro/"
+   url = "/zh/seasaltApi/seasalt-api/01-seachat-api-intro/"
    identifier = "RESTful APIs"
-   weight = 35
+   weight = 30
 
 [[main]]
    name = "SeaChat API"
-   url = "/seasaltApi/seasalt-api/01-seachat-api-intro/"
+   url = "/zh/seasaltApi/seasalt-api/01-seachat-api-intro/"
    parent = "RESTful APIs"
    weight = 1
 
  [[main]]
    name = "SeaX API"
-   url = "/seasaltApi/seasalt-api/02-seaX-api-intro/"
+   url = "/zh/seasaltApi/seasalt-api/02-seaX-api-intro/"
    parent = "RESTful APIs"
    weight = 2
 
  [[main]]
    name = "SeaMeet API"
-   url = "/seasaltApi/seasalt-api/03-seameet-api-intro/"
+    url = "/zh/seasaltApi/seasalt-api/03-seameet-api-intro/"
    parent = "RESTful APIs"
    weight = 3
 

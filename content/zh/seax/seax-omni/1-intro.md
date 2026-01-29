@@ -9,6 +9,7 @@ menu:
   seax:
     parent: "seax-omni"
 aliases:
+  - /zh/seax/
   - /zh/seax/seax-messaging/seax-intro/
 url: /zh/seax/seax-omni/seax-intro/
 weight: 1
