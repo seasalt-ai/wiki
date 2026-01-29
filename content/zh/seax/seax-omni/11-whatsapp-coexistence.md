@@ -55,6 +55,15 @@ toc: true
 
 9:05 - 企業主體驗：完全掌控與靈活運用
 
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<a href="/images/seax/zh/whatsapp-coexistence-explained-horizontal-zh-tw.jpg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/zh/whatsapp-coexistence-explained-horizontal-zh-tw.jpg" alt="WhatsApp Coexistence Explained">
+</a>
+</div>
+</div>
+
 ### 先決條件
 
 在設定 WhatsApp 共存模式之前，請確保您具備以下條件：
@@ -196,3 +205,13 @@ toc: true
 | **聊天記錄同步** | 不適用 | 無 | **有 (最多 6 個月)** |
 | **AI/機器人整合** | 有限 | 有 | **有** |
 | **設定方式** | 電話號碼 | API 金鑰 | **掃描 QR Code** |
+
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<a href="/images/seax/zh/whatsapp-coexistence-explained-vertical-zh-tw.jpg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/zh/whatsapp-coexistence-explained-vertical-zh-tw.jpg" alt="WhatsApp Coexistence Explained">
+</a>
+</div>
+</div>
+
