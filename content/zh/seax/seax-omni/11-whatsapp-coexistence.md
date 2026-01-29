@@ -20,7 +20,7 @@ toc: true
 這項功能解決了小型企業面臨的「擴展難題」。過去，升級到 API 意味著必須放棄手機 App 的介面。透過共存模式，企業可以保留手機 App 的靈活性供個人使用或在外回覆，同時利用 Seasalt.ai 進行擴展，享受無限客服人數、整合收件匣和自動化功能。
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <a href="/images/seax/en/whatsapp-coexistence-illustration.png" target="_blank">
     <img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/whatsapp-coexistence-illustration.png" alt="WhatsApp 共存模式示意圖">
     </a>
