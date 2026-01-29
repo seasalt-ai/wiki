@@ -56,6 +56,16 @@ Small business owners often face a dilemma: keep the convenient WhatsApp Busines
 
 9:05 - The Owner Experience: Total Control & Flexibility
 
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<a href="/images/seax/en/whatsapp-coexistence-explained-horizontal-en.jpg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/whatsapp-coexistence-explained-horizontal-en.jpg" alt="WhatsApp Coexistence Explained">
+</a>
+</div>
+</div>
+
+
 ### Prerequisites
 
 Before setting up WhatsApp Coexistence, ensure you have:
@@ -224,3 +234,12 @@ Employees on the go can use the **Seasalt.ai Mobile App** (distinct from the Wha
 | **Chat History Sync** | N/A | No | **Yes (up to 6 months)** |
 | **AI/Bot Integration** | Limited | Yes | **Yes** |
 | **Setup Method** | Phone Number | API Key | **QR Code Scan** |
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-item: center">
+<a href="/images/seax/en/whatsapp-coexistence-explained-vertical-en.jpg" target="_blank">
+<img width="100%" style="border-radius: 0.4rem; cursor: zoom-in;" src="/images/seax/en/whatsapp-coexistence-explained-vertical-en.jpg" alt="WhatsApp Coexistence Explained">
+</a>
+</div>
+</div>
+
