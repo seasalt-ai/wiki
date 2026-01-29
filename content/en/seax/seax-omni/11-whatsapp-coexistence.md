@@ -34,7 +34,7 @@ This feature solves the "scaling problem" faced by small businesses. Previously,
 
 This video tutorial demonstrates how to set up WhatsApp Coexistence, enabling you to sync messages between your phone's native app, the Seasalt.ai web dashboard, and the Seasalt.ai mobile app.
 
-### What you will learn in this video: 
+### What you will learn in this video:
 Small business owners often face a dilemma: keep the convenient WhatsApp Business App or upgrade to the powerful API and lose the native interface. This video introduces "WhatsApp Coexistence"—a beta offering that gives you the best of both worlds. Watch how SeaX enables you to break the 4-device limit, sync chats in real-time between your physical phone and the web platform, and let employees reply on the go, all while keeping your original Business App active.
 
 ### Timestamps: 
