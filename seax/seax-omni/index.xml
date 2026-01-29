@@ -41,6 +41,16 @@ Power users that are operating on the Meta Business Manager can finally have a t
     </item>
     
     <item>
+      <title>WhatsApp Coexistence</title>
+      <link>https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/</link>
+      <pubDate>Tue, 27 Jan 2026 14:33:00 -0800</pubDate>
+      
+      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/</guid>
+      <description>WhatsApp Coexistence is a new offering from Meta that allows business owners to retain the native WhatsApp Business App on their phone while simultaneously gaining the enterprise capabilities of the WhatsApp Cloud API (WhatsApp Business Platform).
+This feature solves the &amp;ldquo;scaling problem&amp;rdquo; faced by small businesses. Previously, moving to the API meant losing the mobile app interface. With Coexistence, businesses can keep the flexibility of the mobile app for personal use or on-the-go replies, while using Seasalt.</description>
+    </item>
+    
+    <item>
       <title>WhatsApp Business App (Deprecated)</title>
       <link>https://wiki.seasalt.ai/en/seax/seax-omni/seax-whatsapp-business-app/</link>
       <pubDate>Thu, 02 May 2024 08:48:57 +0000</pubDate>
@@ -99,17 +109,6 @@ This guide will walk you through the process of sending bulk messages and calls 
       <guid>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</guid>
       <description>Overview # In this article, we will introduce the SeaX Widget, a feature of the SeaX platform that allows you to integrate a widget button that your customers can click on and directly send a message to your SeaX account. You will learn how you can set up the SeaX Widget and integrate it into your website or app.
  Why SeaX Widget? # Providing a seamless experience for your customers is crucial for any business.</description>
-    </item>
-    
-    <item>
-      <title>Customer Satisfaction (CSAT) Survey</title>
-      <link>https://wiki.seasalt.ai/en/seax/seax-omni/csat/</link>
-      <pubDate>Tue, 10 Dec 2024 08:48:57 +0000</pubDate>
-      
-      <guid>https://wiki.seasalt.ai/en/seax/seax-omni/csat/</guid>
-      <description>Collect actionable feedback with customizable, automated, and manually-triggered post-conversation surveys.
-Customer Satisfaction (CSAT) surveys help you understand how customers feel about their interaction with your support team. With SeaX, you can configure a custom CSAT message, let agents send it manually, or automate delivery based on your own timing rules. The system intelligently parses customer replies and ensures feedback collection is smooth and unobtrusive.
- Why CSAT Matters # CSAT surveys provide measurable insights into customer experience.</description>
     </item>
     
   </channel>

@@ -2,7 +2,7 @@
   
     <url>
       <loc>https://wiki.seasalt.ai/seax/seax-omni/seax-intro/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -19,7 +19,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/bulk-messaging-features/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -36,7 +36,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-business-platform/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -52,8 +52,25 @@
     </url>
     
     <url>
+      <loc>https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/</loc>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="zh"
+                  href="https://wiki.seasalt.ai/zh/seax/seax-omni/whatsapp-coexistence/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/"
+                  />
+    </url>
+    
+    <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/seax-whatsapp-business-app/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -70,7 +87,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/seax-agent-bulk-send/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -87,7 +104,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/phone-call-dialpad/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -104,7 +121,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/zapier-integration-with-agentic-send/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -121,7 +138,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/zoho-integration-with-contacts-sync/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -138,7 +155,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/seax-widget/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
@@ -155,7 +172,7 @@
     
     <url>
       <loc>https://wiki.seasalt.ai/en/seax/seax-omni/csat/</loc>
-      <lastmod>2026-01-22T02:33:41+08:00</lastmod>
+      <lastmod>2026-01-28T20:29:33-08:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
       <xhtml:link
