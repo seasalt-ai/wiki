@@ -1,5 +1,5 @@
 ---
-title: "SeaX Mobile Release Notes"
+title: "SeaX Mobile Release History"
 description: "Stay informed about the latest SeaX Mobile capabilities, performance optimizations, and fixes."
 date: 2026-01-08T08:48:57+00:00
 lastmod: 2026-01-08T08:48:57+00:00
@@ -47,4 +47,3 @@ Stay on top of SeaX Mobile enhancements. For a unified omnichannel log, visit th
 ##### **<font color="#d66a60">Bug Fixes</font>**
 
 - Unified MARKETING_VERSION/versionName and build-number baselines to remove iOS vs. Android version conflicts.
-

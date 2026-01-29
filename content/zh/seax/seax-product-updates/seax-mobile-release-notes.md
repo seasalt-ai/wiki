@@ -1,5 +1,5 @@
 ---
-title: "SeaX Mobile 功能發布與修復"
+title: "SeaX Mobile 版本發布資訊"
 description: "即時掌握 SeaX Mobile 最新版本發布、效能優化與錯誤修復。"
 date: 2026-01-08T08:48:57+00:00
 lastmod: 2026-01-08T08:48:57+00:00
@@ -47,4 +47,3 @@ toc: true
 ##### **<font color="#d66a60">問題修正</font>**
 
 - 統一 MARKETING_VERSION / versionName 以及 build number 起點，消除 iOS 與 Android 版本衝突。
-
