@@ -36,11 +36,11 @@
    parent = "RESTful APIs"
    weight = 2
 
- [[main]]
-   name = "SeaMeet API"
+  [[main]]
+    name = "SeaMeet API"
     url = "/zh/seasaltApi/seasalt-api/03-seameet-api-intro/"
-   parent = "RESTful APIs"
-   weight = 3
+    parent = "RESTful APIs"
+    weight = 3
 
 [[social]]
   name = "Contact"

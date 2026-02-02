@@ -21,7 +21,7 @@ Stay on top of SeaX Mobile enhancements. For a unified omnichannel log, visit th
 
 ### 0.0.2
 
-##### **<font color="#739963">New Features & Improvements</font>**
+##### **New Features & Improvements**
 
 - Redesigned MessageBubble with direction labels, live timestamps, unsynced-media placeholders, and recording cards, using localized "Inbound / Outbound" and WhatsApp sync warnings.
 - ConversationDetail and ConversationList hooks are now network-aware, add Twilio-specific ordering fields, and capture retry plus WebSocket lifecycle logs to cut offline errors.
@@ -30,7 +30,7 @@ Stay on top of SeaX Mobile enhancements. For a unified omnichannel log, visit th
 - ActiveCallScreen derives display names from Twilio call parameters and workspace contacts while CallLog / IncomingCall / PhoneSelection reuse PhoneSelectField and loadWorkspacePhones for consistent phone metadata.
 - Android adds EarlyInitProvider plus ReactNativeInitializer, and core bootstraps (AppProviders, StatusBarBackground, useOptionalNetInfo) along with package/babel/metro/jest/i18n updates to stabilize startup.
 
-##### **<font color="#d66a60">Bug Fixes</font>**
+##### **Bug Fixes**
 
 - Conversation sockets now retry based on connectivity and Twilio ordering, preventing duplicate or out-of-order messages after a reconnect.
 - CallLog, PhoneSelection, and ActiveCallScreen log failures and show fallback descriptions when workspace phone metadata cannot be fetched, avoiding blank views.
@@ -39,11 +39,11 @@ Stay on top of SeaX Mobile enhancements. For a unified omnichannel log, visit th
 
 ### 0.0.1
 
-##### **<font color="#739963">New Features & Improvements</font>**
+##### **New Features & Improvements**
 
 - Established the Seasalt rebrand baseline by resetting marketing/build numbers to 0.0.1, unifying bundle identifiers, and updating scripts, environment files, and docs.
 - Delivered the initial React Native experience: login, workspace selection, conversation list/detail, Twilio Voice calling, push notifications, and caller ID setup.
 
-##### **<font color="#d66a60">Bug Fixes</font>**
+##### **Bug Fixes**
 
 - Unified MARKETING_VERSION/versionName and build-number baselines to remove iOS vs. Android version conflicts.
