@@ -37,7 +37,7 @@ toc: true
 
 ### 1/15/2026
 
-##### **<font color="#d66a60">Bug Fixes</font>**
+##### **<font color="#d66a60">Bugfix</font>**
 
 - Fixed a bug in the SeaX conversation integration page where the speech rate setting for inbound-call AI voice assistants did not take effect correctly.
 
