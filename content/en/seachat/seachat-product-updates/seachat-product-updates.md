@@ -2,7 +2,7 @@
 title: "SeaChat Release History"
 description: "Stay up-to-date with SeaChat's latest release on new AI features, improvements, and bug fixes."
 date: 2023-11-22T08:48:57+00:00
-lastmod: 2026-01-08T08:48:57+00:00
+lastmod: 2026-02-06T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -16,6 +16,30 @@ url: /en/seachat/product-updates/
 weight: 1600
 toc: true
 ---
+
+### 2/5/2026
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed an issue where voice messages received from communication platforms could not be transcribed. The system can now successfully receive audio messages, perform speech-to-text (STT), and reply based on the transcription results.
+
+### 1/29/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Improved the accuracy of live agent transfer detection for AI assistants used in survey-related use cases.
+
+### 1/22/2026
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed an issue where conversation summary emails still included context extraction content even when the context extraction feature was disabled.
+
+### 1/15/2026
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed a bug in the SeaX conversation integration page where the speech rate setting for inbound-call AI voice assistants did not take effect correctly.
 
 ### 1/8/2026
 
