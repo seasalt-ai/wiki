@@ -19,7 +19,7 @@ toc: true
 
 ### 2/5/2026
 
-##### **<font color="#d66a60">Bug Fixes</font>**
+##### **<font color="#d66a60">Bugfix</font>**
 
 - Fixed an issue where voice messages received from communication platforms could not be transcribed. The system can now successfully receive audio messages, perform speech-to-text (STT), and reply based on the transcription results.
 
