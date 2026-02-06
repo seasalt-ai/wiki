@@ -31,7 +31,7 @@ toc: true
 
 ### 1/22/2026
 
-##### **<font color="#d66a60">Bug Fixes</font>**
+##### **<font color="#d66a60">Bugfix</font>**
 
 - Fixed an issue where conversation summary emails still included context extraction content even when the context extraction feature was disabled.
 
