@@ -7,7 +7,7 @@ images: []
 menu:
    seameet:
       parent: "seameet-manual"
-url: /zh-tw/seameet/chinese-japanese-english-trilingual-meeting-assistant/
+url: /zh/seameet/chinese-japanese-english-trilingual-meeting-assistant/
 weight: 41
 toc: true
 ---
@@ -44,7 +44,7 @@ toc: true
 
 1.  **啟動 SeaMeet：** 開始您的會議並打開 SeaMeet 小工具側邊欄。
 2.  **進入轉寫設定：** 找到轉寫區域上方的 **「會議語言」(Meeting Language)** 下拉選單。
-3.  **選擇多種來源語言：**
+3.  **啟用三語偵測：**
     * 點擊下拉選單。
     * 選擇 **日本語 (日本)**。
     * *注意：在此模式下，系統會自動偵測英語和中文。*

@@ -27,9 +27,9 @@ To use the Trilingual Meeting Assistant, ensure you have:
 * **Meeting Platform:** Google Meet, Microsoft Teams, or Zoom.
 * **Audio Environment:** A clear microphone input is recommended for the best detection of mixed-language speech.
 
-<center>
+<div style='text-align: center;'>
 <img src="/images/seameet-en/18-seameet-trilingual-ui.jpg" alt="Trilingual settings interface in SeaMeet"/>
-</center>
+</div>
 
 ## 2. How It Works
 
