@@ -215,7 +215,7 @@ Once templates are approved in Meta:
 - Templates must be pre-approved by Meta
 
 
-## With pitcures: How to Connect WhatsApp Business Platform to SeaX
+## With pictures: How to Connect WhatsApp Business Platform to SeaX
 
 Go to **Channel** under **Workspace** and then click on the WhatsApp Business Platform tab.
 
