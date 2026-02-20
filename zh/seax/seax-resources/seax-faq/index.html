@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-10-16T08:48:57+00:00">
-  <meta property="article:modified_time" content="2026-02-12T14:05:08-08:00">
+  <meta property="article:modified_time" content="2026-02-19T21:43:25-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-10-16T08:48:57CET",
-      "dateModified": "2026-02-12T14:05:08CET",
+      "dateModified": "2026-02-19T21:43:25CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/zh/seax/seax-resources/seax-faq/#/schema/breadcrumb/1"
       },
@@ -627,6 +627,10 @@
     <li><a href="#1-什麼是-twilio-30007-錯誤它如何影響大量簡訊發送">1. 什麼是 Twilio 30007 錯誤？它如何影響大量簡訊發送？</a></li>
     <li><a href="#2-sms中是如何給聯繫人打上dnc標籤的">2. SMS中是如何給聯繫人打上&quot;DNC&quot;標籤的？</a></li>
     <li><a href="#3-whatsapp中是如何給聯繫人打上dnc標籤的">3. WhatsApp中是如何給聯繫人打上&quot;DNC&quot;標籤的？</a></li>
+    <li><a href="#4-為什麼我的-whatsapp-行銷活動出現付款方式-payment-method錯誤">4. 為什麼我的 WhatsApp 行銷活動出現「付款方式 (payment method)」錯誤？</a></li>
+    <li><a href="#5-whatsapp-中的失敗訊息無法送達failed-message-undeliverable錯誤是什麼意思">5. WhatsApp 中的「失敗（訊息無法送達）(failed (Message Undeliverable))」錯誤是什麼意思？</a></li>
+    <li><a href="#6-如何才能穩定地向-whatsapp-上的新客戶發送訊息">6. 如何才能穩定地向 WhatsApp 上的「新」客戶發送訊息？</a></li>
+    <li><a href="#7-如果-whatsapp-繼續封鎖我的訊息該怎麼辦">7. 如果 WhatsApp 繼續封鎖我的訊息該怎麼辦？</a></li>
   </ul>
 </nav>
 </div>
@@ -645,6 +649,10 @@
     <li><a href="#1-什麼是-twilio-30007-錯誤它如何影響大量簡訊發送">1. 什麼是 Twilio 30007 錯誤？它如何影響大量簡訊發送？</a></li>
     <li><a href="#2-sms中是如何給聯繫人打上dnc標籤的">2. SMS中是如何給聯繫人打上&quot;DNC&quot;標籤的？</a></li>
     <li><a href="#3-whatsapp中是如何給聯繫人打上dnc標籤的">3. WhatsApp中是如何給聯繫人打上&quot;DNC&quot;標籤的？</a></li>
+    <li><a href="#4-為什麼我的-whatsapp-行銷活動出現付款方式-payment-method錯誤">4. 為什麼我的 WhatsApp 行銷活動出現「付款方式 (payment method)」錯誤？</a></li>
+    <li><a href="#5-whatsapp-中的失敗訊息無法送達failed-message-undeliverable錯誤是什麼意思">5. WhatsApp 中的「失敗（訊息無法送達）(failed (Message Undeliverable))」錯誤是什麼意思？</a></li>
+    <li><a href="#6-如何才能穩定地向-whatsapp-上的新客戶發送訊息">6. 如何才能穩定地向 WhatsApp 上的「新」客戶發送訊息？</a></li>
+    <li><a href="#7-如果-whatsapp-繼續封鎖我的訊息該怎麼辦">7. 如果 WhatsApp 繼續封鎖我的訊息該怎麼辦？</a></li>
   </ul>
 </nav>
 </div>
@@ -673,6 +681,24 @@
 <img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/seax-resources/setup-stop-promotions.jpeg" alt="Stop Promotions to capture DNC">
 </a>
 </center>
+<h2 id="4-為什麼我的-whatsapp-行銷活動出現付款方式-payment-method錯誤">4. 為什麼我的 WhatsApp 行銷活動出現「付款方式 (payment method)」錯誤？ <a href="#4-%e7%82%ba%e4%bb%80%e9%ba%bc%e6%88%91%e7%9a%84-whatsapp-%e8%a1%8c%e9%8a%b7%e6%b4%bb%e5%8b%95%e5%87%ba%e7%8f%be%e4%bb%98%e6%ac%be%e6%96%b9%e5%bc%8f-payment-method%e9%8c%af%e8%aa%a4" class="anchor" aria-hidden="true">#</a></h2>
+<p>如果您看到錯誤訊息：「由於與您的付款方式相關的一項或多項錯誤，訊息發送失敗 (Message failed to send because there were one or more errors related to your payment method)」，這表示 Meta 無法收取主動發送訊息的費用。Meta 會針對每條由企業發起的訊息收取費用。</p>
+<p>要解決此問題：</p>
+<ul>
+<li>請確保您的 WhatsApp 帳戶已在 <strong>Meta 企業管理平台 (Meta Business Suite)</strong> 中綁定有效的信用卡。</li>
+<li>在 <strong>WhatsApp 管理員 (WhatsApp Manager)</strong> 中驗證您的帳單資訊（這與您的 SeaX 訂閱是分開的）。</li>
+</ul>
+<h2 id="5-whatsapp-中的失敗訊息無法送達failed-message-undeliverable錯誤是什麼意思">5. WhatsApp 中的「失敗（訊息無法送達）(failed (Message Undeliverable))」錯誤是什麼意思？ <a href="#5-whatsapp-%e4%b8%ad%e7%9a%84%e5%a4%b1%e6%95%97%e8%a8%8a%e6%81%af%e7%84%a1%e6%b3%95%e9%80%81%e9%81%94failed-message-undeliverable%e9%8c%af%e8%aa%a4%e6%98%af%e4%bb%80%e9%ba%bc%e6%84%8f%e6%80%9d" class="anchor" aria-hidden="true">#</a></h2>
+<p>此錯誤通常表示 Meta 或收件者封鎖了您的訊息。最常見的情況是 Meta 的自動系統將該訊息標記為潛在垃圾訊息，尤其是當您向從未主動聯絡過您企業的「陌生」聯絡人發送訊息時。</p>
+<h2 id="6-如何才能穩定地向-whatsapp-上的新客戶發送訊息">6. 如何才能穩定地向 WhatsApp 上的「新」客戶發送訊息？ <a href="#6-%e5%a6%82%e4%bd%95%e6%89%8d%e8%83%bd%e7%a9%a9%e5%ae%9a%e5%9c%b0%e5%90%91-whatsapp-%e4%b8%8a%e7%9a%84%e6%96%b0%e5%ae%a2%e6%88%b6%e7%99%bc%e9%80%81%e8%a8%8a%e6%81%af" class="anchor" aria-hidden="true">#</a></h2>
+<p>Meta 嚴格控制垃圾訊息行為，可能會封鎖發送給完全陌生人的訊息。為了提高送達率：</p>
+<ul>
+<li><strong>鼓勵主動聯絡</strong>：請您的聯絡人先給您發送一條訊息。一旦他們發起了對話，Meta 就更有可能允許您發送行銷模板。</li>
+<li><strong>WhatsApp 共存 (WA Coexistence)</strong>：您可以在行動裝置上登入您的 WhatsApp 商業帳戶 (WABA) 先與聯絡人取得聯繫。一旦他們接受並回覆後，您將來就可以透過 SeaX 向他們發送行銷活動訊息。</li>
+</ul>
+<h2 id="7-如果-whatsapp-繼續封鎖我的訊息該怎麼辦">7. 如果 WhatsApp 繼續封鎖我的訊息該怎麼辦？ <a href="#7-%e5%a6%82%e6%9e%9c-whatsapp-%e7%b9%bc%e7%ba%8c%e5%b0%81%e9%8e%96%e6%88%91%e7%9a%84%e8%a8%8a%e6%81%af%e8%a9%b2%e6%80%8e%e9%ba%bc%e8%be%a6" class="anchor" aria-hidden="true">#</a></h2>
+<p>如果您在透過 WhatsApp 接觸新客戶時遇到困難，可以考慮切換到 <strong>SMS 簡訊</strong>。電信運營商通常不會像 Meta 那樣封鎖初始開發訊息，且在許多地區（如澳洲），發送 SMS 的成本與 WhatsApp 訊息相近。</p>
+
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
 			<div class="docs-navigation d-flex justify-content-between">

@@ -53,7 +53,7 @@
 <meta property="og:url" content="https://wiki.seasalt.ai/en/seax/seax-resources/seax-faq/">
 <meta property="og:site_name" content="Seasalt.ai">
 <meta property="article:published_time" content="2024-10-16T08:48:57+00:00">
-  <meta property="article:modified_time" content="2026-02-12T14:05:08-08:00">
+  <meta property="article:modified_time" content="2026-02-19T21:43:25-08:00">
   
   <meta property="og:image" content="https://wiki.seasalt.ai/seasalt-logo.png"/>
       <meta property="og:image:alt" content="Seasalt.ai">
@@ -116,7 +116,7 @@
           "@id": "https://wiki.seasalt.ai/#/schema/organization/1"
         },
       "datePublished": "2024-10-16T08:48:57CET",
-      "dateModified": "2026-02-12T14:05:08CET",
+      "dateModified": "2026-02-19T21:43:25CET",
       "breadcrumb": {
         "@id": "https://wiki.seasalt.ai/en/seax/seax-resources/seax-faq/#/schema/breadcrumb/1"
       },
@@ -628,6 +628,10 @@
     <li><a href="#1-what-is-the-twilio-30007-error-and-how-does-it-affect-bulk-messaging">1. What is the Twilio 30007 error, and how does it affect bulk messaging?</a></li>
     <li><a href="#2-how-are-dnc-labels-captured-in-sms">2. How are &ldquo;DNC&rdquo; labels captured in SMS?</a></li>
     <li><a href="#3-how-are-dnc-labels-captured-in-whatsapp">3. How are &ldquo;DNC&rdquo; labels captured in WhatsApp?</a></li>
+    <li><a href="#4-why-am-i-getting-a-payment-method-error-in-my-whatsapp-campaign">4. Why am I getting a &ldquo;payment method&rdquo; error in my WhatsApp campaign?</a></li>
+    <li><a href="#5-what-does-the-failed-message-undeliverable-error-mean-in-whatsapp">5. What does the &ldquo;failed (Message Undeliverable)&rdquo; error mean in WhatsApp?</a></li>
+    <li><a href="#6-how-can-i-reliably-send-messages-to-new-customers-on-whatsapp">6. How can I reliably send messages to &ldquo;new&rdquo; customers on WhatsApp?</a></li>
+    <li><a href="#7-what-if-whatsapp-continues-to-block-my-messages">7. What if WhatsApp continues to block my messages?</a></li>
   </ul>
 </nav>
 </div>
@@ -646,6 +650,10 @@
     <li><a href="#1-what-is-the-twilio-30007-error-and-how-does-it-affect-bulk-messaging">1. What is the Twilio 30007 error, and how does it affect bulk messaging?</a></li>
     <li><a href="#2-how-are-dnc-labels-captured-in-sms">2. How are &ldquo;DNC&rdquo; labels captured in SMS?</a></li>
     <li><a href="#3-how-are-dnc-labels-captured-in-whatsapp">3. How are &ldquo;DNC&rdquo; labels captured in WhatsApp?</a></li>
+    <li><a href="#4-why-am-i-getting-a-payment-method-error-in-my-whatsapp-campaign">4. Why am I getting a &ldquo;payment method&rdquo; error in my WhatsApp campaign?</a></li>
+    <li><a href="#5-what-does-the-failed-message-undeliverable-error-mean-in-whatsapp">5. What does the &ldquo;failed (Message Undeliverable)&rdquo; error mean in WhatsApp?</a></li>
+    <li><a href="#6-how-can-i-reliably-send-messages-to-new-customers-on-whatsapp">6. How can I reliably send messages to &ldquo;new&rdquo; customers on WhatsApp?</a></li>
+    <li><a href="#7-what-if-whatsapp-continues-to-block-my-messages">7. What if WhatsApp continues to block my messages?</a></li>
   </ul>
 </nav>
 </div>
@@ -672,6 +680,24 @@
 <img width="80%" style="border-radius: 0.4rem" src="https://wiki.seasalt.ai/images/seax/en/seax-resources/setup-stop-promotions.jpeg" alt="Stop Promotions to capture DNC">
 </a>
 </center>
+<h2 id="4-why-am-i-getting-a-payment-method-error-in-my-whatsapp-campaign">4. Why am I getting a &ldquo;payment method&rdquo; error in my WhatsApp campaign? <a href="#4-why-am-i-getting-a-payment-method-error-in-my-whatsapp-campaign" class="anchor" aria-hidden="true">#</a></h2>
+<p>If you see the error: &ldquo;Message failed to send because there were one or more errors related to your payment method,&rdquo; it means Meta was unable to charge for the proactive message. Meta charges a fee per business-initiated message sent.</p>
+<p>To fix this:</p>
+<ul>
+<li>Ensure you have a valid credit card associated with your WhatsApp account in the <strong>Meta Business Suite</strong>.</li>
+<li>Verify your billing information in the <strong>WhatsApp Manager</strong> (this is separate from your SeaX subscription).</li>
+</ul>
+<h2 id="5-what-does-the-failed-message-undeliverable-error-mean-in-whatsapp">5. What does the &ldquo;failed (Message Undeliverable)&rdquo; error mean in WhatsApp? <a href="#5-what-does-the-failed-message-undeliverable-error-mean-in-whatsapp" class="anchor" aria-hidden="true">#</a></h2>
+<p>This error typically means that either Meta or the recipient has blocked your message. Most often, Meta&rsquo;s automated systems flag the message as potential spam, especially if you are sending to &ldquo;cold&rdquo; contacts who have not messaged your business first.</p>
+<h2 id="6-how-can-i-reliably-send-messages-to-new-customers-on-whatsapp">6. How can I reliably send messages to &ldquo;new&rdquo; customers on WhatsApp? <a href="#6-how-can-i-reliably-send-messages-to-new-customers-on-whatsapp" class="anchor" aria-hidden="true">#</a></h2>
+<p>Meta strictly controls spamming behavior and may block messages to complete strangers. To improve deliverability:</p>
+<ul>
+<li><strong>Encourage Inbound</strong>: Ask your contact to send you a message first. Once they initiate the conversation, Meta is much more likely to allow your marketing templates.</li>
+<li><strong>WhatsApp Coexistence</strong>: You can use your WhatsApp Business Account (WABA) on a mobile device to reach out to a contact first. Once they accept and respond, you can send future campaigns to them via SeaX.</li>
+</ul>
+<h2 id="7-what-if-whatsapp-continues-to-block-my-messages">7. What if WhatsApp continues to block my messages? <a href="#7-what-if-whatsapp-continues-to-block-my-messages" class="anchor" aria-hidden="true">#</a></h2>
+<p>If you are having difficulty reaching new customers via WhatsApp, you can switch to <strong>SMS</strong>. Carriers generally do not block initial outreach in the same way Meta does, and in many regions (like Australia), the cost of sending SMS is similar to WhatsApp.</p>
+
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				</div>
 			<div class="docs-navigation d-flex justify-content-between">
