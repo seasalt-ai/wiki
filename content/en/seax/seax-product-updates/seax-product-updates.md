@@ -17,6 +17,113 @@ weight: 1
 toc: true
 ---
 
+
+### 3/5/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Added message reaction support for Messenger, Instagram, and WhatsApp.
+- Enabled In-call Transfer to other numbers for improved service flexibility.
+- Optimized SMS resource allocation for more stable large-scale broadcasts.
+- Synced AI Agent call recordings directly to notes and Zoho CRM.
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed Email notification links to ensure accurate routing to conversations.
+
+### 2/26/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Added IG & Messenger Quick Replies for AI Agents to boost interaction efficiency.
+- Introduced member whitelisting to enhance workspace security and access control.
+- Added WhatsApp connection alerts to provide real-time status updates during setup.
+- Optimized backend resources to ensure high stability and faster response speeds.
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed subscription validation to ensure uninterrupted access to paid features.
+- Resolved IG & LINE name display issues to ensure complete contact information.
+- Corrected AI Agent service hour formats for accurate automated response scheduling.
+
+### 2/12/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Synced edits and revoked the message to ensure full consistency with the WhatsApp Business App.
+- Enabled automatic contact creation for unknown callers to streamline lead management.
+- Displayed AI Agent channel info for quick verification of active bot deployments.
+- Optimized call note handling to ensure comprehensive and reliable communication history.
+
+##### **<font color="#d66a60">Bug Fixes</font>**  
+
+- Fixed real-time STT output to ensure accurate live speech-to-text transcriptions during calls.
+- Resolved AI Bot log errors to correctly display recipient information in call records.
+
+### 2/5/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Enhanced Zoho integration with automated event logging and multi-language support.
+- Added manual cancellation for ongoing broadcast campaigns for better flexibility.
+- Refined AI Bot settings with more integration options
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed Zoho sync to ensure deleted contact notes are properly updated.
+- Resolved scheduling errors for campaigns containing empty contact lists.
+
+### 2/2/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Persisted call records across reconnections to ensure fair call distribution.
+- Added Zoho Notes sync to improve CRM data integration.
+- Upgraded Dial Pad with real-time number info and an AI Agent / Human Agent switch.
+- Launched AI Bot configuration & management pages for easier configuration.
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed ringing status locks that prevented agents from receiving new calls.
+- Resolved sync issues to keep member lists updated in real-time.
+- Corrected member counts in the subscription dashboard for accuracy.
+- Fixed data errors in contact fields to ensure proper saving.
+
+### 1/22/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Enhanced WhatsApp Coexistence with media file synchronization support.
+- Added "Ringing" status to precisely distinguish from active calls.
+- Optimized round-robin logic for fairer incoming call distribution.
+- Integrated SeaPay API for accurate and automated subscription checks.
+- Refined call campaign analytics by excluding test call data for better accuracy.
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed ringing synchronization between web and mobile apps.
+- Improved permission accuracy for member status and workspace management.
+
+### 1/15/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Optimized channel-side menu for a unified messaging view and a smoother navigation experience.
+- Added call analysis fields to broadcast campaigns for more detailed tracking.
+- Enhanced member management UI to provide clearer and more intuitive channel permission settings.
+- Introduced WhatsApp Coexistence sync to ensure message consistency with the WhatsApp Business App.
+- Refined header layout by removing the "Current Number" dropdown for a cleaner interface.
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed agent status update issues after ending calls to ensure accurate availability tracking.
+- Resolved conversation failures when initiating new chats via the Phone channel.
+- Corrected data formatting in broadcast campaign results to ensure accurate reporting.
+- Fixed Email notification triggers to ensure timely alerts for new messages.
+- Optimized contact creation to prevent data anomalies caused by duplicate phone numbers.
+- Refined call log attribution logic for more precise tracking in broadcast campaigns.
+
+
 ### 1/8/2026
 
 ##### **<font color="#739963">New Features & Improvements</font>**
