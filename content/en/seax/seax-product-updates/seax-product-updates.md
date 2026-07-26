@@ -17,6 +17,36 @@ weight: 1
 toc: true
 ---
 
+### 3/20/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- Revamped conversation layout with a side panel for intuitive contact management
+- Unified branding to Seasalt.ai across all platforms and email references
+- Upgraded to SeaPay to unify plans with a new credits-based mechanism
+- Added one-click copy for channel names and IDs from the side menu
+- Enhanced usage tracking for more precise voice and AI campaign data
+- Implemented SMS load control to ensure delivery stability
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+- Resolved WhatsApp CSV conflicts for a smoother contact import process
+- Fixed Zoho sync delays to ensure real-time contact updates
+- Corrected billing logs to ensure sessions are accurately recorded
+
+### 3/12/2026
+
+##### **<font color="#739963">New Features & Improvements</font>**
+
+- SMS/MMS and bulk message events now sync to SeaPay for usage monitoring
+- Improved detection of whether users are on their own Twilio account
+- Optimized outbound API response time and Twilio connection timeout
+- Mobile app supports Instagram and Messenger channel binding
+- Zoho CRM integration supports bulk contact import on initial setup
+
+##### **<font color="#d66a60">Bug Fixes</font>**
+
+- Fixed call recording link format for correct playback
+- Login emails are now auto-converted to lowercase to prevent case-sensitive login failures
 
 ### 3/5/2026
 
