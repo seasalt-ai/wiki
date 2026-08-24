@@ -1,6 +1,6 @@
-# SeaChat Documentation (Summary)
+# SeaChat Documentation (Merged Summary)
 
-*Condensed from combined_wiki_md_files/seachat_en.md (66 source articles) — see that file for full detail/screenshots.*
+*Merged and condensed from all language versions — combined_wiki_md_files/seachat_en.md, seachat_zh.md, seachat_zh-TW.md. The English source is the most complete (Chinese versions are translations of the same or a smaller/older subset); see the originals for full detail/screenshots.*
 
 ## What is SeaChat?
 
@@ -42,7 +42,7 @@ Conversations dashboard: full history, audio download, exportable agent conversa
 - **Facebook Messenger** — current method via **Embedded Signup** (2-step connect) or legacy/deprecated manual Meta-app + webhook setup; button limits apply
 - **Calls (Voice Agent)** — purchase a toll-free number in-app, configure inbound/outbound voice agent (SeaVoice or experimental SeaVoice-2 model), enable live-agent handoff, test with real calls
 - **Instagram** — current OAuth-based 2-step connect (requires Instagram Business/Creator account) or legacy manual Meta-app setup
-- **Webpage** widget — Basic/Chat Settings, Card Settings, Custom Forms (pre-chat info collection, CSAT survey form)
+- **Webpage** widget — Basic/Chat Settings, Card Settings, appearance/name/language settings, Custom Forms (pre-chat info collection, CSAT survey form)
 
 ## Other Platform Integrations
 
@@ -65,6 +65,7 @@ Google Calendar (appointment booking via chat/voice), Shopify, Squarespace, Wix,
 - **Auto Labeling** and **Label Automation**: auto-tag conversations and trigger actions based on applied labels
 - **Inline.app Assistant**: restaurant order/reservation management integration
 - Agent understands **uploaded image and audio messages** from users (e.g. a webinar invite screenshot) without the user retyping content
+- **Build Email Lists with MailerLite** and **Book Appointments Instantly with Google Forms & Voice Agent**: dedicated tutorials for form-to-email-list and form-to-instant-call automations
 
 ## Pricing (see source for current details)
 
@@ -79,7 +80,8 @@ Google Calendar (appointment booking via chat/voice), Shopify, Squarespace, Wix,
 - **Prompt Examples**, **SeaChat API** (RESTful, for workflow automation), **Call-forwarding setup guides** for major US/TW/SG carriers (AT&T, T-Mobile, Verizon, Comcast/Xfinity, RingCentral, Vonage, Google Voice, Chunghwa Telecom, Taiwan Mobile, Singtel) to route inbound calls to a SeaChat voice agent
 - **FAQ highlights**: login is passwordless (email login-code only, no password reset); LINE button truncation is fixed via KB IDs; to attract more chat engagement, use a GIF widget icon and a delayed popup bubble (Channels→Webchat→Bubble)
 
-## Release Notes Highlights (recent; full changelog in source file)
+## Release Notes Highlights (recent; full changelog in source files)
 
-- 2025/12/10: idle-wait auto-hangup setting for Twilio calls; voicemail-detection examples for the voice agent
-- Ongoing 2025: steady cadence of channel (WhatsApp/Instagram/Messenger), CRM (Zoho/Zendesk), analytics, and voice-agent improvements — see the source file for the full weekly changelog (2024–2025).
+- 2025/12/10: idle-wait auto-hangup for Twilio calls; voicemail-detection examples for the voice agent
+- 2025/08: emoji reactions on Meta-channel messages; Analytics CSAT block added; new Japanese/Indonesian voices
+- Ongoing: steady channel, CRM (Zoho/Zendesk), analytics, and voice-agent updates — full weekly changelog (2024–2025) in the source files.

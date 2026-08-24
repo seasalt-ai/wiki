@@ -1,6 +1,6 @@
-# Seavoice Documentation (Summary)
+# Seavoice Documentation (Merged Summary)
 
-*Condensed from combined_wiki_md_files/seavoice_en.md — see that file for full detail.*
+*Merged and condensed from all language versions — combined_wiki_md_files/seavoice_en.md, seavoice_zh-TW.md. English is far more complete: Chinese only covers the STT decoder and TTS customization tutorials (both also present in English), and is missing the entire Discord bot section and the STT customization tutorial.*
 
 ## What is SeaVoice?
 
@@ -61,6 +61,6 @@ English, Mandarin (Taiwan), Spanish, Italian, Portuguese, German, Japanese, Kore
 
 ## Other Resources (see full doc for details)
 
-- **TTS Customization Panel tutorial** — web UI for fine-grained control of pronunciation, formatting, pacing, and emphasis, with walkthrough demo videos.
-- **STT Decoder** — GPU-accelerated decoder benchmarked against Microsoft Azure STT on Real Time Factor (RTFx) and Word Error Rate (WER), showing better speed and accuracy.
-- **STT Customization Panel tutorial** — web UI to tune the STT engine for domain-specific jargon and ambiguous pronunciations.
+- **TTS Customization Panel tutorial** (EN + ZH-TW) — web UI for fine-grained control of pronunciation, formatting, pacing, and emphasis, with walkthrough demo videos.
+- **STT Decoder** (EN + ZH-TW) — GPU-accelerated decoder benchmarked against Microsoft Azure STT on Real Time Factor (RTFx) and Word Error Rate (WER), showing better speed and accuracy.
+- **STT Customization Panel tutorial** (EN only) — web UI to tune the STT engine for domain-specific jargon and ambiguous pronunciations.

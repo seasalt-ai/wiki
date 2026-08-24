@@ -1,6 +1,6 @@
-# Seax Documentation (Summary)
+# Seax Documentation (Merged Summary)
 
-*Condensed from combined_wiki_md_files/seax_combined.md — the most up-to-date SeaX doc (release notes through 1/8/2026). See that file for full detail.*
+*Merged and condensed from all language versions — combined_wiki_md_files/seax_combined.md, seax_en.md, seax_zh-TW.md. seax_combined.md is the newest/most complete English source (release notes through 1/8/2026) and is a strict superset of seax_en.md; seax_zh-TW.md is a translation of the older seax_en.md content with no unique material of its own.*
 
 ## What is SeaX?
 
@@ -16,7 +16,7 @@ Three pillars per channel: bulk messaging/calling at scale, two-way conversation
 ## WhatsApp Integration (3 connection modes)
 
 1. **WhatsApp Business Platform (Meta Cloud API)** — connect via Workspace→Channels, requires Meta-approved templates (synced into SeaX), E.164 contacts, CSV bulk import; messaging rules: 24h free reply window after customer contact, or business-initiated via approved template (requires payment method on file); no contact limits
-2. **WhatsApp Coexistence (Beta, new)** — keeps the native WhatsApp Business App on your phone while adding Cloud API scale. Setup: Workspace→Channels→Add New Channel→WhatsApp Coexistence→login with Meta→choose "Connect a WhatsApp Business App"→enter existing number→scan QR from the WhatsApp app (Settings→Linked Devices)→confirm up to 6 months of 1-on-1 chat history sync (group chats excluded). "Tri-sync" across native app, SeaX web, and SeaX mobile app; unlimited agents (breaks the native app's 4-device cap); requires opening the phone app at least once every 14 days to keep the connection alive
+2. **WhatsApp Coexistence (Beta)** — keeps the native WhatsApp Business App on your phone while adding Cloud API scale. Setup: Workspace→Channels→Add New Channel→WhatsApp Coexistence→login with Meta→choose "Connect a WhatsApp Business App"→enter existing number→scan QR from the WhatsApp app (Settings→Linked Devices)→confirm up to 6 months of 1-on-1 chat history sync (group chats excluded). "Tri-sync" across native app, SeaX web, and SeaX mobile app; unlimited agents (breaks the native app's 4-device cap); requires opening the phone app at least once every 14 days to keep the connection alive
 3. **WhatsApp Business App (Deprecated)** — QR-linked, up to unlimited accounts connected to SeaX despite the app's own 4-device limit
 
 ## SeaX Bulk Send with SeaChat (AI agents)
@@ -48,7 +48,7 @@ Available for **LINE, WhatsApp, Instagram, Messenger** (contact support for othe
 
 Omni-channel agent interface (Facebook, SMS, Google Business Messages/Maps, WhatsApp, LINE). Basics: warm/cold transfer, supervisor monitor & barge-in, custom hours/holiday messages, voicemail with assignment. Advanced: SeaX Virtual Agent (FAQ bot with live-agent escalation), AI Knowledge Base, AI-Powered Agent Coach, Case Management, Auto Dialers (Message Drop / Progressive), SeaMeet Copilot analytics. CRM/other integrations: HubSpot, Salesforce (click-to-dial, auto case creation, CSAT), Discord.
 
-## Release Notes Highlights (recent; full changelog in source file)
+## Release Notes Highlights (recent; full changelog in source files)
 
 - 2026/01/08: unified "All Conversations" view + channel sidebar tabs; call records now include outcomes; auto-fill agent names on outbound logs
 - 2025/12/29–12/18: Zoho integration polish, CSAT metrics on analytics page, CSAT scheduling, channel-group settings, mobile push-credential sync
@@ -56,4 +56,4 @@ Omni-channel agent interface (Facebook, SMS, Google Business Messages/Maps, What
 - 2025/11/21: read receipts for LINE/WhatsApp, multi-channel contact avatars
 - 2025/08–10: WhatsApp Coexistence beta, various dialpad/CSAT/Zoho refinements
 
-*Full weekly changelog (2024–2026) preserved in the original seax_combined.md.*
+*Full weekly changelog (2024–2026) preserved in the source files.*

@@ -1,6 +1,6 @@
-# Seameet Documentation (Summary)
+# Seameet Documentation (Merged Summary)
 
-*Condensed from combined_wiki_md_files/seameet_en.md — see that file for full detail (incl. screenshots).*
+*Merged and condensed from all language versions — combined_wiki_md_files/seameet_en.md, seameet_zh.md, seameet_zh-TW.md. English and Chinese (zh) cover the same feature set at the same recency; zh-TW is an older snapshot missing some newer features. English also contains ~680 lines of internal drip-campaign marketing material (not product docs), omitted here.*
 
 ## What is SeaMeet?
 
@@ -75,11 +75,7 @@ English (US/Singapore), Spanish (Spain/LatAm), French, German, Polish, Danish, M
 - **Browser extension**: Chrome/Edge/Arc/Brave, integrates with Google Meet, Calendar, Docs, and Outlook Calendar
 - Feedback: "Feedback" tab in the sidebar, email seameet@seasalt.ai, 24–48h response time
 
-## Internal Marketing Content (in source file, not user docs)
-
-The source file also includes ~680 lines of internal drip-campaign / onboarding email-sequence planning material (multiple draft 12–42 day email sequences, segmentation, KPIs) — this is marketing collateral, not product documentation, and is omitted here. See the original file if needed.
-
-## Release Notes Highlights (recent; full changelog in source file)
+## Release Notes Highlights (recent; full changelog in source files)
 
 - 2025/10/16: live transcript speaker indicators + multilingual display, custom speaker names
 - 2025/10/09: auto-share email support for Microsoft Teams calendar meetings
@@ -89,4 +85,4 @@ The source file also includes ~680 lines of internal drip-campaign / onboarding 
 - 2025/02/20: launched Summary Templates
 - 2024: audio upload, speaker replacement, auto-join, multi-browser support, paid plans launched
 
-*Full weekly changelog (2024–2025) preserved in the original seameet_en.md.*
+*Full weekly changelog (2024–2025) preserved in the source files.*
